@@ -62,6 +62,31 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
         </svg>
+      ),
+      spine: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m-9 0h10m-10 0a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2" />
+        </svg>
+      ),
+      uterus: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+        </svg>
+      ),
+      plastic: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
+        </svg>
+      ),
+      stomach: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+        </svg>
+      ),
+      kidney: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+        </svg>
       )
     };
     
@@ -69,14 +94,14 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
   };
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
             {specialties.title}
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Comprehensive medical specialties offered by our partner hospitals worldwide
+          <p className="text-base text-gray-600 max-w-2xl mx-auto">
+            We cover all medical needs, from hair transplants to heart transplants.
           </p>
         </div>
 
@@ -85,52 +110,43 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
             <Link
               key={specialty.name}
               href={specialty.url}
-              className="group bg-gray-50 rounded-xl p-6 hover:bg-white hover:shadow-lg transition-all duration-300 border border-transparent hover:border-blue-200"
+              className="group bg-white rounded-lg p-6 hover:bg-blue-50 transition-all duration-200 border border-gray-200 hover:border-blue-300 shadow-sm hover:shadow-md relative"
             >
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-200 transition-colors duration-200">
-                    <div className="text-blue-600 group-hover:text-blue-700">
-                      {getIcon(specialty.icon)}
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="flex-1 min-w-0">
-                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-200 mb-2">
-                    {specialty.name}
-                  </h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">
-                    {specialty.description}
-                  </p>
-                  
-                  <div className="mt-4 flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700">
-                    Learn More
-                    <svg className="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </div>
+              <div className="absolute top-4 right-4">
+                <div className="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center">
+                  <span className="text-white text-xs font-bold">+</span>
                 </div>
               </div>
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors duration-200">
+                <div className="text-blue-600 group-hover:text-blue-700">
+                  {getIcon(specialty.icon)}
+                </div>
+              </div>
+              <h3 className="text-base font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-200 mb-2">
+                {specialty.name}
+              </h3>
+              <p className="text-sm text-gray-600">
+                {specialty.description}
+              </p>
             </Link>
           ))}
         </div>
 
         {/* Call to Action */}
-        <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 md:p-12 text-white">
-            <h3 className="text-2xl md:text-3xl font-bold mb-4">
+        <div className="mt-8 text-center">
+          <div className="bg-blue-600 rounded-lg p-6 text-white">
+            <h3 className="text-xl font-bold mb-3">
               Need a Specific Treatment?
             </h3>
-            <p className="text-lg mb-6 opacity-90">
+            <p className="text-sm mb-4 opacity-90">
               Our medical coordinators can help you find the best doctors and hospitals for your specific medical needs.
             </p>
             <Link
               href="/get-quote"
-              className="inline-flex items-center px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-200 shadow-lg"
+              className="inline-flex items-center px-6 py-2 bg-white text-blue-600 font-semibold rounded-md hover:bg-gray-100 transition-colors duration-200 shadow-md text-sm"
             >
               Get Free Consultation
-              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>

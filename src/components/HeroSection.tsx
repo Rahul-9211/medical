@@ -25,24 +25,24 @@ export default function HeroSection({ heroSection, stats }: HeroSectionProps) {
   };
 
   return (
-    <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+    <section className="bg-white py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
-          <div className="space-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+          {/* Left Content - Hero Text */}
+          <div className="space-y-6">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                 {heroSection.title}
               </h1>
-              <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
+              <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
                 {heroSection.subtitle}
               </p>
             </div>
 
             {/* Statistics */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <div className="text-3xl font-bold text-blue-600 mb-2">
+            <div className="flex space-x-8">
+              <div className="text-center">
+                <div className="text-2xl md:text-3xl font-bold text-blue-600 mb-1">
                   {stats.patientsAssisted}
                 </div>
                 <div className="text-gray-600 text-sm">
@@ -50,9 +50,9 @@ export default function HeroSection({ heroSection, stats }: HeroSectionProps) {
                 </div>
               </div>
               
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <div className="flex items-center mb-2">
-                  <div className="text-3xl font-bold text-blue-600 mr-2">
+              <div className="text-center">
+                <div className="flex items-center justify-center mb-1">
+                  <div className="text-2xl md:text-3xl font-bold text-blue-600 mr-2">
                     {stats.googleRating}
                   </div>
                   <div className="flex">
@@ -65,61 +65,40 @@ export default function HeroSection({ heroSection, stats }: HeroSectionProps) {
               </div>
             </div>
 
-            {/* CTA Button */}
-            <div className="pt-4">
-              <Link
-                href={heroSection.ctaUrl}
-                className="inline-flex items-center px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-              >
-                {heroSection.ctaButton}
-                <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            {/* Trust Indicators */}
+            <div className="flex flex-wrap gap-4 pt-4">
+              <div className="flex items-center text-sm text-gray-600">
+                <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-              </Link>
+                <span>NABH Accredited</span>
+              </div>
+              <div className="flex items-center text-sm text-gray-600">
+                <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span>24/7 Support</span>
+              </div>
+              <div className="flex items-center text-sm text-gray-600">
+                <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span>Free Consultation</span>
+              </div>
             </div>
           </div>
 
-          {/* Right Content - Medical Image */}
-          <div className="relative">
-            <div className="bg-white rounded-2xl shadow-2xl p-8">
-              <div className="text-center space-y-6">
-                <div className="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center mx-auto">
-                  <svg className="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900">
-                  World-Class Healthcare
-                </h3>
-                <p className="text-gray-600">
-                  Access to the best hospitals, doctors, and medical facilities worldwide with personalized care and support.
-                </p>
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                  <div className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    <span>24/7 Support</span>
-                  </div>
-                  <div className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    <span>Best Doctors</span>
-                  </div>
-                  <div className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    <span>Affordable Cost</span>
-                  </div>
-                  <div className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    <span>Quality Care</span>
-                  </div>
-                </div>
+          {/* Right Content - Form Placeholder */}
+          <div className="bg-gray-50 rounded-lg p-6 lg:p-8">
+            <div className="text-center">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                Get Your Free Quote
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Fill the form to get personalized treatment quotes
+              </p>
+              <div className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium">
+                Form will be integrated here
               </div>
             </div>
           </div>

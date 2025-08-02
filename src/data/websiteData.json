@@ -214,61 +214,79 @@
     ]
   },
   "specialties": {
-    "title": "Medical Specialties",
+    "title": "Multi-Specialty Focus",
     "list": [
       {
-        "name": "Cardiology & Heart Surgery",
-        "icon": "heart",
-        "url": "/medical-treatments/cardiology-heart-surgery",
-        "description": "Advanced cardiac care and heart surgery"
-      },
-      {
-        "name": "Orthopedics & Joint Replacement",
-        "icon": "bone",
-        "url": "/medical-treatments/orthopedics-joint-replacement",
-        "description": "Joint replacement and orthopedic surgery"
-      },
-      {
-        "name": "Neurosurgery & Spine Treatment",
-        "icon": "brain",
-        "url": "/medical-treatments/neurosurgery-spine-treatment",
-        "description": "Brain and spine surgery treatment"
-      },
-      {
-        "name": "Oncology (Cancer Treatment)",
+        "name": "Oncology",
         "icon": "cancer",
-        "url": "/medical-treatments/oncology-cancer-treatment",
-        "description": "Comprehensive cancer treatment and care"
+        "url": "/medical-treatments/oncology",
+        "description": "Advanced cancer treatments with proven results."
       },
       {
-        "name": "IVF & Fertility Treatment",
+        "name": "Neurosurgery",
+        "icon": "brain",
+        "url": "/medical-treatments/neurosurgery",
+        "description": "The specialty of neurosurgical care includes both adult and pediatric patients."
+      },
+      {
+        "name": "Spine Surgery",
+        "icon": "spine",
+        "url": "/medical-treatments/spine-surgery",
+        "description": "Precision spine surgeries for better mobility."
+      },
+      {
+        "name": "Cardiology",
+        "icon": "heart",
+        "url": "/medical-treatments/cardiology",
+        "description": "World-class heart care for adults and children."
+      },
+      {
+        "name": "Orthopedics",
+        "icon": "bone",
+        "url": "/medical-treatments/orthopedics",
+        "description": "Expert joint replacements and bone deformities solutions."
+      },
+      {
+        "name": "IVF",
         "icon": "baby",
-        "url": "/medical-treatments/ivf-fertility-treatment",
-        "description": "Fertility treatment and IVF procedures"
+        "url": "/medical-treatments/ivf",
+        "description": "Leading fertility treatments with high success."
       },
       {
-        "name": "Liver & Kidney Transplant",
+        "name": "Gynecology",
+        "icon": "uterus",
+        "url": "/medical-treatments/gynecology",
+        "description": "Specialized women's health services."
+      },
+      {
+        "name": "Cosmetic",
+        "icon": "plastic",
+        "url": "/medical-treatments/cosmetic",
+        "description": "Aesthetic procedures for a new you."
+      },
+      {
+        "name": "Weight Loss",
+        "icon": "stomach",
+        "url": "/medical-treatments/weight-loss",
+        "description": "Effective bariatric surgery options."
+      },
+      {
+        "name": "Liver Transplant",
         "icon": "organ",
-        "url": "/medical-treatments/liver-kidney-transplant",
-        "description": "Organ transplant procedures"
+        "url": "/medical-treatments/liver-transplant",
+        "description": "Liver transplant procedures of varying complexity."
       },
       {
-        "name": "Plastic & Reconstructive Surgery",
-        "icon": "beauty",
-        "url": "/medical-treatments/plastic-reconstructive-surgery",
-        "description": "Plastic and reconstructive surgery"
+        "name": "Kidney Transplant",
+        "icon": "kidney",
+        "url": "/medical-treatments/kidney-transplant",
+        "description": "Expert renal care and transplants."
       },
       {
-        "name": "Dental Care & Oral Surgery",
-        "icon": "dental",
-        "url": "/medical-treatments/dental-care-oral-surgery",
-        "description": "Dental care and oral surgery"
-      },
-      {
-        "name": "Eye & Vision Treatment",
-        "icon": "eye",
-        "url": "/medical-treatments/eye-vision-treatment",
-        "description": "Eye care and vision treatment"
+        "name": "Bone Marrow",
+        "icon": "bone",
+        "url": "/medical-treatments/bone-marrow",
+        "description": "Bone marrow transplant options for matched and unmatched donors."
       }
     ]
   },
