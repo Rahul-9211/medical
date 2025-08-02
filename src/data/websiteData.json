@@ -1,0 +1,354 @@
+{
+  "siteInfo": {
+    "name": "MediCare Global",
+    "tagline": "Medical Treatment With Unmatched Personal Care",
+    "subtitle": "World's Most Trusted Medical Travel Assistance Platform",
+    "logo": "/logo.svg",
+    "favicon": "/favicon.ico"
+  },
+  "stats": {
+    "patientsAssisted": "1,00,000+",
+    "patientsAssistedText": "Patients Assisted Since 2016",
+    "googleRating": "4.7",
+    "ratingStars": 5
+  },
+  "navigation": {
+    "mainMenu": [
+      {
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "name": "About Us",
+        "url": "/about-us"
+      },
+      {
+        "name": "Medical Treatments",
+        "url": "/medical-treatments",
+        "submenu": [
+          { "name": "Cardiology & Heart Surgery", "url": "/medical-treatments/cardiology-heart-surgery" },
+          { "name": "Orthopedics & Joint Replacement", "url": "/medical-treatments/orthopedics-joint-replacement" },
+          { "name": "Neurosurgery & Spine Treatment", "url": "/medical-treatments/neurosurgery-spine-treatment" },
+          { "name": "Oncology (Cancer Treatment)", "url": "/medical-treatments/oncology-cancer-treatment" },
+          { "name": "IVF & Fertility Treatment", "url": "/medical-treatments/ivf-fertility-treatment" },
+          { "name": "Liver & Kidney Transplant", "url": "/medical-treatments/liver-kidney-transplant" },
+          { "name": "General & Laparoscopic Surgery", "url": "/medical-treatments/general-laparoscopic-surgery" },
+          { "name": "Gastroenterology & Bariatric Surgery", "url": "/medical-treatments/gastroenterology-bariatric-surgery" },
+          { "name": "Urology & Prostate Care", "url": "/medical-treatments/urology-prostate-care" },
+          { "name": "ENT (Ear, Nose, Throat)", "url": "/medical-treatments/ent-ear-nose-throat" },
+          { "name": "Plastic & Reconstructive Surgery", "url": "/medical-treatments/plastic-reconstructive-surgery" },
+          { "name": "Dental Care & Oral Surgery", "url": "/medical-treatments/dental-care-oral-surgery" },
+          { "name": "Eye & Vision Treatment", "url": "/medical-treatments/eye-vision-treatment" },
+          { "name": "Pulmonology & Respiratory Care", "url": "/medical-treatments/pulmonology-respiratory-care" },
+          { "name": "Dermatology & Skin Treatment", "url": "/medical-treatments/dermatology-skin-treatment" },
+          { "name": "Pediatrics & Neonatal Care", "url": "/medical-treatments/pediatrics-neonatal-care" },
+          { "name": "Rheumatology & Autoimmune Disorders", "url": "/medical-treatments/rheumatology-autoimmune-disorders" },
+          { "name": "Endocrinology (Diabetes, Thyroid)", "url": "/medical-treatments/endocrinology-diabetes-thyroid" },
+          { "name": "Psychiatry & Mental Health", "url": "/medical-treatments/psychiatry-mental-health" },
+          { "name": "Haematology", "url": "/medical-treatments/haematology" }
+        ]
+      },
+      {
+        "name": "Ayurveda & Wellness",
+        "url": "/ayurveda-wellness",
+        "submenu": [
+          { "name": "Online Ayurvedic Consultations", "url": "/ayurveda-wellness/online-consultations" },
+          { "name": "Panchakarma Detox Therapy", "url": "/ayurveda-wellness/panchakarma-detox-therapy" },
+          { "name": "Weight Loss", "url": "/ayurveda-wellness/weight-loss" },
+          { "name": "Diet & Lifestyle Coaching", "url": "/ayurveda-wellness/diet-lifestyle-coaching" },
+          { "name": "Post-Cancer & Post-Surgery Recovery", "url": "/ayurveda-wellness/post-cancer-surgery-recovery" },
+          { "name": "Skin & Hair Rejuvenation", "url": "/ayurveda-wellness/skin-hair-rejuvenation" },
+          { "name": "PCOD & Infertility Treatments", "url": "/ayurveda-wellness/pcod-infertility-treatments" },
+          { "name": "Pregnancy Programmes & Support", "url": "/ayurveda-wellness/pregnancy-programmes-support" },
+          { "name": "Wellness Retreat in India", "url": "/ayurveda-wellness/wellness-retreat-india" }
+        ]
+      },
+      {
+        "name": "Hospitals",
+        "url": "/hospitals",
+        "submenu": [
+          {
+            "country": "India",
+            "url": "/hospitals/india",
+            "specialties": ["Cardiology", "Cosmetic", "Gynecology", "Hematology", "IVF and Infertility", "Neurosurgery", "Oncology", "Orthopedics", "Spine Surgery"]
+          },
+          {
+            "country": "Turkey",
+            "url": "/hospitals/turkey",
+            "specialties": ["Cardiology", "Cosmetic", "Gynecology", "IVF and Infertility", "Neurosurgery", "Oncology", "Orthopedics", "Spine Surgery"]
+          },
+          {
+            "country": "Thailand",
+            "url": "/hospitals/thailand",
+            "specialties": ["Cardiology", "Cosmetic", "Gynecology", "IVF and Infertility", "Neurosurgery", "Oncology", "Orthopedics", "Spine Surgery"]
+          },
+          {
+            "country": "UAE",
+            "url": "/hospitals/uae",
+            "specialties": ["Cardiology", "Gynecology", "Hematology", "IVF and Infertility", "Neurosurgery", "Oncology", "Orthopedics", "Pediatrics and Pediatric Surgery", "Spine Surgery"]
+          },
+          {
+            "country": "Germany",
+            "url": "/hospitals/germany",
+            "specialties": ["Neurosurgery", "Oncology"]
+          }
+        ]
+      },
+      {
+        "name": "Services",
+        "url": "/services",
+        "submenu": [
+          { "name": "Medical Visa & Travel", "url": "/services/medical-visa-travel" },
+          { "name": "Patient Care & Medical Coordination", "url": "/services/patient-care-medical-coordination" },
+          { "name": "Accommodation & Ground Support", "url": "/services/accommodation-ground-support" }
+        ]
+      },
+      {
+        "name": "Blog",
+        "url": "/blog"
+      },
+      {
+        "name": "Contact Us",
+        "url": "/contact-us",
+        "isCTA": true
+      }
+    ],
+    "languages": ["English", "French", "Arabic", "Russian", "Bengali", "Hindi", "Romanian", "Spanish", "Portuguese"]
+  },
+  "heroSection": {
+    "title": "Medical Treatment With Unmatched Personal Care",
+    "subtitle": "World's Most Trusted Medical Travel Assistance Platform",
+    "ctaButton": "Get a FREE quote",
+    "ctaUrl": "/get-quote"
+  },
+  "quoteForm": {
+    "title": "Let Us Help You",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name*",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "country",
+        "label": "Country*",
+        "type": "select",
+        "required": true,
+        "options": "countries"
+      },
+      {
+        "name": "city",
+        "label": "City*",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number*",
+        "type": "tel",
+        "required": true
+      },
+      {
+        "name": "medicalIssue",
+        "label": "Medical Issue*",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "name": "age",
+        "label": "Patient's Age or Date Of Birth*",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "emiratesId",
+        "label": "Emirates ID",
+        "type": "text",
+        "required": false
+      }
+    ],
+    "submitButton": "Get FREE Quote",
+    "termsText": "By submitting the form I agree to the Terms of Use and Privacy Policy of MediCare Global."
+  },
+  "destinations": {
+    "title": "Top Medical Destinations",
+    "subtitle": "Our network spans the top medical tourism hubs worldwide - giving you the choice of cities, doctors and price.",
+    "countries": [
+      {
+        "name": "India",
+        "flag": "/flags/india.svg",
+        "url": "/destinations/india",
+        "description": "World-class healthcare at affordable prices"
+      },
+      {
+        "name": "Turkey",
+        "flag": "/flags/turkey.svg",
+        "url": "/destinations/turkey",
+        "description": "Advanced medical technology and expertise"
+      },
+      {
+        "name": "Thailand",
+        "flag": "/flags/thailand.svg",
+        "url": "/destinations/thailand",
+        "description": "Excellence in medical tourism"
+      },
+      {
+        "name": "UAE",
+        "flag": "/flags/uae.svg",
+        "url": "/destinations/uae",
+        "description": "Luxury healthcare experience"
+      },
+      {
+        "name": "Egypt",
+        "flag": "/flags/egypt.svg",
+        "url": "/destinations/egypt",
+        "description": "Ancient wisdom meets modern medicine"
+      },
+      {
+        "name": "Germany",
+        "flag": "/flags/germany.svg",
+        "url": "/destinations/germany",
+        "description": "Precision and innovation in healthcare"
+      }
+    ]
+  },
+  "specialties": {
+    "title": "Medical Specialties",
+    "list": [
+      {
+        "name": "Cardiology & Heart Surgery",
+        "icon": "heart",
+        "url": "/medical-treatments/cardiology-heart-surgery",
+        "description": "Advanced cardiac care and heart surgery"
+      },
+      {
+        "name": "Orthopedics & Joint Replacement",
+        "icon": "bone",
+        "url": "/medical-treatments/orthopedics-joint-replacement",
+        "description": "Joint replacement and orthopedic surgery"
+      },
+      {
+        "name": "Neurosurgery & Spine Treatment",
+        "icon": "brain",
+        "url": "/medical-treatments/neurosurgery-spine-treatment",
+        "description": "Brain and spine surgery treatment"
+      },
+      {
+        "name": "Oncology (Cancer Treatment)",
+        "icon": "cancer",
+        "url": "/medical-treatments/oncology-cancer-treatment",
+        "description": "Comprehensive cancer treatment and care"
+      },
+      {
+        "name": "IVF & Fertility Treatment",
+        "icon": "baby",
+        "url": "/medical-treatments/ivf-fertility-treatment",
+        "description": "Fertility treatment and IVF procedures"
+      },
+      {
+        "name": "Liver & Kidney Transplant",
+        "icon": "organ",
+        "url": "/medical-treatments/liver-kidney-transplant",
+        "description": "Organ transplant procedures"
+      },
+      {
+        "name": "Plastic & Reconstructive Surgery",
+        "icon": "beauty",
+        "url": "/medical-treatments/plastic-reconstructive-surgery",
+        "description": "Plastic and reconstructive surgery"
+      },
+      {
+        "name": "Dental Care & Oral Surgery",
+        "icon": "dental",
+        "url": "/medical-treatments/dental-care-oral-surgery",
+        "description": "Dental care and oral surgery"
+      },
+      {
+        "name": "Eye & Vision Treatment",
+        "icon": "eye",
+        "url": "/medical-treatments/eye-vision-treatment",
+        "description": "Eye care and vision treatment"
+      }
+    ]
+  },
+  "footer": {
+    "companyInfo": {
+      "name": "MediCare Global",
+      "description": "Your trusted partner in medical tourism"
+    },
+    "links": {
+      "For Hospital": [
+        { "name": "Our Services", "url": "/hospital/services" },
+        { "name": "OPD Camps", "url": "/hospital/opd-camps" }
+      ],
+      "For Doctors": [
+        { "name": "Our Services", "url": "/doctors/services" }
+      ],
+      "For Partners": [
+        { "name": "Refer to Us", "url": "/partners/refer" }
+      ],
+      "Policy": [
+        { "name": "Privacy Policy", "url": "/policy/privacy" },
+        { "name": "Editorial Policy", "url": "/policy/editorial" },
+        { "name": "Terms of Use", "url": "/policy/terms" }
+      ],
+      "Medical Destinations": [
+        { "name": "India", "url": "/destinations/india" },
+        { "name": "Turkey", "url": "/destinations/turkey" },
+        { "name": "Thailand", "url": "/destinations/thailand" }
+      ]
+    },
+    "offices": [
+      {
+        "country": "India",
+        "address": "MediCare Global Pvt Ltd, 98, 2nd Floor Sector 44, Gurgaon, National Capital Region, Haryana, INDIA, PIN 122001"
+      },
+      {
+        "country": "UAE",
+        "address": "MediCare Global FZC LLC, Business Center, P.O.Box 85570, Sharjah, United Arab Emirates"
+      },
+      {
+        "country": "USA",
+        "address": "MediCare Global USA LLC, 8 The Green, Suite B, Dover, Delaware, 19901"
+      }
+    ],
+    "contact": {
+      "email": "info@medicareglobal.com",
+      "phone": "+91-9971616131"
+    },
+    "socialMedia": [
+      { "name": "YouTube", "url": "https://youtube.com/medicareglobal", "icon": "youtube" },
+      { "name": "LinkedIn", "url": "https://linkedin.com/company/medicareglobal", "icon": "linkedin" },
+      { "name": "Facebook", "url": "https://facebook.com/medicareglobal", "icon": "facebook" },
+      { "name": "Instagram", "url": "https://instagram.com/medicareglobal", "icon": "instagram" }
+    ],
+    "disclaimer": "Note: MediCare Global does not provide medical advice, diagnosis or treatment. The services and information offered on www.medicareglobal.com are intended solely for informational purposes and cannot replace the professional consultation or treatment by a physician."
+  },
+  "countries": [
+    "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan",
+    "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi",
+    "Cambodia", "Cameroon", "Canada", "Cape Verde", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czech Republic",
+    "Denmark", "Djibouti", "Dominica", "Dominican Republic",
+    "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia",
+    "Fiji", "Finland", "France",
+    "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana",
+    "Haiti", "Honduras", "Hungary",
+    "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", "Italy", "Ivory Coast",
+    "Jamaica", "Japan", "Jordan",
+    "Kazakhstan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan",
+    "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg",
+    "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Mauritania", "Mauritius", "Mexico", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar",
+    "Namibia", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Norway",
+    "Oman",
+    "Pakistan", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal",
+    "Qatar",
+    "Romania", "Russia", "Rwanda",
+    "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria",
+    "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Timor-Leste", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu",
+    "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "Uruguay", "Uzbekistan",
+    "Vanuatu", "Vatican", "Venezuela", "Vietnam",
+    "Yemen",
+    "Zambia", "Zimbabwe"
+  ]
+} 
