@@ -48,6 +48,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
     };
   }, [isMenuOpen]);
 
+  
   const toggleDropdown = (menuName: string) => {
     setActiveDropdown(activeDropdown === menuName ? null : menuName);
   };
