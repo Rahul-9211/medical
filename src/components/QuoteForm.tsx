@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 interface FormField {
   name: string;
@@ -23,6 +23,23 @@ interface QuoteFormProps {
 export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
   const [formData, setFormData] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
+  const [countrySearch, setCountrySearch] = useState('');
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsCountryDropdownOpen(false);
+        setCountrySearch('');
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   const handleInputChange = (name: string, value: string) => {
     setFormData(prev => ({
@@ -46,52 +63,173 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
     alert('Thank you! We will contact you soon.');
   };
 
+  const filteredCountries = countries.filter(country =>
+    country.toLowerCase().includes(countrySearch.toLowerCase())
+  );
+
+  const getFieldIcon = (fieldName: string) => {
+    switch (fieldName.toLowerCase()) {
+      case 'name':
+        return (
+          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+          </svg>
+        );
+      case 'country':
+        return (
+          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        );
+      case 'city':
+        return (
+          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+          </svg>
+        );
+      case 'phone':
+        return (
+          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+        );
+      case 'medical issue':
+      case 'medicalissue':
+        return (
+          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          </svg>
+        );
+      default:
+        return (
+          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+          </svg>
+        );
+    }
+  };
+
   const renderField = (field: FormField) => {
-    const commonClasses = "w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200 text-sm";
+    const commonClasses = "w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-sm bg-white/50 backdrop-blur-sm";
     
     switch (field.type) {
       case 'select':
+        if (field.options === 'countries') {
+          return (
+            <div className="relative" ref={dropdownRef}>
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  {getFieldIcon(field.name)}
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIsCountryDropdownOpen(!isCountryDropdownOpen)}
+                  className={`w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-sm bg-white/50 backdrop-blur-sm text-left flex items-center justify-between ${
+                    formData[field.name] ? 'text-gray-900' : 'text-gray-500'
+                  }`}
+                >
+                  <span>{formData[field.name] || `Select ${field.label.replace('*', '')}`}</span>
+                  <svg className={`w-4 h-4 transition-transform duration-200 ${isCountryDropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+              </div>
+              
+              {isCountryDropdownOpen && (
+                <div className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-xl shadow-lg max-h-60 overflow-hidden">
+                  <div className="p-2 border-b border-gray-100">
+                    <input
+                      type="text"
+                      placeholder="Search countries..."
+                      value={countrySearch}
+                      onChange={(e) => setCountrySearch(e.target.value)}
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      autoFocus
+                    />
+                  </div>
+                  <div className="max-h-48 overflow-y-auto">
+                    {filteredCountries.length > 0 ? (
+                      filteredCountries.map(country => (
+                        <button
+                          key={country}
+                          type="button"
+                          onClick={() => {
+                            handleInputChange(field.name, country);
+                            setIsCountryDropdownOpen(false);
+                            setCountrySearch('');
+                          }}
+                          className="w-full px-4 py-2 text-sm text-left hover:bg-blue-50 transition-colors duration-150"
+                        >
+                          {country}
+                        </button>
+                      ))
+                    ) : (
+                      <div className="px-4 py-2 text-sm text-gray-500">
+                        No countries found
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+            </div>
+          );
+        }
         return (
-          <select
-            name={field.name}
-            value={formData[field.name] || ''}
-            onChange={(e) => handleInputChange(field.name, e.target.value)}
-            required={field.required}
-            className={commonClasses}
-          >
-            <option value="">Select {field.label.replace('*', '')}</option>
-            {field.options === 'countries' && countries.map(country => (
-              <option key={country} value={country}>
-                {country}
-              </option>
-            ))}
-          </select>
+          <div className="relative">
+            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              {getFieldIcon(field.name)}
+            </div>
+            <select
+              name={field.name}
+              value={formData[field.name] || ''}
+              onChange={(e) => handleInputChange(field.name, e.target.value)}
+              required={field.required}
+              className={commonClasses}
+            >
+              <option value="">Select {field.label.replace('*', '')}</option>
+              {field.options === 'countries' && countries.map(country => (
+                <option key={country} value={country}>
+                  {country}
+                </option>
+              ))}
+            </select>
+          </div>
         );
       
       case 'textarea':
         return (
-          <textarea
-            name={field.name}
-            value={formData[field.name] || ''}
-            onChange={(e) => handleInputChange(field.name, e.target.value)}
-            required={field.required}
-            rows={3}
-            className={commonClasses}
-            placeholder={`Enter ${field.label.toLowerCase().replace('*', '')}`}
-          />
+          <div className="relative">
+            <div className="absolute top-3 left-3 flex items-center pointer-events-none">
+              {getFieldIcon(field.name)}
+            </div>
+            <textarea
+              name={field.name}
+              value={formData[field.name] || ''}
+              onChange={(e) => handleInputChange(field.name, e.target.value)}
+              required={field.required}
+              rows={4}
+              className={commonClasses}
+              placeholder={`Describe your ${field.label.toLowerCase().replace('*', '')}`}
+            />
+          </div>
         );
       
       default:
         return (
-          <input
-            type={field.type}
-            name={field.name}
-            value={formData[field.name] || ''}
-            onChange={(e) => handleInputChange(field.name, e.target.value)}
-            required={field.required}
-            className={commonClasses}
-            placeholder={`Enter ${field.label.toLowerCase().replace('*', '')}`}
-          />
+          <div className="relative">
+            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              {getFieldIcon(field.name)}
+            </div>
+            <input
+              type={field.type}
+              name={field.name}
+              value={formData[field.name] || ''}
+              onChange={(e) => handleInputChange(field.name, e.target.value)}
+              required={field.required}
+              className={commonClasses}
+              placeholder={`Enter ${field.label.toLowerCase().replace('*', '')}`}
+            />
+          </div>
         );
     }
   };
@@ -99,30 +237,24 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
   return (
     <div>
       <div className="text-center mb-4">
-        <h2 className="text-xl font-bold text-gray-900 mb-1">
+        <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full mb-3 shadow-lg">
+          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+          </svg>
+        </div>
+        <h2 className="text-lg font-bold text-gray-900 mb-1">
           {quoteForm.title}
         </h2>
-        <p className="text-xs text-gray-600">
-          Get personalized medical treatment quotes from top hospitals worldwide
+        <p className="text-gray-600 text-xs">
+          Get personalized medical treatment quotes
         </p>
       </div>
 
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {quoteForm.fields.slice(0, 4).map((field) => (
-            <div key={field.name} className={field.name === 'medicalIssue' ? 'md:col-span-2' : ''}>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                {field.label}
-              </label>
-              {renderField(field)}
-            </div>
-          ))}
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {quoteForm.fields.slice(4).map((field) => (
+      <form onSubmit={handleSubmit} className="space-y-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {quoteForm.fields.slice(0, 3).map((field) => (
             <div key={field.name}>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-xs font-semibold text-gray-700 mb-1">
                 {field.label}
               </label>
               {renderField(field)}
@@ -130,64 +262,48 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
           ))}
         </div>
 
-        <div className="pt-4">
+        <div className="grid grid-cols-1 gap-3">
+          {quoteForm.fields.slice(3, 4).map((field) => (
+            <div key={field.name}>
+              <label className="block text-xs font-semibold text-gray-700 mb-1">
+                {field.label}
+              </label>
+              {renderField(field)}
+            </div>
+          ))}
+        </div>
+
+        <div className="pt-3">
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-blue-600 text-white py-3 px-4 rounded-md font-semibold text-sm hover:bg-blue-700 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-md hover:shadow-lg"
+            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2.5 px-6 rounded-xl font-semibold text-sm hover:from-blue-700 hover:to-purple-700 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
           >
             {isSubmitting ? (
               <div className="flex items-center justify-center">
-                <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <svg className="animate-spin -ml-1 mr-3 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                   <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                 </svg>
                 Processing...
               </div>
             ) : (
-              quoteForm.submitButton
+              <div className="flex items-center justify-center">
+                <span>{quoteForm.submitButton}</span>
+                <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </div>
             )}
           </button>
         </div>
 
         <div className="text-center">
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-gray-500 leading-relaxed">
             {quoteForm.termsText}
           </p>
         </div>
       </form>
-
-      {/* Trust Indicators */}
-      <div className="mt-4 pt-3 border-t border-gray-200">
-        <div className="grid grid-cols-3 gap-3 text-center">
-          <div className="flex flex-col items-center">
-            <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mb-2">
-              <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h4 className="text-xs font-semibold text-gray-900">Free</h4>
-          </div>
-          
-          <div className="flex flex-col items-center">
-            <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mb-2">
-              <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-              </svg>
-            </div>
-            <h4 className="text-xs font-semibold text-gray-900">Secure</h4>
-          </div>
-          
-          <div className="flex flex-col items-center">
-            <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mb-2">
-              <svg className="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-            </div>
-            <h4 className="text-xs font-semibold text-gray-900">24/7</h4>
-          </div>
-        </div>
-      </div>
     </div>
   );
 } 
