@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import { JSX } from 'react';
 interface Specialty {
   name: string;
   icon: string;

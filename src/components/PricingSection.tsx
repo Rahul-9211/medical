@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-
+import { JSX } from 'react';
 interface Treatment {
   name: string;
   icon: string;
