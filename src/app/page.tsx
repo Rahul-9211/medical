@@ -4,6 +4,12 @@ import HeroSection from '@/components/HeroSection';
 import QuoteForm from '@/components/QuoteForm';
 import DestinationsSection from '@/components/DestinationsSection';
 import SpecialtiesSection from '@/components/SpecialtiesSection';
+import HospitalsSection from '@/components/HospitalsSection';
+import PricingSection from '@/components/PricingSection';
+import HowItWorksSection from '@/components/HowItWorksSection';
+import ServicesSection from '@/components/ServicesSection';
+import TestimonialsSection from '@/components/TestimonialsSection';
+import CaseStudiesSection from '@/components/CaseStudiesSection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -119,9 +125,25 @@ export default function Home() {
         <DestinationsSection destinations={websiteData.destinations} />
         
         <SpecialtiesSection specialties={websiteData.specialties} />
+        
+        <HospitalsSection hospitals={websiteData.hospitals} />
+        
+        <PricingSection pricing={websiteData.pricing} />
+        
+        <HowItWorksSection howItWorks={websiteData.howItWorks} />
+        
+        <ServicesSection services={websiteData.services} />
+        
+        <TestimonialsSection testimonials={websiteData.testimonials} />
+        
+        <CaseStudiesSection 
+          caseStudies={websiteData.caseStudies} 
+          videoTestimonials={websiteData.videoTestimonials} 
+        />
       </main>
       
       <Footer footer={websiteData.footer} />
+
     </div>
   );
 }
