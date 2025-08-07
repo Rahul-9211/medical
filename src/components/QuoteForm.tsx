@@ -110,7 +110,7 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
   };
 
   const renderField = (field: FormField) => {
-    const commonClasses = "w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-sm bg-white/50 backdrop-blur-sm";
+    const commonClasses = "w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-0 focus:border-gray-200 transition-all duration-200 text-sm bg-white/50 backdrop-blur-sm";
     
     switch (field.type) {
       case 'select':
@@ -124,7 +124,7 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
                 <button
                   type="button"
                   onClick={() => setIsCountryDropdownOpen(!isCountryDropdownOpen)}
-                  className={`w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-sm bg-white/50 backdrop-blur-sm text-left flex items-center justify-between ${
+                  className={`w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-0 focus:border-gray-200 transition-all duration-200 text-sm bg-white/50 backdrop-blur-sm text-left flex items-center justify-between ${
                     formData[field.name] ? 'text-gray-900' : 'text-gray-500'
                   }`}
                 >
@@ -143,7 +143,7 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
                       placeholder="Search countries..."
                       value={countrySearch}
                       onChange={(e) => setCountrySearch(e.target.value)}
-                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-0 focus:border-gray-200"
                       autoFocus
                     />
                   </div>

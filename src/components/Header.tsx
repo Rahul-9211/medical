@@ -60,13 +60,13 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
   };
 
   return (
-    <header className="bg-white/90 backdrop-blur-sm shadow-lg sticky top-0 z-50">
+    <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-2">
+              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mr-2">
                 <span className="text-white font-bold text-sm">MG</span>
               </div>
               <span className="text-xl font-bold text-gray-900">{siteInfo.name}</span>
@@ -80,7 +80,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                 {item.isCTA ? (
                   <Link
                     href={item.url}
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:from-blue-700 hover:to-purple-700 transition-colors duration-200 ml-4"
+                    className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors duration-200 ml-4"
                   >
                     {item.name}
                   </Link>
@@ -99,10 +99,10 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                     
                     {/* Desktop Dropdown Menu */}
                     {item.submenu && (
-                      <div className="absolute left-0 mt-1 w-80 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 border border-gray-100">
+                      <div className="absolute left-0 mt-1 w-80 bg-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 border border-gray-100">
                         <div className="py-3">
                           {item.submenu.map((subItem: any, index: number) => (
-                            <div key={index} className="px-4 py-2 hover:bg-gradient-to-r hover:from-blue-50 hover:to-purple-50 transition-colors duration-150">
+                            <div key={index} className="px-4 py-2 hover:bg-blue-50 transition-colors duration-150">
                               <Link 
                                 href={subItem.url} 
                                 className="text-gray-700 hover:text-blue-600 block font-medium text-sm"
@@ -126,9 +126,9 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
             ))}
           </nav>
 
-          {/* Language Selector - DISABLED */}
+          {/* Language Selector */}
           {/* <div className="hidden md:flex items-center space-x-4">
-            <select className="text-sm border border-gray-200 rounded px-2 py-1 bg-white/80 backdrop-blur-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200">
+            <select className="text-sm border border-gray-300 rounded px-2 py-1 bg-white">
               {navigation.languages.map((lang) => (
                 <option key={lang} value={lang.toLowerCase()}>
                   {lang}
@@ -141,8 +141,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
           <div className="lg:hidden">
             <button
               onClick={toggleMenu}
-              className="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600 p-2 rounded-lg hover:bg-gray-100 transition-all duration-200"
-              aria-label="Toggle mobile menu"
+              className="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600 p-2"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isMenuOpen ? (
@@ -157,15 +156,15 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden fixed inset-0 top-16 bg-white/95 backdrop-blur-sm z-50">
+          <div className="lg:hidden fixed inset-0 top-16 bg-white z-40">
             <div className="h-full overflow-y-auto">
-              <div className="px-4 py-6 space-y-3">
+              <div className="px-4 py-4 space-y-2">
                 {navigation.mainMenu.map((item) => (
-                  <div key={item.name} className="border-b border-gray-100 pb-3">
+                  <div key={item.name} className="border-b border-gray-100 pb-2">
                     {item.isCTA ? (
                       <Link
                         href={item.url}
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 text-white block px-6 py-4 text-base font-medium rounded-xl text-center hover:from-blue-700 hover:to-purple-700 transition-all duration-200"
+                        className="bg-gradient-to-r from-blue-600 to-purple-600 text-white block px-4 py-3 text-base font-medium rounded-lg text-center"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {item.name}
@@ -175,7 +174,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                         <div className="flex items-center justify-between">
                           <Link
                             href={item.url}
-                            className="text-gray-700 hover:text-blue-600 block py-4 text-base font-medium flex-1"
+                            className="text-gray-700 hover:text-blue-600 block py-3 text-base font-medium flex-1"
                             onClick={() => !item.submenu && setIsMenuOpen(false)}
                           >
                             {item.name}
@@ -183,7 +182,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                           {item.submenu && (
                             <button
                               onClick={() => toggleMobileDropdown(item.name)}
-                              className="p-2 text-gray-500 hover:text-blue-600 transition-colors duration-200"
+                              className="p-2 text-gray-500 hover:text-blue-600"
                             >
                               <svg 
                                 className={`w-5 h-5 transition-transform duration-200 ${mobileDropdowns[item.name] ? 'rotate-180' : ''}`} 
@@ -192,19 +191,19 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                                 viewBox="0 0 24 24"
                               >
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                              </svg>
+                            </svg>
                             </button>
                           )}
                         </div>
                         
                         {/* Mobile Dropdown */}
                         {item.submenu && mobileDropdowns[item.name] && (
-                          <div className="ml-4 mt-3 space-y-2 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-4 border border-blue-100">
+                          <div className="ml-4 mt-2 space-y-1 bg-gray-50 rounded-lg p-3">
                             {item.submenu.map((subItem: any, index: number) => (
                               <Link
                                 key={index}
                                 href={subItem.url}
-                                className="text-gray-600 hover:text-blue-600 block py-3 px-4 text-sm rounded-lg hover:bg-white transition-all duration-200 font-medium"
+                                className="text-gray-600 hover:text-blue-600 block py-2 px-3 text-sm rounded-md hover:bg-white transition-colors duration-150"
                                 onClick={() => setIsMenuOpen(false)}
                               >
                                 {subItem.country || subItem.name}
@@ -216,21 +215,11 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                     )}
                   </div>
                 ))}
-                
-                {/* Close button for mobile */}
-                <div className="pt-4 border-t border-gray-100">
-                  <button
-                    onClick={() => setIsMenuOpen(false)}
-                    className="w-full text-center text-gray-500 hover:text-blue-600 py-3 text-base font-medium transition-colors duration-200"
-                  >
-                    Close Menu
-                  </button>
-                </div>
               </div>
             </div>
           </div>
         )}
-      </div>
-    </header>
-  );
+              </div>
+      </header>
+   );
 } 

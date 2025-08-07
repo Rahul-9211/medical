@@ -59,3 +59,19 @@ body {
 .font-black {
   font-weight: 900;
 }
+
+/* Remove focus styles from all form inputs and buttons */
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
+}
+
+/* Remove focus ring from all interactive elements */
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
