@@ -124,7 +124,7 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
             <Link
               key={specialty.name}
               href={specialty.url}
-              className="group bg-white/80 backdrop-blur-sm rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border border-white/20 hover:border-blue-200 relative overflow-hidden"
+              className="group bg-white/80 backdrop-blur-sm rounded-2xl p-6 hover:shadow-xl transition-all duration-  300 border border-white/20 hover:border-blue-200 relative overflow-hidden"
             >
               {/* Hover Effect Background */}
               <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-purple-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
