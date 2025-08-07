@@ -290,6 +290,377 @@
       }
     ]
   },
+  "hospitals": {
+    "title": "Network of Top Hospitals",
+    "subtitle": "We rigorously vet hospitals before adding to our panel, ensuring you receive the best care. We have in-depth knowledge of hospitals in every country we operate in.",
+    "countries": [
+      {
+        "country": "India",
+        "flag": "/flags/india.svg",
+        "hospitals": [
+          {
+            "name": "Medanta",
+            "city": "Gurgaon",
+            "image": "/hospitals/medanta.jpg",
+            "url": "/hospitals/medanta"
+          },
+          {
+            "name": "Indraprastha Apollo",
+            "city": "New Delhi",
+            "image": "/hospitals/apollo-delhi.jpg",
+            "url": "/hospitals/apollo-delhi"
+          },
+          {
+            "name": "Kokilaben",
+            "city": "Mumbai",
+            "image": "/hospitals/kokilaben.jpg",
+            "url": "/hospitals/kokilaben"
+          },
+          {
+            "name": "Apollo",
+            "city": "Chennai",
+            "image": "/hospitals/apollo-chennai.jpg",
+            "url": "/hospitals/apollo-chennai"
+          }
+        ]
+      },
+      {
+        "country": "Turkey",
+        "flag": "/flags/turkey.svg",
+        "hospitals": [
+          {
+            "name": "Medical Park",
+            "city": "Istanbul",
+            "image": "/hospitals/medical-park.jpg",
+            "url": "/hospitals/medical-park"
+          },
+          {
+            "name": "Memorial Hospitals",
+            "city": "Istanbul",
+            "image": "/hospitals/memorial.jpg",
+            "url": "/hospitals/memorial"
+          }
+        ]
+      },
+      {
+        "country": "UAE",
+        "flag": "/flags/uae.svg",
+        "hospitals": [
+          {
+            "name": "Burjeel",
+            "city": "Abu Dhabi",
+            "image": "/hospitals/burjeel.jpg",
+            "url": "/hospitals/burjeel"
+          },
+          {
+            "name": "Saudi German",
+            "city": "Dubai",
+            "image": "/hospitals/saudi-german.jpg",
+            "url": "/hospitals/saudi-german"
+          }
+        ]
+      },
+      {
+        "country": "Thailand",
+        "flag": "/flags/thailand.svg",
+        "hospitals": [
+          {
+            "name": "Bumrungrad",
+            "city": "Bangkok",
+            "image": "/hospitals/bumrungrad.jpg",
+            "url": "/hospitals/bumrungrad"
+          },
+          {
+            "name": "Bangkok Hospital",
+            "city": "Bangkok",
+            "image": "/hospitals/bangkok-hospital.jpg",
+            "url": "/hospitals/bangkok-hospital"
+          }
+        ]
+      },
+      {
+        "country": "Germany",
+        "flag": "/flags/germany.svg",
+        "hospitals": [
+          {
+            "name": "Charite",
+            "city": "Berlin",
+            "image": "/hospitals/charite.jpg",
+            "url": "/hospitals/charite"
+          },
+          {
+            "name": "Heidelberg University",
+            "city": "Heidelberg",
+            "image": "/hospitals/heidelberg.jpg",
+            "url": "/hospitals/heidelberg"
+          }
+        ]
+      },
+      {
+        "country": "Egypt",
+        "flag": "/flags/egypt.svg",
+        "hospitals": [
+          {
+            "name": "Cairo Medical Center",
+            "city": "Cairo",
+            "image": "/hospitals/cairo-medical.jpg",
+            "url": "/hospitals/cairo-medical"
+          },
+          {
+            "name": "Egyptian Medical Center",
+            "city": "Alexandria",
+            "image": "/hospitals/egyptian-medical.jpg",
+            "url": "/hospitals/egyptian-medical"
+          }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Lowest Quotes Assured",
+    "subtitle": "We constantly negotiate better prices and alternatives without compromising treatment quality. Our prices are consistently lower.",
+    "treatments": [
+      {
+        "name": "Knee Replacement",
+        "icon": "knee",
+        "startingPrice": 4000,
+        "url": "/treatments/knee-replacement"
+      },
+      {
+        "name": "Hip Replacement",
+        "icon": "hip",
+        "startingPrice": 5500,
+        "url": "/treatments/hip-replacement"
+      },
+      {
+        "name": "Brain Tumor",
+        "icon": "brain",
+        "startingPrice": 5000,
+        "url": "/treatments/brain-tumor"
+      },
+      {
+        "name": "Heart Bypass Surgery",
+        "icon": "heart",
+        "startingPrice": 4500,
+        "url": "/treatments/heart-bypass"
+      },
+      {
+        "name": "Valve Replacement",
+        "icon": "heart",
+        "startingPrice": 9500,
+        "url": "/treatments/valve-replacement"
+      },
+      {
+        "name": "Breast Cancer",
+        "icon": "breast",
+        "startingPrice": 5000,
+        "url": "/treatments/breast-cancer"
+      },
+      {
+        "name": "Lung Cancer",
+        "icon": "lung",
+        "startingPrice": 5500,
+        "url": "/treatments/lung-cancer"
+      },
+      {
+        "name": "Rhinoplasty",
+        "icon": "nose",
+        "startingPrice": 1800,
+        "url": "/treatments/rhinoplasty"
+      },
+      {
+        "name": "Breast Implants",
+        "icon": "breast",
+        "startingPrice": 2750,
+        "url": "/treatments/breast-implants"
+      },
+      {
+        "name": "Hair Transplant",
+        "icon": "hair",
+        "startingPrice": 1400,
+        "url": "/treatments/hair-transplant"
+      },
+      {
+        "name": "Cervical Cancer",
+        "icon": "uterus",
+        "startingPrice": 4500,
+        "url": "/treatments/cervical-cancer"
+      },
+      {
+        "name": "Hysterectomy",
+        "icon": "uterus",
+        "startingPrice": 3000,
+        "url": "/treatments/hysterectomy"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How do we work?",
+    "steps": [
+      {
+        "title": "Contact",
+        "description": "Contact us, share your case details and our team will get in touch with you.",
+        "icon": "contact"
+      },
+      {
+        "title": "Medical Opinion",
+        "description": "Receive medical opinion and cost estimate within 48 Hours",
+        "icon": "medical"
+      },
+      {
+        "title": "Flights & Arrival",
+        "description": "Book flights and get received by our team at the airport",
+        "icon": "flight"
+      },
+      {
+        "title": "Treatment & Follow-ups",
+        "description": "Get treated and fly back. We stay in touch with you for follow ups",
+        "icon": "treatment"
+      },
+      {
+        "title": "Video Player",
+        "description": "Watch our patient testimonials and success stories",
+        "icon": "video"
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services Cover Every Need",
+    "subtitle": "You will be assisted by a dedicated case manager from our team. List of services you can expect from us, for FREE!",
+    "list": [
+      {
+        "title": "Medical Opinion and Cost Estimations",
+        "description": "Expert opinions and cost estimates.",
+        "icon": "medical"
+      },
+      {
+        "title": "Pre-Travel Consultations",
+        "description": "Understand your procedure before traveling.",
+        "icon": "consultation"
+      },
+      {
+        "title": "Visa Assistance",
+        "description": "Complete medical visa assistance.",
+        "icon": "visa"
+      },
+      {
+        "title": "Money Exchange",
+        "description": "Convenient currency exchange services in your city.",
+        "icon": "money"
+      },
+      {
+        "title": "Interpreters and Translators",
+        "description": "Fluent professionals to break language barriers at every step.",
+        "icon": "interpreter"
+      },
+      {
+        "title": "Transportation Assistance",
+        "description": "Complimentary airport transfers.",
+        "icon": "transport"
+      },
+      {
+        "title": "Accommodation Options",
+        "description": "Near the hospital and matching your budget and needs.",
+        "icon": "accommodation"
+      },
+      {
+        "title": "Admission, Appointment, Pharma Care",
+        "description": "Full coordination of medical logistics.",
+        "icon": "appointment"
+      },
+      {
+        "title": "Private Duty Nursing",
+        "description": "Arrangements of private nursing care as needed.",
+        "icon": "nursing"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Satisfied Patients, Proud Service",
+    "subtitle": "100,000+ patients have trusted us since 2016.",
+    "googleRating": 4.7,
+    "totalPatients": "100,000+",
+    "testimonial": "My experience with Vaidam Health has been splendid and very rewarding. I had all the support and guidance to make my Medical Tourism to BLK-MAX Hospital, Pisa Road - New Delhi hassle free. The Staff are very courteous and always willing to help patients. Also costs saving measures — without compromising quality standards were proffered were necessary for the overall budget targets of patient. I will recommend this Organization to any prospective patient that may seek medical care Overseas.",
+    "patients": [
+      {
+        "name": "Kabir Zubairu",
+        "image": "/patients/kabir-zubairu.jpg",
+        "story": "Brain Tumor Surgery in India"
+      },
+      {
+        "name": "Namagembe Winnie",
+        "image": "/patients/namagembe-winnie.jpg",
+        "story": "Breast Cancer Surgery in India"
+      },
+      {
+        "name": "M.Rahman Anan Faruque",
+        "image": "/patients/rahman-faruque.jpg",
+        "story": "Spine Surgery in India"
+      },
+      {
+        "name": "Shahdat Hossain",
+        "image": "/patients/shahdat-hossain.jpg",
+        "story": "Liposuction Surgery in Turkey"
+      },
+      {
+        "name": "Addisu",
+        "image": "/patients/addisu.jpg",
+        "story": "Hair Transplant in Turkey"
+      },
+      {
+        "name": "Johnson Marun",
+        "image": "/patients/johnson-marun.jpg",
+        "story": "Breast Lift in Turkey"
+      }
+    ]
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "subtitle": "Stories and Videos of patients that gives you strength and assurance!",
+    "studies": [
+      {
+        "title": "Successful Heart Surgery in India",
+        "description": "Patient from Ghana underwent successful heart bypass surgery at Fortis Hospital, Delhi.",
+        "image": "/case-studies/heart-surgery.jpg",
+        "url": "/case-studies/heart-surgery"
+      },
+      {
+        "title": "Cancer Treatment Success Story",
+        "description": "Breast cancer patient from Namibia received treatment at Medanta Hospital, Gurgaon.",
+        "image": "/case-studies/cancer-treatment.jpg",
+        "url": "/case-studies/cancer-treatment"
+      },
+      {
+        "title": "Spine Surgery Recovery",
+        "description": "Patient from Congo recovered from spine surgery with excellent results.",
+        "image": "/case-studies/spine-surgery.jpg",
+        "url": "/case-studies/spine-surgery"
+      }
+    ]
+  },
+  "videoTestimonials": {
+    "title": "Videos Testimonial",
+    "videos": [
+      {
+        "title": "Patient Success Story - Heart Surgery",
+        "thumbnail": "/videos/heart-surgery-thumb.jpg",
+        "duration": "3:45",
+        "url": "/videos/heart-surgery"
+      },
+      {
+        "title": "Medical Tourism Experience in India",
+        "thumbnail": "/videos/medical-tourism-thumb.jpg",
+        "duration": "5:20",
+        "url": "/videos/medical-tourism"
+      },
+      {
+        "title": "Hospital Tour - Fortis Delhi",
+        "thumbnail": "/videos/hospital-tour-thumb.jpg",
+        "duration": "4:15",
+        "url": "/videos/hospital-tour"
+      }
+    ]
+  },
   "footer": {
     "companyInfo": {
       "name": "MediCare Global",
