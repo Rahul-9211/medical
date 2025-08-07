@@ -52,10 +52,10 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
           <div className="relative">
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8 shadow-2xl border border-blue-100">
               <div className="flex items-center mb-6">
-                <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mr-6">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mr-4 sm:mr-6 flex-shrink-0">
                   {imageErrors[indiaCountry?.name || ''] ? (
-                    <div className="w-20 h-20 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center border-4 border-white">
-                      <span className="text-3xl font-bold text-blue-600">I</span>
+                    <div className="w-full h-full bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center border-4 border-white">
+                      <span className="text-2xl sm:text-3xl font-bold text-blue-600">I</span>
                     </div>
                   ) : (
                     <img 
