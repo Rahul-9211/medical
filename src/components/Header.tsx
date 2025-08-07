@@ -141,7 +141,8 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
           <div className="lg:hidden">
             <button
               onClick={toggleMenu}
-              className="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600 p-2"
+              className="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600 p-2 rounded-lg hover:bg-gray-100 transition-all duration-200"
+              aria-label="Toggle mobile menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isMenuOpen ? (
@@ -156,15 +157,15 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden fixed inset-0 top-16 bg-white/95 backdrop-blur-sm z-40">
+          <div className="lg:hidden fixed inset-0 top-16 bg-white/95 backdrop-blur-sm z-50">
             <div className="h-full overflow-y-auto">
-              <div className="px-4 py-4 space-y-2">
+              <div className="px-4 py-6 space-y-3">
                 {navigation.mainMenu.map((item) => (
-                  <div key={item.name} className="border-b border-gray-100 pb-2">
+                  <div key={item.name} className="border-b border-gray-100 pb-3">
                     {item.isCTA ? (
                       <Link
                         href={item.url}
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 text-white block px-4 py-3 text-base font-medium rounded-lg text-center"
+                        className="bg-gradient-to-r from-blue-600 to-purple-600 text-white block px-6 py-4 text-base font-medium rounded-xl text-center hover:from-blue-700 hover:to-purple-700 transition-all duration-200"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {item.name}
@@ -174,7 +175,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                         <div className="flex items-center justify-between">
                           <Link
                             href={item.url}
-                            className="text-gray-700 hover:text-blue-600 block py-3 text-base font-medium flex-1"
+                            className="text-gray-700 hover:text-blue-600 block py-4 text-base font-medium flex-1"
                             onClick={() => !item.submenu && setIsMenuOpen(false)}
                           >
                             {item.name}
@@ -182,7 +183,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                           {item.submenu && (
                             <button
                               onClick={() => toggleMobileDropdown(item.name)}
-                              className="p-2 text-gray-500 hover:text-blue-600"
+                              className="p-2 text-gray-500 hover:text-blue-600 transition-colors duration-200"
                             >
                               <svg 
                                 className={`w-5 h-5 transition-transform duration-200 ${mobileDropdowns[item.name] ? 'rotate-180' : ''}`} 
@@ -191,19 +192,19 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                                 viewBox="0 0 24 24"
                               >
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                            </svg>
+                              </svg>
                             </button>
                           )}
                         </div>
                         
                         {/* Mobile Dropdown */}
                         {item.submenu && mobileDropdowns[item.name] && (
-                          <div className="ml-4 mt-2 space-y-1 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-3">
+                          <div className="ml-4 mt-3 space-y-2 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-4 border border-blue-100">
                             {item.submenu.map((subItem: any, index: number) => (
                               <Link
                                 key={index}
                                 href={subItem.url}
-                                className="text-gray-600 hover:text-blue-600 block py-2 px-3 text-sm rounded-md hover:bg-white transition-colors duration-150"
+                                className="text-gray-600 hover:text-blue-600 block py-3 px-4 text-sm rounded-lg hover:bg-white transition-all duration-200 font-medium"
                                 onClick={() => setIsMenuOpen(false)}
                               >
                                 {subItem.country || subItem.name}
@@ -215,6 +216,16 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                     )}
                   </div>
                 ))}
+                
+                {/* Close button for mobile */}
+                <div className="pt-4 border-t border-gray-100">
+                  <button
+                    onClick={() => setIsMenuOpen(false)}
+                    className="w-full text-center text-gray-500 hover:text-blue-600 py-3 text-base font-medium transition-colors duration-200"
+                  >
+                    Close Menu
+                  </button>
+                </div>
               </div>
             </div>
           </div>

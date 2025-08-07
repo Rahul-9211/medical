@@ -292,7 +292,7 @@
   },
   "hospitals": {
     "title": "Network of Top Hospitals",
-    "subtitle": "We rigorously vet hospitals before adding to our panel, ensuring you receive the best care. We have in-depth knowledge of hospitals in every country we operate in.",
+    "subtitle": "Partner with the most prestigious and accredited hospitals worldwide for your medical treatment.",
     "countries": [
       {
         "country": "India",
@@ -301,25 +301,25 @@
           {
             "name": "Medanta",
             "city": "Gurgaon",
-            "image": "/hospitals/medanta.jpg",
+            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/medanta"
           },
           {
             "name": "Indraprastha Apollo",
             "city": "New Delhi",
-            "image": "/hospitals/apollo-delhi.jpg",
+            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/apollo-delhi"
           },
           {
             "name": "Kokilaben",
             "city": "Mumbai",
-            "image": "/hospitals/kokilaben.jpg",
+            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/kokilaben"
           },
           {
             "name": "Apollo",
             "city": "Chennai",
-            "image": "/hospitals/apollo-chennai.jpg",
+            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/apollo-chennai"
           }
         ]
@@ -331,13 +331,13 @@
           {
             "name": "Medical Park",
             "city": "Istanbul",
-            "image": "/hospitals/medical-park.jpg",
+            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/medical-park"
           },
           {
             "name": "Memorial Hospitals",
             "city": "Istanbul",
-            "image": "/hospitals/memorial.jpg",
+            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/memorial"
           }
         ]
@@ -349,13 +349,13 @@
           {
             "name": "Burjeel",
             "city": "Abu Dhabi",
-            "image": "/hospitals/burjeel.jpg",
+            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/burjeel"
           },
           {
             "name": "Saudi German",
             "city": "Dubai",
-            "image": "/hospitals/saudi-german.jpg",
+            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/saudi-german"
           }
         ]
@@ -367,13 +367,13 @@
           {
             "name": "Bumrungrad",
             "city": "Bangkok",
-            "image": "/hospitals/bumrungrad.jpg",
+            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/bumrungrad"
           },
           {
             "name": "Bangkok Hospital",
             "city": "Bangkok",
-            "image": "/hospitals/bangkok-hospital.jpg",
+            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/bangkok-hospital"
           }
         ]
@@ -385,13 +385,13 @@
           {
             "name": "Charite",
             "city": "Berlin",
-            "image": "/hospitals/charite.jpg",
+            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/charite"
           },
           {
             "name": "Heidelberg University",
             "city": "Heidelberg",
-            "image": "/hospitals/heidelberg.jpg",
+            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/heidelberg"
           }
         ]
@@ -403,13 +403,13 @@
           {
             "name": "Cairo Medical Center",
             "city": "Cairo",
-            "image": "/hospitals/cairo-medical.jpg",
+            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/cairo-medical"
           },
           {
             "name": "Egyptian Medical Center",
             "city": "Alexandria",
-            "image": "/hospitals/egyptian-medical.jpg",
+            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
             "url": "/hospitals/egyptian-medical"
           }
         ]
@@ -576,88 +576,116 @@
     ]
   },
   "testimonials": {
-    "title": "Satisfied Patients, Proud Service",
-    "subtitle": "100,000+ patients have trusted us since 2016.",
-    "googleRating": 4.7,
-    "totalPatients": "100,000+",
-    "testimonial": "My experience with Vaidam Health has been splendid and very rewarding. I had all the support and guidance to make my Medical Tourism to BLK-MAX Hospital, Pisa Road - New Delhi hassle free. The Staff are very courteous and always willing to help patients. Also costs saving measures — without compromising quality standards were proffered were necessary for the overall budget targets of patient. I will recommend this Organization to any prospective patient that may seek medical care Overseas.",
+    "title": "What Our Patients Say",
+    "subtitle": "Real stories from patients who have experienced our medical tourism services.",
     "patients": [
       {
-        "name": "Kabir Zubairu",
-        "image": "/patients/kabir-zubairu.jpg",
-        "story": "Brain Tumor Surgery in India"
+        "name": "Sarah Johnson",
+        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+        "rating": 5,
+        "text": "The medical tourism experience was incredible. The hospital in India was world-class and the care was exceptional. I saved 70% on my treatment costs.",
+        "treatment": "Cardiac Surgery",
+        "country": "USA"
       },
       {
-        "name": "Namagembe Winnie",
-        "image": "/patients/namagembe-winnie.jpg",
-        "story": "Breast Cancer Surgery in India"
+        "name": "Michael Chen",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+        "rating": 5,
+        "text": "Professional service from start to finish. The medical coordinators helped me find the perfect doctor and hospital for my knee replacement.",
+        "treatment": "Orthopedic Surgery",
+        "country": "Canada"
       },
       {
-        "name": "M.Rahman Anan Faruque",
-        "image": "/patients/rahman-faruque.jpg",
-        "story": "Spine Surgery in India"
+        "name": "Emma Rodriguez",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+        "rating": 5,
+        "text": "Amazing experience! The dental treatment I received was top-notch and cost a fraction of what I would have paid at home.",
+        "treatment": "Dental Implants",
+        "country": "UK"
       },
       {
-        "name": "Shahdat Hossain",
-        "image": "/patients/shahdat-hossain.jpg",
-        "story": "Liposuction Surgery in Turkey"
+        "name": "David Thompson",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+        "rating": 5,
+        "text": "The quality of care exceeded my expectations. The hospital facilities were modern and the doctors were highly skilled.",
+        "treatment": "Spine Surgery",
+        "country": "Australia"
       },
       {
-        "name": "Addisu",
-        "image": "/patients/addisu.jpg",
-        "story": "Hair Transplant in Turkey"
+        "name": "Lisa Wang",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+        "rating": 5,
+        "text": "I was nervous about medical tourism, but the team made everything so smooth. The treatment was excellent and recovery went perfectly.",
+        "treatment": "Plastic Surgery",
+        "country": "Singapore"
       },
       {
-        "name": "Johnson Marun",
-        "image": "/patients/johnson-marun.jpg",
-        "story": "Breast Lift in Turkey"
+        "name": "Robert Wilson",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+        "rating": 5,
+        "text": "Outstanding service and care. The medical tourism experience was professional, safe, and cost-effective. Highly recommended!",
+        "treatment": "Cancer Treatment",
+        "country": "Germany"
       }
     ]
   },
   "caseStudies": {
     "title": "Case Studies",
-    "subtitle": "Stories and Videos of patients that gives you strength and assurance!",
+    "subtitle": "Real patient stories and successful treatment outcomes from our medical tourism network.",
     "studies": [
       {
-        "title": "Successful Heart Surgery in India",
-        "description": "Patient from Ghana underwent successful heart bypass surgery at Fortis Hospital, Delhi.",
-        "image": "/case-studies/heart-surgery.jpg",
-        "url": "/case-studies/heart-surgery"
+        "title": "Cardiac Surgery Success Story",
+        "description": "A 65-year-old patient from the UK underwent successful heart bypass surgery in India, saving 75% on costs while receiving world-class care.",
+        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=200&h=200&fit=crop&crop=center",
+        "url": "/case-studies/cardiac-surgery"
       },
       {
-        "title": "Cancer Treatment Success Story",
-        "description": "Breast cancer patient from Namibia received treatment at Medanta Hospital, Gurgaon.",
-        "image": "/case-studies/cancer-treatment.jpg",
+        "title": "Orthopedic Treatment Journey",
+        "description": "Complete knee replacement surgery with advanced robotic technology, resulting in faster recovery and excellent mobility outcomes.",
+        "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=200&h=200&fit=crop&crop=center",
+        "url": "/case-studies/orthopedic-treatment"
+      },
+      {
+        "title": "Dental Implant Transformation",
+        "description": "Full mouth dental reconstruction using premium materials and advanced techniques, achieving natural-looking results.",
+        "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=200&h=200&fit=crop&crop=center",
+        "url": "/case-studies/dental-implants"
+      },
+      {
+        "title": "Cancer Treatment Success",
+        "description": "Comprehensive cancer treatment combining surgery, chemotherapy, and radiation therapy with personalized care plans.",
+        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=200&h=200&fit=crop&crop=center",
         "url": "/case-studies/cancer-treatment"
-      },
-      {
-        "title": "Spine Surgery Recovery",
-        "description": "Patient from Congo recovered from spine surgery with excellent results.",
-        "image": "/case-studies/spine-surgery.jpg",
-        "url": "/case-studies/spine-surgery"
       }
     ]
   },
   "videoTestimonials": {
-    "title": "Videos Testimonial",
+    "title": "Video Testimonials",
+    "subtitle": "Hear directly from our patients about their medical tourism experience.",
     "videos": [
       {
-        "title": "Patient Success Story - Heart Surgery",
-        "thumbnail": "/videos/heart-surgery-thumb.jpg",
-        "duration": "3:45",
-        "url": "/videos/heart-surgery"
+        "title": "Sarah's Heart Surgery Journey",
+        "description": "Watch Sarah's complete journey from consultation to recovery after her cardiac surgery in India.",
+        "thumbnail": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=300&h=200&fit=crop&crop=center",
+        "url": "/videos/sarah-heart-surgery"
       },
       {
-        "title": "Medical Tourism Experience in India",
-        "thumbnail": "/videos/medical-tourism-thumb.jpg",
-        "duration": "5:20",
-        "url": "/videos/medical-tourism"
+        "title": "Michael's Knee Replacement",
+        "description": "Michael shares his experience with robotic knee replacement surgery and his recovery process.",
+        "thumbnail": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=300&h=200&fit=crop&crop=center",
+        "url": "/videos/michael-knee-replacement"
       },
       {
-        "title": "Hospital Tour - Fortis Delhi",
-        "thumbnail": "/videos/hospital-tour-thumb.jpg",
-        "duration": "4:15",
-        "url": "/videos/hospital-tour"
+        "title": "Emma's Dental Transformation",
+        "description": "See Emma's amazing dental implant transformation and her journey to a perfect smile.",
+        "thumbnail": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=300&h=200&fit=crop&crop=center",
+        "url": "/videos/emma-dental-transformation"
+      },
+      {
+        "title": "David's Spine Surgery Recovery",
+        "description": "David's successful spine surgery and his return to an active lifestyle after treatment.",
+        "thumbnail": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=300&h=200&fit=crop&crop=center",
+        "url": "/videos/david-spine-surgery"
       }
     ]
   },

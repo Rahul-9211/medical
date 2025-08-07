@@ -95,12 +95,10 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
 
   return (
     <section className="relative overflow-hidden py-20">
-      {/* Background Pattern - Matching Home Section */}
+      {/* Background Pattern */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-600/5 via-purple-600/5 to-indigo-600/5"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-blue-400/10 to-purple-400/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-indigo-400/10 to-blue-400/10 rounded-full blur-3xl"></div>
-      
-      {/* Section Divider */}
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}

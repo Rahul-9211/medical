@@ -30,8 +30,6 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
 
   return (
     <section className="bg-white py-20 relative">
-      {/* Section Divider */}
-      
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
