@@ -103,7 +103,7 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
       default:
         return (
           <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
           </svg>
         );
     }
@@ -158,7 +158,7 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
                             setIsCountryDropdownOpen(false);
                             setCountrySearch('');
                           }}
-                          className="w-full px-4 py-2 text-sm text-left hover:bg-blue-50 transition-colors duration-150"
+                          className="w-full px-4 py-2 text-sm text-left hover:bg-orange-50 transition-colors duration-150"
                         >
                           {country}
                         </button>
@@ -237,7 +237,7 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
   return (
     <div>
       <div className="text-center mb-4">
-        <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full mb-3 shadow-lg">
+        <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-full mb-3 shadow-lg">
           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
           </svg>
@@ -277,7 +277,7 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2.5 px-6 rounded-xl font-semibold text-sm hover:from-blue-700 hover:to-purple-700 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+            className="w-full bg-gradient-to-r from-orange-600 to-red-600 text-white py-2.5 px-6 rounded-xl font-semibold text-sm hover:from-orange-700 hover:to-red-700 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
           >
             {isSubmitting ? (
               <div className="flex items-center justify-center">

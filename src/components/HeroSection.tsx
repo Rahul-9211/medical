@@ -42,7 +42,7 @@ export default function HeroSection({ heroSection, stats }: HeroSectionProps) {
             {/* Statistics */}
             <div className="flex space-x-8">
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-blue-600 mb-1">
+                <div className="text-2xl md:text-3xl font-bold text-orange-600 mb-1">
                   {stats.patientsAssisted}
                 </div>
                 <div className="text-gray-600 text-sm">
@@ -52,7 +52,7 @@ export default function HeroSection({ heroSection, stats }: HeroSectionProps) {
               
               <div className="text-center">
                 <div className="flex items-center justify-center mb-1">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-600 mr-2">
+                  <div className="text-2xl md:text-3xl font-bold text-orange-600 mr-2">
                     {stats.googleRating}
                   </div>
                   <div className="flex">
@@ -89,7 +89,7 @@ export default function HeroSection({ heroSection, stats }: HeroSectionProps) {
           </div>
 
           {/* Right Content - Form Placeholder */}
-          <div className="bg-gray-50 rounded-lg p-6 lg:p-8">
+          <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-lg p-6 lg:p-8 border border-orange-100">
             <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
                 Get Your Free Quote
@@ -97,7 +97,7 @@ export default function HeroSection({ heroSection, stats }: HeroSectionProps) {
               <p className="text-gray-600 mb-6">
                 Fill the form to get personalized treatment quotes
               </p>
-              <div className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium">
+              <div className="bg-gradient-to-r from-orange-600 to-red-600 text-white px-6 py-3 rounded-lg font-medium">
                 Form will be integrated here
               </div>
             </div>
