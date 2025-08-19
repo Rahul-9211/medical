@@ -8,12 +8,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MediCare Global - Medical Treatment With Unmatched Personal Care",
+  title: "MediCare - Medical Treatment With Unmatched Personal Care",
   description: "World's Most Trusted Medical Travel Assistance Platform. Get personalized medical treatment quotes from top hospitals worldwide. 1,00,000+ patients assisted since 2016.",
   keywords: "medical tourism, healthcare, hospitals, doctors, treatment, surgery, medical travel, international healthcare",
-  authors: [{ name: "MediCare Global" }],
-  creator: "MediCare Global",
-  publisher: "MediCare Global",
+  authors: [{ name: "MediCare" }],
+  creator: "MediCare",
+  publisher: "MediCare",
   formatDetection: {
     email: false,
     address: false,
@@ -24,16 +24,16 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "MediCare Global - Medical Treatment With Unmatched Personal Care",
+    title: "MediCare - Medical Treatment With Unmatched Personal Care",
     description: "World's Most Trusted Medical Travel Assistance Platform. Get personalized medical treatment quotes from top hospitals worldwide.",
     url: 'https://medicareglobal.com',
-    siteName: 'MediCare Global',
+    siteName: 'MediCare',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'MediCare Global - Medical Tourism Platform',
+        alt: 'MediCare - Medical Tourism Platform',
       },
     ],
     locale: 'en_US',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "MediCare Global - Medical Treatment With Unmatched Personal Care",
+    title: "MediCare - Medical Treatment With Unmatched Personal Care",
     description: "World's Most Trusted Medical Travel Assistance Platform",
     images: ['/og-image.jpg'],
   },

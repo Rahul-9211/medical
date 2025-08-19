@@ -16,48 +16,11 @@ interface ServicesSectionProps {
 }
 
 export default function ServicesSection({ services }: ServicesSectionProps) {
-  const patientServices = [
-    {
-      icon: "🎫",
-      name: "Medical Visa & Travel Assistance",
-      description: "Complete visa support and travel planning for medical tourists"
-    },
-    {
-      icon: "💬",
-      name: "Free Second Opinion & Doctor Consultations",
-      description: "Expert medical opinions from India's top specialists at no cost"
-    },
-    {
-      icon: "🚑",
-      name: "Airport Pickup & Ground Transfers",
-      description: "Seamless transportation from arrival to hospital and back"
-    },
-    {
-      icon: "🏨",
-      name: "Affordable Accommodation Near Hospitals",
-      description: "Comfortable stays at discounted rates for patients and families"
-    },
-    {
-      icon: "🤝",
-      name: "Dedicated 24/7 Patient Coordinator",
-      description: "Personal support throughout your entire medical journey"
-    },
-    {
-      icon: "🧾",
-      name: "Transparent Cost Estimates — No Hidden Fees",
-      description: "Clear pricing with no surprise charges or additional costs"
-    },
-    {
-      icon: "❤️",
-      name: "Post-Treatment Follow-Up & Recovery Support",
-      description: "Ongoing care and monitoring after your procedure"
-    }
-  ];
 
   return (
     <section className="bg-gradient-to-br from-gray-50 via-white to-teal-50 py-20 relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-teal-600/5"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-orange-600/5"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-400/10 to-red-400/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
       
@@ -70,7 +33,7 @@ export default function ServicesSection({ services }: ServicesSectionProps) {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            All-Inclusive Patient Services
+            {services.title}
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             More Than Just Treatment — We Take Care of Everything
@@ -79,7 +42,7 @@ export default function ServicesSection({ services }: ServicesSectionProps) {
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {patientServices.map((service, index) => (
+          {services.list.map((service, index) => (
             <div
               key={index}
               className="group bg-white/80 backdrop-blur-sm rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-white/20 hover:border-orange-200 relative overflow-hidden"
@@ -114,7 +77,7 @@ export default function ServicesSection({ services }: ServicesSectionProps) {
             </p>
             <Link
               href="/services"
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-teal-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
             >
               Explore Our Services
               <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

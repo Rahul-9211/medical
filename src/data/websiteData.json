@@ -1,6 +1,6 @@
 {
   "siteInfo": {
-    "name": "MediCare Global",
+    "name": "MediCare",
     "tagline": "Medical Treatment With Unmatched Personal Care",
     "subtitle": "World's Most Trusted Medical Travel Assistance Platform",
     "logo": "/logo.svg",
@@ -71,26 +71,6 @@
             "country": "India",
             "url": "/hospitals/india",
             "specialties": ["Cardiology", "Cosmetic", "Gynecology", "Hematology", "IVF and Infertility", "Neurosurgery", "Oncology", "Orthopedics", "Spine Surgery"]
-          },
-          {
-            "country": "Turkey",
-            "url": "/hospitals/turkey",
-            "specialties": ["Cardiology", "Cosmetic", "Gynecology", "IVF and Infertility", "Neurosurgery", "Oncology", "Orthopedics", "Spine Surgery"]
-          },
-          {
-            "country": "Thailand",
-            "url": "/hospitals/thailand",
-            "specialties": ["Cardiology", "Cosmetic", "Gynecology", "IVF and Infertility", "Neurosurgery", "Oncology", "Orthopedics", "Spine Surgery"]
-          },
-          {
-            "country": "UAE",
-            "url": "/hospitals/uae",
-            "specialties": ["Cardiology", "Gynecology", "Hematology", "IVF and Infertility", "Neurosurgery", "Oncology", "Orthopedics", "Pediatrics and Pediatric Surgery", "Spine Surgery"]
-          },
-          {
-            "country": "Germany",
-            "url": "/hospitals/germany",
-            "specialties": ["Neurosurgery", "Oncology"]
           }
         ]
       },
@@ -169,7 +149,7 @@
       }
     ],
     "submitButton": "Get FREE Quote",
-    "termsText": "By submitting the form I agree to the Terms of Use and Privacy Policy of MediCare Global."
+    "termsText": "By submitting the form I agree to the Terms of Use and Privacy Policy of MediCare."
   },
   "destinations": {
     "title": "Top Medical Destinations",
@@ -180,37 +160,8 @@
         "flag": "/flags/india.svg",
         "url": "/destinations/india",
         "description": "World-class healthcare at affordable prices"
-      },
-      {
-        "name": "Turkey",
-        "flag": "/flags/turkey.svg",
-        "url": "/destinations/turkey",
-        "description": "Advanced medical technology and expertise"
-      },
-      {
-        "name": "Thailand",
-        "flag": "/flags/thailand.svg",
-        "url": "/destinations/thailand",
-        "description": "Excellence in medical tourism"
-      },
-      {
-        "name": "UAE",
-        "flag": "/flags/uae.svg",
-        "url": "/destinations/uae",
-        "description": "Luxury healthcare experience"
-      },
-      {
-        "name": "Egypt",
-        "flag": "/flags/egypt.svg",
-        "url": "/destinations/egypt",
-        "description": "Ancient wisdom meets modern medicine"
-      },
-      {
-        "name": "Germany",
-        "flag": "/flags/germany.svg",
-        "url": "/destinations/germany",
-        "description": "Precision and innovation in healthcare"
       }
+    
     ]
   },
   "specialties": {
@@ -292,127 +243,34 @@
   },
   "hospitals": {
     "title": "Network of Top Hospitals",
-    "subtitle": "Partner with the most prestigious and accredited hospitals worldwide for your medical treatment.",
-    "countries": [
+    "list": [
       {
-        "country": "India",
-        "flag": "/flags/india.svg",
-        "hospitals": [
-          {
-            "name": "Medanta",
-            "city": "Gurgaon",
-            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/medanta"
-          },
-          {
-            "name": "Indraprastha Apollo",
-            "city": "New Delhi",
-            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/apollo-delhi"
-          },
-          {
-            "name": "Kokilaben",
-            "city": "Mumbai",
-            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/kokilaben"
-          },
-          {
-            "name": "Apollo",
-            "city": "Chennai",
-            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/apollo-chennai"
-          }
-        ]
+        "name": "Medanta",
+        "location": "Gurgaon, India",
+        "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
+        "url": "/hospitals/medanta",
+        "description": "Multi-specialty hospital with world-class cardiac care"
       },
       {
-        "country": "Turkey",
-        "flag": "/flags/turkey.svg",
-        "hospitals": [
-          {
-            "name": "Medical Park",
-            "city": "Istanbul",
-            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/medical-park"
-          },
-          {
-            "name": "Memorial Hospitals",
-            "city": "Istanbul",
-            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/memorial"
-          }
-        ]
+        "name": "Indraprastha Apollo",
+        "location": "New Delhi, India",
+        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
+        "url": "/hospitals/apollo-delhi",
+        "description": "India's largest healthcare network with international standards"
       },
       {
-        "country": "UAE",
-        "flag": "/flags/uae.svg",
-        "hospitals": [
-          {
-            "name": "Burjeel",
-            "city": "Abu Dhabi",
-            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/burjeel"
-          },
-          {
-            "name": "Saudi German",
-            "city": "Dubai",
-            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/saudi-german"
-          }
-        ]
+        "name": "Kokilaben",
+        "location": "Mumbai, India",
+        "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
+        "url": "/hospitals/kokilaben",
+        "description": "Advanced medical research and treatment facility"
       },
       {
-        "country": "Thailand",
-        "flag": "/flags/thailand.svg",
-        "hospitals": [
-          {
-            "name": "Bumrungrad",
-            "city": "Bangkok",
-            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/bumrungrad"
-          },
-          {
-            "name": "Bangkok Hospital",
-            "city": "Bangkok",
-            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/bangkok-hospital"
-          }
-        ]
-      },
-      {
-        "country": "Germany",
-        "flag": "/flags/germany.svg",
-        "hospitals": [
-          {
-            "name": "Charite",
-            "city": "Berlin",
-            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/charite"
-          },
-          {
-            "name": "Heidelberg University",
-            "city": "Heidelberg",
-            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/heidelberg"
-          }
-        ]
-      },
-      {
-        "country": "Egypt",
-        "flag": "/flags/egypt.svg",
-        "hospitals": [
-          {
-            "name": "Cairo Medical Center",
-            "city": "Cairo",
-            "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/cairo-medical"
-          },
-          {
-            "name": "Egyptian Medical Center",
-            "city": "Alexandria",
-            "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
-            "url": "/hospitals/egyptian-medical"
-          }
-        ]
+        "name": "Apollo",
+        "location": "Chennai, India",
+        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
+        "url": "/hospitals/apollo-chennai",
+        "description": "Specialized care in multiple medical disciplines"
       }
     ]
   },
@@ -529,49 +387,49 @@
     "subtitle": "You will be assisted by a dedicated case manager from our team. List of services you can expect from us, for FREE!",
     "list": [
       {
-        "title": "Medical Opinion and Cost Estimations",
+        "name": "Medical Opinion and Cost Estimations",
         "description": "Expert opinions and cost estimates.",
-        "icon": "medical"
+        "icon": "💬"
       },
       {
-        "title": "Pre-Travel Consultations",
+        "name": "Pre-Travel Consultations",
         "description": "Understand your procedure before traveling.",
-        "icon": "consultation"
+        "icon": "📋"
       },
       {
-        "title": "Visa Assistance",
+        "name": "Visa Assistance",
         "description": "Complete medical visa assistance.",
-        "icon": "visa"
+        "icon": "🎫"
       },
       {
-        "title": "Money Exchange",
+        "name": "Money Exchange",
         "description": "Convenient currency exchange services in your city.",
-        "icon": "money"
+        "icon": "💰"
       },
       {
-        "title": "Interpreters and Translators",
+        "name": "Interpreters and Translators",
         "description": "Fluent professionals to break language barriers at every step.",
-        "icon": "interpreter"
+        "icon": "🗣️"
       },
       {
-        "title": "Transportation Assistance",
+        "name": "Transportation Assistance",
         "description": "Complimentary airport transfers.",
-        "icon": "transport"
+        "icon": "🚑"
       },
       {
-        "title": "Accommodation Options",
+        "name": "Accommodation Options",
         "description": "Near the hospital and matching your budget and needs.",
-        "icon": "accommodation"
+        "icon": "🏨"
       },
       {
-        "title": "Admission, Appointment, Pharma Care",
+        "name": "Admission, Appointment, Pharma Care",
         "description": "Full coordination of medical logistics.",
-        "icon": "appointment"
+        "icon": "📅"
       },
       {
-        "title": "Private Duty Nursing",
+        "name": "Private Duty Nursing",
         "description": "Arrangements of private nursing care as needed.",
-        "icon": "nursing"
+        "icon": "👩‍⚕️"
       }
     ]
   },
@@ -691,7 +549,7 @@
   },
   "footer": {
     "companyInfo": {
-      "name": "MediCare Global",
+      "name": "MediCare",
       "description": "Your trusted partner in medical tourism"
     },
     "links": {
@@ -711,23 +569,13 @@
         { "name": "Terms of Use", "url": "/policy/terms" }
       ],
       "Medical Destinations": [
-        { "name": "India", "url": "/destinations/india" },
-        { "name": "Turkey", "url": "/destinations/turkey" },
-        { "name": "Thailand", "url": "/destinations/thailand" }
+        { "name": "India", "url": "/destinations/india" }
       ]
     },
     "offices": [
       {
         "country": "India",
-        "address": "MediCare Global Pvt Ltd, 98, 2nd Floor Sector 44, Gurgaon, National Capital Region, Haryana, INDIA, PIN 122001"
-      },
-      {
-        "country": "UAE",
-        "address": "MediCare Global FZC LLC, Business Center, P.O.Box 85570, Sharjah, United Arab Emirates"
-      },
-      {
-        "country": "USA",
-        "address": "MediCare Global USA LLC, 8 The Green, Suite B, Dover, Delaware, 19901"
+        "address": "MediCare Pvt Ltd, 98, 2nd Floor Sector 44, Gurgaon, National Capital Region, Haryana, INDIA, PIN 122001"
       }
     ],
     "contact": {
@@ -740,7 +588,7 @@
       { "name": "Facebook", "url": "https://facebook.com/medicareglobal", "icon": "facebook" },
       { "name": "Instagram", "url": "https://instagram.com/medicareglobal", "icon": "instagram" }
     ],
-    "disclaimer": "Note: MediCare Global does not provide medical advice, diagnosis or treatment. The services and information offered on www.medicareglobal.com are intended solely for informational purposes and cannot replace the professional consultation or treatment by a physician."
+    "disclaimer": "Note: MediCare does not provide medical advice, diagnosis or treatment. The services and information offered on www.medicareglobal.com are intended solely for informational purposes and cannot replace the professional consultation or treatment by a physician."
   },
   "countries": [
     "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan",

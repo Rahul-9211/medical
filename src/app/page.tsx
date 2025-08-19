@@ -24,7 +24,7 @@ export default function Home() {
         {/* Hero Section with Integrated Form - Full Viewport Height */}
         <section className="relative overflow-hidden min-h-screen flex items-center">
           {/* Background Pattern */}
-          <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-teal-600/5"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-orange-600/5"></div>
           <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-400/10 to-red-400/10 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
           
@@ -35,7 +35,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                     India's Gateway to World-Class Surgery,{' '}
-                    <span className="bg-gradient-to-r from-orange-600 via-red-600 to-teal-600 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 bg-clip-text text-transparent">
                       Ayurveda & Affordable Healthcare
                     </span>
                   </h1>
@@ -68,7 +68,7 @@ export default function Home() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <button className="bg-gradient-to-r from-orange-600 via-red-600 to-teal-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  <button className="bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                     Get Free Consultation Now
                   </button>
                   <button className="bg-white text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg border-2 border-gray-200 hover:border-orange-300 hover:bg-orange-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">

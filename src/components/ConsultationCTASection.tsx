@@ -4,7 +4,7 @@ export default function ConsultationCTASection() {
   return (
     <section className="bg-gradient-to-br from-orange-50 via-red-50 to-teal-50 py-20 relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-teal-600/5"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-orange-600/5"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-400/10 to-red-400/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
       
@@ -28,7 +28,7 @@ export default function ConsultationCTASection() {
         <div className="mb-16">
           <Link
             href="/get-free-consultation"
-            className="inline-flex items-center px-12 py-6 bg-gradient-to-r from-orange-600 via-red-600 to-teal-600 text-white font-bold rounded-2xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 text-2xl"
+            className="inline-flex items-center px-12 py-6 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 text-white font-bold rounded-2xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 text-2xl"
           >
             Get My Free Opinion Now
             <svg className="ml-4 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

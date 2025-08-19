@@ -58,7 +58,7 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
   return (
     <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-orange-50">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-teal-600/5"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-orange-600/5"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-400/10 to-red-400/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
       
@@ -138,7 +138,7 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
             
             <Link
               href="/treatments"
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-teal-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
             >
               Explore All Treatments
               <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

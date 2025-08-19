@@ -18,38 +18,6 @@ interface HospitalsSectionProps {
 }
 
 export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
-  const partnerHospitals = [
-    {
-      name: "Medanta, Gurugram",
-      location: "Gurugram, Haryana",
-      description: "Multi-specialty hospital with world-class cardiac care",
-      image: "/hospitals/medanta.jpg"
-    },
-    {
-      name: "Fortis Memorial Research Institute",
-      location: "Gurugram, Haryana",
-      description: "Advanced medical research and treatment facility",
-      image: "/hospitals/fortis.jpg"
-    },
-    {
-      name: "Apollo Hospitals",
-      location: "Multiple Locations",
-      description: "India's largest healthcare network with international standards",
-      image: "/hospitals/apollo.jpg"
-    },
-    {
-      name: "Artemis & Max Super Speciality",
-      location: "Gurugram, Haryana",
-      description: "Specialized care in multiple medical disciplines",
-      image: "/hospitals/artemis.jpg"
-    },
-    {
-      name: "BLK-Max & Ganga Ram, Delhi",
-      location: "New Delhi",
-      description: "Century-old hospital with modern medical technology",
-      image: "/hospitals/blk.jpg"
-    }
-  ];
 
   return (
     <section className="bg-white from-orange-50 via-white to-red-50 py-20 relative">
@@ -62,7 +30,7 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Partner Hospitals in India
+            {hospitals.title}
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Get Treated at India's Top JCI & NABH-Accredited Hospitals
@@ -71,7 +39,7 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
 
         {/* Hospitals Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {partnerHospitals.map((hospital, index) => (
+          {hospitals.list.map((hospital, index) => (
             <div
               key={index}
               className="group bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
@@ -122,7 +90,7 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
             </p>
             <Link
               href="/hospitals"
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-teal-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
             >
               See All Hospitals
               <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
