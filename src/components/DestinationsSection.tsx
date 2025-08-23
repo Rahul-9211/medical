@@ -1,8 +1,9 @@
 'use client';
 
+import { Camera, Icon } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
-
+import ReactCountryFlag from 'react-country-flag';
 interface Country {
   name: string;
   flag: string;
@@ -68,8 +69,11 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-orange-500 via-red-500 to-teal-500 rounded-full mb-6 shadow-lg">
-            <span className="text-4xl">🇮🇳</span>
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-white rounded-full mb-6 shadow-lg  text-4xl">
+          <ReactCountryFlag countryCode="IN" svg style={{
+            fontSize: '1.2em',
+            lineHeight: '1.2em',
+          }} />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Why Patients Choose India for Medical Tourism

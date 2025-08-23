@@ -24,7 +24,7 @@ export default function Home() {
         {/* Hero Section with Integrated Form - Full Viewport Height */}
         <section className="relative overflow-hidden min-h-screen flex items-center">
           {/* Background Pattern */}
-          <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-orange-600/5"></div>
+          <div className="absolute inset-0 bg-white"></div>
           <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-400/10 to-red-400/10 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
           
@@ -80,11 +80,11 @@ export default function Home() {
               {/* Right Content - Integrated Form */}
               <div className="relative">
                 <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-5 lg:p-6 shadow-2xl border border-white/20">
-                  <div className="absolute -top-2 -right-2 w-5 h-5 bg-gradient-to-r from-orange-500 via-red-500 to-teal-500 rounded-full flex items-center justify-center">
+                  {/* <div className="absolute -top-2 -right-2 w-5 h-5 bg-gradient-to-r from-orange-500 via-red-500 to-teal-500 rounded-full flex items-center justify-center">
                     <svg className="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                  </div>
+                  </div> */}
                   <QuoteForm 
                     quoteForm={websiteData.quoteForm} 
                     countries={websiteData.countries} 

@@ -20,17 +20,15 @@ export default function ServicesSection({ services }: ServicesSectionProps) {
   return (
     <section className="bg-gradient-to-br from-gray-50 via-white to-teal-50 py-20 relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-600/5 via-red-600/5 to-orange-600/5"></div>
+      <div className="absolute inset-0 bg-white-to-br from-orange-600/5 via-red-600/5 to-orange-600/5"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-400/10 to-red-400/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-orange-500 via-red-500 to-teal-500 rounded-full mb-6 shadow-lg">
-            <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+          💰
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             {services.title}
@@ -48,10 +46,10 @@ export default function ServicesSection({ services }: ServicesSectionProps) {
               className="group bg-white/80 backdrop-blur-sm rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-white/20 hover:border-orange-200 relative overflow-hidden"
             >
               {/* Hover Effect Background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-red-50 to-teal-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-red-50 to-teal-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer"></div>
               
               {/* Content */}
-              <div className="relative z-10">
+              <div className="relative z-10 cursor-pointer">
                 <div className="text-4xl mb-4">{service.icon}</div>
                 
                 <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 mb-3">
