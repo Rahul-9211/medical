@@ -57,8 +57,8 @@ export default function Footer({ footer }: FooterProps) {
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-white-to-br from-orange-600/5 via-red-600/5 to-orange-600/5"></div>
-      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-400/10 to-red-400/10 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 bg-white-to-br from-green-600/5 via-teal-600/5 to-cyan-600/5"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-green-400/10 to-teal-400/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -66,7 +66,7 @@ export default function Footer({ footer }: FooterProps) {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-orange-500 via-red-500 to-teal-500 rounded-xl flex items-center justify-center mr-3 shadow-lg">
+              <div className="w-10 h-10 bg-gradient-to-br from-green-500 via-teal-500 to-cyan-500 rounded-xl flex items-center justify-center mr-3 shadow-lg">
                 <span className="text-white font-bold text-sm">MG</span>
               </div>
               <span className="text-xl font-bold">{footer.companyInfo.name}</span>
@@ -78,8 +78,8 @@ export default function Footer({ footer }: FooterProps) {
             {/* Contact Info */}
             <div className="space-y-4">
               <div className="flex items-center group">
-                <div className="w-10 h-10 bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-lg flex items-center justify-center mr-3 group-hover:from-orange-500/30 group-hover:to-red-500/30 transition-all duration-300">
-                  <svg className="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-10 h-10 bg-gradient-to-br from-green-500/20 to-teal-500/20 rounded-lg flex items-center justify-center mr-3 group-hover:from-green-500/30 group-hover:to-teal-500/30 transition-all duration-300">
+                  <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
@@ -129,9 +129,9 @@ export default function Footer({ footer }: FooterProps) {
             {footer.offices.map((office, index) => (
               <div key={office.country} className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
                 <div className={`w-8 h-8 rounded-lg mb-3 ${
-                  index === 0 ? 'bg-gradient-to-br from-orange-500/20 to-red-500/20' :
-                  index === 1 ? 'bg-gradient-to-br from-red-500/20 to-teal-500/20' :
-                  'bg-gradient-to-br from-teal-500/20 to-cyan-500/20'
+                  index === 0 ? 'bg-gradient-to-br from-green-500/20 to-teal-500/20' :
+                  index === 1 ? 'bg-gradient-to-br from-teal-500/20 to-cyan-500/20' :
+                  'bg-gradient-to-br from-cyan-500/20 to-green-500/20'
                 }`}></div>
                 <h4 className="font-semibold text-white mb-3">{office.country}</h4>
                 <p className="text-gray-300 text-sm leading-relaxed">
@@ -152,11 +152,11 @@ export default function Footer({ footer }: FooterProps) {
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`w-12 h-12 rounded-xl flex items-center justify-center hover:from-orange-500/40 hover:to-red-500/40 transition-all duration-300 border border-white/10 hover:border-white/20 group ${
-                    index === 0 ? 'bg-gradient-to-br from-orange-500/20 to-red-500/20' :
-                    index === 1 ? 'bg-gradient-to-br from-red-500/20 to-teal-500/20' :
-                    index === 2 ? 'bg-gradient-to-br from-teal-500/20 to-cyan-500/20' :
-                    'bg-gradient-to-br from-cyan-500/20 to-orange-500/20'
+                  className={`w-12 h-12 rounded-xl flex items-center justify-center hover:from-green-500/40 hover:to-teal-500/40 transition-all duration-300 border border-white/10 hover:border-white/20 group ${
+                    index === 0 ? 'bg-gradient-to-br from-green-500/20 to-teal-500/20' :
+                    index === 1 ? 'bg-gradient-to-br from-teal-500/20 to-cyan-500/20' :
+                    index === 2 ? 'bg-gradient-to-br from-cyan-500/20 to-green-500/20' :
+                    'bg-gradient-to-br from-green-500/20 to-teal-500/20'
                   }`}
                 >
                   <span className="text-gray-300 group-hover:text-white transition-colors duration-300">

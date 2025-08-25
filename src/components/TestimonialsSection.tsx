@@ -50,7 +50,7 @@ export default function TestimonialsSection({ testimonials }: TestimonialsSectio
   ];
 
   return (
-    <section className="bg-gradient-to-br from-gray-50 via-white to-orange-50 py-16">
+    <section className="bg-gradient-to-br from-gray-50 via-white to-green-50 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -69,8 +69,8 @@ export default function TestimonialsSection({ testimonials }: TestimonialsSectio
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 lg:p-12 shadow-2xl border border-white/20 mb-12">
           <div className="text-center">
             {/* Patient Photo */}
-            <div className="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-to-br from-orange-100 to-red-100 flex items-center justify-center">
-              <span className="text-3xl font-bold text-orange-600">
+            <div className="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-to-br from-green-100 to-teal-100 flex items-center justify-center">
+              <span className="text-3xl font-bold text-green-600">
                 {patientStories[currentPatient].name.charAt(0)}
               </span>
             </div>
@@ -99,7 +99,7 @@ export default function TestimonialsSection({ testimonials }: TestimonialsSectio
               key={index}
               onClick={() => setCurrentPatient(index)}
               className={`w-3 h-3 rounded-full transition-colors duration-200 ${
-                index === currentPatient ? 'bg-orange-600' : 'bg-gray-300'
+                index === currentPatient ? 'bg-green-600' : 'bg-gray-300'
               }`}
             />
           ))}
@@ -109,7 +109,7 @@ export default function TestimonialsSection({ testimonials }: TestimonialsSectio
         <div className="text-center">
           <Link
             href="/testimonials"
-            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-600 via-teal-600 to-cyan-600 text-white font-semibold rounded-xl hover:from-green-700 hover:via-teal-700 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
             See More Patient Testimonials
             <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

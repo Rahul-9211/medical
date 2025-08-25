@@ -20,7 +20,7 @@ interface HospitalsSectionProps {
 export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
 
   return (
-    <section className="bg-white from-orange-50 via-white to-red-50 py-20 relative">
+    <section className="bg-white from-green-50 via-white to-teal-50 py-20 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -43,19 +43,19 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
               className="group bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
             >
               {/* Hospital Image */}
-              <div className="aspect-video bg-gradient-to-br from-orange-50 to-red-50 rounded-t-2xl overflow-hidden mb-4 relative">
-                <div className="w-full h-full bg-gradient-to-br from-orange-100 to-red-100 flex items-center justify-center">
-                  <span className="text-orange-600 font-bold text-2xl">
+              <div className="aspect-video bg-gradient-to-br from-green-50 to-teal-50 rounded-t-2xl overflow-hidden mb-4 relative">
+                <div className="w-full h-full bg-gradient-to-br from-green-100 to-teal-100 flex items-center justify-center">
+                  <span className="text-green-600 font-bold text-2xl">
                     {hospital.name.charAt(0)}
                   </span>
                 </div>
                 {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-orange-600/20 to-red-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-green-600/20 to-teal-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               
               {/* Hospital Info */}
               <div className="p-6">
-                <h4 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 mb-2">
+                <h4 className="text-lg font-bold text-gray-900 group-hover:text-green-600 transition-colors duration-300 mb-2">
                   {hospital.name}
                 </h4>
                 <p className="text-sm text-gray-600 mb-3">
@@ -66,7 +66,7 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
                 </p>
                 
                 {/* Accreditation Badge */}
-                <div className="flex items-center text-xs text-orange-600 font-medium">
+                <div className="flex items-center text-xs text-green-600 font-medium">
                   <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
@@ -79,7 +79,7 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
 
         {/* CTA Section */}
         <div className="text-center">
-          <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-3xl p-8 border border-orange-100 shadow-lg">
+          <div className="bg-gradient-to-r from-green-50 to-teal-50 rounded-3xl p-8 border border-green-100 shadow-lg">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Ready to Choose Your Hospital?
             </h3>
@@ -88,7 +88,7 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
             </p>
             <Link
               href="/hospitals"
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-600 via-teal-600 to-cyan-600 text-white font-semibold rounded-xl hover:from-green-700 hover:via-teal-700 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
             >
               See All Hospitals
               <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

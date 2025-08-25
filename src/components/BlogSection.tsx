@@ -49,8 +49,8 @@ export default function BlogSection() {
           {blogPosts.map((post, index) => (
             <article key={index} className="group bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
               {/* Post Image Placeholder */}
-              <div className="aspect-video bg-gradient-to-br from-orange-100 via-red-100 to-teal-100 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 via-red-500/20 to-teal-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="aspect-video bg-gradient-to-br from-green-100 via-teal-100 to-cyan-100 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-teal-500/20 to-cyan-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute top-4 left-4">
                   <span className="inline-block px-3 py-1 bg-white/90 backdrop-blur-sm text-xs font-semibold text-gray-700 rounded-full">
                     {post.category}
@@ -65,7 +65,7 @@ export default function BlogSection() {
               
               {/* Post Content */}
               <div className="p-6">
-                <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 mb-3 line-clamp-2">
+                <h3 className="text-lg font-bold text-gray-900 group-hover:text-green-600 transition-colors duration-300 mb-3 line-clamp-2">
                   {post.title}
                 </h3>
                 <p className="text-gray-600 text-sm mb-4 line-clamp-3">
@@ -75,7 +75,7 @@ export default function BlogSection() {
                 {/* Read More Link */}
                 <Link
                   href={`/blog/${post.title.toLowerCase().replace(/\s+/g, '-')}`}
-                  className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium text-sm group-hover:translate-x-1 transition-all duration-300"
+                  className="inline-flex items-center text-green-600 hover:text-green-700 font-medium text-sm group-hover:translate-x-1 transition-all duration-300"
                 >
                   Read More
                   <svg className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -89,7 +89,7 @@ export default function BlogSection() {
 
         {/* CTA Section */}
         <div className="text-center">
-          <div className="bg-gradient-to-r from-orange-50 via-red-50 to-teal-50 rounded-3xl p-8 border border-orange-100 shadow-lg max-w-4xl mx-auto">
+          <div className="bg-gradient-to-r from-green-50 via-teal-50 to-cyan-50 rounded-3xl p-8 border border-green-100 shadow-lg max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Stay Informed About Medical Tourism
             </h3>
@@ -99,14 +99,14 @@ export default function BlogSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/blog"
-                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-600 via-teal-600 to-cyan-600 text-white font-semibold rounded-xl hover:from-green-700 hover:via-teal-700 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
               >
                 Explore All Articles
                 <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </Link>
-              <button className="inline-flex items-center px-8 py-4 bg-white text-gray-900 font-semibold rounded-xl border-2 border-gray-200 hover:border-orange-300 hover:bg-orange-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg">
+              <button className="inline-flex items-center px-8 py-4 bg-white text-gray-900 font-semibold rounded-xl border-2 border-gray-200 hover:border-green-300 hover:bg-green-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg">
                 Subscribe to Newsletter
                 <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />

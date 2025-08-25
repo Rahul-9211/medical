@@ -57,10 +57,10 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
   ];
 
   return (
-    <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-orange-50">
+    <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-white-to-br from-orange-600/5 via-red-600/5 to-orange-600/5"></div>
-      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-400/10 to-red-400/10 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 bg-white-to-br from-green-600/5 via-teal-600/5 to-cyan-600/5"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-green-400/10 to-teal-400/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -82,20 +82,20 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
           {treatments.map((treatment, index) => (
             <div
               key={index}
-              className="group bg-white/80 backdrop-blur-sm rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-white/20 hover:border-orange-200 relative overflow-hidden"
+              className="group bg-white/80 backdrop-blur-sm rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-white/20 hover:border-green-200 relative overflow-hidden"
             >
               {/* Hover Effect Background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-red-50 to-teal-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-green-50 via-teal-50 to-cyan-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer"></div>
               
               {/* Content */}
               <div className="relative z-10 cursor-pointer">
                 <div className="text-4xl mb-4">{treatment.icon}</div>
                 
-                <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 mb-3">
+                <h3 className="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors duration-300 mb-3">
                   {treatment.name}
                 </h3>
                 
-                <div className="text-2xl font-bold text-orange-600 mb-3">
+                <div className="text-2xl font-bold text-green-600 mb-3">
                   {treatment.price}
                 </div>
                 
@@ -106,7 +106,7 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
                 {/* Learn More Link */}
                 <Link
                   href={`/treatments/${treatment.name.toLowerCase().replace(/\s+/g, '-')}`}
-                  className="inline-flex items-center text-orange-600 group-hover:text-orange-700 transition-colors duration-300 font-medium"
+                  className="inline-flex items-center text-green-600 group-hover:text-green-700 transition-colors duration-300 font-medium"
                 >
                   Learn More
                   <svg className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -135,7 +135,7 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
             
             <Link
               href="/treatments"
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 text-white font-semibold rounded-xl hover:from-orange-700 hover:via-red-700 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-600 via-teal-600 to-cyan-600 text-white font-semibold rounded-xl hover:from-green-700 hover:via-teal-700 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
             >
               Explore All Treatments
               <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
