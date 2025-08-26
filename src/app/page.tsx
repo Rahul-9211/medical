@@ -23,8 +23,36 @@ export default function Home() {
       <main>
         {/* Hero Section with Integrated Form - Full Viewport Height */}
         <section className="relative overflow-hidden min-h-screen flex items-center">
+          {/* Background Image Slideshow */}
+          <div className="absolute inset-0">
+            <img 
+              src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1920&h=1080&fit=crop&crop=center" 
+              alt="Modern hospital background"
+              className="w-full h-full object-cover animate-fade-in-out"
+              style={{
+                animation: 'fadeInOut 12s infinite'
+              }}
+            />
+            <img 
+              src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1920&h=1080&fit=crop&crop=center" 
+              alt="Hospital facility background"
+              className="absolute inset-0 w-full h-full object-cover animate-fade-in-out"
+              style={{
+                animation: 'fadeInOut 12s infinite 3s'
+              }}
+            />
+            <img 
+              src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1920&h=1080&fit=crop&crop=center" 
+              alt="Medical center background"
+              className="absolute inset-0 w-full h-full object-cover animate-fade-in-out"
+              style={{
+                animation: 'fadeInOut 12s infinite 6s'
+              }}
+            />
+            
+            <div className="absolute inset-0 bg-white/70"></div>
+          </div>
           {/* Background Pattern */}
-          <div className="absolute inset-0 bg-white"></div>
           <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
           
