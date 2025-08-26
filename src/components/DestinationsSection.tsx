@@ -86,9 +86,19 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {benefits.map((benefit, index) => (
-            <div key={index} className="group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div key={index} className={`group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 ${
+              index % 4 === 0 ? 'hover:border-[#7AE5F5]/30' : 
+              index % 4 === 1 ? 'hover:border-[#56DDEF]/30' : 
+              index % 4 === 2 ? 'hover:border-yellow-300/30' :
+              'hover:border-green-500/30'
+            }`}>
               <div className="text-4xl mb-4">{benefit.icon}</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
+              <h3 className={`text-xl font-bold text-gray-900 mb-3 transition-colors duration-300 ${
+                index % 4 === 0 ? 'group-hover:text-[#7AE5F5]' : 
+                index % 4 === 1 ? 'group-hover:text-[#56DDEF]' : 
+                index % 4 === 2 ? 'group-hover:text-yellow-500' :
+                'group-hover:text-green-600'
+              }`}>
                 {benefit.title}
               </h3>
               <p className="text-gray-600 leading-relaxed">
@@ -100,7 +110,7 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
 
         {/* Trust Statement */}
         <div className="text-center mb-16">
-          <div className="bg-gradient-to-r from-green-50/50 via-teal-50/50 to-cyan-50/50 rounded-3xl p-8 border border-green-100/50 shadow-lg max-w-4xl mx-auto">
+          <div className="bg-gradient-to-r from-[#7AE5F5]/20 via-[#56DDEF]/20 to-yellow-100/50 rounded-3xl p-8 border border-[#7AE5F5]/30 shadow-lg max-w-4xl mx-auto">
             <div className="text-6xl mb-4">🫶</div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Patient-First Philosophy
@@ -112,18 +122,18 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
         </div>
 
         {/* Statistics Section */}
-        <div className="bg-gradient-to-r from-green-50/50 via-teal-50/50 to-cyan-50/50 rounded-3xl p-8 border border-green-100/50">
+        <div className="bg-gradient-to-r from-[#7AE5F5]/20 via-[#56DDEF]/20 to-yellow-100/50 rounded-3xl p-8 border border-[#7AE5F5]/30">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-green-600 mb-2">500,000+</div>
+              <div className="text-4xl font-bold text-[#7AE5F5] mb-2">500,000+</div>
               <div className="text-gray-700 font-medium">International Patients</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-teal-600 mb-2">50+</div>
+              <div className="text-4xl font-bold text-[#56DDEF] mb-2">50+</div>
               <div className="text-gray-700 font-medium">JCI Accredited Hospitals</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-cyan-600 mb-2">70%</div>
+              <div className="text-4xl font-bold text-yellow-500 mb-2">70%</div>
               <div className="text-gray-700 font-medium">Cost Savings</div>
             </div>
           </div>

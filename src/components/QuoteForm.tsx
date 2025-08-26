@@ -276,9 +276,9 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="relative w-full bg-white text-green-900 px-8 py-4 rounded-xl font-semibold text-md cursor-pointer   border-1 border-green-700 overflow-hidden transition-all duration-500 shadow-lg hover:shadow-xl transform hover:-translate-y-1 group"
+            className="relative w-full bg-white text-[#56DDEF] px-8 py-4 rounded-xl font-semibold text-md cursor-pointer   border-1 border-[#56DDEF] overflow-hidden transition-all duration-500 shadow-lg hover:shadow-xl transform hover:-translate-y-1 group"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-teal-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#7AE5F5] to-[#56DDEF] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></div>
             <div className="relative z-10 flex items-center justify-center group-hover:text-white transition-colors duration-300">
             {isSubmitting ? (
               <div className="flex items-center justify-center">

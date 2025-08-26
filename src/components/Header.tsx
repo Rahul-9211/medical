@@ -66,7 +66,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <div className=" bg-gradient-to-r from-green-600 to-teal-600 rounded-lg flex items-center justify-center mr-2">
+              <div className=" bg-gradient-to-r from-[#7AE5F5] to-[#56DDEF] rounded-lg flex items-center justify-center mr-2">
               <Image src="/logo.png" alt="Logo" width={150} height={30} />
               </div>
              
@@ -80,14 +80,14 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                 {item.isCTA ? (
                   <Link
                     href={item.url}
-                    className="bg-gradient-to-r from-green-600 to-teal-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:from-green-700 hover:to-teal-700 transition-colors duration-200 ml-4"
+                    className="bg-gradient-to-r from-[#7AE5F5] to-[#56DDEF] text-white px-4 py-2 rounded-md text-sm font-medium hover:from-[#7AE5F5]/90 hover:to-[#56DDEF]/90 transition-colors duration-200 ml-4"
                   >
                     {item.name}
                   </Link>
                 ) : (
                   <div className="relative">
                     <button
-                      className="text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center"
+                      className="text-gray-700 hover:text-[#56DDEF] px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center"
                     >
                       {item.name}
                       {item.submenu && (
@@ -198,18 +198,18 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                         
                         {/* Mobile Dropdown */}
                         {item.submenu && mobileDropdowns[item.name] && (
-                          <div className="ml-4 mt-2 space-y-1 bg-green-50 rounded-lg p-3">
-                            {item.submenu.map((subItem: any, index: number) => (
-                              <Link
-                                key={index}
-                                href={subItem.url}
-                                className="text-gray-600 hover:text-green-600 block py-2 px-3 text-sm rounded-md hover:bg-white transition-colors duration-150"
-                                onClick={() => setIsMenuOpen(false)}
-                              >
-                                {subItem.country || subItem.name}
-                              </Link>
-                            ))}
-                          </div>
+                                                  <div className="ml-4 mt-2 space-y-1 bg-[#7AE5F5]/10 rounded-lg p-3">
+                          {item.submenu.map((subItem: any, index: number) => (
+                            <Link
+                              key={index}
+                              href={subItem.url}
+                              className="text-gray-600 hover:text-[#56DDEF] block py-2 px-3 text-sm rounded-md hover:bg-white transition-colors duration-150"
+                              onClick={() => setIsMenuOpen(false)}
+                            >
+                              {subItem.country || subItem.name}
+                            </Link>
+                          ))}
+                        </div>
                         )}
                       </div>
                     )}

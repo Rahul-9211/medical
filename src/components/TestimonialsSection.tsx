@@ -109,7 +109,7 @@ export default function TestimonialsSection({ testimonials }: TestimonialsSectio
         <div className="text-center">
           <Link
             href="/testimonials"
-            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-600 via-teal-600 to-cyan-600 text-white font-semibold rounded-xl hover:from-green-700 hover:via-teal-700 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+            className="inline-flex items-center px-8 py-4 bg-[#7AE5F5] text-white font-semibold rounded-xl hover:bg-[#7AE5F5]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
             See More Patient Testimonials
             <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
