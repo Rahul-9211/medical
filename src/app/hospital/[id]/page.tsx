@@ -4,9 +4,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
 
-export default async function HospitalPage({ params }: { params: { id: string } }) {
+type Params = Promise<{ id: string }>;
+
+export default async function HospitalPage({
+    params,
+  }: { params: Params }) {
+    const { id } = await params;
+
   const baseUrl = process.env.NEXT_PUBLIC_API_URL || "";
-  const res = await fetch(`${baseUrl}/hospitaldata/${params.id}.json`, { cache: "no-store" });
+  const res = await fetch(`${baseUrl}/hospitaldata/${id}.json`, { cache: "no-store" });
 
   if (!res.ok) return notFound();
   const hospital = await res.json();
