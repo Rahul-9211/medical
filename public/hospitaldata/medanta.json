@@ -1,0 +1,232 @@
+{
+    "id": "medanta-gurgaon",
+    "name": "Medanta - The Medicity Hospital, Gurgaon",
+    "rating": { "value": 3.8, "reviews": 69 },
+    "patientsRecommended": { "percent": 95 },
+    "location": {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "country": "India",
+      "address": "Sector 38, Gurugram, Haryana 122001"
+    },
+    "established": 2009,
+    "accreditations": ["NABH", "JCI", "NABL"],
+    "specialty": "Super Specialty",
+    "beds": 1600,
+    "about": {
+      "overview": "Established in 2009 by Dr. Naresh Trehan, Medanta is one of India's largest and most respected multi-super speciality hospitals with international accreditation from JCI and national accreditations from NABH and NABL.",
+      "awards": [
+        "Top 250 global hospitals - Newsweek 2023",
+        "Best Private Hospital in India 2020-2023",
+        "Top Hospitals across 9 categories - Time Health Survey 2022",
+        "Best Multi-Specialty Hospital - Time Health Survey 2021",
+        "India Healthcare Award 2020 - Medical Tourism",
+        "VCCircle Healthcare Award 2013 - Single-Specialty",
+        "Pioneer in Robotic Surgeries (Cardiology, Urology, Gynaecology)"
+      ],
+      "milestones": [
+        "India's First Successful Intestinal Transplant (2013)",
+        "15,000+ cardiac surgeries performed",
+        "2,500+ joint replacements",
+        "500+ Living Donor Liver Transplants (highest in India, 2nd globally)",
+        "30 Total Knee Replacements in a single day - World Record",
+        "Asia's First Bloodless Bone Marrow Transplant",
+        "India’s First Air Ambulance (Flying Doctors India) launched in 2013"
+      ]
+    },
+    "internationalPatientServices": {
+      "annualPatients": 20000,
+      "countries": 30,
+      "services": [
+        "Pre-arrival Consultation & Case Review",
+        "Visa & Travel Assistance",
+        "Airport Pick-up/Drop-off",
+        "Multilingual Interpreters",
+        "Express Check-in & Personal Coordinators",
+        "Assistance with Accommodation & Food"
+      ]
+    },
+    "departments": [
+      {
+        "name": "Cardiology and Cardiac Surgery",
+        "doctorCount": 27,
+        "doctors": [
+          {
+            "id": "naresh-trehan",
+            "name": "Dr. Naresh Trehan",
+            "specialty": "Cardiac Surgeon",
+            "experienceYears": 56,
+            "rating": 4.9,
+            "profileUrl": "/doctors/cardiology/medanta-gurgaon/naresh-trehan"
+          },
+          {
+            "id": "anil-bhan",
+            "name": "Dr. Anil Bhan",
+            "specialty": "Cardiac Surgeon",
+            "experienceYears": 49,
+            "rating": 4.7,
+            "profileUrl": "/doctors/cardiology/medanta-gurgaon/anil-bhan"
+          }
+        ]
+      },
+      {
+        "name": "Endocrinology",
+        "doctorCount": 7,
+        "doctors": [
+          {
+            "id": "a-n-aggarwal",
+            "name": "Dr. A. N. Aggarwal",
+            "specialty": "Endocrinologist",
+            "experienceYears": 25,
+            "rating": 4.5,
+            "profileUrl": "/doctors/endocrinology/medanta-gurgaon/a-n-aggarwal"
+          }
+        ]
+      },
+      {
+        "name": "Pulmonology",
+        "doctorCount": 4,
+        "doctors": [
+          {
+            "id": "anand-jaiswal",
+            "name": "Dr. Anand Jaiswal",
+            "specialty": "Pulmonologist",
+            "experienceYears": 36,
+            "rating": 5.0,
+            "profileUrl": "/doctors/pulmonology/medanta-gurgaon/anand-jaiswal"
+          }
+        ]
+      },
+      {
+        "name": "Vascular Surgery",
+        "doctorCount": 4,
+        "doctors": [
+          {
+            "id": "rajiv-parakh",
+            "name": "Dr. Rajiv Parakh",
+            "specialty": "Vascular Surgeon",
+            "experienceYears": 42,
+            "rating": 5.0,
+            "profileUrl": "/doctors/vascular-surgery/medanta-gurgaon/rajiv-parakh"
+          }
+        ]
+      }
+    ],
+    "topDoctors": [
+      {
+        "id": "rajiv-parakh",
+        "name": "Dr. Rajiv Parakh",
+        "specialty": "Vascular Surgeon",
+        "rating": 5.0,
+        "experienceYears": 42,
+        "profileUrl": "/doctors/vascular-surgery/medanta-gurgaon/rajiv-parakh"
+      },
+      {
+        "id": "naresh-trehan",
+        "name": "Dr. Naresh Trehan",
+        "specialty": "Cardiac Surgeon",
+        "rating": 4.9,
+        "experienceYears": 56,
+        "profileUrl": "/doctors/cardiology/medanta-gurgaon/naresh-trehan"
+      },
+      {
+        "id": "anand-jaiswal",
+        "name": "Dr. Anand Jaiswal",
+        "specialty": "Pulmonologist",
+        "rating": 5.0,
+        "experienceYears": 36,
+        "profileUrl": "/doctors/pulmonology/medanta-gurgaon/anand-jaiswal"
+      },
+      {
+        "id": "anil-bhan",
+        "name": "Dr. Anil Bhan",
+        "specialty": "Cardiac Surgeon",
+        "rating": 4.7,
+        "experienceYears": 49,
+        "profileUrl": "/doctors/cardiology/medanta-gurgaon/anil-bhan"
+      }
+    ],
+    "teamAndSpecialities": {
+      "doctorsCount": 900,
+      "staffCount": 500,
+      "specialitiesCount": 30,
+      "centersOfExcellence": [
+        "Heart Institute",
+        "Institute of Neurosciences",
+        "Bone & Joint Institute",
+        "Cancer Institute",
+        "Institute of Gastrointestinal Sciences"
+      ]
+    },
+    "facilities": {
+      "comfort": [
+        "Private rooms",
+        "Free Wifi",
+        "Laundry",
+        "Fitness",
+        "Spa",
+        "Café",
+        "Business Centre",
+        "Beauty Salon",
+        "Parking"
+      ],
+      "infrastructure": [
+        "2.1M sq.ft. campus",
+        "1391+ beds",
+        "270+ ICU beds",
+        "40+ Modular OTs",
+        "CyberKnife Radiosurgery",
+        "256-Slice CT Scanner",
+        "3.0 Tesla MRI",
+        "PET-CT",
+        "Tomotherapy",
+        "BrainSUITE with intra-op MRI",
+        "Contoura Vision FemtoLASIK"
+      ]
+    },
+    "address": {
+      "full": "Medanta - The Medicity, Gurgaon, 122001, India",
+      "nearby": [
+        { "place": "IGI Airport Delhi", "distanceKm": 15, "duration": "30–45 mins" },
+        { "place": "HUDA City Metro Station", "distanceKm": 10, "duration": "10–15 mins" },
+        { "place": "Gurgaon Railway Station", "distanceKm": 9, "duration": "20–30 mins" }
+      ]
+    },
+    "reviews": [
+      {
+        "patient": "Ms. Merian Numake",
+        "country": "Vanuatu",
+        "rating": 5,
+        "feedback": "Acupuncture program for chronic pain was excellent"
+      },
+      {
+        "patient": "Challamuthu",
+        "country": "Australia",
+        "rating": 5,
+        "feedback": "Wonderful hospital and staff"
+      },
+      {
+        "patient": "Betty Kaluwa",
+        "country": "Zambia",
+        "rating": 5,
+        "feedback": "Received excellent treatment"
+      }
+    ],
+    "media": {
+    "images": [
+      { "url": "/images/hospitals/medanta/front-view.jpg", "visible": true },
+      { "url": "/images/hospitals/medanta/lobby.jpg", "visible": false },
+      { "url": "/images/hospitals/medanta/icu.jpg", "visible": true }
+    ],
+    "videos": [
+      { "url": "https://youtube.com/embed/example1", "visible": true },
+      { "url": "https://youtube.com/embed/example2", "visible": false }
+      ]
+      },
+    "contact": {
+      "phone": "+91-124-4141414",
+      "email": "info@medanta.org",
+      "website": "https://www.medanta.org"
+    }
+  }
+  
