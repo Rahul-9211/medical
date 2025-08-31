@@ -69,31 +69,31 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-white rounded-full mb-6 shadow-lg  text-4xl border border-gray-100">
+          <div className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-3xl sm:text-4xl border border-gray-100">
           <ReactCountryFlag countryCode="IN" svg style={{
             fontSize: '1.2em',
             lineHeight: '1.2em',
           }} />
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 mb-6">
             Why Patients Choose India for Medical Tourism
           </h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base md:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Affordable, Reliable & World-Renowned — Discover Why India Is the Preferred Healthcare Destination
           </p>
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-16">
           {benefits.map((benefit, index) => (
-            <div key={index} className={`group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 ${
+            <div key={index} className={`group bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 ${
               index % 4 === 0 ? 'hover:border-[#7AE5F5]/30' : 
               index % 4 === 1 ? 'hover:border-[#56DDEF]/30' : 
               index % 4 === 2 ? 'hover:border-yellow-300/30' :
               'hover:border-green-500/30'
             }`}>
-              <div className="text-4xl mb-4">{benefit.icon}</div>
-              <h3 className={`text-xl font-bold text-gray-900 mb-3 transition-colors duration-300 ${
+              <div className="text-2xl sm:text-3xl md:text-4xl mb-4">{benefit.icon}</div>
+              <h3 className={`text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 transition-colors duration-300 ${
                 index % 4 === 0 ? 'group-hover:text-[#7AE5F5]' : 
                 index % 4 === 1 ? 'group-hover:text-[#56DDEF]' : 
                 index % 4 === 2 ? 'group-hover:text-yellow-500' :
@@ -101,7 +101,7 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
               }`}>
                 {benefit.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 {benefit.description}
               </p>
             </div>
@@ -111,11 +111,11 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
         {/* Trust Statement */}
         <div className="text-center mb-16">
           <div className="bg-gradient-to-r from-[#7AE5F5]/20 via-[#56DDEF]/20 to-yellow-100/50 rounded-3xl p-8 border border-[#7AE5F5]/30 shadow-lg max-w-4xl mx-auto">
-            <div className="text-6xl mb-4">🫶</div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            <div className="text-4xl sm:text-5xl md:text-6xl mb-4">🫶</div>
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-4">
               Patient-First Philosophy
             </h3>
-            <p className="text-xl text-gray-700 leading-relaxed italic">
+            <p className="text-sm sm:text-base md:text-xl text-gray-700 leading-relaxed italic">
               "We focus on healing, not billing. Your health comes first — always."
             </p>
           </div>
@@ -123,18 +123,18 @@ export default function DestinationsSection({ destinations }: DestinationsSectio
 
         {/* Statistics Section */}
         <div className="bg-gradient-to-r from-[#7AE5F5]/20 via-[#56DDEF]/20 to-yellow-100/50 rounded-3xl p-8 border border-[#7AE5F5]/30">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-[#7AE5F5] mb-2">500,000+</div>
-              <div className="text-gray-700 font-medium">International Patients</div>
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7AE5F5] mb-2">500,000+</div>
+              <div className="text-sm sm:text-base text-gray-700 font-medium">International Patients</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#56DDEF] mb-2">50+</div>
-              <div className="text-gray-700 font-medium">JCI Accredited Hospitals</div>
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#56DDEF] mb-2">50+</div>
+              <div className="text-sm sm:text-base text-gray-700 font-medium">JCI Accredited Hospitals</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-yellow-500 mb-2">70%</div>
-              <div className="text-gray-700 font-medium">Cost Savings</div>
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-500 mb-2">70%</div>
+              <div className="text-sm sm:text-base text-gray-700 font-medium">Cost Savings</div>
             </div>
           </div>
         </div>
