@@ -1,19 +1,22 @@
 {
     "id": "medanta-gurgaon",
     "name": "Medanta - The Medicity Hospital, Gurgaon",
+    "visible": true,
     "rating": { "value": 3.8, "reviews": 69 },
     "patientsRecommended": { "percent": 95 },
     "location": {
       "city": "Gurgaon",
       "state": "Haryana",
       "country": "India",
-      "address": "Sector 38, Gurugram, Haryana 122001"
+      "address": "Sector 38, Gurugram, Haryana 122001",
+      "visible": true
     },
     "established": 2009,
     "accreditations": ["NABH", "JCI", "NABL"],
     "specialty": "Super Specialty",
     "beds": 1600,
     "about": {
+      "visible": true,
       "overview": "Established in 2009 by Dr. Naresh Trehan, Medanta is one of India's largest and most respected multi-super speciality hospitals with international accreditation from JCI and national accreditations from NABH and NABL.",
       "awards": [
         "Top 250 global hospitals - Newsweek 2023",
@@ -35,6 +38,7 @@
       ]
     },
     "internationalPatientServices": {
+      "visible": true,
       "annualPatients": 20000,
       "countries": 30,
       "services": [
@@ -46,8 +50,10 @@
         "Assistance with Accommodation & Food"
       ]
     },
-    "departments": [
-      {
+    "departments": {
+    "visible": true,
+    "list": [
+        {
         "name": "Cardiology and Cardiac Surgery",
         "doctorCount": 27,
         "doctors": [
@@ -111,8 +117,11 @@
           }
         ]
       }
-    ],
-    "topDoctors": [
+    ]
+},
+    "topDoctors": {
+      "visible": true,
+      "list": [
       {
         "id": "rajiv-parakh",
         "name": "Dr. Rajiv Parakh",
@@ -145,8 +154,10 @@
         "experienceYears": 49,
         "profileUrl": "/doctors/cardiology/medanta-gurgaon/anil-bhan"
       }
-    ],
+    ]
+    },
     "teamAndSpecialities": {
+      "visible": true,
       "doctorsCount": 900,
       "staffCount": 500,
       "specialitiesCount": 30,
@@ -159,6 +170,7 @@
       ]
     },
     "facilities": {
+      "visible": true,
       "comfort": [
         "Private rooms",
         "Free Wifi",
@@ -185,6 +197,7 @@
       ]
     },
     "address": {
+      "visible": true,
       "full": "Medanta - The Medicity, Gurgaon, 122001, India",
       "nearby": [
         { "place": "IGI Airport Delhi", "distanceKm": 15, "duration": "30–45 mins" },
@@ -197,19 +210,22 @@
         "patient": "Ms. Merian Numake",
         "country": "Vanuatu",
         "rating": 5,
-        "feedback": "Acupuncture program for chronic pain was excellent"
+        "feedback": "Acupuncture program for chronic pain was excellent",
+        "visible": true
       },
       {
         "patient": "Challamuthu",
         "country": "Australia",
         "rating": 5,
-        "feedback": "Wonderful hospital and staff"
+        "feedback": "Wonderful hospital and staff",
+        "visible": true
       },
       {
         "patient": "Betty Kaluwa",
         "country": "Zambia",
         "rating": 5,
-        "feedback": "Received excellent treatment"
+        "feedback": "Received excellent treatment",
+        "visible": true
       }
     ],
     "media": {
