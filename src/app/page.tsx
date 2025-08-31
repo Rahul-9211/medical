@@ -2,6 +2,7 @@ import websiteData from '@/data/websiteData.json';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import QuoteForm from '@/components/QuoteForm';
+import PartnersHospitalSection from '@/components/PartnersHospitalSection';
 import DestinationsSection from '@/components/DestinationsSection';
 import SpecialtiesSection from '@/components/SpecialtiesSection';
 import HospitalsSection from '@/components/HospitalsSection';
@@ -118,20 +119,23 @@ export default function Home() {
           </div>
         </section>
         
-        {/* Why Patients Choose India Section */}
-        <DestinationsSection destinations={websiteData.destinations} />
+        {/* Our Partner Hospitals Section */}
+        <PartnersHospitalSection hospitals={websiteData.hospitals} />
         
         {/* Top Medical Treatments Section */}
         <SpecialtiesSection specialties={websiteData.specialties} />
         
-        {/* Partner Hospitals Section */}
-        <HospitalsSection hospitals={websiteData.hospitals} />
+        {/* Ayurveda & Holistic Recovery Section */}
+        <AyurvedaSection />
         
         {/* All-Inclusive Patient Services Section */}
         <ServicesSection services={websiteData.services} />
         
-        {/* Ayurveda & Holistic Recovery Section */}
-        <AyurvedaSection />
+        {/* Partner Hospitals Section */}
+        <HospitalsSection hospitals={websiteData.hospitals} />
+        
+        {/* Why Patients Choose India Section */}
+        <DestinationsSection destinations={websiteData.destinations} />
         
         {/* Real Patient Stories Section */}
         <TestimonialsSection testimonials={websiteData.testimonials} />

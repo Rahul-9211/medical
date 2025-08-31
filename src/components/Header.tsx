@@ -66,8 +66,8 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <div className=" bg-gradient-to-r from-[#7AE5F5] to-[#56DDEF] rounded-lg flex items-center justify-center mr-2">
-              <Image src="/logo.png" alt="Logo" width={150} height={30} />
+              <div className="  rounded-lg flex items-center justify-center mr-2">
+              <Image src="/logo.png" className='bg-white' alt="Logo" width={160} height={35} />
               </div>
              
             </Link>
