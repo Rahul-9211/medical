@@ -65,12 +65,11 @@
       },
       {
         "name": "Hospitals",
-        "url": "/hospitals",
+        "url": "/hospital",
         "submenu": [
           {
-            "country": "India",
-            "url": "/hospitals/india",
-            "specialties": ["Cardiology", "Cosmetic", "Gynecology", "Hematology", "IVF and Infertility", "Neurosurgery", "Oncology", "Orthopedics", "Spine Surgery"]
+            "name": "medanta",
+            "url": "/hospital/medanta"
           }
         ]
       },
