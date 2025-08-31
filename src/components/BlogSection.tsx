@@ -46,19 +46,19 @@ export default function BlogSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+          <div className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-3xl sm:text-4xl">
           📖
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 mb-6">
             From the Blog – Must-Read Guides
           </h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base md:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Expert insights, practical tips, and comprehensive guides to help you make informed decisions about your medical journey to India.
           </p>
         </div>
 
         {/* Blog Posts Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-16">
           {blogPosts.map((post, index) => (
             <article key={index} className="group bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
               {/* Post Image */}
@@ -81,16 +81,16 @@ export default function BlogSection() {
                     {post.category}
                   </span>
                 </div>
-                <div className="absolute bottom-4 right-4">
+                {/* <div className="absolute bottom-4 right-4">
                   <span className="inline-block px-2 py-1 bg-white/90 backdrop-blur-sm text-xs text-gray-600 rounded-full">
                     {post.readTime}
                   </span>
-                </div>
+                </div> */}
               </div>
               
               {/* Post Content */}
-              <div className="p-6">
-                <h3 className={`text-lg font-bold text-gray-900 transition-colors duration-300 mb-3 line-clamp-2 ${
+              <div className="p-4 sm:p-6">
+                <h3 className={`text-base sm:text-lg md:text-xl font-bold text-gray-900 transition-colors duration-300 mb-3 line-clamp-2 ${
                   index % 4 === 0 ? 'group-hover:text-[#7AE5F5]' : 
                   index % 4 === 1 ? 'group-hover:text-[#56DDEF]' : 
                   index % 4 === 2 ? 'group-hover:text-yellow-500' :
@@ -98,7 +98,7 @@ export default function BlogSection() {
                 }`}>
                   {post.title}
                 </h3>
-                <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                <p className="text-gray-600 text-xs sm:text-sm mb-4 line-clamp-3">
                   {post.excerpt}
                 </p>
                 
@@ -125,23 +125,23 @@ export default function BlogSection() {
         {/* CTA Section */}
         <div className="text-center">
           <div className="bg-gradient-to-r from-[#7AE5F5]/20 via-white to-[#56DDEF]/20 rounded-3xl p-8 border border-[#7AE5F5]/30 shadow-lg max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-4">
               Stay Informed About Medical Tourism
             </h3>
-            <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
               Get the latest insights, cost comparisons, and travel tips delivered to your inbox. Join thousands of patients who trust our expert guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/blog"
-                className="inline-flex items-center px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+                className="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-base sm:text-lg"
               >
                 Explore All Articles
                 <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </Link>
-              <button className="inline-flex items-center px-8 py-4 bg-white text-gray-900 font-semibold rounded-xl border-2 border-gray-200 hover:border-[#56DDEF] hover:bg-[#56DDEF]/10 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg">
+              <button className="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-white text-gray-900 font-semibold rounded-xl border-2 border-gray-200 hover:border-[#56DDEF] hover:bg-[#56DDEF]/10 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-base sm:text-lg">
                 Subscribe to Newsletter
                 <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a0 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />

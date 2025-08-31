@@ -38,19 +38,19 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+          <div className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-3xl sm:text-4xl">
           🏥
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 mb-6">
             {hospitals.title}
           </h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base md:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Get Treated at India's Top JCI & NABH-Accredited Hospitals
           </p>
         </div>
 
         {/* Hospitals Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-16">
           {hospitals.list.map((hospital, index) => (
             <div
               key={index}
@@ -80,7 +80,7 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
                     'bg-green-100'
                   }`}
                 >
-                  <span className={`font-bold text-2xl ${
+                  <span className={`font-bold text-xl sm:text-2xl ${
                     index % 4 === 0 ? 'text-[#7AE5F5]' : 
                     index % 4 === 1 ? 'text-[#56DDEF]' : 
                     index % 4 === 2 ? 'text-yellow-600' :
@@ -99,8 +99,8 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
               </div>
               
               {/* Hospital Info */}
-              <div className="p-6">
-                <h4 className={`text-lg font-bold text-gray-900 transition-colors duration-300 mb-2 ${
+              <div className="p-4 sm:p-6">
+                <h4 className={`text-base sm:text-lg md:text-xl font-bold text-gray-900 transition-colors duration-300 mb-2 ${
                   index % 4 === 0 ? 'group-hover:text-[#7AE5F5]' : 
                   index % 4 === 1 ? 'group-hover:text-[#56DDEF]' : 
                   index % 4 === 2 ? 'group-hover:text-yellow-500' :
@@ -135,15 +135,15 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
         {/* CTA Section */}
         <div className="text-center">
           <div className="bg-[#7AE5F5]/10 rounded-3xl p-8 border border-[#7AE5F5]/30 shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-4">
               Ready to Choose Your Hospital?
             </h3>
-            <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
               Our medical coordinators will help you select the best hospital based on your specific treatment needs, budget, and preferences.
             </p>
             <Link
               href="/hospitals"
-              className="inline-flex items-center px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+              className="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-base sm:text-lg"
             >
               See All Hospitals
               <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
