@@ -15,80 +15,114 @@
   "navigation": {
     "mainMenu": [
       {
-        "name": "Home",
-        "url": "/"
-      },
-      {
         "name": "About Us",
         "url": "/about-us"
       },
       {
-        "name": "Medical Treatments",
-        "url": "/medical-treatments",
+        "name": "Top Hospitals in India",
+        "url": "/hospitals",
         "submenu": [
-          { "name": "Cardiology & Heart Surgery", "url": "/medical-treatments/cardiology-heart-surgery" },
-          { "name": "Orthopedics & Joint Replacement", "url": "/medical-treatments/orthopedics-joint-replacement" },
-          { "name": "Neurosurgery & Spine Treatment", "url": "/medical-treatments/neurosurgery-spine-treatment" },
-          { "name": "Oncology (Cancer Treatment)", "url": "/medical-treatments/oncology-cancer-treatment" },
-          { "name": "IVF & Fertility Treatment", "url": "/medical-treatments/ivf-fertility-treatment" },
-          { "name": "Liver & Kidney Transplant", "url": "/medical-treatments/liver-kidney-transplant" },
-          { "name": "General & Laparoscopic Surgery", "url": "/medical-treatments/general-laparoscopic-surgery" },
-          { "name": "Gastroenterology & Bariatric Surgery", "url": "/medical-treatments/gastroenterology-bariatric-surgery" },
-          { "name": "Urology & Prostate Care", "url": "/medical-treatments/urology-prostate-care" },
-          { "name": "ENT (Ear, Nose, Throat)", "url": "/medical-treatments/ent-ear-nose-throat" },
-          { "name": "Plastic & Reconstructive Surgery", "url": "/medical-treatments/plastic-reconstructive-surgery" },
-          { "name": "Dental Care & Oral Surgery", "url": "/medical-treatments/dental-care-oral-surgery" },
-          { "name": "Eye & Vision Treatment", "url": "/medical-treatments/eye-vision-treatment" },
-          { "name": "Pulmonology & Respiratory Care", "url": "/medical-treatments/pulmonology-respiratory-care" },
-          { "name": "Dermatology & Skin Treatment", "url": "/medical-treatments/dermatology-skin-treatment" },
-          { "name": "Pediatrics & Neonatal Care", "url": "/medical-treatments/pediatrics-neonatal-care" },
-          { "name": "Rheumatology & Autoimmune Disorders", "url": "/medical-treatments/rheumatology-autoimmune-disorders" },
-          { "name": "Endocrinology (Diabetes, Thyroid)", "url": "/medical-treatments/endocrinology-diabetes-thyroid" },
-          { "name": "Psychiatry & Mental Health", "url": "/medical-treatments/psychiatry-mental-health" },
-          { "name": "Haematology", "url": "/medical-treatments/haematology" }
+          { "name": "Medanta Hospital, Gurugram", "url": "/hospital/medanta" },
+          { "name": "Fortis Memorial Research Institute, Gurugram", "url": "/hospital/fortis-memorial" },
+          { "name": "Artemis Hospital, Gurugram", "url": "/hospital/artemis" },
+          { "name": "Max Super Speciality Hospital, Gurugram", "url": "/hospital/max-super-speciality" },
+          { "name": "Paras Hospital, Gurugram", "url": "/hospital/paras" },
+          { "name": "Manipal Hospital, Gurugram", "url": "/hospital/manipal" },
+          { "name": "Narayana Superspeciality Hospital, Gurugram", "url": "/hospital/narayana" },
+          { "name": "Marengo Asia Hospital, Gurugram", "url": "/hospital/marengo-asia" },
+          { "name": "CK Birla Hospital, Gurugram", "url": "/hospital/ck-birla" },
+          { "name": "View All Partner Hospitals →", "url": "/hospital" }
         ]
       },
       {
-        "name": "Ayurveda & Wellness",
-        "url": "/ayurveda-wellness",
+        "name": "Treatments in India",
+        "url": "/treatments",
         "submenu": [
-          { "name": "Online Ayurvedic Consultations", "url": "/ayurveda-wellness/online-consultations" },
-          { "name": "Panchakarma Detox Therapy", "url": "/ayurveda-wellness/panchakarma-detox-therapy" },
-          { "name": "Weight Loss", "url": "/ayurveda-wellness/weight-loss" },
-          { "name": "Diet & Lifestyle Coaching", "url": "/ayurveda-wellness/diet-lifestyle-coaching" },
-          { "name": "Post-Cancer & Post-Surgery Recovery", "url": "/ayurveda-wellness/post-cancer-surgery-recovery" },
-          { "name": "Skin & Hair Rejuvenation", "url": "/ayurveda-wellness/skin-hair-rejuvenation" },
-          { "name": "PCOD & Infertility Treatments", "url": "/ayurveda-wellness/pcod-infertility-treatments" },
-          { "name": "Pregnancy Programmes & Support", "url": "/ayurveda-wellness/pregnancy-programmes-support" },
-          { "name": "Wellness Retreat in India", "url": "/ayurveda-wellness/wellness-retreat-india" }
+          { "name": "Heart Surgery & Cardiology", "url": "/treatments/cardiology-heart-surgery" },
+          { "name": "Orthopedic Surgery & Joint Replacements", "url": "/treatments/orthopedics-joint-replacements" },
+          { "name": "Neurosurgery & Spine Treatments", "url": "/treatments/neurosurgery-spine" },
+          { "name": "Cancer Treatment (Oncology)", "url": "/treatments/oncology-cancer" },
+          { "name": "IVF & Fertility Treatments", "url": "/treatments/ivf-fertility" },
+          { "name": "Liver & Kidney Transplant", "url": "/treatments/liver-kidney-transplant" },
+          { "name": "General & Laparoscopic Surgery", "url": "/treatments/general-laparoscopic" },
+          { "name": "Bariatric & Weight Loss Surgery", "url": "/treatments/bariatric-weight-loss" },
+          { "name": "Urology & Prostate Care", "url": "/treatments/urology-prostate" },
+          { "name": "ENT (Ear, Nose, Throat)", "url": "/treatments/ent" },
+          { "name": "Plastic & Cosmetic Surgery", "url": "/treatments/plastic-cosmetic" },
+          { "name": "Dental Implants & Oral Care", "url": "/treatments/dental-implants-oral-care" },
+          { "name": "Eye Treatment & LASIK Surgery", "url": "/treatments/eye-lasik" },
+          { "name": "Lung & Respiratory Care", "url": "/treatments/lung-respiratory" },
+          { "name": "Skin & Dermatology Treatments", "url": "/treatments/skin-dermatology" },
+          { "name": "Pediatric & Neonatal Care", "url": "/treatments/pediatrics-neonatal" },
+          { "name": "Autoimmune & Rheumatology", "url": "/treatments/autoimmune-rheumatology" },
+          { "name": "Diabetes, Thyroid & Hormonal Care", "url": "/treatments/diabetes-thyroid" },
+          { "name": "Mental Health & Psychiatry", "url": "/treatments/mental-health-psychiatry" },
+          { "name": "Blood Disorders (Hematology)", "url": "/treatments/hematology" }
         ]
       },
       {
-        "name": "Hospitals",
-        "url": "/hospital",
+        "name": "Cost of Treatment",
+        "url": "/treatment-cost",
         "submenu": [
-          {
-            "name": "medanta",
-            "url": "/hospital/medanta"
-          }
+          { "name": "Heart Surgery – Cost in India", "url": "/treatment-cost/heart-surgery" },
+          { "name": "Knee & Hip Replacement – Cost", "url": "/treatment-cost/knee-hip-replacement" },
+          { "name": "Cancer Treatment – Cost", "url": "/treatment-cost/cancer" },
+          { "name": "IVF & Fertility – Cost", "url": "/treatment-cost/ivf-fertility" },
+          { "name": "Liver & Kidney Transplant – Cost", "url": "/treatment-cost/liver-kidney-transplant" },
+          { "name": "Bariatric Surgery – Cost", "url": "/treatment-cost/bariatric" },
+          { "name": "Dental Implants – Cost", "url": "/treatment-cost/dental-implants" },
+          { "name": "Eye & LASIK Surgery – Cost", "url": "/treatment-cost/eye-lasik" },
+          { "name": "Plastic & Cosmetic Surgery – Cost", "url": "/treatment-cost/plastic-cosmetic" },
+          { "name": "View All", "url": "/treatment-cost" }
         ]
       },
       {
-        "name": "Services",
+        "name": "Ayurveda & Holistic Care",
+        "url": "/ayurveda",
+        "submenu": [
+          { "name": "Panchakarma & Detox Therapy", "url": "/ayurveda/panchakarma-detox" },
+          { "name": "Post-Surgery Recovery with Ayurveda", "url": "/ayurveda/post-surgery-recovery" },
+          { "name": "Ayurvedic Weight Management", "url": "/ayurveda/weight-management" },
+          { "name": "Skin & Hair Rejuvenation", "url": "/ayurveda/skin-hair" },
+          { "name": "PCOD, PCOS & Hormonal Imbalance", "url": "/ayurveda/pcod-pcos" },
+          { "name": "Pregnancy & Postpartum Ayurveda", "url": "/ayurveda/pregnancy-postpartum" },
+          { "name": "Stress, Sleep & Mental Balance", "url": "/ayurveda/stress-sleep" },
+          { "name": "Wellness Retreats in India", "url": "/ayurveda/wellness-retreats" },
+          { "name": "Online Ayurvedic Consultations", "url": "/ayurveda/online-consultations" }
+        ]
+      },
+      {
+        "name": "Patient Services",
         "url": "/services",
         "submenu": [
-          { "name": "Medical Visa & Travel", "url": "/services/medical-visa-travel" },
-          { "name": "Patient Care & Medical Coordination", "url": "/services/patient-care-medical-coordination" },
-          { "name": "Accommodation & Ground Support", "url": "/services/accommodation-ground-support" }
+          { "name": "Medical Visa Assistance & Travel", "url": "/services/medical-visa-travel" },
+          { "name": "Free Second Opinion & Online Consultations", "url": "/services/second-opinion" },
+          { "name": "Air Ambulance", "url": "/services/air-ambulance" },
+          { "name": "Airport Pickup & Transfers", "url": "/services/airport-pickup" },
+          { "name": "Stay & Accommodation Near Hospitals", "url": "/services/accommodation" },
+          { "name": "Dedicated 24/7 Assistance", "url": "/services/assistance" },
+          { "name": "Affordable Treatment Cost", "url": "/services/affordable-treatment" },
+          { "name": "Post-Treatment Recovery & Follow-Up", "url": "/services/post-treatment-recovery" }
         ]
       },
       {
-        "name": "Blog",
-        "url": "/blog"
+        "name": "Success Stories",
+        "url": "/success-stories"
       },
       {
-        "name": "Contact Us",
-        "url": "/contact-us",
+        "name": "Blog & Guides",
+        "url": "/blog",
+        "submenu": [
+          { "name": "Medical Tourism Guide", "url": "/blog/medical-tourism-guide" },
+          { "name": "What to Expect During Treatment in India", "url": "/blog/what-to-expect" },
+          { "name": "Tips for International Patients", "url": "/blog/tips-for-patients" },
+          { "name": "FAQs About Indian Healthcare", "url": "/blog/faqs" },
+          { "name": "Latest Blog Articles →", "url": "/blog" }
+        ]
+      },
+      {
+        "name": "Free Consultation",
+        "url": "/free-consultation",
         "isCTA": true
       }
     ],
