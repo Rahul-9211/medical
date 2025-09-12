@@ -1,0 +1,85 @@
+{
+    "name": "Pregnancy & Postpartum Ayurveda",
+    "headline": "Natural Care for Mothers and Babies",
+    "intro": "Ayurveda offers time-tested care for women during pregnancy, childbirth, and postpartum recovery. By using herbal remedies, gentle therapies, yoga, and diet support, Ayurveda helps expectant mothers stay healthy, ensures safe delivery, and supports faster recovery after childbirth. For postpartum mothers, Ayurvedic care focuses on healing the body, balancing hormones, restoring energy, and supporting lactation — while also caring for the newborn’s health.",
+    "benefits": [
+      "Promotes a healthy pregnancy & safe delivery",
+      "Reduces nausea, back pain & pregnancy discomforts",
+      "Strengthens immunity & prevents complications",
+      "Accelerates postpartum recovery & wound healing",
+      "Improves lactation & nutrition for baby",
+      "Balances hormones, mood & emotional health",
+      "Prevents long-term issues like back pain & weakness"
+    ],
+    "pregnancy_care": [
+      {
+        "name": "Garbhini Paricharya (Pregnancy Care Routine)",
+        "description": "Month-by-month Ayurvedic care."
+      },
+      {
+        "name": "Prenatal Yoga & Meditation",
+        "description": "Enhances flexibility, reduces stress & prepares for delivery."
+      },
+      {
+        "name": "Herbal Support",
+        "description": "Safe herbs for digestion, immunity & strength."
+      },
+      {
+        "name": "Special Diet Plans",
+        "description": "Nutrition for both mother & baby."
+      }
+    ],
+    "postpartum_care": [
+      {
+        "name": "Abhyanga (Oil Massage)",
+        "description": "Relieves back pain, relaxes muscles & improves circulation."
+      },
+      {
+        "name": "Herbal Steam Therapy",
+        "description": "Aids recovery & removes toxins."
+      },
+      {
+        "name": "Rasayana (Rejuvenation Therapy)",
+        "description": "Herbal tonics for energy & immunity."
+      },
+      {
+        "name": "Hormonal Balance Therapies",
+        "description": "Restores natural balance after childbirth."
+      },
+      {
+        "name": "Infant Ayurvedic Care",
+        "description": "Gentle oil massages & natural immunity boosters for newborns."
+      }
+    ],
+    "why_choose": [
+      "Safe & natural, no chemical medicines",
+      "Personalized care by certified Ayurveda doctors",
+      "Affordable wellness packages compared to abroad",
+      "Combines traditional wisdom with modern maternal care",
+      "Available in Kerala, Goa, Rishikesh & leading wellness centers"
+    ],
+    "costs": [
+      {
+        "package": "1-Week Program",
+        "price": "$250 – $400"
+      },
+      {
+        "package": "2-Week Recovery Program",
+        "price": "$500 – $750"
+      },
+      {
+        "package": "3-Week Complete Care Program",
+        "price": "$850 – $1,200"
+      }
+    ],
+    "cta": {
+      "text": "Book Free Ayurveda Consultation",
+      "url": "/ayurveda/online-consultations",
+      "features": [
+        "Safe for mothers & babies",
+        "Guided by experienced Ayurveda doctors",
+        "Affordable, holistic packages in India"
+      ]
+    }
+  }
+  

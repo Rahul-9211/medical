@@ -1,0 +1,73 @@
+{
+    "slug": "autoimmune-rheumatology-treatments",
+    "title": "🦴 Cost of Autoimmune & Rheumatology Treatments in India",
+    "subtitle": "Affordable & Advanced Rheumatology Care in India",
+    "why_india": "India is a leading destination for autoimmune and rheumatology treatments, offering experienced rheumatologists, modern hospitals, and advanced therapies. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/autoimmune-rheumatology-treatments",
+      "label": "Go Back to Autoimmune & Rheumatology Page →"
+    },
+    "cost_page": "/treatment-cost/autoimmune-rheumatology-treatments",
+    "procedures": [
+      { "name": "Rheumatoid Arthritis Treatment", "india": "$500 – $2,000", "usa": "$5,000 – $15,000", "saving": "Up to 85%" },
+      { "name": "Lupus (SLE) Management", "india": "$600 – $2,500", "usa": "$6,000 – $18,000", "saving": "Up to 85%" },
+      { "name": "Ankylosing Spondylitis Treatment", "india": "$500 – $2,000", "usa": "$5,000 – $15,000", "saving": "Up to 85%" },
+      { "name": "Psoriatic Arthritis Therapy", "india": "$400 – $1,500", "usa": "$4,000 – $12,000", "saving": "Up to 85%" },
+      { "name": "Biologic / Immunotherapy Treatment", "india": "$3,000 – $8,000", "usa": "$30,000 – $60,000", "saving": "Up to 85%" },
+      { "name": "Pediatric Rheumatology Care", "india": "$500 – $2,000", "usa": "$5,000 – $15,000", "saving": "Up to 85%" }
+    ],
+    "inclusions": [
+      "Consultation & evaluation by rheumatologist",
+      "Diagnostic tests & imaging",
+      "Medication & infusion therapy costs",
+      "Follow-up visits and monitoring",
+      "Pediatric specialized care (if applicable)"
+    ],
+    "exclusions": [
+      "International travel & visa costs",
+      "Accommodation outside hospital package",
+      "Luxury or elective add-on procedures",
+      "Extended hospital stay beyond package coverage"
+    ],
+    "cost_factors": [
+      "Type & complexity of autoimmune condition",
+      "Choice of hospital & city",
+      "Medication or biologic therapy selected",
+      "Patient’s age & overall health",
+      "Frequency and duration of follow-up visits"
+    ],
+    "why_best_choice": [
+      "Top rheumatologists with global training",
+      "State-of-the-art hospitals with modern diagnostics and infusion therapies",
+      "High success rates for autoimmune and inflammatory conditions",
+      "Comprehensive care – evaluation, therapy, follow-up, and lifestyle guidance",
+      "Affordable packages – save 60–85% compared to USA"
+    ],
+    "success_rates": [
+      "RA, Lupus, Ankylosing Spondylitis: Effective disease management with improved quality of life",
+      "Biologic & Immunotherapy: High efficacy and safety monitored by experts",
+      "Pediatric Rheumatology: Safe, targeted care for children"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Neha Sharma",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "RA, Lupus, Biologics, Pediatric Rheumatology"
+      },
+      {
+        "name": "Dr. Rajiv Malhotra",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "Ankylosing Spondylitis, Psoriatic Arthritis, Immunotherapy"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your reports, lab results, and medical history",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

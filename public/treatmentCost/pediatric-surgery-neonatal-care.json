@@ -1,0 +1,75 @@
+{
+    "slug": "pediatric-surgery-neonatal-care",
+    "title": "👶 Cost of Pediatric Surgery & Neonatal Care in India",
+    "subtitle": "Affordable & Advanced Pediatric Care in India",
+    "why_india": "India is a preferred destination for pediatric surgery and neonatal care, offering experienced pediatric surgeons, neonatologists, and state-of-the-art hospitals. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your child’s treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/pediatric-surgery-neonatal-care",
+      "label": "Go Back to Pediatric Surgery & Neonatal Care Page →"
+    },
+    "cost_page": "/treatment-cost/pediatric-surgery-neonatal-care",
+    "procedures": [
+      { "name": "Pediatric Cardiac Surgery", "india": "$5,000 – $15,000", "usa": "$50,000 – $150,000", "saving": "Up to 85%" },
+      { "name": "Pediatric General Surgery", "india": "$1,500 – $5,000", "usa": "$15,000 – $30,000", "saving": "Up to 85%" },
+      { "name": "Neonatal Intensive Care (NICU)", "india": "$500 – $2,500 per week", "usa": "$5,000 – $15,000 per week", "saving": "Up to 85%" },
+      { "name": "Pediatric Orthopedic Surgery", "india": "$2,000 – $6,000", "usa": "$20,000 – $40,000", "saving": "Up to 85%" },
+      { "name": "Pediatric Urology Surgery", "india": "$1,500 – $4,500", "usa": "$15,000 – $35,000", "saving": "Up to 85%" },
+      { "name": "Pediatric ENT Surgery", "india": "$1,000 – $3,500", "usa": "$10,000 – $25,000", "saving": "Up to 85%" },
+      { "name": "Pediatric Neurosurgery", "india": "$5,000 – $15,000", "usa": "$50,000 – $120,000", "saving": "Up to 85%" }
+    ],
+    "inclusions": [
+      "Consultation & evaluation fees",
+      "Surgeon & pediatric specialist charges",
+      "NICU care (if applicable)",
+      "Surgery & operation theatre charges",
+      "Post-op monitoring & follow-up"
+    ],
+    "exclusions": [
+      "International travel & visa costs",
+      "Accommodation beyond hospital package",
+      "Luxury room upgrades",
+      "Extended NICU or hospital stay beyond package"
+    ],
+    "cost_factors": [
+      "Type and complexity of surgery",
+      "Hospital or pediatric care center",
+      "Age and overall health of child",
+      "Duration of NICU care (if needed)",
+      "Post-operative follow-up and therapy"
+    ],
+    "why_best_choice": [
+      "Top pediatric surgeons & neonatologists with global experience",
+      "State-of-the-art hospitals & NICU facilities",
+      "High success rates for complex pediatric surgeries and neonatal care",
+      "Comprehensive care – pre-op evaluation, surgery, NICU care, and post-op follow-up",
+      "Affordable packages – save 60–85% compared to USA"
+    ],
+    "success_rates": [
+      "Cardiac & General Surgery: High precision and low complication rates",
+      "Neonatal Intensive Care: Safe, structured care for newborns",
+      "Orthopedic & Urology Surgeries: Effective interventions with faster recovery",
+      "Neurosurgery: Advanced techniques with high success rates"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Radhika Mehta",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "Cardiac, General, NICU, Orthopedic Surgeries"
+      },
+      {
+        "name": "Dr. Anil Verma",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Neurosurgery, Urology, ENT Surgeries"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your child’s reports, scans, or medical history",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

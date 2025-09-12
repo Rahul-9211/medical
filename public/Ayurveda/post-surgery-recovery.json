@@ -1,0 +1,65 @@
+{
+    "name": "Post-Surgery Recovery with Ayurveda",
+    "headline": "Heal Faster, Naturally – Complement Your Surgery with Ayurveda",
+    "intro": "Modern surgery saves lives — but recovery can be slow and painful. Ayurveda offers safe, natural therapies that speed up healing, reduce side effects, and restore strength after major surgeries. Our partner Ayurvedic doctors in India create personalized recovery programs that combine herbal medicines, massages, detox therapies, and diet plans to help international patients regain energy and improve overall health.",
+    "benefits": [
+      "Faster wound healing & tissue regeneration",
+      "Reduces post-surgical pain, swelling & stiffness",
+      "Boosts immunity & prevents infections",
+      "Improves digestion & energy levels",
+      "Supports mental health, reducing stress & anxiety",
+      "Enhances overall strength & long-term wellness"
+    ],
+    "therapies": [
+      {
+        "name": "Abhyanga (Herbal Oil Massage)",
+        "description": "Improves blood circulation & relieves muscle stiffness."
+      },
+      {
+        "name": "Shirodhara (Oil Drip Therapy)",
+        "description": "Calms the nervous system, helps with stress & insomnia."
+      },
+      {
+        "name": "Basti (Medicated Enema)",
+        "description": "Strengthens immunity and supports gut health."
+      },
+      {
+        "name": "Rasayana (Rejuvenation Therapy)",
+        "description": "Herbal tonics to rebuild tissues and enhance vitality."
+      },
+      {
+        "name": "Special Ayurvedic Diet",
+        "description": "Customized meal plans to restore strength naturally."
+      }
+    ],
+    "why_choose": [
+      "Works alongside modern medicine — no side effects",
+      "Personalized care from certified Ayurveda doctors",
+      "Affordable recovery programs in India’s best wellness centers",
+      "Ideal for patients after heart surgery, orthopedic surgery, cancer treatment, and transplant recovery"
+    ],
+    "costs": [
+      {
+        "package": "1-Week Program",
+        "price": "$250 – $400"
+      },
+      {
+        "package": "2-Week Program",
+        "price": "$500 – $800"
+      },
+      {
+        "package": "3-Week Program",
+        "price": "$900 – $1,300"
+      }
+    ],
+    "cta": {
+      "text": "Book Free Ayurveda Consultation",
+      "url": "/ayurveda/online-consultations",
+      "features": [
+        "Doctor-guided recovery plans",
+        "Affordable therapy packages",
+        "Full travel & accommodation support"
+      ]
+    }
+  }
+  

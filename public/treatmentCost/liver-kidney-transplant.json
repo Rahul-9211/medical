@@ -1,0 +1,73 @@
+{
+    "slug": "liver-kidney-transplant",
+    "title": "🏥 Cost of Liver & Kidney Transplant in India",
+    "subtitle": "Affordable & World-Class Organ Transplant Care",
+    "why_india": "India is a global destination for liver and kidney transplants, offering expert transplant surgeons, advanced hospitals, and comprehensive post-operative care. Patients receive high-quality treatment at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll receive personalized care, transparent cost estimates, and full guidance throughout your transplant journey.",
+    "treatment_page": {
+      "link": "/treatments/liver-kidney-transplant",
+      "label": "Go Back to Liver & Kidney Transplant Page →"
+    },
+    "cost_page": "/treatment-cost/liver-kidney-transplant",
+    "procedures": [
+      { "name": "Kidney Transplant (Living Donor)", "india": "$15,000 – $25,000", "usa": "$120,000 – $150,000", "saving": "Up to 85%" },
+      { "name": "Kidney Transplant (Deceased Donor)", "india": "$18,000 – $30,000", "usa": "$130,000 – $160,000", "saving": "Up to 85%" },
+      { "name": "Liver Transplant (Living Donor)", "india": "$45,000 – $70,000", "usa": "$250,000 – $400,000", "saving": "Up to 80%" },
+      { "name": "Liver Transplant (Deceased Donor)", "india": "$50,000 – $80,000", "usa": "$300,000 – $450,000", "saving": "Up to 80%" },
+      { "name": "Post-Transplant Care / Immunosuppressive Therapy", "india": "$5,000 – $10,000", "usa": "$40,000 – $70,000", "saving": "Up to 85%" }
+    ],
+    "inclusions": [
+      "Surgeon & hospital fees",
+      "Pre-operative evaluation and investigations",
+      "Surgery & post-operative care",
+      "Immunosuppressive therapy during stay",
+      "Follow-up consultations"
+    ],
+    "exclusions": [
+      "International travel & visa",
+      "Accommodation outside hospital package",
+      "Extended stay beyond package duration",
+      "Personal expenses or high-end medications"
+    ],
+    "cost_factors": [
+      "Type of transplant (liver/kidney, living vs deceased donor)",
+      "Choice of hospital and city",
+      "Experience of transplant surgeons",
+      "Patient’s age and overall health condition",
+      "Length of hospital stay & post-transplant care requirements"
+    ],
+    "why_best_choice": [
+      "Globally trained transplant surgeons with decades of experience",
+      "State-of-the-art hospitals with specialized transplant units",
+      "High success rates for kidney and liver transplants",
+      "Comprehensive care – pre-op evaluation, surgery, post-op recovery, and lifelong follow-up",
+      "Affordable packages – save 60–85% compared to USA"
+    ],
+    "success_rates": [
+      "Kidney Transplant: 95%+ graft survival at 1 year",
+      "Liver Transplant: 90%+ 1-year survival rate",
+      "Post-transplant care: Structured rehabilitation and immunosuppressive therapy",
+      "Minimizes complications and ensures long-term quality of life"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Prashant Bhandari",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Living & deceased donor transplants, post-transplant care"
+      },
+      {
+        "name": "Dr. Ashok Jha",
+        "hospital": "Medanta – The Medicity, Gurugram",
+        "expertise": "Kidney & Liver Transplant, Minimally Invasive Techniques"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your medical reports and lab results",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

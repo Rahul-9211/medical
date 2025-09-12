@@ -1,0 +1,74 @@
+{
+    "slug": "eye-treatment-lasik-surgery",
+    "title": "👁️ Cost of Eye Treatment & LASIK Surgery in India",
+    "subtitle": "Affordable & Advanced Eye Care in India",
+    "why_india": "India is a top destination for eye treatments and LASIK surgery, offering experienced ophthalmologists, modern eye hospitals, and advanced laser technologies. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your eye care journey.",
+    "treatment_page": {
+      "link": "/treatments/eye-treatment-lasik-surgery",
+      "label": "Go Back to Eye Treatment & LASIK Surgery Page →"
+    },
+    "cost_page": "/treatment-cost/eye-treatment-lasik-surgery",
+    "procedures": [
+      { "name": "LASIK Eye Surgery (Per Eye)", "india": "$500 – $1,500", "usa": "$4,000 – $6,000", "saving": "Up to 80%" },
+      { "name": "Cataract Surgery (Per Eye)", "india": "$1,000 – $2,500", "usa": "$5,000 – $10,000", "saving": "Up to 80%" },
+      { "name": "Glaucoma Treatment / Surgery", "india": "$1,500 – $4,000", "usa": "$8,000 – $15,000", "saving": "Up to 80%" },
+      { "name": "Retinal Surgery", "india": "$3,000 – $8,000", "usa": "$20,000 – $40,000", "saving": "Up to 80%" },
+      { "name": "Corneal Transplant", "india": "$4,000 – $10,000", "usa": "$25,000 – $50,000", "saving": "Up to 80%" },
+      { "name": "Pediatric Eye Surgery", "india": "$1,500 – $3,500", "usa": "$8,000 – $15,000", "saving": "Up to 80%" }
+    ],
+    "inclusions": [
+      "Ophthalmologist & hospital fees",
+      "Laser & surgical procedure charges",
+      "Pre-op evaluation & medications",
+      "Follow-up consultations and post-op care",
+      "Local anesthesia and consumables"
+    ],
+    "exclusions": [
+      "International travel & visa",
+      "Accommodation outside clinic package",
+      "Extended stay beyond treatment duration",
+      "Premium lenses or implants if chosen"
+    ],
+    "cost_factors": [
+      "Type of eye procedure (LASIK, cataract, retinal, corneal)",
+      "Choice of eye hospital & city",
+      "Experience of ophthalmologist",
+      "Complexity of condition & pre-existing eye issues",
+      "Number of eyes treated and required technology"
+    ],
+    "why_best_choice": [
+      "Top ophthalmologists & LASIK specialists with international training",
+      "State-of-the-art eye hospitals with advanced laser & surgical technologies",
+      "High success rates for LASIK, cataract, retinal, and corneal surgeries",
+      "Comprehensive care – from evaluation, surgery, to post-op follow-up",
+      "Affordable packages – save 60–80% compared to USA"
+    ],
+    "success_rates": [
+      "LASIK Surgery: >98% success with minimal complications",
+      "Cataract Surgery: Quick recovery, improved vision",
+      "Retinal & Corneal Surgeries: High precision and functional improvement",
+      "Pediatric Eye Surgery: Safe, effective, and vision-restoring"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Amar Agarwal",
+        "hospital": "Dr. Agarwal’s Eye Hospital, Chennai",
+        "expertise": "LASIK, Cataract, Corneal & Retinal Surgery"
+      },
+      {
+        "name": "Dr. Neha Bansal",
+        "hospital": "Apollo Eye Hospital, Delhi",
+        "expertise": "LASIK, Pediatric Eye Surgery, Glaucoma Treatment"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your eye reports, prescriptions, or scans",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

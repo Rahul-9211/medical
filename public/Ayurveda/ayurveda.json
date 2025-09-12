@@ -1,0 +1,44 @@
+{
+    "slug": "ayurveda-holistic-care",
+    "title": "🌿 Ayurveda & Holistic Care in India",
+    "h1": "Heal Naturally with Ayurveda & Holistic Wellness in India",
+    "intro": "India is the birthplace of Ayurveda – the world’s oldest system of natural healing. At our partner Ayurveda & wellness centers, we combine ancient therapies with modern medical care to help patients recover faster, manage chronic conditions, and achieve long-term health balance. Whether you are seeking detox therapy, post-surgery recovery, stress management, or holistic wellness retreats, our personalized Ayurvedic treatments bring you the best of natural healing in a safe and effective way.",
+    "highlights": [
+      "Authentic Ayurveda Clinics & Retreats",
+      "Doctor-Guided Holistic Therapies",
+      "Ideal for Recovery, Wellness & Prevention"
+    ],
+    "cta_main": {
+      "label": "Book Online Ayurvedic Consultation →",
+      "link": "/ayurveda-consultation"
+    },
+    "services": [
+    { "name": "Panchakarma & Detox Therapy", "description": "Traditional detoxification treatments to remove toxins, boost immunity, and restore energy.", "url": "/ayurveda/panchakarma-detox" },
+    { "name": "Post-Surgery Recovery with Ayurveda", "description": "Customized herbal treatments, massages, and therapies that accelerate healing and reduce complications after major surgeries.", "url": "/ayurveda/post-surgery-recovery" },
+    { "name": "Ayurvedic Weight Management", "description": "Safe, natural methods to manage obesity and metabolic disorders without harmful side effects.", "url": "/ayurveda/weight-management" },
+    { "name": "Skin & Hair Rejuvenation", "description": "Herbal therapies for skin glow, anti-aging, hair fall control, and natural beauty enhancement.", "url": "/ayurveda/skin-hair" },
+    { "name": "PCOD, PCOS & Hormonal Imbalance", "description": "Ayurvedic medicines and therapies to regulate cycles, balance hormones, and support fertility.", "url": "/ayurveda/pcod-pcos" },
+    { "name": "Pregnancy & Postpartum Ayurveda", "description": "Natural care for expecting and new mothers — supporting prenatal health and postpartum recovery.", "url": "/ayurveda/pregnancy-postpartum" },
+    { "name": "Stress, Sleep & Mental Balance Therapies", "description": "Meditation, yoga, and Ayurveda therapies for insomnia, anxiety, depression, and burnout.", "url": "/ayurveda/stress-sleep" },
+    { "name": "Wellness Retreats in India", "description": "Curated wellness retreats for relaxation, rejuvenation, and overall well-being.", "url": "/ayurveda/wellness-retreats" },
+    { "name": "Online Ayurvedic Consultations", "description": "Speak directly with certified Ayurveda doctors before you travel, or continue follow-ups after your return.", "url": "/ayurveda/online-consultations" }
+    ],
+
+    "why_choose_india": [
+      "5,000+ years of proven healing traditions",
+      "No side effects, safe & natural methods",
+      "Personalized treatment plans designed by expert Vaidyas (Ayurveda doctors)",
+      "Combines well with modern medicine for faster recovery",
+      "Affordable & holistic care options"
+    ],
+    "cta_final": {
+      "headline": "📞 Experience Natural Healing with Ayurveda",
+      "points": [
+        "Authentic Treatments",
+        "Affordable Packages",
+        "Guided by Certified Doctors"
+      ],
+      "button": { "label": "Request Free Ayurveda Consultation →", "link": "/ayurveda-consultation" }
+    }
+  }
+  

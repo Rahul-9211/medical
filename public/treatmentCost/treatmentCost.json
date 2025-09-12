@@ -1,0 +1,100 @@
+{
+    "headline": "Affordable Medical Treatment in India – Save 60–80% Compared to USA, UK & UAE",
+    "intro": "One of the main reasons international patients choose India for healthcare is the significant cost savings without compromising on quality. India’s hospitals offer world-class medical care, advanced technology, and highly experienced doctors at a fraction of the cost charged in Western countries.",
+    "highlights": [
+      "Free Cost Estimates Before You Travel",
+      "Transparent Packages – No Hidden Fees",
+      "Affordable Options for Every Budget"
+    ],
+    "cta_primary": {
+      "text": "Request a Free Treatment Cost Estimate",
+      "link": "/get-cost-estimate"
+    },
+    "cost_comparison": {
+      "note": "Costs are approximate and vary depending on hospital, surgeon, and patient’s condition.",
+      "columns": ["Treatment", "India (USD)", "USA (USD)", "UK (USD)", "UAE (USD)"],
+      "data": [
+        {
+          "treatment": "Heart Bypass Surgery",
+          "india": "$4,000 – $6,000",
+          "usa": "$40,000 – $80,000",
+          "uk": "$25,000 – $35,000",
+          "uae": "$20,000 – $30,000"
+        },
+        {
+          "treatment": "Knee Replacement",
+          "india": "$3,800 – $6,000",
+          "usa": "$30,000 – $50,000",
+          "uk": "$18,000 – $25,000",
+          "uae": "$15,000 – $20,000"
+        },
+        {
+          "treatment": "IVF Treatment",
+          "india": "$2,500 – $4,000",
+          "usa": "$12,000 – $18,000",
+          "uk": "$8,000 – $10,000",
+          "uae": "$6,000 – $8,000"
+        },
+        {
+          "treatment": "Liver Transplant",
+          "india": "$30,000 – $40,000",
+          "usa": "$150,000 – $300,000",
+          "uk": "$120,000 – $200,000",
+          "uae": "$80,000 – $120,000"
+        },
+        {
+          "treatment": "Cosmetic Surgery (Liposuction)",
+          "india": "$2,000 – $3,500",
+          "usa": "$10,000 – $15,000",
+          "uk": "$7,000 – $9,000",
+          "uae": "$6,000 – $8,000"
+        },
+        {
+          "treatment": "Dental Implant (per tooth)",
+          "india": "$600 – $800",
+          "usa": "$3,000 – $5,000",
+          "uk": "$2,500 – $4,000",
+          "uae": "$1,800 – $2,500"
+        }
+      ]
+    },
+    "why_lower_costs": [
+      "Lower infrastructure & operating costs",
+      "Favorable currency exchange rates",
+      "High patient volume and efficiency",
+      "Government support for medical tourism",
+      "Same international-quality care at reduced prices"
+    ],
+    "specialty_guides": [
+      { "name": "Heart Surgery – Cost in India", "link": "/treatment-cost/heart-surgery-cardiology" },
+      { "name": "Knee & Hip Replacement – Cost in India", "link": "/treatment-cost/orthopedic-surgery-joint-replacements" },
+      { "name": "Cancer Treatment – Cost in India", "link": "/treatment-cost/cancer-treatment-oncology" },
+      { "name": "IVF & Fertility – Cost in India", "link": "/treatment-cost/ivf-fertility-treatments" },
+      { "name": "Liver & Kidney Transplant – Cost in India", "link": "/treatment-cost/liver-kidney-transplant" },
+      { "name": "Bariatric (Weight Loss) Surgery – Cost in India", "link": "/treatment-cost/bariatric-weight-loss-surgery" },
+      { "name": "Dental Implants – Cost in India", "link": "/treatment-cost/dental-implants-oral-care" },
+      { "name": "Eye & LASIK Surgery – Cost in India", "link": "/treatment-cost/eye-treatment-lasik-surgery" },
+      { "name": "Plastic & Cosmetic Surgery – Cost in India", "link": "/treatment-cost/plastic-cosmetic-surgery" },
+      { "name": "Spine Surgery – Cost in India", "link": "/treatment-cost/neurosurgery-spine-treatments" },
+      { "name": "Neurology & Neurosurgery – Cost in India", "link": "/treatment-cost/neurosurgery-spine-treatments" },
+      { "name": "Orthopedic Surgery – Cost in India", "link": "/treatment-cost/orthopedic-surgery-joint-replacements" },
+      { "name": "Cardiology & Heart Care – Cost in India", "link": "/treatment-cost/heart-surgery-cardiology" },
+      { "name": "Urology Treatment – Cost in India", "link": "/treatment-cost/urology-prostate-care" },
+      { "name": "Gastroenterology – Cost in India", "link": "/treatment-cost/general-laparoscopic-surgery" },
+      { "name": "Bone Marrow Transplant – Cost in India", "link": "/treatment-cost/bone-marrow-transplant" },
+      { "name": "ENT Surgery – Cost in India", "link": "/treatment-cost/ent-surgeries" },
+      { "name": "Dermatology & Skin Care – Cost in India", "link": "/treatment-cost/skin-dermatology-treatments" },
+      { "name": "Ophthalmology – Cost in India", "link": "/treatment-cost/eye-treatment-lasik-surgery" },
+      { "name": "General Surgery – Cost in India", "link": "/treatment-cost/general-laparoscopic-surgery" }
+    ],
+    "cta_secondary": {
+      "text": "Get Free Cost Estimate Now",
+      "link": "/get-cost-estimate",
+      "benefits": [
+        "100% Free & Confidential",
+        "No Middlemen Fees",
+        "Response within 24 Hours"
+      ]
+    }
+  }
+  
