@@ -1,0 +1,92 @@
+{
+    "title": "Pediatric Surgery & Neonatal Care in India",
+    "headline": "Expert Pediatric & Neonatal Surgical Care at Affordable Costs",
+    "introduction": "India is a trusted destination for pediatric surgery and neonatal care, offering world-class hospitals, specialized pediatric surgeons, and advanced NICU facilities. Patients benefit from safe, high-quality treatments for children, from newborns to adolescents, at much lower costs than Western countries.",
+    "cost_link": "/treatment-cost/pediatric-surgery-neonatal-care",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Neonatal & Infant Surgeries",
+          "procedures": [
+            "Congenital Heart Surgery for Infants",
+            "Cleft Lip & Palate Repair",
+            "Congenital Diaphragmatic Hernia Correction",
+            "Esophageal Atresia & Tracheoesophageal Fistula Repair",
+            "Hirschsprung's Disease Surgery",
+            "Neonatal Tumor Surgery"
+          ]
+        },
+        {
+          "name": "Pediatric General Surgeries",
+          "procedures": [
+            "Appendectomy",
+            "Hernia Repair (Umbilical & Inguinal)",
+            "Hydrocelectomy",
+            "Intestinal & Abdominal Surgeries",
+            "Liver & Biliary Tract Surgeries"
+          ]
+        },
+        {
+          "name": "Pediatric Urology & Nephrology",
+          "procedures": [
+            "Kidney & Urinary Tract Surgeries",
+            "Hypospadias Repair",
+            "Pediatric Circumcision",
+            "Bladder & Ureter Surgeries"
+          ]
+        },
+        {
+          "name": "Pediatric Orthopedic & Trauma Care",
+          "procedures": [
+            "Congenital Hip Dysplasia Surgery",
+            "Clubfoot Correction",
+            "Fracture Management & Limb Deformity Correction",
+            "Spinal Surgeries in Children"
+          ]
+        },
+        {
+          "name": "Pediatric Oncology & Rare Conditions",
+          "procedures": [
+            "Pediatric Tumor Surgeries",
+            "Solid Organ Tumor Removal",
+            "Multidisciplinary care for rare congenital disorders"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Specialized pediatric surgeons with global experience",
+      "Advanced NICU & PICU facilities for newborn care",
+      "Minimally invasive surgeries for faster recovery",
+      "Affordable packages – 60–70% lower costs than USA/UK",
+      "Comprehensive care – from diagnosis to post-surgical follow-up"
+    ],
+    "success_rates": {
+      "Neonatal Surgeries": "95–98% survival in specialized centers",
+      "Pediatric Hernia & Appendectomy": ">95% success with quick recovery",
+      "Pediatric Oncology Surgery": "High survival & long-term outcomes",
+      "Congenital Heart Surgery": "90–95% success in newborns & infants"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Ramesh Babu",
+        "specialization": "Pediatric Surgery & Neonatal Care",
+        "experience": "25+ years",
+        "affiliation": "Apollo Hospitals, Chennai",
+        "expertise": "Neonatal Surgery, Pediatric Urology, Congenital Anomalies"
+      },
+      {
+        "name": "Dr. Ankur Sharma",
+        "specialization": "Pediatric & Neonatal Surgery",
+        "experience": "20+ years",
+        "affiliation": "Fortis Hospital, Gurugram",
+        "expertise": "Pediatric Tumor Surgery, Hernia Repair, NICU Care"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your child's medical reports, imaging, and health history for a free evaluation. Receive a personalized treatment & cost plan from India's leading pediatric specialists before traveling.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

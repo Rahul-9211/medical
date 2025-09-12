@@ -1,0 +1,92 @@
+{
+    "title": "Skin & Dermatology Treatments in India",
+    "headline": "Advanced Skin, Hair & Cosmetic Dermatology Care at Affordable Costs",
+    "introduction": "India is a top destination for dermatology and skin treatments, offering medical, surgical, and cosmetic solutions at 70–80% lower costs than Western countries. Patients benefit from highly experienced dermatologists, modern clinics, and effective treatments for all skin, hair, and nail conditions.",
+    "cost_link": "/treatment-cost/skin-dermatology-treatments",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Medical Dermatology",
+          "procedures": [
+            "Acne & Scar Treatment",
+            "Eczema, Psoriasis & Dermatitis Care",
+            "Vitiligo Treatment & Repigmentation Therapy",
+            "Skin Allergy & Urticaria Management",
+            "Fungal & Bacterial Skin Infections"
+          ]
+        },
+        {
+          "name": "Cosmetic Dermatology",
+          "procedures": [
+            "Laser Hair Removal",
+            "Botox & Fillers",
+            "Chemical Peels & Microdermabrasion",
+            "PRP Therapy (Hair & Skin Rejuvenation)",
+            "Mole & Wart Removal"
+          ]
+        },
+        {
+          "name": "Hair Restoration & Trichology",
+          "procedures": [
+            "Hair Transplant (FUE & FUT)",
+            "PRP Hair Therapy",
+            "Scalp Micropigmentation",
+            "Hair Loss Treatment for Men & Women"
+          ]
+        },
+        {
+          "name": "Surgical Dermatology",
+          "procedures": [
+            "Skin Cancer Surgery",
+            "Mohs Micrographic Surgery",
+            "Cyst & Lipoma Removal",
+            "Laser Skin Resurfacing"
+          ]
+        },
+        {
+          "name": "Advanced Aesthetic Procedures",
+          "procedures": [
+            "Tattoo Removal",
+            "Skin Tightening & Rejuvenation",
+            "Pigmentation Correction (Laser & Chemical Peels)",
+            "Anti-Aging Treatments"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Highly skilled dermatologists & cosmetic surgeons",
+      "State-of-the-art clinics & laser centers",
+      "Effective, minimally invasive procedures",
+      "Affordable packages – 70–80% cost savings",
+      "Personalized care with international standards"
+    ],
+    "success_rates": {
+      "Acne & Scar Treatment": "90–95% improvement",
+      "Hair Transplants": "95%+ graft survival",
+      "Laser & Cosmetic Procedures": ">90% patient satisfaction",
+      "Skin Cancer Surgery": "High survival & aesthetic outcomes"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Rashmi Shetty",
+        "specialization": "Cosmetic Dermatology & Hair Transplant",
+        "experience": "25+ years",
+        "affiliation": "Ra Skin & Aesthetic Clinic, Mumbai",
+        "expertise": "Laser Treatments, Hair Transplant, Anti-Aging Procedures"
+      },
+      {
+        "name": "Dr. Seema Sood",
+        "specialization": "Medical & Surgical Dermatology",
+        "experience": "20+ years",
+        "affiliation": "Apollo Hospitals, Delhi",
+        "expertise": "Skin Cancer Surgery, Pigmentation & Laser Treatments"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your skin or hair reports, photos, or diagnostic tests for a free evaluation. Get a personalized treatment & cost plan from India's top dermatologists before traveling.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

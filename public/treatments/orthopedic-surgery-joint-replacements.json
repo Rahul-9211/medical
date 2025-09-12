@@ -1,0 +1,90 @@
+{
+    "title": "Orthopedic Surgery & Joint Replacements in India",
+    "headline": "Advanced Bone, Joint & Spine Care at Affordable Costs",
+    "introduction": "India is a global leader in orthopedic surgery & joint replacement, with advanced techniques, robotic surgeries, and internationally trained surgeons. Patients from 100+ countries travel here for hip, knee, spine, and trauma care at up to 80% lower costs than in the USA or UK.",
+    "cost_link": "/treatment-cost/orthopedic-surgery-joint-replacements",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Joint Replacement Surgeries",
+          "procedures": [
+            "Total Knee Replacement (TKR) – Unilateral & Bilateral",
+            "Partial Knee Replacement (Unicompartmental)",
+            "Total Hip Replacement (THR) – Cemented & Uncemented",
+            "Revision Joint Replacement (Hip/Knee)",
+            "Shoulder, Elbow & Ankle Replacement"
+          ]
+        },
+        {
+          "name": "Spine Surgery & Treatments",
+          "procedures": [
+            "Minimally Invasive Spine Surgery (MISS)",
+            "Spinal Decompression, Laminectomy, Discectomy",
+            "Spinal Fusion Surgery",
+            "Artificial Disc Replacement",
+            "Scoliosis & Kyphosis Correction"
+          ]
+        },
+        {
+          "name": "Sports Medicine & Arthroscopy",
+          "procedures": [
+            "ACL/PCL Reconstruction",
+            "Meniscus Repair / Transplant",
+            "Shoulder Arthroscopy (Rotator Cuff, Bankart Repair)",
+            "Elbow & Ankle Arthroscopy"
+          ]
+        },
+        {
+          "name": "Trauma & Fracture Care",
+          "procedures": [
+            "Complex Fracture Fixation (Plates, Screws, IM Nails)",
+            "Pelvic & Acetabular Reconstruction",
+            "Polytrauma & Accident Care"
+          ]
+        },
+        {
+          "name": "Pediatric Orthopedics",
+          "procedures": [
+            "Clubfoot (Congenital Talipes Equinovarus) Correction",
+            "Hip Dysplasia Treatment",
+            "Limb Lengthening & Deformity Correction"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Globally trained orthopedic surgeons with 15–30+ years' experience",
+      "Robotic & minimally invasive techniques for faster recovery",
+      "High success rates – Knee Replacement (95–97%), Hip Replacement (96–98%)",
+      "Affordable packages – save up to 80% vs Western countries",
+      "Comprehensive rehab & physiotherapy support"
+    ],
+    "success_rates": {
+      "Knee Replacement": "95–97% success with pain-free mobility",
+      "Hip Replacement": "96–98% success with long-term durability",
+      "Spine Surgery": "90–95% success with improved stability & mobility",
+      "Recovery": "Return to normal activities in 4–8 weeks post-surgery"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Ashok Rajgopal",
+        "specialization": "Joint Replacement & Sports Medicine",
+        "experience": "35+ years, 30,000+ joint replacements",
+        "affiliation": "Medanta Hospital, Gurugram",
+        "expertise": "Robotic Knee & Hip Replacement, Complex Revision Surgeries"
+      },
+      {
+        "name": "Dr. IPS Oberoi",
+        "specialization": "Orthopedics & Arthroscopy",
+        "experience": "25+ years, 10,000+ successful procedures",
+        "affiliation": "Artemis Hospital, Gurugram",
+        "expertise": "Arthroscopy, Sports Medicine, Complex Fracture Fixation"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your X-rays, MRI scans & medical reports for a free review by India's top orthopedic surgeons. We'll provide a personalized treatment & cost plan before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

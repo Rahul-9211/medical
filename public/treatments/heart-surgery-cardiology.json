@@ -1,0 +1,110 @@
+{
+    "title": "Heart Surgery & Cardiology in India",
+    "headline": "World-Class Cardiac Care at Affordable Costs",
+    "introduction": "India is a global hub for advanced cardiac care, offering everything from routine heart check-ups to complex surgeries and transplants. Patients choose India for its internationally trained doctors, advanced technology, and up to 80% lower costs compared to the USA, UK, or UAE.",
+    "cost_link": "/treatment-cost/heart-surgery-cardiology",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Coronary Artery Disease & Heart Bypass Surgery",
+          "procedures": [
+            "Coronary Artery Bypass Grafting (CABG) – On-pump & Off-pump",
+            "Minimally Invasive Bypass Surgery"
+          ]
+        },
+        {
+          "name": "Heart Valve Disorders",
+          "procedures": [
+            "Valve Repair (Aortic, Mitral, Tricuspid, Pulmonary)",
+            "Valve Replacement (Mechanical & Bioprosthetic)",
+            "Transcatheter Valve Procedures (TAVR/TAVI, MitraClip)"
+          ]
+        },
+        {
+          "name": "Coronary Interventions",
+          "procedures": [
+            "Angiography & Angioplasty",
+            "Single / Multiple Vessel Stenting",
+            "Rotablation for complex blockages"
+          ]
+        },
+        {
+          "name": "Arrhythmia & Rhythm Management",
+          "procedures": [
+            "Pacemaker Implantation (Single & Dual Chamber)",
+            "Implantable Cardioverter Defibrillator (ICD)",
+            "Cardiac Resynchronization Therapy (CRT-D, CRT-P)",
+            "Electrophysiology (EP) Studies & Ablation"
+          ]
+        },
+        {
+          "name": "Heart Failure & Advanced Therapies",
+          "procedures": [
+            "Left Ventricular Assist Device (LVAD) Implantation",
+            "Heart Transplant Surgery",
+            "ECMO Support (Extracorporeal Membrane Oxygenation)"
+          ]
+        },
+        {
+          "name": "Pediatric & Congenital Heart Disease",
+          "procedures": [
+            "ASD, VSD, PDA Closures",
+            "Tetralogy of Fallot (TOF) Repair",
+            "Arterial Switch Operation (ASO)",
+            "Fontan Procedure, Glenn Shunt"
+          ]
+        },
+        {
+          "name": "Aortic & Major Vessel Surgeries",
+          "procedures": [
+            "Aortic Aneurysm Repair",
+            "Aortic Dissection Surgery",
+            "Endovascular Aortic Repair (EVAR)"
+          ]
+        },
+        {
+          "name": "Non-Surgical Cardiac Care",
+          "procedures": [
+            "Cardiac Rehabilitation",
+            "Preventive Cardiology Programs",
+            "Lifestyle & Risk Management"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Globally trained heart specialists with 20–30+ years' experience",
+      "Advanced technology – robotic surgery, hybrid cath labs, 3D imaging",
+      "Affordable care – save up to 80% on treatment cost",
+      "World-class hospitals with JCI & NABH accreditation",
+      "Comprehensive support – from visa to recovery follow-up"
+    ],
+    "success_rates": {
+      "CABG (Bypass Surgery)": "95–98% success rate",
+      "Valve Replacement": "93–96% success rate",
+      "Pediatric Heart Surgery": "90–95% success rate",
+      "General": "International patients report faster recovery & long-term stability"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Naresh Trehan",
+        "specialization": "Cardiothoracic & Vascular Surgery (CTVS)",
+        "experience": "40+ years, 48,000+ successful heart surgeries",
+        "affiliation": "Chairman, Medanta – The Medicity, Gurugram",
+        "expertise": "CABG, valve surgery, minimally invasive & robotic cardiac surgery"
+      },
+      {
+        "name": "Dr. Rakesh Jain",
+        "specialization": "Interventional Cardiology",
+        "experience": "25+ years, 15,000+ angioplasties & stenting procedures",
+        "affiliation": "Fortis Memorial Research Institute, Gurugram",
+        "expertise": "Coronary interventions, electrophysiology, pacemaker/ICD implants"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your medical reports for a free review by leading Indian cardiologists. We'll provide a personalized treatment & cost plan before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

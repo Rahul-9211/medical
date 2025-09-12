@@ -1,0 +1,92 @@
+{
+    "title": "Mental Health & Psychiatry Support in India",
+    "headline": "Comprehensive Mental Health Care & Psychiatric Treatments at Affordable Costs",
+    "introduction": "India is emerging as a hub for mental health and psychiatric care, offering experienced psychiatrists, psychologists, and therapists, along with state-of-the-art facilities. Patients from across the globe access therapy, psychiatric interventions, and holistic mental wellness programs at much lower costs than Western countries.",
+    "cost_link": "/treatment-cost/mental-health-psychiatry-support",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Psychiatric Disorders",
+          "procedures": [
+            "Depression & Anxiety Disorders",
+            "Bipolar Disorder",
+            "Schizophrenia & Psychotic Disorders",
+            "Obsessive-Compulsive Disorder (OCD)",
+            "Post-Traumatic Stress Disorder (PTSD)",
+            "Attention Deficit Hyperactivity Disorder (ADHD)"
+          ]
+        },
+        {
+          "name": "Therapies & Counseling",
+          "procedures": [
+            "Cognitive Behavioral Therapy (CBT)",
+            "Dialectical Behavior Therapy (DBT)",
+            "Family & Couple Therapy",
+            "Trauma-Focused Therapy",
+            "Stress Management & Mindfulness Programs"
+          ]
+        },
+        {
+          "name": "Addiction & Rehabilitation",
+          "procedures": [
+            "Alcohol & Drug Rehabilitation Programs",
+            "Behavioral Addiction Treatment (Gambling, Gaming, Internet Addiction)",
+            "Detox & Counseling Services"
+          ]
+        },
+        {
+          "name": "Child & Adolescent Psychiatry",
+          "procedures": [
+            "Behavioral & Emotional Disorders",
+            "Autism Spectrum Disorder Support",
+            "Learning Disability Assessment & Therapy",
+            "Pediatric Anxiety & Mood Disorders"
+          ]
+        },
+        {
+          "name": "Advanced Psychiatric Interventions",
+          "procedures": [
+            "Electroconvulsive Therapy (ECT)",
+            "Repetitive Transcranial Magnetic Stimulation (rTMS)",
+            "Psychiatric Medication Management",
+            "Multidisciplinary Care Programs"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Globally trained psychiatrists & therapists",
+      "Personalized, culturally sensitive care",
+      "State-of-the-art hospitals & therapy centers",
+      "Affordable treatment packages – 60–75% lower costs than Western countries",
+      "Comprehensive support – in-patient, outpatient, and telemedicine options"
+    ],
+    "success_rates": {
+      "Depression & Anxiety": "80–90% improvement with therapy & medication",
+      "OCD & PTSD": "Significant symptom relief in 70–85% cases",
+      "Addiction Recovery": "70–80% successful rehabilitation with follow-up support",
+      "Child & Adolescent Therapy": "High improvement in behavior, mood, and academics"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Nimesh G. Desai",
+        "specialization": "Psychiatry & Mental Health",
+        "experience": "30+ years",
+        "affiliation": "AIIMS, Delhi",
+        "expertise": "Depression, Anxiety, Psychotic Disorders, CBT"
+      },
+      {
+        "name": "Dr. Alka Subramanyam",
+        "specialization": "Child & Adolescent Psychiatry",
+        "experience": "20+ years",
+        "affiliation": "Fortis Hospital, Gurugram",
+        "expertise": "ADHD, Autism Spectrum Disorders, Behavioral Therapy"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your psychiatric reports, therapy history, or clinical notes for a free evaluation. Receive a personalized mental health treatment & cost plan before travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

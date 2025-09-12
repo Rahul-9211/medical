@@ -1,0 +1,82 @@
+{
+    "title": "Blood Disorders (Hematology Care) in India",
+    "headline": "Comprehensive Hematology & Blood Disorder Treatments at Affordable Costs",
+    "introduction": "India is a leading destination for hematology care, offering expert hematologists, advanced diagnostic labs, and cutting-edge treatment options. Patients with anemia, hemophilia, leukemia, and other blood disorders benefit from high-quality care at 60–80% lower costs than in Western countries.",
+    "cost_link": "/treatment-cost/blood-disorders-hematology-care",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Blood Disorders",
+          "procedures": [
+            "Anemia (Iron-Deficiency, Vitamin-Deficiency, Aplastic)",
+            "Hemophilia & Bleeding Disorders",
+            "Thalassemia Care & Management",
+            "Sickle Cell Disease Treatment",
+            "Platelet Disorders & Clotting Disorders"
+          ]
+        },
+        {
+          "name": "Hematologic Malignancies",
+          "procedures": [
+            "Leukemia (Acute & Chronic)",
+            "Lymphoma (Hodgkin & Non-Hodgkin)",
+            "Multiple Myeloma & Plasma Cell Disorders",
+            "Myelodysplastic Syndromes (MDS)"
+          ]
+        },
+        {
+          "name": "Advanced Hematology Treatments",
+          "procedures": [
+            "Bone Marrow & Stem Cell Transplantation",
+            "Chemotherapy & Targeted Therapy for Blood Cancers",
+            "Immunotherapy & CAR-T Therapy (Where Available)",
+            "Blood & Platelet Transfusions",
+            "Comprehensive Diagnostic Panels & Genetic Testing"
+          ]
+        },
+        {
+          "name": "Pediatric Hematology Care",
+          "procedures": [
+            "Pediatric Leukemia & Lymphoma Care",
+            "Hemophilia & Congenital Blood Disorders",
+            "Thalassemia & Sickle Cell Management"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Top hematologists & oncologists trained internationally",
+      "Advanced laboratories & diagnostic technology",
+      "High success rates for transplants and targeted therapies",
+      "Affordable treatment packages – save 60–80% vs USA/UK",
+      "Comprehensive multidisciplinary care – from diagnosis to follow-up"
+    ],
+    "success_rates": {
+      "Bone Marrow & Stem Cell Transplants": "85–90% success for eligible patients",
+      "Leukemia & Lymphoma Treatment": "High remission rates with advanced therapy",
+      "Anemia & Hemophilia Management": "Improved quality of life in 90%+ cases",
+      "Pediatric Hematology": "Excellent outcomes for rare congenital disorders"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Sushil Kumar",
+        "specialization": "Hematology & Bone Marrow Transplant",
+        "experience": "25+ years",
+        "affiliation": "Medanta – The Medicity, Gurugram",
+        "expertise": "Leukemia, Lymphoma, Stem Cell Transplant, Hemophilia"
+      },
+      {
+        "name": "Dr. Priya Verma",
+        "specialization": "Hematology & Pediatric Hematology",
+        "experience": "20+ years",
+        "affiliation": "Apollo Hospitals, Delhi",
+        "expertise": "Pediatric Blood Disorders, Thalassemia, Anemia"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your blood reports, bone marrow results, and medical history for a free evaluation. Get a personalized treatment & cost plan from India's top hematology specialists before traveling.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  
