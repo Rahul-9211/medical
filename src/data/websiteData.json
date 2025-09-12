@@ -19,7 +19,7 @@
         "url": "/about-us"
       },
       {
-        "name": "Top Hospitals in India",
+        "name": "Hospitals",
         "url": "/hospitals",
         "submenu": [
           { "name": "Medanta Hospital, Gurugram", "url": "/hospital/medanta" },
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "name": "Treatments in India",
+        "name": "Treatments",
         "url": "/treatments",
         "submenu": [
           { "name": "Heart Surgery & Cardiology", "url": "/treatments/heart-surgery-cardiology" },
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "name": "Cost of Treatment",
+        "name": "Cost",
         "url": "/treatment-cost",
         "submenu": [
           { "name": "Heart Surgery – Cost in India", "url": "/treatment-cost/heart-surgery-cardiology" },
@@ -77,7 +77,7 @@
         ]
       },
       {
-        "name": "Ayurveda & Holistic Care",
+        "name": "Ayurveda",
         "url": "/ayurveda",
         "submenu": [
           { "name": "Panchakarma & Detox Therapy", "url": "/ayurveda/panchakarma-detox" },
@@ -92,7 +92,7 @@
         ]
       },
       {
-        "name": "Patient Services",
+        "name": "Services",
         "url": "/services",
         "submenu": [
           { "name": "Medical Visa Assistance & Travel", "url": "/services/medical-visa-travel" },
@@ -105,12 +105,12 @@
           { "name": "Post-Treatment Recovery & Follow-Up", "url": "/services/post-treatment-recovery" }
         ]
       },
-      {
-        "name": "Success Stories",
+      { 
+        "name": "Stories",
         "url": "/success-stories"
       },
       {
-        "name": "Blog & Guides",
+        "name": "Blog",
         "url": "/blog",
         "submenu": [
           { "name": "Medical Tourism Guide", "url": "/blog/medical-tourism-guide" },
