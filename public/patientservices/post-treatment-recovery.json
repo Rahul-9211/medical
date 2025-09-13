@@ -1,0 +1,34 @@
+{
+    "name": "Post-Treatment Recovery & Follow-Up",
+    "description": "Comprehensive care for international patients after treatment, ensuring smooth recovery, holistic support, and continuous medical guidance.",
+    "postTreatmentServices": [
+      "In-hospital physiotherapy & rehabilitation",
+      "Ayurvedic & holistic recovery programs",
+      "Nutritional guidance & personalized diet plans",
+      "Wound care, medication support, and nursing assistance",
+      "Emotional & mental support during recovery"
+    ],
+    "followUpSupport": [
+      "Online Consultations: Regular video calls with your doctor for progress monitoring",
+      "Medical Report Review: Updated instructions based on recovery",
+      "Telemedicine: Guidance on medication, exercise, and lifestyle adjustments",
+      "Emergency Guidance: 24/7 support if complications arise"
+    ],
+    "whyChooseUs": [
+      "Ensures smooth recovery after leaving India",
+      "Reduces the risk of post-surgery complications",
+      "Access to Indian doctors without traveling back",
+      "Combines modern medicine and Ayurveda for holistic recovery",
+      "Personalized plans tailored for each patient"
+    ],
+    "cost": [
+      { "service": "Basic Follow-Up (Online)", "price": "FREE" },
+      { "service": "Detailed Online Consultation", "price": "$20 – $50" },
+      { "service": "Extended Recovery Program (Ayurveda / Physiotherapy)", "price": "$200 – $600" }
+    ],
+    "cta": {
+      "text": "Request Post-Treatment Follow-Up Support",
+      "url": "/services/post-treatment-recovery"
+    }
+  }
+  
