@@ -19,6 +19,7 @@ export default async function HospitalPage({
   if (!res.ok) return notFound();
   const hospital = await res.json();
   const mediaImages: any[] = hospital.media?.images?.filter((img: any) => img.visible) || [];
+  console.log(mediaImages);
   const unsplashFallbacks: string[] = [
     "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1600&auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1600&auto=format&fit=crop&q=80",
@@ -30,7 +31,7 @@ export default async function HospitalPage({
   const displayImages: any[] = (mediaImages.length > 0
     ? mediaImages.map((img: any, i: number) => ({
         ...img,
-        url: (typeof img.url === "string" && img.url.startsWith("http")) ? img.url : unsplashFallbacks[i % unsplashFallbacks.length]
+        url: (typeof img.url === "string") ? img.url : unsplashFallbacks[i % unsplashFallbacks.length]
       }))
     : unsplashFallbacks.map((url: string) => ({ url, visible: true }))
   );

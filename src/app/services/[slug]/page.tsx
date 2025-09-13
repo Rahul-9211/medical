@@ -6,9 +6,9 @@ import websiteData from "@/data/websiteData.json";
 interface PatientServiceData {
   name: string;
   description: string;
-  highlights: string[];         // Key points / bullet list
+  highlights?: string[];         // Key points / bullet list
   travelSupport?: string[];     // Optional, only for services like Visa, Pickup, etc.
-  whyChooseUs: string[];
+  whyChooseUs?: string[];
   postTreatmentServices : string[];
   cost: string[];
   cta: {
@@ -39,7 +39,7 @@ const PatientServicePage = async ({ params }: PageProps) => {
         <h1 className="text-4xl font-bold mb-4">{data.name}</h1>
         <p className="mb-6">{data.description}</p>
 
-        {data.highlights.length > 0 && (
+        {data.highlights && data.highlights?.length > 0 && (
           <>
             <h2 className="text-2xl font-semibold mb-2">Key Highlights:</h2>
             <ul className="list-disc list-inside mb-6">
@@ -63,7 +63,7 @@ const PatientServicePage = async ({ params }: PageProps) => {
 
         <h2 className="text-2xl font-semibold mb-2">Why Choose Us:</h2>
         <ul className="list-disc list-inside mb-6">
-          {data.whyChooseUs.map((item, i) => (
+          {data.whyChooseUs && data.whyChooseUs.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
         </ul>

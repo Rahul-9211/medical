@@ -1,0 +1,198 @@
+{
+  "id": "fortis-gurgaon",
+  "name": "Fortis Memorial Research Institute, Gurgaon",
+  "visible": true,
+  "rating": { "value": 4.3, "reviews": 32 },
+  "patientsRecommended": { "percent": 95 },
+  "location": {
+    "city": "Gurgaon",
+    "state": "Haryana",
+    "country": "India",
+    "address": "Sector 44, Opposite HUDA City Centre, Gurgaon, Haryana 122002",
+    "visible": true
+  },
+  "established": 2001,
+  "accreditations": ["NABH", "JCI", "NABL", "CEA"],
+  "specialty": "Multi Specialty",
+  "beds": 310,
+  "about": {
+    "visible": true,
+    "overview": "Fortis Memorial Research Institute (FMRI) is the flagship hospital of Fortis Healthcare, one of India's leading integrated healthcare delivery service providers. Situated in the heart of Gurugram, FMRI is a state-of-the-art, multi-specialty, quaternary care hospital renowned for its clinical excellence, technology, and patient-centric approach.",
+    "awards": [
+      "Newsweek World's Best Smart Hospitals 2024: Ranked 34th globally",
+      "Newsweek Best Hospitals in India 2024: Ranked 14th nationally",
+      "Economic Times Health Awards 2024: Excellence in Neurosurgery, Multimodality Cancer Treatment, Surgery, and BMT",
+      "The Week Survey (2019–2021): No. 2 Best Private Hospital in Delhi NCR",
+      "FICCI Medical Value Travel Awards 2025: Excellence in Medical Oncology",
+      "DL SHAH Awards 2015: Certificate of Merit for Quality Improvement",
+      "APSIC: Centre of Excellence for CSSD"
+    ],
+    "milestones": [
+      "200,000+ international patients served annually",
+      "Patients from 175+ countries",
+      "Ranked among India’s top hospitals across multiple specialties"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 200000,
+    "countries": 175,
+    "services": [
+      "Pre-arrival Consultation & Case Review",
+      "Visa & Travel Assistance",
+      "Airport Pick-up/Drop-off",
+      "Multilingual Interpreters",
+      "Express Check-in & Personal Coordinators",
+      "Accommodation & Food Assistance"
+    ]
+  },
+  "departments": {
+    "visible": true,
+    "list": [
+      {
+        "name": "Cardiology and Cardiac Surgery",
+        "doctorCount": 12
+      },
+      {
+        "name": "Oncology and Oncosurgery",
+        "doctorCount": 21
+      },
+      {
+        "name": "Neurology and Neurosurgery",
+        "doctorCount": 7
+      },
+      {
+        "name": "Orthopedics",
+        "doctorCount": 7
+      },
+      {
+        "name": "Gynecology",
+        "doctorCount": 16
+      }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      {
+        "id": "arvind-khurana",
+        "name": "Dr. Arvind Khurana",
+        "specialty": "Medical Gastroenterologist",
+        "rating": 5.0,
+        "experienceYears": 39,
+        "profileUrl": "/doctors/gastroenterology/fortis-gurgaon/arvind-khurana"
+      },
+      {
+        "id": "ajay-kriplani",
+        "name": "Dr. Ajay Kumar Kriplani",
+        "specialty": "General Surgeon",
+        "rating": 4.7,
+        "experienceYears": 44,
+        "profileUrl": "/doctors/general-surgery/fortis-gurgaon/ajay-kriplani"
+      },
+      {
+        "id": "sandeep-vaishya",
+        "name": "Dr. Sandeep Vaishya",
+        "specialty": "Neurosurgeon",
+        "rating": 4.8,
+        "experienceYears": 36,
+        "profileUrl": "/doctors/neurosurgery/fortis-gurgaon/sandeep-vaishya"
+      },
+      {
+        "id": "manoj-kumar-goel",
+        "name": "Dr. Manoj Kumar Goel",
+        "specialty": "Pulmonologist",
+        "rating": 5.0,
+        "experienceYears": 36,
+        "profileUrl": "/doctors/pulmonology/fortis-gurgaon/manoj-goel"
+      }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 300,
+    "staffCount": 500,
+    "specialitiesCount": 30,
+    "centersOfExcellence": [
+      "Fortis Cancer Institute",
+      "Fortis Institute of Neurosciences",
+      "Fortis Bone & Joint Institute",
+      "Fortis Institute of Renal Sciences"
+    ]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": [
+      "Private rooms",
+      "Free Wifi",
+      "Family accommodation",
+      "Laundry",
+      "Concierge",
+      "Religious facilities",
+      "Spa and wellness",
+      "Café",
+      "Business Centre",
+      "Beauty Salon",
+      "Parking"
+    ],
+    "infrastructure": [
+      "11-acre campus",
+      "311 operational beds (expandable to 1000)",
+      "15 Modular OTs",
+      "3.0 Tesla MRI",
+      "256-Slice CT Scanner",
+      "Da Vinci Robotic Surgery System",
+      "BrainSUITE with intra-op MRI",
+      "PET-CT, Digital Mammography",
+      "Elekta Linear Accelerator",
+      "Gamma Knife"
+    ]
+  },
+  "address": {
+    "visible": true,
+    "full": "Sector 44, Opposite HUDA City Centre, Gurgaon, Haryana 122002, India",
+    "nearby": [
+      { "place": "IGI Airport Delhi", "distanceKm": 17, "duration": "25 mins" },
+      { "place": "HUDA City Centre Metro", "distanceKm": 4, "duration": "10–20 mins" },
+      { "place": "Gurgaon Railway Station", "distanceKm": 11, "duration": "20–30 mins" }
+    ]
+  },
+  "reviews": [
+    {
+      "patient": "Ms. Nurila",
+      "country": "Kazakhstan",
+      "rating": 5,
+      "feedback": "Excellent care and service",
+      "visible": true
+    },
+    {
+      "patient": "Mrs. Seblework Tamru",
+      "country": "Ethiopia",
+      "rating": 5,
+      "feedback": "Bone marrow transplant went smoothly, very satisfied",
+      "visible": true
+    },
+    {
+      "patient": "Karima Azimi Nasry",
+      "country": "Afghanistan",
+      "rating": 5,
+      "feedback": "Very happy with treatment and staff support",
+      "visible": true
+    }
+  ],
+  "media": {
+    "images": [
+      { "url": "/images/hospital/fortis/fortis-1.jpg", "visible": true },
+      { "url": "/images/hospital/fortis/fortis-2.jpg", "visible": true },
+      { "url": "/images/hospital/fortis/fortis-3.png", "visible": true }
+    ],
+    "videos": [
+      { "url": "https://youtube.com/embed/example-fortis1", "visible": true }
+    ]
+  },
+  "contact": {
+    "phone": "+91-124-4962200",
+    "email": "info@fortishealthcare.com",
+    "website": "https://www.fortishealthcare.com/india/fortis-memorial-research-institute-gurgaon"
+  }
+}

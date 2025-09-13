@@ -1,0 +1,173 @@
+{
+    "id": "ck-birla-gurgaon",
+    "name": "CK Birla Hospital, Gurgaon",
+    "visible": true,
+    "rating": { "value": 5.0, "reviews": 32 },
+    "patientsRecommended": { "percent": 95 },
+    "location": {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "country": "India",
+      "address": "Block J, Nirvana Central Rd, Mayfield Garden, Gurgaon, 122018, India",
+      "visible": true
+    },
+    "established": 2017,
+    "accreditations": ["NABH"],
+    "specialty": "Multi Specialty",
+    "beds": 90,
+    "about": {
+      "visible": true,
+      "overview": "The CK Birla Hospital is a NABH-accredited, multi-specialty facility established in 2017. Part of the CK Birla Group, which has been serving India’s healthcare needs for over 50 years, it includes North India’s first water-birthing facility. The hospital adheres to both national and international healthcare protocols, offering world-class care with advanced technology and real-time collaboration among caregivers.",
+      "awards": ["Introduced North India’s first water-birthing facility"],
+      "milestones": [
+        "90-bedded multi-specialty hospital",
+        "Advanced IVF laboratory for fertility treatments",
+        "Industry-leading nurse/patient ratio with NHS-trained staff"
+      ]
+    },
+    "internationalPatientServices": {
+      "visible": true,
+      "annualPatients": 5000,
+      "countries": 85,
+      "services": [
+        "Visa & documentation assistance",
+        "Travel & accommodation arrangements",
+        "Dedicated international patient desk",
+        "Multilingual staff & interpreters",
+        "Personalized care and support throughout treatment"
+      ]
+    },
+    "departments": {
+      "visible": true,
+      "list": [
+        { "name": "ENT Surgery", "doctorCount": 2 },
+        { "name": "General Surgery", "doctorCount": 1 },
+        { "name": "Obesity / Bariatric Surgery", "doctorCount": 1 },
+        { "name": "Orthopedics", "doctorCount": 4 },
+        { "name": "Urology", "doctorCount": 1 },
+        { "name": "Gastroenterology", "doctorCount": 1 },
+        { "name": "Gynecology", "doctorCount": 6 },
+        { "name": "Oncology and Oncosurgery", "doctorCount": 3 },
+        { "name": "Pulmonology", "doctorCount": 1 }
+      ]
+    },
+    "topDoctors": {
+      "visible": true,
+      "list": [
+        {
+          "id": "aruna-kalra",
+          "name": "Dr. Aruna Kalra",
+          "specialty": "Gynaecologist and Obstetrician",
+          "experienceYears": 28,
+          "rating": 4.9,
+          "profileUrl": "/doctors/gynecology/ck-birla-gurgaon/aruna-kalra"
+        },
+        {
+          "id": "anjali-kumar",
+          "name": "Dr. Anjali Kumar",
+          "specialty": "Gynaecologist and Obstetrician",
+          "experienceYears": 37,
+          "rating": 4.9,
+          "profileUrl": "/doctors/gynecology/ck-birla-gurgaon/anjali-kumar"
+        },
+        {
+          "id": "mayank-manjul-madan",
+          "name": "Dr. Mayank Manjul Madan",
+          "specialty": "General Surgeon",
+          "experienceYears": 25,
+          "rating": 5.0,
+          "profileUrl": "/doctors/general-surgery/ck-birla-gurgaon/mayank-manjul-madan"
+        },
+        {
+          "id": "rohan-khandelwal",
+          "name": "Dr. Rohan Khandelwal",
+          "specialty": "Surgical Oncologist",
+          "experienceYears": 16,
+          "rating": 5.0,
+          "profileUrl": "/doctors/oncology/ck-birla-gurgaon/rohan-khandelwal"
+        }
+      ]
+    },
+    "teamAndSpecialities": {
+      "visible": true,
+      "doctorsCount": 100,
+      "staffCount": 600,
+      "specialitiesCount": 15,
+      "centersOfExcellence": [
+        "Obstetrics & Gynaecology",
+        "Neonatology & Paediatrics",
+        "Fertility & IVF",
+        "Orthopaedics",
+        "Oncology",
+        "Breast Surgery",
+        "ENT",
+        "Gastroenterology",
+        "Urology",
+        "Plastics & Aesthetics",
+        "Internal Medicine",
+        "Pulmonology",
+        "Nephrology & Dialysis",
+        "Critical Care & Emergency"
+      ]
+    },
+    "facilities": {
+      "visible": true,
+      "comfort": [
+        "Private rooms",
+        "TV in room",
+        "Free Wifi",
+        "Family accommodation",
+        "Mobility accessible rooms",
+        "Concierge services",
+        "Nursery / Nanny services",
+        "Fitness & wellness",
+        "Café & dining options",
+        "Beauty salon",
+        "Parking available"
+      ],
+      "infrastructure": [
+        "Spread over 78,000 sq. ft.",
+        "90-bed capacity with Presidential suites to shared rooms",
+        "Level III Neonatal ICU with 15 beds",
+        "Labour Delivery Rooms with piped Entonox",
+        "Advanced IVF laboratory",
+        "Chemo daycare & dialysis centre",
+        "4 modular operation theatres",
+        "8-bed ICU for adults",
+        "Radiology services (CT, 4D Ultrasound, X-ray, Mammography, ECHO)",
+        "24×7 Pharmacy and Pathology services including genetic testing"
+      ]
+    },
+    "address": {
+      "visible": true,
+      "full": "Block J, Nirvana Central Rd, Mayfield Garden, Gurgaon, 122018, India",
+      "nearby": [
+        { "place": "Indira Gandhi International Airport (DEL)", "distanceKm": 15, "duration": "30–40 mins" },
+        { "place": "HUDA City Centre Metro Station", "distanceKm": 3, "duration": "10–15 mins" },
+        { "place": "Gurgaon Railway Station", "distanceKm": 10, "duration": "25–30 mins" }
+      ]
+    },
+    "reviews": [
+      {
+        "patient": "Linea Morphea",
+        "country": "Tanzania",
+        "rating": 5,
+        "feedback": "Flaviana puts a full stop to 15 years old problem. Excellent care and compassionate staff at CK Birla.",
+        "visible": true
+      }
+    ],
+    "media": {
+      "images": [
+        { "url": "/images/hospital/birla/birla-1.jpg", "visible": true },
+        { "url": "/images/hospital/birla/birla-2.png", "visible": true },
+        { "url": "/images/hospital/birla/birla-3.png", "visible": true }
+      ],
+      "videos": []
+    },
+    "contact": {
+      "phone": "+91-9971616131",
+      "email": "",
+      "website": "https://www.ckbirlahospitals.com/"
+    }
+  }
+  

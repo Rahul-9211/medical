@@ -25,11 +25,10 @@
           { "name": "Medanta Hospital, Gurugram", "url": "/hospital/medanta" },
           { "name": "Fortis Memorial Research Institute, Gurugram", "url": "/hospital/fortis-memorial" },
           { "name": "Artemis Hospital, Gurugram", "url": "/hospital/artemis" },
-          { "name": "Max Super Speciality Hospital, Gurugram", "url": "/hospital/max-super-speciality" },
+          { "name": "Max Super Speciality Hospital, New Delhi", "url": "/hospital/max-super-speciality" },
           { "name": "Paras Hospital, Gurugram", "url": "/hospital/paras" },
-          { "name": "Manipal Hospital, Gurugram", "url": "/hospital/manipal" },
-          { "name": "Narayana Superspeciality Hospital, Gurugram", "url": "/hospital/narayana" },
-          { "name": "Marengo Asia Hospital, Gurugram", "url": "/hospital/marengo-asia" },
+          { "name": "Manipal Hospital, Dwarka", "url": "/hospital/manipal" },
+          { "name": "Marengo Asia Hospital, faridabad", "url": "/hospital/marengo-asia" },
           { "name": "CK Birla Hospital, Gurugram", "url": "/hospital/ck-birla" },
           { "name": "View All Partner Hospitals →", "url": "/hospital" }
         ]

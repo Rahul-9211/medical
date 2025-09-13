@@ -230,9 +230,9 @@
     ],
     "media": {
     "images": [
-      { "url": "/images/hospitals/medanta/front-view.jpg", "visible": true },
-      { "url": "/images/hospitals/medanta/lobby.jpg", "visible": false },
-      { "url": "/images/hospitals/medanta/icu.jpg", "visible": true }
+      { "url": "/images/hospital/medanta/medanta-1.jpg", "visible": true },
+      { "url": "/images/hospitals/medanta/medanta-2.jpg", "visible": true },
+      { "url": "/images/hospitals/medanta/medanta-3.jpeg", "visible": true }
     ],
     "videos": [
       { "url": "https://youtube.com/embed/example1", "visible": true },

@@ -1,0 +1,169 @@
+{
+    "id": "marengo-asia-faridabad",
+    "name": "Marengo Asia Hospitals (Formerly QRG Health City), Faridabad",
+    "visible": true,
+    "rating": { "value": 4.4, "reviews": 21 },
+    "patientsRecommended": { "percent": 90 },
+    "location": {
+      "city": "Faridabad",
+      "state": "Haryana",
+      "country": "India",
+      "address": "Plot No. 1, Sector 16, Faridabad, 121002, India",
+      "visible": true
+    },
+    "established": 2007,
+    "accreditations": ["NABH", "NABL"],
+    "specialty": "Multi Specialty",
+    "beds": 450,
+    "about": {
+      "visible": true,
+      "overview": "Established in 2007 by the QRG Group, Marengo Asia Hospitals (formerly QRG Health City) is a 450-bedded NABH & NABL accredited multi-specialty hospital. Recognised as the 'Best Emerging Critical Care Hospital in Delhi NCR,' it offers high-quality, cost-friendly healthcare with centers of excellence across 12 specialities.",
+      "awards": ["Best Emerging Critical Care Hospital in Delhi NCR"],
+      "milestones": [
+        "450-bedded multi-specialty hospital",
+        "Twelve centres of excellence including cardiology, orthopedics, neurology, gastroenterology, nephrology, bariatric surgery, and IVF",
+        "Authorised by NBE to conduct DNB/FNB programmes"
+      ]
+    },
+    "internationalPatientServices": {
+      "visible": true,
+      "annualPatients": 8000,
+      "countries": 85,
+      "services": [
+        "Visa & documentation assistance",
+        "Treatment plan & cost estimates",
+        "Airport pickup & transfers",
+        "Accommodation for patients & families",
+        "Dedicated international help desk"
+      ]
+    },
+    "departments": {
+      "visible": true,
+      "list": [
+        { "name": "Cardiology and Cardiac Surgery", "doctorCount": 5 },
+        { "name": "Neurology and Neurosurgery", "doctorCount": 3 },
+        { "name": "Orthopedics", "doctorCount": 4 },
+        { "name": "Oncology and Oncosurgery", "doctorCount": 3 },
+        { "name": "Pediatric Cardiology", "doctorCount": 3 },
+        { "name": "Nephrology", "doctorCount": 4 },
+        { "name": "Gastroenterology", "doctorCount": 2 },
+        { "name": "Gynecology", "doctorCount": 3 },
+        { "name": "Urology", "doctorCount": 2 },
+        { "name": "Spine Surgery", "doctorCount": 2 },
+        { "name": "Obesity / Bariatric Surgery", "doctorCount": 2 },
+        { "name": "Pediatrics & Pediatric Surgery", "doctorCount": 7 }
+      ]
+    },
+    "topDoctors": {
+      "visible": true,
+      "list": [
+        {
+          "id": "rajesh-sharma",
+          "name": "Dr. Rajesh Sharma",
+          "specialty": "Pediatric Cardiac Surgeon",
+          "experienceYears": 32,
+          "rating": 4.8,
+          "profileUrl": "/doctors/cardiology/marengo-faridabad/rajesh-sharma"
+        },
+        {
+          "id": "rajeev-sood",
+          "name": "Dr. Rajeev Sood",
+          "specialty": "Urologist",
+          "experienceYears": 36,
+          "rating": 5.0,
+          "profileUrl": "/doctors/urology/marengo-faridabad/rajeev-sood"
+        },
+        {
+          "id": "anand-gupta",
+          "name": "Dr. Anand Gupta",
+          "specialty": "ENT Surgeon",
+          "experienceYears": 18,
+          "rating": 5.0,
+          "profileUrl": "/doctors/ent/marengo-faridabad/anand-gupta"
+        },
+        {
+          "id": "nisha-kapoor",
+          "name": "Dr. Nisha Kapoor",
+          "specialty": "Gynaecologist & Obstetrician",
+          "experienceYears": 33,
+          "rating": 4.9,
+          "profileUrl": "/doctors/gynecology/marengo-faridabad/nisha-kapoor"
+        }
+      ]
+    },
+    "teamAndSpecialities": {
+      "visible": true,
+      "doctorsCount": 60,
+      "staffCount": 400,
+      "specialitiesCount": 12,
+      "centersOfExcellence": [
+        "Cardiac Sciences",
+        "Neurosciences",
+        "Orthopedics",
+        "Nephrology",
+        "Gastroenterology",
+        "Critical Care",
+        "Gynecology & IVF",
+        "Bariatric Surgery",
+        "Respiratory & Sleep Medicine",
+        "Diabetes & Metabolic Disorders"
+      ]
+    },
+    "facilities": {
+      "visible": true,
+      "comfort": [
+        "Private rooms",
+        "Free Wifi",
+        "TV in room",
+        "Family accommodation",
+        "Concierge services",
+        "Nursery/Nanny services",
+        "Religious facilities",
+        "Café & dining options",
+        "Fitness & spa",
+        "Beauty salon",
+        "Parking available"
+      ],
+      "infrastructure": [
+        "450 beds including ICU, NICU, and emergency units",
+        "Two Cardiac Cath Labs",
+        "Modular operation theatres",
+        "EPS labs",
+        "Endoscopic Ultrasound",
+        "3T MRI",
+        "128-slice CT scanner",
+        "Advanced pathology & biochemistry labs"
+      ]
+    },
+    "address": {
+      "visible": true,
+      "full": "Plot No. 1, Sector 16, Faridabad, 121002, India",
+      "nearby": [
+        { "place": "Indira Gandhi International Airport", "distanceKm": 30, "duration": "45–60 mins" },
+        { "place": "Hotels & restaurants", "distanceKm": 1, "duration": "5 mins walk" }
+      ]
+    },
+    "reviews": [
+      {
+        "patient": "Baby Fathima Jabbi",
+        "country": "Gambia",
+        "rating": 5,
+        "feedback": "After discovering that our baby had a heart defect, we reached out to Marengo Asia Hospital. The surgery was successful, and our baby is recovering well.",
+        "visible": true
+      }
+    ],
+    "media": {
+      "images": [
+        { "url": "/images/hospital/marengo/marengo-1.png", "visible": true },
+        { "url": "/images/hospital/marengo/marengo-2.png", "visible": true },
+        { "url": "/images/hospital/marengo/marengo-3.png", "visible": true }
+      ],
+      "videos": []
+    },
+    "contact": {
+      "phone": "+91-9971616131",
+      "email": "",
+      "website": "https://www.marengoasia.com/"
+    }
+  }
+  
