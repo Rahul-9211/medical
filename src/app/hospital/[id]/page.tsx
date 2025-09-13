@@ -31,7 +31,7 @@ export default async function HospitalPage({
   const displayImages: any[] = (mediaImages.length > 0
     ? mediaImages.map((img: any, i: number) => ({
         ...img,
-        url: (typeof img.url === "string") ? img.url : unsplashFallbacks[i % unsplashFallbacks.length]
+        url: (typeof img.url === "string" && img.url.startsWith("http")) ? img.url : unsplashFallbacks[i % unsplashFallbacks.length]
       }))
     : unsplashFallbacks.map((url: string) => ({ url, visible: true }))
   );
