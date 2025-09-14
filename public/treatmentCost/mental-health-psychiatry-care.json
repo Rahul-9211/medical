@@ -1,0 +1,74 @@
+{
+    "slug": "mental-health-psychiatry-care",
+    "title": "🧠 Cost of Mental Health & Psychiatry Support in India",
+    "subtitle": "Affordable & Advanced Mental Health Care in India",
+    "why_india": "India is a preferred destination for mental health and psychiatric treatments, offering experienced psychiatrists, psychologists, and modern hospitals. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your mental health journey.",
+    "treatment_page": {
+      "link": "/treatments/mental-health-psychiatry-care",
+      "label": "Go Back to Mental Health & Psychiatry Page →"
+    },
+    "cost_page": "/treatment-cost/mental-health-psychiatry-care",
+    "procedures": [
+      { "name": "Psychiatric Consultation", "india": "$50 – $150", "usa": "$300 – $500", "saving": "Up to 80%" },
+      { "name": "Therapy / Counseling Sessions", "india": "$20 – $100 per session", "usa": "$150 – $300 per session", "saving": "Up to 85%" },
+      { "name": "Cognitive Behavioral Therapy (CBT)", "india": "$30 – $120 per session", "usa": "$150 – $400 per session", "saving": "Up to 85%" },
+      { "name": "Inpatient Psychiatric Care", "india": "$500 – $2,000 per week", "usa": "$5,000 – $15,000 per week", "saving": "Up to 85%" },
+      { "name": "Depression & Anxiety Management", "india": "$300 – $1,500", "usa": "$3,000 – $10,000", "saving": "Up to 85%" },
+      { "name": "Pediatric & Adolescent Psychiatry", "india": "$50 – $200 per session", "usa": "$300 – $600 per session", "saving": "Up to 85%" }
+    ],
+    "inclusions": [
+      "Consultation & evaluation fees",
+      "Psychiatrist / Psychologist charges",
+      "Therapy / counseling sessions",
+      "Medication management (if applicable)",
+      "Follow-up & post-treatment monitoring"
+    ],
+    "exclusions": [
+      "International travel & visa costs",
+      "Accommodation beyond hospital package",
+      "Luxury room upgrades",
+      "Extended inpatient stay beyond package days"
+    ],
+    "cost_factors": [
+      "Type and severity of mental health condition",
+      "Therapy type and session frequency",
+      "Hospital or wellness center choice",
+      "Patient’s age & overall health",
+      "Duration of treatment & follow-up needs"
+    ],
+    "why_best_choice": [
+      "Top psychiatrists & psychologists with international experience",
+      "State-of-the-art hospitals & wellness centers",
+      "High success rates in managing depression, anxiety, bipolar disorder, and pediatric mental health issues",
+      "Comprehensive care – evaluation, therapy, medication management, and follow-up",
+      "Affordable packages – save 60–85% compared to USA"
+    ],
+    "success_rates": [
+      "Depression & Anxiety: Effective therapy and medication management",
+      "CBT & Counseling: Proven improvement in mental well-being",
+      "Inpatient Care: Structured environment for severe mental health cases",
+      "Pediatric & Adolescent Psychiatry: Safe and effective interventions"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Aruna Verma",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Depression, Anxiety, Bipolar Disorder, CBT"
+      },
+      {
+        "name": "Dr. Nikhil Sharma",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "Pediatric Psychiatry, Counseling, Therapy"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your reports, medical history, or mental health assessments",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

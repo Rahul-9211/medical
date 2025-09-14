@@ -1,0 +1,92 @@
+{
+    "title": "Dental Implants & Oral Care in India",
+    "headline": "Affordable & Advanced Dental Treatments with World-Class Specialists",
+    "introduction": "India is a top destination for dental implants and oral care, offering the latest technology and highly experienced dentists at 70–80% lower cost than the USA, UK, or UAE. From cosmetic dentistry to full-mouth rehabilitation, patients benefit from painless, quick, and long-lasting treatments.",
+    "cost_link": "/treatment-cost/dental-implants-oral-care",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Dental Implants",
+          "procedures": [
+            "Single Tooth Implants",
+            "Multiple Teeth Implants",
+            "All-on-4 Implants",
+            "All-on-6 & Full Mouth Implants",
+            "Zygomatic Implants (for patients with low bone density)",
+            "Same-Day Implants (Immediate Loading Implants)"
+          ]
+        },
+        {
+          "name": "Cosmetic Dentistry",
+          "procedures": [
+            "Teeth Whitening (Laser & Chemical)",
+            "Dental Veneers & Laminates",
+            "Smile Makeover",
+            "Tooth Bonding & Shaping"
+          ]
+        },
+        {
+          "name": "Restorative Dentistry",
+          "procedures": [
+            "Dental Crowns & Bridges",
+            "Dentures (Complete & Partial)",
+            "Root Canal Treatment (RCT)",
+            "Tooth Extraction (Simple & Surgical)"
+          ]
+        },
+        {
+          "name": "Orthodontics & Alignment",
+          "procedures": [
+            "Braces (Metal, Ceramic, Self-ligating)",
+            "Invisalign (Clear Aligners)",
+            "Retainers & Jaw Alignment Treatments"
+          ]
+        },
+        {
+          "name": "Gum & Oral Surgery",
+          "procedures": [
+            "Gum Disease Treatment (Scaling & Root Planing)",
+            "Gum Grafting & Flap Surgery",
+            "Wisdom Tooth Removal",
+            "Oral & Maxillofacial Surgery",
+            "Cleft Lip & Palate Correction"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Highly experienced dentists with international training",
+      "Cutting-edge dental technology – 3D CT scan, CAD/CAM, laser dentistry",
+      "Quick procedures – full mouth rehabilitation in 7–10 days",
+      "Affordable packages – 70–80% cost savings",
+      "Sterile & safe clinics matching global standards"
+    ],
+    "success_rates": {
+      "Dental Implants": "95–98% long-term success rate",
+      "Invisalign & Orthodontics": ">95% success with proper compliance",
+      "Smile Makeovers": "90–95% patient satisfaction",
+      "Root Canal Treatments": "95%+ effective & painless"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Anil Chaturvedi",
+        "specialization": "Dental Implants & Oral Surgery",
+        "experience": "20+ years",
+        "affiliation": "Apollo Hospitals Dental Centre",
+        "expertise": "Full-Mouth Implants, Zygomatic Implants, Maxillofacial Surgery"
+      },
+      {
+        "name": "Dr. Vandana Katyal",
+        "specialization": "Orthodontics & Cosmetic Dentistry",
+        "experience": "15+ years",
+        "affiliation": "Private Dental Institute, Delhi NCR",
+        "expertise": "Invisalign, Smile Makeovers, Advanced Braces"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your dental X-rays, scans, or smile photos for a free evaluation. Get a personalized treatment & cost plan before you travel to India.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

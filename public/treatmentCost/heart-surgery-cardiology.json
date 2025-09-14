@@ -1,0 +1,65 @@
+{
+    "slug": "heart-surgery-cardiology",
+    "title": "💰 Heart Surgery – Cost in India",
+    "subtitle": "Affordable Cardiac Care with World-Class Outcomes",
+    "why_india": "India is one of the leading destinations for cardiac treatments, offering world-class expertise at just 1/5th the cost of the USA, UK, or UAE. With advanced hospitals, globally trained doctors, and transparent pricing, patients receive safe, high-quality, and affordable care.",
+    "treatment_page": {
+        "link" : "/treatments/heart-surgery-cardiology",
+        "label" :"View Complete Treatment Options for Heart Surgery in India →"
+    },
+    "cost_page": "/treatment-cost/heart-surgery-cardiology",  
+    "procedures": [
+      { "name": "Coronary Angiography", "india": "$250 – $500", "usa": "$3,000 – $5,000", "saving": "85–90%" },
+      { "name": "Angioplasty with Stent (1 stent)", "india": "$2,500 – $4,000", "usa": "$20,000 – $35,000", "saving": "80–85%" },
+      { "name": "CABG – Single", "india": "$4,000 – $6,000", "usa": "$45,000 – $80,000", "saving": "85–90%" },
+      { "name": "CABG – Multiple Vessels", "india": "$5,500 – $8,000", "usa": "$60,000 – $100,000", "saving": "85–90%" },
+      { "name": "Heart Valve Replacement (Single)", "india": "$5,500 – $9,000", "usa": "$50,000 – $90,000", "saving": "85–88%" },
+      { "name": "TAVR / TAVI (Transcatheter Valve)", "india": "$28,000 – $35,000", "usa": "$150,000 – $200,000", "saving": "75–80%" },
+      { "name": "Pacemaker Implantation (Single Chamber)", "india": "$3,000 – $4,500", "usa": "$25,000 – $35,000", "saving": "80–85%" },
+      { "name": "Pacemaker Implantation (Dual Chamber)", "india": "$4,500 – $6,000", "usa": "$35,000 – $50,000", "saving": "80–85%" },
+      { "name": "ICD (Implantable Cardioverter Defibrillator)", "india": "$9,000 – $13,000", "usa": "$60,000 – $90,000", "saving": "80–85%" },
+      { "name": "LVAD (Heart Pump) Implant", "india": "$70,000 – $90,000", "usa": "$200,000 – $300,000", "saving": "60–70%" },
+      { "name": "Heart Transplant", "india": "$75,000 – $120,000", "usa": "$1,000,000+", "saving": "85–90%" },
+      { "name": "Pediatric Heart Surgery (ASD/VSD closure)", "india": "$4,000 – $7,000", "usa": "$40,000 – $60,000", "saving": "85–90%" }
+    ],
+    "inclusions": [
+      "Surgeon & hospital fees",
+      "Medicines & consumables during stay",
+      "ICU & ward charges",
+      "Pre-surgery investigations",
+      "Nursing & medical care"
+    ],
+    "exclusions": [
+      "International travel",
+      "Visa costs",
+      "Extended stay beyond package days"
+    ],
+    "cost_factors": [
+      "Choice of hospital (standard vs premium)",
+      "Type of surgery (open-heart vs minimally invasive vs robotic)",
+      "Single vs double valve/bypass procedure",
+      "Patient’s age & overall health condition",
+      "Length of hospital stay & recovery"
+    ],
+    "why_best_choice": [
+      "Internationally trained cardiologists with 20–30+ years’ experience",
+      "World-class hospitals with NABH & JCI accreditation",
+      "Personalized patient care with multilingual coordinators",
+      "Up to 80% lower cost than Western countries, without compromise in quality"
+    ],
+    "specialists": [
+      { "name": "Dr. Naresh Trehan", "hospital": "Medanta Hospital, Gurugram" },
+      { "name": "Dr. Ashok Seth", "hospital": "Fortis Escorts Heart Institute, Delhi" },
+      { "name": "Dr. Rakesh Jain", "hospital": "Fortis Memorial, Gurugram" }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Estimate Before You Travel",
+      "points": [
+        "Best hospital & doctor recommendations",
+        "Transparent cost estimate (min–max)",
+        "Free second opinion from senior cardiologists"
+      ],
+      "button": { "label": "Get a Free Cost Estimate Now →", "link": "/get-estimate" }
+    }
+  }
+  

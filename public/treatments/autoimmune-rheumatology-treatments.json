@@ -1,0 +1,84 @@
+{
+    "title": "Autoimmune & Rheumatology Treatments in India",
+    "headline": "Specialized Care for Autoimmune Disorders & Rheumatologic Conditions at Affordable Costs",
+    "introduction": "India is a leading destination for autoimmune and rheumatology care, offering experienced rheumatologists, advanced diagnostics, and comprehensive treatment plans at much lower costs than Western countries. Patients with arthritis, lupus, scleroderma, and other autoimmune disorders benefit from personalized and multidisciplinary care.",
+    "cost_link": "/treatment-cost/autoimmune-rheumatology-treatments",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Rheumatologic Conditions",
+          "procedures": [
+            "Rheumatoid Arthritis (RA) Management",
+            "Osteoarthritis Treatment",
+            "Ankylosing Spondylitis Care",
+            "Gout & Crystal Arthropathy Management",
+            "Psoriatic Arthritis Treatments",
+            "Juvenile Arthritis Care"
+          ]
+        },
+        {
+          "name": "Autoimmune Disorders",
+          "procedures": [
+            "Lupus (SLE) Management",
+            "Scleroderma & Dermatomyositis",
+            "Vasculitis & Autoimmune Vasculopathies",
+            "Sjögren's Syndrome Treatments",
+            "Multiple Sclerosis & Neurological Autoimmune Disorders"
+          ]
+        },
+        {
+          "name": "Interventional & Advanced Treatments",
+          "procedures": [
+            "Biologic Therapy & Immunomodulators",
+            "DMARDs (Disease-Modifying Anti-Rheumatic Drugs)",
+            "Steroid & Pain Management",
+            "Physical Therapy & Rehabilitation Programs",
+            "Minimally Invasive Joint Procedures"
+          ]
+        },
+        {
+          "name": "Surgical Interventions",
+          "procedures": [
+            "Joint Replacement Surgery (Hip, Knee, Shoulder)",
+            "Arthroscopy for Inflammatory Joint Diseases",
+            "Synovectomy & Tendon Repair"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Globally trained rheumatologists & specialists",
+      "Advanced diagnostic labs & imaging facilities",
+      "High success rates with biologics & targeted therapies",
+      "Affordable treatment packages – 60–75% lower costs than USA/UK",
+      "Comprehensive multidisciplinary care – from medication to rehabilitation"
+    ],
+    "success_rates": {
+      "Rheumatoid Arthritis": "Improved mobility & reduced flares in 90%+ cases",
+      "Osteoarthritis & Joint Surgery": "High success rates with pain relief and mobility restoration",
+      "Lupus & Autoimmune Disorders": "Effective remission in majority with biologic therapy",
+      "Joint Replacement & Arthroscopy": ">95% functional improvement"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Ashok Kumar",
+        "specialization": "Rheumatology & Autoimmune Disorders",
+        "experience": "25+ years",
+        "affiliation": "All India Institute of Medical Sciences (AIIMS), Delhi",
+        "expertise": "RA, Lupus, Scleroderma, Biologic Therapy"
+      },
+      {
+        "name": "Dr. Meera Singh",
+        "specialization": "Rheumatology & Immunology",
+        "experience": "20+ years",
+        "affiliation": "Fortis Hospital, Gurugram",
+        "expertise": "Autoimmune Disorders, Joint Replacement Surgery, Arthroscopy"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your medical reports, blood tests, imaging, and history for a free evaluation. Get a personalized treatment & cost plan from India's top rheumatology specialists before traveling.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

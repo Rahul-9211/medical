@@ -1,0 +1,74 @@
+{
+    "title": "Liver & Kidney Transplant in India",
+    "headline": "Advanced Organ Transplant Care with High Success Rates & Affordable Costs",
+    "introduction": "India is a global hub for organ transplantation, offering state-of-the-art transplant centers, experienced surgeons, and costs up to 70–80% lower than in the USA, UK, or UAE. With highly specialized medical teams and strict ethical practices, India is one of the most trusted destinations for liver and kidney transplants.",
+    "cost_link": "/treatment-cost/liver-kidney-transplant",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Liver Transplantation",
+          "procedures": [
+            "Living Donor Liver Transplant (LDLT)",
+            "Deceased Donor Liver Transplant (DDLT)",
+            "Split Liver Transplant",
+            "Auxiliary Liver Transplant (partial grafts)",
+            "Pediatric Liver Transplant",
+            "Re-transplant (for graft failure)"
+          ]
+        },
+        {
+          "name": "Kidney Transplantation",
+          "procedures": [
+            "Living Donor Kidney Transplant",
+            "Deceased Donor Kidney Transplant (Cadaveric)",
+            "ABO-incompatible Kidney Transplant",
+            "Paired Kidney Exchange / Swap Transplant",
+            "Pediatric Kidney Transplant",
+            "Re-transplant for failed grafts"
+          ]
+        },
+        {
+          "name": "Pre- & Post-Transplant Care",
+          "procedures": [
+            "Dialysis Support (Hemodialysis, Peritoneal Dialysis)",
+            "Anti-rejection Immunosuppressive Therapy",
+            "Long-term follow-up & monitoring"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Globally trained transplant surgeons with 20–30+ years of expertise",
+      "High success rates – Liver Transplant: 85–90%, Kidney Transplant: 90–95%",
+      "Advanced ICUs & labs for safe procedures",
+      "Affordable packages – save up to 80% compared to Western countries",
+      "Ethical & legal framework for donor-recipient safety"
+    ],
+    "success_rates": {
+      "Kidney Transplant": "90–95% success rate (1-year graft survival)",
+      "Liver Transplant": "85–90% success rate (long-term survival with good lifestyle)",
+      "Pediatric Liver/Kidney Transplants": "85–90% survival rates in experienced centers"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Arvinder Singh Soin",
+        "specialization": "Liver Transplant & Hepatobiliary Surgery",
+        "experience": "30+ years, 3,500+ liver transplants performed",
+        "affiliation": "Medanta – The Medicity, Gurugram",
+        "expertise": "Adult & Pediatric Liver Transplants, Complex Hepatobiliary Surgery"
+      },
+      {
+        "name": "Dr. Rajeev Sood",
+        "specialization": "Kidney Transplant & Urology",
+        "experience": "25+ years, 2,000+ kidney transplants",
+        "affiliation": "Fortis Memorial Research Institute, Gurugram",
+        "expertise": "Living Donor Kidney Transplants, Paired Exchange, Robotic Urology"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your transplant evaluation reports, lab results, and donor compatibility tests for a free review by India's top transplant specialists. We'll provide a personalized treatment & cost plan before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

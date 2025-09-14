@@ -1,0 +1,75 @@
+{
+    "slug": "skin-dermatology-treatments",
+    "title": "🌿 Cost of Skin & Dermatology Treatments in India",
+    "subtitle": "Affordable & Advanced Skin Care in India",
+    "why_india": "India is a leading destination for dermatology and skin treatments, offering experienced dermatologists, modern clinics, and advanced procedures. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your dermatology treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/skin-dermatology-treatments",
+      "label": "Go Back to Skin & Dermatology Treatments Page →"
+    },
+    "cost_page": "/treatment-cost/skin-dermatology-treatments",
+    "procedures": [
+      { "name": "Laser Skin Resurfacing", "india": "$300 – $1,000", "usa": "$2,500 – $5,000", "saving": "Up to 80%" },
+      { "name": "Chemical Peels", "india": "$100 – $400", "usa": "$1,500 – $3,000", "saving": "Up to 85%" },
+      { "name": "Botox & Fillers", "india": "$200 – $600", "usa": "$1,500 – $3,000", "saving": "Up to 80%" },
+      { "name": "Mole / Wart / Skin Lesion Removal", "india": "$150 – $500", "usa": "$1,000 – $3,000", "saving": "Up to 85%" },
+      { "name": "Acne & Scar Treatment", "india": "$200 – $800", "usa": "$2,000 – $5,000", "saving": "Up to 80%" },
+      { "name": "Hair & Scalp Treatments", "india": "$300 – $1,200", "usa": "$2,500 – $5,000", "saving": "Up to 80%" },
+      { "name": "Skin Cancer Surgery / Treatment", "india": "$2,000 – $6,000", "usa": "$20,000 – $40,000", "saving": "Up to 85%" }
+    ],
+    "inclusions": [
+      "Consultation & dermatologist fees",
+      "Treatment procedures & consumables",
+      "Pre-treatment tests & evaluation",
+      "Post-treatment follow-up care",
+      "Medications during treatment"
+    ],
+    "exclusions": [
+      "International travel & visa",
+      "Accommodation outside clinic/hospital package",
+      "Luxury treatments or cosmetic add-ons",
+      "Extended recovery care beyond package"
+    ],
+    "cost_factors": [
+      "Type of dermatology procedure chosen",
+      "Choice of clinic & city",
+      "Experience & expertise of dermatologist",
+      "Complexity of treatment & patient condition",
+      "Number of sessions required"
+    ],
+    "why_best_choice": [
+      "Top dermatologists & aesthetic specialists with international training",
+      "State-of-the-art clinics & laser centers",
+      "High success rates for skin, hair, and cosmetic dermatology treatments",
+      "Comprehensive care – from consultation, diagnosis, to post-treatment follow-up",
+      "Affordable packages – save 60–85% compared to USA"
+    ],
+    "success_rates": [
+      "Laser Resurfacing & Chemical Peels: Visible improvement with minimal downtime",
+      "Botox & Fillers: Effective cosmetic results",
+      "Acne & Scar Treatments: Significant reduction in blemishes & scarring",
+      "Skin Cancer Treatments: High precision with safe recovery"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Kiran Bedi",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Laser Resurfacing, Acne & Scar Treatments, Cosmetic Procedures"
+      },
+      {
+        "name": "Dr. Anjali Verma",
+        "hospital": "Apollo Skin Clinic, Delhi",
+        "expertise": "Botox, Fillers, Skin Lesion Removal, Hair Treatments"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your skin or hair reports and photographs",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

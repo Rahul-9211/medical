@@ -1,0 +1,34 @@
+{
+    "name": "Dedicated 24/7 Assistance",
+    "description": "Round-the-clock support for international patients in India, ensuring a smooth, safe, and stress-free medical journey.",
+    "howItHelps": [
+      "Before Arrival: Guidance on visa, travel, and treatment planning",
+      "During Stay: Airport transfers, hospital admissions, doctor appointments",
+      "Emergency Support: Immediate response in case of medical needs",
+      "Daily Assistance: Help with accommodation, meals, and translation",
+      "Post-Treatment Care: Follow-up support after discharge and return home"
+    ],
+    "whyPatientsValue": [
+      "Personal Patient Coordinator assigned to every patient",
+      "Multilingual support (Arabic, Russian, French, African languages)",
+      "Assistance with local SIM cards, banking & daily needs",
+      "Direct coordination with hospitals & doctors",
+      "Emotional support for patients & families far from home"
+    ],
+    "examples": [
+      "Arranging urgent consultations with specialists",
+      "Handling last-minute travel or hospital requirements",
+      "Emergency medical help (ambulance or ICU support)",
+      "Translation and interpretation during medical discussions",
+      "Guiding families on sightseeing & recovery activities"
+    ],
+    "cost": [
+      "Included FREE with our medical tourism packages",
+      "Premium add-on for extended personal care or in-home nursing"
+    ],
+    "cta": {
+      "text": "Request 24/7 Assistance Now",
+      "url": "/services/assistance"
+    }
+  }
+  

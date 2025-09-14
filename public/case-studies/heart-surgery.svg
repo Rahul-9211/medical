@@ -1,0 +1,5 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#f3f4f6"/>
+  <rect x="50" y="50" width="200" height="100" fill="#1e40af" rx="5"/>
+  <text x="150" y="110" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">CASE STUDY</text>
+</svg>

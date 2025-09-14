@@ -1,0 +1,83 @@
+{
+    "title": "Lung & Respiratory Disease Care in India",
+    "headline": "Advanced Pulmonary & Respiratory Treatments with Expert Care at Affordable Costs",
+    "introduction": "India is a preferred destination for lung and respiratory care, offering state-of-the-art diagnostics, specialized pulmonologists, and advanced surgical & non-surgical treatments. Patients from around the world come to India for effective care at 60–80% lower cost than in the USA, UK, or UAE.",
+    "cost_link": "/treatment-cost/lung-respiratory-disease-care",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Medical Management",
+          "procedures": [
+            "Asthma Management & Biologic Therapy",
+            "COPD (Chronic Obstructive Pulmonary Disease) Management",
+            "Pulmonary Hypertension Treatment",
+            "Interstitial Lung Disease (ILD) Care",
+            "Tuberculosis (TB) Treatment & Drug-Resistant TB Care"
+          ]
+        },
+        {
+          "name": "Diagnostic Services",
+          "procedures": [
+            "Pulmonary Function Tests (PFTs)",
+            "High-Resolution CT (HRCT) Scan",
+            "Bronchoscopy & Endobronchial Ultrasound (EBUS)",
+            "Sleep Studies (Polysomnography)"
+          ]
+        },
+        {
+          "name": "Surgical & Interventional Pulmonology",
+          "procedures": [
+            "Thoracoscopic (VATS) Lung Surgery",
+            "Lung Resection & Lobectomy",
+            "Bronchial Stenting & Laser Therapy",
+            "Pleural Surgery (Thoracoscopy for Effusion, Empyema)",
+            "Lung Transplant Evaluation & Referral"
+          ]
+        },
+        {
+          "name": "Other Specialized Care",
+          "procedures": [
+            "Sleep Apnea & CPAP Management",
+            "Pulmonary Rehabilitation Programs",
+            "Allergy & Immunotherapy for Respiratory Disorders",
+            "Smoking Cessation Programs"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Top pulmonologists & thoracic surgeons with global experience",
+      "Cutting-edge diagnostics – CT, bronchoscopy, sleep labs",
+      "Minimally invasive surgical options for faster recovery",
+      "Affordable treatment packages – 60–80% lower costs than the West",
+      "Comprehensive care – pre-treatment evaluation, post-treatment follow-up"
+    ],
+    "success_rates": {
+      "Thoracoscopic Lung Surgeries": "95% success rate",
+      "COPD & Asthma Management": "Significant symptom control in 90%+ cases",
+      "Lung Resection & Transplant Referral": "High survival & recovery rates",
+      "Sleep Apnea Treatment": ">90% improvement in quality of life"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Randeep Guleria",
+        "specialization": "Pulmonology & Critical Care",
+        "experience": "30+ years",
+        "affiliation": "AIIMS, Delhi",
+        "expertise": "COPD, ILD, Pulmonary Hypertension, Thoracic Surgery"
+      },
+      {
+        "name": "Dr. Ashok Shah",
+        "specialization": "Thoracic Surgery & Pulmonology",
+        "experience": "25+ years",
+        "affiliation": "Fortis Hospital, Mumbai",
+        "expertise": "VATS, Lung Resection, Interventional Pulmonology"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your lung function reports, CT scans, or medical history for a free evaluation. Get a personalized treatment & cost plan from India's top pulmonologists before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

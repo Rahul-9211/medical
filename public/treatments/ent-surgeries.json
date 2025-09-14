@@ -1,0 +1,86 @@
+{
+    "title": "ENT (Ear, Nose & Throat) Surgeries in India",
+    "headline": "Advanced ENT Treatments & Surgeries by Top Specialists at Affordable Cost",
+    "introduction": "India is a global hub for ENT treatments, offering cutting-edge solutions for disorders of the ear, nose, throat, head, and neck. With advanced technology such as endoscopic sinus surgery, cochlear implants, and robotic ENT procedures, patients receive world-class care at 70–80% lower costs than in Western countries.",
+    "cost_link": "/treatment-cost/ent-surgeries",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Ear Treatments",
+          "procedures": [
+            "Cochlear Implant Surgery (for hearing loss)",
+            "Tympanoplasty (Eardrum Repair)",
+            "Mastoidectomy",
+            "Stapedectomy (for Otosclerosis)",
+            "BAHA (Bone Anchored Hearing Aids) Implant",
+            "Ear Tube Insertion (for recurrent ear infections)"
+          ]
+        },
+        {
+          "name": "Nose & Sinus Treatments",
+          "procedures": [
+            "Functional Endoscopic Sinus Surgery (FESS)",
+            "Septoplasty (Deviated Nasal Septum Correction)",
+            "Rhinoplasty (Cosmetic & Functional Nose Surgery)",
+            "Nasal Polyp Removal",
+            "Balloon Sinuplasty",
+            "Skull Base Surgery"
+          ]
+        },
+        {
+          "name": "Throat & Voice Treatments",
+          "procedures": [
+            "Tonsillectomy & Adenoidectomy",
+            "Laryngoscopy & Vocal Cord Surgery",
+            "Phonosurgery (Voice Restoration)",
+            "Thyroid & Parathyroid Surgery",
+            "Salivary Gland Surgery"
+          ]
+        },
+        {
+          "name": "Head & Neck Surgeries",
+          "procedures": [
+            "Head & Neck Cancer Surgery",
+            "Robotic ENT Surgery (Transoral Robotic Surgery – TORS)",
+            "Neck Dissection for Cancer",
+            "Sleep Apnea Surgery (UPPP, Inspire Device Implant)"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Highly experienced ENT surgeons trained globally",
+      "Cutting-edge technology – cochlear implants, robotic ENT systems",
+      "Short hospital stays & fast recovery with minimally invasive options",
+      "High success rates – over 95% for common ENT procedures",
+      "Affordable packages – 70–80% savings vs USA/UK/UAE"
+    ],
+    "success_rates": {
+      "Cochlear Implants": "90–95% hearing restoration in children & adults",
+      "Sinus & Nasal Surgeries": "95% success with symptom relief",
+      "Tonsillectomy & Adenoidectomy": "98% safe & effective in children",
+      "Head & Neck Cancer Surgeries": "High survival rates with advanced oncology care"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. K. K. Handa",
+        "specialization": "ENT, Head & Neck Surgery, Cochlear Implants",
+        "experience": "30+ years",
+        "affiliation": "Medanta – The Medicity, Gurugram",
+        "expertise": "Cochlear Implants, Voice Disorders, Endoscopic Sinus Surgery"
+      },
+      {
+        "name": "Dr. Ameet Kishore",
+        "specialization": "ENT & Pediatric ENT Surgery",
+        "experience": "20+ years",
+        "affiliation": "Apollo Hospitals, Delhi",
+        "expertise": "Cochlear Implants, Skull Base Surgery, Pediatric ENT"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your audiometry reports, CT scans, or ENT evaluation records for a free review by India's best ENT specialists. Get a personalized treatment & cost plan before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

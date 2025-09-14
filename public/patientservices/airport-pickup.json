@@ -1,0 +1,36 @@
+{
+    "name": "Airport Pickup & Ground Transfers",
+    "description": "Seamless travel experience for international patients in India with safe airport pickup, hospital transfers, and ground transportation.",
+    "services": [
+      "Airport Pickup & Drop: Private cars or ambulances for safe travel",
+      "Hospital Transfers: Directly from airport to hospital admission desk",
+      "Hotel / Guesthouse Transfers: Drop-off at pre-booked accommodations",
+      "Ambulance Transfers: For patients requiring stretcher, oxygen, or medical care",
+      "City Transfers: Comfortable ground travel for consultations & follow-ups"
+    ],
+    "whyChooseUs": [
+      "Meet-and-greet at airport arrival gate",
+      "Professional drivers trained for patient comfort",
+      "Options: Sedan, SUV, luxury cars, or ambulances",
+      "24/7 availability across Delhi NCR, Mumbai, Bangalore & other hubs",
+      "Assistance with luggage & medical equipment",
+      "Stress-free travel for patients & family"
+    ],
+    "specialSupport": [
+      "Multilingual assistance (Arabic, Russian, French, African languages)",
+      "Coordination with hospitals for direct admissions",
+      "Travel for wheelchair-bound or bed-bound patients",
+      "Affordable packages compared to regular taxi or private services"
+    ],
+    "cost": [
+      "Airport Pickup (Car): $25 – $50",
+      "Ambulance Transfer (Basic): $100 – $200",
+      "Ambulance Transfer (ICU-equipped): $250 – $500",
+      "Outstation Transfers: Based on distance & requirements"
+    ],
+    "cta": {
+      "text": "Request Ground Transfer Service",
+      "url": "/services/airport-pickup"
+    }
+  }
+  

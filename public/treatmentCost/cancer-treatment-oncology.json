@@ -1,0 +1,78 @@
+{
+    "slug": "cancer-treatment-oncology",
+    "title": "🎗️ Cost of Cancer Treatment (Oncology) in India",
+    "subtitle": "World-Class Cancer Care at Affordable Costs",
+    "why_india": "India is a leading destination for cancer treatment, offering multidisciplinary oncology care, advanced hospitals, and internationally trained oncologists. Patients receive high-quality treatment at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and full guidance throughout your treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/cancer-treatment-oncology",
+      "label": "Go Back to Cancer Treatment (Oncology) Page →"
+    },
+    "cost_page": "/treatment-cost/cancer-treatment-oncology",
+    "procedures": [
+      { "name": "Chemotherapy (per cycle)", "india": "$500 – $1,500", "usa": "$6,000 – $12,000", "saving": "Up to 90%" },
+      { "name": "Radiation Therapy", "india": "$3,000 – $6,000", "usa": "$30,000 – $50,000", "saving": "Up to 80%" },
+      { "name": "Targeted Therapy", "india": "$2,500 – $8,000", "usa": "$20,000 – $60,000", "saving": "Up to 85%" },
+      { "name": "Immunotherapy", "india": "$5,000 – $12,000", "usa": "$50,000 – $100,000", "saving": "Up to 85%" },
+      { "name": "Surgery (Tumor Resection)", "india": "$5,000 – $15,000", "usa": "$40,000 – $100,000", "saving": "Up to 85%" },
+      { "name": "Bone Marrow / Stem Cell Transplant", "india": "$25,000 – $50,000", "usa": "$150,000 – $250,000", "saving": "Up to 80%" },
+      { "name": "Proton Therapy", "india": "$30,000 – $60,000", "usa": "$150,000 – $250,000", "saving": "Up to 75%" },
+      { "name": "Palliative / Supportive Care", "india": "$1,500 – $5,000", "usa": "$15,000 – $30,000", "saving": "Up to 80%" }
+    ],
+    "inclusions": [
+      "Doctor consultation fees",
+      "Treatment & procedure charges",
+      "Hospital stay & nursing care",
+      "Medication & consumables during treatment",
+      "Post-treatment follow-up"
+    ],
+    "exclusions": [
+      "International travel & visa",
+      "Accommodation outside hospital",
+      "High-end medications if chosen separately",
+      "Extended stay beyond package",
+      "Personal expenses"
+    ],
+    "cost_factors": [
+      "Type of cancer & stage of disease",
+      "Choice of hospital & city",
+      "Treatment modality (chemotherapy, radiation, surgery, immunotherapy)",
+      "Surgeon/oncologist experience",
+      "Length of hospital stay",
+      "Need for specialized therapies (bone marrow transplant, proton therapy)"
+    ],
+    "why_best_choice": [
+      "Globally trained oncologists with multidisciplinary expertise",
+      "State-of-the-art hospitals with modern diagnostics & treatment facilities",
+      "Affordable packages – save 60–90% compared to the USA",
+      "High success rates for surgery, chemotherapy, radiation, and immunotherapy",
+      "Comprehensive care from diagnosis to post-treatment follow-up"
+    ],
+    "success_rates": [
+      "Early-stage cancers: High remission rates (>85%)",
+      "Advanced cancers: Improved quality of life and extended survival",
+      "Stem Cell / Bone Marrow Transplants: Successful outcomes for eligible patients",
+      "Palliative & supportive care: Significant symptom relief and patient comfort"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Suresh Advani",
+        "hospital": "Jaslok Hospital, Mumbai",
+        "expertise": "Chemotherapy, Bone Marrow Transplant, Targeted Therapy"
+      },
+      {
+        "name": "Dr. Aruna Nair",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "Tumor Resection, Minimally Invasive Surgery, Palliative Care"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your medical reports, biopsy results, or scans",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

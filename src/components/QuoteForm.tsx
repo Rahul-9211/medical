@@ -18,14 +18,18 @@ interface QuoteFormProps {
     termsText: string;
   };
   countries: string[];
+  onSubmit?: (formData: Record<string, string>) => void;
+  isSubmitting?: boolean;
 }
 
-export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
+export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting: externalIsSubmitting }: QuoteFormProps) {
   const [formData, setFormData] = useState<Record<string, string>>({});
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [internalIsSubmitting, setInternalIsSubmitting] = useState(false);
   const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
   const [countrySearch, setCountrySearch] = useState('');
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const isSubmitting = externalIsSubmitting !== undefined ? externalIsSubmitting : internalIsSubmitting;
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -50,17 +54,24 @@ export default function QuoteForm({ quoteForm, countries }: QuoteFormProps) {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    console.log('Form submitted:', formData);
-    setIsSubmitting(false);
-    
-    // Reset form
-    setFormData({});
-    alert('Thank you! We will contact you soon.');
+    if (onSubmit) {
+      // Use external submit handler
+      onSubmit(formData);
+    } else {
+      // Use internal submit handler (original behavior)
+      setInternalIsSubmitting(true);
+      
+      // Simulate form submission
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      
+      console.log('Form submitted:', formData);
+      setInternalIsSubmitting(false);
+      
+      // Reset form
+      setFormData({});
+      alert('Thank you! We will contact you soon.');
+    }
   };
 
   const filteredCountries = countries.filter(country =>

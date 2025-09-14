@@ -1,0 +1,71 @@
+{
+    "title": "General & Laparoscopic Surgery in India",
+    "headline": "World-Class Surgical Care with Minimally Invasive Techniques at Affordable Cost",
+    "introduction": "India is a leading destination for general and laparoscopic surgery, offering advanced procedures with minimally invasive techniques that ensure less pain, faster recovery, and lower cost. Our partner hospitals are equipped with modern operation theaters, robotic systems, and highly skilled surgeons who treat both routine and complex surgical conditions.",
+    "cost_link": "/treatment-cost/general-laparoscopic-surgery",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Common General Surgeries",
+          "procedures": [
+            "Appendix Removal (Appendectomy)",
+            "Gallbladder Removal (Cholecystectomy)",
+            "Hernia Repair (Inguinal, Umbilical, Hiatal, Ventral)",
+            "Thyroid & Parathyroid Surgery",
+            "Hemorrhoids, Fissures & Fistula Surgery",
+            "Breast Lump Removal & Mastectomy",
+            "Trauma & Emergency Surgeries",
+            "Gastrointestinal Surgeries (Intestinal Obstructions, Perforations)",
+            "Spleen & Pancreatic Surgery",
+            "Abdominal Exploratory Surgeries"
+          ]
+        },
+        {
+          "name": "Laparoscopic & Minimally Invasive Surgeries",
+          "procedures": [
+            "Laparoscopic Gallbladder Removal",
+            "Laparoscopic Appendectomy",
+            "Laparoscopic Hernia Repair (TAPP/TEP techniques)",
+            "Laparoscopic Hysterectomy & Gynecological Surgeries",
+            "Laparoscopic Colorectal Surgeries",
+            "Bariatric & Weight Loss Surgeries (Sleeve Gastrectomy, Gastric Bypass)",
+            "Robotic-Assisted General Surgeries"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Skilled surgeons trained in the USA/UK with 20+ years' experience",
+      "Minimally invasive procedures → quicker healing & minimal scarring",
+      "Lower cost – up to 70% savings compared to Western countries",
+      "World-class hospitals with robotic & advanced laparoscopic systems",
+      "Short waiting times – surgeries scheduled within days"
+    ],
+    "success_rates": {
+      "Laparoscopic surgeries": "95–98% success rates with faster discharge",
+      "Minimal hospital stay": "2–4 days average vs 7–10 days for open surgeries",
+      "Recovery": "Return to normal activities within 1–2 weeks"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Pradeep Chowbey",
+        "specialization": "Laparoscopic, Bariatric & Metabolic Surgery",
+        "experience": "30+ years, pioneer in minimal access surgery in Asia",
+        "affiliation": "Max Super Speciality Hospital, Delhi",
+        "expertise": "Gallbladder, Hernia, Bariatric & Advanced GI surgeries"
+      },
+      {
+        "name": "Dr. Vivek Bindal",
+        "specialization": "Advanced Laparoscopic & Robotic Surgery",
+        "experience": "20+ years",
+        "affiliation": "Fortis Hospital, Gurugram",
+        "expertise": "Laparoscopic Hernia, Colorectal & Bariatric Surgery"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your reports and diagnostic scans for a free review by top Indian surgeons. We'll provide a personalized treatment & cost plan before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

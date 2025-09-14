@@ -1,0 +1,74 @@
+{
+    "slug": "bariatric-weight-loss-surgery",
+    "title": "⚖️ Cost of Bariatric (Weight Loss) Surgery in India",
+    "subtitle": "Affordable & Advanced Bariatric Surgery Care",
+    "why_india": "India is a preferred destination for bariatric and weight loss surgery, offering highly experienced surgeons, modern hospitals, and comprehensive post-surgery care. Patients receive world-class treatment at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and full guidance throughout your weight loss journey.",
+    "treatment_page": {
+      "link": "/treatments/bariatric-weight-loss-surgery",
+      "label": "Go Back to Bariatric & Weight Loss Surgery Page →"
+    },
+    "cost_page": "/treatment-cost/bariatric-weight-loss-surgery",
+    "procedures": [
+      { "name": "Gastric Bypass", "india": "$5,000 – $9,000", "usa": "$25,000 – $35,000", "saving": "Up to 80%" },
+      { "name": "Sleeve Gastrectomy", "india": "$4,500 – $8,000", "usa": "$20,000 – $30,000", "saving": "Up to 80%" },
+      { "name": "Adjustable Gastric Band", "india": "$3,500 – $6,500", "usa": "$15,000 – $25,000", "saving": "Up to 80%" },
+      { "name": "Biliopancreatic Diversion (BPD)", "india": "$6,000 – $10,000", "usa": "$30,000 – $45,000", "saving": "Up to 80%" },
+      { "name": "Revisional Bariatric Surgery", "india": "$7,000 – $12,000", "usa": "$35,000 – $50,000", "saving": "Up to 80%" },
+      { "name": "Mini-Gastric Bypass", "india": "$4,500 – $8,500", "usa": "$20,000 – $35,000", "saving": "Up to 80%" }
+    ],
+    "inclusions": [
+      "Surgeon & hospital fees",
+      "Pre-operative evaluation and investigations",
+      "Surgery & post-operative care",
+      "Diet & lifestyle guidance during stay",
+      "Follow-up consultations and structured program"
+    ],
+    "exclusions": [
+      "International travel & visa",
+      "Accommodation outside hospital package",
+      "Extended stay beyond package duration",
+      "Personal expenses or high-end medications"
+    ],
+    "cost_factors": [
+      "Type of bariatric procedure (gastric bypass, sleeve, band, etc.)",
+      "Choice of hospital and city",
+      "Experience of bariatric surgeons",
+      "Patient’s age, BMI & overall health condition",
+      "Length of hospital stay & post-op care requirements"
+    ],
+    "why_best_choice": [
+      "Globally trained bariatric surgeons with extensive experience",
+      "State-of-the-art hospitals with advanced laparoscopic & robotic surgery facilities",
+      "High success rates and improved long-term weight management",
+      "Comprehensive care – pre-op evaluation, surgery, diet & lifestyle guidance, post-op follow-up",
+      "Affordable packages – save 60–80% compared to USA"
+    ],
+    "success_rates": [
+      "Sleeve Gastrectomy & Gastric Bypass: >90% patient satisfaction and sustained weight loss",
+      "Adjustable Gastric Band: Effective for moderate weight loss with minimal complications",
+      "Revisional Surgery: High success in correcting previous procedures",
+      "Post-op care: Structured diet and lifestyle program ensures long-term success"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Anil Sharma",
+        "hospital": "Fortis Memorial Research Institute, Gurugram",
+        "expertise": "Gastric Bypass, Sleeve Gastrectomy, Revisional Surgery"
+      },
+      {
+        "name": "Dr. Priya Mehta",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "Mini-Gastric Bypass, Sleeve Gastrectomy, Post-op Care"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your medical reports and BMI details",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

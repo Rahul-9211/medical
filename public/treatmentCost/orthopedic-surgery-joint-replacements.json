@@ -1,0 +1,75 @@
+{
+    "slug": "orthopedic-surgery-joint-replacements",
+    "title": "🦵 Cost of Orthopedic Surgery & Joint Replacements in India",
+    "subtitle": "Affordable World-Class Orthopedic Care – Knee, Hip & Joint Surgeries",
+    "why_india": "India is a global hub for orthopedic surgery, attracting patients from across the world. With state-of-the-art hospitals, internationally trained surgeons, and modern rehabilitation facilities, India offers high-quality joint replacement and orthopedic care at 60–80% lower costs than the USA. Our focus is treating patients, not profits – you’ll receive personalized care, transparent cost estimates, and complete guidance throughout your treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/orthopedic-surgery-joint-replacements",
+      "label": "Go Back to Orthopedic Surgery & Joint Replacements Treatment Page →"
+    },
+    "cost_page": "/treatment-cost/orthopedic-surgery-joint-replacements",
+    "procedures": [
+      { "name": "Knee Replacement (Single Knee)", "india": "$4,000 – $7,000", "usa": "$25,000 – $35,000", "saving": "Up to 80%" },
+      { "name": "Knee Replacement (Both Knees)", "india": "$7,000 – $10,000", "usa": "$45,000 – $60,000", "saving": "Up to 80%" },
+      { "name": "Hip Replacement (Single Hip)", "india": "$5,000 – $8,000", "usa": "$30,000 – $40,000", "saving": "Up to 80%" },
+      { "name": "Hip Replacement (Both Hips)", "india": "$9,000 – $12,000", "usa": "$55,000 – $70,000", "saving": "Up to 80%" },
+      { "name": "Shoulder Replacement", "india": "$4,500 – $7,500", "usa": "$28,000 – $35,000", "saving": "Up to 80%" },
+      { "name": "Arthroscopy (Knee/Shoulder)", "india": "$1,500 – $3,000", "usa": "$8,000 – $12,000", "saving": "Up to 80%" },
+      { "name": "Spine Surgery (Lumbar/Thoracic)", "india": "$6,000 – $12,000", "usa": "$40,000 – $70,000", "saving": "Up to 80%" },
+      { "name": "Joint Revision Surgery", "india": "$8,000 – $15,000", "usa": "$50,000 – $80,000", "saving": "Up to 80%" }
+    ],
+    "inclusions": [
+      "Surgeon & hospital fees",
+      "Medicines & consumables during stay",
+      "Implant/prosthesis charges",
+      "ICU & ward charges",
+      "Physiotherapy & rehabilitation sessions"
+    ],
+    "exclusions": [
+      "International travel",
+      "Visa costs",
+      "Extended stay beyond package days"
+    ],
+    "cost_factors": [
+      "Choice of hospital (standard vs premium)",
+      "Type of surgery (minimally invasive vs open)",
+      "Type of implant/prosthesis used",
+      "Patient’s age & overall health condition",
+      "Length of hospital stay & rehabilitation needs"
+    ],
+    "why_best_choice": [
+      "Globally trained orthopedic surgeons with decades of experience",
+      "Advanced hospitals & operating theaters equipped with latest technology",
+      "High success rates for joint replacement, arthroscopy, and spine surgeries",
+      "Minimally invasive options for faster recovery",
+      "Comprehensive care – pre-op evaluation, surgery, physiotherapy, and follow-up"
+    ],
+    "success_rates": [
+      "Knee & Hip Replacement: 95%+ patient satisfaction and improved mobility",
+      "Arthroscopy & Minimally Invasive Surgery: Quick recovery, minimal complications",
+      "Spine Surgeries: Effective pain relief and improved quality of life",
+      "Joint Revision Surgeries: High functional restoration even in complex cases"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Ashok Rajgopal",
+        "hospital": "Fortis Memorial Research Institute, Gurugram",
+        "expertise": "Knee & Hip Replacement, Arthroscopy, Spine Surgery"
+      },
+      {
+        "name": "Dr. S. Raja",
+        "hospital": "Apollo Hospitals, Chennai",
+        "expertise": "Arthroscopy, Joint Revision, Pediatric Orthopedics"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your X-rays, MRI scans, or medical reports",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

@@ -1,0 +1,197 @@
+{
+    "pageData": {
+      "headline": "World-Class Medical & Surgical Treatments in India at 60–80% Lower Cost",
+      "introText": "India is one of the world's leading destinations for high-quality, affordable medical treatment. Whether you're seeking complex heart surgery, cancer treatment, joint replacements, fertility care, or organ transplants, we connect you with internationally accredited hospitals and expert doctors — all at a fraction of the cost you'd pay in the USA, UK, UAE, or Europe.",
+      "mainBenefits": [
+        "100% Free Second Opinion",
+        "No Hidden Fees – Transparent Pricing",
+        "Full Support – Medical Visa, Travel, Recovery"
+      ],
+      "ctaButton": "Get Free Treatment Estimate Now",
+      "sectionTitle": "🩺 Explore Top Specialties Available in India",
+      "sectionSubtitle": "Below are some of the most commonly sought medical and surgical treatments by international patients in India:"
+    },
+    "treatments": [
+      {
+        "id": 1,
+        "emoji": "❤️",
+        "title": "Heart Surgery & Cardiology in India",
+        "description": "Bypass surgery, angioplasty, valve replacement, pacemaker, pediatric cardiac care",
+        "slug": "heart-surgery-cardiology",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 2,
+        "emoji": "🦴",
+        "title": "Orthopedic Surgery & Joint Replacements",
+        "description": "Knee replacement, hip replacement, spine surgery, sports injuries",
+        "slug": "orthopedic-surgery-joint-replacements",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 3,
+        "emoji": "🧠",
+        "title": "Neurosurgery & Spine Treatments",
+        "description": "Brain tumors, spine decompression, disc replacement, epilepsy surgery",
+        "slug": "neurosurgery-spine-treatments",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 4,
+        "emoji": "🎗️",
+        "title": "Cancer Treatment (Oncology) in India",
+        "description": "Chemotherapy, radiation, robotic surgery, bone marrow transplant",
+        "slug": "cancer-treatment-oncology",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 5,
+        "emoji": "🧬",
+        "title": "IVF & Fertility Treatments in India",
+        "description": "IVF, ICSI, egg donation, surrogacy, male infertility solutions",
+        "slug": "ivf-fertility-treatments",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 6,
+        "emoji": "🫀",
+        "title": "Liver & Kidney Transplant in India",
+        "description": "Living donor transplant, deceased donor transplant, post-transplant care",
+        "slug": "liver-kidney-transplant",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 7,
+        "emoji": "🩹",
+        "title": "General & Laparoscopic Surgery",
+        "description": "Gallbladder removal, hernia repair, appendectomy, gastrointestinal surgery",
+        "slug": "general-laparoscopic-surgery",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 8,
+        "emoji": "⚖️",
+        "title": "Bariatric & Weight Loss Surgery",
+        "description": "Gastric bypass, sleeve gastrectomy, metabolic surgery",
+        "slug": "bariatric-weight-loss-surgery",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 9,
+        "emoji": "🔵",
+        "title": "Urology & Prostate Care",
+        "description": "Prostate surgery, kidney stones, bladder cancer, laser urology",
+        "slug": "urology-prostate-care",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 10,
+        "emoji": "👂",
+        "title": "ENT (Ear, Nose, Throat) Surgeries",
+        "description": "Cochlear implants, sinus surgery, tonsillectomy, voice box surgery",
+        "slug": "ent-surgeries",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 11,
+        "emoji": "💅",
+        "title": "Plastic & Cosmetic Surgery",
+        "description": "Rhinoplasty, liposuction, facelift, hair transplant, mommy makeover",
+        "slug": "plastic-cosmetic-surgery",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 12,
+        "emoji": "🦷",
+        "title": "Dental Implants & Oral Care",
+        "description": "Full-mouth implants, crowns & bridges, root canal, smile design",
+        "slug": "dental-implants-oral-care",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 13,
+        "emoji": "👁️",
+        "title": "Eye Treatment & LASIK Surgery",
+        "description": "Cataract surgery, retina, glaucoma, LASIK & laser eye correction",
+        "slug": "eye-treatment-lasik-surgery",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 14,
+        "emoji": "🌬️",
+        "title": "Lung & Respiratory Disease Care",
+        "description": "Bronchoscopy, thoracic surgery, asthma & COPD treatment",
+        "slug": "lung-respiratory-disease-care",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 15,
+        "emoji": "🌿",
+        "title": "Skin & Dermatology Treatments",
+        "description": "Psoriasis, vitiligo, acne scars, laser skin therapy",
+        "slug": "skin-dermatology-treatments",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 16,
+        "emoji": "👶",
+        "title": "Pediatric Surgery & Neonatal Care",
+        "description": "Congenital defects, pediatric cancer, child urology, NICU care",
+        "slug": "pediatric-surgery-neonatal-care",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 17,
+        "emoji": "🔄",
+        "title": "Autoimmune & Rheumatology Treatments",
+        "description": "Lupus, rheumatoid arthritis, vasculitis, immunotherapy",
+        "slug": "autoimmune-rheumatology-treatments",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 18,
+        "emoji": "🔬",
+        "title": "Diabetes, Thyroid & Hormonal Care",
+        "description": "Insulin resistance, hypothyroidism, PCOS, endocrine disorders",
+        "slug": "diabetes-thyroid-hormonal-care",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 19,
+        "emoji": "🧠",
+        "title": "Mental Health & Psychiatry Support",
+        "description": "Depression, anxiety, addiction recovery, child psychiatry",
+        "slug": "mental-health-psychiatry-support",
+        "ctaText": "Learn More ⟶"
+      },
+      {
+        "id": 20,
+        "emoji": "🩸",
+        "title": "Blood Disorders (Hematology Care)",
+        "description": "Leukemia, anemia, thalassemia, hemophilia, bone marrow transplant",
+        "slug": "blood-disorders-hematology-care",
+        "ctaText": "Learn More ⟶"
+      }
+    ],
+    "whyChooseIndia": {
+      "title": "💸 Why Choose India for Medical Treatment?",
+      "reasons": [
+        "World-class care at up to 70–80% lower cost",
+        "Highly experienced doctors trained in the US/UK",
+        "State-of-the-art hospitals with global accreditations (JCI/NABH)",
+        "No waiting list for major surgeries",
+        "Access to both modern medicine and Ayurvedic healing",
+        "Personalized assistance before, during & after treatment"
+      ]
+    },
+    "consultation": {
+      "title": "📞 Start Your Healing Journey Today",
+      "ctaButton": "Get a Free Online Consultation with Top Doctors",
+      "benefits": [
+        "Expert guidance in 24 hours",
+        "Fully confidential & no cost to you",
+        "Speak your language — Arabic, French, Bangla, Swahili & more"
+      ]
+    }
+  }
+  

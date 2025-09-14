@@ -1,0 +1,75 @@
+{
+    "slug": "ent-surgeries",
+    "title": "👂👃👄 Cost of ENT (Ear, Nose, Throat) Surgeries in India",
+    "subtitle": "Affordable & Advanced ENT Care in India",
+    "why_india": "India is a preferred destination for ENT treatments and surgeries, offering highly experienced ENT surgeons, modern hospitals, and advanced technologies. Patients receive world-class treatment at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your ENT treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/ent-surgeries",
+      "label": "Go Back to ENT (Ear, Nose, Throat) Surgeries Page →"
+    },
+    "cost_page": "/treatment-cost/ent-surgeries",
+    "procedures": [
+      { "name": "Tonsillectomy", "india": "$800 – $1,500", "usa": "$5,000 – $10,000", "saving": "Up to 85%" },
+      { "name": "Septoplasty / Deviated Septum Correction", "india": "$1,200 – $2,500", "usa": "$8,000 – $15,000", "saving": "Up to 80%" },
+      { "name": "Ear Tube Surgery (Myringotomy)", "india": "$1,000 – $2,000", "usa": "$7,000 – $12,000", "saving": "Up to 80%" },
+      { "name": "Sinus Surgery (Functional Endoscopic Sinus Surgery)", "india": "$2,000 – $4,000", "usa": "$10,000 – $20,000", "saving": "Up to 80%" },
+      { "name": "Cochlear Implant Surgery", "india": "$15,000 – $25,000", "usa": "$60,000 – $100,000", "saving": "Up to 80%" },
+      { "name": "Laryngectomy", "india": "$10,000 – $20,000", "usa": "$50,000 – $100,000", "saving": "Up to 80%" },
+      { "name": "Pediatric ENT Surgeries", "india": "$1,500 – $3,500", "usa": "$10,000 – $25,000", "saving": "Up to 80%" }
+    ],
+    "inclusions": [
+      "Surgeon & hospital fees",
+      "Surgical consumables & medications",
+      "Pre-operative evaluation & imaging",
+      "Post-operative care & follow-up",
+      "Minimally invasive procedure charges (if applicable)"
+    ],
+    "exclusions": [
+      "International travel & visa",
+      "Accommodation outside hospital package",
+      "Luxury treatments or add-ons",
+      "Extended stay beyond package coverage"
+    ],
+    "cost_factors": [
+      "Choice of hospital & city",
+      "Type of surgery (open vs minimally invasive)",
+      "Complexity of procedure",
+      "Patient’s age & health condition",
+      "Number of follow-up visits required"
+    ],
+    "why_best_choice": [
+      "Top ENT surgeons & specialists with international training",
+      "State-of-the-art hospitals with advanced surgical and diagnostic facilities",
+      "High success rates for ear, nose, throat, and pediatric surgeries",
+      "Comprehensive care – evaluation, surgery, post-op care, and follow-up",
+      "Affordable packages – save 60–85% compared to USA"
+    ],
+    "success_rates": [
+      "Tonsillectomy & Septoplasty: Effective relief with minimal complications",
+      "Sinus & Cochlear Surgeries: High precision and improved quality of life",
+      "Laryngectomy: Safe recovery with voice rehabilitation support",
+      "Pediatric ENT Surgeries: Safe, precise interventions for children"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Anil Verma",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Tonsillectomy, Sinus Surgery, Cochlear Implant"
+      },
+      {
+        "name": "Dr. Priya Malhotra",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "Ear Tube Surgery, Septoplasty, Pediatric ENT Procedures"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your medical reports, scans, or ENT assessments",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

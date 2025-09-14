@@ -1,0 +1,95 @@
+{
+    "title": "Eye Treatment & LASIK Surgery in India",
+    "headline": "World-Class Eye Care & Vision Correction at Affordable Costs",
+    "introduction": "India is a leading destination for comprehensive eye care, including LASIK, cataract surgery, corneal transplants, and retina treatments. With highly experienced ophthalmologists and advanced technology, patients achieve safe, precise, and affordable eye treatments, often at 70–80% lower cost than the USA, UK, or UAE.",
+    "cost_link": "/treatment-cost/eye-treatment-lasik-surgery",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Vision Correction",
+          "procedures": [
+            "LASIK Surgery (Laser-Assisted in Situ Keratomileusis)",
+            "PRK (Photorefractive Keratectomy)",
+            "SMILE Surgery (Small Incision Lenticule Extraction)",
+            "Implantable Contact Lenses (ICL)"
+          ]
+        },
+        {
+          "name": "Cataract Surgery",
+          "procedures": [
+            "Phacoemulsification Cataract Surgery",
+            "Femtosecond Laser-Assisted Cataract Surgery",
+            "Premium Lens Implants (Multifocal, Toric, Monofocal)"
+          ]
+        },
+        {
+          "name": "Retina & Vitreous Treatments",
+          "procedures": [
+            "Retinal Detachment Surgery",
+            "Diabetic Retinopathy Management",
+            "Vitrectomy & Macular Surgery",
+            "Laser Photocoagulation"
+          ]
+        },
+        {
+          "name": "Cornea & Eye Transplants",
+          "procedures": [
+            "Corneal Transplant (Penetrating Keratoplasty & Lamellar Transplants)",
+            "Keratoconus Treatments (Corneal Cross-Linking, INTACS)",
+            "Artificial Cornea Implant"
+          ]
+        },
+        {
+          "name": "Glaucoma & Ocular Surface Treatments",
+          "procedures": [
+            "Trabeculectomy & Micro-Invasive Glaucoma Surgery (MIGS)",
+            "Ocular Surface Disease Management",
+            "Dry Eye & Allergic Conjunctivitis Treatments"
+          ]
+        },
+        {
+          "name": "Pediatric & General Ophthalmology",
+          "procedures": [
+            "Strabismus Surgery (Squint Correction)",
+            "Congenital Cataract Surgery",
+            "Amblyopia Management"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Top ophthalmologists with global training & decades of experience",
+      "Advanced technology – femtosecond lasers, SMILE, OCT scans",
+      "High success rates – 98%+ for LASIK & cataract surgeries",
+      "Affordable packages – save up to 80% vs Western countries",
+      "Comprehensive eye care – pre-surgery evaluation, post-op care, follow-up"
+    ],
+    "success_rates": {
+      "LASIK Surgery": "98% achieve 20/25 vision or better",
+      "Cataract Surgery": ">99% successful lens implantation",
+      "Retinal Surgery": "85–90% anatomical & visual restoration",
+      "Corneal Transplant": "90%+ graft survival in 1 year"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Mahipal S. Sachdev",
+        "specialization": "LASIK, Cataract & Corneal Surgery",
+        "experience": "30+ years",
+        "affiliation": "Centre for Sight, Delhi & Gurugram",
+        "expertise": "LASIK, SMILE, Corneal Transplants, Cataract Surgery"
+      },
+      {
+        "name": "Dr. Amar Agarwal",
+        "specialization": "Advanced Cataract & Retina Surgery",
+        "experience": "25+ years",
+        "affiliation": "Dr. Agarwal's Eye Hospital, Chennai",
+        "expertise": "Retina Surgery, Femtosecond Cataract, Pediatric Ophthalmology"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your eye reports, refraction details, OCT scans, or vision complaints for a free review by India's leading ophthalmologists. Receive a personalized treatment & cost plan before travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

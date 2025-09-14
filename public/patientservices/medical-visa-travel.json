@@ -1,0 +1,34 @@
+{
+    "name": "Medical Visa Assistance & Travel",
+    "description": "Seamless travel arrangements and medical visa support for international patients coming to India. We ensure a smooth, stress-free journey from the first step to hospital admission.",
+    "highlights": [
+      "Help with visa application forms & guidelines",
+      "Invitation letter from partner hospitals",
+      "Support for medical attendant visas",
+      "Visa extensions if required",
+      "Assistance with FRRO registration"
+    ],
+    "travelSupport": [
+      "Guidance on booking affordable international flights",
+      "Assistance with travel insurance & medical coverage",
+      "Airport pickup & drop facility with safe, sanitized vehicles",
+      "Help with domestic travel if treatment is outside main cities"
+    ],
+    "whyChooseUs": [
+      "24/7 travel & visa support team",
+      "Experience handling patients from 30+ countries",
+      "Hassle-free process with clear documentation",
+      "Multilingual assistance (Arabic, Russian, French & more)",
+      "Coordination with hospitals for smooth admission"
+    ],
+    "cost": [
+      "Visa Assistance: FREE",
+      "Flight Booking Support: At actual airline cost",
+      "Airport Pickup & Drop: $20 – $40 depending on city & distance"
+    ],
+    "cta": {
+      "text": "Request Free Visa & Travel Assistance",
+      "url": "/services/medical-visa-travel"
+    }
+  }
+  

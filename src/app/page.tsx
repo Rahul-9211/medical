@@ -12,6 +12,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import ConsultationCTASection from '@/components/ConsultationCTASection';
 import BlogSection from '@/components/BlogSection';
 import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function Home() {
   return (
@@ -157,6 +158,9 @@ export default function Home() {
       </main>
       
       <Footer footer={websiteData.footer} />
+      
+      {/* WhatsApp Button */}
+      <WhatsAppButton />
 
     </div>
   );

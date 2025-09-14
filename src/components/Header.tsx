@@ -67,7 +67,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <div className="  rounded-lg flex items-center justify-center mr-2">
-              <Image src="/logo.png" className='bg-white' alt="Logo" width={160} height={35} />
+              <Image src="/logo.png" className='bg-white' alt="Logo" width={200} height={35} />
               </div>
              
             </Link>
@@ -87,9 +87,10 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                 ) : (
                   <div className="relative">
                     <button
-                      className="text-gray-700 hover:text-[#56DDEF] px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center"
-                    >
+                      className="text-gray-700 hover:text-[#56DDEF] px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center">
+                      <Link href={item.url}>
                       {item.name}
+                      </Link>
                       {item.submenu && (
                         <svg className="ml-1 w-4 h-4 transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

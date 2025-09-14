@@ -1,0 +1,194 @@
+{
+    "id": "manipal-dwarka-delhi",
+    "name": "Manipal Hospitals Dwarka, Delhi",
+    "visible": true,
+    "rating": { "value": 4.4, "reviews": 54 },
+    "patientsRecommended": { "percent": 90 },
+    "url": "/hospital/manipal",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "address": "Manipal Hospital, Sector 6, Dwarka, New Delhi, 110075",
+      "visible": true
+    },
+    "established": 2017,
+    "accreditations": ["NABH", "NABL"],
+    "specialty": "Multi Specialty",
+    "beds": 380,
+    "about": {
+      "visible": true,
+      "overview": "Manipal Hospital Dwarka is a multi-super speciality tertiary care facility that delivers world-class healthcare at an optimum cost. It is part of the renowned Manipal Education and Medical Group, established in 1953. The hospital is accredited by NABH and NABL, offering comprehensive care with cutting-edge technology and compassionate services.",
+      "awards": [
+        "Best Multi-Speciality Hospital in Delhi NCR – India Healthcare Awards 2021",
+        "Best Hospital for Patient Safety – FICCI 2020",
+        "Best Hospital for Emergency and Critical Care – 2019",
+        "Best Hospital for Gastroenterology – Times of India 2018",
+        "Best Hospital for Orthopaedics – Indian Healthcare Awards 2017"
+      ],
+      "milestones": [
+        "Part of Manipal Education and Medical Group, established in 1953",
+        "Third-largest established healthcare player in India",
+        "State-of-the-art 560,000 sq. ft. facility in Dwarka",
+        "Implemented advanced AI-driven telemedicine and remote monitoring"
+      ]
+    },
+    "internationalPatientServices": {
+      "visible": true,
+      "annualPatients": 15000,
+      "countries": 105,
+      "services": [
+        "Treatment plan and quote within 2 days",
+        "Visa and travel assistance",
+        "Airport pickup and transfers",
+        "Accommodation support for patients and families",
+        "Interpreter and SIM card services",
+        "Concierge support for non-medical needs"
+      ]
+    },
+    "departments": {
+      "visible": true,
+      "list": [
+        { "name": "Cardiology and Cardiac Surgery", "doctorCount": 8 },
+        { "name": "Neurology and Neurosurgery", "doctorCount": 6 },
+        { "name": "Oncology and Oncosurgery", "doctorCount": 7 },
+        { "name": "Orthopedics", "doctorCount": 4 },
+        { "name": "Gynecology", "doctorCount": 5 },
+        { "name": "Gastroenterology", "doctorCount": 5 },
+        { "name": "Nephrology", "doctorCount": 5 },
+        { "name": "Urology", "doctorCount": 3 },
+        { "name": "Cosmetic and Plastic Surgery", "doctorCount": 3 },
+        { "name": "Endocrinology", "doctorCount": 3 },
+        { "name": "Spine Surgery", "doctorCount": 2 },
+        { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 7 }
+      ]
+    },
+    "topDoctors": {
+      "visible": true,
+      "list": [
+        {
+          "id": "yk-mishra",
+          "name": "Dr. Y K Mishra",
+          "specialty": "Cardiac Surgeon",
+          "rating": 4.9,
+          "experienceYears": 44,
+          "profileUrl": "/doctors/cardiology/manipal-dwarka/yk-mishra"
+        },
+        {
+          "id": "vineet-surana",
+          "name": "Dr. Vineet Kumar Surana",
+          "specialty": "Endocrinologist",
+          "rating": 5.0,
+          "experienceYears": 16,
+          "profileUrl": "/doctors/endocrinology/manipal-dwarka/vineet-surana"
+        },
+        {
+          "id": "rajeev-verma",
+          "name": "Dr. Rajeev Verma",
+          "specialty": "Orthopaedic & Joint Replacement Surgeon",
+          "rating": 5.0,
+          "experienceYears": 28,
+          "profileUrl": "/doctors/orthopedics/manipal-dwarka/rajeev-verma"
+        },
+        {
+          "id": "sanjeev-kumar",
+          "name": "Dr. Sanjeev Kumar",
+          "specialty": "Surgical Oncologist",
+          "rating": 4.8,
+          "experienceYears": 20,
+          "profileUrl": "/doctors/oncology/manipal-dwarka/sanjeev-kumar"
+        }
+      ]
+    },
+    "teamAndSpecialities": {
+      "visible": true,
+      "doctorsCount": 43,
+      "staffCount": 600,
+      "specialitiesCount": 50,
+      "centersOfExcellence": [
+        "Cardiology",
+        "Oncology",
+        "Neurology & Neurosurgery",
+        "Orthopaedics & Joint Replacement",
+        "Gastroenterology",
+        "Urology",
+        "Spine Surgery"
+      ]
+    },
+    "facilities": {
+      "visible": true,
+      "comfort": [
+        "Private rooms",
+        "Free Wifi",
+        "TV in room",
+        "Family accommodation",
+        "Laundry",
+        "Concierge services",
+        "Religious facilities",
+        "Café & dining options",
+        "Parking available",
+        "Spa and wellness",
+        "Fitness center"
+      ],
+      "infrastructure": [
+        "560,000 sq. ft. facility",
+        "380 beds",
+        "118 critical care beds",
+        "13 advanced operation theatres",
+        "NICU and critical care facilities",
+        "AI-driven telemedicine & EMR system",
+        "24/7 emergency and trauma services",
+        "Fully equipped ambulances",
+        "Comprehensive diagnostic & imaging services",
+        "Physiotherapy & rehabilitation center"
+      ]
+    },
+    "address": {
+      "visible": true,
+      "full": "Manipal Hospital, Sector 6, Dwarka, New Delhi, 110075, India",
+      "nearby": [
+        { "place": "IGI Airport Delhi", "distanceKm": 10, "duration": "20–30 mins" },
+        { "place": "Dwarka Sector 12 Metro", "distanceKm": 3, "duration": "10–15 mins" },
+        { "place": "New Delhi Railway Station", "distanceKm": 20, "duration": "40–60 mins" }
+      ]
+    },
+    "reviews": [
+      {
+        "patient": "Hasmat Ali",
+        "country": "Fiji",
+        "rating": 5,
+        "feedback": "Very good experience, excellent staff and facilities.",
+        "visible": true
+      },
+      {
+        "patient": "Aisake Vaisima",
+        "country": "Fiji",
+        "rating": 5,
+        "feedback": "Top-notch care and great support for international patients.",
+        "visible": true
+      },
+      {
+        "patient": "Micheal Thorsen",
+        "country": "United States",
+        "rating": 5,
+        "feedback": "World-class infrastructure and professional doctors.",
+        "visible": true
+      }
+    ],
+    "media": {
+      "images": [
+        { "url": "/images/hospital/manipal/manipal-1.jpeg", "visible": true },
+        { "url": "/images/hospital/manipal/manipal-2.png", "visible": true },
+        { "url": "/images/hospital/manipal/manipal-3.jpg", "visible": true }
+      ],
+      "videos": [
+        { "url": "https://youtube.com/embed/example-manipal1", "visible": true }
+      ]
+    },
+    "contact": {
+      "phone": "+91-9971616131",
+      "email": "",
+      "website": "https://www.manipalhospitals.com/dwarka-new-delhi/"
+    }
+  }
+  

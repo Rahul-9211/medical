@@ -1,0 +1,52 @@
+{
+    "title": "Latest Blog Articles on Medical Tourism in India",
+    "subtitle": "Stay Updated with Expert Insights, Patient Stories & Healthcare News",
+    "introduction": "Our blog is designed to keep international patients informed about treatment options, cost updates, healthcare trends, and patient experiences in India. We regularly publish guides, comparisons, and success stories to help you make the right decision about your treatment abroad.",
+    "categories": [
+      { "name": "Medical Treatment Guides", "url": "/blog/medical-tourism-guide" },
+      { "name": "Cost Comparisons", "url": "/blog/cost-comparisons" },
+      { "name": "Patient Success Stories", "url": "/blog/patient-stories" },
+      { "name": "Travel & Visa Advice", "url": "/blog/travel-visa-advice" },
+      { "name": "Ayurveda & Holistic Care", "url": "/blog/ayurveda-holistic-care" },
+      { "name": "Latest Healthcare News", "url": "/blog/healthcare-news" }
+    ],
+    "recentPosts": [
+      {
+        "title": "Top 10 Hospitals in India for International Patients (2025 Guide)",
+        "url": "/blog/top-10-hospitals-india-2025"
+      },
+      {
+        "title": "Heart Surgery Cost in India vs USA – How Much Can You Save?",
+        "url": "/blog/heart-surgery-cost-india-vs-usa"
+      },
+      {
+        "title": "Step-by-Step Guide: Applying for a Medical Visa to India",
+        "url": "/blog/medical-visa-step-guide"
+      },
+      {
+        "title": "Best Ayurveda Retreats in Kerala for Post-Surgery Recovery",
+        "url": "/blog/ayurveda-retreats-kerala"
+      },
+      {
+        "title": "Patient Story: How India Helped Me Beat Cancer at One-Third the Cost",
+        "url": "/blog/patient-story-beat-cancer"
+      }
+    ],
+    "whyRead": [
+      "Trusted medical information for patients worldwide",
+      "SEO-optimized guides written in simple language",
+      "Real success stories to build confidence",
+      "Updated cost comparisons for transparency",
+      "Practical tips for travel & recovery in India"
+    ],
+    "cta": {
+      "text": "Book Free Consultation →",
+      "url": "/contact"
+    },
+    "highlights": [
+      "✅ Regularly updated articles",
+      "✅ Cost & treatment transparency",
+      "✅ International patient-focused content"
+    ]
+  }
+  

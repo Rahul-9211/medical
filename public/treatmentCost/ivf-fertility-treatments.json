@@ -1,0 +1,77 @@
+{
+    "slug": "ivf-fertility-treatments",
+    "title": "🍼 Cost of IVF & Fertility Treatments in India",
+    "subtitle": "Affordable & Advanced Fertility Care in India",
+    "why_india": "India is a leading destination for IVF and fertility treatments, offering state-of-the-art fertility clinics, internationally trained specialists, and advanced technologies. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized fertility solutions, transparent cost estimates, and complete guidance throughout your treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/ivf-fertility-treatments",
+      "label": "Go Back to IVF & Fertility Treatments Page →"
+    },
+    "cost_page": "/treatment-cost/ivf-fertility-treatments",
+    "procedures": [
+      { "name": "IVF (Per Cycle)", "india": "$2,000 – $4,000", "usa": "$12,000 – $15,000", "saving": "Up to 80%" },
+      { "name": "ICSI (Intracytoplasmic Sperm Injection)", "india": "$2,500 – $5,000", "usa": "$15,000 – $18,000", "saving": "Up to 80%" },
+      { "name": "Egg Donation / Donor IVF", "india": "$4,000 – $7,000", "usa": "$25,000 – $35,000", "saving": "Up to 85%" },
+      { "name": "Surrogacy (Gestational)", "india": "$15,000 – $25,000", "usa": "$90,000 – $120,000", "saving": "Up to 80%" },
+      { "name": "Frozen Embryo Transfer (FET)", "india": "$1,500 – $3,000", "usa": "$8,000 – $12,000", "saving": "Up to 80%" },
+      { "name": "Sperm / Egg Freezing", "india": "$1,500 – $3,500", "usa": "$7,000 – $12,000", "saving": "Up to 80%" },
+      { "name": "Pre-implantation Genetic Testing (PGT)", "india": "$2,500 – $5,000", "usa": "$15,000 – $25,000", "saving": "Up to 80%" }
+    ],
+    "inclusions": [
+      "Doctor consultation fees",
+      "Treatment & procedure charges",
+      "IVF/ICSI lab & clinical procedures",
+      "Medication & consumables during treatment",
+      "Post-treatment follow-up"
+    ],
+    "exclusions": [
+      "International travel & visa",
+      "Accommodation outside clinic",
+      "High-end medications if chosen separately",
+      "Extended stay beyond package",
+      "Personal expenses"
+    ],
+    "cost_factors": [
+      "Type of procedure (IVF, ICSI, surrogacy, PGT)",
+      "Age of the patient and fertility condition",
+      "Choice of clinic and city",
+      "Experience of fertility specialists",
+      "Need for donor eggs/sperm or surrogacy",
+      "Number of treatment cycles required"
+    ],
+    "why_best_choice": [
+      "Top fertility specialists & embryologists with international training",
+      "State-of-the-art IVF labs & clinics",
+      "High success rates for IVF, ICSI, egg/sperm donation, and surrogacy",
+      "Comprehensive care from evaluation, treatment, to follow-up",
+      "Affordable packages – save 60–85% compared to the USA"
+    ],
+    "success_rates": [
+      "IVF & ICSI: Success rates up to 60% per cycle for women under 35",
+      "Egg & Sperm Donation: High success with healthy pregnancies",
+      "Surrogacy: Safe and well-managed for intended parents",
+      "PGT & FET: Improved implantation and reduced risk of genetic disorders"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Firuza Parikh",
+        "hospital": "Jaslok Hospital, Mumbai",
+        "expertise": "IVF, ICSI, Egg Donation, Surrogacy"
+      },
+      {
+        "name": "Dr. Rita Bakshi",
+        "hospital": "Apollo Fertility, Delhi",
+        "expertise": "IVF, Pre-implantation Genetic Testing, Egg/Sperm Freezing"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your fertility reports and medical history",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

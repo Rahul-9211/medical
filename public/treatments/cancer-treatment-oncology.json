@@ -1,0 +1,98 @@
+{
+    "title": "Cancer Treatment (Oncology) in India",
+    "headline": "World-Class Cancer Care with Advanced Technology & Affordable Costs",
+    "introduction": "India is a leading destination for comprehensive cancer care, combining cutting-edge technology, highly trained oncologists, and affordable treatment costs. From early detection to advanced therapies, patients receive personalized, holistic cancer treatment that saves up to 70–80% compared to the USA, UK, or UAE.",
+    "cost_link": "/treatment-cost/cancer-treatment-oncology",
+
+    "treatments": {
+      "categories": [
+        {
+          "name": "Surgical Oncology",
+          "procedures": [
+            "Tumor Resection (Breast, Lung, Colon, Liver, Kidney, Brain, etc.)",
+            "Minimally Invasive & Robotic Cancer Surgery",
+            "Limb-Sparing Surgery for Bone Cancer",
+            "Head & Neck Cancer Surgeries"
+          ]
+        },
+        {
+          "name": "Radiation Therapy",
+          "procedures": [
+            "IMRT (Intensity Modulated Radiation Therapy)",
+            "IGRT (Image Guided Radiation Therapy)",
+            "SRS/SBRT (Stereotactic Radiosurgery/Body Radiotherapy)",
+            "Brachytherapy (Internal Radiation)",
+            "Proton Therapy"
+          ]
+        },
+        {
+          "name": "Medical Oncology",
+          "procedures": [
+            "Chemotherapy (Targeted & Conventional)",
+            "Immunotherapy",
+            "Targeted Therapy (EGFR, HER2, ALK inhibitors)",
+            "Hormone Therapy"
+          ]
+        },
+        {
+          "name": "Bone Marrow & Stem Cell Transplant",
+          "procedures": [
+            "Autologous Stem Cell Transplant",
+            "Allogeneic Stem Cell Transplant",
+            "Haplo-identical & Cord Blood Transplant"
+          ]
+        },
+        {
+          "name": "Pediatric Oncology",
+          "procedures": [
+            "Leukemia & Lymphoma Treatment",
+            "Pediatric Brain Tumors",
+            "Wilms' Tumor & Neuroblastoma"
+          ]
+        },
+        {
+          "name": "Palliative & Supportive Care",
+          "procedures": [
+            "Pain Management",
+            "Nutritional & Psychological Support",
+            "End-of-life Care"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Globally trained oncologists with 20–30+ years of expertise",
+      "Advanced cancer hospitals with PET-CT, CyberKnife, Proton Therapy",
+      "Multidisciplinary tumor boards for personalized treatment",
+      "Affordable packages – up to 80% savings vs Western countries",
+      "Holistic support – dieticians, psychologists, integrative therapies"
+    ],
+    "success_rates": {
+      "Breast Cancer (Early Stage)": "90–95% 5-year survival",
+      "Cervical Cancer (Early Stage)": "85–90% survival",
+      "Leukemia (ALL/AML)": "70–80% remission rates with advanced therapies",
+      "Pediatric Cancer": "75–85% long-term cure rates"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Vinod Raina",
+        "specialization": "Medical Oncology",
+        "experience": "35+ years, 20,000+ cancer cases treated",
+        "affiliation": "Fortis Memorial Research Institute, Gurugram",
+        "expertise": "Chemotherapy, Immunotherapy, Targeted Therapies"
+      },
+      {
+        "name": "Dr. Sandeep Nayak",
+        "specialization": "Surgical Oncology & Robotic Cancer Surgery",
+        "experience": "20+ years, 10,000+ surgeries",
+        "affiliation": "Apollo Hospitals, Bengaluru",
+        "expertise": "Minimally invasive cancer surgery, robotic oncology, GI cancers"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your biopsy reports, PET scans, and pathology results for a free review by India's leading oncologists. We'll provide a personalized treatment & cost plan before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

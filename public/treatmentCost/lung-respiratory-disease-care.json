@@ -1,0 +1,75 @@
+{
+    "slug": "lung-respiratory-disease-care",
+    "title": "🌬️ Cost of Lung & Respiratory Disease Care in India",
+    "subtitle": "Affordable & Advanced Pulmonary Care in India",
+    "why_india": "India is a preferred destination for lung and respiratory treatments, offering experienced pulmonologists, modern hospitals, and advanced technologies. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your respiratory treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/lung-respiratory-disease-care",
+      "label": "Go Back to Lung & Respiratory Care Page →"
+    },
+    "cost_page": "/treatment-cost/lung-respiratory-disease-care",
+    "procedures": [
+      { "name": "Bronchoscopy", "india": "$300 – $700", "usa": "$3,000 – $5,000", "saving": "Up to 80%" },
+      { "name": "Lung Biopsy", "india": "$500 – $1,200", "usa": "$5,000 – $10,000", "saving": "Up to 80%" },
+      { "name": "Thoracoscopy / VATS", "india": "$2,500 – $5,000", "usa": "$20,000 – $40,000", "saving": "Up to 85%" },
+      { "name": "Pulmonary Rehabilitation", "india": "$500 – $1,200", "usa": "$5,000 – $10,000", "saving": "Up to 80%" },
+      { "name": "COPD & Asthma Treatments", "india": "$200 – $800", "usa": "$2,500 – $7,000", "saving": "Up to 85%" },
+      { "name": "Lung Surgery / Lobectomy", "india": "$5,000 – $10,000", "usa": "$40,000 – $80,000", "saving": "Up to 85%" },
+      { "name": "Pediatric Respiratory Care", "india": "$500 – $2,000", "usa": "$5,000 – $15,000", "saving": "Up to 85%" }
+    ],
+    "inclusions": [
+      "Consultation & evaluation fees",
+      "Surgeon & hospital charges",
+      "Medicines & consumables during stay",
+      "Diagnostic & imaging tests",
+      "Post-treatment follow-up and rehabilitation"
+    ],
+    "exclusions": [
+      "International travel & visa costs",
+      "Accommodation beyond hospital package",
+      "Luxury room upgrades",
+      "Extended hospital stay beyond package days"
+    ],
+    "cost_factors": [
+      "Type of treatment (diagnostic vs surgical vs rehabilitation)",
+      "Hospital choice & city",
+      "Patient age & overall health condition",
+      "Complexity of lung or thoracic procedure",
+      "Length of hospital stay & post-treatment care"
+    ],
+    "why_best_choice": [
+      "Top pulmonologists & thoracic surgeons with global experience",
+      "State-of-the-art hospitals with advanced diagnostic and surgical facilities",
+      "High success rates for lung and respiratory treatments",
+      "Comprehensive care – evaluation, treatment, surgery, and follow-up",
+      "Affordable packages – save 60–85% compared to USA"
+    ],
+    "success_rates": [
+      "Bronchoscopy & Biopsy: Safe, minimally invasive, accurate diagnosis",
+      "Thoracoscopy & Lung Surgeries: High success with faster recovery",
+      "COPD & Asthma Treatments: Effective long-term management",
+      "Pediatric Respiratory Care: Safe interventions for children"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Arvind Khanna",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Bronchoscopy, Lung Surgery, Pulmonary Rehabilitation"
+      },
+      {
+        "name": "Dr. Meera Jain",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "Asthma, COPD, Pediatric Respiratory Care"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your reports, scans, or medical history",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

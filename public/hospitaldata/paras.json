@@ -1,0 +1,168 @@
+{
+    "id": "paras-gurgaon",
+    "name": "Paras Hospitals, Gurgaon",
+    "visible": true,
+    "rating": { "value": 4.2, "reviews": 32 },
+    "patientsRecommended": { "percent": 92 },
+    "location": {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "country": "India",
+      "address": "C-1, Sushant Lok Rd, Block C, Phase- I, Sector 43, Gurgaon, 122001",
+      "visible": true
+    },
+    "established": 2006,
+    "accreditations": ["NABH", "NABL"],
+    "specialty": "Multi Specialty",
+    "beds": 300,
+    "about": {
+      "visible": true,
+      "overview": "Paras Health, Gurugram is the flagship institution of the Paras Health network. Since its establishment in 2006, it has earned acclaim as Gurgaon's premier healthcare provider, offering a comprehensive array of medical and surgical services. Paras Health continues to lead with innovation and expertise, striving to meet the diverse healthcare needs of our communities with integrity and excellence.",
+      "awards": [
+        "Best Healthcare Campaign for Breastfeeding Rooms in Public Places - Six Sigma Healthcare Awards 2015",
+        "Best Hospital for Neurosurgery and Neurology in Delhi NCR - Times Achievers Awards 2017",
+        "Recognised for excellence in serving international patients - FICCI Medical Value Travel Event 2017"
+      ],
+      "milestones": [
+        "First facility in Haryana to receive NABH and NABL accreditation",
+        "First in Delhi NCR to use stand-alone image-guided tumour navigation surgery technology",
+        "Performed India’s first successful day-care angioplasty",
+        "Introduced Transradial Interventional Cardiology to the region"
+      ]
+    },
+    "internationalPatientServices": {
+      "visible": true,
+      "annualPatients": 10000,
+      "countries": 15,
+      "services": [
+        "Medical opinions and appointments before travel",
+        "Visa and flight assistance",
+        "Airport pick-up and drop-off",
+        "Accommodation support for attendants",
+        "Cost estimates and financial advice",
+        "Special dietary requirements support"
+      ]
+    },
+    "departments": {
+      "visible": true,
+      "list": [
+        { "name": "Cardiology and Cardiac Surgery", "doctorCount": 4 },
+        { "name": "Neurology and Neurosurgery", "doctorCount": 9 },
+        { "name": "Oncology and Oncosurgery", "doctorCount": 9 },
+        { "name": "Orthopedics", "doctorCount": 7 },
+        { "name": "Gynecology", "doctorCount": 5 },
+        { "name": "Gastroenterology", "doctorCount": 5 },
+        { "name": "IVF and Infertility", "doctorCount": 5 }
+      ]
+    },
+    "topDoctors": {
+      "visible": true,
+      "list": [
+        {
+          "id": "alka-kriplani",
+          "name": "Dr. Alka Kriplani",
+          "specialty": "Gynaecologist and Obstetrician",
+          "rating": 4.9,
+          "experienceYears": 44,
+          "profileUrl": "/doctors/gynecology/paras-gurgaon/alka-kriplani"
+        },
+        {
+          "id": "vs-mehta",
+          "name": "Dr. V. S. Mehta",
+          "specialty": "Neurosurgeon",
+          "rating": 5.0,
+          "experienceYears": 46,
+          "profileUrl": "/doctors/neurosurgery/paras-gurgaon/vs-mehta"
+        },
+        {
+          "id": "ranga-rao",
+          "name": "Dr. Ranga Rao Rangaraju",
+          "specialty": "Medical Oncologist",
+          "rating": 5.0,
+          "experienceYears": 39,
+          "profileUrl": "/doctors/oncology/paras-gurgaon/ranga-rao"
+        },
+        {
+          "id": "vipul-gupta",
+          "name": "Dr. Vipul Gupta",
+          "specialty": "Neurosurgeon",
+          "rating": 4.9,
+          "experienceYears": 29,
+          "profileUrl": "/doctors/neurosurgery/paras-gurgaon/vipul-gupta"
+        }
+      ]
+    },
+    "teamAndSpecialities": {
+      "visible": true,
+      "doctorsCount": 110,
+      "staffCount": 540,
+      "specialitiesCount": 55,
+      "centersOfExcellence": [
+        "Neurosciences",
+        "Cardiology",
+        "Gastroenterology",
+        "Orthopaedics and Joint Replacement",
+        "Oncology",
+        "Obstetrics & Gynaecology"
+      ]
+    },
+    "facilities": {
+      "visible": true,
+      "comfort": [
+        "Private rooms",
+        "Free Wifi",
+        "TV in room",
+        "Laundry",
+        "Café",
+        "Business centre services",
+        "Parking available"
+      ],
+      "infrastructure": [
+        "300 beds including 65 ICU beds",
+        "Advanced operation theatres",
+        "Neurosurgery ICU",
+        "3 Tesla MRI",
+        "128 Slice CT",
+        "3D Ultrasound",
+        "1000 mA Digital X-ray system",
+        "Mammography & Bone densitometry",
+        "24/7 Radiology & Laboratory services",
+        "PACS-RIS system",
+        "Critical care ambulance service"
+      ]
+    },
+    "address": {
+      "visible": true,
+      "full": "C-1, Sushant Lok Rd, Block C, Phase- I, Sector 43, Gurgaon, Haryana 122001, India",
+      "nearby": [
+        { "place": "IGI Airport Delhi", "distanceKm": 15, "duration": "20–30 mins" },
+        { "place": "Huda City Centre Metro", "distanceKm": 5, "duration": "10–15 mins" },
+        { "place": "Gurgaon Railway Station", "distanceKm": 8, "duration": "15–20 mins" }
+      ]
+    },
+    "reviews": [
+      {
+        "patient": "International Patient",
+        "country": "Nigeria",
+        "rating": 5,
+        "feedback": "Excellent support for international patients, from arrival to treatment.",
+        "visible": true
+      }
+    ],
+    "media": {
+      "images": [
+        { "url": "/images/hospital/paras/paras-1.jpg", "visible": true },
+        { "url": "/images/hospital/paras/paras-2.jpeg", "visible": true },
+        { "url": "/images/hospital/paras/paras-3.png", "visible": true }
+      ],
+      "videos": [
+        { "url": "https://youtube.com/embed/example-paras1", "visible": true }
+      ]
+    },
+    "contact": {
+      "phone": "+91-124-4585555",
+      "email": "info@parashospitals.com",
+      "website": "https://www.parashospitals.com/paras-hospitals-gurgaon/"
+    }
+  }
+  

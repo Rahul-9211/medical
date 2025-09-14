@@ -1,0 +1,89 @@
+{
+    "title": "Plastic & Cosmetic Surgery in India",
+    "headline": "World-Class Cosmetic Enhancements & Reconstructive Surgeries at Affordable Costs",
+    "introduction": "India is a leading destination for plastic and cosmetic surgery, offering highly skilled surgeons, internationally accredited hospitals, and 70–80% lower costs compared to the USA, UK, or UAE. From aesthetic enhancements to complex reconstructive procedures, patients choose India for safety, expertise, and affordability.",
+    "cost_link": "/treatment-cost/plastic-cosmetic-surgery",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Facial Cosmetic Surgeries",
+          "procedures": [
+            "Rhinoplasty (Nose Reshaping)",
+            "Facelift (Rhytidectomy)",
+            "Eyelid Surgery (Blepharoplasty)",
+            "Brow Lift / Forehead Lift",
+            "Lip Augmentation & Reduction",
+            "Chin & Jawline Contouring",
+            "Ear Surgery (Otoplasty)"
+          ]
+        },
+        {
+          "name": "Body Contouring Surgeries",
+          "procedures": [
+            "Liposuction",
+            "Tummy Tuck (Abdominoplasty)",
+            "Arm Lift (Brachioplasty)",
+            "Thigh Lift",
+            "Brazilian Butt Lift (BBL)",
+            "Body Lift after Massive Weight Loss"
+          ]
+        },
+        {
+          "name": "Breast Surgeries",
+          "procedures": [
+            "Breast Augmentation (Implants / Fat Transfer)",
+            "Breast Reduction",
+            "Breast Lift (Mastopexy)",
+            "Male Breast Reduction (Gynecomastia Surgery)",
+            "Breast Reconstruction after Cancer"
+          ]
+        },
+        {
+          "name": "Reconstructive Plastic Surgeries",
+          "procedures": [
+            "Cleft Lip & Palate Repair",
+            "Burn Reconstruction",
+            "Scar Revision Surgery",
+            "Hand & Microsurgery",
+            "Skin Grafts & Flap Surgery",
+            "Post-Trauma Reconstructive Surgery"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Top-ranked cosmetic surgeons trained in the USA/Europe",
+      "Cutting-edge technology – laser & robotic-assisted plastic surgery",
+      "High safety standards with international protocols",
+      "Affordable cosmetic packages – up to 80% savings",
+      "Discreet, personalized care for international patients"
+    ],
+    "success_rates": {
+      "Rhinoplasty": "95% patient satisfaction",
+      "Liposuction & Body Contouring": "95–97% success rates",
+      "Breast Augmentation": "Over 95% long-term results",
+      "Reconstructive Surgeries": "High functional & aesthetic success"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Lokesh Kumar",
+        "specialization": "Cosmetic & Reconstructive Surgery",
+        "experience": "25+ years",
+        "affiliation": "BLK-Max Super Speciality Hospital, Delhi",
+        "expertise": "Rhinoplasty, Facelift, Breast Surgery, Body Contouring"
+      },
+      {
+        "name": "Dr. Rakesh Khazanchi",
+        "specialization": "Plastic, Cosmetic & Reconstructive Surgery",
+        "experience": "30+ years",
+        "affiliation": "Medanta – The Medicity, Gurugram",
+        "expertise": "Aesthetic Surgery, Burn Reconstruction, Microsurgery"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your photos, medical history, or previous surgery reports for a free evaluation by India's top cosmetic surgeons. Get a customized treatment & cost plan before traveling.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

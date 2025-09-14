@@ -1,0 +1,79 @@
+{
+    "slug": "neurosurgery-spine-treatments",
+    "title": "🧠 Cost of Neurosurgery & Spine Treatments in India",
+    "subtitle": "Advanced Neurosurgery & Spine Care at Affordable Costs",
+    "why_india": "India is a top destination for neurosurgery and spine treatments, offering internationally trained neurosurgeons, advanced hospitals, and cutting-edge technology. Patients benefit from high-quality care at 60–80% lower costs than the USA. Our focus is treating patients, not profits – you’ll receive personalized care, clear cost estimates, and complete guidance throughout your treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/neurosurgery-spine-treatments",
+      "label": "Go Back to Neurosurgery & Spine Treatments Page →"
+    },
+    "cost_page": "/treatment-cost/neurosurgery-spine-treatments",
+    "procedures": [
+      { "name": "Brain Tumor Surgery", "india": "$7,000 – $15,000", "usa": "$50,000 – $80,000", "saving": "Up to 80%" },
+      { "name": "Spinal Fusion Surgery", "india": "$6,000 – $12,000", "usa": "$40,000 – $70,000", "saving": "Up to 80%" },
+      { "name": "Microdiscectomy / Disc Surgery", "india": "$3,500 – $7,000", "usa": "$25,000 – $40,000", "saving": "Up to 80%" },
+      { "name": "Laminectomy", "india": "$4,000 – $8,000", "usa": "$28,000 – $45,000", "saving": "Up to 80%" },
+      { "name": "Deep Brain Stimulation (DBS)", "india": "$15,000 – $25,000", "usa": "$80,000 – $120,000", "saving": "Up to 80%" },
+      { "name": "Endoscopic Spine Surgery", "india": "$4,500 – $9,000", "usa": "$30,000 – $50,000", "saving": "Up to 80%" },
+      { "name": "Craniotomy for Aneurysm", "india": "$8,000 – $18,000", "usa": "$60,000 – $100,000", "saving": "Up to 80%" },
+      { "name": "Minimally Invasive Spine Surgery", "india": "$5,000 – $10,000", "usa": "$35,000 – $60,000", "saving": "Up to 80%" }
+    ],
+    "inclusions": [
+      "Doctor consultation fees",
+      "Surgery charges",
+      "Hospital stay & nursing care",
+      "Anesthesia & operation theater charges",
+      "Basic medicines & consumables",
+      "Post-operative physiotherapy sessions"
+    ],
+    "exclusions": [
+      "International travel & visa",
+      "Accommodation outside hospital",
+      "High-end implants (if chosen separately)",
+      "Additional stay beyond package",
+      "Personal expenses"
+    ],
+    "cost_factors": [
+      "Type of neurosurgery or spine procedure",
+      "Surgeon’s experience and expertise",
+      "Choice of hospital and city",
+      "Type of implants or technology used",
+      "Length of hospital stay",
+      "Post-surgery rehabilitation and physiotherapy"
+    ],
+    "why_best_choice": [
+      "World-class hospitals with advanced technology",
+      "Highly trained neurosurgeons with international experience",
+      "Affordable treatment at 60–80% lower costs",
+      "High success rates for brain and spine surgeries",
+      "Comprehensive care including post-operative rehab"
+    ],
+    "success_rates": [
+      "Brain Tumor Surgery: >90% success with minimal complications",
+      "Spinal Fusion & Minimally Invasive Surgery: High pain relief and mobility restoration",
+      "Deep Brain Stimulation: Significant improvement in Parkinson’s & movement disorders",
+      "Microdiscectomy & Laminectomy: Fast recovery and symptom relief"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. V. Ramakrishnan",
+        "hospital": "Medanta – The Medicity, Gurugram",
+        "expertise": "Brain Tumor Surgery, Spinal Fusion, Minimally Invasive Spine Surgery"
+      },
+      {
+        "name": "Dr. Anita Menon",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "Craniotomy, Endoscopic Spine Surgery, DBS"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your MRI, CT scans, or medical reports",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

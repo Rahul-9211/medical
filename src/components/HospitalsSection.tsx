@@ -142,7 +142,7 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
               Our medical coordinators will help you select the best hospital based on your specific treatment needs, budget, and preferences.
             </p>
             <Link
-              href="/hospitals"
+              href="/hospital"
               className="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-base sm:text-lg"
             >
               See All Hospitals

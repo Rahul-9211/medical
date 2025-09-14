@@ -1,0 +1,74 @@
+{
+    "slug": "diabetes-thyroid-hormonal-care",
+    "title": "🍏 Cost of Diabetes, Thyroid & Hormonal Care in India",
+    "subtitle": "Affordable & Advanced Endocrine Care in India",
+    "why_india": "India is a leading destination for diabetes, thyroid, and hormonal treatments, offering experienced endocrinologists, modern hospitals, and advanced therapies. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/diabetes-thyroid-hormonal-care",
+      "label": "Go Back to Diabetes, Thyroid & Hormonal Care Page →"
+    },
+    "cost_page": "/treatment-cost/diabetes-thyroid-hormonal-care",
+    "procedures": [
+      { "name": "Diabetes Management (Type 1 & 2)", "india": "$300 – $1,500", "usa": "$3,000 – $10,000", "saving": "Up to 85%" },
+      { "name": "Insulin Pump Therapy", "india": "$1,500 – $4,000", "usa": "$10,000 – $25,000", "saving": "Up to 80%" },
+      { "name": "Thyroid Disorder Management", "india": "$400 – $1,200", "usa": "$4,000 – $12,000", "saving": "Up to 85%" },
+      { "name": "Hormonal Imbalance Therapy", "india": "$500 – $2,000", "usa": "$5,000 – $15,000", "saving": "Up to 85%" },
+      { "name": "PCOD / PCOS Treatment", "india": "$500 – $1,500", "usa": "$5,000 – $12,000", "saving": "Up to 85%" },
+      { "name": "Pediatric Endocrinology Care", "india": "$500 – $2,000", "usa": "$5,000 – $15,000", "saving": "Up to 85%" }
+    ],
+    "inclusions": [
+      "Consultation & evaluation fees",
+      "Endocrinologist & hospital charges",
+      "Medicines & consumables during stay",
+      "Diagnostic & lab tests",
+      "Follow-up & therapy sessions"
+    ],
+    "exclusions": [
+      "International travel & visa costs",
+      "Accommodation beyond hospital package",
+      "Luxury room upgrades",
+      "Extended hospital stay beyond package days"
+    ],
+    "cost_factors": [
+      "Type of therapy or treatment (medical vs surgical)",
+      "Hospital choice & city",
+      "Patient’s age & overall health condition",
+      "Complexity of hormonal or endocrine disorder",
+      "Duration of treatment & follow-up needs"
+    ],
+    "why_best_choice": [
+      "Top endocrinologists with global training",
+      "State-of-the-art hospitals with modern labs and diagnostic facilities",
+      "High success rates for diabetes, thyroid, and hormonal treatments",
+      "Comprehensive care – evaluation, therapy, follow-up, and lifestyle guidance",
+      "Affordable packages – save 60–85% compared to USA"
+    ],
+    "success_rates": [
+      "Diabetes & Insulin Therapy: Effective blood sugar control with personalized plans",
+      "Thyroid & Hormonal Treatments: Precise management and symptom relief",
+      "PCOD / PCOS Treatments: Improved fertility and hormonal balance",
+      "Pediatric Endocrinology: Safe and effective care for children"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Anil Gupta",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Diabetes Management, Thyroid Disorders, Hormonal Therapy"
+      },
+      {
+        "name": "Dr. Priya Mehra",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "PCOD / PCOS, Pediatric Endocrine Disorders, Hormonal Imbalance"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your lab reports, scans, or medical history",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  
