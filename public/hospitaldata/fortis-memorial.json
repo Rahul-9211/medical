@@ -4,6 +4,7 @@
   "visible": true,
   "rating": { "value": 4.3, "reviews": 32 },
   "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/fortis-memorial",
   "location": {
     "city": "Gurgaon",
     "state": "Haryana",

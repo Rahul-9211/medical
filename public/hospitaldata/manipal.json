@@ -4,6 +4,7 @@
     "visible": true,
     "rating": { "value": 4.4, "reviews": 54 },
     "patientsRecommended": { "percent": 90 },
+    "url": "/hospital/manipal",
     "location": {
       "city": "New Delhi",
       "state": "Delhi",

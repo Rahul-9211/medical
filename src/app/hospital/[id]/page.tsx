@@ -20,22 +20,57 @@ export default async function HospitalPage({
   const hospital = await res.json();
   const mediaImages: any[] = hospital.media?.images?.filter((img: any) => img.visible) || [];
   console.log(mediaImages);
-  const unsplashFallbacks: string[] = [
-    "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1584516150909-c43483ee7932?w=1600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=1600&auto=format&fit=crop&q=80",
-  ];
-  const displayImages: any[] = (mediaImages.length > 0
-    ? mediaImages.map((img: any, i: number) => ({
-        ...img,
-        url: (typeof img.url === "string" && img.url.startsWith("http")) ? img.url : unsplashFallbacks[i % unsplashFallbacks.length]
-      }))
-    : unsplashFallbacks.map((url: string) => ({ url, visible: true }))
-  );
-  const heroImageUrl: string = displayImages[0]?.url || unsplashFallbacks[0];
+  // Map hospital ID to folder name
+  const folderMap: { [key: string]: string } = {
+    'artemis': 'artemis',
+    'ck-birla': 'birla',
+    'fortis-memorial': 'fortis',
+    'manipal': 'manipal',
+    'marengo-asia': 'marengo',
+    'max-super-speciality': 'max',
+    'medanta': 'medanta',
+    'paras': 'paras'
+  };
+
+  // Get folder name for current hospital
+  const folderName = folderMap[id];
+  
+  // Function to check which images exist for a hospital
+  const getHospitalImages = (folder: string) => {
+    const images: { url: string; visible: boolean }[] = [];
+    
+    // Map of known image files for each hospital
+    const hospitalImages: { [key: string]: string[] } = {
+      'artemis': ['artemis-1.jpg', 'artemis-2.jpg', 'artemis-3.jpg'],
+      'birla': ['birla-1.jpg', 'birla-2.png', 'birla-3.png'],
+      'fortis': ['fortis-1.jpg', 'fortis-2.jpg', 'fortis-3.png'],
+      'manipal': ['manipal-1.jpeg', 'manipal-2.png', 'manipal-3.jpg'],
+      'marengo': ['Marengo-1.png', 'Marengo-2.png', 'Marengo-3.png'],
+      'max': ['max-1.jpg', 'max-2.jpg', 'max-3.jpg'],
+      'medanta': ['medanta-1.jpg', 'medanta-2.jpg', 'medanta-3.jpeg'],
+      'paras': ['paras-1.jpg', 'paras-2.jpeg', 'paras-3.png']
+    };
+
+    // Get the actual image files for this hospital
+    const imageFiles = hospitalImages[folder] || [];
+    
+    // Create image objects for each existing image
+    imageFiles.forEach(filename => {
+      images.push({
+        url: `/Images/hospital/${folder}/${filename}`,
+        visible: true
+      });
+    });
+
+    return images;
+  };
+
+  // Create array of local image paths
+  const localImages = folderName ? getHospitalImages(folderName) : [];
+
+  // Use local images or fallback to a default if folder not found
+  const displayImages = localImages;
+  const heroImageUrl = displayImages[0]?.url || "/Images/hospital/fortis/fortis-1.jpg";
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
@@ -306,9 +341,16 @@ export default async function HospitalPage({
                 <div className="bg-white rounded-2xl shadow-lg p-6 lg:p-8 border border-gray-100">
                   <h2 className="text-2xl font-semibold mb-4 text-gray-900">Gallery</h2>
                   {displayImages.length > 0 && (
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                       {displayImages.map((img: any, i: number) => (
-                        <img key={i} src={img.url} alt="Hospital" className="rounded-xl shadow aspect-[16/10] object-cover w-full h-full hover:opacity-90 transition-opacity" />
+                        <div key={i} className="aspect-[16/10] relative group overflow-hidden rounded-xl shadow-lg">
+                          <img 
+                            src={img.url} 
+                            alt={`${hospital.name} - Image ${i + 1}`} 
+                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" 
+                          />
+                          <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </div>
                       ))}
                     </div>
                   )}
@@ -324,7 +366,7 @@ export default async function HospitalPage({
             )}
 
             {/* Contact */}
-            {hospital.contact && (
+            {/* {hospital.contact && (
               <section>
                 <div className="bg-white rounded-2xl shadow-lg p-6 lg:p-8 border border-gray-100">
                   <h2 className="text-2xl font-semibold mb-3 text-gray-900">Contact</h2>
@@ -335,7 +377,7 @@ export default async function HospitalPage({
                   )}
                 </div>
               </section>
-            )}
+            )} */}
           </div>
 
           {/* Sidebar */}

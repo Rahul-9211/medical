@@ -4,6 +4,7 @@
     "visible": true,
     "rating": { "value": 4.9, "reviews": 64 },
     "patientsRecommended": { "percent": 95 },
+    "url": "/hospital/artemis",
     "location": {
       "city": "Gurgaon",
       "state": "Haryana",

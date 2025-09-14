@@ -16,12 +16,11 @@
     "mainMenu": [
       {
         "name": "About Us",
-        "url": "/about-us"
+        "url": "/about"
       },
       {
         "name": "Hospitals",
-        "url": "/hospitals",
-        "submenu": [
+        "url": "/hospital",  "submenu": [
           { "name": "Medanta Hospital, Gurugram", "url": "/hospital/medanta" },
           { "name": "Fortis Memorial Research Institute, Gurugram", "url": "/hospital/fortis-memorial" },
           { "name": "Artemis Hospital, Gurugram", "url": "/hospital/artemis" },
@@ -127,6 +126,7 @@
     ],
     "languages": ["English", "French", "Arabic", "Russian", "Bengali", "Hindi", "Romanian", "Spanish", "Portuguese"]
   },
+      
   "heroSection": {
     "title": "Medical Treatment With Unmatched Personal Care",
     "subtitle": "World's Most Trusted Medical Travel Assistance Platform",
