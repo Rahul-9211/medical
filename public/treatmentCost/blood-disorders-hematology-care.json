@@ -1,0 +1,74 @@
+{
+    "slug": "blood-disorders-hematology-care",
+    "title": "🩸 Cost of Blood Disorders (Hematology Care) in India",
+    "subtitle": "Affordable & Advanced Hematology Care in India",
+    "why_india": "India is a preferred destination for blood disorder treatments, offering experienced hematologists, modern hospitals, and advanced therapies. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your hematology treatment journey.",
+    "treatment_page": {
+      "link": "/treatments/blood-disorders-hematology-care",
+      "label": "Go Back to Blood Disorders Page →"
+    },
+    "cost_page": "/treatment-cost/blood-disorders-hematology-care",
+    "procedures": [
+      { "name": "Bone Marrow / Stem Cell Transplant", "india": "$30,000 – $60,000", "usa": "$200,000 – $350,000", "saving": "Up to 85%" },
+      { "name": "Leukemia Treatment", "india": "$5,000 – $15,000", "usa": "$50,000 – $120,000", "saving": "Up to 85%" },
+      { "name": "Lymphoma Therapy", "india": "$4,000 – $12,000", "usa": "$40,000 – $100,000", "saving": "Up to 85%" },
+      { "name": "Hemophilia & Clotting Disorder Management", "india": "$1,000 – $5,000", "usa": "$10,000 – $25,000", "saving": "Up to 85%" },
+      { "name": "Anemia & Thalassemia Treatment", "india": "$500 – $3,000", "usa": "$5,000 – $15,000", "saving": "Up to 85%" },
+      { "name": "Pediatric Hematology Care", "india": "$1,000 – $5,000", "usa": "$10,000 – $25,000", "saving": "Up to 85%" }
+    ],
+    "inclusions": [
+      "Consultation & evaluation fees",
+      "Hematologist & hospital charges",
+      "Medicines & consumables during stay",
+      "Diagnostic & lab tests",
+      "Follow-up & post-treatment monitoring"
+    ],
+    "exclusions": [
+      "International travel & visa costs",
+      "Accommodation beyond hospital package",
+      "Luxury room upgrades",
+      "Extended hospital stay beyond package days"
+    ],
+    "cost_factors": [
+      "Type and severity of blood disorder",
+      "Hospital choice & city",
+      "Patient’s age & overall health condition",
+      "Complexity of bone marrow / stem cell transplant",
+      "Duration of treatment & follow-up needs"
+    ],
+    "why_best_choice": [
+      "Top hematologists with global training",
+      "State-of-the-art hospitals with advanced labs and stem cell therapy facilities",
+      "High success rates for leukemia, lymphoma, bone marrow transplants, and blood disorders",
+      "Comprehensive care – evaluation, treatment, post-treatment monitoring, and follow-up",
+      "Affordable packages – save 60–85% compared to USA"
+    ],
+    "success_rates": [
+      "Bone Marrow & Stem Cell Transplants: High survival rates with structured post-op care",
+      "Leukemia & Lymphoma Treatments: Effective management and remission rates",
+      "Hemophilia & Anemia Care: Safe and targeted therapies",
+      "Pediatric Hematology: Expert care for children with rare blood disorders"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Rajesh Kapoor",
+        "hospital": "Apollo Hospitals, Delhi",
+        "expertise": "Leukemia, Lymphoma, Bone Marrow Transplant, Pediatric Hematology"
+      },
+      {
+        "name": "Dr. Meena Singh",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Anemia, Hemophilia, Thalassemia, Stem Cell Therapy"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your medical reports, lab results, or scans",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

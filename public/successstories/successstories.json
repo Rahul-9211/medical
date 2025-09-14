@@ -1,0 +1,38 @@
+{
+    "title": "Success Stories",
+    "subtitle": "Real Patients. Real Recoveries. Real Care.",
+    "overview": "Every year, patients from across the world travel to India for advanced, affordable, and ethical healthcare. We are proud to have helped thousands of international patients get life-changing treatments — at a fraction of the cost compared to their home countries. From heart surgeries and cancer treatments to IVF success and post-surgery recovery, our patients’ journeys inspire trust and hope.",
+    "featuredStories": [
+      {
+        "title": "Heart Surgery – Patient from Kenya",
+        "story": "I was diagnosed with severe heart valve disease, but treatment back home was too expensive. In India, I received world-class cardiac surgery at Medanta Hospital at one-fourth of the cost. The team supported me from visa to recovery. I’m now living a normal life again.",
+        "patient": "James K., Kenya"
+      },
+      {
+        "title": "IVF Success – Patient from UAE",
+        "story": "After years of failed attempts, I finally became a mother thanks to IVF specialists in India. The doctors were caring, the treatment was advanced, and the costs were affordable. I am forever grateful.",
+        "patient": "Ayesha M., UAE"
+      },
+      {
+        "title": "Brain Tumor Surgery – Patient from Bangladesh",
+        "story": "When doctors in my country said surgery was too risky, I turned to India. The neurosurgeons here gave me a new chance at life. The facilities were world-class, and I felt safe throughout my journey.",
+        "patient": "Rafiq A., Bangladesh"
+      },
+      {
+        "title": "Cosmetic Surgery – Patient from UK",
+        "story": "I wanted cosmetic surgery but could not afford UK prices. India provided expert surgeons, modern hospitals, and amazing care at just a fraction of the cost. I came back home with more confidence and a big smile.",
+        "patient": "Emily S., UK"
+      }
+    ],
+    "trustReasons": [
+      "Transparent pricing with affordable treatment packages",
+      "End-to-end assistance: medical visa, travel, hospital, and recovery care",
+      "Partnerships with India’s top NABH & JCI-accredited hospitals",
+      "Thousands of international patients treated successfully"
+    ],
+    "cta": {
+      "text": "Get a Free Second Opinion →",
+      "url": "/contact"
+    }
+  }
+  

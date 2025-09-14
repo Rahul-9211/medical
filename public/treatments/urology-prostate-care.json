@@ -1,0 +1,82 @@
+{
+    "title": "Urology & Prostate Care in India",
+    "headline": "Advanced Urology & Prostate Treatments with World-Class Surgeons at Affordable Cost",
+    "introduction": "India offers cutting-edge urology and prostate treatments with the latest technology such as laser surgery, robotic-assisted urology, and minimally invasive procedures. Our partner hospitals are globally recognized for treating kidney, bladder, urinary tract, and prostate conditions with high success rates and much lower costs compared to Western countries.",
+    "cost_link": "/treatment-cost/urology-prostate-care",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Kidney & Urinary Tract",
+          "procedures": [
+            "Kidney Stone Removal (PCNL, URS, RIRS, ESWL – laser lithotripsy)",
+            "Kidney Cancer Surgery (Partial & Radical Nephrectomy)",
+            "Kidney Transplant Surgery",
+            "Ureteric Stricture Surgery"
+          ]
+        },
+        {
+          "name": "Bladder Treatments",
+          "procedures": [
+            "Bladder Stone Removal",
+            "Bladder Cancer Surgery",
+            "TURBT (Transurethral Resection of Bladder Tumor)",
+            "Overactive Bladder & Incontinence Treatments"
+          ]
+        },
+        {
+          "name": "Prostate Treatments",
+          "procedures": [
+            "TURP (Transurethral Resection of the Prostate)",
+            "HoLEP (Holmium Laser Enucleation of the Prostate)",
+            "Prostate Cancer Surgery (Robotic Prostatectomy, Laparoscopic Surgery)",
+            "Prostatitis & BPH (Benign Prostatic Hyperplasia) Management"
+          ]
+        },
+        {
+          "name": "Other Urology Specialties",
+          "procedures": [
+            "Pediatric Urology (Hypospadias, PUJ Obstruction)",
+            "Female Urology (Urinary Incontinence, Pelvic Organ Prolapse)",
+            "Erectile Dysfunction & Male Infertility Treatments",
+            "Uro-oncology (Kidney, Prostate, Bladder Cancers)",
+            "Robotic & Laparoscopic Urology Procedures"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Top urologists trained in USA/Europe with decades of experience",
+      "Advanced technology – laser & robotic-assisted procedures",
+      "High success rates – 95%+ for kidney stones & prostate surgeries",
+      "Affordable treatment packages (70–80% lower than USA/UK)",
+      "Comprehensive care – from diagnostics to surgery to rehabilitation"
+    ],
+    "success_rates": {
+      "Kidney Stone Removal": "95–98% stone clearance",
+      "Prostate Cancer Surgery": "90%+ long-term survival in early stages",
+      "TURP & HoLEP": ">95% success with quick recovery",
+      "Kidney Transplant": "90–95% success (1-year graft survival)"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Rajeev Sood",
+        "specialization": "Urology & Kidney Transplant",
+        "experience": "25+ years",
+        "affiliation": "Fortis Memorial Research Institute, Gurugram",
+        "expertise": "Kidney Stones, Prostate Surgery, Kidney Transplant"
+      },
+      {
+        "name": "Dr. Narmada Prasad Gupta",
+        "specialization": "Uro-oncology & Prostate Surgery",
+        "experience": "30+ years",
+        "affiliation": "Medanta – The Medicity, Gurugram",
+        "expertise": "Prostate Cancer, Robotic & Laparoscopic Urology"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your diagnostic scans, PSA reports, and medical history for a free review by India's best urologists. Get a personalized treatment & cost plan before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

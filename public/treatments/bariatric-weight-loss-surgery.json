@@ -1,0 +1,68 @@
+{
+    "title": "Bariatric & Weight Loss Surgery in India",
+    "headline": "Achieve Long-Term Weight Loss & Better Health with World-Class Bariatric Surgeons in India",
+    "introduction": "India is one of the top destinations for bariatric surgery, offering advanced weight loss treatments at affordable prices. Bariatric surgery not only helps reduce excess weight but also improves or resolves obesity-related conditions such as diabetes, hypertension, heart disease, sleep apnea, and joint pain.",
+    "cost_link": "/treatment-cost/bariatric-weight-loss-surgery",
+
+    "treatments": {
+      "categories": [
+        {
+          "name": "Restrictive Procedures",
+          "procedures": [
+            "Laparoscopic Sleeve Gastrectomy – removes a portion of the stomach to reduce appetite",
+            "Adjustable Gastric Banding (Lap-Band Surgery) – silicone band placed to limit food intake"
+          ]
+        },
+        {
+          "name": "Malabsorptive Procedures",
+          "procedures": [
+            "Roux-en-Y Gastric Bypass (RYGB) – reduces stomach size & alters digestion to limit calorie absorption",
+            "Mini Gastric Bypass (MGB / One Anastomosis Gastric Bypass) – shorter, simpler bypass procedure"
+          ]
+        },
+        {
+          "name": "Combination / Advanced Procedures",
+          "procedures": [
+            "Biliopancreatic Diversion with Duodenal Switch (BPD/DS) – most effective for morbid obesity",
+            "Robotic Bariatric Surgery – precision surgery with faster recovery",
+            "Revisional Bariatric Surgery – for failed or complicated previous surgeries"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Globally trained bariatric surgeons with 20–30 years of expertise",
+      "Success rates over 95% with long-term weight management",
+      "Affordable packages – save 70–80% compared to USA/UK/UAE",
+      "Robotic & laparoscopic options for minimal scarring & faster healing",
+      "Comprehensive care – nutritionists, endocrinologists & physiotherapists"
+    ],
+    "success_rates": {
+      "Excess weight loss": "60–80% within 12–18 months",
+      "Remission of Type-2 Diabetes": "70–80% of patients",
+      "Reduction in hypertension, sleep apnea & joint pain": "Significant improvement",
+      "Improved fertility & hormonal balance": "Better quality of life & long-term survival"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Pradeep Chowbey",
+        "specialization": "Bariatric, Laparoscopic & Metabolic Surgery",
+        "experience": "30+ years, one of Asia's leading bariatric surgeons",
+        "affiliation": "Max Super Speciality Hospital, Delhi",
+        "expertise": "Sleeve Gastrectomy, Gastric Bypass, Revisional Surgery"
+      },
+      {
+        "name": "Dr. Arun Prasad",
+        "specialization": "Bariatric & Laparoscopic Surgery",
+        "experience": "20+ years",
+        "affiliation": "Apollo Hospitals, Delhi",
+        "expertise": "Gastric Bypass, Lap-Band, Revisional Bariatric Surgery"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your BMI, health records, and comorbidity reports for a free review by top bariatric specialists in India. We'll provide a personalized treatment & cost plan before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

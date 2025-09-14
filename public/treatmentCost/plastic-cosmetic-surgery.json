@@ -1,0 +1,75 @@
+{
+    "slug": "plastic-cosmetic-surgery",
+    "title": "✨ Cost of Plastic & Cosmetic Surgery in India",
+    "subtitle": "Affordable & Advanced Cosmetic Care in India",
+    "why_india": "India is a top destination for plastic and cosmetic surgery, offering world-class surgeons, modern hospitals, and advanced technology. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and full guidance throughout your cosmetic surgery journey.",
+    "treatment_page": {
+      "link": "/treatments/plastic-cosmetic-surgery",
+      "label": "Go Back to Plastic & Cosmetic Surgery Page →"
+    },
+    "cost_page": "/treatment-cost/plastic-cosmetic-surgery",
+    "procedures": [
+      { "name": "Rhinoplasty (Nose Surgery)", "india": "$1,500 – $3,500", "usa": "$7,000 – $15,000", "saving": "Up to 80%" },
+      { "name": "Breast Augmentation", "india": "$3,000 – $6,000", "usa": "$10,000 – $20,000", "saving": "Up to 80%" },
+      { "name": "Liposuction (per area)", "india": "$1,500 – $3,000", "usa": "$5,000 – $10,000", "saving": "Up to 80%" },
+      { "name": "Facelift", "india": "$3,500 – $7,000", "usa": "$12,000 – $25,000", "saving": "Up to 80%" },
+      { "name": "Tummy Tuck / Abdominoplasty", "india": "$3,500 – $6,500", "usa": "$10,000 – $20,000", "saving": "Up to 80%" },
+      { "name": "Hair Transplant (per session)", "india": "$1,500 – $3,500", "usa": "$6,000 – $15,000", "saving": "Up to 80%" },
+      { "name": "Botox / Fillers", "india": "$200 – $600", "usa": "$1,500 – $3,000", "saving": "Up to 80%" }
+    ],
+    "inclusions": [
+      "Surgeon & hospital fees",
+      "Anesthesia & consumables",
+      "Pre-op evaluation and tests",
+      "Post-op recovery & follow-up",
+      "Implants or grafts (if applicable)"
+    ],
+    "exclusions": [
+      "International travel & visa",
+      "Accommodation outside hospital package",
+      "Extended stay beyond recovery period",
+      "Luxury implants or additional aesthetic procedures"
+    ],
+    "cost_factors": [
+      "Type of cosmetic procedure chosen",
+      "Choice of hospital & city",
+      "Experience & expertise of surgeon",
+      "Complexity of procedure & patient’s health",
+      "Number of sessions (for hair transplants, Botox, etc.)"
+    ],
+    "why_best_choice": [
+      "Globally trained plastic surgeons with years of experience",
+      "State-of-the-art hospitals with advanced surgical facilities",
+      "High success rates for aesthetic, reconstructive, and hair restoration surgeries",
+      "Comprehensive care – pre-op evaluation, surgery, post-op recovery, and follow-up",
+      "Affordable packages – save 60–80% compared to USA"
+    ],
+    "success_rates": [
+      "Rhinoplasty & Facelift: High patient satisfaction and natural results",
+      "Breast Augmentation & Tummy Tuck: Safe, aesthetically pleasing outcomes",
+      "Liposuction & Hair Transplants: Effective results with minimal downtime",
+      "Botox & Fillers: Quick, non-invasive enhancements with lasting effect"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Rajat Gupta",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Rhinoplasty, Breast Augmentation, Facelift, Liposuction"
+      },
+      {
+        "name": "Dr. Neha Kapoor",
+        "hospital": "Apollo Cosmetic Surgery, Delhi",
+        "expertise": "Hair Transplants, Botox, Fillers, Tummy Tuck"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your photos, medical history, or desired procedure details",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

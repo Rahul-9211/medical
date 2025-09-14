@@ -1,0 +1,96 @@
+{
+    "title": "Neurosurgery & Spine Treatments in India",
+    "headline": "Advanced Brain & Spine Care with World-Class Surgeons",
+    "introduction": "India is one of the most preferred destinations for neurosurgery & spine care, offering state-of-the-art technology, highly skilled neurosurgeons, and 70–85% lower costs compared to the USA, UK, or UAE. From minimally invasive brain surgery to complex spine reconstruction, India provides safe, affordable, and internationally accredited care.",
+    "cost_link": "/treatment-cost/neurosurgery-spine-treatments",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Brain Tumor Surgery & Treatment",
+          "procedures": [
+            "Craniotomy & Tumor Resection",
+            "Endoscopic Brain Surgery",
+            "Stereotactic Radiosurgery (Gamma Knife, CyberKnife)",
+            "Pituitary Tumor Surgery"
+          ]
+        },
+        {
+          "name": "Spine Surgery & Disorders",
+          "procedures": [
+            "Minimally Invasive Spine Surgery (MISS)",
+            "Spinal Fusion & Instrumentation",
+            "Disc Replacement (Cervical & Lumbar)",
+            "Scoliosis & Kyphosis Correction",
+            "Spinal Decompression (Laminectomy, Discectomy)"
+          ]
+        },
+        {
+          "name": "Neurovascular Surgery",
+          "procedures": [
+            "Aneurysm Clipping & Coiling",
+            "AVM (Arteriovenous Malformation) Surgery",
+            "Carotid Endarterectomy"
+          ]
+        },
+        {
+          "name": "Functional Neurosurgery",
+          "procedures": [
+            "Deep Brain Stimulation (DBS) for Parkinson's & Tremors",
+            "Epilepsy Surgery",
+            "Surgery for Movement Disorders"
+          ]
+        },
+        {
+          "name": "Trauma & Emergency Care",
+          "procedures": [
+            "Head Injury & Skull Fracture Surgery",
+            "Spinal Cord Injury Management",
+            "Emergency Decompression & Stabilization"
+          ]
+        },
+        {
+          "name": "Pediatric Neurosurgery",
+          "procedures": [
+            "Hydrocephalus (VP Shunt, Endoscopic Third Ventriculostomy)",
+            "Congenital Spine Disorders",
+            "Pediatric Brain Tumors"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Globally trained neurosurgeons with 20–30+ years' experience",
+      "Advanced facilities – Gamma Knife, CyberKnife, Neuro-navigation, 3D Imaging",
+      "Affordable packages – save up to 80% compared to the West",
+      "High success rates – Brain Tumor Surgery (90–95%), Spine Surgery (90–95%)",
+      "World-class hospitals with NABH & JCI accreditation"
+    ],
+    "success_rates": {
+      "Brain Tumor Surgery": "90–95% success rate",
+      "Spine Surgery (Fusion/Disc Replacement)": "90–95% success rate",
+      "Epilepsy Surgery": "85–90% long-term seizure control",
+      "DBS for Parkinson's": "80–85% improvement in quality of life"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. V. P. Singh",
+        "specialization": "Neurosurgery & Spine Surgery",
+        "experience": "35+ years, 10,000+ neurosurgeries",
+        "affiliation": "Medanta Hospital, Gurugram",
+        "expertise": "Brain Tumors, Skull Base Surgery, Minimally Invasive Spine Surgery"
+      },
+      {
+        "name": "Dr. Aditya Gupta",
+        "specialization": "Neurosurgery & Functional Neurosurgery",
+        "experience": "20+ years, 7,000+ surgeries",
+        "affiliation": "Artemis Hospital, Gurugram",
+        "expertise": "DBS, Epilepsy Surgery, Neuro-oncology, Spine Reconstruction"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your MRI, CT scans & medical reports for a free review by India's leading neurosurgeons. We will provide a personalized treatment plan with cost estimates before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

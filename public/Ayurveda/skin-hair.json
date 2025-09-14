@@ -1,0 +1,70 @@
+{
+    "name": "Skin & Hair Rejuvenation",
+    "headline": "Natural Beauty & Holistic Wellness from Within",
+    "intro": "Ayurveda believes that true beauty comes from inner balance. Skin and hair problems are often linked to toxins, stress, poor digestion, and hormonal imbalance. With authentic Ayurvedic therapies, herbal medicines, and personalized diets, patients can achieve healthy skin and strong, lustrous hair — naturally and without side effects. International patients often choose Ayurvedic skin & hair care in India for acne, premature aging, pigmentation, psoriasis, eczema, hair fall, dandruff, and premature greying.",
+    "benefits": [
+      "Clears acne, pigmentation & blemishes",
+      "Reduces wrinkles & signs of aging",
+      "Treats chronic skin conditions (eczema, psoriasis, vitiligo)",
+      "Strengthens hair roots & prevents hair fall",
+      "Controls dandruff & premature greying",
+      "Improves glow, radiance & confidence"
+    ],
+    "therapies": [
+      {
+        "name": "Mukhalepam (Herbal Face Pack)",
+        "description": "Improves skin tone & removes blemishes."
+      },
+      {
+        "name": "Abhyanga (Oil Massage)",
+        "description": "Nourishes skin & improves circulation."
+      },
+      {
+        "name": "Takradhara (Buttermilk Therapy)",
+        "description": "Soothes skin, reduces stress & inflammation."
+      },
+      {
+        "name": "Herbal Steam Therapy",
+        "description": "Opens pores & eliminates toxins."
+      },
+      {
+        "name": "Shirodhara (Oil Drip Therapy)",
+        "description": "Reduces stress, a key cause of hair loss."
+      },
+      {
+        "name": "Ayurvedic Herbal Oils & Medicines",
+        "description": "Tailored to restore balance and rejuvenate."
+      }
+    ],
+    "why_choose": [
+      "Natural, safe & chemical-free solutions",
+      "Personalized therapies based on body type (dosha)",
+      "Addresses root cause – not just symptoms",
+      "Affordable rejuvenation packages",
+      "Treatments in wellness destinations like Kerala, Rishikesh, Goa, and Himalayan retreats"
+    ],
+    "costs": [
+      {
+        "package": "1-Week Rejuvenation Program",
+        "price": "$250 – $400"
+      },
+      {
+        "package": "2-Week Intensive Program",
+        "price": "$500 – $800"
+      },
+      {
+        "package": "3-Week Complete Rejuvenation",
+        "price": "$850 – $1,300"
+      }
+    ],
+    "cta": {
+      "text": "Book Free Ayurveda Consultation",
+      "url": "/ayurveda/online-consultations",
+      "features": [
+        "No chemicals or side effects",
+        "Long-lasting results with holistic healing",
+        "Affordable treatment packages in India"
+      ]
+    }
+  }
+  

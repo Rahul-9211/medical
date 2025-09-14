@@ -1,0 +1,217 @@
+{
+    "id": "artemis-gurgaon",
+    "name": "Artemis Hospital, Gurgaon",
+    "visible": true,
+    "rating": { "value": 4.9, "reviews": 64 },
+    "patientsRecommended": { "percent": 95 },
+    "url": "/hospital/artemis",
+    "location": {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "country": "India",
+      "address": "Near Unitech Cyber Park, Sector 51, Gurgaon, Haryana 122001",
+      "visible": true
+    },
+    "established": 2007,
+    "accreditations": ["NABH", "JCI"],
+    "specialty": "Multi Specialty",
+    "beds": 750,
+    "about": {
+      "visible": true,
+      "overview": "Artemis Hospital, established in 2007, is a leading multi-specialty hospital in Gurgaon, known for its cutting-edge technology, advanced infrastructure, and high-quality patient care. It was the first hospital in Gurgaon accredited by both JCI and NABH.",
+      "awards": [
+        "First position in CII National HR Circle Competition by CII (2020)",
+        "Best Bone Marrow Transplant Centre in North India - India’s Most Trusted Healthcare Awards 2019",
+        "FICCI Healthcare Excellence Award for Service Excellence 2018",
+        "Best Multi-Specialty Hospital in Delhi NCR - Health Care Awards 2018",
+        "Indian Excellence Award for Best Hospital in Quality Treatment 2017",
+        "Best Super-Specialty Hospital in Delhi NCR - Indian Excellence Awards 2017",
+        "Patient Safety Award - International Patient Safety Conference 2016",
+        "Best Super Speciality Hospital in Gurgaon (2013)",
+        "Asia Pacific Hand Hygiene Excellence Award by WHO (2011)"
+      ],
+      "milestones": [
+        "First JCI-accredited hospital in Gurgaon",
+        "30,000+ cardiac procedures performed in the last six years",
+        "Patients from 105+ countries"
+      ]
+    },
+    "internationalPatientServices": {
+      "visible": true,
+      "annualPatients": 200000,
+      "countries": 105,
+      "services": [
+        "Medical Visa Assistance",
+        "Air Ambulance & Transportation",
+        "Airport Transfers",
+        "Language Interpretation Services",
+        "Accommodation & Travel Assistance"
+      ]
+    },
+    "departments": {
+      "visible": true,
+      "list": [
+        { "name": "Cardiology and Cardiac Surgery", "doctorCount": 5 },
+        { "name": "Dental Treatment", "doctorCount": 2 },
+        { "name": "Endocrinology", "doctorCount": 2 },
+        { "name": "Gastroenterology", "doctorCount": 5 },
+        { "name": "Gynecology", "doctorCount": 11 },
+        { "name": "Hepatology", "doctorCount": 1 },
+        { "name": "Nephrology", "doctorCount": 4 },
+        { "name": "Obesity or Bariatric Surgery", "doctorCount": 3 },
+        { "name": "Ophthalmology", "doctorCount": 3 },
+        { "name": "Pediatric Cardiology", "doctorCount": 2 },
+        { "name": "Spine Surgery", "doctorCount": 5 },
+        { "name": "Urology", "doctorCount": 2 },
+        { "name": "Cosmetic and Plastic Surgery", "doctorCount": 3 },
+        { "name": "Dermatology", "doctorCount": 2 },
+        { "name": "ENT Surgery", "doctorCount": 4 },
+        { "name": "General Surgery", "doctorCount": 1 },
+        { "name": "Hematology", "doctorCount": 2 },
+        { "name": "IVF and Infertility", "doctorCount": 3 },
+        { "name": "Neurology and Neurosurgery", "doctorCount": 6 },
+        { "name": "Oncology and Oncosurgery", "doctorCount": 15 },
+        { "name": "Orthopedics", "doctorCount": 10 },
+        { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 11 },
+        { "name": "Transplant Surgery", "doctorCount": 2 }
+      ]
+    },
+    "topDoctors": {
+      "visible": true,
+      "list": [
+        {
+          "id": "anjana-satyajit",
+          "name": "Dr. Anjana Satyajit",
+          "specialty": "Dentist",
+          "rating": null,
+          "experienceYears": 29,
+          "profileUrl": "/doctors/dental-treatment/artemis-gurgaon/anjana-satyajit"
+        },
+        {
+          "id": "ips-oberoi",
+          "name": "Dr. IPS Oberoi",
+          "specialty": "Orthopaedic and Joint Replacement Surgeon",
+          "rating": 5.0,
+          "experienceYears": 31,
+          "profileUrl": "/doctors/orthopedics/artemis-gurgaon/ips-oberoi"
+        },
+        {
+          "id": "aditya-gupta",
+          "name": "Dr. Aditya Gupta",
+          "specialty": "Neurosurgeon",
+          "rating": 4.7,
+          "experienceYears": 30,
+          "profileUrl": "/doctors/neurosurgery/artemis-gurgaon/aditya-gupta"
+        },
+        {
+          "id": "lakshmi-tripathi",
+          "name": "Dr. Lakshmi Kant Tripathi",
+          "specialty": "Nephrologist",
+          "rating": 5.0,
+          "experienceYears": 31,
+          "profileUrl": "/doctors/nephrology/artemis-gurgaon/lakshmi-tripathi"
+        }
+      ]
+    },
+    "teamAndSpecialities": {
+      "visible": true,
+      "doctorsCount": 400,
+      "staffCount": null,
+      "specialitiesCount": 40,
+      "centersOfExcellence": [
+        "Artemis Heart Centre",
+        "Bone Marrow Transplant Centre",
+        "Oncology & Cancer Care",
+        "Neurosciences",
+        "Orthopedics",
+        "Transplants"
+      ]
+    },
+    "facilities": {
+      "visible": true,
+      "comfort": [
+        "TV in room",
+        "Private rooms",
+        "Free Wifi",
+        "Phone in room",
+        "Mobility accessible rooms",
+        "Family accommodation",
+        "Laundry",
+        "Welcome pack",
+        "Safe in room",
+        "Nursery/Nanny services",
+        "Dry cleaning",
+        "Personal assistance/Concierge",
+        "Religious facilities",
+        "Fitness",
+        "Café",
+        "Business Centre",
+        "Parking"
+      ],
+      "infrastructure": [
+        "525,000 sq. ft. campus",
+        "750 beds",
+        "65+ ICU beds (NICU, PICU, MICU)",
+        "3 Tesla MRI",
+        "64-Slice Cardiac CT",
+        "Dual-Head Gamma Camera",
+        "PET-CT",
+        "M6 CyberKnife Radiosurgery",
+        "da Vinci Robotic Surgery System",
+        "Harmonic Scalpel",
+        "RF Ablation",
+        "Philips FD20/10 Cath Lab",
+        "HDR Brachytherapy",
+        "Mobile Cancer Screening Van",
+        "24/7 Emergency & Trauma Centre"
+      ]
+    },
+    "address": {
+      "visible": true,
+      "full": "Near Unitech Cyber Park, Sector 51, Gurgaon, Haryana 122001, India",
+      "nearby": [
+        { "place": "IGI Airport Delhi", "distanceKm": 21.4, "duration": "58 mins" },
+        { "place": "Millennium City Centre Metro Station", "distanceKm": 6.2, "duration": "17 mins" },
+        { "place": "Gurgaon Railway Station", "distanceKm": 12.7, "duration": "31 mins" }
+      ]
+    },
+    "reviews": [
+      {
+        "patient": "Mr. Pravin Kumar Jiva",
+        "country": "Fiji",
+        "rating": 5,
+        "feedback": "Hip replacement arranged by Vaidam. Excellent experience, highly recommended.",
+        "visible": true
+      },
+      {
+        "patient": "Ms. Nashit Sultan Mou",
+        "country": "Bangladesh",
+        "rating": 5,
+        "feedback": "My wife underwent hip surgery here. She recovered well. Very glad we chose Artemis.",
+        "visible": true
+      },
+      {
+        "patient": "Sean Mario",
+        "country": "Fiji",
+        "rating": 5,
+        "feedback": "Good care and treatment for my son's arthritis without surgery. Thanks to Artemis Hospital.",
+        "visible": true
+      }
+    ],
+    "media": {
+      "images": [
+        { "url": "/images/hospital/artemis/artemis-1.jpg", "visible": true },
+        { "url": "/images/hospital/artemis/artemis-2.jpg", "visible": true },
+        { "url": "/images/hospital/artemis/artemis-3.jpg", "visible": true }
+      ],
+      "videos": [
+        { "url": "https://youtube.com/embed/example-artemis1", "visible": true }
+      ]
+    },
+    "contact": {
+      "phone": "+91-124-4511111",
+      "email": "info@artemishospitals.com",
+      "website": "https://www.artemishospitals.com"
+    }
+  }
+  

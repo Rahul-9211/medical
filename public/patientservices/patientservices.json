@@ -1,0 +1,62 @@
+{
+    "name": "Patient Services – Complete Care Beyond Treatment",
+    "headline": "Comprehensive Support Services for International Patients in India",
+    "intro": "We understand that traveling to another country for medical treatment can feel overwhelming. That’s why we provide end-to-end patient support services to make your medical journey in India safe, stress-free, and comfortable. From medical visa assistance to airport pickups, affordable accommodation, and dedicated care coordinators — we take care of everything while you focus on your recovery.",
+    "highlights": [
+      "Free Consultations & Cost Estimates",
+      "Visa, Travel & Stay Assistance",
+      "24/7 Dedicated Patient Support"
+    ],
+    "services": [
+      {
+        "title": "Medical Visa Assistance & Travel Support",
+        "description": "We guide you through the medical visa application process, provide invitation letters from hospitals, and help you with flight planning and travel arrangements."
+      },
+      {
+        "title": "Free Second Opinion & Online Consultations",
+        "description": "Before you travel, you can consult India’s leading doctors online. We provide free medical opinions and treatment plans so you can make informed choices."
+      },
+      {
+        "title": "Air Ambulance Services",
+        "description": "For critically ill patients, we arrange emergency air ambulance transfers to India with medical staff on board."
+      },
+      {
+        "title": "Airport Pickup & Ground Transfers",
+        "description": "From the moment you land, we ensure safe and comfortable transfers between the airport, hotel, and hospital."
+      },
+      {
+        "title": "Stay & Accommodation Near Hospitals",
+        "description": "We help you book budget hotels, serviced apartments, or guest houses close to the hospital for your convenience."
+      },
+      {
+        "title": "Dedicated 24/7 Assistance",
+        "description": "Every patient gets a personal care coordinator to handle hospital formalities, translations, and support during your entire stay."
+      },
+      {
+        "title": "Affordable Medical Treatment in India",
+        "description": "We ensure you get the lowest treatment costs with top hospitals, with no hidden fees or overcharging."
+      },
+      {
+        "title": "Post-Treatment Recovery & Follow-Up",
+        "description": "Even after your treatment, we provide follow-up consultations with doctors and can connect you to Ayurveda & wellness programs for faster recovery."
+      }
+    ],
+    "whyChooseUs": [
+      "10,000+ international patients assisted",
+      "Partnered with India’s best JCI/NABH hospitals",
+      "Transparent cost estimates – no surprise charges",
+      "Care in your own language (Arabic, French, Swahili, Bangla & more)",
+      "Focus on patient care, not profits"
+    ],
+    "cta": {
+      "text": "Start Your Medical Journey with Confidence",
+      "buttonText": "👉 [Get Free Assistance Now ⟶]",
+      "link": "/patient-services/consultation",
+      "features": [
+        "Response within 24 Hours",
+        "100% Free & Confidential",
+        "Guidance Every Step of the Way"
+      ]
+    }
+  }
+  

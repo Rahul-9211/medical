@@ -1,0 +1,89 @@
+{
+    "title": "IVF & Fertility Treatments in India",
+    "headline": "World-Class Fertility Care with High Success Rates & Affordable Costs",
+    "introduction": "India is one of the top destinations for IVF & fertility treatments, offering cutting-edge reproductive technologies, internationally trained fertility specialists, and costs that are 70–80% lower than in the USA, UK, or UAE. Couples from around the world choose India for its personalized, compassionate, and affordable fertility care.",
+    "cost_link": "/treatment-cost/ivf-fertility-treatments",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Assisted Reproductive Techniques (ART)",
+          "procedures": [
+            "In-Vitro Fertilization (IVF)",
+            "Intracytoplasmic Sperm Injection (ICSI)",
+            "Intrauterine Insemination (IUI)",
+            "Frozen Embryo Transfer (FET)"
+          ]
+        },
+        {
+          "name": "Advanced Fertility Solutions",
+          "procedures": [
+            "Preimplantation Genetic Testing (PGT-A/PGT-M)",
+            "Blastocyst Culture & Transfer",
+            "Egg Freezing (Oocyte Cryopreservation)",
+            "Embryo Freezing & Banking"
+          ]
+        },
+        {
+          "name": "Male Infertility Treatments",
+          "procedures": [
+            "Testicular Sperm Extraction (TESE)",
+            "Percutaneous Epididymal Sperm Aspiration (PESA)",
+            "Micro-TESE for azoospermia",
+            "Surgical correction of Varicocele"
+          ]
+        },
+        {
+          "name": "Female Fertility Treatments",
+          "procedures": [
+            "Hysteroscopy & Laparoscopy for fertility enhancement",
+            "Treatment of Endometriosis, PCOS, Fibroids",
+            "Egg Donation Programs",
+            "Surrogacy (as per Indian legal guidelines)"
+          ]
+        },
+        {
+          "name": "Third-Party Reproduction",
+          "procedures": [
+            "Donor Egg IVF",
+            "Donor Sperm IVF",
+            "Embryo Donation"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Globally trained fertility specialists with 20–30+ years' expertise",
+      "High success rates – IVF success up to 60–70% for women <35",
+      "State-of-the-art IVF labs with advanced embryology technology",
+      "Affordable packages – IVF in India costs 1/5th compared to the West",
+      "Ethical practices with legal guidance & emotional support"
+    ],
+    "success_rates": {
+      "IVF Success Rate (women under 35)": "60–70%",
+      "ICSI Success Rate": "65–70%",
+      "Donor Egg IVF Success": "70–75%",
+      "Frozen Embryo Transfer Success": "55–65%"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Firuza Parikh",
+        "specialization": "IVF & Reproductive Medicine",
+        "experience": "35+ years, 20,000+ successful IVF cycles",
+        "affiliation": "Jaslok Hospital, Mumbai",
+        "expertise": "IVF, ICSI, Egg Donation, Fertility Preservation"
+      },
+      {
+        "name": "Dr. Nayana Patel",
+        "specialization": "IVF, Surrogacy & Fertility Medicine",
+        "experience": "25+ years, 15,000+ couples treated",
+        "affiliation": "Akanksha Hospital, Anand",
+        "expertise": "Surrogacy, Egg Donation, Recurrent IVF failures"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your fertility test reports, hormone profiles, and ultrasound scans for a free review by India's leading fertility specialists. We'll provide a customized treatment & cost plan before you travel.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  

@@ -1,0 +1,75 @@
+{
+    "slug": "general-laparoscopic-surgery",
+    "title": "🏥 Cost of General & Laparoscopic Surgery in India",
+    "subtitle": "Affordable & Advanced General Surgery in India",
+    "why_india": "India is a preferred destination for general and laparoscopic surgeries, offering experienced surgeons, modern hospitals, and advanced minimally invasive techniques. Patients receive high-quality care at 60–80% lower costs than in the USA. Our focus is treating patients, not profits – you’ll get personalized care, transparent cost estimates, and complete guidance throughout your surgical journey.",
+    "treatment_page": {
+      "link": "/treatments/general-laparoscopic-surgery",
+      "label": "Go Back to General & Laparoscopic Surgery Page →"
+    },
+    "cost_page": "/treatment-cost/general-laparoscopic-surgery",
+    "procedures": [
+      { "name": "Gallbladder Removal (Cholecystectomy)", "india": "$1,500 – $3,000", "usa": "$8,000 – $15,000", "saving": "Up to 80%" },
+      { "name": "Hernia Repair (Laparoscopic/Open)", "india": "$1,200 – $2,500", "usa": "$7,000 – $12,000", "saving": "Up to 80%" },
+      { "name": "Appendectomy (Laparoscopic/Open)", "india": "$1,000 – $2,000", "usa": "$6,000 – $10,000", "saving": "Up to 80%" },
+      { "name": "Gastric Surgery (for ulcers / obesity-related)", "india": "$3,500 – $6,500", "usa": "$15,000 – $30,000", "saving": "Up to 80%" },
+      { "name": "Colon & Rectal Surgery", "india": "$3,000 – $6,000", "usa": "$15,000 – $35,000", "saving": "Up to 80%" },
+      { "name": "Spleen Surgery / Splenectomy", "india": "$2,500 – $5,000", "usa": "$12,000 – $25,000", "saving": "Up to 80%" },
+      { "name": "Laparoscopic Diagnostic Surgery", "india": "$1,500 – $3,000", "usa": "$7,000 – $15,000", "saving": "Up to 80%" }
+    ],
+    "inclusions": [
+      "Surgeon & hospital fees",
+      "Medicines & consumables during stay",
+      "Operation theatre & anesthesia charges",
+      "Post-op monitoring and care",
+      "Follow-up consultations"
+    ],
+    "exclusions": [
+      "International travel & visa costs",
+      "Accommodation beyond hospital package",
+      "Luxury room upgrades",
+      "Extended hospital stay beyond package days"
+    ],
+    "cost_factors": [
+      "Type of surgery (laparoscopic vs open)",
+      "Choice of hospital and city",
+      "Patient’s age & health condition",
+      "Complexity of the surgical procedure",
+      "Length of hospital stay & post-op care requirements"
+    ],
+    "why_best_choice": [
+      "Experienced general surgeons trained in advanced laparoscopic techniques",
+      "State-of-the-art hospitals with modern operation theatres",
+      "High success rates for minimally invasive and open surgeries",
+      "Comprehensive care – pre-op evaluation, surgery, post-op monitoring, and follow-up",
+      "Affordable packages – save 60–80% compared to USA"
+    ],
+    "success_rates": [
+      "Gallbladder & Hernia Surgeries: Minimal complications, faster recovery",
+      "Appendectomy & Laparoscopic Surgeries: Safe and effective",
+      "Gastric & Colon Surgeries: High precision with improved quality of life",
+      "Post-op Care: Structured recovery for faster rehabilitation"
+    ],
+    "specialists": [
+      {
+        "name": "Dr. Manoj Agarwal",
+        "hospital": "Medanta – The Medicity, Gurugram",
+        "expertise": "Gallbladder, Hernia, Appendectomy, Gastric Surgery"
+      },
+      {
+        "name": "Dr. Sunita Rao",
+        "hospital": "Fortis Hospital, Gurugram",
+        "expertise": "Laparoscopic Surgery, Colon Surgery, Spleen Surgery"
+      }
+    ],
+    "final_cta": {
+      "headline": "📞 Free Consultation",
+      "points": [
+        "Send us your reports, scans, and medical history",
+        "Get a personalized evaluation before you travel",
+        "Transparent cost estimate (min–max)"
+      ],
+      "button": { "label": "Book Free Consultation Now →", "link": "/get-estimate" }
+    }
+  }
+  

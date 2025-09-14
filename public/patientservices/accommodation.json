@@ -1,0 +1,37 @@
+{
+    "name": "Stay & Accommodation Near Hospitals",
+    "description": "Comfortable and affordable stay options for international patients and their families near top hospitals in India.",
+    "accommodationOptions": [
+      "Guest Houses & Service Apartments – Budget-friendly, home-like stay with kitchen facilities",
+      "3-Star & 4-Star Hotels – Comfortable rooms with patient-friendly amenities",
+      "Luxury Hotels – For families seeking premium comfort & services",
+      "Hospital Guest Rooms – In-campus stay for maximum convenience",
+      "Long-Term Rentals – Affordable serviced flats for recovery periods"
+    ],
+    "whyChooseUs": [
+      "Walking distance or short drive from top hospitals",
+      "Multilingual staff support for international guests",
+      "Special meal plans (including Halal, vegetarian & diabetic diets)",
+      "Wheelchair access & patient-friendly facilities",
+      "Affordable pricing compared to hotels booked directly",
+      "Assistance with hospital transfers & follow-ups"
+    ],
+    "cost": [
+      "Budget Guest Houses: $30 – $50 per night",
+      "Service Apartments: $50 – $80 per night",
+      "Hotels (3/4 Star): $60 – $100 per night",
+      "Luxury Hotels: $120 – $250 per night",
+      "Hospital Rooms: $20 – $40 per night"
+    ],
+    "extraSupport": [
+      "24/7 assistance from our care coordinators",
+      "In-room nursing support available on request",
+      "Dietician-approved meals for patients under treatment",
+      "Medical equipment rental (oxygen, wheelchair, etc.)"
+    ],
+    "cta": {
+      "text": "Request Accommodation Assistance",
+      "url": "/services/accommodation"
+    }
+  }
+  

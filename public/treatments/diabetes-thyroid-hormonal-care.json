@@ -1,0 +1,83 @@
+{
+    "title": "Diabetes, Thyroid & Hormonal Care in India",
+    "headline": "Comprehensive Endocrine & Metabolic Treatments at Affordable Costs",
+    "introduction": "India is a leading destination for diabetes, thyroid, and hormonal disorder management, offering experienced endocrinologists, advanced diagnostics, and personalized care at much lower costs than Western countries. Patients benefit from holistic and modern treatment approaches for conditions like diabetes, thyroid disorders, adrenal & pituitary problems, and metabolic imbalances.",
+    "cost_link": "/treatment-cost/diabetes-thyroid-hormonal-care",
+    "treatments": {
+      "categories": [
+        {
+          "name": "Diabetes Care",
+          "procedures": [
+            "Type 1 & Type 2 Diabetes Management",
+            "Insulin Therapy & Insulin Pump Management",
+            "Diabetic Complications Care (Neuropathy, Retinopathy, Nephropathy)",
+            "Continuous Glucose Monitoring (CGM)",
+            "Diabetes Education & Lifestyle Management"
+          ]
+        },
+        {
+          "name": "Thyroid Disorders",
+          "procedures": [
+            "Hypothyroidism & Hyperthyroidism Management",
+            "Thyroid Nodule Evaluation & Surgery",
+            "Radioactive Iodine Therapy (RAI)",
+            "Thyroid Cancer Management & Surgery"
+          ]
+        },
+        {
+          "name": "Hormonal & Endocrine Disorders",
+          "procedures": [
+            "Adrenal Disorders (Cushing's, Addison's)",
+            "Pituitary Disorders & Tumors",
+            "Polycystic Ovary Syndrome (PCOS)",
+            "Growth Hormone Disorders & Pediatric Endocrinology",
+            "Menopause & Andropause Management"
+          ]
+        },
+        {
+          "name": "Advanced & Surgical Treatments",
+          "procedures": [
+            "Laparoscopic Adrenal & Thyroid Surgery",
+            "Insulin Pump & Advanced Diabetes Technology",
+            "Multidisciplinary Care for Complex Endocrine Disorders",
+            "Hormone Replacement Therapy & Fertility Support"
+          ]
+        }
+      ]
+    },
+    "why_choose_india": [
+      "Top endocrinologists trained globally",
+      "Cutting-edge diagnostic labs & imaging facilities",
+      "Integrated multidisciplinary care for complex endocrine disorders",
+      "Affordable treatment packages – 60–75% lower than USA/UK",
+      "Personalized care – medication, lifestyle, diet, and follow-up"
+    ],
+    "success_rates": {
+      "Diabetes Management": "Significant HbA1c reduction & improved quality of life",
+      "Thyroid Surgery & Cancer Care": ">95% success rate",
+      "Hormonal Imbalance Treatment": "High patient satisfaction & symptom relief",
+      "PCOS & Fertility Support": "Improved ovulation and pregnancy rates"
+    },
+    "top_specialists": [
+      {
+        "name": "Dr. Anil Kumar",
+        "specialization": "Diabetes & Endocrinology",
+        "experience": "25+ years",
+        "affiliation": "Medanta – The Medicity, Gurugram",
+        "expertise": "Diabetes Management, Thyroid Disorders, Hormonal Imbalances"
+      },
+      {
+        "name": "Dr. Rekha Sharma",
+        "specialization": "Endocrinology & Hormonal Care",
+        "experience": "20+ years",
+        "affiliation": "Apollo Hospitals, Delhi",
+        "expertise": "PCOS, Pituitary & Adrenal Disorders, Hormone Replacement Therapy"
+      }
+    ],
+    "free_consultation": {
+      "title": "Free Consultation",
+      "description": "Send us your blood reports, imaging, and medical history for a free evaluation. Get a personalized treatment & cost plan from India's top endocrinologists before traveling.",
+      "cta": "Book Free Consultation Now"
+    }
+  }
+  
