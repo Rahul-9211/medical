@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import QuoteForm from "@/components/QuoteForm";
 
 interface Doctor {
   id: string;
@@ -55,62 +56,83 @@ const DoctorProfilePage = async ({ params }: PageProps) => {
   }
 
   return (
-    <>
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
       <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
-      <main className="max-w-5xl mx-auto px-4 py-8">
-        {/* Doctor Details */}
-        <div className="flex flex-col md:flex-row items-center gap-6 mb-8">
-          {doctor.media?.images?.[0]?.url && (
-            <img
-              src={doctor.media.images[0].url}
-              alt={doctor.name}
-              className="w-48 h-48 object-cover rounded-lg shadow-lg"
-            />
-          )}
-          <div>
-            <h1 className="text-4xl font-bold">{doctor.name}</h1>
-            <p className="text-lg">{doctor.designation}</p>
-            <p className="text-gray-600">{doctor.specialty}</p>
-            <p className="text-sm text-gray-500">{doctor.hospital}</p>
-            <p className="text-sm text-gray-500">
-              {doctor.experienceYears}+ years of experience
-            </p>
+
+      <main className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Background blur circles like home */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl -z-10"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl -z-10"></div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+          {/* Left Side - Doctor Info */}
+          <div className="lg:col-span-2 space-y-8">
+            <div className="flex flex-col md:flex-row items-center gap-6">
+              {doctor.media?.images?.[0]?.url && (
+                <img
+                  src={doctor.media.images[0].url}
+                  alt={doctor.name}
+                  className="w-48 h-48 object-cover rounded-2xl shadow-xl border border-gray-200"
+                />
+              )}
+              <div>
+                <h1 className="text-4xl font-bold text-gray-900">{doctor.name}</h1>
+                <p className="text-lg text-gray-700">{doctor.designation}</p>
+                <p className="text-gray-600">{doctor.specialty}</p>
+                <p className="text-sm text-gray-500">{doctor.hospital}</p>
+                <p className="text-sm text-gray-500">
+                  {doctor.experienceYears}+ years of experience
+                </p>
+              </div>
+            </div>
+
+            {/* About */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-3">About</h2>
+              <p className="text-gray-700 leading-relaxed">{doctor.about}</p>
+            </section>
+
+            {/* Education */}
+            {doctor.education?.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-semibold mb-3">Education</h2>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  {doctor.education.map((edu, i) => (
+                    <li key={i}>{edu}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* Expertise */}
+            {doctor.expertise?.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-semibold mb-3">Expertise</h2>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  {doctor.expertise.map((exp, i) => (
+                    <li key={i}>{exp}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
           </div>
+
+          {/* Right Side - Quote Form */}
+          <aside className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-2xl border border-white/20">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+              Book a Free Consultation
+            </h2>
+            <QuoteForm
+              quoteForm={websiteData.quoteForm}
+              countries={websiteData.countries}
+            />
+          </aside>
         </div>
-
-        {/* About */}
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">About</h2>
-          <p>{doctor.about}</p>
-        </section>
-
-        {/* Education */}
-        {doctor.education?.length > 0 && (
-          <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Education</h2>
-            <ul className="list-disc list-inside">
-              {doctor.education.map((edu, i) => (
-                <li key={i}>{edu}</li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        {/* Expertise */}
-        {doctor.expertise?.length > 0 && (
-          <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Expertise</h2>
-            <ul className="list-disc list-inside">
-              {doctor.expertise.map((exp, i) => (
-                <li key={i}>{exp}</li>
-              ))}
-            </ul>
-          </section>
-        )}
       </main>
+
       <Footer footer={websiteData.footer} />
-      <WhatsAppButton></WhatsAppButton>
-    </>
+      <WhatsAppButton />
+    </div>
   );
 };
 
