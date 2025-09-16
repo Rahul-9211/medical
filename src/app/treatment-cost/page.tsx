@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default async function LandingPage() {
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/treatmentCost/treatmentCost.json`, { cache: "no-store" });
@@ -186,6 +187,7 @@ export default async function LandingPage() {
     </main>
     
     <Footer footer={websiteData.footer} />
+    <WhatsAppButton></WhatsAppButton>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 interface Service {
   name: string;
@@ -123,6 +124,7 @@ const AyurvedaPage = async () => {
       </main>
 
       <Footer footer={websiteData.footer} />
+      <WhatsAppButton></WhatsAppButton>
     </div>
   );
 };

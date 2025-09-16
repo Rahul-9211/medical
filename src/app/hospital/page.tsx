@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
-
+import WhatsAppButton from '@/components/WhatsAppButton';
 interface Hospital {
   id: string;
   name: string;
@@ -307,6 +307,7 @@ const HospitalPage = async () => {
       </main>
 
       <Footer footer={websiteData.footer} />
+      <WhatsAppButton />
     </div>
   );
 };

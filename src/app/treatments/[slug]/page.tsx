@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import websiteData from '@/data/websiteData.json';
 import { useParams } from 'next/navigation';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 interface TreatmentCategory {
   name: string;
@@ -214,6 +215,7 @@ export default function TreatmentPage() {
       </main>
 
       <Footer footer={websiteData.footer} />
+      <WhatsAppButton></WhatsAppButton>
     </div>
   );
 }

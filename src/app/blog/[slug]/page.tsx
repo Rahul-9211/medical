@@ -2,6 +2,7 @@ import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 interface BlogSection {
   title: string;
@@ -177,6 +178,7 @@ export default async function BlogPage({params}: {params: Promise<{ slug: string
       </main>
 
       <Footer footer={websiteData.footer} />
+      <WhatsAppButton></WhatsAppButton>
     </div>
   );
 }

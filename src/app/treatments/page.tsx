@@ -2,6 +2,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default async function MedicalTreatmentsPage() {
   const res = await fetch(
@@ -195,6 +196,7 @@ export default async function MedicalTreatmentsPage() {
       </main>
 
       <Footer footer={websiteData.footer} />
+      <WhatsAppButton></WhatsAppButton>
     </div>
   );
 }

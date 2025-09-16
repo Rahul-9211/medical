@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
-
+import WhatsAppButton from '@/components/WhatsAppButton';
 const AboutPage = () => {
   const getCardColor = (index: number) => {
     const colors = [
@@ -218,6 +218,7 @@ const AboutPage = () => {
       </main>
 
       <Footer footer={websiteData.footer} />
+      <WhatsAppButton></WhatsAppButton>
     </div>
   );
 };

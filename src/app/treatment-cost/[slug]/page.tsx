@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
 import React from "react";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 type Params = Promise<{ slug: string }>
 
@@ -222,6 +223,7 @@ export default async function TreatmentCostSlugPage(props: { params : Params }) 
       </main>
 
       <Footer footer={websiteData.footer} />
+      <WhatsAppButton></WhatsAppButton>
     </div>
   );
 }
