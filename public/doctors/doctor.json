@@ -1,0 +1,173 @@
+{
+  "doctors": [
+    {
+      "id": "amit-goel",
+      "name": "Dr. Amit Goel",
+      "designation": "Director & Head – Gastroenterology & Hepatology",
+      "specialty": "gastroenterology",
+      "hospital" : "Manipal Hospital, Dwarka" ,
+      "hospitalslug": "manipal-dwarka",
+      "experienceYears": 22,
+      "about": "Dr. Amit Goel is a seniors gastroenterologist and hepatologist with more than 22 years of experience. He specializes in liver transplantation, advanced endoscopy, and management of complex liver diseases. He has performed over 1000 liver transplants and is known for pioneering minimally invasive techniques in gastroenterology.",
+      "education": [
+        "MBBS – King George’s Medical University, Lucknow",
+        "MD – Internal Medicine, SGPGIMS Lucknow",
+        "DM – Gastroenterology, Sanjay Gandhi Postgraduate Institute of Medical Sciences"
+      ],
+      "expertise": [
+        "Liver Transplantation",
+        "Advanced Endoscopic Procedures",
+        "Hepatology & Liver Failure",
+        "Gastrointestinal Oncology",
+        "Pancreatic Disorders"
+      ],
+      "awards": [
+        "Best Gastroenterologist Award, Delhi NCR – 2022",
+        "Young Investigator Award – APASL",
+        "Numerous national & international research publications"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/amit-goel-1.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "amit.goel@manipalhospitals.com",
+        "phone": "+91 9810012345",
+        "availability": "Mon – Sat, 10 AM – 5 PM",
+        "location": "Manipal Hospital, Dwarka, Delhi"
+      }
+    },
+    {
+      "id": "arun-saroha",
+      "name": "Dr. Arun Saroha",
+      "designation": "Director – Neurosurgery & Spine Surgery",
+      "specialty": "neurosurgery",
+      "hospital": {
+        "name": "Max Hospital, Saket & Gurgaon",
+        "slug": "max-super-speciality"
+      },
+      "experienceYears": 25,
+      "about": "Dr. Arun Saroha is an internationally acclaimed neurosurgeon with more than 25 years of experience in performing complex brain and spine surgeries. He has successfully treated over 8000 patients from India and abroad, with special expertise in minimally invasive neurosurgical techniques.",
+      "education": [
+        "MBBS – RNT Medical College, Udaipur",
+        "MS – General Surgery, RNT Medical College",
+        "M.Ch – Neurosurgery, PGIMER Chandigarh"
+      ],
+      "expertise": [
+        "Brain Tumor Surgery",
+        "Spinal Deformity Correction",
+        "Minimally Invasive Spine Surgery",
+        "Trauma & Emergency Neurosurgery",
+        "Cerebrovascular Surgery"
+      ],
+      "awards": [
+        "Best Spine Surgeon Award – Indian Healthcare Awards 2018",
+        "Life Member – Neurological Society of India (NSI)",
+        "Guest Faculty – WFNS Conferences"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/arun-saroha-1.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "arun.saroha@maxhealthcare.com",
+        "phone": "+91 9810098765",
+        "availability": "Mon – Sat, 9 AM – 4 PM",
+        "location": "Max Hospital, Saket & Gurgaon"
+      }
+    },
+    {
+      "id": "kaushal-yadav",
+      "name": "Dr. Kaushal Yadav",
+      "designation": "Associate Director & Unit Head – Surgical Oncology",
+      "specialty": "oncology",
+      "hospital": {
+        "name": "Max Hospital, Gurgaon",
+        "slug": "max-super-speciality"
+      },
+      "experienceYears": 20,
+      "about": "Dr. Kaushal Yadav has over 20 years of experience in treating complex cancer patients using advanced and robotic surgical methods. He has performed more than 5000 cancer surgeries and is recognized internationally, having served as a visiting consultant in Uzbekistan, Kenya, and Sudan.",
+      "education": [
+        "M.Ch. in Surgical Oncology – Tata Memorial Hospital, Mumbai",
+        "M.S. in General Surgery – PGIMS, Rohtak",
+        "MBBS – PGIMS, Rohtak"
+      ],
+      "previousPositions": [
+        "Consultant – Surgical Oncology, Max Hospital, Gurgaon",
+        "Senior Consultant & Head – Surgical Oncology, Paras Hospital, Gurgaon",
+        "Senior Consultant & Head – Surgical Oncology, Pratiksha Hospital, Gurgaon",
+        "Senior Consultant & Head – Surgical Oncology, Narayana Healthcare, Gurgaon"
+      ],
+      "expertise": [
+        "Gastrointestinal Cancer",
+        "Thoracic and Esophageal Cancer",
+        "Gynecological and Genitourinary Cancer",
+        "Head & Neck Cancer",
+        "Breast Cancer"
+      ],
+      "awards": [
+        "Best Oncologist of the Year – Financial Express 2024",
+        "Best Surgical Oncologist in Delhi NCR Award – 2019",
+        "MS Surgery First Rank",
+        "FIAGES Recognition",
+        "Marquin’s World Who’s Who Listee"
+      ],
+      "publications": [
+        "Laparoscopic Right Radical Hemicolectomy: CVL and CME, World J Gastrointestinal Surgery, 2024",
+        "Portocaval Paraganglioma: First case report, Journal of Gastrointestinal Cancer",
+        "Post-hepatectomy Liver Failure, Journal of GI Cancer, 2014",
+        "RPLND in Testicular Malignancies, Clinical and Translational Oncology, 2017"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/kaushal-yadav-1.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "Kaushalkishoryadav@maxhealthcare.com",
+        "phone": "+91 9910168762",
+        "availability": "Mon – Sat, 9 AM – 4 PM",
+        "location": "Max Hospital, Gurugram"
+      }
+    },
+    {
+      "id": "ravinder",
+      "name": "Dr. Ravinder",
+      "designation": "Senior Consultant – ENT Surgery",
+      "specialty": "ent",
+      "hospital": {
+        "name": "Fortis Hospital, Faridabad",
+        "slug": "fortis-memorial"
+      },
+      "experienceYears": 18,
+      "about": "Dr. Ravinder is a senior ENT and head & neck surgeon with more than 18 years of experience. He specializes in cochlear implants, sinus surgeries, and head & neck tumor surgeries. He has successfully treated patients from India and abroad with advanced ENT care.",
+      "education": [
+        "MBBS – Maulana Azad Medical College, New Delhi",
+        "MS – ENT, AIIMS New Delhi"
+      ],
+      "expertise": [
+        "Cochlear Implant Surgery",
+        "Sinus Surgery (FESS)",
+        "Head & Neck Tumor Surgery",
+        "Voice and Laryngeal Disorders"
+      ],
+      "awards": [
+        "Best ENT Specialist – Delhi NCR 2021",
+        "Gold Medal in MS ENT – AIIMS"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/ravinder-1.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "ravinder.ent@fortishealthcare.com",
+        "phone": "+91 9810011122",
+        "availability": "Mon – Sat, 10 AM – 3 PM",
+        "location": "Fortis Hospital, Faridabad"
+      }
+    }
+  ]
+}

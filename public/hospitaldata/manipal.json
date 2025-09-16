@@ -67,12 +67,12 @@
       "visible": true,
       "list": [
         {
-          "id": "yk-mishra",
-          "name": "Dr. Y K Mishra",
-          "specialty": "Cardiac Surgeon",
+          "id": "amit-goel",
+          "name": "Dr. Amit Goel",
+          "specialty": "gastroenterology",
           "rating": 4.9,
           "experienceYears": 44,
-          "profileUrl": "/doctors/cardiology/manipal-dwarka/yk-mishra"
+          "profileUrl": "/doctors/gastroenterology/manipal-dwarka/amit-goel"
         },
         {
           "id": "vineet-surana",
