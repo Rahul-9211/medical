@@ -6,13 +6,14 @@ interface LeadData {
   phone: string;
   country: string;
   treatment: string;
-  message: string;
+  medicalIssue: string;
   pageSource?: string;
 }
 
 export async function POST(request: NextRequest) {
   try {
     const leadData: LeadData = await request.json();
+    console.log(leadData);
     
     // Validate required fields
     console.log(leadData,"--12")
@@ -31,8 +32,7 @@ export async function POST(request: NextRequest) {
       leadData.email,
       leadData.phone,
       leadData.country,
-      leadData.treatment || 'Not specified',
-      leadData.message || 'No additional information',
+      leadData.medicalIssue || 'No additional information',
       leadData.pageSource || 'WhatsApp Modal Form'
     ];
 

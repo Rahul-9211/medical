@@ -28,10 +28,7 @@ interface PageProps {
 }
 
 const DoctorProfilePage = async ({ params }: PageProps) => {
-  const { specialty, hospital, id } = await params;
-  console.log(specialty,'weewfjwrjvwrbvberhvberv');
-  console.log(hospital,'weewfjwrjvwrbvberhvberv');
-  console.log(id,"w3");
+  const {id } = await params;
   // fetch the JSON
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/doctors/doctor.json`, {
     cache: "no-store",
@@ -42,9 +39,7 @@ const DoctorProfilePage = async ({ params }: PageProps) => {
   console.log(json);
   const doctor: Doctor | undefined = json.doctors.find(
     (doc: Doctor) =>
-      doc.id === id &&
-      doc.specialty.toLowerCase().replace(/\s+/g, "-") === specialty &&
-      doc.hospitalslug.toLowerCase().replace(/\s+/g, "-") === hospital
+      doc.id === id 
   );
 
   if (!doctor) {
@@ -125,6 +120,7 @@ const DoctorProfilePage = async ({ params }: PageProps) => {
             <QuoteForm
               quoteForm={websiteData.quoteForm}
               countries={websiteData.countries}
+              pageSource={doctor.name + "Doctor Page Lead"}
             />
           </aside>
         </div>

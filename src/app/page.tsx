@@ -112,7 +112,8 @@ export default function Home() {
                 <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-5 lg:p-6 shadow-2xl border border-white/20">
                   <QuoteForm 
                     quoteForm={websiteData.quoteForm} 
-                    countries={websiteData.countries} 
+                    countries={websiteData.countries}
+                    pageSource="Homepage Hero Section"
                   />
                 </div>
               </div>

@@ -24,7 +24,7 @@
           { "name": "Medanta Hospital, Gurugram", "url": "/hospital/medanta" },
           { "name": "Fortis Memorial Research Institute, Gurugram", "url": "/hospital/fortis-memorial" },
           { "name": "Artemis Hospital, Gurugram", "url": "/hospital/artemis" },
-          { "name": "Max Super Speciality Hospital, New Delhi", "url": "/hospital/max-super-speciality" },
+          { "name": "Max Super Speciality Hospital, Gurugram", "url": "/hospital/max-super-speciality" },
           { "name": "Paras Hospital, Gurugram", "url": "/hospital/paras" },
           { "name": "Manipal Hospital, Dwarka", "url": "/hospital/manipal" },
           { "name": "Marengo Asia Hospital, faridabad", "url": "/hospital/marengo-asia" },
@@ -149,6 +149,7 @@
         "required": true,
         "options": "countries"
       },
+      { "name": "email", "label": "Email*", "type": "email", "required": true },
       {
         "name": "city",
         "label": "City*",
@@ -166,18 +167,6 @@
         "label": "Medical Issue*",
         "type": "textarea",
         "required": true
-      },
-      {
-        "name": "age",
-        "label": "Patient's Age or Date Of Birth*",
-        "type": "text",
-        "required": true
-      },
-      {
-        "name": "emiratesId",
-        "label": "Emirates ID",
-        "type": "text",
-        "required": false
       }
     ],
     "submitButton": "Get FREE Quote",

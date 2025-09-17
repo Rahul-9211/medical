@@ -60,7 +60,7 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
     e.preventDefault();
     const payload = {
       ...formData,
-      pageSource: window.location.pathname, // ✅ capture from current page
+      pageSource: pageSource || window.location.pathname, // ✅ capture from current page
     };
   
     if (onSubmit) {
@@ -103,6 +103,14 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
           </svg>
         );
+        case 'email': // ✅ Email icon
+        return (
+          <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
+              d="M16 12H8m8-4H8m-2 8h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2z" />
+          </svg>
+        );
+
       case 'country':
         return (
           <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -115,6 +123,7 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
           </svg>
         );
+
       case 'phone':
         return (
           <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -278,16 +287,16 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-3">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {quoteForm.fields.slice(0, 3).map((field) => (
-            <div key={field.name}>
-              <label className="block text-xs font-semibold text-gray-700 mb-1">
-                {field.label}
-              </label>
-              {renderField(field)}
-            </div>
-          ))}
-        </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        {quoteForm.fields.map((field) => (
+          <div key={field.name}>
+            <label className="block text-xs font-semibold text-gray-700 mb-1">
+              {field.label}
+            </label>
+            {renderField(field)}
+          </div>
+        ))}
+      </div>
 
         <div className="grid grid-cols-1 gap-3">
           {quoteForm.fields.slice(3, 4).map((field) => (
