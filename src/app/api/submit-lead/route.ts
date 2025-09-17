@@ -7,6 +7,7 @@ interface LeadData {
   country: string;
   treatment: string;
   message: string;
+  pageSource?: string;
 }
 
 export async function POST(request: NextRequest) {
@@ -14,7 +15,8 @@ export async function POST(request: NextRequest) {
     const leadData: LeadData = await request.json();
     
     // Validate required fields
-    if (!leadData.name || !leadData.email || !leadData.phone || !leadData.country) {
+    console.log(leadData,"--12")
+    if (!leadData.name  || !leadData.phone || !leadData.country) {
       return NextResponse.json(
         { error: 'Missing required fields' },
         { status: 400 }
@@ -31,11 +33,11 @@ export async function POST(request: NextRequest) {
       leadData.country,
       leadData.treatment || 'Not specified',
       leadData.message || 'No additional information',
-      'WhatsApp Modal Form'
+      leadData.pageSource || 'WhatsApp Modal Form'
     ];
 
     // Send to Google Sheets using Google Sheets API
-    const response = await sendToGoogleSheets(rowData);
+    const response = await sendToGoogleSheetsViaAppsScript(rowData);
 
     if (response.success) {
       return NextResponse.json(
@@ -59,49 +61,49 @@ export async function POST(request: NextRequest) {
   }
 }
 
-async function sendToGoogleSheets(rowData: string[]) {
-  try {
-    // Google Sheets configuration
-    const SPREADSHEET_ID = process.env.GOOGLE_SHEETS_ID;
-    const SHEET_NAME = 'Leads';
-    const API_KEY = process.env.GOOGLE_SHEETS_API_KEY;
+// async function sendToGoogleSheets(rowData: string[]) {
+//   try {
+//     // Google Sheets configuration
+//     const SPREADSHEET_ID = process.env.GOOGLE_SHEETS_ID;
+//     const SHEET_NAME = 'Leads';
+//     const API_KEY = process.env.GOOGLE_SHEETS_API_KEY;
 
-    if (!SPREADSHEET_ID || !API_KEY) {
-      console.error('Missing Google Sheets configuration');
-      return { success: false, error: 'Configuration missing' };
-    }
+//     if (!SPREADSHEET_ID || !API_KEY) {
+//       console.error('Missing Google Sheets configuration');
+//       return { success: false, error: 'Configuration missing' };
+//     }
 
-    // For now, we'll use a simple approach with Google Sheets API
-    // You can also use Google Apps Script or other methods
+//     // For now, we'll use a simple approach with Google Sheets API
+//     // You can also use Google Apps Script or other methods
     
-    // Option 1: Using Google Sheets API v4
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}!A:H:append?valueInputOption=USER_ENTERED&key=${API_KEY}`;
+//     // Option 1: Using Google Sheets API v4
+//     const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}!A:H:append?valueInputOption=USER_ENTERED&key=${API_KEY}`;
     
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        values: [rowData]
-      })
-    });
+//     const response = await fetch(url, {
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/json',
+//       },
+//       body: JSON.stringify({
+//         values: [rowData]
+//       })
+//     });
 
-    if (response.ok) {
-      return { success: true };
-    } else {
-      const errorData = await response.text();
-      return { success: false, error: errorData };
-    }
+//     if (response.ok) {
+//       return { success: true };
+//     } else {
+//       const errorData = await response.text();
+//       return { success: false, error: errorData };
+//     }
 
-  } catch (error) {
-    console.error('Error sending to Google Sheets:', error);
-    return { success: false, error: error };
-  }
-}
+//   } catch (error) {
+//     console.error('Error sending to Google Sheets:', error);
+//     return { success: false, error: error };
+//   }
+// }
 
 // Alternative method using Google Apps Script (uncomment if you prefer this approach)
-/*
+
 async function sendToGoogleSheetsViaAppsScript(rowData: string[]) {
   try {
     const APPS_SCRIPT_URL = process.env.GOOGLE_APPS_SCRIPT_URL;
@@ -133,4 +135,4 @@ async function sendToGoogleSheetsViaAppsScript(rowData: string[]) {
     return { success: false, error: error };
   }
 }
-*/
+

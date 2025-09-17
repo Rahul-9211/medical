@@ -20,9 +20,10 @@ interface QuoteFormProps {
   countries: string[];
   onSubmit?: (formData: Record<string, string>) => void;
   isSubmitting?: boolean;
+  pageSource?: string;
 }
 
-export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting: externalIsSubmitting }: QuoteFormProps) {
+export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting: externalIsSubmitting , pageSource }: QuoteFormProps) {
   const [formData, setFormData] = useState<Record<string, string>>({});
   const [internalIsSubmitting, setInternalIsSubmitting] = useState(false);
   const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
@@ -30,6 +31,9 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const isSubmitting = externalIsSubmitting !== undefined ? externalIsSubmitting : internalIsSubmitting;
+  const detectedPageSource =
+    pageSource || (typeof window !== 'undefined' ? window.location.href : 'unknown');
+
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -54,23 +58,36 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+    const payload = {
+      ...formData,
+      pageSource: window.location.pathname, // ✅ capture from current page
+    };
+  
     if (onSubmit) {
       // Use external submit handler
       onSubmit(formData);
     } else {
       // Use internal submit handler (original behavior)
-      setInternalIsSubmitting(true);
-      
-      // Simulate form submission
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      console.log('Form submitted:', formData);
-      setInternalIsSubmitting(false);
-      
-      // Reset form
-      setFormData({});
-      alert('Thank you! We will contact you soon.');
+      try {
+        setInternalIsSubmitting(true);
+    
+        const res = await fetch("/api/submit-lead", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+    
+        if (!res.ok) throw new Error("Failed to submit form");
+    
+        alert("✅ Thank you! We will contact you soon.");
+        setFormData({});
+      } catch (err) {
+        console.error("Form submission error:", err);
+        alert("❌ Something went wrong, please try again.");
+      } finally {
+        setInternalIsSubmitting(false);
+      }
+    
     }
   };
 
