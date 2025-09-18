@@ -10,13 +10,19 @@ interface Doctor {
   name: string;
   designation: string;
   specialty: string;
-  hospital : string;
+  hospital: string;
   hospitalslug: string;
-  about: string;
-  experienceYears: number;
-  education: string[];
-  expertise: string[];
-  media: { images: { url: string; visible: boolean }[] };
+  about?: string;
+  experienceYears?: number;
+  education?: string[];
+  expertise?: string[];
+  awards?: string[];
+  publications?: string[];
+  roles?: string[];
+  memberships?: string[];
+  experience?: string[];
+  patientsTreated?: string;
+  media?: { images: { url: string; visible: boolean }[] };
 }
 
 interface PageProps {
@@ -27,20 +33,16 @@ interface PageProps {
   };
 }
 
-const DoctorProfilePage = async ({ params }: PageProps) => {
-  const {id } = await params;
-  // fetch the JSON
+const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: string; hospital: string; id: string }> }) => {
+  const { id } = await params;
+
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/doctors/doctor.json`, {
     cache: "no-store",
   });
   if (!res.ok) throw new Error("Failed to load doctor data");
 
   const json = await res.json();
-  console.log(json);
-  const doctor: Doctor | undefined = json.doctors.find(
-    (doc: Doctor) =>
-      doc.id === id 
-  );
+  const doctor: Doctor | undefined = json.doctors.find((doc: Doctor) => doc.id === id);
 
   if (!doctor) {
     return (
@@ -55,40 +57,52 @@ const DoctorProfilePage = async ({ params }: PageProps) => {
       <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
       <main className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Background blur circles like home */}
+        {/* Background blur circles */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl -z-10"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl -z-10"></div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
           {/* Left Side - Doctor Info */}
           <div className="lg:col-span-2 space-y-8">
+            {/* Profile Header */}
             <div className="flex flex-col md:flex-row items-center gap-6">
-              {doctor.media?.images?.[0]?.url && (
+              {doctor.media?.images?.[0]?.url ? (
                 <img
                   src={doctor.media.images[0].url}
                   alt={doctor.name}
-                  className="w-48 h-48 object-cover rounded-2xl shadow-xl border border-gray-200"
+                  className="w-48 h-48 object-cover rounded-full shadow-xl border border-gray-200"
                 />
+              ) : (
+                <div className="w-48 h-48 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-green-400 shadow-xl border border-gray-200 text-white text-4xl font-bold">
+                  {doctor.name
+                    .split(" ")
+                    .map((n) => n[0])
+                    .join("")
+                    .toUpperCase()
+                    .slice(0, 2)}
+                </div>
               )}
               <div>
                 <h1 className="text-4xl font-bold text-gray-900">{doctor.name}</h1>
                 <p className="text-lg text-gray-700">{doctor.designation}</p>
-                <p className="text-gray-600">{doctor.specialty}</p>
+                <p className="text-gray-600 capitalize">{doctor.specialty}</p>
                 <p className="text-sm text-gray-500">{doctor.hospital}</p>
-                <p className="text-sm text-gray-500">
-                  {doctor.experienceYears}+ years of experience
-                </p>
+                {doctor.experienceYears && (
+                  <p className="text-sm text-gray-500">{doctor.experienceYears}+ years of experience</p>
+                )}
               </div>
             </div>
 
             {/* About */}
-            <section>
-              <h2 className="text-2xl font-semibold mb-3">About</h2>
-              <p className="text-gray-700 leading-relaxed">{doctor.about}</p>
-            </section>
+            {doctor.about && (
+              <section>
+                <h2 className="text-2xl font-semibold mb-3">About</h2>
+                <p className="text-gray-700 leading-relaxed">{doctor.about}</p>
+              </section>
+            )}
 
             {/* Education */}
-            {doctor.education?.length > 0 && (
+            {doctor.education && doctor.education?.length > 0 && (
               <section>
                 <h2 className="text-2xl font-semibold mb-3">Education</h2>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
@@ -100,7 +114,7 @@ const DoctorProfilePage = async ({ params }: PageProps) => {
             )}
 
             {/* Expertise */}
-            {doctor.expertise?.length > 0 && (
+            {doctor.expertise && doctor.expertise?.length > 0 && (
               <section>
                 <h2 className="text-2xl font-semibold mb-3">Expertise</h2>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
@@ -108,6 +122,74 @@ const DoctorProfilePage = async ({ params }: PageProps) => {
                     <li key={i}>{exp}</li>
                   ))}
                 </ul>
+              </section>
+            )}
+
+            {/* Awards */}
+            {doctor.awards && doctor.awards?.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-semibold mb-3">Awards</h2>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  {doctor.awards.map((award, i) => (
+                    <li key={i}>{award}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* Publications */}
+            {doctor.publications && doctor.publications?.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-semibold mb-3">Publications</h2>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  {doctor.publications.map((pub, i) => (
+                    <li key={i}>{pub}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* Roles */}
+            {doctor.roles && doctor.roles?.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-semibold mb-3">Roles</h2>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  {doctor.roles.map((role, i) => (
+                    <li key={i}>{role}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* Memberships */}
+            {doctor.memberships&& doctor.memberships?.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-semibold mb-3">Memberships</h2>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  {doctor.memberships.map((member, i) => (
+                    <li key={i}>{member}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* Work Experience */}
+            {doctor.experience && doctor.experience?.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-semibold mb-3">Professional Experience</h2>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  {doctor.experience.map((exp, i) => (
+                    <li key={i}>{exp}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* Patients Treated */}
+            {doctor.patientsTreated && (
+              <section>
+                <h2 className="text-2xl font-semibold mb-3">Patients Treated</h2>
+                <p className="text-gray-700">{doctor.patientsTreated}</p>
               </section>
             )}
           </div>
@@ -120,7 +202,7 @@ const DoctorProfilePage = async ({ params }: PageProps) => {
             <QuoteForm
               quoteForm={websiteData.quoteForm}
               countries={websiteData.countries}
-              pageSource={doctor.name + "Doctor Page Lead"}
+              pageSource={doctor.name + " Doctor Page Lead"}
             />
           </aside>
         </div>

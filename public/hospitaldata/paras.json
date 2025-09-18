@@ -59,36 +59,81 @@
       "visible": true,
       "list": [
         {
-          "id": "alka-kriplani",
-          "name": "Dr. Alka Kriplani",
-          "specialty": "Gynaecologist and Obstetrician",
+          "id": "pn-gupta",
+          "name": "Dr. P.N. Gupta",
+          "specialty": "Director & HOD – Nephrology",
           "rating": 4.9,
           "experienceYears": 44,
-          "profileUrl": "/doctors/gynecology/paras-gurgaon/alka-kriplani"
+          "profileUrl": "/doctors/pn-gupta"
         },
         {
-          "id": "vs-mehta",
-          "name": "Dr. V. S. Mehta",
-          "specialty": "Neurosurgeon",
+          "id": "manmohan-singh",
+          "name": "Dr. (Prof.) Manmohan Singh",
+          "specialty": "neurosurgery",
           "rating": 5.0,
           "experienceYears": 46,
-          "profileUrl": "/doctors/neurosurgery/paras-gurgaon/vs-mehta"
+          "profileUrl": "/doctors/manmohan-singh"
         },
         {
-          "id": "ranga-rao",
-          "name": "Dr. Ranga Rao Rangaraju",
-          "specialty": "Medical Oncologist",
+         "id": "anurag-khaitan",
+          "name": "Dr. Anurag Khaitan",
+          "specialty": "urology",
           "rating": 5.0,
-          "experienceYears": 39,
-          "profileUrl": "/doctors/oncology/paras-gurgaon/ranga-rao"
+          "experienceYears": 22,
+          "profileUrl": "/doctors/anurag-khaitan"
         },
         {
-          "id": "vipul-gupta",
-          "name": "Dr. Vipul Gupta",
-          "specialty": "Neurosurgeon",
+          "id": "r-ranga-rao",
+          "name": "Dr. (Col.) R Ranga Rao, VSM",
+          "specialty": "medical oncology",
           "rating": 4.9,
-          "experienceYears": 29,
-          "profileUrl": "/doctors/neurosurgery/paras-gurgaon/vipul-gupta"
+          "experienceYears": 30,
+          "profileUrl": "/doctors/r-ranga-rao"
+        }
+        ,
+        {
+          "id": "ankur-garg",
+          "name": "Dr. Ankur Garg",
+          "specialty": "hepato-pancreato-biliary surgery",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/ankur-garg"
+        }
+        ,
+        {
+          "id": "amit-bhushan-sharma",
+          "name": "Dr. Amit Bhushan Sharma",
+          "specialty": "cardiology",
+          "rating": 4.9,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-bhushan-sharma"
+        }
+        ,
+        {
+          "id": "alka-kriplani",
+          "name": "Dr. (Prof.) Alka Kriplani",
+          "specialty": "gynaecology",
+          "rating": 4.9,
+          "experienceYears": 40,
+           "profileUrl": "/doctors/alka-kriplani"
+
+        }
+        ,
+        {
+          "id": "vivek-logani",
+          "name": "Dr. Vivek Logani",
+          "specialty": "orthopaedics",
+          "experienceYears": 23,
+          "rating": 4.9,
+          "profileUrl": "/doctors/vivek-logani"
+        },
+        {
+          "id": "arvind-mehra",
+          "name": "Dr. Arvind Mehra",
+          "specialty": "orthopaedics",
+          "experienceYears": 20,
+           "rating": 4.9,
+          "profileUrl": "/doctors/arvind-mehra"
         }
       ]
     },

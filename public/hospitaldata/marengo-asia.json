@@ -1,14 +1,14 @@
 {
     "id": "marengo-asia-faridabad",
-    "name": "Marengo Asia Hospitals (Formerly QRG Health City), Faridabad",
+    "name": "Marengo Asia Hospitals , Gurgaon",
     "visible": true,
     "rating": { "value": 4.4, "reviews": 21 },
     "patientsRecommended": { "percent": 90 },
     "location": {
-      "city": "Faridabad",
+      "city": "Gurgaon",
       "state": "Haryana",
       "country": "India",
-      "address": "Plot No. 1, Sector 16, Faridabad, 121002, India",
+      "address": "Golf Course Extension Road, Sector 56, Sushant Lok II",
       "visible": true
     },
     "established": 2007,
@@ -17,7 +17,7 @@
     "beds": 450,
     "about": {
       "visible": true,
-      "overview": "Established in 2007 by the QRG Group, Marengo Asia Hospitals (formerly QRG Health City) is a 450-bedded NABH & NABL accredited multi-specialty hospital. Recognised as the 'Best Emerging Critical Care Hospital in Delhi NCR,' it offers high-quality, cost-friendly healthcare with centers of excellence across 12 specialities.",
+      "overview": "Established in 2007 by the QRG Group, Marengo Asia Hospitals is a 450-bedded NABH & NABL accredited multi-specialty hospital. Recognised as the 'Best Emerging Critical Care Hospital in Delhi NCR,' it offers high-quality, cost-friendly healthcare with centers of excellence across 12 specialities.",
       "awards": ["Best Emerging Critical Care Hospital in Delhi NCR"],
       "milestones": [
         "450-bedded multi-specialty hospital",
@@ -137,9 +137,9 @@
     },
     "address": {
       "visible": true,
-      "full": "Plot No. 1, Sector 16, Faridabad, 121002, India",
+      "full": "Golf Course Extension Road, Sector 56, Sushant Lok II, Gurgaon, 122011",
       "nearby": [
-        { "place": "Indira Gandhi International Airport", "distanceKm": 30, "duration": "45–60 mins" },
+        { "place": "Indira Gandhi International Airport", "distanceKm": 20, "duration": "45–60 mins" },
         { "place": "Hotels & restaurants", "distanceKm": 1, "duration": "5 mins walk" }
       ]
     },

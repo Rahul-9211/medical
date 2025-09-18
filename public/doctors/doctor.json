@@ -189,6 +189,116 @@
       }
     },
     {
+      "id": "manmohan-singh",
+      "name": "Dr. (Prof.) Manmohan Singh",
+      "designation": "Vice Chairperson – Neurosurgery",
+      "specialty": "neurosurgery",
+      "hospital": "Paras Health, Gurugram",
+      "hospitalslug": "paras-health",
+      "experienceYears": 25,
+      "about": "Dr. (Prof.) Manmohan Singh has more than 25 years of experience in neurosurgery. He has been Professor of Neurosurgery and In-Charge of Gamma Knife Centre at AIIMS, New Delhi. He is one of India’s leading neurovascular and skull base surgeons, with expertise in cavernous sinus tumors, radiosurgery of the brain, and movement disorders requiring Deep Brain Stimulation (DBS) surgery.",
+      "education": [
+        "MBBS",
+        "MS (Surgery) – PGIMER Chandigarh",
+        "MCh (Neurosurgery)"
+      ],
+      "expertise": [
+        "Skull Base Surgery",
+        "Brain Stem Surgery",
+        "Surgery of Cavernous Sinus",
+        "Surgery of Vascular Lesions of the Brain (Aneurysms, Vascular Bypass, AVMs)",
+        "Deep Brain Stimulation Surgery (Parkinson’s Disease, Essential Tremors, Dystonia, Movement Disorders)"
+      ],
+      "specialInterests": [
+        "Neurovascular & Skull Base Surgery",
+        "Radiosurgery of the Brain",
+        "Movement Disorders Surgery"
+      ],
+      "awards": [
+        "Silver Medal – First Order for topping MS (Surgery), PGIMER Chandigarh",
+        "Visiting Professor – Department of Neurosurgery, Louisiana University Hospital, Shreveport, USA (2009)",
+        "Visiting Professor – Department of Neurosurgery, SGPGI Lucknow (2014)",
+        "Dr. Arun Banerji Oration on 67th Foundation Day, IPGM&R, Kolkata (16 Jan 2023)"
+      ],
+      "fellowships": [
+        "Gamma Knife Perfection Training – Cleveland Clinic, Ohio, USA",
+        "Gamma Knife Icon Training – Marseilles, France"
+      ],
+      "publications": [
+        "90 publications in national & international peer-reviewed neurosurgery journals",
+        "7 chapters in neurosurgery textbooks"
+      ],
+      "societyMemberships": [
+        "Treasurer – Cerebrovascular Society of India",
+        "Former Executive Committee Member – Skull Base Surgery Society of India",
+        "Former Executive Committee Member – Cerebrovascular Society of India",
+        "Member – Neurological Society of India",
+        "Member – Stereotactic & Functional Neurosurgery Society of India"
+      ],
+      "journalReviewer": [
+        "Neurology India",
+        "Indian Journal of Neurosurgery",
+        "Child’s Nervous System"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/manmohan-singh.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "Mon – Sat, 10 AM – 2 PM",
+        "location": "Paras Health: C-1, Sushant Lok-1, Sector-43, Phase-I, Gurugram, Haryana-122002 (India)",
+        "phone": "080 35358702",
+        "emergency": "0124-4585666"
+      }
+    }
+    ,    
+    {
+      "id": "anurag-khaitan",
+      "name": "Dr. Anurag Khaitan",
+      "designation": "Chief – Urology",
+      "specialty": "urology",
+      "hospital": "Paras Health, Gurugram",
+      "hospitalslug": "paras-health",
+      "experienceYears": 22,
+      "about": "Dr. Anurag Khaitan is one of the most renowned and competent urologists and genitourinary surgeons of Delhi NCR. With over 22 years of experience, he has performed more than 25,000 surgeries including prostate and urinary bladder cancer surgeries, PCNL, ureteric and renal calculus surgeries. He currently heads the Urology Department at Paras Hospitals, Gurugram.",
+      "education": [
+        "MBBS – PGI Rohtak (Best Graduate, Batch 1998)",
+        "MS – General Surgery, PGIMER Chandigarh",
+        "MCh – Urology, AIIMS New Delhi",
+        "DNB – Genitourinary Surgery, National Board of Examination"
+      ],
+      "expertise": [
+        "Robotic Surgery",
+        "Prostate Cancer Surgeries",
+        "Urinary Bladder Cancer Surgeries",
+        "Laser Surgeries for Prostate",
+        "Ureteric & Renal Calculus Surgeries",
+        "Reconstructive Urology Surgeries"
+      ],
+      "awards": [
+        "Dr. G.M. Phadke Travelling Fellowship – Urology Society of India"
+      ],
+      "specialInterests": [
+        "Prostate and Urinary Bladder Cancer",
+        "Kidney & Ureteric Stone Surgeries",
+        "Reconstructive Urology"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/anurag-khaitan.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "Mon – Sat (Timings as per OPD schedule)",
+        "location": "Paras Health: C-1, Sushant Lok-1, Sector-43, Phase-I, Gurugram, Haryana-122002 (India)",
+        "phone": "080 35358702",
+        "emergency": "0124-4585666"
+      }
+    }
+,    
+
+    {
       "id": "kaushal-yadav",
       "name": "Dr. Kaushal Yadav",
       "designation": "Associate Director & Unit Head – Surgical Oncology",
@@ -261,6 +371,446 @@
         "availability": "Mon – Sat, 10 AM – 3 PM",
         "location": "Max Hospital, Gurgaon"
       }
+    },
+    {
+      "id": "pn-gupta",
+      "name": "Dr. P.N. Gupta",
+      "designation": "Director & HOD – Nephrology",
+      "specialty": "nephrology",
+      "hospital": "Paras Health, Gurugram",
+      "hospitalslug": "paras-health-gurgaon",
+      "experienceYears": 15,
+      "about": "Dr. P.N. Gupta has supervised numerous haemodialysis cases and has performed more than 800 kidney transplants. With over 15 years of experience, he specializes in kidney transplantation, chronic kidney disease, acute kidney injury, nephrotic syndrome, and critical care nephrology. He has a fellowship in kidney transplantation and was a visiting fellow at Johns Hopkins Hospital, USA.",
+      "education": [
+        "MBBS",
+        "MD",
+        "DNB",
+        "Fellowship in Kidney Transplantation",
+        "Visiting Fellow – Johns Hopkins Hospital, USA",
+        "Fellow – Indian Academy of Clinical Medicine",
+        "Fellow – International Medical Specialties Association",
+        "Fellow – Geriatric Society of India"
+      ],
+      "expertise": [
+        "Renal Transplantation",
+        "Chronic Kidney Disease Management",
+        "Acute Kidney Injury",
+        "Nephrotic Syndrome",
+        "Haemodialysis",
+        "Critical Care Nephrology"
+      ],
+      "awards": [
+        "Certificate of Honours in Ophthalmology and Pathology",
+        "Best Paper Award – Cardiovascular Evaluation in Kidney Transplant Recipients (ISOT 2011, New Delhi, India)",
+        "FIACM – 2012",
+        "FIMSA – 2012",
+        "FGSI – 2012",
+        "FICP – Awarded in 2016 at APICON Hyderabad"
+      ],
+      "publications": [
+        "Utility of C2 monitoring in patients with Kidney Transplant, Journal Indian Society of Nephrology",
+        "Steroid free immunosuppression – ISOT 2009, Varanasi",
+        "Effect of Interleukin 2 receptor antibody Basiliximab (IL2RA) in Tacrolimus (TAC) based immunosuppression – ESOT 2011, Glasgow",
+        "Steroid Free Immunosuppression in Renal Transplantation – ESOT 2011, Glasgow (Rapid Oral Presentation)",
+        "Cardiovascular Evaluation in Kidney Transplant Recipients – ISOT 2011, New Delhi (Best Paper Award)",
+        "Comparison of Azathioprine with mycophenolate mofetil in living donor kidney transplant programme, Indian J Nephrol 2011:21:258-63",
+        "ABO Incompatible renal transplant: A case report, Indian Journal of Nephrology"
+      ],
+      "roles": [
+        "Invited Faculty – Transplant Coordinators Conference (IATC) 2019, Greater Noida",
+        "Organizing Secretary – 1st Annual Dialysis Technician Program, Paras Hospitals Gurugram, 2019",
+        "Organizing Secretary – Deceased Donation Workshop 2019, Paras Hospitals Gurugram (under NOTTO, ISCCM, IATC)",
+        "Member – Governing Body, Delhi Nephrology Society"
+      ],
+      "experience": [
+        "Director & HOD – Nephrology, Paras Health, Gurugram",
+        "Associate Consultant – Medanta Kidney & Urology Institute, Medanta The Medicity, Gurgaon",
+        "Fellowship in Kidney Transplantation – Medanta Institute of Kidney & Urology, Gurgaon",
+        "Clinical Associate – Department of Nephrology & Kidney Transplantation, Fortis Hospital, Vasant Kunj, New Delhi",
+        "Junior Consultant – Department of Nephrology, Batra Hospital, New Delhi"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/pn-gupta.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "pn.gupta@parashospitals.com",
+        "phone": "+91 8035358702",
+        "availability": "Mon – Sat, 10:00 AM – 2:00 PM",
+        "location": "Paras Health, C-1, Sushant Lok-1, Sector-43, Phase-I, Gurugram, Haryana – 122002, India"
+      },
+      "memberships": [
+        "Asia Pacific Society of Nephrology",
+        "International Society of Nephrology",
+        "Indian Society of Nephrology",
+        "European Renal Association",
+        "Indian Academy of Nephrology",
+        "Peritoneal Dialysis Society of India",
+        "Northern Zone Chapter of ISN",
+        "Southern Zone Chapter of ISN",
+        "Indian Society of Critical Care Medicine",
+        "Research Society for Study of Diabetes in India",
+        "Association of Physicians of India",
+        "Indian Rheumatology Association",
+        "Indian Academy of Clinical Medicine",
+        "Geriatric Society of India",
+        "Indian Chest Society",
+        "Indian Society of Hypertension"
+      ],
+      "patientsTreated": "More than 30,000 patients"
+    },
+    {
+      "id": "r-ranga-rao",
+      "name": "Dr. (Col.) R Ranga Rao, VSM",
+      "designation": "Chairman – Paras Cancer Centre",
+      "specialty": "medical oncology",
+      "hospital": "Paras Health, Gurugram",
+      "hospitalslug": "paras-health",
+      "experienceYears": 30,
+      "about": "Dr. (Col.) R Ranga Rao has over 30 years of experience in medical oncology and has treated more than 3 lakh patients. His areas of specialization include chemotherapy, targeted therapy, supportive and palliative care for all types of solid cancers. He has expertise in setting up cancer centres and is widely recognized as a leader in oncology in India.",
+      "education": [
+        "MBBS",
+        "MD (Internal Medicine)",
+        "DM (Oncology)"
+      ],
+      "expertise": [
+        "Lung Cancer",
+        "Pleura Cancer",
+        "Breast Cancer",
+        "Ovarian Cancer",
+        "Cervical Cancer",
+        "Oesophagus Cancer",
+        "Stomach Cancer",
+        "Small Intestine Cancer",
+        "Colon & Rectum Cancer",
+        "Liver Cancer",
+        "Gall Bladder Cancer",
+        "Pancreatic Cancer",
+        "Kidney Cancer",
+        "Urinary Bladder Cancer"
+      ],
+      "awards": [
+        "Life Time Achievement Award – ICC Meeting, Mumbai (2023)",
+        "Life Time Achievement Award – Oncology Forum Annual Meeting, New Delhi (2023)",
+        "Life Time Achievement Award – ICON Meeting, Hyderabad (2020)",
+        "Life Time Achievement Award – Medical Tourism of India Summit, New Delhi (2020)",
+        "CEO’s Award, Max Health Care (2017)",
+        "Sushruta Award, Max Health Care (2018)",
+        "Vishisht Seva Medal by President of India (2006)",
+        "Col KK Gupta Memorial Gold Medal – Advanced Course Medicine (1984)",
+        "Lt. Gen RS Hoon Award (1994, 1996) for oncology research",
+        "Air Marshall Ajit Nath Guru Shanti Devi Award (1997)",
+        "Best Original Paper Award – MJAFI (1996)"
+      ],
+      "specialInterests": [
+        "Chemotherapy",
+        "Targeted Therapy",
+        "Supportive & Palliative Care",
+        "Establishing Cancer Centres"
+      ],
+      "memberships": [
+        "Association of Physicians of India (API)",
+        "Indian Society of Oncology (ISO)",
+        "Indian Society of Medical & Paediatric Oncology (ISMPO)",
+        "European Society of Medical Oncology (ESMO)",
+        "Indian Cooperative Oncology Network (ICON)",
+        "American Society of Clinical Oncology (ASCO)"
+      ],
+      "experience": [
+        "Senior Director, Oncology Services – Max Super Speciality Hospital, Delhi",
+        "Director – BLK Super Speciality Hospital, Delhi",
+        "Director – Artemis Hospital, Gurugram",
+        "Senior Consultant – Rajiv Gandhi Cancer Institute, Delhi",
+        "Served in various Army Hospitals including R&R Hospital"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/r-ranga-rao.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "Mon – Sat (as per OPD schedule)",
+        "location": "Paras Health: C-1, Sushant Lok-1, Sector-43, Phase-I, Gurugram, Haryana-122002 (India)",
+        "phone": "080 35358702",
+        "emergency": "0124-4585666"
+      }
     }
+    ,
+    {
+      "id": "ankur-garg",
+      "name": "Dr. Ankur Garg",
+      "designation": "Group Director - Liver Transplant & GI Surgery",
+      "specialty": "hepato-pancreato-biliary surgery",
+      "hospital": "Paras Health, Gurugram",
+      "hospitalslug": "paras-health",
+      "experienceYears": 25,
+      "about": "Dr. Ankur Garg is one of India’s most experienced HPB and Liver Transplant surgeons, with over 25 years of medical experience and more than 2500 successful liver transplants. He has expertise in complex liver and GI surgeries, including living and deceased donor liver transplants, combined liver-kidney transplants, and ABO incompatible liver transplants. He is known for his surgical precision and patient-first approach.",
+      "education": [
+        "MBBS – Government Medical College, Aurangabad, 2002",
+        "MS (General Surgery) – Lokmanya Tilak Municipal Medical College, Mumbai, 2007",
+        "MCh (HPB Surgery & Liver Transplant) – Institute of Liver and Biliary Sciences, New Delhi",
+        "Fellow of the European Board of Surgery (FEBS), Vienna, Austria"
+      ],
+      "expertise": [
+        "Liver Transplant",
+        "Living Donor Liver Transplant (LDLT)",
+        "Deceased Donor Liver Transplant (DDLT)",
+        "Combined Liver Kidney Transplant",
+        "ABO Incompatible Liver Transplant",
+        "Paediatric Liver Transplant",
+        "Dual Lobe Liver Transplant",
+        "Pancreatic Cancer Surgeries",
+        "Liver Cancer Surgeries",
+        "GI Cancer Surgeries",
+        "Complex GI Surgeries",
+        "Hepato-pancreatic-biliary Surgeries"
+      ],
+      "awards": [
+        "Best Resident Award in General Surgery (2004)",
+        "Best Trauma Resident in Surgery, University of Mumbai (2005)",
+        "Honored by Late Dr. A.P.J. Abdul Kalam for achievements"
+      ],
+      "publications": [
+        "Complications in Pancreato-duodenectomy, proceedings, Association of Surgeons of North India, 2010",
+        "Liver Trauma, Textbook of GI Surgery, S. Haribhakti",
+        "Perioperative Management of Patients with Biliary & Liver Disease, Textbook of Surgical Gastroenterology"
+      ],
+      "researchExperience": [
+        "Principal Investigator – Incidence & Prevalence of HCMV, HSV, VZV & EBV in Liver Transplant Recipients",
+        "Principal Investigator – Predictors of Recovery of Liver Function and Complications Following Donor Hepatectomy for LDLT"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/ankur-garg.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "Monday – Saturday, 10:00 AM – 05:00 PM",
+        "location": "Paras Health: C-1, Sushant Lok-1, Sector-43, Phase-I, Gurugram, Haryana-122002 (India)",
+        "phone": "8080 808069",
+        "emergency": "8826 009931"
+      }
+    }
+    ,
+    {
+      "id": "amit-bhushan-sharma",
+      "name": "Dr. Amit Bhushan Sharma",
+      "designation": "Director & Unit Head - Interventional Cardiology",
+      "specialty": "cardiology",
+      "hospital": "Paras Health, Gurugram",
+      "hospitalslug": "paras-health",
+      "experienceYears": 22,
+      "about": "Dr. Amit Bhushan Sharma is an eminent cardiologist with over 22 years of experience. He has performed over 30,000 angioplasties, 30,000+ pacemaker and device implantations, and is an expert in TAVR/TAVI, MitraClip procedures, Rotablation, Shock Wave Lithotripsy, and complex interventions through the wrist. He has trained at premier institutes in the USA and is a pioneer in structural cardiac interventions in India.",
+      "education": [
+        "MBBS",
+        "MD (Internal Medicine)",
+        "DM Cardiology",
+        "FESC (Europe)",
+        "FACC",
+        "FSCAI"
+      ],
+      "expertise": [
+        "TAVR/TAVI (Valve Replacement Without Surgery)",
+        "Mitra Clip for Severe Mitral Regurgitation",
+        "Rotablation",
+        "Shock Wave Lithotripsy",
+        "Angioplasty Through Wrist",
+        "Pacemaker, AICD, CRTD Implantations",
+        "Combo Device Implantation",
+        "Left Atrial Appendage Closure",
+        "Renal Denervation for Accelerated Hypertension",
+        "Structural Cardiac Interventions"
+      ],
+      "awards": [
+        "Faculty TCT Asia Pacific, Seoul, South Korea (2010–2012)"
+      ],
+      "experience": [
+        "Senior Consultant Cardiologist, Artemis Hospital, Gurugram (2013–2017)",
+        "Faculty, Michigan State University",
+        "Fellow, Mount Sinai New York",
+        "Senior Consultant, Prime Hospital, Hyderabad"
+      ],
+      "fellowships": [
+        "FESC - Fellow European Society Of Cardiology",
+        "FIC - Fellow Interventional Cardiology (Mount Sinai, New York)",
+        "FPD - Fellow Pacing and Device (Michigan State University)",
+        "FCSI - Fellow Cardiology Society Of India",
+        "Fellowship in Pediatric Devices, Heart Centre, Vietnam",
+        "Fellowship in Structural & Pacing, Michigan State University, Lansing, USA"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/amit-bhushan-sharma.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "Monday – Saturday, 10:00 AM – 05:00 PM",
+        "location": "Paras Health: C-1, Sushant Lok-1, Sector-43, Phase-I, Gurugram, Haryana-122002 (India)",
+        "phone": "080 35358702",
+        "emergency": "0124-4585666"
+      }
+    }
+    ,
+    {
+      "id": "alka-kriplani",
+      "name": "Dr. (Prof.) Alka Kriplani",
+      "designation": "Chairperson - Obstetrics, Gynaecology & Arts",
+      "specialty": "gynaecology",
+      "hospital": "Paras Health, Gurugram",
+      "hospitalslug": "paras-health",
+      "experienceYears": 40,
+      "about": "Padmashree Dr. (Prof.) Alka Kriplani is a leading gynecologist, high-risk pregnancy expert, and fertility specialist with over 40 years of experience. Former Professor & Head at AIIMS Delhi, she is renowned for her work in ART, gyne-lap surgeries, fetal medicine, and gynecological endoscopy. She has been awarded Padma Shri and Dr. B.C. Roy National Award for her distinguished contributions to medicine.",
+      "education": [
+        "MD",
+        "FRCOG",
+        "FAMS",
+        "FICOG",
+        "FICMCH",
+        "FIMSA",
+        "FCLS"
+      ],
+      "expertise": [
+        "High-Risk Pregnancy",
+        "Infertility",
+        "Minimally Invasive Surgery",
+        "Gynaecological Endoscopy",
+        "Reproductive Endocrinology",
+        "Fetal Medicine",
+        "Gyane Robotics Surgeries",
+        "Artificial Reproductive Technology (ART)"
+      ],
+      "awards": [
+        "Padma Shri (2015)",
+        "Dr. B.C. Roy National Award (2007)",
+        "Honorary FRCOG, Royal College of Obstetrician & Gynecologist, London"
+      ],
+      "experience": [
+        "Ex-Professor & Head, Dept. of Obstetrics & Gynaecology, AIIMS, New Delhi",
+        "Director In-Charge of WHO-CCR, HRRC & Family Planning, AIIMS",
+        "Former President FOGSI (2016)",
+        "President GESI (2011–Continuing)",
+        "President DGES (2014–2016)",
+        "President AOGD (2013–2014)"
+      ],
+      "publications": [
+        "Contributed 380+ scientific publications and 403 abstracts in national & international journals",
+        "Authored 4 books",
+        "Editor Asian Journal of Obstetrics & Gynecology Practice (1999–2017)",
+        "National Corresponding Editor: Journal Of Obstetrician & Gynecologist Of India (2015–2017)"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/alka-kriplani.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "Mon–Sat, 10:00 AM – 02:00 PM",
+        "location": "Paras Health: C-1, Sushant Lok-1, Sector-43, Phase-I, Gurugram, Haryana-122002 (India)",
+        "phone": "080 35358702",
+        "emergency": "0124-4585666"
+      }
+    }
+    ,
+    {
+      "id": "vivek-logani",
+      "name": "Dr. Vivek Logani",
+      "designation": "Director - Joint Replacement & Sports Injury Centre",
+      "specialty": "orthopaedics",
+      "hospital": "Paras Health, Gurugram",
+      "hospitalslug": "paras-health",
+      "experienceYears": 23,
+      "about": "Dr. Vivek Logani is a leading orthopaedic surgeon with over 23 years of experience in joint replacements, sports injuries, and advanced robotic and computer navigation surgeries. He has performed over 8,000 joint replacements, including more than 400 revisions. He is recognized for his pioneering work in robotic and navigated knee replacement surgeries in India and abroad.",
+      "education": [
+        "MBBS",
+        "MS (Orthopaedics)",
+        "DNB (Orthopaedics)",
+        "MNAMS"
+      ],
+      "expertise": [
+        "Primary & Revision Joint Replacement of Knee, Hip, Shoulder & Elbow",
+        "Robotics/Computer Navigation in Joint Replacement",
+        "Augmented Reality in Joint Replacement",
+        "Unicondylar Knee Replacement",
+        "Allograft Bone Banking",
+        "Complex Joint Reconstruction"
+      ],
+      "experience": [
+        "Unit Head, Centre for Joint Reconstruction at Fortis Hospital, Shalimar Bagh, New Delhi",
+        "Senior Consultant: Joint Replacement Surgery, Primus Superspeciality Hospital",
+        "Senior Consultant: Joint Replacement Surgery, Dr. BL Kapur Memorial Hospital",
+        "Bone Bank Team Member, Department of Orthopaedics, AIIMS",
+        "In-Charge of Bone Bank at AIIMS & Primus Specialty Hospital"
+      ],
+      "publications": [
+        "Authored 3 book chapters",
+        "15+ national and international publications",
+        "Faculty for various arthroplasty courses and forums across India and abroad"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/vivek-logani.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "Mon–Sat (Check hospital for timings)",
+        "location": "Paras Health: C-1, Sushant Lok-1, Sector-43, Phase-I, Gurugram, Haryana-122002 (India)",
+        "phone": "080 35358702",
+        "emergency": "0124-4585666"
+      }
+    }
+    ,{
+      "id": "arvind-mehra",
+      "name": "Dr. Arvind Mehra",
+      "designation": "Chief - Orthopedics & Trauma Centre",
+      "specialty": "orthopaedics",
+      "hospital": "Paras Health, Gurugram",
+      "hospitalslug": "paras-health",
+      "experienceYears": 20,
+      "about": "Dr. Arvind Mehra is a renowned traumatologist with over 20 years of experience. He specializes in complex trauma, bone, joint, and spine disorders using minimally invasive procedures. He has performed over 20,000 surgeries including complex fractures, joint replacements, and pediatric orthopaedics with deformity and limb length correction.",
+      "education": [
+        "ALSS.E",
+        "MBBS",
+        "MS",
+        "MCh"
+      ],
+      "expertise": [
+        "Complex Fracture Surgeries by Minimally Invasive Techniques",
+        "Deformity Correction",
+        "Tendon Repairs & Transfers",
+        "Limb Lengthening by Stitch-less Techniques in Children",
+        "Clubfoot Correction",
+        "Joint Replacement Surgeries (Elbow, Shoulder, Hip & Knee)",
+        "Treatment of Recurrent Dislocation of Shoulder & Patella",
+        "Sports Injuries"
+      ],
+      "experience": [
+        "Consultant Orthopaedic Surgeon, Sunflag Hospital, Faridabad (2004-2005)",
+        "Associate Consultant, Apollo Hospital New Delhi (2000-2002)",
+        "Attending Orthopaedic Surgeon, Dr. Ram Manohar Lohia Hospital, Kalawatiaran Children Hospital & Smt. Sucheta Kriplani Hospital, New Delhi (1997-2000)",
+        "Senior Resident, Mooched Hospital, New Delhi (1996-1997)"
+      ],
+      "professionalMemberships": [
+        "Indian Orthopaedic Association",
+        "AO/ASIF International, Switzerland",
+        "Member of Arthroplasty Society of India",
+        "Indian Medical Association",
+        "SICOT (International Society of Orthopaedic Surgery and Traumatology)",
+        "Gurgaon Orthopaedic Association"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/arvind-mehra.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "Mon–Sat, 10:00 AM–04:00 PM",
+        "location": "Paras Health: C-1, Sushant Lok-1, Sector-43, Phase-I, Gurugram, Haryana-122002 (India)",
+        "phone": "080 35358702",
+        "emergency": "0124-4585666"
+      }
+    }
+    
+    
   ]
 }

@@ -10,7 +10,7 @@
     ],
     "cta_main": {
       "label": "Book Online Ayurvedic Consultation →",
-      "link": "/ayurveda-consultation"
+      "link": "/free-consultation"
     },
     "services": [
     { "name": "Panchakarma & Detox Therapy", "description": "Traditional detoxification treatments to remove toxins, boost immunity, and restore energy.", "url": "/ayurveda/panchakarma-detox" },
