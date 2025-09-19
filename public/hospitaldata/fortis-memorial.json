@@ -76,36 +76,81 @@
     "visible": true,
     "list": [
       {
-        "id": "arvind-khurana",
-        "name": "Dr. Arvind Khurana",
-        "specialty": "Medical Gastroenterologist",
-        "rating": 5.0,
-        "experienceYears": 39,
-        "profileUrl": "/doctors/gastroenterology/fortis-gurgaon/arvind-khurana"
-      },
-      {
-        "id": "ajay-kriplani",
-        "name": "Dr. Ajay Kumar Kriplani",
-        "specialty": "General Surgeon",
-        "rating": 4.7,
+        "id": "pn-gupta",
+        "name": "Dr. P.N. Gupta",
+        "specialty": "Director & HOD – Nephrology",
+        "rating": 4.9,
         "experienceYears": 44,
-        "profileUrl": "/doctors/general-surgery/fortis-gurgaon/ajay-kriplani"
+        "profileUrl": "/doctors/pn-gupta"
       },
       {
-        "id": "sandeep-vaishya",
-        "name": "Dr. Sandeep Vaishya",
-        "specialty": "Neurosurgeon",
-        "rating": 4.8,
-        "experienceYears": 36,
-        "profileUrl": "/doctors/neurosurgery/fortis-gurgaon/sandeep-vaishya"
-      },
-      {
-        "id": "manoj-kumar-goel",
-        "name": "Dr. Manoj Kumar Goel",
-        "specialty": "Pulmonologist",
+        "id": "manmohan-singh",
+        "name": "Dr. (Prof.) Manmohan Singh",
+        "specialty": "neurosurgery",
         "rating": 5.0,
-        "experienceYears": 36,
-        "profileUrl": "/doctors/pulmonology/fortis-gurgaon/manoj-goel"
+        "experienceYears": 46,
+        "profileUrl": "/doctors/manmohan-singh"
+      },
+      {
+       "id": "anurag-khaitan",
+        "name": "Dr. Anurag Khaitan",
+        "specialty": "urology",
+        "rating": 5.0,
+        "experienceYears": 22,
+        "profileUrl": "/doctors/anurag-khaitan"
+      },
+      {
+        "id": "r-ranga-rao",
+        "name": "Dr. (Col.) R Ranga Rao, VSM",
+        "specialty": "medical oncology",
+        "rating": 4.9,
+        "experienceYears": 30,
+        "profileUrl": "/doctors/r-ranga-rao"
+      }
+      ,
+      {
+        "id": "ankur-garg",
+        "name": "Dr. Ankur Garg",
+        "specialty": "hepato-pancreato-biliary surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/ankur-garg"
+      }
+      ,
+      {
+        "id": "amit-bhushan-sharma",
+        "name": "Dr. Amit Bhushan Sharma",
+        "specialty": "cardiology",
+        "rating": 4.9,
+        "experienceYears": 22,
+        "profileUrl": "/doctors/amit-bhushan-sharma"
+      }
+      ,
+      {
+        "id": "alka-kriplani",
+        "name": "Dr. (Prof.) Alka Kriplani",
+        "specialty": "gynaecology",
+        "rating": 4.9,
+        "experienceYears": 40,
+         "profileUrl": "/doctors/alka-kriplani"
+
+      }
+      ,
+      {
+        "id": "vivek-logani",
+        "name": "Dr. Vivek Logani",
+        "specialty": "orthopaedics",
+        "experienceYears": 23,
+        "rating": 4.9,
+        "profileUrl": "/doctors/vivek-logani"
+      },
+      {
+        "id": "arvind-mehra",
+        "name": "Dr. Arvind Mehra",
+        "specialty": "orthopaedics",
+        "experienceYears": 20,
+         "rating": 4.9,
+        "profileUrl": "/doctors/arvind-mehra"
       }
     ]
   },

@@ -47,67 +47,68 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
   if (!doctor) {
     return (
       <main className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold text-red-600">Doctor not found</h1>
+        <h1 className="text-3xl font-bold text-primary">Doctor not found</h1>
       </main>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50/30">
       <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
       <main className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Background blur circles */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl -z-10"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl -z-10"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-teal-light/20 to-teal/20 rounded-full blur-3xl -z-10"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-primary-light/20 to-teal-light/20 rounded-full blur-3xl -z-10"></div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
           {/* Left Side - Doctor Info */}
           <div className="lg:col-span-2 space-y-8">
             {/* Profile Header */}
             <div className="flex flex-col md:flex-row items-center gap-6">
-              {doctor.media?.images?.[0]?.url ? (
-                <img
-                  src={doctor.media.images[0].url}
-                  alt={doctor.name}
-                  className="w-48 h-48 object-cover rounded-full shadow-xl border border-gray-200"
-                />
-              ) : (
-                <div className="w-48 h-48 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-green-400 shadow-xl border border-gray-200 text-white text-4xl font-bold">
+              <div className="w-48 h-48 flex items-center justify-center rounded-full bg-gradient-to-br from-teal to-teal-light shadow-xl border-2 border-white/50 text-white text-4xl font-bold relative overflow-hidden backdrop-blur-sm">
+                <div className="absolute inset-0 bg-gradient-to-br from-teal/80 to-teal-light/80"></div>
+                <span className="relative z-10">
                   {doctor.name
                     .split(" ")
                     .map((n) => n[0])
                     .join("")
                     .toUpperCase()
                     .slice(0, 2)}
-                </div>
-              )}
+                </span>
+              </div>
               <div>
-                <h1 className="text-4xl font-bold text-gray-900">{doctor.name}</h1>
-                <p className="text-lg text-gray-700">{doctor.designation}</p>
-                <p className="text-gray-600 capitalize">{doctor.specialty}</p>
-                <p className="text-sm text-gray-500">{doctor.hospital}</p>
+                <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal to-teal-light">{doctor.name}</h1>
+                <p className="text-lg font-medium text-teal-dark">{doctor.designation}</p>
+                <p className="text-teal capitalize font-medium">{doctor.specialty}</p>
+                <p className="text-sm text-gray-600">{doctor.hospital}</p>
                 {doctor.experienceYears && (
-                  <p className="text-sm text-gray-500">{doctor.experienceYears}+ years of experience</p>
+                  <p className="text-sm text-gray-600 mt-2 flex items-center">
+                    <span className="inline-block w-2 h-2 rounded-full bg-teal mr-2"></span>
+                    {doctor.experienceYears}+ years of experience
+                  </p>
                 )}
               </div>
             </div>
 
             {/* About */}
             {doctor.about && (
-              <section>
-                <h2 className="text-2xl font-semibold mb-3">About</h2>
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">About</h2>
                 <p className="text-gray-700 leading-relaxed">{doctor.about}</p>
               </section>
             )}
 
             {/* Education */}
             {doctor.education && doctor.education?.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-semibold mb-3">Education</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Education</h2>
+                <ul className="space-y-2">
                   {doctor.education.map((edu, i) => (
-                    <li key={i}>{edu}</li>
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
+                      <span>{edu}</span>
+                    </li>
                   ))}
                 </ul>
               </section>
@@ -115,23 +116,28 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
 
             {/* Expertise */}
             {doctor.expertise && doctor.expertise?.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-semibold mb-3">Expertise</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Expertise</h2>
+                <div className="flex flex-wrap gap-2">
                   {doctor.expertise.map((exp, i) => (
-                    <li key={i}>{exp}</li>
+                    <span key={i} className="px-3 py-1 rounded-full bg-teal/10 text-teal text-sm">
+                      {exp}
+                    </span>
                   ))}
-                </ul>
+                </div>
               </section>
             )}
 
             {/* Awards */}
             {doctor.awards && doctor.awards?.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-semibold mb-3">Awards</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Awards</h2>
+                <ul className="space-y-2">
                   {doctor.awards.map((award, i) => (
-                    <li key={i}>{award}</li>
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
+                      <span>{award}</span>
+                    </li>
                   ))}
                 </ul>
               </section>
@@ -139,11 +145,14 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
 
             {/* Publications */}
             {doctor.publications && doctor.publications?.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-semibold mb-3">Publications</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Publications</h2>
+                <ul className="space-y-2">
                   {doctor.publications.map((pub, i) => (
-                    <li key={i}>{pub}</li>
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
+                      <span>{pub}</span>
+                    </li>
                   ))}
                 </ul>
               </section>
@@ -151,23 +160,29 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
 
             {/* Roles */}
             {doctor.roles && doctor.roles?.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-semibold mb-3">Roles</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Roles</h2>
+                <ul className="space-y-2">
                   {doctor.roles.map((role, i) => (
-                    <li key={i}>{role}</li>
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
+                      <span>{role}</span>
+                    </li>
                   ))}
                 </ul>
               </section>
             )}
 
             {/* Memberships */}
-            {doctor.memberships&& doctor.memberships?.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-semibold mb-3">Memberships</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
+            {doctor.memberships && doctor.memberships?.length > 0 && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Memberships</h2>
+                <ul className="space-y-2">
                   {doctor.memberships.map((member, i) => (
-                    <li key={i}>{member}</li>
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
+                      <span>{member}</span>
+                    </li>
                   ))}
                 </ul>
               </section>
@@ -175,11 +190,14 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
 
             {/* Work Experience */}
             {doctor.experience && doctor.experience?.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-semibold mb-3">Professional Experience</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Professional Experience</h2>
+                <ul className="space-y-2">
                   {doctor.experience.map((exp, i) => (
-                    <li key={i}>{exp}</li>
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
+                      <span>{exp}</span>
+                    </li>
                   ))}
                 </ul>
               </section>
@@ -187,16 +205,16 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
 
             {/* Patients Treated */}
             {doctor.patientsTreated && (
-              <section>
-                <h2 className="text-2xl font-semibold mb-3">Patients Treated</h2>
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Patients Treated</h2>
                 <p className="text-gray-700">{doctor.patientsTreated}</p>
               </section>
             )}
           </div>
 
           {/* Right Side - Quote Form */}
-          <aside className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-2xl border border-white/20">
-            <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+          <aside className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-2xl border border-teal/20 sticky top-24">
+            <h2 className="text-2xl font-semibold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-teal to-teal-light">
               Book a Free Consultation
             </h2>
             <QuoteForm

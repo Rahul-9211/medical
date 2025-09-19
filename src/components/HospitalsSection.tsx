@@ -19,16 +19,13 @@ interface HospitalsSectionProps {
 }
 
 export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
-  // Function to get Unsplash hospital images
+  // Function to get hospital images
   const getHospitalImage = (index: number) => {
     const hospitalImages = [
-      'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1576091160399-112c8f9c6b9c?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=450&fit=crop&crop=center'
+      '/Images/hospital/medanta/medanta-1.jpg',
+      '/Images/hospital/fortis/fortis-1.jpg',
+      '/Images/hospital/artemis/artemis-1.jpg',
+      '/Images/hospital/max/max-1.jpg'
     ];
     return hospitalImages[index % hospitalImages.length];
   };

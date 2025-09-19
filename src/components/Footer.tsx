@@ -67,7 +67,7 @@ export default function Footer({ footer }: FooterProps) {
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
               <div className="w-10 h-10 bg-[#56DDEF] rounded-xl flex items-center justify-center mr-3 shadow-lg">
-                <span className="text-white font-bold text-sm">MG</span>
+                <span className="text-white font-bold text-sm">SG</span>
               </div>
               <span className="text-xl font-bold">{footer.companyInfo.name}</span>
             </div>

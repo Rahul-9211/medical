@@ -80,36 +80,81 @@
       "visible": true,
       "list": [
         {
-          "id": "anjana-satyajit",
-          "name": "Dr. Anjana Satyajit",
-          "specialty": "Dentist",
-          "rating": null,
-          "experienceYears": 29,
-          "profileUrl": "/doctors/dental-treatment/artemis-gurgaon/anjana-satyajit"
+          "id": "pn-gupta",
+          "name": "Dr. P.N. Gupta",
+          "specialty": "Director & HOD – Nephrology",
+          "rating": 4.9,
+          "experienceYears": 44,
+          "profileUrl": "/doctors/pn-gupta"
         },
         {
-          "id": "ips-oberoi",
-          "name": "Dr. IPS Oberoi",
-          "specialty": "Orthopaedic and Joint Replacement Surgeon",
+          "id": "manmohan-singh",
+          "name": "Dr. (Prof.) Manmohan Singh",
+          "specialty": "neurosurgery",
           "rating": 5.0,
-          "experienceYears": 31,
-          "profileUrl": "/doctors/orthopedics/artemis-gurgaon/ips-oberoi"
+          "experienceYears": 46,
+          "profileUrl": "/doctors/manmohan-singh"
         },
         {
-          "id": "aditya-gupta",
-          "name": "Dr. Aditya Gupta",
-          "specialty": "Neurosurgeon",
-          "rating": 4.7,
+         "id": "anurag-khaitan",
+          "name": "Dr. Anurag Khaitan",
+          "specialty": "urology",
+          "rating": 5.0,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/anurag-khaitan"
+        },
+        {
+          "id": "r-ranga-rao",
+          "name": "Dr. (Col.) R Ranga Rao, VSM",
+          "specialty": "medical oncology",
+          "rating": 4.9,
           "experienceYears": 30,
-          "profileUrl": "/doctors/neurosurgery/artemis-gurgaon/aditya-gupta"
+          "profileUrl": "/doctors/r-ranga-rao"
+        }
+        ,
+        {
+          "id": "ankur-garg",
+          "name": "Dr. Ankur Garg",
+          "specialty": "hepato-pancreato-biliary surgery",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/ankur-garg"
+        }
+        ,
+        {
+          "id": "amit-bhushan-sharma",
+          "name": "Dr. Amit Bhushan Sharma",
+          "specialty": "cardiology",
+          "rating": 4.9,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-bhushan-sharma"
+        }
+        ,
+        {
+          "id": "alka-kriplani",
+          "name": "Dr. (Prof.) Alka Kriplani",
+          "specialty": "gynaecology",
+          "rating": 4.9,
+          "experienceYears": 40,
+           "profileUrl": "/doctors/alka-kriplani"
+
+        }
+        ,
+        {
+          "id": "vivek-logani",
+          "name": "Dr. Vivek Logani",
+          "specialty": "orthopaedics",
+          "experienceYears": 23,
+          "rating": 4.9,
+          "profileUrl": "/doctors/vivek-logani"
         },
         {
-          "id": "lakshmi-tripathi",
-          "name": "Dr. Lakshmi Kant Tripathi",
-          "specialty": "Nephrologist",
-          "rating": 5.0,
-          "experienceYears": 31,
-          "profileUrl": "/doctors/nephrology/artemis-gurgaon/lakshmi-tripathi"
+          "id": "arvind-mehra",
+          "name": "Dr. Arvind Mehra",
+          "specialty": "orthopaedics",
+          "experienceYears": 20,
+           "rating": 4.9,
+          "profileUrl": "/doctors/arvind-mehra"
         }
       ]
     },

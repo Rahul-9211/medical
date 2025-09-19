@@ -298,17 +298,6 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
         ))}
       </div>
 
-        <div className="grid grid-cols-1 gap-3">
-          {quoteForm.fields.slice(3, 4).map((field) => (
-            <div key={field.name}>
-              <label className="block text-xs font-semibold text-gray-700 mb-1">
-                {field.label}
-              </label>
-              {renderField(field)}
-            </div>
-          ))}
-        </div>
-
         <div className="pt-3">
           <button
             type="submit"

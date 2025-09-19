@@ -165,7 +165,7 @@
       {
         "name": "medicalIssue",
         "label": "Medical Issue*",
-        "type": "textarea",
+        "type": "text",
         "required": true
       }
     ],
@@ -266,32 +266,32 @@
     "title": "Network of Top Hospitals",
     "list": [
       {
-        "name": "Medanta",
+        "name": "Medanta - The Medicity",
         "location": "Gurgaon, India",
-        "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
-        "url": "/hospitals/medanta",
-        "description": "Multi-specialty hospital with world-class cardiac care"
+        "image": "/Images/hospital/medanta/medanta-1.jpg",
+        "url": "/hospital/medanta",
+        "description": "1600-bed multi-super specialty hospital with JCI & NABH accreditation, featuring world-class cardiac care and 40+ modular OTs"
       },
       {
-        "name": "Indraprastha Apollo",
-        "location": "New Delhi, India",
-        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
-        "url": "/hospitals/apollo-delhi",
-        "description": "India's largest healthcare network with international standards"
+        "name": "Fortis Memorial Research Institute",
+        "location": "Gurgaon, India",
+        "image": "/Images/hospital/fortis/fortis-1.jpg",
+        "url": "/hospital/fortis-memorial",
+        "description": "State-of-the-art quaternary care facility with advanced robotics and cutting-edge medical technology"
       },
       {
-        "name": "Kokilaben",
-        "location": "Mumbai, India",
-        "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=600&fit=crop&crop=center",
-        "url": "/hospitals/kokilaben",
-        "description": "Advanced medical research and treatment facility"
+        "name": "Artemis Hospital",
+        "location": "Gurgaon, India",
+        "image": "/Images/hospital/artemis/artemis-1.jpg",
+        "url": "/hospital/artemis",
+        "description": "JCI-accredited 400+ bed hospital specializing in cardiac sciences, orthopedics, neurosciences, and cancer care"
       },
       {
-        "name": "Apollo",
-        "location": "Chennai, India",
-        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
-        "url": "/hospitals/apollo-chennai",
-        "description": "Specialized care in multiple medical disciplines"
+        "name": "Max Super Speciality Hospital",
+        "location": "Gurgaon, India",
+        "image": "/Images/hospital/max/max-1.jpg",
+        "url": "/hospital/max-super-speciality",
+        "description": "NABH-accredited hospital known for advanced cancer care, robotic surgery, and comprehensive transplant programs"
       }
     ]
   },
@@ -408,49 +408,44 @@
     "subtitle": "You will be assisted by a dedicated case manager from our team. List of services you can expect from us, for FREE!",
     "list": [
       {
-        "name": "Medical Opinion and Cost Estimations",
-        "description": "Expert opinions and cost estimates.",
-        "icon": "💬"
+        "icon": "🌟",
+        "title": "Medical Visa Assistance & Travel Support",
+        "description": "We guide you through the medical visa application process, provide invitation letters from hospitals, and help you with flight planning and travel arrangements."
       },
       {
-        "name": "Pre-Travel Consultations",
-        "description": "Understand your procedure before traveling.",
-        "icon": "📋"
+        "icon": "✨",
+        "title": "Free Second Opinion & Online Consultations",
+        "description": "Before you travel, you can consult India’s leading doctors online. We provide free medical opinions and treatment plans so you can make informed choices."
       },
       {
-        "name": "Visa Assistance",
-        "description": "Complete medical visa assistance.",
-        "icon": "🎫"
+        "icon": "💫",
+        "title": "Air Ambulance Services",
+        "description": "For critically ill patients, we arrange emergency air ambulance transfers to India with medical staff on board."
       },
       {
-        "name": "Money Exchange",
-        "description": "Convenient currency exchange services in your city.",
-        "icon": "💰"
+        "icon": "✨",
+        "title": "Airport Pickup & Ground Transfers",
+        "description": "From the moment you land, we ensure safe and comfortable transfers between the airport, hotel, and hospital."
       },
       {
-        "name": "Interpreters and Translators",
-        "description": "Fluent professionals to break language barriers at every step.",
-        "icon": "🗣️"
+        "icon": "✨",
+        "title": "Stay & Accommodation Near Hospitals",
+        "description": "We help you book budget hotels, serviced apartments, or guest houses close to the hospital for your convenience."
       },
       {
-        "name": "Transportation Assistance",
-        "description": "Complimentary airport transfers.",
-        "icon": "🚑"
+        "icon": "✨",
+        "title": "Dedicated 24/7 Assistance",
+        "description": "Every patient gets a personal care coordinator to handle hospital formalities, translations, and support during your entire stay."
       },
       {
-        "name": "Accommodation Options",
-        "description": "Near the hospital and matching your budget and needs.",
-        "icon": "🏨"
+        "icon": "✨",
+        "title": "Affordable Medical Treatment in India",
+        "description": "We ensure you get the lowest treatment costs with top hospitals, with no hidden fees or overcharging."
       },
-      {
-        "name": "Admission, Appointment, Pharma Care",
-        "description": "Full coordination of medical logistics.",
-        "icon": "📅"
-      },
-      {
-        "name": "Private Duty Nursing",
-        "description": "Arrangements of private nursing care as needed.",
-        "icon": "👩‍⚕️"
+      { 
+        "icon": "💫",
+        "title": "Post-Treatment Recovery & Follow-Up",
+        "description": "Even after your treatment, we provide follow-up consultations with doctors and can connect you to Ayurveda & wellness programs for faster recovery."
       }
     ]
   },
@@ -570,7 +565,7 @@
   },
   "footer": {
     "companyInfo": {
-      "name": "MediCare",
+      "name": "ShivanandGlobal",
       "description": "Your trusted partner in medical tourism"
     },
     "links": {
@@ -600,7 +595,7 @@
       }
     ],
     "contact": {
-      "email": "info@medicareglobal.com",
+      "email": "info@shivanandglobal.com",
       "phone": "+91-9971616131"
     },
     "socialMedia": [

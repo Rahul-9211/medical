@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import BackgroundCarousel from "@/components/BackgroundCarousel";
 
 interface Therapy {
   name: string;
@@ -55,52 +56,86 @@ const AyurvedaSlugPage = async ({ params }: { params: Promise<{ slug: string }> 
 
       <main>
         {/* Hero Section */}
-        <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/30">
-          {/* Background Pattern */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
+        <section className="relative overflow-hidden py-20">
+          <BackgroundCarousel />
           
           <div className="relative max-w-4xl mx-auto px-6 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full mb-6 shadow-lg text-4xl backdrop-blur-sm">
               🧘
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">{data.name}</h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-gray-700">{data.headline}</h2>
-            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{data.intro}</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">{data.name}</h1>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-white/90">{data.headline}</h2>
+            <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">{data.intro}</p>
           </div>
         </section>
 
         {/* Why Choose */}
         {data.why_choose && data.why_choose.length > 0 && (
-          <section className="py-20 bg-white">
-            <div className="max-w-5xl mx-auto px-6">
-              <h2 className="text-3xl font-bold mb-6 text-gray-900">Why Choose Ayurveda in India:</h2>
-              <ul className="space-y-3 text-lg text-gray-700">
+          <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 bg-gradient-to-br from-green-600/5 via-teal-600/5 to-cyan-600/5"></div>
+            <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-green-400/10 to-teal-400/10 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
+            
+            <div className="relative max-w-5xl mx-auto px-6">
+              <div className="text-center mb-12">
+                <div className="inline-flex items-center justify-center w-14 h-14 bg-white rounded-full mb-4 shadow-lg text-2xl">
+                  🌿
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Why Choose Ayurveda in India</h2>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {data.why_choose.map((item, idx) => (
-                  <li key={idx} className="flex items-start">
-                    <span className="text-[#56DDEF] mr-3 mt-1">✅</span>
-                    {item}
-                  </li>
+                  <div key={idx} className={`group bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative overflow-hidden ${
+                    idx % 2 === 0 ? 'hover:border-[#7AE5F5]' : 'hover:border-[#56DDEF]'
+                  }`}>
+                    <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+                      idx % 2 === 0 ? 'bg-[#7AE5F5]/10' : 'bg-[#56DDEF]/10'
+                    }`}></div>
+                    <div className="relative z-10 flex items-start">
+                      <span className={`flex-shrink-0 text-2xl mr-4 ${
+                        idx % 2 === 0 ? 'text-[#7AE5F5]' : 'text-[#56DDEF]'
+                      }`}>
+                        {idx % 2 === 0 ? '🌟' : '✨'}
+                      </span>
+                      <p className="text-gray-700 group-hover:text-gray-900 transition-colors duration-300">{item}</p>
+                    </div>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
           </section>
         )}
 
         {/* Benefits */}
         {data.benefits && data.benefits.length > 0 && (
-          <section className="relative py-20">
-            <div className="max-w-5xl mx-auto px-6">
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-white/20 p-8 lg:p-12 text-center">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">Benefits of Ayurveda</h2>
-                <ul className="space-y-3 text-lg text-gray-700">
-                  {data.benefits.map((item, idx) => (
-                    <li key={idx} className="flex items-center justify-center">
-                      <span className="text-[#56DDEF] mr-3">✅</span>
+          <section className="py-20 bg-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-12">
+                <div className="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-[#7AE5F5] to-[#56DDEF] rounded-full mb-4 shadow-lg">
+                  <span className="text-2xl">✨</span>
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Benefits of Ayurveda</h2>
+              </div>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {data.benefits.map((item, idx) => (
+                  <div key={idx} className="group bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8">
+                    <div className="flex items-center mb-4">
+                      <span className={`text-2xl ${
+                        idx % 3 === 0 ? 'text-[#7AE5F5]' : 
+                        idx % 3 === 1 ? 'text-[#56DDEF]' : 
+                        'text-green-500'
+                      }`}>
+                        {idx % 3 === 0 ? '🌿' : idx % 3 === 1 ? '🎯' : '💫'}
+                      </span>
+                    </div>
+                    <p className="text-lg text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
                       {item}
-                    </li>
-                  ))}
-                </ul>
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
           </section>

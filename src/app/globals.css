@@ -219,3 +219,10 @@ button:focus {
 .hover\:border-teal:hover {
   border-color: var(--teal);
 }
+
+.element-with-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.element-with-scrollbar {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
