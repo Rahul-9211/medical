@@ -21,12 +21,10 @@ interface BlogData {
   blogs: Blog[];
 }
 
-interface PageProps {
-  params: { id: string };
-}
 
-export default async function SingleBlogPage({ params }: PageProps) {
-  const { id } = params;
+
+export default async function SingleBlogPage({params}: {params: Promise<{ id: string }>}) {
+  const { id } = await params;
 
   // Fetch all blogs
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/blog/latestblog/allblog.json`, { cache: "no-store" });
