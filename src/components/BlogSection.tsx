@@ -2,42 +2,34 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function BlogSection() {
-  // Function to get Unsplash blog images
-  const getBlogImage = (index: number) => {
-    const blogImages = [
-      'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1576091160399-112c8f9c6b9c?w=800&h=450&fit=crop&crop=center'
-    ];
-    return blogImages[index % blogImages.length];
-  };
-
   const blogPosts = [
     {
       title: "What to Expect During Treatment in India",
-      excerpt: "Complete guide to your medical journey from arrival to recovery",
+      excerpt: "Traveling to India for medical care is a smooth and well-organized experience. Knowing what to expect will help you plan your treatment journey, reduce stress, and focus on recovery.",
       category: "Treatment Guide",
-      readTime: "8 min read"
+      image: "/images/blogs/choose-hospital.jpg",
+      slug: "what-to-expect"
     },
     {
-      title: "Real Cost Comparisons: India vs. USA/UK",
-      excerpt: "Detailed cost analysis across major medical procedures",
+      title: "Medical Tourism Guide for International Patients",
+      excerpt: "India has become one of the most popular destinations for medical tourism, offering world-class healthcare, advanced technology, and treatment costs that are 60-80% lower.",
       category: "Cost Analysis",
-      readTime: "12 min read"
+      image: "/images/blogs/cost-comparison.jpg",
+      slug: "medical-tourism-guide"
     },
     {
-      title: "Step-by-Step Medical Visa Process",
-      excerpt: "Everything you need to know about medical visas for India",
+      title: "Tips for International Patients Traveling to India",
+      excerpt: "Essential tips and practical advice to make your medical journey smooth and stress-free. Learn about pre-travel preparation, during-treatment care, and recovery guidance.",
       category: "Travel Guide",
-      readTime: "6 min read"
+      image: "/images/blogs/medical-visa-guide.jpg",
+      slug: "tips-for-patients"
     },
     {
-      title: "Travel & Recovery Tips for International Patients",
-      excerpt: "Essential advice for a smooth medical tourism experience",
+      title: "FAQs About Indian Healthcare for International Patients",
+      excerpt: "Get answers to the most frequently asked questions about healthcare, hospitals, costs, and patient services in India before planning your medical journey.",
       category: "Patient Care",
-      readTime: "10 min read"
+      image: "/images/blogs/post-treatment-care.jpg",
+      slug: "faqs"
     }
   ];
 
@@ -64,7 +56,7 @@ export default function BlogSection() {
               {/* Post Image */}
               <div className="aspect-video relative overflow-hidden">
                 <Image 
-                  src={getBlogImage(index)} 
+                  src={post.image}
                   alt={`${post.title} blog post`}
                   width={400}
                   height={225}
@@ -81,11 +73,6 @@ export default function BlogSection() {
                     {post.category}
                   </span>
                 </div>
-                {/* <div className="absolute bottom-4 right-4">
-                  <span className="inline-block px-2 py-1 bg-white/90 backdrop-blur-sm text-xs text-gray-600 rounded-full">
-                    {post.readTime}
-                  </span>
-                </div> */}
               </div>
               
               {/* Post Content */}
@@ -104,7 +91,7 @@ export default function BlogSection() {
                 
                 {/* Read More Link */}
                 <Link
-                  href={`/blog/${post.title.toLowerCase().replace(/\s+/g, '-')}`}
+                  href={`/blog/${post.slug}`}
                   className={`inline-flex items-center font-medium text-sm group-hover:translate-x-1 transition-all duration-300 ${
                     index % 4 === 0 ? 'text-[#7AE5F5] hover:text-[#7AE5F5]/80' : 
                     index % 4 === 1 ? 'text-[#56DDEF] hover:text-[#56DDEF]/80' : 

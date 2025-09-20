@@ -1,70 +1,61 @@
 {
-    "name": "Ayurvedic Weight Management",
-    "headline": "Lose Weight Naturally with Ayurveda – Safe, Effective & Sustainable",
-    "intro": "Ayurveda offers a natural and holistic way to manage weight — without fad diets, harmful pills, or crash workouts. Through detox therapies, herbal medicines, yoga, and diet correction, Ayurvedic weight management addresses the root cause of obesity and metabolic imbalance, helping patients achieve healthy, sustainable results. International patients choose India for Ayurveda because it provides authentic treatments at affordable costs, guided by experienced doctors in a safe, healing environment.",
-    "benefits": [
-      "Promotes natural fat metabolism",
-      "Corrects hormonal imbalance & thyroid issues",
-      "Detoxifies the body & improves digestion",
-      "Reduces stress eating & improves sleep",
-      "Boosts energy, stamina & mental clarity",
-      "Sustainable results – no side effects, no rebound weight gain"
-    ],
-    "therapies": [
-      {
-        "name": "Udvarthanam (Herbal Powder Massage)",
-        "description": "Breaks down fat deposits & tones muscles."
-      },
-      {
-        "name": "Virechana (Purgation Therapy)",
-        "description": "Cleanses toxins from the liver & intestines."
-      },
-      {
-        "name": "Panchakarma Detox",
-        "description": "Complete body purification & metabolic reset."
-      },
-      {
-        "name": "Lepanam (Herbal Paste Therapy)",
-        "description": "Applied to problem areas for fat reduction."
-      },
-      {
-        "name": "Yoga & Pranayama",
-        "description": "Improves metabolism, flexibility & mental balance."
-      },
-      {
-        "name": "Customized Ayurvedic Diet",
-        "description": "Herbal teas, balanced meals, and metabolism-boosting foods."
-      }
-    ],
-    "why_choose": [
-      "Personalized treatments based on body type (dosha imbalance)",
-      "Combines therapies, diet & lifestyle coaching",
-      "No side effects compared to chemical slimming methods",
-      "Affordable weight loss programs with full wellness support",
-      "Popular wellness destinations – Kerala, Rishikesh, Goa & Himalayan retreats"
-    ],
-    "costs": [
-      {
-        "package": "1-Week Program",
-        "price": "$300 – $450"
-      },
-      {
-        "package": "2-Week Program",
-        "price": "$550 – $800"
-      },
-      {
-        "package": "3-Week Program",
-        "price": "$950 – $1,400"
-      }
-    ],
-    "cta": {
-      "text": "Request Free Consultation",
-      "url": "/ayurveda/online-consultations",
+  "slug": "weight-management",
+  "title": "⚖️ Ayurvedic Weight Management in India",
+  "h1": "Lose Weight Naturally with Ayurveda – Safe, Effective & Sustainable",
+  "intro": "Ayurveda offers a natural and holistic way to manage weight — without fad diets, harmful pills, or crash workouts. Through detox therapies, herbal medicines, yoga, and diet correction, Ayurvedic weight management addresses the root cause of obesity and metabolic imbalance, helping patients achieve healthy, sustainable results. International patients choose India for authentic treatments at affordable costs, guided by experienced doctors in a safe, healing environment.",
+  "sections": [
+    {
+      "heading": "Benefits of Ayurvedic Weight Loss Programs",
+      "points": [
+        "Promotes natural fat metabolism",
+        "Corrects hormonal imbalance & thyroid issues",
+        "Detoxifies the body & improves digestion",
+        "Reduces stress eating & improves sleep",
+        "Boosts energy, stamina & mental clarity",
+        "Sustainable results – no side effects, no rebound weight gain"
+      ]
+    },
+    {
+      "heading": "Ayurvedic Therapies for Weight Management",
+      "points": [
+        "Udvarthanam (Herbal Powder Massage): Breaks down fat deposits & tones muscles",
+        "Virechana (Purgation Therapy): Cleanses toxins from the liver & intestines",
+        "Panchakarma Detox: Complete body purification & metabolic reset",
+        "Lepanam (Herbal Paste Therapy): Applied to problem areas for fat reduction",
+        "Yoga & Pranayama: Improves metabolism, flexibility & mental balance",
+        "Customized Ayurvedic Diet: Herbal teas, balanced meals, and metabolism-boosting foods"
+      ]
+    },
+    {
+      "heading": "Why Choose Ayurvedic Weight Loss in India?",
+      "points": [
+        "Personalized treatments based on body type (dosha imbalance)",
+        "Combines therapies, diet & lifestyle coaching",
+        "No side effects compared to chemical slimming methods",
+        "Affordable weight loss programs with full wellness support",
+        "Popular wellness destinations – Kerala, Rishikesh, Goa & Himalayan retreats"
+      ]
+    },
+    {
+      "heading": "Cost of Ayurvedic Weight Loss Programs in India",
+      "points": [
+        "1-Week Program: $300 – $450",
+        "2-Week Program: $550 – $800",
+        "3-Week Program: $950 – $1,400",
+        "Includes consultation, therapies, accommodation & herbal medicines."
+      ]
+    }
+  ],
+  "cta": [
+    {
+      "title": "📞 Start Your Natural Weight Loss Journey",
+      "description": "Say goodbye to unsafe crash diets. Embrace Ayurveda for safe and lasting weight management.",
+      "button": "Request Free Consultation →",
       "features": [
         "Doctor-guided treatments",
         "Safe, natural, & side-effect free",
         "Affordable wellness packages in India"
       ]
     }
-  }
-  
+  ]
+}

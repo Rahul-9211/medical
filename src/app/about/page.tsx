@@ -2,6 +2,8 @@ import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
+import WhatsAppButton from '@/components/WhatsAppButton';
+import BackgroundCarousel from '@/components/BackgroundCarousel';
 
 const AboutPage = () => {
   const getCardColor = (index: number) => {
@@ -38,27 +40,25 @@ const AboutPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
       
       <main>
         {/* Hero Section */}
-        <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/30">
-          {/* Background Pattern */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
+        <section className="relative overflow-hidden py-20">
+          <BackgroundCarousel />
           
           <div className="relative max-w-4xl mx-auto px-6 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full mb-6 shadow-lg text-4xl backdrop-blur-sm">
               🌍
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
               Trusted Medical Tourism Experts Connecting You to World-Class & Affordable Healthcare in India
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+            <p className="text-lg md:text-xl text-white/90 leading-relaxed">
               We are a dedicated medical tourism company based in India, committed to helping international patients access world-class medical care at affordable prices. Our team works closely with India's top hospitals, surgeons, and wellness centers to provide personalized treatment plans, smooth travel arrangements, and complete care — from your first consultation to your full recovery.
             </p>
-            <p className="text-xl font-semibold text-[#56DDEF] mt-6">
+            <p className="text-xl font-semibold text-white mt-6 backdrop-blur-sm bg-[#56DDEF]/10 inline-block px-6 py-3 rounded-xl">
               Our mission is simple: to help you heal, not to overcharge you.
             </p>
           </div>
@@ -218,6 +218,7 @@ const AboutPage = () => {
       </main>
 
       <Footer footer={websiteData.footer} />
+      <WhatsAppButton></WhatsAppButton>
     </div>
   );
 };

@@ -1,70 +1,61 @@
 {
-    "name": "PCOD, PCOS & Hormonal Imbalance",
-    "headline": "Balance Hormones Naturally with Ayurveda",
-    "intro": "Polycystic Ovary Syndrome (PCOS) and Polycystic Ovary Disorder (PCOD) affect millions of women worldwide, leading to irregular periods, infertility, weight gain, acne, and hormonal imbalance. Ayurveda treats PCOD/PCOS by addressing the root cause — hormonal imbalance and metabolic disorders — through personalized therapies, herbal medicines, diet, and lifestyle correction. Unlike conventional treatments, Ayurveda provides long-term relief without side effects.",
-    "benefits": [
-      "Restores natural menstrual cycles",
-      "Regulates ovulation & improves fertility",
-      "Balances hormones (reduces excess androgens)",
-      "Helps with weight management & insulin resistance",
-      "Clears acne, pigmentation & hair growth issues",
-      "Reduces stress, anxiety, and improves sleep"
-    ],
-    "therapies": [
-      {
-        "name": "Panchakarma Detox",
-        "description": "Removes toxins, balances doshas, improves metabolism."
-      },
-      {
-        "name": "Virechana (Purgation Therapy)",
-        "description": "Cleanses the liver and improves hormone regulation."
-      },
-      {
-        "name": "Basti (Medicated Enema)",
-        "description": "Balances Vata dosha & improves reproductive health."
-      },
-      {
-        "name": "Shirodhara (Oil Drip Therapy)",
-        "description": "Calms the nervous system & regulates stress hormones."
-      },
-      {
-        "name": "Herbal Medicines (Ashoka, Shatavari, Lodhra)",
-        "description": "Support menstrual health & fertility."
-      },
-      {
-        "name": "Customized Diet & Yoga Plans",
-        "description": "Regulate weight, boost fertility & reduce insulin resistance."
-      }
-    ],
-    "why_choose": [
-      "Natural & safe alternative to hormonal pills",
-      "Personalized care by certified Ayurveda doctors",
-      "Integrates detox, medicines, diet & lifestyle therapy",
-      "Affordable treatment plans in India’s Ayurveda centers",
-      "Especially beneficial for women planning pregnancy"
-    ],
-    "costs": [
-      {
-        "package": "1-Week Hormonal Balance Program",
-        "price": "$250 – $400"
-      },
-      {
-        "package": "2-Week Intensive Program",
-        "price": "$450 – $700"
-      },
-      {
-        "package": "3-Week Complete Recovery Program",
-        "price": "$800 – $1,200"
-      }
-    ],
-    "cta": {
-      "text": "Book Free Ayurveda Consultation",
-      "url": "/ayurveda/online-consultations",
+  "slug": "pcod-pcos",
+  "title": "🌸 Ayurvedic Treatment for PCOD, PCOS & Hormonal Imbalance in India",
+  "h1": "Balance Hormones Naturally with Ayurveda",
+  "intro": "Polycystic Ovary Syndrome (PCOS) and Polycystic Ovary Disorder (PCOD) affect millions of women worldwide, leading to irregular periods, infertility, weight gain, acne, and hormonal imbalance. Ayurveda treats PCOD/PCOS by addressing the root cause — hormonal imbalance and metabolic disorders — through personalized therapies, herbal medicines, diet, and lifestyle correction. Unlike conventional treatments, Ayurveda provides long-term relief without side effects.",
+  "sections": [
+    {
+      "heading": "Benefits of Ayurvedic Treatment for PCOD & Hormonal Imbalance",
+      "points": [
+        "Restores natural menstrual cycles",
+        "Regulates ovulation & improves fertility",
+        "Balances hormones (reduces excess androgens)",
+        "Helps with weight management & insulin resistance",
+        "Clears acne, pigmentation & hair growth issues",
+        "Reduces stress, anxiety, and improves sleep"
+      ]
+    },
+    {
+      "heading": "Ayurvedic Therapies for PCOD & Hormonal Care",
+      "points": [
+        "Panchakarma Detox: Removes toxins, balances doshas, improves metabolism",
+        "Virechana (Purgation Therapy): Cleanses the liver and improves hormone regulation",
+        "Basti (Medicated Enema): Balances Vata dosha & improves reproductive health",
+        "Shirodhara (Oil Drip Therapy): Calms the nervous system & regulates stress hormones",
+        "Herbal Medicines (Ashoka, Shatavari, Lodhra): Support menstrual health & fertility",
+        "Customized Diet & Yoga Plans: Regulate weight, boost fertility & reduce insulin resistance"
+      ]
+    },
+    {
+      "heading": "Why Choose Ayurveda for PCOD/PCOS in India?",
+      "points": [
+        "Natural & safe alternative to hormonal pills",
+        "Personalized care by certified Ayurveda doctors",
+        "Integrates detox, medicines, diet & lifestyle therapy",
+        "Affordable treatment plans in India’s Ayurveda centers",
+        "Especially beneficial for women planning pregnancy"
+      ]
+    },
+    {
+      "heading": "Cost of Ayurvedic PCOD/PCOS Treatment in India",
+      "points": [
+        "1-Week Hormonal Balance Program: $250 – $400",
+        "2-Week Intensive Program: $450 – $700",
+        "3-Week Complete Recovery Program: $800 – $1,200",
+        "Includes consultations, therapies, herbal medicines & accommodation."
+      ]
+    }
+  ],
+  "cta": [
+    {
+      "title": "📞 Restore Your Hormonal Balance Naturally",
+      "description": "Take control of your health and fertility with Ayurveda’s holistic approach.",
+      "button": "Book Free Ayurveda Consultation →",
       "features": [
         "Safe, natural & side-effect free",
         "Improves fertility & menstrual health",
         "Affordable treatment packages in India"
       ]
     }
-  }
-  
+  ]
+}

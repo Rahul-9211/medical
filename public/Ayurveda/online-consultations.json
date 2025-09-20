@@ -1,71 +1,61 @@
 {
-    "name": "Online Ayurvedic Consultations",
-    "headline": "Expert Ayurveda Care Anytime, Anywhere",
-    "intro": "Now, you can access authentic Ayurvedic doctors in India without traveling. With online Ayurvedic consultations, international patients can discuss health issues, receive personalized treatment plans, and order herbal medicines — all from the comfort of their home. This service is especially helpful for those who need a second opinion before traveling to India, require continuity of care after treatment in India, or prefer natural healing solutions for chronic conditions.",
-    "conditions_treated": [
-      "Digestive disorders (acidity, IBS, constipation)",
-      "PCOD, PCOS & women’s health issues",
-      "Stress, anxiety & sleep problems",
-      "Skin & hair problems (acne, psoriasis, hair fall)",
-      "Diabetes, thyroid & hormonal imbalances",
-      "Joint pain, arthritis & back pain",
-      "Post-surgery recovery & immunity boost"
-    ],
-    "how_it_works": [
-      {
-        "step": "Book a Free Appointment",
-        "description": "Share your health details & history."
-      },
-      {
-        "step": "Video/Phone Consultation",
-        "description": "Speak directly with certified Ayurveda doctors."
-      },
-      {
-        "step": "Personalized Treatment Plan",
-        "description": "Receive a detailed diet, lifestyle & herbal therapy guide."
-      },
-      {
-        "step": "Medicine Delivery",
-        "description": "Authentic Ayurvedic medicines shipped worldwide."
-      },
-      {
-        "step": "Follow-up Support",
-        "description": "Regular check-ins for progress monitoring."
-      }
-    ],
-    "why_choose": [
-      "Access to experienced, certified Ayurveda doctors",
-      "Safe, natural & side-effect-free treatments",
-      "Affordable compared to clinics abroad",
-      "Continued care even after visiting India",
-      "Easy medicine delivery worldwide"
-    ],
-    "costs": [
-      {
-        "package": "First Consultation",
-        "price": "FREE (15–20 mins)"
-      },
-      {
-        "package": "Detailed Doctor Consultation",
-        "price": "$30 – $50"
-      },
-      {
-        "package": "Follow-up Sessions",
-        "price": "$20 – $40"
-      },
-      {
-        "package": "Monthly Support Plan",
-        "price": "$80 – $150"
-      }
-    ],
-    "cta": {
-      "text": "Book Free Online Consultation",
-      "url": "/ayurveda/online-consultations",
+  "slug": "online-Consultations",
+  "title": "💻 Online Ayurvedic Consultations",
+  "h1": "Expert Ayurveda Care Anytime, Anywhere",
+  "intro": "Now, you can access authentic Ayurvedic doctors in India without traveling. With online Ayurvedic consultations, international patients can discuss health issues, receive personalized treatment plans, and order herbal medicines — all from the comfort of their home. This service is especially helpful for those who need a second opinion before traveling to India, require continuity of care after treatment in India, or prefer natural healing solutions for chronic conditions.",
+  "sections": [
+    {
+      "heading": "Health Conditions Treated with Online Ayurveda",
+      "points": [
+        "Digestive disorders (acidity, IBS, constipation)",
+        "PCOD, PCOS & women’s health issues",
+        "Stress, anxiety & sleep problems",
+        "Skin & hair problems (acne, psoriasis, hair fall)",
+        "Diabetes, thyroid & hormonal imbalances",
+        "Joint pain, arthritis & back pain",
+        "Post-surgery recovery & immunity boost"
+      ]
+    },
+    {
+      "heading": "How Online Ayurveda Consultation Works",
+      "points": [
+        "Book a Free Appointment: Share your health details & history",
+        "Video/Phone Consultation: Speak directly with certified Ayurveda doctors",
+        "Personalized Treatment Plan: Receive a detailed diet, lifestyle & herbal therapy guide",
+        "Medicine Delivery: Authentic Ayurvedic medicines shipped worldwide",
+        "Follow-up Support: Regular check-ins for progress monitoring"
+      ]
+    },
+    {
+      "heading": "Why Choose Online Ayurveda from India?",
+      "points": [
+        "Access to experienced, certified Ayurveda doctors",
+        "Safe, natural & side-effect-free treatments",
+        "Affordable compared to clinics abroad",
+        "Continued care even after visiting India",
+        "Easy medicine delivery worldwide"
+      ]
+    },
+    {
+      "heading": "Cost of Online Ayurvedic Consultations",
+      "points": [
+        "First Consultation: FREE (15–20 mins)",
+        "Detailed Doctor Consultation: $30 – $50",
+        "Follow-up Sessions: $20 – $40",
+        "Monthly Support Plan: $80 – $150"
+      ]
+    }
+  ],
+  "cta": [
+    {
+      "title": "📞 Start Your Healing Journey Today",
+      "description": "Get personalized Ayurveda care from India’s top doctors — without leaving your home.",
+      "button": "Book Free Online Consultation →",
       "features": [
         "Global patient support",
         "Affordable, natural treatments",
         "Convenient follow-up care"
       ]
     }
-  }
-  
+  ]
+}

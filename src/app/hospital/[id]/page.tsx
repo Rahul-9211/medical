@@ -73,7 +73,7 @@ export default async function HospitalPage({
   const heroImageUrl = displayImages[0]?.url || "/Images/hospital/fortis/fortis-1.jpg";
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       {/* Header */}
       <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
@@ -387,6 +387,7 @@ export default async function HospitalPage({
                 <QuoteForm 
                   quoteForm={websiteData.quoteForm}
                   countries={websiteData.countries}
+                  pageSource={hospital.name + " Hospital page"}
                 />
               </div>
 

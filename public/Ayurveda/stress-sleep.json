@@ -1,70 +1,61 @@
 {
-    "name": "Stress, Sleep & Mental Balance Therapies",
-    "headline": "Calm Your Mind, Restore Balance, Sleep Better with Ayurveda",
-    "intro": "Modern life brings constant stress, anxiety, and sleep problems, which affect both physical and mental health. Ayurveda offers holistic solutions through herbal medicines, therapies, yoga, meditation, and lifestyle corrections that bring natural calm and balance. International patients choose India for Ayurvedic stress and sleep treatments because they provide long-term relief without dependency on sleeping pills or chemical drugs.",
-    "benefits": [
-      "Reduces anxiety, depression & mood swings",
-      "Improves quality of sleep & treats insomnia",
-      "Enhances memory, focus & productivity",
-      "Balances stress hormones naturally",
-      "Relaxes the nervous system & prevents burnout",
-      "Improves overall well-being & mental clarity"
-    ],
-    "therapies": [
-      {
-        "name": "Shirodhara (Oil Drip Therapy)",
-        "description": "Warm herbal oil poured over the forehead to calm the mind."
-      },
-      {
-        "name": "Abhyanga (Full Body Massage)",
-        "description": "Relieves muscle tension & improves circulation."
-      },
-      {
-        "name": "Takradhara (Buttermilk Therapy)",
-        "description": "Cools the body, reduces anxiety & restlessness."
-      },
-      {
-        "name": "Nasya (Nasal Therapy)",
-        "description": "Clears toxins from the head & enhances mental clarity."
-      },
-      {
-        "name": "Herbal Medicines (Brahmi, Ashwagandha, Jatamansi)",
-        "description": "Natural remedies for sleep & stress."
-      },
-      {
-        "name": "Yoga & Meditation",
-        "description": "Mind-body practices to restore emotional balance."
-      }
-    ],
-    "why_choose": [
-      "Non-addictive, natural alternatives to sleeping pills",
-      "Personalized therapies guided by expert Ayurveda doctors",
-      "Affordable treatment programs in India’s best wellness retreats",
-      "Integrates herbal therapy, yoga & lifestyle corrections",
-      "Healing locations – Kerala backwaters, Himalayan retreats, Goa & Rishikesh"
-    ],
-    "costs": [
-      {
-        "package": "1-Week Stress Relief Program",
-        "price": "$250 – $400"
-      },
-      {
-        "package": "2-Week Deep Relaxation & Sleep Therapy",
-        "price": "$500 – $800"
-      },
-      {
-        "package": "3-Week Complete Mind-Body Balance Program",
-        "price": "$850 – $1,300"
-      }
-    ],
-    "cta": {
-      "text": "Book Free Ayurveda Consultation",
-      "url": "/ayurveda/online-consultations",
+  "slug": "stress-sleep",
+  "title": "🧘 Stress, Sleep & Mental Balance Therapies in India",
+  "h1": "Calm Your Mind, Restore Balance, Sleep Better with Ayurveda",
+  "intro": "Modern life brings constant stress, anxiety, and sleep problems, which affect both physical and mental health. Ayurveda offers holistic solutions through herbal medicines, therapies, yoga, meditation, and lifestyle corrections that bring natural calm and balance. International patients choose India for Ayurvedic stress and sleep treatments because they provide long-term relief without dependency on sleeping pills or chemical drugs.",
+  "sections": [
+    {
+      "heading": "Benefits of Ayurveda for Stress & Sleep Disorders",
+      "points": [
+        "Reduces anxiety, depression & mood swings",
+        "Improves quality of sleep & treats insomnia",
+        "Enhances memory, focus & productivity",
+        "Balances stress hormones naturally",
+        "Relaxes the nervous system & prevents burnout",
+        "Improves overall well-being & mental clarity"
+      ]
+    },
+    {
+      "heading": "Ayurvedic Therapies for Stress & Sleep Care",
+      "points": [
+        "Shirodhara (Oil Drip Therapy): Warm herbal oil poured over the forehead to calm the mind",
+        "Abhyanga (Full Body Massage): Relieves muscle tension & improves circulation",
+        "Takradhara (Buttermilk Therapy): Cools the body, reduces anxiety & restlessness",
+        "Nasya (Nasal Therapy): Clears toxins from the head & enhances mental clarity",
+        "Herbal Medicines (Brahmi, Ashwagandha, Jatamansi): Natural remedies for sleep & stress",
+        "Yoga & Meditation: Mind-body practices to restore emotional balance"
+      ]
+    },
+    {
+      "heading": "Why Choose Ayurveda for Stress & Sleep in India?",
+      "points": [
+        "Non-addictive, natural alternatives to sleeping pills",
+        "Personalized therapies guided by expert Ayurveda doctors",
+        "Affordable treatment programs in India’s best wellness retreats",
+        "Integrates herbal therapy, yoga & lifestyle corrections",
+        "Healing locations – Kerala backwaters, Himalayan retreats, Goa & Rishikesh"
+      ]
+    },
+    {
+      "heading": "Cost of Stress & Sleep Therapy in India",
+      "points": [
+        "1-Week Stress Relief Program: $250 – $400",
+        "2-Week Deep Relaxation & Sleep Therapy: $500 – $800",
+        "3-Week Complete Mind-Body Balance Program: $850 – $1,300",
+        "Includes therapies, consultations, herbal medicines & accommodation."
+      ]
+    }
+  ],
+  "cta": [
+    {
+      "title": "📞 Find Inner Peace with Ayurveda",
+      "description": "Say goodbye to stress and sleepless nights with Ayurveda’s natural healing.",
+      "button": "Book Free Ayurveda Consultation →",
       "features": [
         "100% natural & non-addictive",
         "Improves both mental & physical health",
         "Affordable treatment packages in India"
       ]
     }
-  }
-  
+  ]
+}

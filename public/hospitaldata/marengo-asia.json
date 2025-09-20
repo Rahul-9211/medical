@@ -1,14 +1,14 @@
 {
     "id": "marengo-asia-faridabad",
-    "name": "Marengo Asia Hospitals (Formerly QRG Health City), Faridabad",
+    "name": "Marengo Asia Hospitals , Gurgaon",
     "visible": true,
     "rating": { "value": 4.4, "reviews": 21 },
     "patientsRecommended": { "percent": 90 },
     "location": {
-      "city": "Faridabad",
+      "city": "Gurgaon",
       "state": "Haryana",
       "country": "India",
-      "address": "Plot No. 1, Sector 16, Faridabad, 121002, India",
+      "address": "Golf Course Extension Road, Sector 56, Sushant Lok II",
       "visible": true
     },
     "established": 2007,
@@ -17,7 +17,7 @@
     "beds": 450,
     "about": {
       "visible": true,
-      "overview": "Established in 2007 by the QRG Group, Marengo Asia Hospitals (formerly QRG Health City) is a 450-bedded NABH & NABL accredited multi-specialty hospital. Recognised as the 'Best Emerging Critical Care Hospital in Delhi NCR,' it offers high-quality, cost-friendly healthcare with centers of excellence across 12 specialities.",
+      "overview": "Established in 2007 by the QRG Group, Marengo Asia Hospitals is a 450-bedded NABH & NABL accredited multi-specialty hospital. Recognised as the 'Best Emerging Critical Care Hospital in Delhi NCR,' it offers high-quality, cost-friendly healthcare with centers of excellence across 12 specialities.",
       "awards": ["Best Emerging Critical Care Hospital in Delhi NCR"],
       "milestones": [
         "450-bedded multi-specialty hospital",
@@ -58,36 +58,81 @@
       "visible": true,
       "list": [
         {
-          "id": "rajesh-sharma",
-          "name": "Dr. Rajesh Sharma",
-          "specialty": "Pediatric Cardiac Surgeon",
-          "experienceYears": 32,
-          "rating": 4.8,
-          "profileUrl": "/doctors/cardiology/marengo-faridabad/rajesh-sharma"
-        },
-        {
-          "id": "rajeev-sood",
-          "name": "Dr. Rajeev Sood",
-          "specialty": "Urologist",
-          "experienceYears": 36,
-          "rating": 5.0,
-          "profileUrl": "/doctors/urology/marengo-faridabad/rajeev-sood"
-        },
-        {
-          "id": "anand-gupta",
-          "name": "Dr. Anand Gupta",
-          "specialty": "ENT Surgeon",
-          "experienceYears": 18,
-          "rating": 5.0,
-          "profileUrl": "/doctors/ent/marengo-faridabad/anand-gupta"
-        },
-        {
-          "id": "nisha-kapoor",
-          "name": "Dr. Nisha Kapoor",
-          "specialty": "Gynaecologist & Obstetrician",
-          "experienceYears": 33,
+          "id": "pn-gupta",
+          "name": "Dr. P.N. Gupta",
+          "specialty": "Director & HOD – Nephrology",
           "rating": 4.9,
-          "profileUrl": "/doctors/gynecology/marengo-faridabad/nisha-kapoor"
+          "experienceYears": 44,
+          "profileUrl": "/doctors/pn-gupta"
+        },
+        {
+          "id": "manmohan-singh",
+          "name": "Dr. (Prof.) Manmohan Singh",
+          "specialty": "neurosurgery",
+          "rating": 5.0,
+          "experienceYears": 46,
+          "profileUrl": "/doctors/manmohan-singh"
+        },
+        {
+         "id": "anurag-khaitan",
+          "name": "Dr. Anurag Khaitan",
+          "specialty": "urology",
+          "rating": 5.0,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/anurag-khaitan"
+        },
+        {
+          "id": "r-ranga-rao",
+          "name": "Dr. (Col.) R Ranga Rao, VSM",
+          "specialty": "medical oncology",
+          "rating": 4.9,
+          "experienceYears": 30,
+          "profileUrl": "/doctors/r-ranga-rao"
+        }
+        ,
+        {
+          "id": "ankur-garg",
+          "name": "Dr. Ankur Garg",
+          "specialty": "hepato-pancreato-biliary surgery",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/ankur-garg"
+        }
+        ,
+        {
+          "id": "amit-bhushan-sharma",
+          "name": "Dr. Amit Bhushan Sharma",
+          "specialty": "cardiology",
+          "rating": 4.9,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-bhushan-sharma"
+        }
+        ,
+        {
+          "id": "alka-kriplani",
+          "name": "Dr. (Prof.) Alka Kriplani",
+          "specialty": "gynaecology",
+          "rating": 4.9,
+          "experienceYears": 40,
+           "profileUrl": "/doctors/alka-kriplani"
+
+        }
+        ,
+        {
+          "id": "vivek-logani",
+          "name": "Dr. Vivek Logani",
+          "specialty": "orthopaedics",
+          "experienceYears": 23,
+          "rating": 4.9,
+          "profileUrl": "/doctors/vivek-logani"
+        },
+        {
+          "id": "arvind-mehra",
+          "name": "Dr. Arvind Mehra",
+          "specialty": "orthopaedics",
+          "experienceYears": 20,
+           "rating": 4.9,
+          "profileUrl": "/doctors/arvind-mehra"
         }
       ]
     },
@@ -137,9 +182,9 @@
     },
     "address": {
       "visible": true,
-      "full": "Plot No. 1, Sector 16, Faridabad, 121002, India",
+      "full": "Golf Course Extension Road, Sector 56, Sushant Lok II, Gurgaon, 122011",
       "nearby": [
-        { "place": "Indira Gandhi International Airport", "distanceKm": 30, "duration": "45–60 mins" },
+        { "place": "Indira Gandhi International Airport", "distanceKm": 20, "duration": "45–60 mins" },
         { "place": "Hotels & restaurants", "distanceKm": 1, "duration": "5 mins walk" }
       ]
     },

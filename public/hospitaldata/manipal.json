@@ -1,15 +1,15 @@
 {
-    "id": "manipal-dwarka-delhi",
-    "name": "Manipal Hospitals Dwarka, Delhi",
+    "id": "manipal-Gurgaon-delhi",
+    "name": "Manipal Hospitals Palam Vihar, Gurgaon",
     "visible": true,
     "rating": { "value": 4.4, "reviews": 54 },
     "patientsRecommended": { "percent": 90 },
     "url": "/hospital/manipal",
     "location": {
-      "city": "New Delhi",
-      "state": "Delhi",
+      "city": "Gurgaon",
+      "state": "Haryana",
       "country": "India",
-      "address": "Manipal Hospital, Sector 6, Dwarka, New Delhi, 110075",
+      "address": "Ansal Plaza, Block F, Gol Chakkar, Near, Palam Vihar, Gurgaon, 122017",
       "visible": true
     },
     "established": 2017,
@@ -18,7 +18,7 @@
     "beds": 380,
     "about": {
       "visible": true,
-      "overview": "Manipal Hospital Dwarka is a multi-super speciality tertiary care facility that delivers world-class healthcare at an optimum cost. It is part of the renowned Manipal Education and Medical Group, established in 1953. The hospital is accredited by NABH and NABL, offering comprehensive care with cutting-edge technology and compassionate services.",
+      "overview": "Manipal Hospital Gurgaon is a multi-super speciality tertiary care facility that delivers world-class healthcare at an optimum cost. It is part of the renowned Manipal Education and Medical Group, established in 1953. The hospital is accredited by NABH and NABL, offering comprehensive care with cutting-edge technology and compassionate services.",
       "awards": [
         "Best Multi-Speciality Hospital in Delhi NCR – India Healthcare Awards 2021",
         "Best Hospital for Patient Safety – FICCI 2020",
@@ -29,7 +29,7 @@
       "milestones": [
         "Part of Manipal Education and Medical Group, established in 1953",
         "Third-largest established healthcare player in India",
-        "State-of-the-art 560,000 sq. ft. facility in Dwarka",
+        "State-of-the-art 560,000 sq. ft. facility in Gurgaon",
         "Implemented advanced AI-driven telemedicine and remote monitoring"
       ]
     },
@@ -67,36 +67,81 @@
       "visible": true,
       "list": [
         {
-          "id": "yk-mishra",
-          "name": "Dr. Y K Mishra",
-          "specialty": "Cardiac Surgeon",
+          "id": "pn-gupta",
+          "name": "Dr. P.N. Gupta",
+          "specialty": "Director & HOD – Nephrology",
           "rating": 4.9,
           "experienceYears": 44,
-          "profileUrl": "/doctors/cardiology/manipal-dwarka/yk-mishra"
+          "profileUrl": "/doctors/pn-gupta"
         },
         {
-          "id": "vineet-surana",
-          "name": "Dr. Vineet Kumar Surana",
-          "specialty": "Endocrinologist",
+          "id": "manmohan-singh",
+          "name": "Dr. (Prof.) Manmohan Singh",
+          "specialty": "neurosurgery",
           "rating": 5.0,
-          "experienceYears": 16,
-          "profileUrl": "/doctors/endocrinology/manipal-dwarka/vineet-surana"
+          "experienceYears": 46,
+          "profileUrl": "/doctors/manmohan-singh"
         },
         {
-          "id": "rajeev-verma",
-          "name": "Dr. Rajeev Verma",
-          "specialty": "Orthopaedic & Joint Replacement Surgeon",
+         "id": "anurag-khaitan",
+          "name": "Dr. Anurag Khaitan",
+          "specialty": "urology",
           "rating": 5.0,
-          "experienceYears": 28,
-          "profileUrl": "/doctors/orthopedics/manipal-dwarka/rajeev-verma"
+          "experienceYears": 22,
+          "profileUrl": "/doctors/anurag-khaitan"
         },
         {
-          "id": "sanjeev-kumar",
-          "name": "Dr. Sanjeev Kumar",
-          "specialty": "Surgical Oncologist",
-          "rating": 4.8,
+          "id": "r-ranga-rao",
+          "name": "Dr. (Col.) R Ranga Rao, VSM",
+          "specialty": "medical oncology",
+          "rating": 4.9,
+          "experienceYears": 30,
+          "profileUrl": "/doctors/r-ranga-rao"
+        }
+        ,
+        {
+          "id": "ankur-garg",
+          "name": "Dr. Ankur Garg",
+          "specialty": "hepato-pancreato-biliary surgery",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/ankur-garg"
+        }
+        ,
+        {
+          "id": "amit-bhushan-sharma",
+          "name": "Dr. Amit Bhushan Sharma",
+          "specialty": "cardiology",
+          "rating": 4.9,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-bhushan-sharma"
+        }
+        ,
+        {
+          "id": "alka-kriplani",
+          "name": "Dr. (Prof.) Alka Kriplani",
+          "specialty": "gynaecology",
+          "rating": 4.9,
+          "experienceYears": 40,
+           "profileUrl": "/doctors/alka-kriplani"
+
+        }
+        ,
+        {
+          "id": "vivek-logani",
+          "name": "Dr. Vivek Logani",
+          "specialty": "orthopaedics",
+          "experienceYears": 23,
+          "rating": 4.9,
+          "profileUrl": "/doctors/vivek-logani"
+        },
+        {
+          "id": "arvind-mehra",
+          "name": "Dr. Arvind Mehra",
+          "specialty": "orthopaedics",
           "experienceYears": 20,
-          "profileUrl": "/doctors/oncology/manipal-dwarka/sanjeev-kumar"
+           "rating": 4.9,
+          "profileUrl": "/doctors/arvind-mehra"
         }
       ]
     },
@@ -145,11 +190,10 @@
     },
     "address": {
       "visible": true,
-      "full": "Manipal Hospital, Sector 6, Dwarka, New Delhi, 110075, India",
+      "full": "Manipal Hospital, Ansal Plaza, Block F, Gol Chakkar, Near, Palam Vihar, Gurgaon, 122017, India",
       "nearby": [
-        { "place": "IGI Airport Delhi", "distanceKm": 10, "duration": "20–30 mins" },
-        { "place": "Dwarka Sector 12 Metro", "distanceKm": 3, "duration": "10–15 mins" },
-        { "place": "New Delhi Railway Station", "distanceKm": 20, "duration": "40–60 mins" }
+        { "place": "Airport ", "distanceKm": 14, "duration": "20–30 mins" },
+        { "place": "Metro", "distanceKm": 6.7, "duration": "10–15 mins" }
       ]
     },
     "reviews": [
@@ -188,7 +232,7 @@
     "contact": {
       "phone": "+91-9971616131",
       "email": "",
-      "website": "https://www.manipalhospitals.com/dwarka-new-delhi/"
+      "website": "https://www.manipalhospitals.com/Gurgaon-new-delhi/"
     }
   }
   
