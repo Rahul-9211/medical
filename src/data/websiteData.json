@@ -591,7 +591,7 @@
     "offices": [
       {
         "country": "India",
-        "address": "MediCare Pvt Ltd, 98, 2nd Floor Sector 44, Gurgaon, National Capital Region, Haryana, INDIA, PIN 122001"
+        "address": "Shivanand Global Medical Tourism, H.no.-198, sector-52, gurgaon, pincode-122001"
       }
     ],
     "contact": {
@@ -601,8 +601,8 @@
     "socialMedia": [
       { "name": "YouTube", "url": "https://youtube.com/medicareglobal", "icon": "youtube" },
       { "name": "LinkedIn", "url": "https://linkedin.com/company/medicareglobal", "icon": "linkedin" },
-      { "name": "Facebook", "url": "https://facebook.com/medicareglobal", "icon": "facebook" },
-      { "name": "Instagram", "url": "https://instagram.com/medicareglobal", "icon": "instagram" }
+      { "name": "Facebook", "url": "https://www.facebook.com/share/1EsgQs7HYE/?mibextid=wwXIfr", "icon": "facebook" },
+      { "name": "Instagram", "url": "https://www.instagram.com/shivanandglobalmedicaltourism?igsh=eGd6djlyMDM1eWRv", "icon": "instagram" }
     ],
     "disclaimer": "Note: MediCare does not provide medical advice, diagnosis or treatment. The services and information offered on www.medicareglobal.com are intended solely for informational purposes and cannot replace the professional consultation or treatment by a physician."
   },
