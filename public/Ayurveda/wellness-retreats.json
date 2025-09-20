@@ -1,77 +1,70 @@
 {
-    "name": "Wellness Retreats in India",
-    "headline": "Rejuvenate Your Body, Mind & Spirit with Ayurveda",
-    "intro": "India is globally known for its authentic Ayurveda wellness retreats, where patients and travelers experience a complete reset of body and mind. These retreats combine detox therapies, yoga, meditation, herbal healing, and personalized diets in serene natural locations. Whether you seek recovery after medical treatment, stress relief, or a preventive health boost — Ayurveda retreats in India provide holistic healing at an affordable cost.",
-    "benefits": [
-      "Full-body detoxification & rejuvenation",
-      "Stress relief & mental relaxation",
-      "Weight management & improved metabolism",
-      "Enhanced immunity & disease prevention",
-      "Natural anti-aging & skin glow",
-      "Improved sleep, focus & emotional balance"
-    ],
-    "programs": [
-      {
-        "name": "Panchakarma Detox",
-        "description": "Removes toxins, resets body balance."
-      },
-      {
-        "name": "Stress & Anxiety Relief",
-        "description": "Shirodhara, meditation & yoga."
-      },
-      {
-        "name": "Weight Loss & Metabolism Boost",
-        "description": "Herbal therapies & diet plans."
-      },
-      {
-        "name": "Skin & Anti-Aging Rejuvenation",
-        "description": "Natural beauty treatments."
-      },
-      {
-        "name": "Post-Surgery Recovery Retreats",
-        "description": "Gentle therapies to regain strength."
-      },
-      {
-        "name": "Yoga & Meditation Retreats",
-        "description": "Mind-body balance in peaceful settings."
-      }
-    ],
-    "destinations": [
-      "Kerala Backwaters: Authentic Ayurveda with beachside retreats",
-      "Rishikesh & Himalayas: Spiritual healing with yoga & Ayurveda",
-      "Goa: Relaxation retreats combining Ayurveda & beach life",
-      "Mysuru: Traditional yoga & holistic care",
-      "Delhi-NCR & Gurugram: Urban retreats with modern facilities"
-    ],
-    "costs": [
-      {
-        "package": "1-Week Retreat",
-        "price": "$350 – $600"
-      },
-      {
-        "package": "2-Week Wellness Program",
-        "price": "$700 – $1,200"
-      },
-      {
-        "package": "3-Week Luxury Wellness Retreat",
-        "price": "$1,200 – $2,500"
-      }
-    ],
-    "why_choose": [
-      "Authentic Ayurveda practiced by certified doctors",
-      "Affordable packages compared to global wellness resorts",
-      "Serene natural locations – beaches, backwaters, mountains",
-      "Combination of Ayurveda, yoga & meditation",
-      "Customized programs for medical recovery & wellness"
-    ],
-    "cta": {
-      "text": "Book Free Ayurveda Consultation",
-      "url": "/ayurveda/online-consultations",
+  "slug": "wellness-retreats",
+  "title": "🌴 Wellness Retreats in India",
+  "h1": "Rejuvenate Your Body, Mind & Spirit with Ayurveda",
+  "intro": "India is globally known for its authentic Ayurveda wellness retreats, where patients and travelers experience a complete reset of body and mind. These retreats combine detox therapies, yoga, meditation, herbal healing, and personalized diets in serene natural locations. Whether you seek recovery after medical treatment, stress relief, or a preventive health boost — Ayurveda retreats in India provide holistic healing at an affordable cost.",
+  "sections": [
+    {
+      "heading": "Benefits of Ayurveda Wellness Retreats",
+      "points": [
+        "Full-body detoxification & rejuvenation",
+        "Stress relief & mental relaxation",
+        "Weight management & improved metabolism",
+        "Enhanced immunity & disease prevention",
+        "Natural anti-aging & skin glow",
+        "Improved sleep, focus & emotional balance"
+      ]
+    },
+    {
+      "heading": "Popular Programs in Ayurveda Retreats",
+      "points": [
+        "Panchakarma Detox: Removes toxins, resets body balance",
+        "Stress & Anxiety Relief: Shirodhara, meditation & yoga",
+        "Weight Loss & Metabolism Boost: Herbal therapies & diet plans",
+        "Skin & Anti-Aging Rejuvenation: Natural beauty treatments",
+        "Post-Surgery Recovery Retreats: Gentle therapies to regain strength",
+        "Yoga & Meditation Retreats: Mind-body balance in peaceful settings"
+      ]
+    },
+    {
+      "heading": "Top Wellness Retreat Destinations in India",
+      "points": [
+        "Kerala Backwaters: Authentic Ayurveda with beachside retreats",
+        "Rishikesh & Himalayas: Spiritual healing with yoga & Ayurveda",
+        "Goa: Relaxation retreats combining Ayurveda & beach life",
+        "Mysuru: Traditional yoga & holistic care",
+        "Delhi-NCR & Gurugram: Urban retreats with modern facilities"
+      ]
+    },
+    {
+      "heading": "Cost of Ayurveda Wellness Retreats in India",
+      "points": [
+        "1-Week Retreat: $350 – $600",
+        "2-Week Wellness Program: $700 – $1,200",
+        "3-Week Luxury Wellness Retreat: $1,200 – $2,500",
+        "Includes accommodation, therapies, yoga, consultations & meals."
+      ]
+    },
+    {
+      "heading": "Why Choose India for Ayurveda Retreats?",
+      "points": [
+        "Authentic Ayurveda practiced by certified doctors",
+        "Affordable packages compared to global wellness resorts", "Serene natural locations – beaches, backwaters, mountains",
+        "Combination of Ayurveda, yoga & meditation",
+        "Customized programs for medical recovery & wellness"
+      ]
+    }
+  ],
+  "cta": [
+    {
+      "title": "📞 Rebalance Your Life with Ayurveda Retreats in India",
+      "description": "Take a break from stress and experience holistic healing at India’s best Ayurveda retreats.",
+      "button": "Book Free Ayurveda Consultation →",
       "features": [
         "Authentic Ayurveda care",
         "Serene healing destinations",
         "Affordable international packages"
       ]
     }
-  }
-  
+  ]
+}

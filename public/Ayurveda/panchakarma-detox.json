@@ -1,77 +1,61 @@
 {
-    "name": "Panchakarma & Detox Therapy",
-    "headline": "Cleanse, Rejuvenate & Restore Balance with Ayurveda",
-    "intro": "Panchakarma, meaning “five actions”, is Ayurveda’s most powerful detox and rejuvenation therapy. It is designed to remove toxins (Ama) from the body, restore the natural balance of the three doshas (Vata, Pitta, Kapha), and strengthen immunity.",
-    "why_choose": [
-      "Chronic health conditions",
-      "Post-surgery recovery",
-      "Stress, fatigue & lifestyle-related issues",
-      "Preventive wellness & anti-aging"
-    ],
-    "benefits": [
-      "Removes deep-rooted toxins from body & mind",
-      "Boosts immunity and natural healing",
-      "Improves digestion & metabolism",
-      "Reduces stress, anxiety, and fatigue",
-      "Supports weight management & hormonal balance",
-      "Enhances skin glow, vitality & energy"
-    ],
-    "core_therapies": [
-      {
-        "name": "Vamana (Therapeutic Emesis)",
-        "description": "Removes excess mucus and toxins from the upper body."
-      },
-      {
-        "name": "Virechana (Purgation Therapy)",
-        "description": "Cleanses the liver, intestines, and blood."
-      },
-      {
-        "name": "Basti (Medicated Enema)",
-        "description": "Balances Vata dosha and improves gut health."
-      },
-      {
-        "name": "Nasya (Nasal Therapy)",
-        "description": "Detoxifies and clears respiratory passages, sinuses, and mind."
-      },
-      {
-        "name": "Raktamokshana (Blood Detox)",
-        "description": "Purifies blood and helps with skin & autoimmune conditions."
-      }
-    ],
-    "supportive_therapies": [
-      "Abhyanga (oil massage)",
-      "Shirodhara (oil drip therapy)",
-      "Swedana (herbal steam)"
-    ],
-    "why_choose_india": [
-      "Authentic Ayurveda centers with certified doctors (Vaidyas)",
-      "Customized detox plans based on your health needs",
-      "Affordable therapy packages compared to the West",
-      "Healing environments – from Kerala backwaters to Himalayan retreats",
-      "Integrative care – Ayurveda + modern medical supervision (if required)"
-    ],
-    "costs": [
-      {
-        "package": "7-day Panchakarma Detox Package",
-        "price": "$300 – $500"
-      },
-      {
-        "package": "14-day Intensive Detox & Rejuvenation",
-        "price": "$600 – $900"
-      },
-      {
-        "package": "21-day Complete Panchakarma Program",
-        "price": "$1,000 – $1,500"
-      }
-    ],
-    "cta": {
-      "text": "Request Free Ayurveda Consultation",
-      "url": "/ayurveda/online-consultations",
+  "slug": "panchakarma-detox",
+  "title": "🌿 Panchakarma & Detox Therapy in India",
+  "h1": "Cleanse, Rejuvenate & Restore Balance with Ayurveda",
+  "intro": "Panchakarma, meaning “five actions”, is Ayurveda’s most powerful detox and rejuvenation therapy. It is designed to remove toxins (Ama) from the body, restore the natural balance of the three doshas (Vata, Pitta, Kapha), and strengthen immunity. International patients often choose Panchakarma in India for chronic health conditions, post-surgery recovery, stress, fatigue, lifestyle-related issues, and preventive wellness & anti-aging.",
+  "sections": [
+    {
+      "heading": "Benefits of Panchakarma Detox",
+      "points": [
+        "Removes deep-rooted toxins from body & mind",
+        "Boosts immunity and natural healing",
+        "Improves digestion & metabolism",
+        "Reduces stress, anxiety, and fatigue",
+        "Supports weight management & hormonal balance",
+        "Enhances skin glow, vitality & energy"
+      ]
+    },
+    {
+      "heading": "Core Panchakarma Therapies",
+      "points": [
+        "Vamana (Therapeutic Emesis): Removes excess mucus and toxins from the upper body",
+        "Virechana (Purgation Therapy): Cleanses the liver, intestines, and blood",
+        "Basti (Medicated Enema): Balances Vata dosha and improves gut health",
+        "Nasya (Nasal Therapy): Detoxifies and clears respiratory passages, sinuses, and mind",
+        "Raktamokshana (Blood Detox): Purifies blood and helps with skin & autoimmune conditions",
+        "Supportive therapies: Abhyanga, Shirodhara, Swedana for complete detox & relaxation"
+      ]
+    },
+    {
+      "heading": "Why Choose Panchakarma in India?",
+      "points": [
+        "Authentic Ayurveda centers with certified doctors (Vaidyas)",
+        "Customized detox plans based on your health needs",
+        "Affordable therapy packages compared to the West",
+        "Healing environments – from Kerala backwaters to Himalayan retreats",
+        "Integrative care – Ayurveda + modern medical supervision (if required)"
+      ]
+    },
+    {
+      "heading": "Cost of Panchakarma Therapy in India",
+      "points": [
+        "7-day Panchakarma Detox Package: $300 – $500",
+        "14-day Intensive Detox & Rejuvenation: $600 – $900",
+        "21-day Complete Panchakarma Program: $1,000 – $1,500",
+        "Cost includes doctor consultation, therapies, accommodation & herbal medicines. Prices vary by center & location."
+      ]
+    }
+  ],
+  "cta": [
+    {
+      "title": "📞 Book Your Panchakarma Detox in India",
+      "description": "Take the first step towards natural healing and rejuvenation.",
+      "button": "Request Free Ayurveda Consultation →",
       "features": [
         "Online pre-consultation available",
         "Affordable, authentic therapy packages",
         "Complete travel & stay support for international patients"
       ]
     }
-  }
-  
+  ]
+}
