@@ -4,32 +4,32 @@ import Image from 'next/image';
 export default function BlogSection() {
   const blogPosts = [
     {
-      title: "What to Expect During Your Treatment in India",
+      title: "What to Expect During Treatment in India",
       excerpt: "Traveling to India for medical care is a smooth and well-organized experience. Knowing what to expect will help you plan your treatment journey, reduce stress, and focus on recovery.",
       category: "Treatment Guide",
       image: "/images/blogs/choose-hospital.jpg",
-      slug: "what-to-expect-during-treatment-india"
+      slug: "what-to-expect"
     },
     {
-      title: "Compare Treatment Costs: India vs USA vs UAE",
-      excerpt: "Many international patients choose India for high-quality treatment at a fraction of the cost. This guide provides a transparent cost comparison for major treatments.",
+      title: "Medical Tourism Guide for International Patients",
+      excerpt: "India has become one of the most popular destinations for medical tourism, offering world-class healthcare, advanced technology, and treatment costs that are 60-80% lower.",
       category: "Cost Analysis",
       image: "/images/blogs/cost-comparison.jpg",
-      slug: "compare-treatment-costs-india-usa-uae"
+      slug: "medical-tourism-guide"
     },
     {
-      title: "Your Complete Medical Visa and Travel Guide for India",
-      excerpt: "For international patients traveling to India, understanding the visa process and travel logistics is crucial. This guide covers medical visa application, travel planning, and more.",
+      title: "Tips for International Patients Traveling to India",
+      excerpt: "Essential tips and practical advice to make your medical journey smooth and stress-free. Learn about pre-travel preparation, during-treatment care, and recovery guidance.",
       category: "Travel Guide",
       image: "/images/blogs/medical-visa-guide.jpg",
-      slug: "medical-visa-travel-guide-india"
+      slug: "tips-for-patients"
     },
     {
-      title: "Recovery and Post-Treatment Care for International Patients",
-      excerpt: "Recovery after medical treatment is as important as the procedure itself. India offers comprehensive post-treatment care, including hospital monitoring and follow-ups.",
+      title: "FAQs About Indian Healthcare for International Patients",
+      excerpt: "Get answers to the most frequently asked questions about healthcare, hospitals, costs, and patient services in India before planning your medical journey.",
       category: "Patient Care",
       image: "/images/blogs/post-treatment-care.jpg",
-      slug: "recovery-post-treatment-care-international-patients"
+      slug: "faqs"
     }
   ];
 
