@@ -96,7 +96,7 @@ const HospitalPage = async () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
       {/* Page Layout with Sidebar */}
@@ -104,7 +104,7 @@ const HospitalPage = async () => {
         {/* Left: Main Content */}
         <div className="lg:col-span-2">
           {/* Hero Section */}
-          <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+          <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/80">
             <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
             

@@ -7,7 +7,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 const FreeConsultationPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
       <main className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

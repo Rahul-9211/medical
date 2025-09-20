@@ -17,7 +17,7 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       <Header 
         navigation={websiteData.navigation} 
         siteInfo={websiteData.siteInfo} 
