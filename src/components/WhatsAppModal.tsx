@@ -60,7 +60,7 @@ export default function WhatsAppModal({ isOpen, onClose }: WhatsAppModalProps) {
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
       </div>
       
-      <div className="relative bg-white/95 backdrop-blur-sm rounded-3xl max-w-lg w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-white/20">
+      <div className="element-with-scrollbar relative bg-white/95 backdrop-blur-sm rounded-3xl max-w-lg w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-white/20">
         {/* Header */}
         <div className="relative p-6 border-b border-gray-200/50">
           <div className="flex items-center justify-between">

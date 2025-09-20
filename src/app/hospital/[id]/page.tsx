@@ -1,9 +1,6 @@
 // app/hospital/[id]/page.tsx
 import { notFound } from "next/navigation";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import QuoteForm from "@/components/QuoteForm";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import websiteData from "@/data/websiteData.json";
 
 type Params = Promise<{ id: string }>;
@@ -73,9 +70,8 @@ export default async function HospitalPage({
   const heroImageUrl = displayImages[0]?.url || "/Images/hospital/fortis/fortis-1.jpg";
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       {/* Header */}
-      <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
       <main className="relative max-w-7xl mx-auto px-6 py-10 space-y-10">
         {/* Background Pattern */}
@@ -387,6 +383,7 @@ export default async function HospitalPage({
                 <QuoteForm 
                   quoteForm={websiteData.quoteForm}
                   countries={websiteData.countries}
+                  pageSource={hospital.name + " Hospital page"}
                 />
               </div>
 
@@ -426,11 +423,7 @@ export default async function HospitalPage({
         </div>
       </main>
 
-      {/* Footer */}
-      <Footer footer={websiteData.footer} />
-
-      {/* WhatsApp Floating Button */}
-      <WhatsAppButton />
+  
     </div>
   );
 }

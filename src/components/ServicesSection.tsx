@@ -3,8 +3,8 @@
 import Link from 'next/link';
 
 interface Service {
-  name: string;
-  icon: string;
+  icon : string;
+  title: string;
   description: string;
 }
 
@@ -39,7 +39,7 @@ export default function ServicesSection({ services }: ServicesSectionProps) {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-16">
           {services.list.map((service, index) => (
             <div
               key={index}
@@ -68,7 +68,7 @@ export default function ServicesSection({ services }: ServicesSectionProps) {
                   index % 4 === 2 ? 'group-hover:text-yellow-500' :
                   'group-hover:text-green-600'
                 }`}>
-                  {service.name}
+                  {service.title}
                 </h3>
                 
                 <p className="text-sm sm:text-base text-gray-600 group-hover:text-gray-700 transition-colors duration-300 leading-relaxed">

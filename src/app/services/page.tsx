@@ -1,8 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import websiteData from "@/data/websiteData.json";
 
 interface Service {
   title: string;
@@ -32,12 +29,11 @@ const PatientServicesPage = async () => {
   const data: PatientServicesData = await res.json();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
-      <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       
       <main>
         {/* Hero Section */}
-        <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+        <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/80">
           {/* Background Pattern */}
           <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
@@ -157,7 +153,7 @@ const PatientServicesPage = async () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/30">
+        <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/80">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <p className="text-2xl font-bold mb-6 text-gray-900">{data.cta.text}</p>
             <Link
@@ -177,7 +173,6 @@ const PatientServicesPage = async () => {
         </section>
       </main>
 
-      <Footer footer={websiteData.footer} />
     </div>
   );
 };

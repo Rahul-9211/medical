@@ -1,7 +1,5 @@
 import React from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import websiteData from "@/data/websiteData.json";
+import BackgroundCarousel from "@/components/BackgroundCarousel";
 
 interface PatientServiceData {
   name: string;
@@ -41,18 +39,15 @@ const PatientServicePage = async ({ params }: { params: Promise<PageProps> }) =>
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/30">
-      <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       
       <main>
         {/* Hero Section */}
-        <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/30">
-          {/* Background Pattern */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
+        <section className="relative overflow-hidden py-20">
+          <BackgroundCarousel />
           
           <div className="relative max-w-4xl mx-auto px-6 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full mb-6 shadow-lg text-4xl backdrop-blur-sm">
               {slug === 'medical-visa-travel' ? '🛂' :
                slug === 'airport-pickup' ? '🚗' :
                slug === 'accommodation' ? '🏨' :
@@ -62,11 +57,11 @@ const PatientServicePage = async ({ params }: { params: Promise<PageProps> }) =>
                slug === 'post-treatment-recovery' ? '🏥' :
                slug === 'second-opinion' ? '👨‍⚕️' : '🌟'}
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">{data.name}</h1>
-            <p className="text-lg md:text-xl text-gray-600 mb-6 leading-relaxed">{data.description}</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">{data.name}</h1>
+            <p className="text-lg md:text-xl text-white/90 mb-6 leading-relaxed">{data.description}</p>
             <a
               href={data.cta.url}
-              className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+              className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg backdrop-blur-sm"
             >
               {data.cta.text}
             </a>
@@ -213,7 +208,6 @@ const PatientServicePage = async ({ params }: { params: Promise<PageProps> }) =>
         </section>
       </main>
 
-      <Footer footer={websiteData.footer} />
     </div>
   );
 };

@@ -20,9 +20,10 @@ interface QuoteFormProps {
   countries: string[];
   onSubmit?: (formData: Record<string, string>) => void;
   isSubmitting?: boolean;
+  pageSource?: string;
 }
 
-export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting: externalIsSubmitting }: QuoteFormProps) {
+export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting: externalIsSubmitting , pageSource }: QuoteFormProps) {
   const [formData, setFormData] = useState<Record<string, string>>({});
   const [internalIsSubmitting, setInternalIsSubmitting] = useState(false);
   const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
@@ -30,6 +31,9 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const isSubmitting = externalIsSubmitting !== undefined ? externalIsSubmitting : internalIsSubmitting;
+  const detectedPageSource =
+    pageSource || (typeof window !== 'undefined' ? window.location.href : 'unknown');
+
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -54,23 +58,36 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+    const payload = {
+      ...formData,
+      pageSource: pageSource || window.location.pathname, // ✅ capture from current page
+    };
+  
     if (onSubmit) {
       // Use external submit handler
       onSubmit(formData);
     } else {
       // Use internal submit handler (original behavior)
-      setInternalIsSubmitting(true);
-      
-      // Simulate form submission
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      console.log('Form submitted:', formData);
-      setInternalIsSubmitting(false);
-      
-      // Reset form
-      setFormData({});
-      alert('Thank you! We will contact you soon.');
+      try {
+        setInternalIsSubmitting(true);
+    
+        const res = await fetch("/api/submit-lead", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+    
+        if (!res.ok) throw new Error("Failed to submit form");
+    
+        alert("✅ Thank you! We will contact you soon.");
+        setFormData({});
+      } catch (err) {
+        console.error("Form submission error:", err);
+        alert("❌ Something went wrong, please try again.");
+      } finally {
+        setInternalIsSubmitting(false);
+      }
+    
     }
   };
 
@@ -86,6 +103,14 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
           </svg>
         );
+        case 'email': // ✅ Email icon
+        return (
+          <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
+              d="M16 12H8m8-4H8m-2 8h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2z" />
+          </svg>
+        );
+
       case 'country':
         return (
           <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -98,6 +123,7 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
           </svg>
         );
+
       case 'phone':
         return (
           <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -261,27 +287,16 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-3">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {quoteForm.fields.slice(0, 3).map((field) => (
-            <div key={field.name}>
-              <label className="block text-xs font-semibold text-gray-700 mb-1">
-                {field.label}
-              </label>
-              {renderField(field)}
-            </div>
-          ))}
-        </div>
-
-        <div className="grid grid-cols-1 gap-3">
-          {quoteForm.fields.slice(3, 4).map((field) => (
-            <div key={field.name}>
-              <label className="block text-xs font-semibold text-gray-700 mb-1">
-                {field.label}
-              </label>
-              {renderField(field)}
-            </div>
-          ))}
-        </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        {quoteForm.fields.map((field) => (
+          <div key={field.name}>
+            <label className="block text-xs font-semibold text-gray-700 mb-1">
+              {field.label}
+            </label>
+            {renderField(field)}
+          </div>
+        ))}
+      </div>
 
         <div className="pt-3">
           <button

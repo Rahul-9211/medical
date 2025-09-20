@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
+import websiteData from '@/data/websiteData.json';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -8,29 +12,29 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MediCare - Medical Treatment With Unmatched Personal Care",
+  title: "Shivanand Global - Medical Treatment With Unmatched Personal Care",
   description: "World's Most Trusted Medical Travel Assistance Platform. Get personalized medical treatment quotes from top hospitals worldwide. 1,00,000+ patients assisted since 2016.",
   keywords: "medical tourism, healthcare, hospitals, doctors, treatment, surgery, medical travel, international healthcare",
-  authors: [{ name: "MediCare" }],
-  creator: "MediCare",
-  publisher: "MediCare",
+  authors: [{ name: "Shivanand Global" }],
+  creator: "Shivanand Global",
+  publisher: "Shivanand Global",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://medicareglobal.com'),
+  metadataBase: new URL('https://ShivanandGlobal.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "MediCare - Medical Treatment With Unmatched Personal Care",
+    title: "Shivanand Global - Medical Treatment With Unmatched Personal Care",
     description: "World's Most Trusted Medical Travel Assistance Platform. Get personalized medical treatment quotes from top hospitals worldwide.",
-    url: 'https://medicareglobal.com',
+    url: 'https://ShivanandGlobal.com',
     siteName: 'MediCare',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'MediCare - Medical Tourism Platform',
@@ -43,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "MediCare - Medical Treatment With Unmatched Personal Care",
     description: "World's Most Trusted Medical Travel Assistance Platform",
-    images: ['/og-image.jpg'],
+    images: ['/logo.png'],
   },
   robots: {
     index: true,
@@ -66,7 +70,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} font-sans antialiased`}>
-        {children}
+        <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
+          <Header 
+            navigation={websiteData.navigation} 
+            siteInfo={websiteData.siteInfo} 
+          />
+          {children}
+          <Footer footer={websiteData.footer} />
+          <WhatsAppButton />
+        </div>
       </body>
     </html>
   );
