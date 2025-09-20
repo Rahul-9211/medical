@@ -2,42 +2,34 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function BlogSection() {
-  // Function to get Unsplash blog images
-  const getBlogImage = (index: number) => {
-    const blogImages = [
-      'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=450&fit=crop&crop=center',
-      'https://images.unsplash.com/photo-1576091160399-112c8f9c6b9c?w=800&h=450&fit=crop&crop=center'
-    ];
-    return blogImages[index % blogImages.length];
-  };
-
   const blogPosts = [
     {
-      title: "What to Expect During Treatment in India",
-      excerpt: "Complete guide to your medical journey from arrival to recovery",
+      title: "What to Expect During Your Treatment in India",
+      excerpt: "Traveling to India for medical care is a smooth and well-organized experience. Knowing what to expect will help you plan your treatment journey, reduce stress, and focus on recovery.",
       category: "Treatment Guide",
-      readTime: "8 min read"
+      image: "/images/blogs/choose-hospital.jpg",
+      slug: "what-to-expect-during-treatment-india"
     },
     {
-      title: "Real Cost Comparisons: India vs. USA/UK",
-      excerpt: "Detailed cost analysis across major medical procedures",
+      title: "Compare Treatment Costs: India vs USA vs UAE",
+      excerpt: "Many international patients choose India for high-quality treatment at a fraction of the cost. This guide provides a transparent cost comparison for major treatments.",
       category: "Cost Analysis",
-      readTime: "12 min read"
+      image: "/images/blogs/cost-comparison.jpg",
+      slug: "compare-treatment-costs-india-usa-uae"
     },
     {
-      title: "Step-by-Step Medical Visa Process",
-      excerpt: "Everything you need to know about medical visas for India",
+      title: "Your Complete Medical Visa and Travel Guide for India",
+      excerpt: "For international patients traveling to India, understanding the visa process and travel logistics is crucial. This guide covers medical visa application, travel planning, and more.",
       category: "Travel Guide",
-      readTime: "6 min read"
+      image: "/images/blogs/medical-visa-guide.jpg",
+      slug: "medical-visa-travel-guide-india"
     },
     {
-      title: "Travel & Recovery Tips for International Patients",
-      excerpt: "Essential advice for a smooth medical tourism experience",
+      title: "Recovery and Post-Treatment Care for International Patients",
+      excerpt: "Recovery after medical treatment is as important as the procedure itself. India offers comprehensive post-treatment care, including hospital monitoring and follow-ups.",
       category: "Patient Care",
-      readTime: "10 min read"
+      image: "/images/blogs/post-treatment-care.jpg",
+      slug: "recovery-post-treatment-care-international-patients"
     }
   ];
 
@@ -64,7 +56,7 @@ export default function BlogSection() {
               {/* Post Image */}
               <div className="aspect-video relative overflow-hidden">
                 <Image 
-                  src={getBlogImage(index)} 
+                  src={post.image}
                   alt={`${post.title} blog post`}
                   width={400}
                   height={225}
@@ -81,11 +73,6 @@ export default function BlogSection() {
                     {post.category}
                   </span>
                 </div>
-                {/* <div className="absolute bottom-4 right-4">
-                  <span className="inline-block px-2 py-1 bg-white/90 backdrop-blur-sm text-xs text-gray-600 rounded-full">
-                    {post.readTime}
-                  </span>
-                </div> */}
               </div>
               
               {/* Post Content */}
@@ -104,7 +91,7 @@ export default function BlogSection() {
                 
                 {/* Read More Link */}
                 <Link
-                  href={`/blog/${post.title.toLowerCase().replace(/\s+/g, '-')}`}
+                  href={`/blog/${post.slug}`}
                   className={`inline-flex items-center font-medium text-sm group-hover:translate-x-1 transition-all duration-300 ${
                     index % 4 === 0 ? 'text-[#7AE5F5] hover:text-[#7AE5F5]/80' : 
                     index % 4 === 1 ? 'text-[#56DDEF] hover:text-[#56DDEF]/80' : 
