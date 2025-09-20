@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+      "id": "medical-tourism-guide",
       "title": "Medical Tourism in India: Your Complete Guide",
       "heroImage": "/images/blogs/medical-tourism-guide.jpg",
       "altText": "medical tourism in India, international patient care",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "choose-hospital",
       "title": "How to Choose the Right Hospital in India for Your Treatment",
       "heroImage": "/images/blogs/choose-hospital.jpg",
       "altText": "best hospitals in India, international patient care",
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "What_to_expect_during_your_treatment_in_india",
       "title": "What to Expect During Your Treatment in India",
       "heroImage": "/images/blogs/choose-hospital.jpg",
       "altText": "patient treatment process in India, hospital stay India",
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "Tips_for_international_patients",
       "title": "Essential Tips for International Patients Traveling to India",
       "heroImage": "/images/blogs/medical-travel-tips.jpg",
       "altText": "medical travel tips India, international patient guide",
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "Costs_india_vs_USA_vs_UAE",
       "title": "Compare Treatment Costs: India vs USA vs UAE",
       "heroImage": "/images/blogs/cost-comparison.jpg",
       "altText": "treatment cost comparison India USA UAE, medical tourism cost",
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "Popular_treatments",
       "title": "Most Popular Treatments for International Patients in India",
       "heroImage": "/images/blogs/top-treatments.jpg",
       "altText": "top medical treatments India, medical tourism specialties",
@@ -351,7 +351,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "Success_stories",
       "title": "Real Success Stories of International Patients in India",
       "heroImage": "/images/blogs/patient-success-stories.jpg",
       "altText": "medical tourism patient testimonials India, international patient experiences",
@@ -413,7 +413,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "Medical_visa_and_travel_guide",
       "title": "Your Complete Medical Visa and Travel Guide for India",
       "heroImage": "/images/blogs/medical-visa-guide.jpg",
       "altText": "medical visa India, international patient travel guide",
@@ -479,7 +479,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "Recovery_and_post-treatment_care",
       "title": "Recovery and Post-Treatment Care for International Patients in India",
       "heroImage": "/images/blogs/post-treatment-care.jpg",
       "altText": "post-treatment care India, patient recovery India",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "faq_about_medical",
       "title": "Frequently Asked Questions About Medical Tourism in India",
       "heroImage": "/images/blogs/medical-tourism-faqs.jpg",
       "altText": "medical tourism FAQs India, international patient questions",

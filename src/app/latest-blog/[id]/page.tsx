@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface Blog {
-  id: number;
+  id: string;
   title: string;
   heroImage: string;
   altText: string;
@@ -31,7 +31,7 @@ export default async function SingleBlogPage({params}: {params: Promise<{ id: st
   if (!res.ok) throw new Error("Failed to load blog data");
 
   const blogs: Blog[] = await res.json();
-  const blog = blogs.find((b) => b.id === Number(id));
+  const blog = blogs.find((b) => b.id === (id));
 
 
   if (!blog) {
