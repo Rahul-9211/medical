@@ -1,8 +1,5 @@
 import React from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import QuoteForm from "@/components/QuoteForm";
 
 interface Doctor {
@@ -54,7 +51,6 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50/30">
-      <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
       <main className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Background blur circles */}
@@ -226,8 +222,6 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
         </div>
       </main>
 
-      <Footer footer={websiteData.footer} />
-      <WhatsAppButton />
     </div>
   );
 };

@@ -2,11 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import websiteData from '@/data/websiteData.json';
 import { useParams } from 'next/navigation';
-import WhatsAppButton from '@/components/WhatsAppButton';
 import BackgroundCarousel from '@/components/BackgroundCarousel';
 
 interface TreatmentCategory {
@@ -74,7 +70,6 @@ export default function TreatmentPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
-      <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
       <main>
         {/* Hero Section */}
@@ -213,8 +208,6 @@ export default function TreatmentPage() {
         )}
       </main>
 
-      <Footer footer={websiteData.footer} />
-      <WhatsAppButton></WhatsAppButton>
     </div>
   );
 }

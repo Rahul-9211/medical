@@ -7,28 +7,28 @@ export default function BlogSection() {
       title: "What to Expect During Treatment in India",
       excerpt: "Traveling to India for medical care is a smooth and well-organized experience. Knowing what to expect will help you plan your treatment journey, reduce stress, and focus on recovery.",
       category: "Treatment Guide",
-      image: "/images/blogs/choose-hospital.jpg",
+      image: "/Images/blogs/medical-tourism-guide.jpg",
       slug: "what-to-expect"
     },
     {
       title: "Medical Tourism Guide for International Patients",
       excerpt: "India has become one of the most popular destinations for medical tourism, offering world-class healthcare, advanced technology, and treatment costs that are 60-80% lower.",
       category: "Cost Analysis",
-      image: "/images/blogs/cost-comparison.jpg",
+      image: "/Images/blogs/cost-comparison.jpg",
       slug: "medical-tourism-guide"
     },
     {
       title: "Tips for International Patients Traveling to India",
       excerpt: "Essential tips and practical advice to make your medical journey smooth and stress-free. Learn about pre-travel preparation, during-treatment care, and recovery guidance.",
       category: "Travel Guide",
-      image: "/images/blogs/medical-visa-guide.jpg",
+      image: "/Images/blogs/medical-travel-tips.jpg",
       slug: "tips-for-patients"
     },
     {
       title: "FAQs About Indian Healthcare for International Patients",
       excerpt: "Get answers to the most frequently asked questions about healthcare, hospitals, costs, and patient services in India before planning your medical journey.",
       category: "Patient Care",
-      image: "/images/blogs/post-treatment-care.jpg",
+      image: "/Images/blogs/medical-tourism-faqs.jpg",
       slug: "faqs"
     }
   ];
