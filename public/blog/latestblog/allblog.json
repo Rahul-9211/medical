@@ -2,7 +2,7 @@
     {
       "id": "medical-tourism-guide",
       "title": "Medical Tourism in India: Your Complete Guide",
-      "heroImage": "/images/blogs/medical-tourism-guide.jpg",
+      "heroImage": "/Images/blogs/medical-tourism-guide.jpg",
       "altText": "medical tourism in India, international patient care",
       "introduction": "India has emerged as a global hub for medical tourism, attracting patients from the USA, UK, UAE, Africa, and Southeast Asia. Patients come for high-quality treatments at significantly lower costs, with access to world-class hospitals, experienced doctors, and personalized patient services.",
       "sections": [
@@ -59,7 +59,7 @@
     {
       "id": "choose-hospital",
       "title": "How to Choose the Right Hospital in India for Your Treatment",
-      "heroImage": "/images/blogs/choose-hospital.jpg",
+      "heroImage": "/Images/blogs/choose-hospital.jpg",
       "altText": "best hospitals in India, international patient care",
       "introduction": "Choosing the right hospital is critical for a successful treatment. India offers top-tier hospitals with modern facilities, internationally trained specialists, and excellent success rates.",
       "sections": [
@@ -106,7 +106,7 @@
     {
       "id": "What_to_expect_during_your_treatment_in_india",
       "title": "What to Expect During Your Treatment in India",
-      "heroImage": "/images/blogs/choose-hospital.jpg",
+      "heroImage": "/Images/blogs/choose-hospital.jpg",
       "altText": "patient treatment process in India, hospital stay India",
       "introduction": "Traveling to India for medical care is a smooth and well-organized experience. Knowing what to expect will help you plan your treatment journey, reduce stress, and focus on recovery.",
       "sections": [
@@ -160,7 +160,7 @@
     {
       "id": "Tips_for_international_patients",
       "title": "Essential Tips for International Patients Traveling to India",
-      "heroImage": "/images/blogs/medical-travel-tips.jpg",
+      "heroImage": "/Images/blogs/medical-travel-tips.jpg",
       "altText": "medical travel tips India, international patient guide",
       "introduction": "Planning a medical trip to India requires preparation and awareness. From visa requirements to accommodation, knowing the details ensures a smooth and stress-free experience.",
       "sections": [
@@ -226,7 +226,7 @@
     {
       "id": "Costs_india_vs_USA_vs_UAE",
       "title": "Compare Treatment Costs: India vs USA vs UAE",
-      "heroImage": "/images/blogs/cost-comparison.jpg",
+      "heroImage": "/Images/blogs/cost-comparison.jpg",
       "altText": "treatment cost comparison India USA UAE, medical tourism cost",
       "introduction": "Many international patients choose India for high-quality treatment at a fraction of the cost. This guide provides a transparent cost comparison for major treatments, helping patients make informed decisions.",
       "sections": [
@@ -278,7 +278,7 @@
     {
       "id": "Popular_treatments",
       "title": "Most Popular Treatments for International Patients in India",
-      "heroImage": "/images/blogs/top-treatments.jpg",
+      "heroImage": "/Images/blogs/top-treatments.jpg",
       "altText": "top medical treatments India, medical tourism specialties",
       "introduction": "India has become a global hub for several high-demand medical treatments. International patients travel here for affordable, world-class care with excellent success rates.",
       "sections": [
@@ -353,7 +353,7 @@
     {
       "id": "Success_stories",
       "title": "Real Success Stories of International Patients in India",
-      "heroImage": "/images/blogs/patient-success-stories.jpg",
+      "heroImage": "/Images/blogs/patient-success-stories.jpg",
       "altText": "medical tourism patient testimonials India, international patient experiences",
       "introduction": "Hearing from real patients helps future international patients gain confidence in choosing India for their treatment. These stories showcase successful treatments, affordable care, and personalized support.",
       "sections": [
@@ -415,7 +415,7 @@
     {
       "id": "Medical_visa_and_travel_guide",
       "title": "Your Complete Medical Visa and Travel Guide for India",
-      "heroImage": "/images/blogs/medical-visa-guide.jpg",
+      "heroImage": "/Images/blogs/medical-visa-guide.jpg",
       "altText": "medical visa India, international patient travel guide",
       "introduction": "For international patients traveling to India, understanding the visa process and travel logistics is crucial. This guide covers medical visa application, travel planning, accommodation, and airport transfers for a smooth experience.",
       "sections": [
@@ -481,7 +481,7 @@
     {
       "id": "Recovery_and_post-treatment_care",
       "title": "Recovery and Post-Treatment Care for International Patients in India",
-      "heroImage": "/images/blogs/post-treatment-care.jpg",
+      "heroImage": "/Images/blogs/post-treatment-care.jpg",
       "altText": "post-treatment care India, patient recovery India",
       "introduction": "Recovery after medical treatment is as important as the procedure itself. India offers comprehensive post-treatment care, including hospital monitoring, physiotherapy, telemedicine follow-ups, and holistic therapies to ensure a smooth recovery.",
       "sections": [
@@ -543,7 +543,7 @@
     {
       "id": "faq_about_medical",
       "title": "Frequently Asked Questions About Medical Tourism in India",
-      "heroImage": "/images/blogs/medical-tourism-faqs.jpg",
+      "heroImage": "/Images/blogs/medical-tourism-faqs.jpg",
       "altText": "medical tourism FAQs India, international patient questions",
       "introduction": "International patients often have many questions before traveling to India for medical care. This FAQ guide provides clear answers about treatment, costs, travel, and patient services.",
       "sections": [
