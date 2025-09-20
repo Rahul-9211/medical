@@ -1,8 +1,4 @@
 import React from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import websiteData from "@/data/websiteData.json";
-import WhatsAppButton from "@/components/WhatsAppButton";
 
 interface FeaturedStory {
   title: string;
@@ -39,7 +35,6 @@ const SuccessStoriesPage = async () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
-      <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
       
       <main>
         {/* Hero Section */}
@@ -146,8 +141,6 @@ const SuccessStoriesPage = async () => {
         </section>
       </main>
 
-      <Footer footer={websiteData.footer} />
-      <WhatsAppButton></WhatsAppButton>
     </div>
   );
 };

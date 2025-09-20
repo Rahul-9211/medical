@@ -1,8 +1,4 @@
 import React from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
-import websiteData from "@/data/websiteData.json";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,7 +25,6 @@ export default async function LatestBlogPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
-      <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
       <main className="max-w-6xl mx-auto px-6 py-16">
         {/* Hero Section */}
@@ -128,8 +123,6 @@ export default async function LatestBlogPage() {
         </div>
       </main>
 
-      <Footer footer={websiteData.footer} />
-      <WhatsAppButton />
     </div>
   );
 }

@@ -1,7 +1,5 @@
 import websiteData from '@/data/websiteData.json';
-import Header from '@/components/Header';
 import BackgroundCarousel from '@/components/BackgroundCarousel';
-import HeroSection from '@/components/HeroSection';
 import QuoteForm from '@/components/QuoteForm';
 import PartnersHospitalSection from '@/components/PartnersHospitalSection';
 import DestinationsSection from '@/components/DestinationsSection';
@@ -12,17 +10,10 @@ import AyurvedaSection from '@/components/AyurvedaSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import ConsultationCTASection from '@/components/ConsultationCTASection';
 import BlogSection from '@/components/BlogSection';
-import Footer from '@/components/Footer';
-import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
-      <Header 
-        navigation={websiteData.navigation} 
-        siteInfo={websiteData.siteInfo} 
-      />
-      
+      <>
       <main>
         {/* Hero Section with Integrated Form - Full Viewport Height */}
         <section className="relative overflow-hidden min-h-screen flex items-center">
@@ -135,12 +126,6 @@ export default function Home() {
         />
         */}
       </main>
-      
-      <Footer footer={websiteData.footer} />
-      
-      {/* WhatsApp Button */}
-      <WhatsAppButton />
-
-    </div>
+    </>
   );
 }

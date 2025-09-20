@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
+import websiteData from '@/data/websiteData.json';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -66,7 +70,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} font-sans antialiased`}>
-        {children}
+        <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
+          <Header 
+            navigation={websiteData.navigation} 
+            siteInfo={websiteData.siteInfo} 
+          />
+          {children}
+          <Footer footer={websiteData.footer} />
+          <WhatsAppButton />
+        </div>
       </body>
     </html>
   );

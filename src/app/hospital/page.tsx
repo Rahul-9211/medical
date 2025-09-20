@@ -1,8 +1,5 @@
 import React from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import websiteData from "@/data/websiteData.json";
-import WhatsAppButton from '@/components/WhatsAppButton';
 import QuoteForm from "@/components/QuoteForm";
 
 interface Hospital {
@@ -97,19 +94,18 @@ const HospitalPage = async () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
-      <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
 
-      {/* Page Layout with Sidebar */}
-      <main className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Left: Main Content */}
-        <div className="lg:col-span-2">
-          {/* Hero Section */}
-          <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/80">
-            <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
-            
-            <div className="relative max-w-4xl mx-auto px-6 text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+        {/* Page Layout with Sidebar */}
+        <main className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Left: Main Content */}
+          <div className="lg:col-span-2">
+            {/* Hero Section */}
+            <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/80">
+              <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
+              <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
+              
+              <div className="relative max-w-4xl mx-auto px-6 text-center">
+                <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
                 🏥
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">{pageData.title}</h1>
@@ -258,8 +254,6 @@ const HospitalPage = async () => {
         </aside>
       </main>
 
-      <Footer footer={websiteData.footer} />
-      <WhatsAppButton />
     </div>
   );
 };

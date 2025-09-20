@@ -1,7 +1,4 @@
 import React from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import websiteData from "@/data/websiteData.json";
 import Image from "next/image";
 import Link from "next/link";
@@ -45,7 +42,6 @@ export default async function SingleBlogPage({params}: {params: Promise<{ id: st
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       {/* Header */}
-      <Header navigation={websiteData.navigation} siteInfo={websiteData.siteInfo} />
       <main className="max-w-4xl mx-auto px-6 py-16">
         {/* Hero */}
         <div className="text-center mb-12">
@@ -102,8 +98,6 @@ export default async function SingleBlogPage({params}: {params: Promise<{ id: st
         )}
       </main>
 
-      <Footer footer={websiteData.footer} />
-      <WhatsAppButton />
     </div>
   );
 }
