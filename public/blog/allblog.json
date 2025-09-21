@@ -21,13 +21,13 @@
           {
             "title": "🏥 Top Treatments International Patients Choose in India",
             "treatments": [
-              { "name": "Heart & Cardiac Surgery", "url": "/treatments/heart-cardiac-surgery" },
-              { "name": "Orthopedic Surgery & Joint Replacement", "url": "/treatments/orthopedic-surgery" },
-              { "name": "Cancer Treatment (Oncology)", "url": "/treatments/cancer-treatment" },
-              { "name": "IVF & Fertility Treatments", "url": "/treatments/ivf-fertility" },
-              { "name": "Liver & Kidney Transplant", "url": "/treatments/transplant" },
-              { "name": "Cosmetic & Plastic Surgery", "url": "/treatments/cosmetic-surgery" },
-              { "name": "Dental & Eye Treatments", "url": "/treatments/dental-eye" }
+              { "name": "Heart & Cardiac Surgery", "url": "/treatments/heart-surgery-cardiology" },
+              { "name": "Orthopedic Surgery & Joint Replacement", "url": "/treatments/orthopedic-surgery-joint-replacements" },
+              { "name": "Cancer Treatment (Oncology)", "url": "/treatments/cancer-treatment-oncology" },
+              { "name": "IVF & Fertility Treatments", "url": "/treatments/ivf-fertility-treatments" },
+              { "name": "Liver & Kidney Transplant", "url": "/treatments/liver-kidney-transplant" },
+              { "name": "Cosmetic & Plastic Surgery", "url": "/treatments/plastic-cosmetic-surgery" },
+              { "name": "Dental & Eye Treatments", "url": "/treatments/dental-implants-oral-care" }
             ]
           }
         ],

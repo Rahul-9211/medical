@@ -1,52 +1,98 @@
 {
-    "title": "Latest Blog Articles on Medical Tourism in India",
-    "subtitle": "Stay Updated with Expert Insights, Patient Stories & Healthcare News",
-    "introduction": "Our blog is designed to keep international patients informed about treatment options, cost updates, healthcare trends, and patient experiences in India. We regularly publish guides, comparisons, and success stories to help you make the right decision about your treatment abroad.",
-    "categories": [
-      { "name": "Medical Treatment Guides", "url": "/blog/medical-tourism-guide" },
-      { "name": "Cost Comparisons", "url": "/blog/cost-comparisons" },
-      { "name": "Patient Success Stories", "url": "/blog/patient-stories" },
-      { "name": "Travel & Visa Advice", "url": "/blog/travel-visa-advice" },
-      { "name": "Ayurveda & Holistic Care", "url": "/blog/ayurveda-holistic-care" },
-      { "name": "Latest Healthcare News", "url": "/blog/healthcare-news" }
-    ],
-    "recentPosts": [
-      {
-        "title": "Top 10 Hospitals in India for International Patients (2025 Guide)",
-        "url": "/blog/top-10-hospitals-india-2025"
-      },
-      {
-        "title": "Heart Surgery Cost in India vs USA – How Much Can You Save?",
-        "url": "/blog/heart-surgery-cost-india-vs-usa"
-      },
-      {
-        "title": "Step-by-Step Guide: Applying for a Medical Visa to India",
-        "url": "/blog/medical-visa-step-guide"
-      },
-      {
-        "title": "Best Ayurveda Retreats in Kerala for Post-Surgery Recovery",
-        "url": "/blog/ayurveda-retreats-kerala"
-      },
-      {
-        "title": "Patient Story: How India Helped Me Beat Cancer at One-Third the Cost",
-        "url": "/blog/patient-story-beat-cancer"
-      }
-    ],
-    "whyRead": [
-      "Trusted medical information for patients worldwide",
-      "SEO-optimized guides written in simple language",
-      "Real success stories to build confidence",
-      "Updated cost comparisons for transparency",
-      "Practical tips for travel & recovery in India"
-    ],
-    "cta": {
-      "text": "Book Free Consultation →",
-      "url": "/free-consultation"
+  "title": "📚 Blogs & Guides",
+  "introTitle": "Your Complete Guide to Medical Treatment in India",
+  "introText": "Traveling abroad for medical care can feel overwhelming — but we’re here to make it simple, safe, and stress-free. Our blogs and patient guides cover everything you need to know about treatments, hospitals, costs, travel, and recovery in India.",
+  "sections": [
+    {
+      "title": "✈️ Medical Tourism Guides",
+      "items": [
+        {
+          "title": "Medical Tourism Guide",
+          "description": "Step-by-step overview of coming to India for treatment.",
+          "url": "/blog/medical-tourism-guide"
+        },
+        {
+          "title": "What to Expect During Treatment in India",
+          "description": "From arrival to discharge.",
+          "url": "/blog/what-to-expect"
+        },
+        {
+          "title": "Tips for International Patients",
+          "description": "Practical advice for smooth medical travel.",
+          "url": "/blog/tips-for-patients"
+        },
+        {
+          "title": "FAQs About Indian Healthcare",
+          "description": "Honest answers to common questions.",
+          "url": "/blog/faqs"
+        }
+      ]
     },
-    "highlights": [
-      "✅ Regularly updated articles",
-      "✅ Cost & treatment transparency",
-      "✅ International patient-focused content"
-    ]
+    {
+      "title": "🩺 Treatment & Cost Insights",
+      "items": [
+        {
+          "title": "Cost of Heart Surgery in India vs Abroad",
+          "url": "/latest-blog/Costs_india_vs_USA_vs_UAE"
+        },
+        {
+          "title": "Knee & Hip Replacement – Cost & Recovery Guide",
+          "url": "/blogs/knee-hip-replacement-cost-recovery"
+        },
+        {
+          "title": "Cancer Treatment in India – Affordable Options for International Patients",
+          "url": "/treatments/cancer-treatment-oncology"
+        },
+        {
+          "title": "IVF & Fertility Treatments – Success Rates & Cost in India",
+          "url": "/treatments/ivf-fertility-treatments"
+        },
+        {
+          "title": "Neurosurgery & Spine Treatments – Advanced Care in India",
+          "url": "/treatments/neurosurgery-spine-treatments"
+        }
+      ]
+    },
+    {
+      "title": "🌍 Patient Experiences & Success Stories",
+      "items": [
+        {
+          "title": "Stories of recovery from patients across Africa, Middle East, Europe, and Asia",
+          "url": "/latest-blog/Success_stories"
+        },
+        {
+          "title": "How affordable treatment in India changed lives",
+          "url": "/success-stories"
+        }
+      ]
+    },
+    {
+      "title": "🧘 Ayurveda & Holistic Wellness",
+      "items": [
+        {
+          "title": "Ayurvedic Post-Surgery Recovery",
+          "url": "/ayurveda/post-surgery-recovery"
+        },
+        {
+          "title": "Wellness Retreats in India",
+          "url": "/ayurveda/wellness-retreats"
+        },
+        {
+          "title": "PCOD, Stress & Lifestyle Care with Ayurveda",
+          "url": "/ayurveda/pcod-pcos"
+        }
+      ]
+    }
+  ],
+  "latestArticles": {
+    "title": "📰 Latest Blog Articles →",
+    "description": "Stay updated with the newest articles on treatments, hospitals, and medical travel trends.",
+    "url": "/latest-blog"
+  },
+  "cta": {
+    "title": "📞 Free Expert Consultation",
+    "description": "Still have questions? Our team offers free online consultations and second opinions from India’s top specialists.",
+    "buttonText": "Get a Free Consultation",
+    "url": "/free-consultation"
   }
-  
+}
