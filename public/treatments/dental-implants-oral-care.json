@@ -86,7 +86,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your dental X-rays, scans, or smile photos for a free evaluation. Get a personalized treatment & cost plan before you travel to India.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

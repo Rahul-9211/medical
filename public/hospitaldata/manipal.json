@@ -47,7 +47,7 @@
       ]
     },
     "departments": {
-      "visible": true,
+      "visible": false,
       "list": [
         { "name": "Cardiology and Cardiac Surgery", "doctorCount": 8 },
         { "name": "Neurology and Neurosurgery", "doctorCount": 6 },
@@ -221,9 +221,9 @@
     ],
     "media": {
       "images": [
-        { "url": "/images/hospital/manipal/manipal-1.jpeg", "visible": true },
-        { "url": "/images/hospital/manipal/manipal-2.png", "visible": true },
-        { "url": "/images/hospital/manipal/manipal-3.jpg", "visible": true }
+        { "url": "/Images/hospital/manipal/manipal-1.jpeg", "visible": true },
+        { "url": "/Images/hospital/manipal/manipal-2.png", "visible": true },
+        { "url": "/Images/hospital/manipal/manipal-3.jpg", "visible": true }
       ],
       "videos": [
         { "url": "https://youtube.com/embed/example-manipal1", "visible": true }

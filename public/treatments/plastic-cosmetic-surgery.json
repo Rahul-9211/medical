@@ -83,7 +83,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your photos, medical history, or previous surgery reports for a free evaluation by India's top cosmetic surgeons. Get a customized treatment & cost plan before traveling.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

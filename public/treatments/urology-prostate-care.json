@@ -59,24 +59,25 @@
     },
     "top_specialists": [
       {
-        "name": "Dr. Rajeev Sood",
-        "specialization": "Urology & Kidney Transplant",
-        "experience": "25+ years",
-        "affiliation": "Fortis Memorial Research Institute, Gurugram",
-        "expertise": "Kidney Stones, Prostate Surgery, Kidney Transplant"
+        "name": "Dr. Amit Goel",
+        "specialization": "Director & Head – Renal Transplant, Uro-Oncology & Urology",
+        "experience": "22+ years",
+        "expertise": "Kidney Stones, Prostate Surgery, Kidney Transplant",
+        "consultation_link" : "/doctors/amit-goel"
       },
       {
-        "name": "Dr. Narmada Prasad Gupta",
-        "specialization": "Uro-oncology & Prostate Surgery",
-        "experience": "30+ years",
-        "affiliation": "Medanta – The Medicity, Gurugram",
-        "expertise": "Prostate Cancer, Robotic & Laparoscopic Urology"
+        "name": "Dr. Anurag Khaitan",
+        "specialization": "Chief – Urology",
+        "experience": "22+ years",
+        "expertise": "Prostate Cancer, Robotic & Laparoscopic Urology",
+        "consultation_link" : "/doctors/anurag-khaitan"
       }
     ],
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your diagnostic scans, PSA reports, and medical history for a free review by India's best urologists. Get a personalized treatment & cost plan before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

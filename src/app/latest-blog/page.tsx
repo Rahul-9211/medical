@@ -112,7 +112,7 @@ export default async function LatestBlogPage() {
         {/* CTA */}
         <div className="text-center mt-16">
           <Link
-            href="/contact"
+            href="/free-consultation"
             className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
             📞 Book Free Consultation →

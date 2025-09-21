@@ -63,24 +63,18 @@
     },
     "top_specialists": [
       {
-        "name": "Dr. K. K. Handa",
-        "specialization": "ENT, Head & Neck Surgery, Cochlear Implants",
-        "experience": "30+ years",
-        "affiliation": "Medanta – The Medicity, Gurugram",
-        "expertise": "Cochlear Implants, Voice Disorders, Endoscopic Sinus Surgery"
-      },
-      {
-        "name": "Dr. Ameet Kishore",
-        "specialization": "ENT & Pediatric ENT Surgery",
-        "experience": "20+ years",
-        "affiliation": "Apollo Hospitals, Delhi",
-        "expertise": "Cochlear Implants, Skull Base Surgery, Pediatric ENT"
+        "name": "Dr. Ravinder Gera",
+        "specialization": "Senior Consultant – ENT",
+        "experience": "18+ years",
+        "expertise": "Cochlear Implants, Voice Disorders, Endoscopic Sinus Surgery",
+        "consultation_link" : "/doctors/ravinder-gera"
       }
     ],
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your audiometry reports, CT scans, or ENT evaluation records for a free review by India's best ENT specialists. Get a personalized treatment & cost plan before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

@@ -114,7 +114,7 @@ export default function AyurvedaSection() {
         {/* CTA Section */}
         <div className="text-center">
           <Link
-            href="/wellness-programs"
+            href="/ayurveda/wellness-retreats"
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-600 via-teal-600 to-cyan-600 text-white font-semibold rounded-xl hover:from-green-700 hover:via-teal-700 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
             View Wellness Programs

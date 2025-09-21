@@ -1,5 +1,6 @@
 {
     "id": "max-gurgoan",
+    "url": "/hospital/max-super-speciality",
     "name": "Max Super Speciality Hospital, Gurgaon",
     "visible": true,
     "rating": { "value": 3.8, "reviews": 49 },
@@ -45,7 +46,7 @@
       ]
     },
     "departments": {
-      "visible": true,
+      "visible": false,
       "list": [
         { "name": "Cardiology and Cardiac Surgery", "doctorCount": 16 },
         { "name": "Endocrinology", "doctorCount": 3 },
@@ -217,9 +218,9 @@
     ],
     "media": {
       "images": [
-        { "url": "/images/hospital/max/max-1.jpg", "visible": true },
-        { "url": "/images/hospital/max/max-2.jpg", "visible": true },
-        { "url": "/images/hospital/max/max-3.jpg", "visible": true }
+        { "url": "/Images/hospital/max/max-1.jpg", "visible": true },
+        { "url": "/Images/hospital/max/max-2.jpg", "visible": true },
+        { "url": "/Images/hospital/max/max-3.jpg", "visible": true }
       ],
       "videos": []
     },

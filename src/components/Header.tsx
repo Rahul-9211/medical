@@ -100,7 +100,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                     
                     {/* Desktop Dropdown Menu */}
                     {item.submenu && (
-                      <div className="absolute left-0 mt-1 w-80 bg-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 border border-gray-100 max-h-[400px] overflow-y-auto element-with-scrollbar">
+                      <div className="absolute left-0 mt-1 w-80 bg-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 border border-gray-100 max-h-[400px] overflow-y-auto ">
                         <div className="py-3">
                           {item.submenu.map((subItem: any, index: number) => (
                             <div key={index} className="px-4 py-2 hover:bg-green-50 transition-colors duration-150">

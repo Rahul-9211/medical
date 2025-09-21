@@ -51,24 +51,25 @@
     },
     "top_specialists": [
       {
-        "name": "Dr. Arvinder Singh Soin",
-        "specialization": "Liver Transplant & Hepatobiliary Surgery",
-        "experience": "30+ years, 3,500+ liver transplants performed",
-        "affiliation": "Medanta – The Medicity, Gurugram",
+        "name": "Dr. Ankur Garg",
+        "specialization": "Group Director - Liver Transplant & GI Surgery",
+        "experience": "25+ years, 3,500+ liver transplants performed",
+        "consultation_link" : "/doctors/suman-lal",
         "expertise": "Adult & Pediatric Liver Transplants, Complex Hepatobiliary Surgery"
       },
       {
-        "name": "Dr. Rajeev Sood",
-        "specialization": "Kidney Transplant & Urology",
-        "experience": "25+ years, 2,000+ kidney transplants",
-        "affiliation": "Fortis Memorial Research Institute, Gurugram",
+        "name": "Dr. P.N. Gupta",
+        "specialization": "Director & HOD – Nephrology",
+        "experience": "15+ years, 2,000+ kidney transplants",
+       "consultation_link" : "/doctors/pn-gupta",
         "expertise": "Living Donor Kidney Transplants, Paired Exchange, Robotic Urology"
       }
     ],
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your transplant evaluation reports, lab results, and donor compatibility tests for a free review by India's top transplant specialists. We'll provide a personalized treatment & cost plan before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

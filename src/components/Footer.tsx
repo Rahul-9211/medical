@@ -12,6 +12,11 @@ interface FooterProps {
     offices: Array<{
       country: string;
       address: string;
+      coordinates?: {
+        lat: number;
+        lng: number;
+      };
+      mapUrl?: string;
     }>;
     contact: {
       email: string;
@@ -62,7 +67,7 @@ export default function Footer({ footer }: FooterProps) {
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
@@ -99,9 +104,48 @@ export default function Footer({ footer }: FooterProps) {
               </div>
             </div>
           </div>
+           {/* Offices */}
+        <div className="border-gray-700/50">
+          <h3 className="text-xl font-semibold mb-8 text-white">Our Offices</h3>
+          <div className="">
+            {footer.offices.map((office, index) => (
+              <div key={office.country} className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
+                <div className={`w-8 h-8 rounded-lg mb-3 ${
+                  index === 0 ? 'bg-[#7AE5F5]/20' :
+                  index === 1 ? 'bg-[#56DDEF]/20' :
+                  'bg-green-500/20'
+                }`}></div>
+                <h4 className="font-semibold text-white mb-3">{office.country}</h4>
+                <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                  {office.address}
+                </p>
+                
+                {/* Location Section with Google Maps Link */}
+                {office.mapUrl && (
+                  <div className="mt-4">
+                    <a
+                      href={office.mapUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-[#56DDEF]/20 to-[#7AE5F5]/20 hover:from-[#56DDEF]/30 hover:to-[#7AE5F5]/30 rounded-lg border border-white/10 hover:border-white/20 transition-all duration-300 group"
+                    >
+                      <svg className="w-4 h-4 text-[#56DDEF] mr-2 group-hover:text-[#7AE5F5] transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      <span className="text-gray-300 text-sm group-hover:text-white transition-colors duration-300">
+                        View on Google Maps
+                      </span>
+                    </a>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
 
           {/* Quick Links */}
-          {Object.entries(footer.links).map(([category, links]) => (
+          {/* {Object.entries(footer.links).map(([category, links]) => (
             <div key={category}>
               <h3 className="text-lg font-semibold mb-6 text-white">
                 {category}
@@ -119,28 +163,10 @@ export default function Footer({ footer }: FooterProps) {
                 ))}
               </ul>
             </div>
-          ))}
+          ))} */}
         </div>
 
-        {/* Offices */}
-        <div className="mt-16 pt-12 border-t border-gray-700/50">
-          <h3 className="text-xl font-semibold mb-8 text-white">Our Offices</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {footer.offices.map((office, index) => (
-              <div key={office.country} className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
-                <div className={`w-8 h-8 rounded-lg mb-3 ${
-                  index === 0 ? 'bg-[#7AE5F5]/20' :
-                  index === 1 ? 'bg-[#56DDEF]/20' :
-                  'bg-green-500/20'
-                }`}></div>
-                <h4 className="font-semibold text-white mb-3">{office.country}</h4>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  {office.address}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
+       
 
         {/* Social Media & Bottom */}
         <div className="mt-16 pt-12 border-t border-gray-700/50">

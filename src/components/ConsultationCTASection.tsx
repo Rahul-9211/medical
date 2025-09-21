@@ -26,7 +26,7 @@ export default function ConsultationCTASection() {
         {/* Main CTA */}
         <div className="mb-16">
           <Link
-            href="/get-free-consultation"
+            href="/free-consultation"
             className="inline-flex items-center px-8 py-4 bg-white text-gray-900 font-semibold rounded-xl border-2 border-gray-200 hover:border-[#56DDEF] hover:bg-[#56DDEF]/10 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
             Get My Free Opinion Now

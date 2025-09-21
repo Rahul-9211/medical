@@ -1,3 +1,4 @@
+import { url } from 'inspector';
 import { HeartPulse, Icon } from 'lucide-react';
 import Link from 'next/link';
 import { JSX } from 'react';
@@ -21,30 +22,35 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
     {
       icon: "❤️",
       name: "Heart Surgery & Cardiology",
+      url : "heart-surgery-cardiology",
       price: "from $4,000",
       description: "Advanced cardiac procedures with world-class surgeons"
     },
     {
       icon: "🦴",
       name: "Joint Replacement (Knee/Hip)",
+      url : "orthopedic-surgery-joint-replacements",
       price: "from $3,800",
       description: "Minimally invasive joint replacement surgeries"
     },
     {
       icon: "🎗️",
       name: "Cancer Treatment (Oncology)",
+      url : "cancer-treatment-oncology",
       price: "up to 60% cheaper",
       description: "Comprehensive cancer care with latest technology"
     },
     {
       icon: "🧬",
       name: "IVF & Fertility Treatments",
+      url : "ivf-fertility-treatments",
       price: "starting $2,500",
       description: "Advanced fertility solutions with high success rates"
     },
     {
       icon: "🫀",
       name: "Liver & Kidney Transplants",
+      url : "liver-kidney-transplant",
       price: "cost-effective & safe",
       description: "Organ transplantation with expert teams"
     },
@@ -52,7 +58,22 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
       icon: "💅",
       name: "Plastic & Cosmetic Surgery",
       price: "world-class results, affordable rates",
+      url : "plastic-cosmetic-surgery",
       description: "Aesthetic procedures with natural-looking outcomes"
+    },
+    {
+      icon: "💊",
+      name: "Advanced Bone, Joint & Spine Care",
+      price: "world-class results, affordable rates",
+      url : "orthopedic-surgery-joint-replacements",
+      description: "India is a global leader in orthopedic surgery"
+    },
+    {
+      icon: "👂",
+      name: "Advanced ENT Treatments",
+      price: "world-class results, affordable rates",
+      url : "ent-surgeries",
+      description: "India is a global hub for ENT treatments"
     }
   ];
 
@@ -78,7 +99,7 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
         </div>
 
         {/* Treatments Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-16">
           {treatments.map((treatment, index) => (
             <div
               key={index}
@@ -125,7 +146,7 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
                 
                 {/* Learn More Link */}
                 <Link
-                  href={`/treatments/${treatment.name.toLowerCase().replace(/\s+/g, '-')}`}
+                  href={`/treatments/${treatment.url.toLowerCase()}`}
                   className={`inline-flex items-center transition-colors duration-300 font-medium ${
                     index % 4 === 0 ? 'text-[#7AE5F5] group-hover:text-[#7AE5F5]/80' : 
                     index % 4 === 1 ? 'text-[#56DDEF] group-hover:text-[#56DDEF]/80' : 
