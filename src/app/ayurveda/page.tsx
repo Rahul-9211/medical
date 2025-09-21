@@ -26,7 +26,8 @@ interface AyurvedaData {
 }
 
 const AyurvedaPage = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/Ayurveda/Ayurveda.json`, { cache: "no-store" });
+  const baseUrl = process.env.NEXT_PUBLIC_API_URL || "";
+  const res = await fetch(`${baseUrl}/Ayurveda/ayurveda.json`, { cache: "no-store" });
   if (!res.ok) throw new Error("Failed to load treatments JSON");
   const data: AyurvedaData = await res.json();
 

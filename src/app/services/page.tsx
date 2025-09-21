@@ -26,7 +26,7 @@ interface PatientServicesData {
 }
 
 const PatientServicesPage = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/patientservices/patientServices.json`, { cache: "no-store" });
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/patientservices/patientservices.json`, { cache: "no-store" });
   if (!res.ok) throw new Error("Failed to load patient services JSON");
   const data: PatientServicesData = await res.json();
 
