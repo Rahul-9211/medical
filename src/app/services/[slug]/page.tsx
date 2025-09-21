@@ -45,14 +45,24 @@ const PatientServicePage = async ({ params }: PageProps) => {
 
         {/* Sections */}
         {data.sections.map((section, idx) => (
-          <section key={idx} className="py-16 bg-white">
+          <section key={idx} className={`py-20 ${idx % 2 === 0 ? 'bg-white' : 'bg-gradient-to-br from-gray-50 via-white to-green-50/80'}`}>
             <div className="max-w-5xl mx-auto px-6">
-              <h2 className="text-3xl font-bold mb-6 text-gray-900">{section.heading}</h2>
-              <ul className="list-disc list-inside space-y-2 text-gray-700">
-                {section.points.map((point, i) => (
-                  <li key={i}>{point}</li>
-                ))}
-              </ul>
+              <div className="text-center mb-12">
+                <div className="inline-flex items-center justify-center w-14 h-14 bg-white rounded-full mb-4 shadow-lg text-2xl">
+                  {idx % 3 === 0 ? '✨' : idx % 3 === 1 ? '🌟' : '💫'}
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{section.heading}</h2>
+              </div>
+              <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
+                <ul className="list-disc list-inside space-y-3 text-gray-700 text-lg">
+                  {section.points.map((point, i) => (
+                    <li key={i} className="flex items-start">
+                      <span className="text-[#56DDEF] mr-3 mt-1">•</span>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </section>
         ))}
@@ -70,11 +80,16 @@ const PatientServicePage = async ({ params }: PageProps) => {
                 📩
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{data.cta.headline}</h2>
-              <ul className="text-lg text-gray-700 max-w-3xl mx-auto mb-6 space-y-2">
-                {data.cta.points.map((point, i) => (
-                  <li key={i}>✔ {point}</li>
-                ))}
-              </ul>
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20 p-8 max-w-4xl mx-auto mb-8">
+                <ul className="text-lg text-gray-700 space-y-3">
+                  {data.cta.points.map((point, i) => (
+                    <li key={i} className="flex items-center justify-center">
+                      <span className="text-[#56DDEF] mr-3">✔</span>
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </div>
               <a
                 href={data.cta.button.link}
                 className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
