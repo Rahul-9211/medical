@@ -410,42 +410,50 @@
       {
         "icon": "🌟",
         "title": "Medical Visa Assistance & Travel Support",
-        "description": "We guide you through the medical visa application process, provide invitation letters from hospitals, and help you with flight planning and travel arrangements."
+        "description": "We guide you through the medical visa application process, provide invitation letters from hospitals, and help you with flight planning and travel arrangements.",
+        "url" : "services/medical-visa-travel"
       },
       {
         "icon": "✨",
         "title": "Free Second Opinion & Online Consultations",
-        "description": "Before you travel, you can consult India’s leading doctors online. We provide free medical opinions and treatment plans so you can make informed choices."
+        "description": "Before you travel, you can consult India’s leading doctors online. We provide free medical opinions and treatment plans so you can make informed choices.",
+        "url"  : "services/second-opinion"
       },
       {
         "icon": "💫",
         "title": "Air Ambulance Services",
-        "description": "For critically ill patients, we arrange emergency air ambulance transfers to India with medical staff on board."
+        "description": "For critically ill patients, we arrange emergency air ambulance transfers to India with medical staff on board.",
+        "url" : "/services/air-ambulance"
       },
       {
         "icon": "✨",
         "title": "Airport Pickup & Ground Transfers",
-        "description": "From the moment you land, we ensure safe and comfortable transfers between the airport, hotel, and hospital."
+        "description": "From the moment you land, we ensure safe and comfortable transfers between the airport, hotel, and hospital.",
+        "url" : "/services/airport-pickup"
       },
       {
         "icon": "✨",
         "title": "Stay & Accommodation Near Hospitals",
-        "description": "We help you book budget hotels, serviced apartments, or guest houses close to the hospital for your convenience."
+        "description": "We help you book budget hotels, serviced apartments, or guest houses close to the hospital for your convenience.",
+        "url" : "/services/accommodation"
       },
       {
         "icon": "✨",
         "title": "Dedicated 24/7 Assistance",
-        "description": "Every patient gets a personal care coordinator to handle hospital formalities, translations, and support during your entire stay."
-      },
+        "description": "Every patient gets a personal care coordinator to handle hospital formalities, translations, and support during your entire stay.",
+        "url" : "/services/assistance"
+       },
       {
         "icon": "✨",
         "title": "Affordable Medical Treatment in India",
-        "description": "We ensure you get the lowest treatment costs with top hospitals, with no hidden fees or overcharging."
+        "description": "We ensure you get the lowest treatment costs with top hospitals, with no hidden fees or overcharging.",
+        "url" : "/services/affordable-treatment"
       },
       { 
         "icon": "💫",
         "title": "Post-Treatment Recovery & Follow-Up",
-        "description": "Even after your treatment, we provide follow-up consultations with doctors and can connect you to Ayurveda & wellness programs for faster recovery."
+        "description": "Even after your treatment, we provide follow-up consultations with doctors and can connect you to Ayurveda & wellness programs for faster recovery.",
+        "url" : "/services/post-treatment-recovery"
       }
     ]
   },

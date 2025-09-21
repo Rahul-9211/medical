@@ -8,7 +8,8 @@ interface PatientServiceData {
   travelSupport?: string[];     // Optional, only for services like Visa, Pickup, etc.
   whyChooseUs?: string[];
   postTreatmentServices : string[];
-  cost: string[];
+  popularTreatments?: string[];
+  cost?: string[];
   cta: {
     text: string;
     url: string;
@@ -156,7 +157,7 @@ const PatientServicePage = async ({ params }: { params: Promise<PageProps> }) =>
             <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Cost Details</h2>
             <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {data.cost.map((item, i) => {
+                {data.cost && data.cost.map((item, i) => {
                   const color = getCardColor(i);
                   return (
                     <div key={i} className="flex items-start space-x-3">
@@ -177,6 +178,27 @@ const PatientServicePage = async ({ params }: { params: Promise<PageProps> }) =>
                 })}
               </div>
             </div>
+            <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {data.popularTreatments && data.popularTreatments.map((item, i) => {
+                  const color = getCardColor(i);
+                  return (
+                    <div key={i} className="flex items-start space-x-3">
+                      <div className={`w-3 h-3 rounded-full mt-2 ${color}`} />
+                      <div>
+                        <h4 className="font-semibold text-gray-900">{item.treatment}</h4>
+                        <p className="text-sm text-gray-600">
+                        India: {item.indiaUSD} <br />
+                        Abroad: {item.internationalUSD} <br />
+                        <span className="font-medium text-green-600">{item.savings}</span>
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>        
+
           </div>
         </section>
 

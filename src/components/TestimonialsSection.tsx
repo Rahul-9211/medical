@@ -108,7 +108,7 @@ export default function TestimonialsSection({ testimonials }: TestimonialsSectio
         {/* CTA Section */}
         <div className="text-center">
           <Link
-            href="/testimonials"
+            href="/success-stories"
             className="inline-flex items-center sm:px-8 sm:py-4 px-6 py-3 bg-[#7AE5F5] text-white font-semibold rounded-xl hover:bg-[#7AE5F5]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
             See More Patient Testimonials
