@@ -1,6 +1,7 @@
 import React from "react";
 import websiteData from "@/data/websiteData.json";
 import QuoteForm from "@/components/QuoteForm";
+import Image from "next/image";
 
 interface Hospital {
   id: string;
@@ -10,6 +11,7 @@ interface Hospital {
     value: number;
     reviews: number;
   };
+  url : string;
   accreditations?: string[];
   beds?: number;
   established?: string;
@@ -128,7 +130,7 @@ const HospitalPage = async () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Featured Hospitals</h2>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8">
                 {hospitals.map((hospital, i) => {
                   const color = getCardColor(i);
                   const imageUrl = hospital.media?.images?.find(img => img.visible)?.url || 
@@ -137,14 +139,15 @@ const HospitalPage = async () => {
                   return (
                     <a
                       key={hospital.id}
-                      href={`/hospital/${hospital.id}`}
+                      href={`${hospital.url}`}
                       className={`group bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 overflow-hidden ${color.hover}`}
                     >
                       <div className="relative h-48 overflow-hidden">
-                        <img 
+                        <Image
                           src={imageUrl} 
                           alt={hospital.name || 'Hospital Image'}
-                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                          fill
+                          className="object-cover transition-transform duration-300 group-hover:scale-105"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent"></div>
                         {hospital.rating?.value && hospital.rating?.reviews && (
@@ -173,11 +176,21 @@ const HospitalPage = async () => {
                           </div>
                         )}
                         {hospital.accreditations && (
-                          <div className="flex items-center gap-1 text-sm text-gray-600">
+                          <div className="flex items-center gap-1 text-sm text-gray-600 mb-4">
                             <span>🏆</span>
                             <span>{hospital.accreditations.length} Accreditations</span>
                           </div>
                         )}
+                        
+                        {/* View Hospital Link */}
+                        <div className="mt-4 pt-4 border-t border-gray-200/50">
+                          <span className={`inline-flex items-center text-sm font-medium ${color.text} group-hover:${color.text} transition-colors duration-300`}>
+                            View Hospital Details
+                            <svg className="w-4 h-4 ml-1 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </span>
+                        </div>
                       </div>
                     </a>
                   );

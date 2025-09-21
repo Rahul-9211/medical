@@ -6,6 +6,7 @@ interface Service {
   icon : string;
   title: string;
   description: string;
+  url : string
 }
 
 interface ServicesSectionProps {
@@ -40,43 +41,45 @@ export default function ServicesSection({ services }: ServicesSectionProps) {
 
         {/* Services Grid */}
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-16">
-          {services.list.map((service, index) => (
-            <div
-              key={index}
-              className={`group bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-8 hover:shadow-xl transition-all duration-300 border border-white/20 relative overflow-hidden ${
-                index % 4 === 0 ? 'hover:border-[#7AE5F5]' : 
-                index % 4 === 1 ? 'hover:border-[#56DDEF]' : 
-                index % 4 === 2 ? 'hover:border-yellow-400' :
-                'hover:border-green-500'
-              }`}
-            >
-              {/* Hover Effect Background */}
-              <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer ${
-                index % 4 === 0 ? 'bg-[#7AE5F5]/10' : 
-                index % 4 === 1 ? 'bg-[#56DDEF]/10' : 
-                index % 4 === 2 ? 'bg-yellow-100/50' :
-                'bg-green-100/50'
-              }`}></div>
+        {services.list.map((service, index) => (
+          <Link
+            key={index}
+            href={service.url}
+            className={`group bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-8 hover:shadow-xl transition-all duration-300 border border-white/20 relative overflow-hidden ${
+              index % 4 === 0 ? 'hover:border-[#7AE5F5]' : 
+              index % 4 === 1 ? 'hover:border-[#56DDEF]' : 
+              index % 4 === 2 ? 'hover:border-yellow-400' :
+              'hover:border-green-500'
+            }`}
+          >
+            {/* Hover Effect Background */}
+            <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              index % 4 === 0 ? 'bg-[#7AE5F5]/10' : 
+              index % 4 === 1 ? 'bg-[#56DDEF]/10' : 
+              index % 4 === 2 ? 'bg-yellow-100/50' :
+              'bg-green-100/50'
+            }`}></div>
+            
+            {/* Content */}
+            <div className="relative z-10">
+              <div className="text-2xl sm:text-3xl md:text-4xl mb-4">{service.icon}</div>
               
-              {/* Content */}
-              <div className="relative z-10 cursor-pointer">
-                <div className="text-2xl sm:text-3xl md:text-4xl mb-4">{service.icon}</div>
-                
-                <h3 className={`text-base sm:text-lg md:text-xl font-bold text-gray-900 transition-colors duration-300 mb-3 ${
-                  index % 4 === 0 ? 'group-hover:text-[#7AE5F5]' : 
-                  index % 4 === 1 ? 'group-hover:text-[#56DDEF]' : 
-                  index % 4 === 2 ? 'group-hover:text-yellow-500' :
-                  'group-hover:text-green-600'
-                }`}>
-                  {service.title}
-                </h3>
-                
-                <p className="text-sm sm:text-base text-gray-600 group-hover:text-gray-700 transition-colors duration-300 leading-relaxed">
-                  {service.description}
-                </p>
-              </div>
+              <h3 className={`text-base sm:text-lg md:text-xl font-bold text-gray-900 transition-colors duration-300 mb-3 ${
+                index % 4 === 0 ? 'group-hover:text-[#7AE5F5]' : 
+                index % 4 === 1 ? 'group-hover:text-[#56DDEF]' : 
+                index % 4 === 2 ? 'group-hover:text-yellow-500' :
+                'group-hover:text-green-600'
+              }`}>
+                {service.title}
+              </h3>
+              
+              <p className="text-sm sm:text-base text-gray-600 group-hover:text-gray-700 transition-colors duration-300 leading-relaxed">
+                {service.description}
+              </p>
             </div>
-          ))}
+          </Link>
+        ))}
+
         </div>
 
         {/* CTA Section */}

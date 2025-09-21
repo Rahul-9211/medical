@@ -1,4 +1,5 @@
 import React from "react";
+import BackgroundCarousel from '@/components/BackgroundCarousel';
 
 interface FeaturedStory {
   title: string;
@@ -38,18 +39,16 @@ const SuccessStoriesPage = async () => {
       
       <main>
         {/* Hero Section */}
-        <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/80">
-          {/* Background Pattern */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
+        <section className="relative overflow-hidden py-20">
+          <BackgroundCarousel />
           
           <div className="relative max-w-4xl mx-auto px-6 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full mb-6 shadow-lg text-4xl backdrop-blur-sm">
               💝
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">{data.title}</h1>
-            <h2 className="text-xl md:text-2xl text-gray-600 mb-4">{data.subtitle}</h2>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">{data.overview}</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">{data.title}</h1>
+            <h2 className="text-xl md:text-2xl text-white/90 mb-4">{data.subtitle}</h2>
+            <p className="text-lg text-white/90 mb-8 leading-relaxed">{data.overview}</p>
           </div>
         </section>
 

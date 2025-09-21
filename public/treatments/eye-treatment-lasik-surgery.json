@@ -89,7 +89,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your eye reports, refraction details, OCT scans, or vision complaints for a free review by India's leading ophthalmologists. Receive a personalized treatment & cost plan before travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

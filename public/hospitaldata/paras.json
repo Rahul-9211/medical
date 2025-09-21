@@ -2,6 +2,7 @@
     "id": "paras-gurgaon",
     "name": "Paras Hospitals, Gurgaon",
     "visible": true,
+    "url" : "/hospital/paras",
     "rating": { "value": 4.2, "reviews": 32 },
     "patientsRecommended": { "percent": 92 },
     "location": {
@@ -44,7 +45,7 @@
       ]
     },
     "departments": {
-      "visible": true,
+      "visible": false,
       "list": [
         { "name": "Cardiology and Cardiac Surgery", "doctorCount": 4 },
         { "name": "Neurology and Neurosurgery", "doctorCount": 9 },
@@ -196,9 +197,9 @@
     ],
     "media": {
       "images": [
-        { "url": "/images/hospital/paras/paras-1.jpg", "visible": true },
-        { "url": "/images/hospital/paras/paras-2.jpeg", "visible": true },
-        { "url": "/images/hospital/paras/paras-3.png", "visible": true }
+        { "url": "/Images/hospital/paras/paras-1.jpg", "visible": true },
+        { "url": "/Images/hospital/paras/paras-2.jpeg", "visible": true },
+        { "url": "/Images/hospital/paras/paras-3.png", "visible": true }
       ],
       "videos": [
         { "url": "https://youtube.com/embed/example-paras1", "visible": true }

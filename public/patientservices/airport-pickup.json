@@ -1,36 +1,56 @@
 {
-    "name": "Airport Pickup & Ground Transfers",
-    "description": "Seamless travel experience for international patients in India with safe airport pickup, hospital transfers, and ground transportation.",
-    "services": [
-      "Airport Pickup & Drop: Private cars or ambulances for safe travel",
-      "Hospital Transfers: Directly from airport to hospital admission desk",
-      "Hotel / Guesthouse Transfers: Drop-off at pre-booked accommodations",
-      "Ambulance Transfers: For patients requiring stretcher, oxygen, or medical care",
-      "City Transfers: Comfortable ground travel for consultations & follow-ups"
-    ],
-    "whyChooseUs": [
-      "Meet-and-greet at airport arrival gate",
-      "Professional drivers trained for patient comfort",
-      "Options: Sedan, SUV, luxury cars, or ambulances",
-      "24/7 availability across Delhi NCR, Mumbai, Bangalore & other hubs",
-      "Assistance with luggage & medical equipment",
-      "Stress-free travel for patients & family"
-    ],
-    "specialSupport": [
-      "Multilingual assistance (Arabic, Russian, French, African languages)",
-      "Coordination with hospitals for direct admissions",
-      "Travel for wheelchair-bound or bed-bound patients",
-      "Affordable packages compared to regular taxi or private services"
-    ],
-    "cost": [
-      "Airport Pickup (Car): $25 – $50",
-      "Ambulance Transfer (Basic): $100 – $200",
-      "Ambulance Transfer (ICU-equipped): $250 – $500",
-      "Outstation Transfers: Based on distance & requirements"
-    ],
-    "cta": {
-      "text": "Request Ground Transfer Service",
-      "url": "/services/airport-pickup"
+  "slug": "airport-pickup",
+  "title": "🚖 Airport Pickup & Ground Transfers",
+  "h1": "Seamless Travel Experience for International Patients in India",
+  "intro": "Arriving in a new country for medical treatment can be stressful. To ensure a safe, smooth, and worry-free journey, we provide airport pickup and ground transfer services for all our international patients. From the moment you land in India, our dedicated team takes care of you and your family, making sure you reach your hospital or accommodation comfortably.",
+  "sections": [
+    {
+      "heading": "🚐 Our Transfer Services Include",
+      "points": [
+        "Airport Pickup & Drop: Private cars or ambulances for safe travel",
+        "Hospital Transfers: Directly from airport to hospital admission desk",
+        "Hotel / Guesthouse Transfers: Drop-off at pre-booked accommodations",
+        "Ambulance Transfers: For patients requiring stretcher, oxygen, or medical care",
+        "City Transfers: Comfortable ground travel for consultations & follow-ups"
+      ]
+    },
+    {
+      "heading": "🩺 Why Patients Trust Our Ground Transfers",
+      "points": [
+        "Meet-and-greet at airport arrival gate",
+        "Professional drivers trained for patient comfort",
+        "Options: Sedan, SUV, luxury cars, or ambulances",
+        "24/7 availability across major cities",
+        "Assistance with luggage & medical equipment",
+        "Stress-free travel for patients & family"
+      ]
+    },
+    {
+      "heading": "🌍 Special Support for International Patients",
+      "points": [
+        "Multilingual assistance (Arabic, Russian, French, African languages)",
+        "Coordination with hospitals for direct admissions",
+        "Travel for wheelchair-bound or bed-bound patients",
+        "Affordable packages compared to regular taxi or private services"
+      ]
+    },
+    {
+      "heading": "💰 Cost of Transfers",
+      "points": [
+        "Airport Pickup (Car): $25 – $50",
+        "Ambulance Transfer (Basic): $100 – $200",
+        "Ambulance Transfer (ICU-equipped): $250 – $500",
+        "Outstation Transfers: Based on distance & requirements"
+      ]
     }
+  ],
+  "cta": {
+    "headline": "📞 Book Airport Pickup & Transfers Now",
+    "points": [
+      "Safe & reliable transport",
+      "Available 24/7 in major Indian cities",
+      "Tailored for medical patients & families"
+    ],
+    "button": { "label": "Request Ground Transfer Service →", "link": "/free-consultation" }
   }
-  
+}

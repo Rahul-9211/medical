@@ -67,24 +67,32 @@
     },
     "top_specialists": [
       {
-        "name": "Dr. Ashok Rajgopal",
-        "specialization": "Joint Replacement & Sports Medicine",
+        "name": "Dr. Arvind Mehra",
+        "specialization": "Chief - Orthopedics & Trauma Centre",
         "experience": "35+ years, 30,000+ joint replacements",
-        "affiliation": "Medanta Hospital, Gurugram",
-        "expertise": "Robotic Knee & Hip Replacement, Complex Revision Surgeries"
+        "expertise": "Robotic Knee & Hip Replacement, Complex Revision Surgeries",
+        "consultation_link" : "/doctors/arvind-mehra"
       },
       {
-        "name": "Dr. IPS Oberoi",
-        "specialization": "Orthopedics & Arthroscopy",
-        "experience": "25+ years, 10,000+ successful procedures",
-        "affiliation": "Artemis Hospital, Gurugram",
-        "expertise": "Arthroscopy, Sports Medicine, Complex Fracture Fixation"
+        "name": "Dr. Jatinder Bir Singh Jaggi",
+        "specialization": "Director – Orthopaedics & Joint Replacement",
+        "experience": "20+ years, 10,000+ successful procedures",
+        "expertise": "Arthroscopy, Sports Medicine, Complex Fracture Fixation",
+        "consultation_link" : "/doctors/jatinder-bir-singh-jaggi"
+      },
+      {
+        "name": "Dr. Vivek Logani",
+        "specialization": "Director - Joint Replacement & Sports Injury Centre",
+        "experience": "23+ years, 5,000+ successful procedures",
+        "expertise": "Arthroscopy, Sports Medicine, Complex Fracture Fixation",
+        "consultation_link" : "/doctors/vivek-logani"
       }
     ],
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your X-rays, MRI scans & medical reports for a free review by India's top orthopedic surgeons. We'll provide a personalized treatment & cost plan before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

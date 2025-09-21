@@ -1,5 +1,6 @@
 {
     "id": "marengo-asia-faridabad",
+    "url": "/hospital/marengo-asia",
     "name": "Marengo Asia Hospitals , Gurgaon",
     "visible": true,
     "rating": { "value": 4.4, "reviews": 21 },
@@ -38,7 +39,7 @@
       ]
     },
     "departments": {
-      "visible": true,
+      "visible": false,
       "list": [
         { "name": "Cardiology and Cardiac Surgery", "doctorCount": 5 },
         { "name": "Neurology and Neurosurgery", "doctorCount": 3 },
@@ -199,9 +200,9 @@
     ],
     "media": {
       "images": [
-        { "url": "/images/hospital/marengo/marengo-1.png", "visible": true },
-        { "url": "/images/hospital/marengo/marengo-2.png", "visible": true },
-        { "url": "/images/hospital/marengo/marengo-3.png", "visible": true }
+        { "url": "/Images/hospital/marengo/marengo-1.png", "visible": true },
+        { "url": "/Images/hospital/marengo/marengo-2.png", "visible": true },
+        { "url": "/Images/hospital/marengo/marengo-3.png", "visible": true }
       ],
       "videos": []
     },

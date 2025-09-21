@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import websiteData from "@/data/websiteData.json";
 import QuoteForm from "@/components/QuoteForm";
 
@@ -62,16 +63,20 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
           <div className="lg:col-span-2 space-y-8">
             {/* Profile Header */}
             <div className="flex flex-col md:flex-row items-center gap-6">
-              <div className="w-48 h-48 flex items-center justify-center rounded-full bg-gradient-to-br from-teal to-teal-light shadow-xl border-2 border-white/50 text-white text-4xl font-bold relative overflow-hidden backdrop-blur-sm">
-                <div className="absolute inset-0 bg-gradient-to-br from-teal/80 to-teal-light/80"></div>
-                <span className="relative z-10">
-                  {doctor.name
-                    .split(" ")
-                    .map((n) => n[0])
-                    .join("")
-                    .toUpperCase()
-                    .slice(0, 2)}
-                </span>
+              <div className="w-48 h-48 rounded-full shadow-xl border-4 border-white/80 relative overflow-hidden">
+                <Image 
+                  src="/doctors/doctor_avatar.png" 
+                  alt={`${doctor.name} - Doctor Avatar`}
+                  width={192}
+                  height={192}
+                  className="w-full h-full object-cover"
+                />
+                {/* Professional Badge */}
+                {/* <div className="absolute bottom-2 right-2 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg">
+                  <svg className="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                </div> */}
               </div>
               <div>
                 <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal to-teal-light">{doctor.name}</h1>

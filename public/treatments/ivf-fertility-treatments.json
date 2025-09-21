@@ -66,10 +66,10 @@
     },
     "top_specialists": [
       {
-        "name": "Dr. Firuza Parikh",
-        "specialization": "IVF & Reproductive Medicine",
-        "experience": "35+ years, 20,000+ successful IVF cycles",
-        "affiliation": "Jaslok Hospital, Mumbai",
+        "name": "Dr. Suman Lal",
+        "specialization": "Director – Obstetrics & Gynaecology",
+        "experience": "27+ years, 20,000+ successful IVF cycles",
+        "consultation_link" : "/doctors/suman-lal",
         "expertise": "IVF, ICSI, Egg Donation, Fertility Preservation"
       },
       {
@@ -83,7 +83,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your fertility test reports, hormone profiles, and ultrasound scans for a free review by India's leading fertility specialists. We'll provide a customized treatment & cost plan before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

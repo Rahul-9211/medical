@@ -65,34 +65,63 @@ export default function TestimonialsSection({ testimonials }: TestimonialsSectio
           </p>
         </div>
 
-        {/* Main Testimonial */}
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 lg:p-12 shadow-2xl border border-white/20 mb-12">
-          <div className="text-center">
-            {/* Patient Photo */}
-            <div className="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-to-br from-green-100 to-teal-100 flex items-center justify-center">
-              <span className="text-3xl font-bold text-green-600">
-                {patientStories[currentPatient].name.charAt(0)}
-              </span>
-            </div>
-            
-            {/* Testimonial Text */}
-            <blockquote className="text-xl lg:text-2xl text-gray-700 leading-relaxed italic mb-6 max-w-4xl mx-auto">
-              "{patientStories[currentPatient].text}"
-            </blockquote>
-            
-            {/* Patient Info */}
-            <div className="flex items-center justify-center text-sm text-gray-500">
-              <span className="mr-4">
-                <strong>Treatment:</strong> {patientStories[currentPatient].treatment}
-              </span>
-              <span>
-                <strong>From:</strong> {patientStories[currentPatient].country}
-              </span>
+        {/* Main Testimonial with Side Navigation */}
+        <div className="relative">
+          {/* Left Arrow */}
+          <button
+            onClick={() => setCurrentPatient(prev => 
+              prev === 0 ? patientStories.length - 1 : prev - 1
+            )}
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white/90 backdrop-blur-sm hover:bg-white transition-all duration-300 shadow-lg hover:shadow-xl border border-white/20 hover:scale-110"
+            aria-label="Previous testimonial"
+          >
+            <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          {/* Right Arrow */}
+          <button
+            onClick={() => setCurrentPatient(prev => 
+              prev === patientStories.length - 1 ? 0 : prev + 1
+            )}
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white/90 backdrop-blur-sm hover:bg-white transition-all duration-300 shadow-lg hover:shadow-xl border border-white/20 hover:scale-110"
+            aria-label="Next testimonial"
+          >
+            <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          {/* Testimonial Card */}
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 lg:p-12 shadow-2xl border border-white/20 mb-12">
+            <div className="text-center">
+              {/* Patient Photo */}
+              <div className="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-to-br from-green-100 to-teal-100 flex items-center justify-center">
+                <span className="text-3xl font-bold text-green-600">
+                  {patientStories[currentPatient].name.charAt(0)}
+                </span>
+              </div>
+              
+              {/* Testimonial Text */}
+              <blockquote className="text-xl lg:text-2xl text-gray-700 leading-relaxed italic mb-6 max-w-4xl mx-auto">
+                "{patientStories[currentPatient].text}"
+              </blockquote>
+              
+              {/* Patient Info */}
+              <div className="flex items-center justify-center text-sm text-gray-500">
+                <span className="mr-4">
+                  <strong>Treatment:</strong> {patientStories[currentPatient].treatment}
+                </span>
+                <span>
+                  <strong>From:</strong> {patientStories[currentPatient].country}
+                </span>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Patient Navigation */}
+        {/* Dots Navigation */}
         <div className="flex justify-center space-x-2 mb-8">
           {patientStories.map((_, index) => (
             <button
@@ -108,7 +137,7 @@ export default function TestimonialsSection({ testimonials }: TestimonialsSectio
         {/* CTA Section */}
         <div className="text-center">
           <Link
-            href="/testimonials"
+            href="/success-stories"
             className="inline-flex items-center sm:px-8 sm:py-4 px-6 py-3 bg-[#7AE5F5] text-white font-semibold rounded-xl hover:bg-[#7AE5F5]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
             See More Patient Testimonials

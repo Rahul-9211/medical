@@ -77,7 +77,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your lung function reports, CT scans, or medical history for a free evaluation. Get a personalized treatment & cost plan from India's top pulmonologists before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

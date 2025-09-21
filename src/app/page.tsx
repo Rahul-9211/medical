@@ -10,6 +10,8 @@ import AyurvedaSection from '@/components/AyurvedaSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import ConsultationCTASection from '@/components/ConsultationCTASection';
 import BlogSection from '@/components/BlogSection';
+import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -67,13 +69,21 @@ export default function Home() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <button className="bg-[#56DDEF] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  <Link
+                    href="/free-consultation"
+                    className="bg-[#56DDEF] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center"
+                  >
                     Get Free Consultation Now
-                  </button>
-                  <button className="bg-white text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg border-2 border-gray-200 hover:border-yellow-300 hover:bg-yellow-50/50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  </Link>
+
+                  <Link
+                    href="/treatments"
+                    className="bg-white text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg border-2 border-gray-200 hover:border-yellow-300 hover:bg-yellow-50/50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center"
+                  >
                     Explore Treatments
-                  </button>
+                  </Link>
                 </div>
+
               </div>
 
               {/* Right Content - Integrated Form */}

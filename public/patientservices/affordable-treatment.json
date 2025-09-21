@@ -1,61 +1,48 @@
 {
-    "name": "Affordable Treatment Cost",
-    "description": "World-class medical care in India at a fraction of global prices, making healthcare accessible, transparent, and patient-focused.",
-    "whyIndia": [
-      "Lower infrastructure & operational costs",
-      "Competitive pricing among hospitals",
-      "No long waiting lists — faster treatment",
-      "Cost-effective combination of allopathic & Ayurvedic therapies",
-      "Transparent pricing with no hidden charges"
-    ],
-    "popularTreatments": [
-      {
-        "treatment": "Heart Surgery / Bypass",
-        "indiaUSD": "$4,000 – $6,000",
-        "internationalUSD": "$35,000 – $60,000",
-        "savings": "Up to 80%"
-      },
-      {
-        "treatment": "Knee / Hip Replacement",
-        "indiaUSD": "$4,000 – $6,500",
-        "internationalUSD": "$15,000 – $20,000",
-        "savings": "Up to 70%"
-      },
-      {
-        "treatment": "Cancer Treatment",
-        "indiaUSD": "$6,000 – $15,000",
-        "internationalUSD": "$40,000 – $100,000",
-        "savings": "Up to 75%"
-      },
-      {
-        "treatment": "IVF & Fertility",
-        "indiaUSD": "$2,500 – $4,500",
-        "internationalUSD": "$12,000 – $20,000",
-        "savings": "Up to 75%"
-      },
-      {
-        "treatment": "Liver / Kidney Transplant",
-        "indiaUSD": "$15,000 – $30,000",
-        "internationalUSD": "$120,000 – $200,000",
-        "savings": "Up to 85%"
-      },
-      {
-        "treatment": "Cosmetic / Plastic Surgery",
-        "indiaUSD": "$1,500 – $6,000",
-        "internationalUSD": "$8,000 – $20,000",
-        "savings": "Up to 70%"
-      }
-    ],
-    "howWeEnsureAffordability": [
-      "Free consultation & cost estimate before arrival",
-      "Transparent pricing with inclusive packages",
-      "Negotiated rates with top hospitals for international patients",
-      "Optional accommodation & transport packages to reduce costs",
-      "Flexible payment options including installments"
-    ],
-    "cta": {
-      "text": "Get Free Cost Estimate & Consultation",
-      "url": "/services/affordable-treatment"
+  "slug": "affordable-treatment",
+  "title": "💰 Affordable Treatment Cost in India",
+  "h1": "World-Class Medical Care at a Fraction of Global Prices",
+  "intro": "India is recognized globally for offering high-quality medical treatment at significantly lower costs. International patients can access advanced surgeries, treatments, and therapies at 60–80% less than in the USA, UK, or UAE — without compromising on quality. Our goal is to make healthcare accessible, transparent, and patient-focused, ensuring you receive the best treatment at the most affordable price.",
+  "sections": [
+    {
+      "heading": "🏥 Why India Offers Affordable Healthcare",
+      "points": [
+        "Lower infrastructure & operational costs",
+        "Competitive pricing among hospitals",
+        "No long waiting lists — faster treatment",
+        "Cost-effective combination of allopathic & Ayurvedic therapies",
+        "Transparent pricing with no hidden charges"
+      ]
+    },
+    {
+      "heading": "🌍 Popular Treatments & Approximate Costs",
+      "points": [
+        "Heart Surgery / Bypass: $4,000 – $6,000 (USA/UK/UAE: $35,000 – $60,000)",
+        "Knee / Hip Replacement: $4,000 – $6,500 (USA/UK/UAE: $15,000 – $20,000)",
+        "Cancer Treatment: $6,000 – $15,000 (USA/UK/UAE: $40,000 – $100,000)",
+        "IVF & Fertility: $2,500 – $4,500 (USA/UK/UAE: $12,000 – $20,000)",
+        "Liver / Kidney Transplant: $15,000 – $30,000 (USA/UK/UAE: $120,000 – $200,000)",
+        "Cosmetic / Plastic Surgery: $1,500 – $6,000 (USA/UK/UAE: $8,000 – $20,000)"
+      ]
+    },
+    {
+      "heading": "🩺 How We Ensure Affordability",
+      "points": [
+        "Free consultation & cost estimate before arrival",
+        "Transparent pricing with inclusive packages",
+        "Negotiated rates with top hospitals",
+        "Optional accommodation & transport packages to reduce costs",
+        "Flexible payment options including installments"
+      ]
     }
+  ],
+  "cta": {
+    "headline": "📞 Plan Your Affordable Treatment in India",
+    "points": [
+      "Save 60–80% compared to Western countries",
+      "Transparent, all-inclusive pricing",
+      "Patient-focused care without compromise"
+    ],
+    "button": { "label": "Get Free Cost Estimate & Consultation →", "link": "/free-consultation" }
   }
-  
+}

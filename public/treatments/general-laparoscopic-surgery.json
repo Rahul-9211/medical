@@ -55,17 +55,18 @@
         "expertise": "Gallbladder, Hernia, Bariatric & Advanced GI surgeries"
       },
       {
-        "name": "Dr. Vivek Bindal",
-        "specialization": "Advanced Laparoscopic & Robotic Surgery",
-        "experience": "20+ years",
-        "affiliation": "Fortis Hospital, Gurugram",
-        "expertise": "Laparoscopic Hernia, Colorectal & Bariatric Surgery"
+        "name": "Dr. Kaushal Yadav",
+        "specialization": "Associate Director & Unit Head – Surgical Oncology",
+        "experience": "20+ years, 10,000+ surgeries",
+        "expertise": "Minimally invasive cancer surgery, robotic oncology, GI cancers",
+        "consultation_link" : "/doctors/kaushal-yadav"
       }
     ],
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your reports and diagnostic scans for a free review by top Indian surgeons. We'll provide a personalized treatment & cost plan before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

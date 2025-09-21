@@ -87,24 +87,25 @@
     },
     "top_specialists": [
       {
-        "name": "Dr. Naresh Trehan",
-        "specialization": "Cardiothoracic & Vascular Surgery (CTVS)",
-        "experience": "40+ years, 48,000+ successful heart surgeries",
-        "affiliation": "Chairman, Medanta – The Medicity, Gurugram",
-        "expertise": "CABG, valve surgery, minimally invasive & robotic cardiac surgery"
+        "name": "Dr. Rohit Goel",
+        "specialization": "Principal Consultant – Cardiology",
+        "experience": "18+ years, 48,000+ successful heart surgeries",
+        "expertise": "CABG, valve surgery, minimally invasive & robotic cardiac surgery",
+        "consultation_link" : "/doctors/rohit-goel"
       },
       {
-        "name": "Dr. Rakesh Jain",
-        "specialization": "Interventional Cardiology",
+        "name": "Dr. Amit Bhushan Sharma",
+        "specialization": "Director & Unit Head - Interventional Cardiology",
         "experience": "25+ years, 15,000+ angioplasties & stenting procedures",
-        "affiliation": "Fortis Memorial Research Institute, Gurugram",
-        "expertise": "Coronary interventions, electrophysiology, pacemaker/ICD implants"
+        "expertise": "Coronary interventions, electrophysiology, pacemaker/ICD implants",
+        "consultation_link" : "/doctors/amit-bhushan-sharma"
       }
     ],
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your medical reports for a free review by leading Indian cardiologists. We'll provide a personalized treatment & cost plan before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

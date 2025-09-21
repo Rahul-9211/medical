@@ -47,10 +47,11 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
         </div>
 
         {/* Hospitals Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-16">
+                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-16">
           {hospitals.list.map((hospital, index) => (
-            <div
+            <Link
               key={index}
+              href={hospital.url}
               className="group bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
             >
               {/* Hospital Image */}
@@ -62,8 +63,9 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
                   height={225}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   onError={() => {
-                    // Fallback to colored background if image fails to load
-                    const fallback = document.querySelector(`[data-fallback="${index}"]`) as HTMLElement;
+                    const fallback = document.querySelector(
+                      `[data-fallback="${index}"]`
+                    ) as HTMLElement;
                     if (fallback) fallback.style.display = 'flex';
                   }}
                 />
@@ -125,9 +127,10 @@ export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
                   JCI & NABH Accredited
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
+
 
         {/* CTA Section */}
         <div className="text-center">

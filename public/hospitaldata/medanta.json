@@ -1,6 +1,7 @@
 {
     "id": "medanta-gurgaon",
     "name": "Medanta - The Medicity Hospital, Gurgaon",
+    "url" : "/hospital/medanta",
     "visible": true,
     "rating": { "value": 3.8, "reviews": 69 },
     "patientsRecommended": { "percent": 95 },
@@ -51,7 +52,7 @@
       ]
     },
     "departments": {
-    "visible": true,
+    "visible": false,
     "list": [
         {
         "name": "Cardiology and Cardiac Surgery",
@@ -275,9 +276,9 @@
     ],
     "media": {
     "images": [
-      { "url": "/images/hospital/medanta/medanta-1.jpg", "visible": true },
-      { "url": "/images/hospitals/medanta/medanta-2.jpg", "visible": true },
-      { "url": "/images/hospitals/medanta/medanta-3.jpeg", "visible": true }
+      { "url": "/Images/hospital/medanta/medanta-1.jpg", "visible": true },
+      { "url": "/Images/hospitals/medanta/medanta-2.jpg", "visible": true },
+      { "url": "/Images/hospitals/medanta/medanta-3.jpeg", "visible": true }
     ],
     "videos": [
       { "url": "https://youtube.com/embed/example1", "visible": true },
