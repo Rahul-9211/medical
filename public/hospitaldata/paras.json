@@ -196,9 +196,9 @@
     ],
     "media": {
       "images": [
-        { "url": "/images/hospital/paras/paras-1.jpg", "visible": true },
-        { "url": "/images/hospital/paras/paras-2.jpeg", "visible": true },
-        { "url": "/images/hospital/paras/paras-3.png", "visible": true }
+        { "url": "/Images/hospital/paras/paras-1.jpg", "visible": true },
+        { "url": "/Images/hospital/paras/paras-2.jpeg", "visible": true },
+        { "url": "/Images/hospital/paras/paras-3.png", "visible": true }
       ],
       "videos": [
         { "url": "https://youtube.com/embed/example-paras1", "visible": true }

@@ -1,35 +1,55 @@
 {
-    "name": "Air Ambulance Services",
-    "description": "Emergency medical evacuation and international transfers with trained medical teams onboard, ensuring patient safety during domestic and international flights.",
-    "highlights": [
-      "Domestic Air Transfers: From any Indian city to top hospitals",
-      "International Evacuations: From Africa, Middle East, Asia, or Europe to India",
-      "Bed-to-Bed Transfers: Complete coordination from patient location to ICU",
-      "Organ Transport Flights: Fast transfers for transplant cases",
-      "Commercial Stretcher Transfers: Cost-effective option on regular flights"
-    ],
-    "medicalFacilities": [
-      "Trained critical care doctors & nurses",
-      "Advanced life-support systems (ICU setup)",
-      "Ventilators, defibrillators & emergency drugs",
-      "Continuous monitoring during transfer",
-      "Special arrangements for pediatric & neonatal patients"
-    ],
-    "whyChooseUs": [
-      "Available 24/7, 365 days",
-      "Fast coordination with hospitals for ICU/OT readiness",
-      "Cost-effective international transfers (up to 60% cheaper than Western providers)",
-      "Global partnerships for visa & airport clearance support",
-      "Trusted by patients from Africa, Middle East, CIS, and Asia"
-    ],
-    "cost": [
-      "Domestic Flights (India): $5,000 – $10,000 (₹4 – 8 lakhs)",
-      "International Flights: $15,000 – $40,000 depending on distance",
-      "Commercial Stretcher Transfer: $2,500 – $7,000 (economical option)"
-    ],
-    "cta": {
-      "text": "Request Air Ambulance Assistance",
-      "url": "/services/air-ambulance"
+  "slug": "air-ambulance",
+  "title": "✈️ Air Ambulance Services in India",
+  "h1": "Emergency Medical Evacuation & International Transfers",
+  "intro": "Medical emergencies require fast, safe, and reliable air transport. We provide 24/7 air ambulance services in partnership with India’s top aviation and medical evacuation providers.",
+  "sections": [
+    {
+      "heading": "🚑 Types of Air Ambulance Services We Provide",
+      "points": [
+        "Domestic Air Transfers: From any Indian city to top hospitals",
+        "International Evacuations: From Africa, Middle East, Asia, or Europe to India",
+        "Bed-to-Bed Transfers: Complete coordination from the patient’s location to ICU",
+        "Organ Transport Flights: Fast transfers for transplant cases",
+        "Commercial Stretcher Transfers: Cost-effective option on regular flights"
+      ]
+    },
+    {
+      "heading": "🩺 Onboard Medical Facilities",
+      "points": [
+        "Trained critical care doctors & nurses",
+        "Advanced life-support systems (ICU setup)",
+        "Ventilators, defibrillators & emergency drugs",
+        "Continuous monitoring during transfer",
+        "Special arrangements for pediatric & neonatal patients"
+      ]
+    },
+    {
+      "heading": "🌍 Why Patients Choose Our Air Ambulance Service",
+      "points": [
+        "Available 24/7, 365 days",
+        "Fast coordination with hospitals for ICU/OT readiness",
+        "Cost-effective international transfers (up to 60% cheaper than Western providers)",
+        "Global partnerships for visa & airport clearance support",
+        "Trusted by patients from Africa, Middle East, CIS, and Asia"
+      ]
+    },
+    {
+      "heading": "💰 Air Ambulance Cost in India",
+      "points": [
+        "Domestic Flights (India): $5,000 – $10,000",
+        "International Flights: $15,000 – $40,000 depending on distance",
+        "Commercial Stretcher Transfer: $2,500 – $7,000"
+      ]
     }
+  ],
+  "cta": {
+    "headline": "📞 Book Emergency Air Ambulance Now",
+    "points": [
+      "Fast response, anywhere in the world",
+      "ICU-equipped aircraft with medical team",
+      "Trusted service for critical cases"
+    ],
+    "button": { "label": "Request Air Ambulance Assistance →", "link": "/free-consultation" }
   }
-  
+}

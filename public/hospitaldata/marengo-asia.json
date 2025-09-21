@@ -199,9 +199,9 @@
     ],
     "media": {
       "images": [
-        { "url": "/images/hospital/marengo/marengo-1.png", "visible": true },
-        { "url": "/images/hospital/marengo/marengo-2.png", "visible": true },
-        { "url": "/images/hospital/marengo/marengo-3.png", "visible": true }
+        { "url": "/Images/hospital/marengo/marengo-1.png", "visible": true },
+        { "url": "/Images/hospital/marengo/marengo-2.png", "visible": true },
+        { "url": "/Images/hospital/marengo/marengo-3.png", "visible": true }
       ],
       "videos": []
     },

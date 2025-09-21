@@ -228,9 +228,9 @@
   ],
   "media": {
     "images": [
-      { "url": "/images/hospital/fortis/fortis-1.jpg", "visible": true },
-      { "url": "/images/hospital/fortis/fortis-2.jpg", "visible": true },
-      { "url": "/images/hospital/fortis/fortis-3.png", "visible": true }
+      { "url": "/Images/hospital/fortis/fortis-1.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis/fortis-2.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis/fortis-3.png", "visible": true }
     ],
     "videos": [
       { "url": "https://youtube.com/embed/example-fortis1", "visible": true }

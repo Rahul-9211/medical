@@ -245,9 +245,9 @@
     ],
     "media": {
       "images": [
-        { "url": "/images/hospital/artemis/artemis-1.jpg", "visible": true },
-        { "url": "/images/hospital/artemis/artemis-2.jpg", "visible": true },
-        { "url": "/images/hospital/artemis/artemis-3.jpg", "visible": true }
+        { "url": "/Images/hospital/artemis/artemis-1.jpg", "visible": true },
+        { "url": "/Images/hospital/artemis/artemis-2.jpg", "visible": true },
+        { "url": "/Images/hospital/artemis/artemis-3.jpg", "visible": true }
       ],
       "videos": [
         { "url": "https://youtube.com/embed/example-artemis1", "visible": true }

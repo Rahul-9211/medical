@@ -1,35 +1,56 @@
 {
-    "name": "Free Second Opinion & Online Consultations",
-    "description": "Expert medical advice from India’s top doctors before you travel. Patients can share reports, discuss treatment options, and get transparent cost estimates.",
-    "highlights": [
-      "Upload reports: Share scans, test results & prescriptions securely",
-      "Doctor review: Reports evaluated by expert specialists in India",
-      "Treatment options: Detailed recommendations and alternatives",
-      "Cost estimate: Transparent package pricing shared in advance",
-      "Follow-up: Option for online consultation with the treating doctor"
-    ],
-    "travelSupport": [],
-    "whyChooseUs": [
-      "Saves travel cost & time before final decision",
-      "Access to India’s top surgeons & specialists",
-      "Helps compare treatment options & costs",
-      "Builds trust and transparency before arrival",
-      "Easy follow-up care after returning home",
-      "Direct access to doctors trained in USA/UK/Europe",
-      "100% secure and confidential sharing of medical records",
-      "Available for cardiology, oncology, IVF, neurosurgery, orthopedics & more",
-      "Multilingual support for Arabic, Russian, French & African patients",
-      "Helps avoid misdiagnosis and unnecessary procedures"
-    ],
-    "cost": [
-      "First Second Opinion: FREE (via email/report review)",
-      "Video Consultation (30 mins): $25 – $50",
-      "Follow-Up Consultation: $20 – $30",
-      "Package for Multiple Consultations: $80 – $120"
-    ],
-    "cta": {
-      "text": "Request Free Second Opinion Now",
-      "url": "/services/second-opinion"
+  "slug": "second-opinion",
+  "title": "🩺 Free Second Opinion & Online Consultations",
+  "h1": "Expert Medical Advice from India’s Top Doctors – Before You Travel",
+  "intro": "Making the right medical decision is crucial. That’s why we provide free second opinions and online consultations with India’s leading specialists.",
+  "sections": [
+    {
+      "heading": "📋 How Our Free Second Opinion Works",
+      "points": [
+        "Upload Reports: Share scans, test results & prescriptions securely",
+        "Doctor Review: Reports evaluated by expert specialists in India",
+        "Treatment Options: Get detailed recommendations and alternatives",
+        "Cost Estimate: Transparent package pricing shared in advance",
+        "Follow-Up: Option for online consultation with the treating doctor"
+      ]
+    },
+    {
+      "heading": "🖥️ Benefits of Online Consultations",
+      "points": [
+        "Saves travel cost & time before final decision",
+        "Access to India’s top surgeons & specialists",
+        "Helps compare treatment options & costs",
+        "Builds trust and transparency before arrival",
+        "Easy follow-up care after returning home"
+      ]
+    },
+    {
+      "heading": "🌍 Why International Patients Prefer This Service",
+      "points": [
+        "Direct access to doctors trained in USA/UK/Europe",
+        "100% secure and confidential sharing of medical records",
+        "Available for cardiology, oncology, IVF, neurosurgery, orthopedics & more",
+        "Multilingual support for Arabic, Russian, French & African patients",
+        "Helps avoid misdiagnosis and unnecessary procedures"
+      ]
+    },
+    {
+      "heading": "💰 Cost of Online Consultations",
+      "points": [
+        "First Second Opinion: FREE (via email/report review)",
+        "Video Consultation (30 mins): $25 – $50",
+        "Follow-Up Consultation: $20 – $30",
+        "Package for Multiple Consultations: $80 – $120"
+      ]
     }
+  ],
+  "cta": {
+    "headline": "📞 Get Trusted Medical Advice Today",
+    "points": [
+      "No cost, no obligation",
+      "Transparent medical guidance",
+      "Peace of mind before travel"
+    ],
+    "button": { "label": "Request Free Second Opinion Now →", "link": "/free-consultation" }
   }
-  
+}
