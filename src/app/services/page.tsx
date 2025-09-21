@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import BackgroundCarousel from '@/components/BackgroundCarousel';
 
 interface Service {
   title: string;
@@ -34,17 +35,15 @@ const PatientServicesPage = async () => {
       
       <main>
         {/* Hero Section */}
-        <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/80">
-          {/* Background Pattern */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
+        <section className="relative overflow-hidden py-20">
+          <BackgroundCarousel />
           
           <div className="relative max-w-4xl mx-auto px-6 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full mb-6 shadow-lg text-4xl backdrop-blur-sm">
               🌟
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">{data.headline}</h1>
-            <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed">{data.intro}</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">{data.headline}</h1>
+            <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8 leading-relaxed">{data.intro}</p>
             <Link
               href={data.cta.link}
               className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"

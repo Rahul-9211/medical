@@ -1,5 +1,6 @@
 
 import Link from 'next/link';
+import BackgroundCarousel from '@/components/BackgroundCarousel';
 
 export default async function LandingPage() {
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/treatmentCost/treatmentCost.json`, { cache: "no-store" });
@@ -20,21 +21,19 @@ export default async function LandingPage() {
     
     <main>
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50/80">
-        {/* Background Pattern */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
+      <section className="relative overflow-hidden py-20">
+        <BackgroundCarousel />
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-16">
-            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+            <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full mb-6 shadow-lg text-4xl backdrop-blur-sm">
               💸
             </div>
-            <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
               {landing.headline}
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
               {landing.intro}
             </p>
           </div>
