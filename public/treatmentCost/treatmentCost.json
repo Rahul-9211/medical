@@ -8,7 +8,7 @@
     ],
     "cta_primary": {
       "text": "Request a Free Treatment Cost Estimate",
-      "link": "/get-cost-estimate"
+      "link": "/free-consultation"
     },
     "cost_comparison": {
       "note": "Costs are approximate and vary depending on hospital, surgeon, and patient’s condition.",
@@ -89,7 +89,7 @@
     ],
     "cta_secondary": {
       "text": "Get Free Cost Estimate Now",
-      "link": "/get-cost-estimate",
+      "link": "/free-consultation",
       "benefits": [
         "100% Free & Confidential",
         "No Middlemen Fees",

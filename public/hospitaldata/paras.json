@@ -2,6 +2,7 @@
     "id": "paras-gurgaon",
     "name": "Paras Hospitals, Gurgaon",
     "visible": true,
+    "url" : "/hospital/paras",
     "rating": { "value": 4.2, "reviews": 32 },
     "patientsRecommended": { "percent": 92 },
     "location": {

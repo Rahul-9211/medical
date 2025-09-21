@@ -1,6 +1,7 @@
 // app/medical-treatments/page.tsx
 
 import BackgroundCarousel from "@/components/BackgroundCarousel";
+import Link from 'next/link';
 
 
 export default async function MedicalTreatmentsPage() {
@@ -32,9 +33,12 @@ export default async function MedicalTreatmentsPage() {
             <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-8">
               {pageData.introText}
             </p>
+            <Link href={pageData.link}>
             <button className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg">
               {pageData.ctaButton}
             </button>
+            </Link>
+
           </div>
         </section>
 
@@ -184,9 +188,11 @@ export default async function MedicalTreatmentsPage() {
 
             {/* Main CTA */}
             <div className="mb-16">
+            <Link href={pageData.link}>
               <button className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg">
                 {consultation.ctaButton}
               </button>
+              </Link>
             </div>
           </div>
         </section>

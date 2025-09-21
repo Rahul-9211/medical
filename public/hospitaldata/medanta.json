@@ -1,6 +1,7 @@
 {
     "id": "medanta-gurgaon",
     "name": "Medanta - The Medicity Hospital, Gurgaon",
+    "url" : "/hospital/medanta",
     "visible": true,
     "rating": { "value": 3.8, "reviews": 69 },
     "patientsRecommended": { "percent": 95 },

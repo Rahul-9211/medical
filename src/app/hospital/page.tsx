@@ -10,6 +10,7 @@ interface Hospital {
     value: number;
     reviews: number;
   };
+  url : string;
   accreditations?: string[];
   beds?: number;
   established?: string;
@@ -137,7 +138,7 @@ const HospitalPage = async () => {
                   return (
                     <a
                       key={hospital.id}
-                      href={`/hospital/${hospital.id}`}
+                      href={`${hospital.url}`}
                       className={`group bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 overflow-hidden ${color.hover}`}
                     >
                       <div className="relative h-48 overflow-hidden">
