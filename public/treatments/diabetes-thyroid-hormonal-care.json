@@ -77,7 +77,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your blood reports, imaging, and medical history for a free evaluation. Get a personalized treatment & cost plan from India's top endocrinologists before traveling.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

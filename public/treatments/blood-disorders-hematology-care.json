@@ -76,7 +76,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your blood reports, bone marrow results, and medical history for a free evaluation. Get a personalized treatment & cost plan from India's top hematology specialists before traveling.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

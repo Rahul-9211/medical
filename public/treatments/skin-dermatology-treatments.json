@@ -86,7 +86,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your skin or hair reports, photos, or diagnostic tests for a free evaluation. Get a personalized treatment & cost plan from India's top dermatologists before traveling.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

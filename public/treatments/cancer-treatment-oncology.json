@@ -75,24 +75,32 @@
     },
     "top_specialists": [
       {
-        "name": "Dr. Vinod Raina",
-        "specialization": "Medical Oncology",
-        "experience": "35+ years, 20,000+ cancer cases treated",
-        "affiliation": "Fortis Memorial Research Institute, Gurugram",
-        "expertise": "Chemotherapy, Immunotherapy, Targeted Therapies"
+        "name": "Dr. Amit Goel",
+        "specialization": "Director & Head – Renal Transplant, Uro-Oncology & Urology",
+        "experience": "22+ years, 20,000+ cancer cases treated",
+        "expertise": "Chemotherapy, Immunotherapy, Targeted Therapies",
+        "consultation_link" : "/doctors/amit-goel"
       },
       {
-        "name": "Dr. Sandeep Nayak",
-        "specialization": "Surgical Oncology & Robotic Cancer Surgery",
+        "name": "Dr. Kaushal Yadav",
+        "specialization": "Associate Director & Unit Head – Surgical Oncology",
         "experience": "20+ years, 10,000+ surgeries",
-        "affiliation": "Apollo Hospitals, Bengaluru",
-        "expertise": "Minimally invasive cancer surgery, robotic oncology, GI cancers"
+        "expertise": "Minimally invasive cancer surgery, robotic oncology, GI cancers",
+        "consultation_link" : "/doctors/kaushal-yadav"
+      },
+      {
+        "name": "Dr. (Col.) R Ranga Rao, VSM",
+        "specialization": "medical oncology",
+        "experience": "30+ years, 10,000+ surgeries",
+        "expertise": "Minimally invasive cancer surgery, robotic oncology, GI cancers",
+        "consultation_link" : "/doctors/r-ranga-rao"
       }
     ],
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your biopsy reports, PET scans, and pathology results for a free review by India's leading oncologists. We'll provide a personalized treatment & cost plan before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

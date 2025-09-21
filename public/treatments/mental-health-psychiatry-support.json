@@ -86,7 +86,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your psychiatric reports, therapy history, or clinical notes for a free evaluation. Receive a personalized mental health treatment & cost plan before travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

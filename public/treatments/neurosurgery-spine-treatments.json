@@ -73,24 +73,25 @@
     },
     "top_specialists": [
       {
-        "name": "Dr. V. P. Singh",
-        "specialization": "Neurosurgery & Spine Surgery",
-        "experience": "35+ years, 10,000+ neurosurgeries",
-        "affiliation": "Medanta Hospital, Gurugram",
-        "expertise": "Brain Tumors, Skull Base Surgery, Minimally Invasive Spine Surgery"
+        "name": "Dr. Arun Saroha",
+        "specialization": "Principal Director & Unit Head – Neurosciences, Neurosurgery & Spine Surgery",
+        "experience": "27+ years, 10,000+ neurosurgeries",
+        "expertise": "Brain Tumors, Skull Base Surgery, Minimally Invasive Spine Surgery",
+        "consultation_link" : "/doctors/arun-saroha"
       },
       {
-        "name": "Dr. Aditya Gupta",
-        "specialization": "Neurosurgery & Functional Neurosurgery",
-        "experience": "20+ years, 7,000+ surgeries",
-        "affiliation": "Artemis Hospital, Gurugram",
-        "expertise": "DBS, Epilepsy Surgery, Neuro-oncology, Spine Reconstruction"
+        "name": "Dr. (Prof.) Manmohan Singh",
+        "specialization": "Vice Chairperson – Neurosurgery",
+        "experience": "25+ years, 7,000+ surgeries",
+        "expertise": "DBS, Epilepsy Surgery, Neuro-oncology, Spine Reconstruction",
+        "consultation_link" : "/doctors/manmohan-singh"
       }
     ],
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your MRI, CT scans & medical reports for a free review by India's leading neurosurgeons. We will provide a personalized treatment plan with cost estimates before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   

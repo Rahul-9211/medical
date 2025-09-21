@@ -62,7 +62,8 @@
     "free_consultation": {
       "title": "Free Consultation",
       "description": "Send us your BMI, health records, and comorbidity reports for a free review by top bariatric specialists in India. We'll provide a personalized treatment & cost plan before you travel.",
-      "cta": "Book Free Consultation Now"
+      "cta": "Book Free Consultation Now",
+      "link" : "/free-consultation"
     }
   }
   
