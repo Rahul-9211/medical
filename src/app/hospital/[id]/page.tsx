@@ -229,7 +229,7 @@ export default async function HospitalPage({
               <section>
                 <div className="bg-white rounded-2xl shadow-lg p-6 lg:p-8 border border-gray-100">
                   <h2 className="text-2xl font-semibold mb-4 text-gray-900">Top Doctors</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                     {hospital.topDoctors.list.map((doc: any) => (
                       <div key={doc.id} className="bg-white rounded-xl shadow p-5 border border-gray-100">
                         <h3 className="font-bold text-lg">{doc.name}</h3>
