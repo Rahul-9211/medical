@@ -44,7 +44,7 @@
       ]
     },
     "departments": {
-      "visible": true,
+      "visible": false,
       "list": [
         { "name": "Cardiology and Cardiac Surgery", "doctorCount": 4 },
         { "name": "Neurology and Neurosurgery", "doctorCount": 9 },

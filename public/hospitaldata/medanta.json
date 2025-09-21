@@ -51,7 +51,7 @@
       ]
     },
     "departments": {
-    "visible": true,
+    "visible": false,
     "list": [
         {
         "name": "Cardiology and Cardiac Surgery",

@@ -45,7 +45,7 @@
       ]
     },
     "departments": {
-      "visible": true,
+      "visible": false,
       "list": [
         { "name": "Cardiology and Cardiac Surgery", "doctorCount": 16 },
         { "name": "Endocrinology", "doctorCount": 3 },

@@ -39,7 +39,7 @@
       ]
     },
     "departments": {
-      "visible": true,
+      "visible": false,
       "list": [
         { "name": "ENT Surgery", "doctorCount": 2 },
         { "name": "General Surgery", "doctorCount": 1 },
