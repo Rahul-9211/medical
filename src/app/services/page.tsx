@@ -4,6 +4,7 @@ import Link from "next/link";
 interface Service {
   title: string;
   description: string;
+  url : string
 }
 
 interface CTA {
@@ -97,10 +98,10 @@ const PatientServicesPage = async () => {
 
             <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Our Patient Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {data.services.map((service, idx) => (
+            {data.services.map((service, idx) => (
+              <Link href={`/services/${service.url}`} key={idx}>
                 <div
-                  key={idx}
-                  className={`group bg-white/80 backdrop-blur-sm rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-300 border border-white/20 relative overflow-hidden ${
+                  className={`group cursor-pointer bg-white/80 backdrop-blur-sm rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-300 border border-white/20 relative overflow-hidden ${
                     idx % 3 === 0 ? 'hover:border-[#7AE5F5]' : 
                     idx % 3 === 1 ? 'hover:border-[#56DDEF]' : 
                     'hover:border-green-500'
@@ -132,7 +133,9 @@ const PatientServicesPage = async () => {
                     </p>
                   </div>
                 </div>
-              ))}
+              </Link>
+            ))}
+
             </div>
           </div>
         </section>

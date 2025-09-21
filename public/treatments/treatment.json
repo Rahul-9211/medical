@@ -187,6 +187,7 @@
     "consultation": {
       "title": "📞 Start Your Healing Journey Today",
       "ctaButton": "Get a Free Online Consultation with Top Doctors",
+      "link" : "/free-consultation",
       "benefits": [
         "Expert guidance in 24 hours",
         "Fully confidential & no cost to you",

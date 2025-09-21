@@ -1,5 +1,7 @@
 import React from "react";
 import BackgroundCarousel from '@/components/BackgroundCarousel';
+import { title } from "process";
+import Link from 'next/link';
 
 const AboutPage = () => {
   const getCardColor = (index: number) => {
@@ -13,13 +15,16 @@ const AboutPage = () => {
   };
 
   const coreServices = [
-    { title: "Advanced Surgeries", icon: "🫀", desc: "Cardiac, Ortho, Neuro, Oncology" },
-    { title: "Organ Transplants", icon: "🫁", desc: "Liver, Kidney" },
-    { title: "IVF & Fertility", icon: "👶", desc: "Fertility Treatments" },
-    { title: "Cosmetic & Dental", icon: "✨", desc: "Cosmetic & Dental Care" },
-    { title: "Mental Health", icon: "🧠", desc: "Mental Health & Endocrine Disorders" },
-    { title: "Ayurveda", icon: "🌿", desc: "Post-Surgical Wellness Programs" }
+    { icon: "❤️", title: "Heart Surgery & Cardiology", url: "heart-surgery-cardiology", price: "from $4,000", description: "Advanced cardiac procedures with world-class surgeons" },
+    { icon: "🦴", title: "Joint Replacement (Knee/Hip)", url: "orthopedic-surgery-joint-replacements", price: "from $3,800", description: "Minimally invasive joint replacement surgeries" },
+    { icon: "🎗️", title: "Cancer Treatment (Oncology)", url: "cancer-treatment-oncology", price: "up to 60% cheaper", description: "Comprehensive cancer care with latest technology" },
+    { icon: "🧬", title: "IVF & Fertility Treatments", url: "ivf-fertility-treatments", price: "starting $2,500", description: "Advanced fertility solutions with high success rates" },
+    { icon: "🫀", title: "Liver & Kidney Transplants", url: "liver-kidney-transplant", price: "cost-effective & safe", description: "Organ transplantation with expert teams" },
+    { icon: "💅", title: "Plastic & Cosmetic Surgery", url: "plastic-cosmetic-surgery", price: "world-class results, affordable rates", description: "Aesthetic procedures with natural-looking outcomes" },
+    { icon: "💊", title: "Advanced Bone, Joint & Spine Care", url: "orthopedic-surgery-joint-replacements", price: "world-class results, affordable rates", description: "India is a global leader in orthopedic surgery" },
+    { icon: "👂", title: "Advanced ENT Treatments", url: "ent-surgeries", price: "world-class results, affordable rates", description: "India is a global hub for ENT treatments" }
   ];
+  
 
   const whyChooseUs = [
     { title: "Patient-First Philosophy", desc: "We're not just here to arrange treatment — we're here to take care of you. Our focus is on delivering the best possible outcome, not maximizing profits." },
@@ -114,15 +119,18 @@ const AboutPage = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {coreServices.map((service, i) => {
-                const color = getCardColor(i);
-                return (
-                  <div key={i} className={`group bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 ${color.hover}`}>
+             {coreServices.map((service, i) => {
+              const color = getCardColor(i);
+              return (
+                <Link href={`/treatments/${service.url}`} key={i}>
+                  <div className={`group cursor-pointer bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 ${color.hover}`}>
                     <div className="text-3xl mb-4">{service.icon}</div>
-                    <h3 className={`text-xl font-bold mb-2 ${color.text}`}>{service.title}</h3>
-                    <p className="text-gray-600">{service.desc}</p>
+                    <h3 className={`text-xl font-bold mb-1 ${color.text}`}>{service.title}</h3>
+                    <p className="text-sm text-gray-500 font-medium mb-2">{service.price}</p>
+                    <p className="text-gray-600">{service.description}</p>
                   </div>
-                );
+                </Link>
+              );
               })}
             </div>
           </div>
@@ -193,7 +201,7 @@ const AboutPage = () => {
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="/contact"
+                  href="/free-consultation"
                   className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
                 >
                   Request a Free Medical Consultation
