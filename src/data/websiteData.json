@@ -599,12 +599,17 @@
     "offices": [
       {
         "country": "India",
-        "address": "Shivanand Global Medical Tourism, H.no.-198, sector-52, gurgaon, pincode-122001"
+        "address": "Shivanand Global Medical Tourism, H.no.-198, sector-52, gurgaon, pincode-122001",
+        "coordinates": {
+          "lat": 28.438060760498047,
+          "lng": 77.0687484741211
+        },
+        "mapUrl": "https://www.google.com/maps?q=28.438060760498047,77.0687484741211&z=17&hl=en"
       }
     ],
     "contact": {
-      "email": "info@shivanandglobal.com",
-      "phone": "+91-9971616131"
+      "email": "contact@shivanandglobalmedicaltourism.com",
+      "phone": "+91-8595199918"
     },
     "socialMedia": [
       { "name": "YouTube", "url": "https://youtube.com/medicareglobal", "icon": "youtube" },
