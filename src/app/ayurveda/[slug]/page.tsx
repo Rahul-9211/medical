@@ -5,9 +5,11 @@ import BackgroundCarousel from "@/components/BackgroundCarousel";
 interface Section {
   heading: string;
   points: string[];
+  note?: string;
 }
 
 interface CTA {
+  link: string;
   title: string;
   description: string;
   button: string;
@@ -79,8 +81,12 @@ const AyurvedaSlugPage = async ({ params }: { params: Promise<{ slug: string }> 
                     </div>
                   );
                 })}
+               
               </div>
             </div>
+            {section.note && (
+              <p className="text-gray-700 text-center mt-12 max-w-3xl mx-auto"><span className="font-bold">Note:</span> {section.note}</p>
+            )}
           </section>
         ))}
 
@@ -104,7 +110,7 @@ const AyurvedaSlugPage = async ({ params }: { params: Promise<{ slug: string }> 
               {ctaItem.button && (
                 <div className="mb-16">
                   <Link
-                    href="#"
+                    href={ctaItem.link}
                     className="inline-flex items-center px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg group"
                   >
                     <span>{ctaItem.button}</span>

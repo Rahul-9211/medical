@@ -41,9 +41,9 @@
       "points": [
         "1-Week Retreat: $350 – $600",
         "2-Week Wellness Program: $700 – $1,200",
-        "3-Week Luxury Wellness Retreat: $1,200 – $2,500",
-        "Includes accommodation, therapies, yoga, consultations & meals."
-      ]
+        "3-Week Luxury Wellness Retreat: $1,200 – $2,500"
+      ],
+      "note": "Includes accommodation, therapies, yoga, consultations & meals."
     },
     {
       "heading": "Why Choose India for Ayurveda Retreats?",
@@ -58,6 +58,7 @@
   "cta": [
     {
       "title": "📞 Rebalance Your Life with Ayurveda Retreats in India",
+      "link": "/free-consultation",
       "description": "Take a break from stress and experience holistic healing at India’s best Ayurveda retreats.",
       "button": "Book Free Ayurveda Consultation →",
       "features": [
