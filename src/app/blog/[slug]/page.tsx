@@ -30,9 +30,12 @@ interface Blog {
 interface BlogData {
   blogs: Blog[];
 }
+interface PageProps {
+  params : Promise<{ slug: string }>;
+}
 
-export default async function BlogPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+export default async function BlogPage({ params }: PageProps) {
+  const { slug } = await params;
 
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/blog/allblog.json`, {
     cache: "no-store",
@@ -135,6 +138,7 @@ export default async function BlogPage({ params }: { params: { slug: string } })
               <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full mb-6 shadow-lg text-3xl">
                 📩
               </div>
+              <br />
               <a
                 href={blog.cta.url}
                 className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg mb-8"

@@ -22,14 +22,14 @@ export default function PartnersHospitalSection({ hospitals }: PartnersHospitalS
     { name: "Apollo Hospitals", logo: "https://logo.clearbit.com/apollohospitals.com" },
     { name: "Fortis Healthcare", logo: "https://logo.clearbit.com/fortishealthcare.com" },
     { name: "Max Healthcare", logo: "https://logo.clearbit.com/maxhealthcare.in" },
-    { name: "Kokilaben Hospital", logo: "https://logo.clearbit.com/kokilabenhospital.com" },
+    // { name: "Kokilaben Hospital", logo: "https://logo.clearbit.com/kokilabenhospital.com" },
     { name: "BLK Super Speciality Hospital", logo: "https://logo.clearbit.com/blkhospital.com" },
     { name: "Manipal Hospitals", logo: "https://logo.clearbit.com/manipalhospitals.com" },
-    { name: "Narayana Health", logo: "https://logo.clearbit.com/narayanahealth.org" },
-    { name: "Sir Ganga Ram Hospital", logo: "https://logo.clearbit.com/sgrh.com" },
-    { name: "AIIMS Delhi", logo: "https://logo.clearbit.com/aiims.edu" },
+    // { name: "Narayana Health", logo: "https://logo.clearbit.com/narayanahealth.org" },
+    // { name: "Sir Ganga Ram Hospital", logo: "https://logo.clearbit.com/sgrh.com" },
+    // { name: "AIIMS Delhi", logo: "https://logo.clearbit.com/aiims.edu" },
     { name: "Artemis Hospital", logo: "https://logo.clearbit.com/artemishospitals.com" },
-    { name: "Global Hospitals", logo: "https://logo.clearbit.com/globalhospitals.com" }
+    // { name: "Global Hospitals", logo: "https://logo.clearbit.com/globalhospitals.com" }
   ]
 
   // Triple the logos for truly seamless infinite scroll
