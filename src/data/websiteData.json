@@ -114,7 +114,7 @@
           { "name": "Medical Tourism Guide", "url": "/blog/medical-tourism-guide" },
           { "name": "What to Expect During Treatment in India", "url": "/blog/what-to-expect" },
           { "name": "Tips for International Patients", "url": "/blog/tips-for-patients" },
-          { "name": "FAQs About Indian Healthcare", "url": "/blog/faqs" },
+          { "name": "FAQs About Indian Healthcare", "url": "/Faq" },
           { "name": "Latest Blog Articles →", "url": "/latest-blog" }
         ]
       },
@@ -599,7 +599,7 @@
     "offices": [
       {
         "country": "India",
-        "address": "Shivanand Global Medical Tourism, H.no.-198, sector-52, gurgaon, pincode-122001",
+        "address": "Shivanand Global Medical Tourism, plot no.-198, sector-52, gurgaon, pincode-122001",
         "coordinates": {
           "lat": 28.438060760498047,
           "lng": 77.0687484741211

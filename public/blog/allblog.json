@@ -123,46 +123,6 @@
             "✅ Complete recovery assistance"
           ]
         }
-      },
-      {
-        "slug": "faqs",
-        "title": "❓ FAQs About Indian Healthcare for International Patients",
-        "subtitle": "Everything You Need to Know Before Traveling to India for Treatment",
-        "introduction": "International patients often have many questions before choosing India for treatment. Here are the most frequently asked questions (FAQs) about healthcare, hospitals, costs, and patient services in India.",
-        "sections": [
-          {
-            "title": "🏥 Hospitals & Doctors",
-            "points": [
-              "Are Indian hospitals safe? ✔️ Yes, JCI/NABH accredited",
-              "Do doctors have global experience? ✔️ Trained in USA/UK/Europe",
-              "Will there be language barriers? ✔️ English widely spoken + translators"
-            ]
-          },
-          {
-            "title": "💰 Costs & Payments",
-            "points": [
-              "Why so affordable? ✔️ 60–80% lower costs",
-              "Can I get cost estimate before travel? ✔️ Yes, free estimates available",
-              "What payment methods are accepted? ✔️ Credit/debit cards, bank transfer, cash"
-            ]
-          },
-          {
-            "title": "✈️ Travel & Visa",
-            "points": [
-              "Do I need a visa? ✔️ Yes, Medical Visa (M-Visa)",
-              "How long does visa process take? ✔️ 3–5 working days",
-              "Can family members travel with me? ✔️ Yes, Medical Attendant Visa available"
-            ]
-          }
-        ],
-        "cta": {
-          "text": "👉 Book a Free Consultation & Cost Estimate →",
-          "benefits": [
-            "✅ Transparent guidance",
-            "✅ Affordable treatment options",
-            "✅ Complete end-to-end support"
-          ]
-        }
       }
     ]
   }
