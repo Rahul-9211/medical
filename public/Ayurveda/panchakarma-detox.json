@@ -41,14 +41,15 @@
       "points": [
         "7-day Panchakarma Detox Package: $300 – $500",
         "14-day Intensive Detox & Rejuvenation: $600 – $900",
-        "21-day Complete Panchakarma Program: $1,000 – $1,500",
-        "Cost includes doctor consultation, therapies, accommodation & herbal medicines. Prices vary by center & location."
-      ]
+        "21-day Complete Panchakarma Program: $1,000 – $1,500"
+      ],
+      "note": "Cost includes doctor consultation, therapies, accommodation & herbal medicines. Prices vary by center & location."
     }
   ],
   "cta": [
     {
       "title": "📞 Book Your Panchakarma Detox in India",
+      "link": "/free-consultation",
       "description": "Take the first step towards natural healing and rejuvenation.",
       "button": "Request Free Ayurveda Consultation →",
       "features": [

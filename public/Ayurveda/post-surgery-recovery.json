@@ -39,14 +39,15 @@
       "points": [
         "1-Week Program: $250 – $400",
         "2-Week Program: $500 – $800",
-        "3-Week Program: $900 – $1,300",
-        "Cost includes consultations, therapies, herbal medicines, and accommodation."
-      ]
+        "3-Week Program: $900 – $1,300"
+      ],
+      "note": "Cost includes consultations, therapies, herbal medicines, and accommodation."
     }
   ],
   "cta": [
     {
       "title": "📞 Start Your Recovery Journey",
+      "link": "/free-consultation",
       "description": "Give your body the natural care it deserves after surgery.",
       "button": "Book Free Ayurveda Consultation →",
       "features": [

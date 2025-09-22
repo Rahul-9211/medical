@@ -41,14 +41,18 @@
       "points": [
         "1-Week Rejuvenation Program: $250 – $400",
         "2-Week Intensive Program: $500 – $800",
-        "3-Week Complete Rejuvenation: $850 – $1,300",
-        "Includes consultation, therapies, herbal medicines, and accommodation."
-      ]
+        "3-Week Complete Rejuvenation: $850 – $1,300"
+        
+        
+      ],
+      "note": "Includes consultation, therapies, herbal medicines, and accommodation."
+      
     }
   ],
   "cta": [
     {
       "title": "📞 Rejuvenate Naturally with Ayurveda",
+      "link": "/free-consultation",
       "description": "Discover the secret of timeless beauty through Ayurveda’s natural healing methods.",
       "button": "Book Free Ayurveda Consultation →",
       "features": [

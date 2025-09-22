@@ -50,14 +50,17 @@
       "points": [
         "1-Week Program: $250 – $400",
         "2-Week Recovery Program: $500 – $750",
-        "3-Week Complete Care Program: $850 – $1,200",
-        "Includes consultations, therapies, herbal medicines & accommodation."
-      ]
+        "3-Week Complete Care Program: $850 – $1,200"
+        
+      ],
+      "note":"Includes consultations, therapies, herbal medicines & accommodation."
+      
     }
   ],
   "cta": [
     {
       "title": "📞 Nurture Motherhood Naturally with Ayurveda",
+      "link": "/free-consultation",
       "description": "Ensure a safe pregnancy and smooth recovery with authentic Ayurvedic care in India.",
       "button": "Book Free Ayurveda Consultation →",
       "features": [
