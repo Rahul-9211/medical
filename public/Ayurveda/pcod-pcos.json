@@ -41,14 +41,15 @@
       "points": [
         "1-Week Hormonal Balance Program: $250 – $400",
         "2-Week Intensive Program: $450 – $700",
-        "3-Week Complete Recovery Program: $800 – $1,200",
-        "Includes consultations, therapies, herbal medicines & accommodation."
-      ]
+        "3-Week Complete Recovery Program: $800 – $1,200"
+      ],
+      "note":  "Includes consultations, therapies, herbal medicines & accommodation."
     }
   ],
   "cta": [
     {
       "title": "📞 Restore Your Hormonal Balance Naturally",
+      "link": "/free-consultation",
       "description": "Take control of your health and fertility with Ayurveda’s holistic approach.",
       "button": "Book Free Ayurveda Consultation →",
       "features": [

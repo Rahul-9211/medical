@@ -41,14 +41,15 @@
       "points": [
         "1-Week Stress Relief Program: $250 – $400",
         "2-Week Deep Relaxation & Sleep Therapy: $500 – $800",
-        "3-Week Complete Mind-Body Balance Program: $850 – $1,300",
-        "Includes therapies, consultations, herbal medicines & accommodation."
-      ]
+        "3-Week Complete Mind-Body Balance Program: $850 – $1,300"
+      ],
+      "note": "Includes therapies, consultations, herbal medicines & accommodation."
     }
   ],
   "cta": [
     {
       "title": "📞 Find Inner Peace with Ayurveda",
+      "link": "/free-consultation",
       "description": "Say goodbye to stress and sleepless nights with Ayurveda’s natural healing.",
       "button": "Book Free Ayurveda Consultation →",
       "features": [

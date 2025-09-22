@@ -1,0 +1,88 @@
+{
+    "title": "❓ FAQs About Indian Healthcare for International Patients",
+    "subtitle": "Everything You Need to Know Before Traveling to India for Treatment",
+    "introduction": "International patients often have many questions before choosing India for treatment. Here are the most frequently asked questions (FAQs) about healthcare, hospitals, costs, and patient services in India.",
+    "sections": [
+      {
+        "title": "🏥 Hospitals & Doctors",
+        "faqs": [
+          {
+            "question": "Are Indian hospitals safe and internationally recognized?",
+            "answer": "✔️ Yes. Many top hospitals are JCI and NABH accredited, ensuring international quality standards."
+          },
+          {
+            "question": "Do doctors in India have global experience?",
+            "answer": "✔️ Most specialists are trained in the USA, UK, Europe, or Singapore with years of experience."
+          },
+          {
+            "question": "Will there be language barriers?",
+            "answer": "✔️ No. English is widely spoken. Hospitals also provide translators for Arabic, Russian, French, and other languages."
+          }
+        ]
+      },
+      {
+        "title": "💰 Costs & Payments",
+        "faqs": [
+          {
+            "question": "Why is medical treatment so affordable in India?",
+            "answer": "✔️ Costs are 60–80% lower due to lower infrastructure and living expenses — quality is not compromised."
+          },
+          {
+            "question": "Can I get a treatment cost estimate before I travel?",
+            "answer": "✔️ Yes. You can share medical reports and receive a free cost estimate before arrival."
+          },
+          {
+            "question": "What payment methods are accepted?",
+            "answer": "✔️ International patients can pay via credit card, debit card, bank transfer, or cash in INR/USD/EUR."
+          }
+        ]
+      },
+      {
+        "title": "✈️ Travel & Visa",
+        "faqs": [
+          {
+            "question": "Do I need a visa for medical treatment in India?",
+            "answer": "✔️ Yes, you need a Medical Visa (M-Visa). Our team helps with invitation letters & documentation."
+          },
+          {
+            "question": "How long does the medical visa process take?",
+            "answer": "✔️ Usually 3–5 working days, depending on your country of origin."
+          },
+          {
+            "question": "Can a family member travel with me?",
+            "answer": "✔️ Yes. A Medical Attendant Visa is available for companions."
+          }
+        ]
+      },
+      {
+        "title": "🧘 Treatment & Recovery",
+        "faqs": [
+          {
+            "question": "How long will I need to stay in India?",
+            "answer": "✔️ Depends on the treatment. Example: Heart Surgery (2–3 weeks), Knee Replacement (2 weeks), IVF (3–4 weeks), Cancer Therapy (4–8 weeks)."
+          },
+          {
+            "question": "Is post-treatment care available after I return home?",
+            "answer": "✔️ Yes. Online consultations and follow-ups are provided."
+          },
+          {
+            "question": "Can I combine Ayurveda with modern treatments?",
+            "answer": "✔️ Absolutely. Many patients choose Ayurveda & holistic therapies for faster recovery."
+          }
+        ]
+      }
+    ],
+    "whyChoose": [
+      "Advanced technology & expert doctors",
+      "Transparent treatment packages",
+      "Huge cost savings vs USA/UK/UAE",
+      "Seamless travel & patient support services"
+    ],
+    "cta": {
+      "title": "📞 Still Have Questions?",
+      "description": "Our team is available 24/7 to guide you through every step.",
+      "buttonText": "Book a Free Consultation & Cost Estimate →",
+      "url": "/free-consultation"
+    }
+  }
+  

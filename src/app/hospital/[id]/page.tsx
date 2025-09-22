@@ -73,41 +73,42 @@ export default async function HospitalPage({
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
       {/* Header */}
 
-      <main className="relative max-w-7xl mx-auto px-6 py-10 space-y-10">
+      <main className="relative max-w-7xl mx-auto px-4 md:px-6 py-6 md:py-10 space-y-6 md:space-y-10">
         {/* Background Pattern */}
         <div className="pointer-events-none absolute -top-10 right-0 w-72 h-72 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>
         <div className="pointer-events-none absolute -bottom-10 left-0 w-72 h-72 bg-gradient-to-tr from-yellow-200/20 to-[#7AE5F5]/20 rounded-full blur-3xl"></div>
 
         {/* Photo Banner */}
-        <section className="relative h-56 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-xl border border-white/40">
-          <img src={heroImageUrl} alt={`${hospital.name} banner`} className="absolute inset-0 w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
-          <div className="relative z-10 h-full flex items-end">
-            <div className="p-6 lg:p-8">
-              <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/20 text-white border border-white/30 mb-2">Featured Hospital</div>
-              <h1 className="text-3xl md:text-4xl font-bold text-white">{hospital.name}</h1>
-              {hospital.location?.address && (
-                <p className="text-white/90 mt-1 text-sm">{hospital.location.address}</p>
-              )}
-              <div className="mt-4 flex flex-wrap gap-3">
-                <a href="#appointment" className="inline-flex items-center bg-[#56DDEF] text-white px-5 py-2.5 rounded-xl font-semibold text-sm hover:bg-[#56DDEF]/90 transition-all shadow-lg hover:shadow-xl">
-                  Book Appointment
-                </a>
-                <a
-                  href={`https://wa.me/8595199918?text=${encodeURIComponent(`Hi! I want to book an appointment at ${hospital.name}.`)}`}
-                  target="_blank"
-                  className="inline-flex items-center bg-green-500 text-white px-5 py-2.5 rounded-xl font-semibold text-sm hover:bg-green-600 transition-all shadow-lg hover:shadow-xl"
-                >
-                  Chat on WhatsApp
-                </a>
-              </div>
+        <section className="space-y-4">
+          <div className="relative h-64 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-xl border border-white/40">
+            <img src={heroImageUrl} alt={`${hospital.name} banner`} className="w-full h-full object-cover" />
+          </div>
+          
+          {/* Hospital Info Below Image */}
+          <div className="bg-white/90 backdrop-blur-sm border border-white/40 rounded-2xl md:rounded-3xl shadow-xl p-4 md:p-6 lg:p-8">
+            <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-[#7AE5F5]/20 to-[#56DDEF]/20 text-gray-700 border border-[#56DDEF]/20 mb-3">Featured Hospital</div>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">{hospital.name}</h1>
+            {hospital.location?.address && (
+              <p className="text-gray-600 mt-2 text-sm md:text-base">{hospital.location.address}</p>
+            )}
+            <div className="mt-4 flex flex-col sm:flex-row gap-3">
+              <a href="#appointment" className="inline-flex items-center justify-center bg-[#56DDEF] text-white px-5 py-3 rounded-xl font-semibold text-sm hover:bg-[#56DDEF]/90 transition-all shadow-lg hover:shadow-xl">
+                Book Appointment
+              </a>
+              <a
+                href={`https://wa.me/8595199918?text=${encodeURIComponent(`Hi! I want to book an appointment at ${hospital.name}.`)}`}
+                target="_blank"
+                className="hidden md:inline-flex items-center bg-green-500 text-white px-5 py-3 rounded-xl font-semibold text-sm hover:bg-green-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                Chat on WhatsApp
+              </a>
             </div>
           </div>
         </section>
 
-        {/* Hero */}
+        {/* Hospital Stats & Info */}
         <section>
-          <div className="bg-white/90 backdrop-blur-sm border border-white/40 rounded-3xl shadow-xl p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+          <div className="bg-white/90 backdrop-blur-sm border border-white/40 rounded-2xl md:rounded-3xl shadow-xl p-4 md:p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 items-center">
             <div className="lg:col-span-2 space-y-4">
               <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-[#7AE5F5]/20 to-[#56DDEF]/20 text-gray-700 border border-[#56DDEF]/20">Verified Hospital</div>
               <div className="flex flex-wrap gap-3 text-sm">
@@ -130,18 +131,18 @@ export default async function HospitalPage({
                 </div>
               )}
             </div>
-            <div className="flex space-x-3">
+            <div className="flex space-x-2 md:space-x-3 justify-center lg:justify-start">
               {displayImages.slice(0, 3).map((img: any, i: number) => (
-                <img key={i} src={img.url} alt="Hospital" className="w-28 h-28 object-cover rounded-xl shadow" />
+                <img key={i} src={img.url} alt="Hospital" className="w-20 h-20 md:w-28 md:h-28 object-cover rounded-xl shadow" />
               ))}
             </div>
           </div>
         </section>
 
         {/* Content + Sidebar */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
           {/* Left Content */}
-          <div className="lg:col-span-2 space-y-8">
+          <div className="lg:col-span-2 space-y-6 md:space-y-8">
             {/* About */}
             {hospital.about?.visible && (
               <section>
@@ -209,7 +210,7 @@ export default async function HospitalPage({
                                 <a
                                   href={`https://wa.me/8595199918?text=${encodeURIComponent(`Hi! I want to consult with ${doc.name} at ${hospital.name}.`)}`}
                                   target="_blank"
-                                  className="inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-semibold bg-green-500 text-white hover:bg-green-600"
+                                  className="hidden md:inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-semibold bg-green-500 text-white hover:bg-green-600"
                                 >
                                   WhatsApp
                                 </a>
@@ -241,7 +242,7 @@ export default async function HospitalPage({
                           <a
                             href={`https://wa.me/8595199918?text=${encodeURIComponent(`Hi! I want to consult with ${doc.name} at ${hospital.name}.`)}`}
                             target="_blank"
-                            className="inline-flex items-center px-3 py-2 rounded-lg text-xs font-semibold bg-green-500 text-white hover:bg-green-600"
+                            className="hidden md:inline-flex items-center px-3 py-2 rounded-lg text-xs font-semibold bg-green-500 text-white hover:bg-green-600"
                           >
                             Chat on WhatsApp
                           </a>
@@ -378,8 +379,8 @@ export default async function HospitalPage({
 
           {/* Sidebar */}
           <aside className="lg:col-span-1">
-            <div className="sticky top-24 space-y-6">
-              <div id="appointment" className="bg-white/90 backdrop-blur-sm rounded-2xl p-5 lg:p-6 shadow-2xl border border-white/20">
+            <div className="sticky top-20 md:top-24 space-y-4 md:space-y-6">
+              <div id="appointment" className="bg-white/90 backdrop-blur-sm rounded-2xl p-4 md:p-5 lg:p-6 shadow-2xl border border-white/20">
                 <QuoteForm 
                   quoteForm={websiteData.quoteForm}
                   countries={websiteData.countries}
@@ -388,7 +389,7 @@ export default async function HospitalPage({
               </div>
 
               {/* Quick Facts */}
-              <div className="bg-white rounded-2xl p-5 shadow border border-gray-100">
+              <div className="bg-white rounded-2xl p-4 md:p-5 shadow border border-gray-100">
                 <h3 className="font-semibold text-gray-900 mb-3">Quick Facts</h3>
                 <ul className="space-y-2 text-sm text-gray-700">
                   {hospital.rating && (

@@ -18,6 +18,10 @@ interface Hospital {
   patientsRecommended?: {
     percent: number;
   };
+  about?: {
+    visible?: boolean;
+    overview?: string;
+  };
   media?: {
     images: {
       url: string;
@@ -161,6 +165,13 @@ const HospitalPage = async () => {
                         <h3 className={`text-xl font-bold mb-2 group-hover:${color.text} transition-colors duration-300`}>
                           {hospital.name}
                         </h3>
+                        {hospital.about?.overview && (
+                          <p className="text-sm text-gray-600 mb-4">
+                            {hospital.about.overview.length > 180
+                              ? `${hospital.about.overview.slice(0, 180)}…`
+                              : hospital.about.overview}
+                          </p>
+                        )}
                         {hospital.specialties && hospital.specialties.length > 0 && (
                           <div className="flex flex-wrap gap-2 mb-4">
                             {hospital.specialties.slice(0, 3).map((specialty, j) => (

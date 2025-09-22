@@ -41,14 +41,15 @@
       "points": [
         "1-Week Program: $300 – $450",
         "2-Week Program: $550 – $800",
-        "3-Week Program: $950 – $1,400",
-        "Includes consultation, therapies, accommodation & herbal medicines."
-      ]
+        "3-Week Program: $950 – $1,400"
+      ],
+      "note": "Includes consultation, therapies, accommodation & herbal medicines."
     }
   ],
   "cta": [
     {
       "title": "📞 Start Your Natural Weight Loss Journey",
+      "link": "/free-consultation",
       "description": "Say goodbye to unsafe crash diets. Embrace Ayurveda for safe and lasting weight management.",
       "button": "Request Free Consultation →",
       "features": [

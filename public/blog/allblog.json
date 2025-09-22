@@ -1,169 +1,210 @@
 {
-    "blogs": [
-      {
-        "slug": "medical-tourism-guide",
-        "title": "🌍 Medical Tourism Guide for International Patients",
-        "subtitle": "Your Complete Guide to Healthcare Travel in India",
-        "introduction": "India has become one of the most popular destinations for medical tourism, attracting thousands of international patients every year. The country offers world-class healthcare, advanced technology, highly experienced doctors, and treatment costs that are 60–80% lower compared to the USA, UK, or UAE.",
-        "sections": [
-          {
-            "title": "✈️ Why Choose India for Medical Tourism?",
-            "points": [
-              "Top hospitals with international accreditations (JCI, NABH)",
-              "Highly qualified doctors trained abroad",
-              "Affordable treatment packages (60–80% cheaper)",
-              "Availability of advanced technology & robotic surgery",
-              "No long waiting times for surgery",
-              "English-speaking medical staff & translators available",
-              "Rich cultural heritage & recovery-friendly environment"
-            ]
-          },
-          {
-            "title": "🏥 Top Treatments International Patients Choose in India",
-            "treatments": [
-              { "name": "Heart & Cardiac Surgery", "url": "/treatments/heart-surgery-cardiology" },
-              { "name": "Orthopedic Surgery & Joint Replacement", "url": "/treatments/orthopedic-surgery-joint-replacements" },
-              { "name": "Cancer Treatment (Oncology)", "url": "/treatments/cancer-treatment-oncology" },
-              { "name": "IVF & Fertility Treatments", "url": "/treatments/ivf-fertility-treatments" },
-              { "name": "Liver & Kidney Transplant", "url": "/treatments/liver-kidney-transplant" },
-              { "name": "Cosmetic & Plastic Surgery", "url": "/treatments/plastic-cosmetic-surgery" },
-              { "name": "Dental & Eye Treatments", "url": "/treatments/dental-implants-oral-care" }
-            ]
-          }
-        ],
-        "cta": {
-          "text": "👉 Get Free Consultation & Cost Estimate →",
-          "benefits": [
-            "✅ 24/7 patient support",
-            "✅ Transparent treatment costs",
-            "✅ Partnerships with India’s top hospitals"
+  "blogs": [
+    {
+      "slug": "medical-tourism-guide",
+      "title": "🌍 Medical Tourism Guide for International Patients",
+      "subtitle": "Your Complete Guide to Healthcare Travel in India",
+      "introduction": "India has become one of the most popular destinations for medical tourism, attracting thousands of international patients every year. The country offers world-class healthcare, advanced technology, highly experienced doctors, and treatment costs that are 60–80% lower compared to the USA, UK, or UAE. This guide will help you understand everything you need to know before planning medical treatment in India.",
+      "sections": [
+        {
+          "title": "✈️ Why Choose India for Medical Tourism?",
+          "points": [
+            "Top hospitals with international accreditations (JCI, NABH)",
+            "Highly qualified doctors trained abroad",
+            "Affordable treatment packages (60–80% cheaper)",
+            "Availability of advanced technology & robotic surgery",
+            "No long waiting times for surgery",
+            "English-speaking medical staff & translators available",
+            "Rich cultural heritage & recovery-friendly environment"
+          ]
+        },
+        {
+          "title": "📋 Step-by-Step Medical Tourism Process",
+          "points": [
+            "Free Consultation: Share medical reports & get treatment options",
+            "Treatment Plan & Cost Estimate: Transparent pricing before arrival",
+            "Visa Assistance: Medical visa guidance & document support",
+            "Travel Planning: Flights, airport pickup & ground transfers",
+            "Hospital Admission: Direct admission without waiting lists",
+            "Treatment & Surgery: Performed by expert specialists",
+            "Post-Treatment Recovery: Follow-up care, physiotherapy & rehabilitation",
+            "Return Home Safely: Continued online consultations available"
+          ]
+        },
+        {
+          "title": "💰 Cost Advantage: India vs Other Countries",
+          "points": [
+            "Heart Bypass Surgery: India $4,000 – $6,000 | USA $35,000 – $60,000",
+            "Knee Replacement: India $4,000 – $6,500 | UK $15,000 – $20,000",
+            "IVF Treatment: India $2,500 – $4,500 | UAE/USA $12,000 – $20,000",
+            "Patients save up to 70% without compromising on quality"
+          ]
+        },
+        {
+          "title": "🏥 Top Treatments International Patients Choose in India",
+          "treatments": [
+            { "name": "Heart & Cardiac Surgery", "url": "/treatments/heart-surgery-cardiology" },
+            { "name": "Orthopedic Surgery & Joint Replacement", "url": "/treatments/orthopedic-surgery-joint-replacements" },
+            { "name": "Cancer Treatment (Oncology)", "url": "/treatments/cancer-treatment-oncology" },
+            { "name": "IVF & Fertility Treatments", "url": "/treatments/ivf-fertility-treatments" },
+            { "name": "Liver & Kidney Transplant", "url": "/treatments/liver-kidney-transplant" },
+            { "name": "Cosmetic & Plastic Surgery", "url": "/treatments/plastic-cosmetic-surgery" },
+            { "name": "Dental & Eye Treatments", "url": "/treatments/dental-implants-oral-care" }
           ]
         }
-      },
-      {
-        "slug": "what-to-expect",
-        "title": "🏥 What to Expect During Treatment in India",
-        "subtitle": "A Step-by-Step Patient Experience Guide",
-        "introduction": "For international patients, traveling to another country for medical treatment can feel uncertain. To help you prepare, here’s exactly what you can expect during your medical journey in India — from airport arrival to hospital care and recovery.",
-        "sections": [
-          {
-            "title": "✈️ Arrival in India",
-            "points": [
-              "Dedicated team to receive you at the airport",
-              "Ground transfers arranged directly to your hotel or hospital",
-              "Assistance with currency exchange & SIM card (if required)"
-            ]
-          },
-          {
-            "title": "🏨 Stay & Accommodation",
-            "points": [
-              "Affordable guest houses, hotels & service apartments near hospitals",
-              "Choice of budget, mid-range or luxury stay based on preference",
-              "Assistance in booking safe, hygienic accommodations for family members"
-            ]
-          },
-          {
-            "title": "🏥 Hospital Admission & Treatment Process",
-            "points": [
-              "Doctor Consultation: In-person assessment & confirmation of treatment plan",
-              "Pre-Surgery Tests: Lab tests, imaging & medical clearances",
-              "Treatment or Surgery: Conducted by expert doctors using advanced technology",
-              "Post-Surgery Care: ICU monitoring, regular checkups & physiotherapy"
-            ]
-          }
-        ],
-        "cta": {
-          "text": "👉 Get Free Consultation Today →",
-          "benefits": [
-            "✅ Safe & reliable treatment process",
-            "✅ Affordable medical costs",
-            "✅ Complete end-to-end support"
-          ]
-        }
-      },
-      {
-        "slug": "tips-for-patients",
-        "title": "🌍 Tips for International Patients Traveling to India for Treatment",
-        "subtitle": "Practical Advice to Make Your Medical Journey Smooth & Stress-Free",
-        "introduction": "India is one of the top destinations for medical tourism, offering world-class healthcare at affordable costs. If you’re planning to travel for treatment, these essential tips will help you stay prepared and comfortable throughout your journey.",
-        "sections": [
-          {
-            "title": "✈️ Before You Travel",
-            "points": [
-              "✅ Choose the Right Hospital (JCI/NABH accredited)",
-              "✅ Get a Cost Estimate",
-              "✅ Apply for Medical Visa Early",
-              "✅ Carry Medical Records",
-              "✅ Arrange Travel Insurance"
-            ]
-          },
-          {
-            "title": "🏥 In India (During Treatment)",
-            "points": [
-              "Dedicated patient coordinator",
-              "Follow doctor’s instructions",
-              "Use translator services if required",
-              "Ask for cost breakdowns"
-            ]
-          },
-          {
-            "title": "🍲 Food & Lifestyle Tips",
-            "points": [
-              "Eat light, doctor-recommended meals",
-              "Drink only bottled/filtered water",
-              "Follow hygiene precautions"
-            ]
-          }
-        ],
-        "cta": {
-          "text": "👉 Get Free Cost Estimate & Travel Guidance →",
-          "benefits": [
-            "✅ End-to-end support for patients",
-            "✅ Affordable treatment costs",
-            "✅ Complete recovery assistance"
-          ]
-        }
-      },
-      {
-        "slug": "faqs",
-        "title": "❓ FAQs About Indian Healthcare for International Patients",
-        "subtitle": "Everything You Need to Know Before Traveling to India for Treatment",
-        "introduction": "International patients often have many questions before choosing India for treatment. Here are the most frequently asked questions (FAQs) about healthcare, hospitals, costs, and patient services in India.",
-        "sections": [
-          {
-            "title": "🏥 Hospitals & Doctors",
-            "points": [
-              "Are Indian hospitals safe? ✔️ Yes, JCI/NABH accredited",
-              "Do doctors have global experience? ✔️ Trained in USA/UK/Europe",
-              "Will there be language barriers? ✔️ English widely spoken + translators"
-            ]
-          },
-          {
-            "title": "💰 Costs & Payments",
-            "points": [
-              "Why so affordable? ✔️ 60–80% lower costs",
-              "Can I get cost estimate before travel? ✔️ Yes, free estimates available",
-              "What payment methods are accepted? ✔️ Credit/debit cards, bank transfer, cash"
-            ]
-          },
-          {
-            "title": "✈️ Travel & Visa",
-            "points": [
-              "Do I need a visa? ✔️ Yes, Medical Visa (M-Visa)",
-              "How long does visa process take? ✔️ 3–5 working days",
-              "Can family members travel with me? ✔️ Yes, Medical Attendant Visa available"
-            ]
-          }
-        ],
-        "cta": {
-          "text": "👉 Book a Free Consultation & Cost Estimate →",
-          "benefits": [
-            "✅ Transparent guidance",
-            "✅ Affordable treatment options",
-            "✅ Complete end-to-end support"
-          ]
-        }
+      ],
+      "cta": {
+        "text": "👉 Get Free Consultation & Cost Estimate →",
+        "url": "/free-consultation",
+        "benefits": [
+          "✅ 24/7 patient support",
+          "✅ Transparent treatment costs",
+          "✅ Partnerships with India’s top hospitals"
+        ]
       }
-    ]
-  }
-  
+    },
+    {
+      "slug": "what-to-expect",
+      "title": "🏥 What to Expect During Treatment in India",
+      "subtitle": "A Step-by-Step Patient Experience Guide",
+      "introduction": "For international patients, traveling to another country for medical treatment can feel uncertain. To help you prepare, here’s exactly what you can expect during your medical journey in India — from airport arrival to hospital care and recovery.",
+      "sections": [
+        {
+          "title": "✈️ Arrival in India",
+          "points": [
+            "Dedicated team to receive you at the airport",
+            "Ground transfers arranged directly to your hotel or hospital",
+            "Assistance with currency exchange & SIM card (if required)"
+          ]
+        },
+        {
+          "title": "🏨 Stay & Accommodation",
+          "points": [
+            "Affordable guest houses, hotels & service apartments near hospitals",
+            "Choice of budget, mid-range or luxury stay based on preference",
+            "Assistance in booking safe, hygienic accommodations for family members"
+          ]
+        },
+        {
+          "title": "🏥 Hospital Admission & Treatment Process",
+          "points": [
+            "Doctor Consultation: In-person assessment & confirmation of treatment plan",
+            "Pre-Surgery Tests: Lab tests, imaging & medical clearances",
+            "Treatment or Surgery: Conducted by expert doctors using advanced technology",
+            "Post-Surgery Care: ICU monitoring, regular checkups & physiotherapy"
+          ]
+        },
+        {
+          "title": "🍲 Food & Diet",
+          "points": [
+            "Customized diet plans recommended by hospital dietitians",
+            "International cuisine options available in most hospital cafeterias",
+            "Special dietary arrangements for patients with cultural/religious needs"
+          ]
+        },
+        {
+          "title": "🌍 Language & Communication",
+          "points": [
+            "English widely spoken by doctors & staff",
+            "Translation services available (Arabic, Russian, French, etc.)",
+            "Dedicated patient coordinators to help bridge any communication gaps"
+          ]
+        },
+        {
+          "title": "🤝 Patient Support Services",
+          "points": [
+            "Medical visa extension support (if required)",
+            "24/7 assistance during hospital stay",
+            "Post-treatment recovery guidance & follow-up consultations",
+            "Options for holistic care & Ayurveda therapy (if requested)"
+          ]
+        },
+        {
+          "title": "💰 Cost Transparency",
+          "points": [
+            "Final estimate shared before admission",
+            "No hidden charges — all-inclusive packages available",
+            "Patients save 60–80% compared to USA/UK/UAE treatment costs"
+          ]
+        }
+      ],
+      "cta": {
+        "text": "👉 Get Free Consultation Today →",
+        "url": "/free-consultation",
+        "benefits": [
+          "✅ Safe & reliable treatment process",
+          "✅ Affordable medical costs",
+          "✅ Complete end-to-end support"
+        ]
+      }
+    },
+    {
+      "slug": "tips-for-patients",
+      "title": "🌍 Tips for International Patients Traveling to India for Treatment",
+      "subtitle": "Practical Advice to Make Your Medical Journey Smooth & Stress-Free",
+      "introduction": "India is one of the top destinations for medical tourism, offering world-class healthcare at affordable costs. If you’re planning to travel for treatment, these essential tips will help you stay prepared and comfortable throughout your journey.",
+      "sections": [
+        {
+          "title": "✈️ Before You Travel",
+          "points": [
+            "Choose the Right Hospital: Prefer JCI/NABH accredited hospitals for safety & quality",
+            "Get a Cost Estimate: Request a detailed package with inclusions & exclusions",
+            "Apply for Medical Visa Early: Ensure you have all medical reports & invitation letters",
+            "Carry Medical Records: Keep reports, prescriptions & scans (both digital & printed)",
+            "Arrange Travel Insurance: Covers unexpected medical or travel issues"
+          ]
+        },
+        {
+          "title": "🛫 During Your Journey",
+          "points": [
+            "Keep a travel kit with essential medicines, water & light snacks",
+            "Inform the airline if you need special assistance or wheelchair services",
+            "Stay hydrated during long flights to prevent fatigue"
+          ]
+        },
+        {
+          "title": "🏥 In India (During Treatment)",
+          "points": [
+            "Always have a dedicated patient coordinator for guidance",
+            "Stick to your doctor’s instructions regarding tests, diet & medicines",
+            "Ask for translator services if English is difficult",
+            "Don’t hesitate to ask for a cost breakdown before making payments"
+          ]
+        },
+        {
+          "title": "🍲 Food & Lifestyle Tips",
+          "points": [
+            "Stick to light, doctor-recommended meals before and after surgery",
+            "Drink only bottled or filtered water during your stay",
+            "Follow hygiene precautions to avoid infections"
+          ]
+        },
+        {
+          "title": "🧘 Recovery & Post-Treatment Care",
+          "points": [
+            "Take recommended rest & physiotherapy sessions",
+            "Ask about Ayurveda & holistic wellness for faster recovery",
+            "Schedule online follow-ups after returning home"
+          ]
+        },
+        {
+          "title": "💰 Money & Payments",
+          "points": [
+            "Carry international debit/credit cards for hospital payments",
+            "Keep some cash (INR) for local expenses",
+            "Request receipts & treatment summaries for insurance claims"
+          ]
+        }
+      ],
+      "cta": {
+        "text": "👉 Get Free Cost Estimate & Travel Guidance →",
+        "url": "/free-consultation",
+        "benefits": [
+          "✅ End-to-end support for patients",
+          "✅ Affordable treatment costs",
+          "✅ Complete recovery assistance"
+        ]
+      }
+    }
+  ]
+}

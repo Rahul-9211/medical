@@ -31,13 +31,13 @@ export const metadata: Metadata = {
     title: "Shivanand Global - Medical Treatment With Unmatched Personal Care",
     description: "World's Most Trusted Medical Travel Assistance Platform. Get personalized medical treatment quotes from top hospitals worldwide.",
     url: 'https://ShivanandGlobal.com',
-    siteName: 'MediCare',
+    siteName: 'Shivanand Global',
     images: [
       {
         url: '/logo.png',
         width: 1200,
         height: 630,
-        alt: 'MediCare - Medical Tourism Platform',
+        alt: 'Shivanand Global - Medical Tourism Platform',
       },
     ],
     locale: 'en_US',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "MediCare - Medical Treatment With Unmatched Personal Care",
+    title: "Shivanand Global - Medical Treatment With Unmatched Personal Care",
     description: "World's Most Trusted Medical Travel Assistance Platform",
     images: ['/logo.png'],
   },
