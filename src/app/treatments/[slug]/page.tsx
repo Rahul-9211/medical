@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useParams } from 'next/navigation';
 import BackgroundCarousel from '@/components/BackgroundCarousel';
 
@@ -17,6 +18,10 @@ interface Specialist {
   affiliation: string;
   expertise: string;
   consultation_link?: string;
+  photoUrl?: string;
+  image?: string;
+  avatar?: string;
+  media?: { images?: { url: string; visible?: boolean }[] };
 }
 
 interface TreatmentData {
@@ -36,6 +41,17 @@ interface TreatmentData {
     link?: string;
   };
   cost_link?: string;
+}
+
+// Prefer real doctor image if provided; fallback to placeholder
+function getDoctorImage(spec: Specialist): string {
+  return (
+    spec?.photoUrl ||
+    spec?.image ||
+    spec?.avatar ||
+    spec?.media?.images?.find((img) => img?.visible)?.url ||
+    '/doctors/doctor_avatar.png'
+  );
 }
 
 export default function TreatmentPage() {
@@ -83,7 +99,7 @@ export default function TreatmentPage() {
             {data.cost_link && (
               <Link
                 href={data.cost_link}
-                className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg backdrop-blur-sm"
+                className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg backdrop-blur-sm"
               >
                 Check Treatment Cost
               </Link>
@@ -159,8 +175,21 @@ export default function TreatmentPage() {
                 const color = getCardColor(i);
                 return (
                   <div key={i} className="group bg-white rounded-2xl shadow-lg border border-gray-100 p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-                    <h3 className={`text-xl font-bold mb-2 ${color.text}`}>{spec.name}</h3>
-                    <p className="text-gray-700 mb-1">{spec.specialization}</p>
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                        <Image
+                          src={getDoctorImage(spec)}
+                          alt={`${spec.name} - Doctor Avatar`}
+                          width={64}
+                          height={64}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div>
+                        <h3 className={`text-xl font-bold ${color.text}`}>{spec.name}</h3>
+                        <p className="text-gray-700">{spec.specialization}</p>
+                      </div>
+                    </div>
                     <p className="text-gray-700 mb-1">{spec.experience}</p>
                     <p className="text-gray-700 mb-1">{spec.affiliation}</p>
                     <p className="text-gray-700 mb-4">{spec.expertise}</p>
@@ -198,7 +227,7 @@ export default function TreatmentPage() {
               {/* Main CTA */}
               <div className="mb-16">
                 {data.free_consultation.link && (
-                  <Link href={data.free_consultation.link} className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg">
+                  <Link href={data.free_consultation.link} className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg">
                     {data.free_consultation.cta}
                   </Link>
                 )}
