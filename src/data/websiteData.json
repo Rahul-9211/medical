@@ -1,7 +1,7 @@
 {
   "siteInfo": {
     "name": "Shivanand Global",
-    "tagline": "Medical Treatment With Unmatched Personal Care",
+    "tagline": "Medical Tourism in India | Shivanand Global – World-Class Surgery & Ayurveda",
     "subtitle": "World's Most Trusted Medical Travel Assistance Platform",
     "logo": "/logo.svg",
     "favicon": "/favicon.ico"
@@ -128,7 +128,7 @@
   },
       
   "heroSection": {
-    "title": "Medical Treatment With Unmatched Personal Care",
+    "title": "Medical Tourism in India | Shivanand Global – World-Class Surgery & Ayurveda",
     "subtitle": "World's Most Trusted Medical Travel Assistance Platform",
     "ctaButton": "Get a FREE quote",
     "ctaUrl": "/get-quote"
@@ -612,12 +612,12 @@
       "phone": "+91-8595199918"
     },
     "socialMedia": [
-      { "name": "YouTube", "url": "https://youtube.com/Shivanand Globalglobal", "icon": "youtube" },
-      { "name": "LinkedIn", "url": "https://linkedin.com/company/Shivanand Globalglobal", "icon": "linkedin" },
+      { "name": "YouTube", "url": "https://youtube.com/Shivanandglobal", "icon": "youtube" },
+      { "name": "LinkedIn", "url": "https://linkedin.com/company/Shivanandglobal", "icon": "linkedin" },
       { "name": "Facebook", "url": "https://www.facebook.com/share/1EsgQs7HYE/?mibextid=wwXIfr", "icon": "facebook" },
       { "name": "Instagram", "url": "https://www.instagram.com/shivanandglobalmedicaltourism?igsh=eGd6djlyMDM1eWRv", "icon": "instagram" }
     ],
-    "disclaimer": "Note: Shivanand Global does not provide medical advice, diagnosis or treatment. The services and information offered on www.Shivanand Globalglobal.com are intended solely for informational purposes and cannot replace the professional consultation or treatment by a physician."
+    "disclaimer": "Note: Shivanand Global does not provide medical advice, diagnosis or treatment. The services and information offered on www.Shivanandglobal.com are intended solely for informational purposes and cannot replace the professional consultation or treatment by a physician."
   },
   "countries": [
     "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan",
