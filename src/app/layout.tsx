@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://ShivanandGlobal.com'),
+  metadataBase: new URL('https://shivanandglobalmedicaltourism.com'),
   alternates: {
     canonical: '/',
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Medical Tourism in India | Shivanand Global – World-Class Surgery & Ayurveda",
     description: "Discover India's gateway to world-class surgery & authentic Ayurveda with Shivanand Global Medical Tourism. Top hospitals, expert doctors & complete patient care. worldwide.",
-    url: 'https://ShivanandGlobal.com',
+    url: 'https://shivanandglobalmedicaltourism.com',
     siteName: 'Shivanand Global',
     images: [
       {
