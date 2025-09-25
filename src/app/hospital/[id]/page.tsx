@@ -1,9 +1,21 @@
 // app/hospital/[id]/page.tsx
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import QuoteForm from "@/components/QuoteForm";
 import websiteData from "@/data/websiteData.json";
 
 type Params = Promise<{ id: string }>;
+
+// Prefer real doctor image if provided; fallback to placeholder
+function getDoctorImage(doc: any): string {
+  return (
+    doc?.photoUrl ||
+    doc?.image ||
+    doc?.avatar ||
+    doc?.media?.images?.find((img: any) => img?.visible)?.url ||
+    "/doctors/doctor_avatar.png"
+  );
+}
 
 export default async function HospitalPage({
   params,
@@ -200,20 +212,31 @@ export default async function HospitalPage({
                         <h3 className="font-bold text-lg mb-2">{dept.name} ({dept.doctorCount} Doctors)</h3>
                         <ul className="space-y-4 text-sm">
                           {dept.doctors?.map((doc: any) => (
-                            <li key={doc.id} className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-                              <div className="text-gray-800">
-                                <a href={doc.profileUrl} className="text-blue-600 hover:underline font-medium">{doc.name}</a>{" "}
-                                - {doc.specialty}, {doc.experienceYears} yrs exp. ⭐ {doc.rating}
+                            <li key={doc.id} className="flex items-center gap-3">
+                              <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
+                                <Image 
+                                  src={getDoctorImage(doc)} 
+                                  alt={`${doc.name} - Doctor Avatar`}
+                                  width={48}
+                                  height={48}
+                                  className="w-full h-full object-cover"
+                                />
                               </div>
-                              <div className="flex items-center gap-2">
-                                <a href="#appointment" className="inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-semibold bg-[#56DDEF] text-white hover:bg-[#56DDEF]/90">Book</a>
-                                <a
-                                  href={`https://wa.me/8595199918?text=${encodeURIComponent(`Hi! I want to consult with ${doc.name} at ${hospital.name}.`)}`}
-                                  target="_blank"
-                                  className="hidden md:inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-semibold bg-green-500 text-white hover:bg-green-600"
-                                >
-                                  WhatsApp
-                                </a>
+                              <div className="flex-1 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                                <div className="text-gray-800">
+                                  <a href={doc.profileUrl} className="text-blue-600 hover:underline font-medium">{doc.name}</a>{" "}
+                                  - {doc.specialty}, {doc.experienceYears} yrs exp. ⭐ {doc.rating}
+                                </div>
+                                <div className="flex items-center gap-2">
+                                  <a href="#appointment" className="inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-semibold bg-[#56DDEF] text-white hover:bg-[#56DDEF]/90">Book</a>
+                                  <a
+                                    href={`https://wa.me/8595199918?text=${encodeURIComponent(`Hi! I want to consult with ${doc.name} at ${hospital.name}.`)}`}
+                                    target="_blank"
+                                    className="hidden md:inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-semibold bg-green-500 text-white hover:bg-green-600"
+                                  >
+                                    WhatsApp
+                                  </a>
+                                </div>
                               </div>
                             </li>
                           ))}
@@ -233,10 +256,23 @@ export default async function HospitalPage({
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                     {hospital.topDoctors.list.map((doc: any) => (
                       <div key={doc.id} className="bg-white rounded-xl shadow p-5 border border-gray-100">
-                        <h3 className="font-bold text-lg">{doc.name}</h3>
-                        <p className="text-gray-600">{doc.specialty}</p>
-                        <p className="text-sm text-gray-500">{doc.experienceYears} yrs experience</p>
-                        <p className="text-yellow-500">⭐ {doc.rating}</p>
+                        <div className="flex items-center gap-4 mb-4">
+                          <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                            <Image 
+                              src={getDoctorImage(doc)} 
+                              alt={`${doc.name} - Doctor Avatar`}
+                              width={64}
+                              height={64}
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                          <div>
+                            <h3 className="font-bold text-lg">{doc.name}</h3>
+                            <p className="text-gray-600">{doc.specialty}</p>
+                            <p className="text-sm text-gray-500">{doc.experienceYears} yrs experience</p>
+                            <p className="text-yellow-500">⭐ {doc.rating}</p>
+                          </div>
+                        </div>
                         <div className="mt-3 flex flex-wrap gap-2">
                           <a href="#appointment" className="inline-flex items-center px-3 py-2 rounded-lg text-xs font-semibold bg-[#56DDEF] text-white hover:bg-[#56DDEF]/90">Book Appointment</a>
                           <a

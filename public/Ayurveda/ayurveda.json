@@ -38,7 +38,7 @@
         "Affordable Packages",
         "Guided by Certified Doctors"
       ],
-      "button": { "label": "Request Free Ayurveda Consultation →", "link": "/free-consultation" }
+      "button": { "label": "Request Free Ayurveda Consultation ", "link": "/free-consultation" }
     }
   }
   

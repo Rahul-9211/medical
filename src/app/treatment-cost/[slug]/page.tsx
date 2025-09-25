@@ -38,7 +38,7 @@ export default async function TreatmentCostSlugPage(props: { params : Params }) 
             <p className="text-lg md:text-xl text-white/90 mb-6 leading-relaxed">{data.subtitle}</p>
             <Link
               href={data.treatment_page.link}
-              className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg backdrop-blur-sm"
+              className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg backdrop-blur-sm"
             >
               {data.treatment_page.label}
             </Link>
@@ -207,7 +207,7 @@ export default async function TreatmentCostSlugPage(props: { params : Params }) 
             <div>
               <Link
                 href={data.final_cta.button.link}
-                className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+                className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg"
               >
                 {data.final_cta.button.label}
               </Link>

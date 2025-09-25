@@ -176,7 +176,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                           <Link
                             href={item.url}
                             className="text-gray-700 hover:text-green-600 block py-3 text-base font-medium flex-1"
-                            onClick={() => !item.submenu && setIsMenuOpen(false)}
+                            onClick={() => setIsMenuOpen(false)}
                           >
                             {item.name}
                           </Link>

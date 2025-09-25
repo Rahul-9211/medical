@@ -128,12 +128,12 @@ export default function BlogSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </Link>
-              <button className="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-white text-gray-900 font-semibold rounded-xl border-2 border-gray-200 hover:border-[#56DDEF] hover:bg-[#56DDEF]/10 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-base sm:text-lg">
+              <a href="/free-consultation" className="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-white text-gray-900 font-semibold rounded-xl border-2 border-gray-200 hover:border-[#56DDEF] hover:bg-[#56DDEF]/10 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-base sm:text-lg">
                 Subscribe to Newsletter
                 <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a0 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>

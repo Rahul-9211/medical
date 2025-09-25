@@ -46,7 +46,7 @@ const PatientServicesPage = async () => {
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8 leading-relaxed">{data.intro}</p>
             <Link
               href={data.cta.link}
-              className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+              className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg"
             >
               {data.cta.buttonText}
             </Link>
@@ -160,7 +160,7 @@ const PatientServicesPage = async () => {
             <p className="text-2xl font-bold mb-6 text-gray-900">{data.cta.text}</p>
             <Link
               href={data.cta.link}
-              className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg mb-8"
+              className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg mb-8"
             >
               {data.cta.buttonText}
             </Link>

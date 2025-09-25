@@ -34,7 +34,7 @@ export default async function MedicalTreatmentsPage() {
               {pageData.introText}
             </p>
             <Link href={pageData.link}>
-            <button className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg">
+            <button className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg">
               {pageData.ctaButton}
             </button>
             </Link>
@@ -189,7 +189,7 @@ export default async function MedicalTreatmentsPage() {
             {/* Main CTA */}
             <div className="mb-16">
             <Link href={pageData.link}>
-              <button className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg">
+              <button className="px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg">
                 {consultation.ctaButton}
               </button>
               </Link>

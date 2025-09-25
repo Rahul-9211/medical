@@ -50,6 +50,12 @@ const AyurvedaSlugPage = async ({ params }: { params: Promise<{ slug: string }> 
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg">{data.title}</h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-white/90 drop-shadow-md">{data.h1}</h2>
             <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed backdrop-blur-sm bg-black/10 p-6 rounded-2xl">{data.intro}</p>
+            <a
+              href={data.cta[0].link}
+              className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg backdrop-blur-sm"
+            >
+              {data.cta[0].button}
+            </a>
           </div>
         </section>
 
@@ -108,10 +114,10 @@ const AyurvedaSlugPage = async ({ params }: { params: Promise<{ slug: string }> 
               </div>
 
               {ctaItem.button && (
-                <div className="mb-16">
+                <div className="mb-16 ">
                   <Link
                     href={ctaItem.link}
-                    className="inline-flex items-center px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg group"
+                    className="inline-flex items-center px-8 px-8 py-4 bg-green-600 text-white font-semibold rounded-xl hover:bg-green-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
                   >
                     <span>{ctaItem.button}</span>
                     <svg className="w-5 h-5 ml-2 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

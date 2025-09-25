@@ -141,7 +141,7 @@ export default async function BlogPage({ params }: PageProps) {
               <br />
               <a
                 href={blog.cta.url}
-                className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg mb-8"
+                className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg mb-8"
               >
                 {blog.cta.text}
               </a>

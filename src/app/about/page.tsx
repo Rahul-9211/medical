@@ -202,7 +202,7 @@ const AboutPage = () => {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
                   href="/free-consultation"
-                  className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+                  className="inline-block px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-md sm:text-lg"
                 >
                   Request a Free Medical Consultation
                 </a>
