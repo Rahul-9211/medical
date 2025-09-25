@@ -12,8 +12,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Shivanand Global - Medical Treatment With Unmatched Personal Care",
-  description: "World's Most Trusted Medical Travel Assistance Platform. Get personalized medical treatment quotes from top hospitals worldwide. 1,00,000+ patients assisted since 2016.",
+  title: "Medical Tourism in India | Shivanand Global – World-Class Surgery & Ayurveda",
+  description: "Discover India’s gateway to world-class surgery & authentic Ayurveda with Shivanand Global Medical Tourism. Top hospitals, expert doctors & complete patient care. worldwide. 1,00,000+ patients assisted since 2016.",
   keywords: "medical tourism, healthcare, hospitals, doctors, treatment, surgery, medical travel, international healthcare",
   authors: [{ name: "Shivanand Global" }],
   creator: "Shivanand Global",
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Shivanand Global - Medical Treatment With Unmatched Personal Care",
-    description: "World's Most Trusted Medical Travel Assistance Platform. Get personalized medical treatment quotes from top hospitals worldwide.",
+    title: "Medical Tourism in India | Shivanand Global – World-Class Surgery & Ayurveda",
+    description: "Discover India’s gateway to world-class surgery & authentic Ayurveda with Shivanand Global Medical Tourism. Top hospitals, expert doctors & complete patient care. worldwide.",
     url: 'https://ShivanandGlobal.com',
     siteName: 'Shivanand Global',
     images: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Shivanand Global - Medical Treatment With Unmatched Personal Care",
+    title: "Medical Tourism in India | Shivanand Global – World-Class Surgery & Ayurveda",
     description: "World's Most Trusted Medical Travel Assistance Platform",
     images: ['/logo.png'],
   },
