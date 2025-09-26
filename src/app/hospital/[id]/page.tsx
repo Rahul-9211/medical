@@ -92,8 +92,31 @@ export default async function HospitalPage({
 
         {/* Photo Banner */}
         <section className="space-y-4">
-          <div className="relative h-64 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-xl border border-white/40">
-            <img src={heroImageUrl} alt={`${hospital.name} banner`} className="w-full h-full object-cover" />
+          {/* Hospital Image Showcase */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Main Hospital Image */}
+            <div className="relative group ">
+              <div className="aspect-[16/9] w-full rounded-3xl overflow-hidden shadow-2xl border border-white/40 bg-gradient-to-br from-gray-50 to-gray-100 ]">
+                <img 
+                  src={heroImageUrl} 
+                  alt={`${hospital.name} - Main Campus View`} 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent rounded-[30px]"></div>
+              </div>
+            </div>
+            
+            {/* Secondary Hospital Image */}
+            <div className="relative group">
+              <div className="aspect-[16/9] w-full rounded-3xl overflow-hidden shadow-2xl border border-white/40 bg-gradient-to-br from-gray-50 to-gray-100">
+                <img 
+                  src={displayImages[1]?.url || heroImageUrl} 
+                  alt={`${hospital.name} - Campus Architecture`} 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent rounded-[30px] "></div>
+              </div>
+            </div>
           </div>
           
           {/* Hospital Info Below Image */}
