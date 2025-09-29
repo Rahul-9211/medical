@@ -80,81 +80,89 @@
       "visible": true,
       "list": [
         {
-          "id": "pn-gupta",
-          "name": "Dr. P.N. Gupta",
-          "specialty": "Director & HOD – Nephrology",
+          "id": "hitesh-garg",
+          "name": "Dr. Hitesh Garg",
+          "specialty": "Senior Consultant & Head (Unit IV)",
           "rating": 4.9,
           "experienceYears": 44,
-          "profileUrl": "/doctors/pn-gupta"
+          "profileUrl": "/doctors/hitesh-garg"
         },
         {
-          "id": "manmohan-singh",
-          "name": "Dr. (Prof.) Manmohan Singh",
-          "specialty": "neurosurgery",
+          "id": "rajiv-yadav",
+          "name": "Dr. Rajiv Yadav",
+          "specialty": "Chairperson - Urology & Head - Urologic Oncology & Robotic Surgery",
           "rating": 5.0,
           "experienceYears": 46,
-          "profileUrl": "/doctors/manmohan-singh"
+          "profileUrl": "/doctors/rajiv-yadav"
         },
         {
-         "id": "anurag-khaitan",
-          "name": "Dr. Anurag Khaitan",
-          "specialty": "urology",
+          "id": "kuldeep-arora",
+          "name": "Dr. Kuldeep Arora",
+          "specialty": "Unit Head & Chief - Cath Lab, Sr. Consultant - Interventional Cardiology",        
           "rating": 5.0,
           "experienceYears": 22,
           "profileUrl": "/doctors/anurag-khaitan"
         },
         {
-          "id": "r-ranga-rao",
-          "name": "Dr. (Col.) R Ranga Rao, VSM",
-          "specialty": "medical oncology",
+         "id": "ramkinkar-jha",
+          "name": "Dr. Ramkinkar Jha",
+          "specialty": "Chief & Unit Head - Orthopaedics (Unit III)",
           "rating": 4.9,
           "experienceYears": 30,
           "profileUrl": "/doctors/r-ranga-rao"
         }
         ,
         {
-          "id": "ankur-garg",
-          "name": "Dr. Ankur Garg",
-          "specialty": "hepato-pancreato-biliary surgery",
+          "id": "tariq-man",
+          "name": "Dr. Tariq Man",
+          "specialty": "Director & Chief - Neurointerventional Surgery",
           "rating": 4.9,
           "experienceYears": 25,
-          "profileUrl": "/doctors/ankur-garg"
+          "profileUrl": "/doctors/tariq-man"
         }
         ,
         {
-          "id": "amit-bhushan-sharma",
-          "name": "Dr. Amit Bhushan Sharma",
-          "specialty": "cardiology",
+         "id": "varun-mial",
+          "name": "Dr. Varun Mial",
+          "specialty": "Senior Consultant - Kidney Transplant, Uro-Oncology and Robotic Surgery",
           "rating": 4.9,
           "experienceYears": 22,
-          "profileUrl": "/doctors/amit-bhushan-sharma"
+          "profileUrl": "/doctors/varun-mial"
         }
         ,
         {
-          "id": "alka-kriplani",
-          "name": "Dr. (Prof.) Alka Kriplani",
-          "specialty": "gynaecology",
+          "id": "aditya-gupta",
+          "name": "Dr. Aditya Gupta",
+          "specialty": "Director - Neurosurgery & CNS Radiosurgery and Co-Director - Cyberknife Centre",
           "rating": 4.9,
           "experienceYears": 40,
-           "profileUrl": "/doctors/alka-kriplani"
+           "profileUrl": "/doctors/aditya-gupta"
 
         }
         ,
         {
-          "id": "vivek-logani",
-          "name": "Dr. Vivek Logani",
-          "specialty": "orthopaedics",
+          "id": "manju-aggarwal",
+          "name": "Dr. Manju Aggarwal",
+          "specialty": "Chairperson - Nephrology (Unit 1)",        
           "experienceYears": 23,
           "rating": 4.9,
-          "profileUrl": "/doctors/vivek-logani"
+          "profileUrl": "/doctors/manju-aggarwal"
         },
         {
-          "id": "arvind-mehra",
-          "name": "Dr. Arvind Mehra",
-          "specialty": "orthopaedics",
+          "id": "biswajyoti-hazarika",
+          "name": "Dr. Biswajyoti Hazarika",
+          "specialty": "Director - Surgical Oncology (Head & Neck)",
           "experienceYears": 20,
            "rating": 4.9,
-          "profileUrl": "/doctors/arvind-mehra"
+          "profileUrl": "/doctors/biswajyoti-hazarika"
+        },
+        {
+          "id": "giriraj-bora",
+          "name": "Dr. Giriraj Bora",
+          "specialty": "Joint Chief - Liver Transplantation & Sr. Consultant GI & HPB Surgery",
+          "experienceYears": 20,
+           "rating": 4.9,
+          "profileUrl": "/doctors/biswajyoti-hazarika"
         }
       ]
     },

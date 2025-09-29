@@ -810,7 +810,603 @@
         "emergency": "0124-4585666"
       }
     }
+    ,
+    {
+      "id": "hitesh-garg",
+      "name": "Dr. Hitesh Garg",
+      "designation": "Senior Consultant & Head (Unit IV)",
+      "specialty": "Ortho-Spine Surgery",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital-gurugram",
+      "experienceYears": 15,
+      "about": "Dr. Hitesh Garg has extensive experience in spine surgery, having trained from the best spine centers of the world and India. He specializes in comprehensive treatment of conditions affecting the cervical, thoracic, and lumbosacral spine including degenerative disc disease, scoliosis, trauma, infections, and tumors. He has performed more than 2000 spine surgeries including over 1500 spinal fusions, 250 deformity corrections, and 150 artificial disc replacements. Despite being offered a faculty position in the USA, he returned to India to establish an advanced spine center of international repute. He started the spine surgery department at Artemis Health Institute in 2010 with a unique concept of neurosurgeons and orthopedic surgeons working together. He is academically active, has published internationally, and contributed chapters in world-renowned books on spine surgery.",
+      "education": [
+        "MBBS - AIIMS, New Delhi",
+        "MS (Orthopaedics) - KEM Hospital, Mumbai",
+        "Fellowship in Spine Surgery - Yale University, USA",
+        "Fellowship in Paediatric Spine - Shriners Hospitals for Children, USA",
+        "Joint Replacement Fellowship - AIIMS"
+      ],
+      "expertise": [
+        "Degenerative spine disorders",
+        "Spinal deformity correction (Scoliosis and Kyphosis)",
+        "Spinal trauma surgeries",
+        "Spinal infections",
+        "Osteoporosis procedures",
+        "Spinal fusions (TLIF, ALIF, DLIF, Axial-LIF, PLIF, PLF)",
+        "Artificial Disc Replacements (Cervical and Lumbar)",
+        "Minimally invasive spine surgeries",
+        "Cervical spine surgery",
+        "Occipito-cervical and C1-C2 surgeries",
+        "Spinal tumors",
+        "Kyphoplasty and Vertebroplasty",
+        "Motion-preserving surgeries",
+        "Growing rod for scoliosis",
+        "Pain procedures: Epidural Blocks, Radiofrequency Ablation, Spinal cord stimulator, Baclofen and Morphine Pumps, Percutaneous discectomy"
+      ],
+      "awards": [
+        "Dr. Pandurangi Award for Best Orthopaedic Resident (2006-07, KEM Hospital, Mumbai)",
+        "Top 12 Nominees for All Asia Young Inventor Award by Hewlett Packard (2000)",
+        "Dr. Hira Lal Sharma Memorial Gold Medal (1996-97) for standing first in Punjab School Education Board",
+        "Signed the College Roll of Honour (1996-97)"
+      ],
+      "memberships": [
+        "AO Spine",
+        "Delhi Spine Society",
+        "Association of Spine Surgeons of India",
+        "Indian Medical Association",
+        "Gurgaon Orthopaedic Society"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/hitesh-garg.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "phone": "01246767999",
+        "emergency": "01246767000",
+        "location": "Sector 51, Gurugram",
+        "website": "https://www.artemishospitals.com"
+      }
+    }
+    ,
+    {
+      "id": "rajiv-yadav",
+      "name": "Dr. Rajiv Yadav",
+      "designation": "Chairperson - Urology & Head - Urologic Oncology & Robotic Surgery",
+      "specialty": "Urology, Urologic Oncology & Robotic Surgery",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital-gurugram",
+      "experienceYears": 20,
+      "about": "Dr. Rajiv Yadav has over two decades of experience in treating urological diseases involving the prostate, kidney, and urinary bladder. His clinical expertise lies in robotic-assisted laparoscopic surgeries for prostate, kidney, and bladder cancers. He leads a team proficient in handling complex urological procedures with outcomes matching global benchmarks. He has authored over 100 scientific publications and is the recipient of several prestigious awards, including multiple recognitions from the American Urological Association. His research contributions span minimally invasive urology, urologic oncology, and robotic surgery advancements.",
+      "education": [
+        "MS (Surgery) - AIIMS, New Delhi",
+        "MCh (Urology) - AIIMS, New Delhi",
+        "Fellowship in Urologic Oncology & Robotic Surgery - USA",
+        "Fellowship in Endo Urology & Laparoscopy - USA",
+        "Fellowship in Endo Urology & Laparoscopy - AIIMS, New Delhi"
+      ],
+      "expertise": [
+        "Evaluation and management of urological cancers",
+        "Robotic surgery for urological cancer",
+        "Robotic radical prostatectomy – Prostate cancer",
+        "Robotic partial/radical nephrectomy – Kidney cancer",
+        "Robotic radical cystectomy with urinary diversion – Bladder cancer",
+        "Robotic adrenalectomy / Robotic pyeloplasty",
+        "MRI-TRUS fusion biopsy",
+        "Endoscopic, laparoscopic and open urological procedures"
+      ],
+      "awards": [
+        "Best Video Award 2016 – Robotic Surgeon’s Council Meet, New Delhi",
+        "DUSCON Achievers Award – Delhi Urological Society, 2016",
+        "Best Reviewer Award – Indian Journal of Urology, 2015",
+        "Best Poster Award – NZUSICON Srinagar, 2015",
+        "Best Paper in Robotic Surgery – Vaku Foundation-IJU, 2014",
+        "Best Surgical Video Award – ASICON, 2014",
+        "Best Clinical Research Essay – American Urological Association, 2008 & 2009",
+        "Gold Medal in Urology – Best Outgoing Resident, AIIMS, 2005",
+        "NIH R01 Grant Co-Investigator Award, USA",
+        "Multiple international awards from AUA, SLS, and ICS between 2008–2010"
+      ],
+      "memberships": [
+        "Urological Society of India",
+        "American Urological Association",
+        "North Zone Urological Society of India",
+        "Delhi Urological Society",
+        "Association of Surgeons of India"
+      ],
+      "publications": [
+        "Over 100+ scientific articles in peer-reviewed journals",
+        "Key publications in Indian Journal of Urology, Journal of Robotic Surgery, BJU International",
+        "Research in robotic prostatectomy, laparoscopic nephrectomy, and minimally invasive urology",
+        "Notable works on multiphoton microscopy, MRI-TRUS fusion biopsy, and outcomes in robotic surgery"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/rajiv-yadav.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "phone": "+911244511111",
+        "emergency": "+911244588888",
+        "location": "Sector 51, Gurugram, India",
+        "website": "https://www.artemishospitals.com"
+      }
+    }
+    ,
+    {
+      "id": "kuldeep-arora",
+      "name": "Dr. Kuldeep Arora",
+      "designation": "Unit Head & Chief - Cath Lab, Sr. Consultant - Interventional Cardiology",
+      "specialty": "cardiology",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital",
+      "experienceYears": 16,
+      "about": "Dr. Kuldeep Arora is Senior Consultant Cardiologist in Artemis Hospital Gurgaon, with 16 years of experience in interventional cardiology. He has successfully performed over 12,000 therapeutic cardiac interventions including coronary angioplasties, permanent pacemaker implantations, AICDs, biventricular pacemakers and atrial septal defect device closure procedures. He trained at Sri Jayadeva Institute of Cardiovascular Sciences and Research (SJIC), Bangalore, where he also served as lecturer and Assistant Professor. Before joining Artemis, he worked as Associate Director of Cardiology at Paras Hospitals, Gurgaon. He specializes in angiography & angioplasty via the radial route and has expertise in pacemaker, ICD, CRT implantation, and device closure of atrial septal defects.",
+      "education": [
+        "MBBS - Government Medical College, Jabalpur, 1999",
+        "MD - General Medicine - Gandhi Medical College, Bhopal, 2002",
+        "DM - Cardiology - Sri Jayadeva Institute of Cardiovascular Sciences and Research, Bangalore, 2007"
+      ],
+      "expertise": [
+        "Coronary Angiography & Angioplasty (Radial Route)",
+        "Complex Coronary Interventions",
+        "Rotational Atherectomy",
+        "Transradial Interventions",
+        "Peripheral Interventions including Carotid and Renal",
+        "Device Closure of Congenital Heart Defects",
+        "Pacemakers, ICDs, and CRT Implants",
+        "Balloon Valvuloplasty"
+      ],
+      "workExperience": [
+        "Associate Director & Senior Consultant - Cardiology, Paras Hospital, Gurgaon",
+        "Consultant - Cardiology, Seven Hills Hospital, Mumbai",
+        "Consultant - Cardiology, Wockhardt Hospitals, Nagpur",
+        "Assistant Professor - Sri Jayadeva Institute of Cardiovascular Sciences and Research, Bangalore"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/kuldeep-arora.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Artemis Hospital, Sector 51, Gurugram, India",
+        "phone": "+91-124-4511 111",
+        "emergency": "+91-124-4588 888",
+        "website": "https://www.artemishospitals.com"
+      }
+    }
+    ,
+    {
+      "id": "ramkinkar-jha",
+      "name": "Dr. Ramkinkar Jha",
+      "designation": "Chief & Unit Head - Orthopaedics (Unit III)",
+      "specialty": "orthopaedics",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital",
+      "experienceYears": 20,
+      "about": "Dr. Ramkinkar Jha is an accomplished Orthopaedic Surgeon with over two decades of rich experience at India’s top institutions such as Medanta – The Medicity, Narayana Health, Tata Main Hospital, and AIIMS. He graduated with a gold medal from Jawaharlal Nehru Medical College and completed his MS (Orthopaedics) from AIIMS, New Delhi. He has trained internationally in Australia, Thailand, and Hong Kong, and is a member of the Royal College of Surgeons (Glasgow). He has authored numerous papers, contributed chapters to books on joint replacement, trauma, and sports injuries, and has been a speaker at national and international conferences.",
+      "education": [
+        "MBBS (Hons.), Jawaharlal Nehru Medical College – Gold Medalist, 2001",
+        "MS (Orthopaedics), AIIMS New Delhi",
+        "Fellowship in Orthopaedics, Joint Replacement, Spine, Sports Injuries",
+        "MRCS (Glasgow)",
+        "Diploma in Sports Injury (FIFA)",
+        "Leadership – Ivy League",
+        "MBA (Hospital & Healthcare Management), BITS Pilani",
+        "ASMB, IIM Lucknow"
+      ],
+      "fellowships": [
+        "Orthopaedics & Joints – Queen Elizabeth Hospital, Hong Kong (Asian Association for Dynamic Osteosynthesis)",
+        "Spine – AIIMS, New Delhi and Delhi Spine Society",
+        "Arthroscopy",
+        "Foot & Ankle Surgery"
+      ],
+      "expertise": [
+        "Total Knee Replacement (TKR)",
+        "Total Hip Replacement (THR)",
+        "Joint Reconstruction & Osteotomies",
+        "Complex Trauma",
+        "Pelvic & Acetabular Surgery",
+        "Foot & Ankle Surgeries",
+        "Sports Injuries (Knee, Ankle, Shoulder)",
+        "Orthopaedic Oncology"
+      ],
+      "memberships": [
+        "Indian Orthopaedics Association – Life Member (LM08144)",
+        "Delhi Orthopaedics Association – Life Member (J027)",
+        "Indian Federation of Sports Medicine – Life Member (0192-04)",
+        "Indian Arthroscopy Society – Life Member (2785)",
+        "Asian Association for Dynamic Osteosynthesis",
+        "AO Foundation/AO Trauma (ID100089)",
+        "Associate Membership – Royal College of Surgeons",
+        "Indian Foot and Ankle Society"
+      ],
+      "awards": [
+        "Dr. B Prasad Memorial Gold Medal for Best Outgoing Graduate, 2001",
+        "University Medal 2001 for Best Candidate in MBBS with Distinction in Surgery"
+      ],
+      "procedures": [
+        "Joint Reconstruction Surgery (TKR, THR, Osteotomies)",
+        "Sports Injuries – ACL, PCL, Ankle Ligament & Tendon Transfers, Shoulder Arthroscopy",
+        "Complex Trauma Surgery",
+        "Pelvic & Acetabular Surgery",
+        "Foot & Ankle Surgeries",
+        "Orthopaedic Oncology"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/ramkinkar-jha.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Artemis Hospital, Sector 51, Gurugram, India",
+        "phone": "+91-124-4511 111",
+        "emergency": "+91-124-4588 888",
+        "website": "https://www.artemishospitals.com"
+      }
+    }
+    ,
+    {
+      "id": "tariq-man",
+      "name": "Dr. Tariq Man",
+      "designation": "Director & Chief - Neurointerventional Surgery",
+      "specialty": "neurointerventional surgery",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital",
+      "experienceYears": 15,
+      "about": "Dr. Tariq Man brings more than 15 years of experience and has performed over 5000 neuroendovascular therapeutic cases. He has been associated with Medanta, Fortis Gurugram (FMRI), and Narayana Hospitals as a Senior Consultant and Clinical Lead, and also served as Group Director and Head of Neurointervention at Paras Health. He has played a key role in training professionals, conducting educational programs, and developing neurointervention programs at various government and private hospitals.",
+      "education": [
+        "MBBS",
+        "DMRD",
+        "DNB (Radiodiagnosis)"
+      ],
+      "expertise": [
+        "Neurointerventional Surgery",
+        "Endovascular Therapy",
+        "Stroke Management"
+      ],
+      "procedures": [
+        "Mechanical Thrombectomy",
+        "Carotid Stenting",
+        "Intracranial Aneurysm Coiling",
+        "Flow Diverter Insertion",
+        "AVM Embolization",
+        "Spinal Angiogram & Embolization",
+        "Diagnostic Cerebral Angiogram"
+      ],
+      "memberships": [
+        "European Society of Minimally Invasive Neurological Therapy (ESMINT)",
+        "Delhi Neurological Association (DNA)",
+        "Society of Therapeutic Neurointervention (STNI)",
+        "Indian Society of Neuroradiology (ISNR)"
+      ],
+      "awards": [
+        "Comprehensive Stroke Centre Development Initiative Award – Pan Arab Interventional Society (2023)",
+        "Best Neuroscience Team Award – NCR Region"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/tariq-man.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Artemis Hospital, Sector 51, Gurugram, India",
+        "phone": "+91-124-4511 111",
+        "emergency": "+91-124-4588 888",
+        "website": "https://www.artemishospitals.com"
+      }
+    },
+    {
+      "id": "varun-mial",
+      "name": "Dr. Varun Mial",
+      "designation": "Senior Consultant - Kidney Transplant, Uro-Oncology and Robotic Surgery",
+      "specialty": "Kidney Transplant & Uro-Oncology",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital",
+      "about": "Dr. Varun Mial specializes in Kidney Transplant and Advanced Robotic Urologic Cancer Surgery. His areas of expertise include swap/paired kidney exchange, ABO/HLA incompatible and deceased organ kidney transplants. He has been instrumental in establishing successful kidney transplant programs across leading institutes for over a decade. His academic achievements include awards for best robotic surgery video and multiple international fellowships. He has authored numerous book chapters, research articles, and has presented at national and international forums.",
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "M.Ch. (Urology and Kidney Transplant) - SGPGIMS Lucknow",
+        "DNB (Genitourinary Surgery)",
+        "Fellowship in Minimal Invasive and Robotic Urology",
+        "Observership Fellowship in Robotic Urologic Surgery - University of Miami, USA"
+      ],
+      "specialtyInterests": [
+        "Kidney Transplant",
+        "ABO Incompatible Kidney Transplant",
+        "Swap/Paired Kidney Exchange Transplant",
+        "Vascular Access: AV Fistula",
+        "CAPD Catheter Insertion",
+        "Robotic Surgery for Urologic Cancers (Radical Prostatectomy, Partial Nephrectomy, Cystectomy, Adrenalectomy)",
+        "Laparoscopic, Endourologic, and Open Procedures"
+      ],
+      "memberships": [
+        "Urological Society of India",
+        "North Zone Urological Society of India",
+        "American Urological Association",
+        "Indian American Urology Association",
+        "Indian Society of Organ Transplant",
+        "Robotic Urology Forum"
+      ],
+      "awards": [
+        "Dr. C Palanivelu Best Video Gold Medal – AMASICON, 2017 (Kochi)",
+        "Second Best Poster Award – Robotic Urology Forum, 2017 (Mumbai, India)",
+        "International Scholarship Award – Vattikuti International Scholar, 2016",
+        "AUA – USI Olympus International Resident Travel Fellowship Award, 2015",
+        "Second Best Poster Prize – UAUCON, 2015 (Lucknow, India)",
+        "Honors in Biochemistry, October 2001",
+        "Honors in Pharmacology, October 2002",
+        "Honors in Microbiology, October 2002",
+        "Honors in ENT, October 2003",
+        "Runners Up – Maharashtra State ENT Quiz, 2003",
+        "Runners Up – Maharashtra State Surgery Quiz, 2004",
+        "Third Position – Maharashtra State Cardiology Quiz, 2004"
+      ],
+      "publications": [
+        "Mandhani A, Mial V, Bhaskar V, Srivastava A. Prostate-specific antigen screening audit. Indian J Urol. 2021",
+        "Mial V, Srivastava A, Kapoor R, et al. Management of venous hypertension after AV fistula creation. Indian J Urol. 2016",
+        "Mial V, Kapoor R, Sureka S, et al. Standardized grading of SWL complications. Urol Int. 2016",
+        "Mial V, Sureka S, Kapoor R. Vesicocutaneous fistula after sliding hernia repair. Indian J Urol. 2016",
+        "Mial V, Aulakh BS, Daga G. Renal angiomyolipoma with IVC thrombosis. Urology. 2011",
+        "Mial V, Mandhani A, Majumdar G. Transdiaphragmatic wedge resection for renal cell carcinoma lung metastasis. Indian J Surg Oncol. 2016",
+        "Mial V, Rupala KK, Yadav R, Suryavanshi M. Giant sarcomatoid carcinoma with osseous metaplasia. Indian J Surg Oncol. 2017",
+        "Srivastava A, Mial V, et al. Spiral laminar flow predictor for AV fistula maturation. Indian J Urol. 2015",
+        "Sureka SK, Srivastava A, Mial V, et al. Orchialgia after laparoscopic donor nephrectomy. J Endourol. 2015",
+        "Padar N, Mial V, et al. Posterior tibial nerve stimulation in pediatric overactive bladder. J Pediatr Urol. 2015",
+        "Arora S, Srivastava A, Mial V, et al. Forgotten DJ stents experience. Indian J Surg. 2015",
+        "Arora S, Yadav P, Mial V, et al. Cystocele repair with prolene mesh. Indian J Urol. 2015",
+        "Kumar M, Mial V, et al. Follow-up imaging after pediatric pyeloplasty. Indian J Urol. 2016",
+        "Padar N, Yadav P, Mial V, et al. Audit of radical cystectomy complications. Indian J Urol. 2016",
+        "Singla S, Mial G, Mial V. Feasibility of TEP hernia repair under regional anesthesia. J Anesth Clin Pharmacol. 2009",
+        "Aulakh NK, Aulakh BS, Mial V, et al. Vaginal mass with incontinence. Urology. 2012",
+        "Daga G, Mial V, Virk SS. Splenic epithelial cyst. J Indian Assoc Pediatr Surg. 2011",
+        "Daga G, Mial V, Virk SS. Filiform ulcerative colitis. Trop Gastroenterol. 2012",
+        "Daga G, Mial V, Sharma S. Bilateral adrenal adenoma. Indian J Surg Oncol. 2017",
+        "Ketankumar R, Mial V, Gupta R, Yadav R. Pheochromocytoma with CNS vasculitis. Indian J Urol. 2017",
+        "Sureka SK, Padar N, Mial V, et al. Pneumoperitoneal pressure in infant laparoscopic renal surgery. J Pediatr Urol. 2016",
+        "Mahapatra A, Mial V, Bansal S. Renal transplant: An overview",
+        "Bhar M, Yadav RN, Mial V. Uroflowmetry and urodynamics. Case studies in Nephrology, 2021",
+        "Mial V, Gautam G. Robotic radical prostatectomy. Proceedings of Surgical Update, 2015",
+        "Mial V, Gupta NP. Role of pelvic lymphadenectomy in robotic prostatectomy. Practical Approach to Robotic Surgery, 2016",
+        "Mittal V, Khera R, Mial V. Acute retention of urine. Emergency Medicine, 2016",
+        "Ahluwalia P, Mial V, Yadav R. Management of Hematuria. Emergency Medicine, 2016",
+        "Mial V, Khera R. Catheter-associated urinary tract infections. UTI Update, 2016"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/varun-mial.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Artemis Hospital, Sector 51, Gurugram, India",
+        "phone": "+91-124-4511 111",
+        "emergency": "+91-124-4588 888",
+        "website": "https://www.artemishospitals.com"
+      }
+    }
+    ,
+    {
+      "id": "aditya-gupta",
+      "name": "Dr. Aditya Gupta",
+      "designation": "Director - Neurosurgery & CNS Radiosurgery and Co-Director - Cyberknife Centre",
+      "specialty": "Neurosurgery & CNS Radiosurgery",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital",
+      "about": "Dr. Aditya Gupta is a renowned neurosurgeon with extensive expertise in brain tumor microsurgery, endoscopic neurosurgery, CyberKnife radiosurgery, deep brain stimulation for Parkinson's disease, epilepsy surgery, vascular neurosurgery, and peripheral nerve/plexus injuries. He has over two decades of experience, trained at AIIMS, and gained advanced training at leading institutes in the USA, France, Germany, Italy, Hong Kong, and Australia. He has held senior faculty positions at AIIMS, Medanta, and CJW Medical Center (USA), and is recognized internationally for pioneering neurosurgical advancements.",
+      "education": [
+        "MBBS - AIIMS, New Delhi (1989–1994)",
+        "M.Ch. Neurosurgery - AIIMS, New Delhi (1995–1999, only 1 seat/year)",
+        "Visiting Neurosurgeon, Royal Prince Alfred Hospital, Sydney (2001)",
+        "Visiting Neurosurgeon, Queen Elizabeth Hospital, Hong Kong (2002)",
+        "Advanced Radiosurgery Training - Hospital La Timone, Marseilles, France (2006)",
+        "Advanced Deep Brain Stimulation Training - Hospital Pitié-Salpêtrière, Paris (2007)",
+        "Professor & Neurosurgeon - CJW Medical Center, Richmond, Virginia, USA (2007–2008)",
+        "Visiting Professor - University of Virginia, Charlottesville, USA (2008)",
+        "Fluorescence Guided Glioma Surgery Training - University of Kiel, Germany (2010)",
+        "Advanced Training - Wake Forest University, USA (2010)",
+        "CyberKnife Training - University of Vicenza, Italy (2012)"
+      ],
+      "experience": [
+        "Associate Professor of Neurosurgery - AIIMS, New Delhi (2001–2009)",
+        "Co-Founder & Additional Director - Institute of Neurosciences, Medanta (2009–2016)",
+        "Director - Neurosurgery, Artemis Agrim Institute of Neurosciences, Artemis Hospital (2016–Present)"
+      ],
+      "specialtyInterests": [
+        "Brain Tumor Microsurgery",
+        "Endoscopic Neurosurgery",
+        "CyberKnife Radiosurgery",
+        "Deep Brain Stimulation (DBS) for Parkinson’s Disease & Dystonia",
+        "Epilepsy Surgery",
+        "AVM and Aneurysm Surgery",
+        "Nerve and Plexus Injuries"
+      ],
+      "memberships": [
+        "Treasurer, Indian Society for Stereotactic and Functional Neurosurgery (ISSFN)",
+        "Examiner, National Board of Examinations"
+      ],
+      "awards": [],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/aditya-gupta.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "phone": "0124-6767 999",
+        "emergency": "0124-6767 000",
+        "mobile": "+91-8800404999 (9 AM to 5 PM, contact Sunita)",
+        "email": "adityagupta71@gmail.com",
+        "location": "Artemis Hospital, Sector 51, Gurugram, India",
+        "website": "https://www.artemishospitals.com"
+      }
+    },
+    {
+      "id": "manju-aggarwal",
+      "name": "Dr. Manju Aggarwal",
+      "designation": "Chairperson - Nephrology (Unit 1)",
+      "specialty": "Nephrology",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital",
+      "about": "Dr. Manju Aggarwal is a senior nephrologist with extensive experience in India and abroad, including at the University of Minnesota, one of the world’s top nephrology centers. She has expertise in treating acute and chronic renal failure, dialysis patients, and renal transplant cases, including high-risk and sensitized transplants requiring desensitization. She combines compassion with precision in patient care.",
+      "education": [
+        "MBBS - Lady Hardinge Medical College, University of Delhi, India",
+        "MD (Internal Medicine) - Maulana Azad Medical College, University of Delhi, India",
+        "Fellowship in Nephrology - University of Minnesota Hospitals & Clinics, Minneapolis, USA",
+        "Diplomate of National Board (Nephrology) - National Board of Examinations, India",
+        "MBA (Healthcare Administration) - Faculty of Management Studies, Delhi University, India"
+      ],
+      "experience": [],
+      "specialtyInterests": [
+        "Critical Care Nephrology",
+        "Fluids & Acid-base Disorders",
+        "Renal Replacement Therapy in ICUs",
+        "Dialysis (including home dialysis)",
+        "Kidney Transplantation (specialized in highly sensitized and incompatible transplants)"
+      ],
+      "memberships": [
+        "American Society of Nephrology",
+        "International Society of Nephrology",
+        "Indian Society of Nephrology",
+        "Indian Society of Organ Transplantation",
+        "Delhi Nephrology Society"
+      ],
+      "awards": [],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/manju-aggarwal.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "phone": "0124-6767 999",
+        "emergency": "0124-6767 000",
+        "location": "Artemis Hospital, Sector 51, Gurugram, India",
+        "website": "https://www.artemishospitals.com"
+      }
+    },
+    {
+      "id": "biswajyoti-hazarika",
+      "name": "Dr. Biswajyoti Hazarika",
+      "designation": "Director - Surgical Oncology (Head & Neck)",
+      "specialty": "Surgical Oncology (Head & Neck)",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital",
+      "about": "Dr. Biswajyoti Hazarika is a senior surgical oncologist specializing in Head & Neck surgery with more than 16 years of experience. His expertise includes management of tumors and cancers of the oral cavity, nose, paranasal sinuses, larynx, pharynx, thyroid, parathyroid, and salivary glands. He is skilled in plastic reconstruction of resected areas, endoscopic and minimal access surgery, as well as robotic Head & Neck surgery. He has extensive experience from Kidwai Memorial Institute of Oncology, Dr. B Barooah Cancer Centre, Prince Aly Khan Hospital, and Max Super Specialty Hospital, Saket. He has authored chapters in medical textbooks and published research papers in international journals.",
+      "education": [
+        "MBBS - Guwahati Medical College & Hospital, Guwahati",
+        "MS (ENT) - Assam Medical College & Hospital, Dibrugarh",
+        "Fellowship in Head & Neck Surgery - Kidwai Memorial Institute of Oncology, Bangalore"
+      ],
+      "experience": [
+        "Residency - Dr. B Barooah Cancer Centre, Guwahati",
+        "Consultant - Prince Aly Khan Hospital, Mumbai (under Dr. Sultan A. Pradhan)",
+        "Consultant, later Head of Dept - Surgical Oncology (Head & Neck), Max Super Specialty Hospital, Saket, New Delhi (2009–2016)",
+        "Director - Surgical Oncology (Head & Neck), Artemis Hospital, Gurugram"
+      ],
+      "specialtyInterests": [
+        "Head & Neck Oncology",
+        "Plastic Reconstruction",
+        "Robotic Head & Neck Surgery",
+        "Endoscopic and Minimally Invasive Surgery",
+        "Functional Rehabilitation of Cancer Patients"
+      ],
+      "memberships": [
+        "Life Member - Foundation of Head & Neck Oncology, India",
+        "Patron - Assam Rock and Sports Climbing Association, Guwahati"
+      ],
+      "awards": [
+        "Blue Star Best Post Graduate Award"
+      ],
+      "procedures": [
+        "Oral Cavity Tumor Surgery",
+        "Paranasal Tumor Surgery",
+        "Skull Base Surgery",
+        "Thyroid & Parathyroid Gland Surgery",
+        "Salivary Gland Tumor Surgery",
+        "Laryngeal & Pharyngeal Laser Surgery",
+        "Endoscopic & Robotic Head & Neck Surgery",
+        "Plastic Reconstruction of Surgical Defects",
+        "Endoscopic Laser Surgery"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/biswajyoti-hazarika.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "phone": "0124-6767 999",
+        "emergency": "0124-6767 000",
+        "location": "Artemis Hospital, Sector 51, Gurugram, India",
+        "website": "https://www.artemishospitals.com"
+      }
+    },
+    {
+      "id": "giriraj-bora",
+      "name": "Dr. Giriraj Bora",
+      "designation": "Joint Chief - Liver Transplantation & Sr. Consultant GI & HPB Surgery",
+      "specialty": "Liver Transplantation, GI & HPB Surgery",
+      "hospital": "Artemis Hospital, Gurugram",
+      "hospitalslug": "artemis-hospital",
+      "about": "Dr. Giriraj Bora is one of the youngest consultants in the Liver Transplant and HPB Surgery program at Artemis Hospital. A graduate of JLN Medical College, Ajmer, he trained in General Surgery at the same institute, followed by senior residency in GI Surgery at SGPGIMS Lucknow and MCh in GI Surgery at GB Pant Hospital, Delhi. He has been part of over 1500 liver transplants and performed the first liver transplant in the state of Rajasthan, including the first living donor and deceased donor liver transplants there. His special interests include liver transplantation and resections for hepatocellular carcinoma, combined liver–kidney transplantation, and pancreatic surgeries. He has presented at multiple international conferences including ILTS (San Francisco, 2012 & Sydney, 2013).",
+      "education": [
+        "MBBS – University of Rajasthan",
+        "MS – University of Rajasthan",
+        "MCh – GI Surgery, GB Pant Hospital, Delhi",
+        "Fellowship in Liver Transplant – Indraprastha Apollo Hospital, Delhi"
+      ],
+      "experience": [
+        "Over 1500 liver transplants performed",
+        "First liver transplant in Rajasthan",
+        "Credited with both first living donor & first deceased donor liver transplants in Rajasthan",
+        "Wide experience in advanced gastrointestinal surgeries",
+        "Former Consultant GI Surgeon – Jaipur"
+      ],
+      "specialtyInterests": [
+        "Safe donor surgery in liver transplantation",
+        "Liver transplant for liver cancers",
+        "Portal vein reconstruction in Whipple’s operation for pancreatic cancers",
+        "Ultra Low Anterior Resection (LAR) for rectal cancers",
+        "Liver resection for cholangiocarcinoma",
+        "Shunt surgery for portal hypertension",
+        "Advanced laparoscopic GI surgeries",
+        "ABO incompatible liver transplants"
+      ],
+      "awards": [
+        "Felicitated by the Chief Minister of Rajasthan for performing the first liver transplant in the state",
+        "Young Investigator Award – International Liver Transplant Society, Sydney (2013)",
+        "Travel Award – International Liver Transplant Society, San Francisco, USA (2012)"
+      ],
+      "media": {
+        "images": [
+          { "url": "/images/doctors/giriraj-bora.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "phone": "0124-6767 999",
+        "emergency": "0124-6767 000",
+        "location": "Artemis Hospital, Sector 51, Gurugram, India",
+        "website": "https://www.artemishospitals.com"
+      }
+    }
     
+        
+    
+
+
     
   ]
 }

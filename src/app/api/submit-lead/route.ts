@@ -25,7 +25,9 @@ export async function POST(request: NextRequest) {
     }
 
     // Prepare data for Google Sheets
-    const timestamp = new Date().toISOString();
+    const timestamp = new Date().toLocaleString("en-IN", {
+      timeZone: "Asia/Kolkata"
+    });    
     const rowData = [
       timestamp,
       leadData.name,
