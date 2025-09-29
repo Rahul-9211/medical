@@ -7,6 +7,32 @@ interface WhatsAppModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
+function getLeadSource() {
+  const referrer = document.referrer;
+  let leadSource = "unknown";
+  let hospitalName = null;
+
+  if (!referrer) {
+      leadSource = "direct"; // User came directly
+  } else if (referrer.endsWith("/") && referrer.includes(window.location.origin)) {
+      leadSource = "homepage";
+  } else if (referrer.includes("/hospital/") && !referrer.endsWith("/hospital")) {
+      // Extract hospital name/ID from the path
+      const parts = referrer.split("/hospital/");
+      hospitalName = parts[1].split("/")[0]; // get first segment after /hospital/
+      leadSource = "specific hospital"+ hospitalName;
+  } else if (referrer.includes("/hospital")) {
+      leadSource = "hospital page";
+  } else if (referrer.includes("/free-consultation")) {
+      leadSource = "consultation page";
+  } else {
+      leadSource = "other page";
+  }
+
+
+  return leadSource;
+}
+
 
 export default function WhatsAppModal({ isOpen, onClose }: WhatsAppModalProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -27,8 +53,8 @@ export default function WhatsAppModal({ isOpen, onClose }: WhatsAppModalProps) {
           email: formData.email || '',
           phone: formData.phone,
           country: formData.country,
-          treatment: formData.medicalIssue || '',
-          message: formData.medicalIssue || ''
+          medicalIssue: formData.medicalIssue || '',
+          pageSource:  getLeadSource()
         }),
       });
 
@@ -93,6 +119,7 @@ export default function WhatsAppModal({ isOpen, onClose }: WhatsAppModalProps) {
             countries={websiteData.countries}
             onSubmit={handleFormSubmit}
             isSubmitting={isSubmitting}
+            pageSource= {window.location.href} 
           />
 
           {/* Status Messages */}
