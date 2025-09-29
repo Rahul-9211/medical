@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import websiteData from '@/data/websiteData.json';
+import Script from 'next/script';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -72,9 +73,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <body className={`${inter.variable} font-sans antialiased`}>
         {/* Google Tag Manager */}
-        <script
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -84,8 +87,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
         {/* End Google Tag Manager */}
-      </head>
-      <body className={`${inter.variable} font-sans antialiased`}>
+        
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
