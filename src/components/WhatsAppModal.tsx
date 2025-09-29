@@ -8,7 +8,7 @@ interface WhatsAppModalProps {
   onClose: () => void;
 }
 function getLeadSource() {
-  const referrer = document.referrer;
+  const referrer = window.location.href;
   let leadSource = "unknown";
   let hospitalName = null;
 
