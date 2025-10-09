@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 import QuoteForm from "./QuoteForm";
 import websiteData from "@/data/websiteData.json";
 
@@ -37,6 +38,7 @@ function getLeadSource() {
 export default function WhatsAppModal({ isOpen, onClose }: WhatsAppModalProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const router = useRouter();
 
   const handleFormSubmit = async (formData: Record<string, string>) => {
     setIsSubmitting(true);
@@ -60,11 +62,12 @@ export default function WhatsAppModal({ isOpen, onClose }: WhatsAppModalProps) {
 
       if (response.ok) {
         setSubmitStatus('success');
-        // Close modal after 2 seconds
+        // Close modal and redirect to thank you page
         setTimeout(() => {
           onClose();
           setSubmitStatus('idle');
-        }, 2000);
+          router.push('/thank-you');
+        }, 1000);
       } else {
         setSubmitStatus('error');
       }
