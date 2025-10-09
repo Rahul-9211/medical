@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface FormField {
   name: string;
@@ -29,6 +30,7 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
   const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
   const [countrySearch, setCountrySearch] = useState('');
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
 
   const isSubmitting = externalIsSubmitting !== undefined ? externalIsSubmitting : internalIsSubmitting;
   const detectedPageSource =
@@ -79,8 +81,8 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
     
         if (!res.ok) throw new Error("Failed to submit form");
     
-        alert("✅ Thank you! We will contact you soon.");
-        setFormData({});
+        // Redirect to thank you page
+        router.push("/thank-you");
       } catch (err) {
         console.error("Form submission error:", err);
         alert("❌ Something went wrong, please try again.");
