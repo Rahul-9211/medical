@@ -135,18 +135,7 @@ const ThankYouPage = () => {
           </p>
         </div>
 
-        {/* Contact Support */}
-        <div className="mt-8 text-center">
-          <p className="text-gray-600 mb-2">
-            Need immediate assistance?
-          </p>
-          <a
-            href="tel:+911234567890"
-            className="text-green-600 font-semibold hover:text-green-700 transition-colors"
-          >
-            Call us: +91 123 456 7890
-          </a>
-        </div>
+        
       </div>
     </div>
   );
