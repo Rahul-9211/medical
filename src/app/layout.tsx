@@ -98,6 +98,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {/* End Google Tag Manager (noscript) */}
+
+        {/* Google Ads (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17588943444"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-ads-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-17588943444');
+            `,
+          }}
+        />
+        {/* End Google Ads */}
         <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-green-50/80">
           <Header 
             navigation={websiteData.navigation} 
