@@ -126,6 +126,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <Footer footer={websiteData.footer} />
           <WhatsAppButton />
         </div>
+
+        {/* Live Chat Script */}
+        <Script
+          id="livechat-script"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+              function add_chatinline(){
+                var hccid=27909118;
+                var nt=document.createElement("script");
+                nt.async=true;
+                nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;
+                var ct=document.getElementsByTagName("script")[0];
+                ct.parentNode.insertBefore(nt,ct);
+              }
+              add_chatinline();
+            `,
+          }}
+        />
+        {/* End Live Chat Script */}
       </body>
     </html>
   );
