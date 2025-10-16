@@ -1,0 +1,279 @@
+{
+    "id": "indraprastha-apollo-hospital-new-delhi",
+    "name": "Indraprastha Apollo Hospital, New Delhi",
+    "visible": true,
+    "rating": {
+    "value": 4.3,
+    "reviews": 86
+    },
+    "patientsRecommended": {
+    "percent": 95
+    },
+    "url": "/hospital/indraprastha-apollo-hospital-new-delhi",
+    "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "Indraprastha Apollo Hospitals, Sarita Vihar, Delhi Mathura Road, New Delhi, 110076, India",
+    "visible": true
+    },
+    "established": 1995,
+    "accreditations": [
+    "JCI",
+    "NABL"
+    ],
+    "specialty": "Multi Specialty",
+    "beds": 710,
+    "about": {
+    "visible": true,
+    "overview": "Indraprastha Apollo Hospital is the flagship of Apollo Hospitals Group, a premier multi-super specialty hospital founded as a joint venture with the Government of Delhi; it is India’s first JCI-accredited hospital (2005) with leadership in organ transplantation and cardiac sciences.",
+    "awards": [
+    "India’s first JCI accreditation (2005) with consecutive re-accreditations",
+    "Featured in Newsweek World’s Best Hospitals (2025)",
+    "FICCI Medical Value Travel Award – Best Private Hospital for Medical Tourism (2019)",
+    "Golden Peacock Award for Excellence in Risk Management",
+    "Performed India’s first successful pediatric liver transplant (1998)",
+    "One of the world’s busiest solid organ transplant centers (500+ pediatric liver transplants by 2011)",
+    "99.6% CABG success rate with 91% on beating heart",
+    "Pioneer in multi-specialty robotic surgery"
+    ]
+    },
+    "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 10000,
+    "countries": 105,
+    "services": [
+    "Pre-arrival consultation and cost estimates from senior consultants",
+    "Visa assistance and travel coordination",
+    "Airport pick-up and drop-off",
+    "Multilingual interpreter services",
+    "Express check-in, dedicated lounge, and personal coordinators",
+    "Assistance with accommodation and customised meals"
+    ]
+    },
+    "departments": {
+    "visible": false,
+    "list": [
+    { "name": "Cardiology and Cardiac Surgery", "doctorCount": 21 },
+    { "name": "Cosmetic and Plastic Surgery", "doctorCount": 5 },
+    { "name": "Dental Treatment", "doctorCount": 2 },
+    { "name": "Dermatology", "doctorCount": 2 },
+    { "name": "Endocrinology", "doctorCount": 8 },
+    { "name": "ENT Surgery", "doctorCount": 6 },
+    { "name": "Gastroenterology", "doctorCount": 11 },
+    { "name": "General Surgery", "doctorCount": 13 },
+    { "name": "Gynecology", "doctorCount": 7 },
+    { "name": "Hematology", "doctorCount": 2 },
+    { "name": "Hepatology", "doctorCount": 5 },
+    { "name": "IVF and Infertility", "doctorCount": 2 },
+    { "name": "Nephrology", "doctorCount": 7 },
+    { "name": "Neurology and Neurosurgery", "doctorCount": 13 },
+    { "name": "Obesity or Bariatric Surgery", "doctorCount": 15 },
+    { "name": "Oncology and Oncosurgery", "doctorCount": 12 },
+    { "name": "Opthalmology", "doctorCount": 4 },
+    { "name": "Orthopedics", "doctorCount": 16 },
+    { "name": "Pediatric Cardiology", "doctorCount": 1 },
+    { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 9 },
+    { "name": "Pulmonology", "doctorCount": 3 },
+    { "name": "Rheumatology", "doctorCount": 1 },
+    { "name": "Routine Health Check-Ups", "doctorCount": 1 },
+    { "name": "Spine Surgery", "doctorCount": 6 },
+    { "name": "Transplant Surgery", "doctorCount": 1 },
+    { "name": "Urology Treatment", "doctorCount": 9 },
+    { "name": "Vascular Surgery", "doctorCount": 3 }
+    ]
+    },
+    "topDoctors": {
+    "visible": true,
+   "list": [
+        {
+          "id": "rohit-goel",
+          "name": "Dr. Rohit Goel",
+          "specialty": "Cardiology",
+          "designation": "Principal Consultant - Cardiology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 18,
+          "profileUrl": "/doctors/rohit-goel"
+        },
+        {
+          "id": "jatinder-bir-singh-jaggi",
+          "name": "Dr. Jatinder Bir Singh Jaggi",
+          "specialty": "Orthopaedics & Joint Replacement",
+          "designation": "Director – Orthopaedics & Joint Replacement, Arthroscopy & Sports Injury",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 18,
+          "profileUrl": "/doctors/jatinder-bir-singh-jaggi"  
+        },
+        {
+          "id": "suman-lal",
+          "name": "Dr. Suman Lal",
+          "specialty": "Obstetrics & Gynaecology",
+          "designation": "Director - Department of Obstetrics & Gynaecology",
+          "hospital": "Max Hospital, Gurgaon",
+          "profileUrl": "/doctors/suman-lal",
+          "experienceYears": 27  
+        },
+        {
+          "id": "amit-goel",
+          "name": "Dr. Amit Goel",
+          "specialty": "Urology & Renal Transplant",
+          "designation": "Director & Head of Unit - Renal Transplant, Uro-Oncology & Urology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-goel"  
+        }
+        ,
+        {
+          "id": "arun-saroha",
+        "name": "Dr. Arun Saroha",
+        "specialty": "Neurosurgery & Spine Surgery",
+        "designation": "Principal Director & Unit Head - Neurosciences, Neurosurgery & Spine Surgery",
+        "hospital": "Max Hospital, Gurgaon",
+        "experienceYears": 27,
+        "profileUrl": "/doctors/arun-saroha"
+        },
+        {
+          "id": "kaushal-yadav",
+          "name": "Dr. Kaushal Yadav",
+          "specialty": "Surgical Oncology",
+          "designation": "Associate Director & Unit Head – Surgical Oncology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 20,
+          "profileUrl": "/doctors/kaushal-yadav"
+        }
+    ]
+    },
+    "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 95,
+    "staffCount": null,
+    "specialitiesCount": 50,
+    "centersOfExcellence": [
+    "Heart Institute",
+    "Apollo Institutes of Transplant",
+    "Institute of Neurosciences",
+    "Cancer Institute",
+    "Institute of Orthopaedics"
+    ]
+    },
+    "facilities": {
+    "visible": true,
+    "comfort": [
+    "TV in room",
+    "Private rooms",
+    "Free Wifi",
+    "Phone in Room",
+    "Mobility accessible rooms",
+    "Family accommodation",
+    "Laundry",
+    "Welcome pack",
+    "Safe in the room",
+    "Nursery / Nanny services",
+    "Dry cleaning",
+    "Personal assistance / Concierge",
+    "Religious facilities",
+    "Spa and wellness",
+    "Café",
+    "Business centre services",
+    "Shop",
+    "Dedicated smoking areas",
+    "Special offer for group stays",
+    "Parking available",
+    "Health insurance coordination",
+    "Medical travel insurance",
+    "Foreign currency exchange",
+    "ATM",
+    "Credit Card",
+    "Debit Card",
+    "Netbanking",
+    "Diet on Request",
+    "Restaurant",
+    "International Cuisine",
+    "Medical records transfer",
+    "Online doctor consultation",
+    "Rehabilitation",
+    "Pharmacy",
+    "Document legalisation",
+    "Post operative followup",
+    "Interpreter",
+    "Translation services",
+    "Airport pickup",
+    "Local tourism options",
+    "Local transportation booking",
+    "Visa / Travel office",
+    "Car Hire",
+    "Air ambulance"
+    ],
+    "infrastructure": [
+    "15-acre campus with 600,000+ sq ft built-up area",
+    "710 beds, expandable to 1,000; 250+ ICU beds; 6-bed BMT unit",
+    "Multiple modular operating theatres",
+    "3 Tesla MRI and 128-slice CT Scanner",
+    "Da Vinci Robotic Surgical System",
+    "PET-CT and PET-MR hybrid imaging",
+    "NovalisTx and TomoTherapy radiotherapy platforms",
+    "Asia’s largest sleep lab (as listed)",
+    "Comprehensive blood bank and dialysis unit",
+    "Hyperbaric oxygen chamber",
+    "BrainLab navigation for neurosurgery"
+    ]
+    },
+    "address": {
+    "visible": true,
+    "full": "Indraprastha Apollo Hospitals, Sarita Vihar, Delhi Mathura Road, New Delhi, 110076, India",
+    "nearby": [
+    {
+    "place": "Indira Gandhi International Airport (DEL)",
+    "distanceKm": 22,
+    "duration": "30-40 mins"
+    },
+    {
+    "place": "Indraprastha Metro Station",
+    "distanceKm": 2.5,
+    "duration": "5-10 mins"
+    },
+    {
+    "place": "New Delhi Railway Station",
+    "distanceKm": 8,
+    "duration": "15-25 mins"
+    }
+    ]
+    },
+    "reviews": [
+    {
+    "patient": "Dipa Mandal",
+    "country": "Bangladesh",
+    "rating": 5,
+    "feedback": "I faced no problems throughout my stay, and everything was well-arranged. My spine surgery at Apollo Hospital also went very well.",
+    "visible": true
+    },
+    {
+    "patient": "Dieufene Losier",
+    "country": "Haiti",
+    "rating": 5,
+    "feedback": null,
+    "visible": true
+    },
+    {
+    "patient": "Prosper",
+    "country": "Tanzania",
+    "rating": 5,
+    "feedback": null,
+    "visible": true
+    }
+    ],
+    "media": {
+    "images": [
+    { "url": "/Images/hospitals/apollo-indraprastha/apollo-1.jpg", "visible": true },
+    { "url": "/Images/hospitals/apollo-indraprastha/apollo-2.jpg", "visible": true }
+    ],
+    "videos": []
+    },
+    "contact": {
+    "phone": "+91-11-71791090",
+    "email": "info@apollohospitals.com",
+    "website": "https://delhi.apollohospitals.com/"
+    }
+    }
+    
+    

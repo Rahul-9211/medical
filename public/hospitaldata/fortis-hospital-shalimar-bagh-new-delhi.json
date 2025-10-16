@@ -1,0 +1,240 @@
+{
+    "id": "fortis-hospital-shalimar-bagh-new-delhi",
+    "name": "Fortis Hospital, Shalimar Bagh, New Delhi",
+    "visible": true,
+    "rating": {
+    "value": 4.4,
+    "reviews": 33
+    },
+    "patientsRecommended": {
+    "percent": null
+    },
+    "url": "/hospital/fortis-hospital-shalimar-bagh-new-delhi",
+    "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "AA-299, Shaheed Udham Singh Marg, AA Block, Poorbi Shalimar Bagh, New Delhi, 110088, India",
+    "visible": true
+    },
+    "established": 2010,
+    "accreditations": [
+    "NABH",
+    "NABL"
+    ],
+    "specialty": "Multi Specialty",
+    "beds": 262,
+    "about": {
+    "visible": true,
+    "overview": "Fortis Hospital, Shalimar Bagh is a NABH- and NABL-recognized multi-super specialty hospital spread over a 7.34-acre campus, known for clinical quality, patient-centered care, and advanced technologies including robotic surgery and VERSA HD LINAC.",
+    "awards": [
+    "India’s first Green Hospital Building registered under the Green Building Rating System (3-star BEE rating)",
+    "Ranked 5th among Delhi’s Best Private Hospitals by The Week (2019)",
+    "Times Health Conclave & Radio City Health Icon accolades (2023–24)",
+    "FICCI Healthcare Excellence Award for Branding, Marketing & Special Jury Award"
+    ]
+    },
+    "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 4000,
+    "countries": 105,
+    "services": [
+    "Pre-arrival tele-consultation and case review with cost estimates",
+    "Visa assistance and medical invitation letters",
+    "Complimentary airport pick-up and drop",
+    "Multilingual interpreter support",
+    "Express check-in, dedicated international lounge, personal coordinators",
+    "Assistance with nearby accommodation and personalized meal plans"
+    ]
+    },
+    "departments": {
+    "visible": false,
+    "list": [
+    { "name": "Cardiology and Cardiac Surgery", "doctorCount": 6 },
+    { "name": "Endocrinology", "doctorCount": 2 },
+    { "name": "Gastroenterology", "doctorCount": 3 },
+    { "name": "General Surgery", "doctorCount": 2 },
+    { "name": "Gynecology", "doctorCount": 8 },
+    { "name": "Hepatology", "doctorCount": 2 },
+    { "name": "IVF and Infertility", "doctorCount": 6 },
+    { "name": "Nephrology", "doctorCount": 3 },
+    { "name": "Neurology and Neurosurgery", "doctorCount": 4 },
+    { "name": "Obesity or Bariatric Surgery", "doctorCount": 2 },
+    { "name": "Oncology and Oncosurgery", "doctorCount": 11 },
+    { "name": "Orthopedics", "doctorCount": 6 },
+    { "name": "Pediatric Cardiology", "doctorCount": 2 },
+    { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 4 },
+    { "name": "Pulmonology", "doctorCount": 1 },
+    { "name": "Rheumatology", "doctorCount": 1 },
+    { "name": "Routine Health Check-Ups", "doctorCount": 7 },
+    { "name": "Spine Surgery", "doctorCount": 5 },
+    { "name": "Urology Treatment", "doctorCount": 1 },
+    { "name": "ENT Surgery", "doctorCount": 3 },
+    { "name": "Cosmetic and Plastic Surgery", "doctorCount": 2 }
+    ]
+    },
+    "topDoctors": {
+    "visible": true,
+    "list": [
+        {
+          "id": "rohit-goel",
+          "name": "Dr. Rohit Goel",
+          "specialty": "Cardiology",
+          "designation": "Principal Consultant - Cardiology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 18,
+          "profileUrl": "/doctors/rohit-goel"
+        },
+        {
+          "id": "jatinder-bir-singh-jaggi",
+          "name": "Dr. Jatinder Bir Singh Jaggi",
+          "specialty": "Orthopaedics & Joint Replacement",
+          "designation": "Director – Orthopaedics & Joint Replacement, Arthroscopy & Sports Injury",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 18,
+          "profileUrl": "/doctors/jatinder-bir-singh-jaggi"  
+        },
+        {
+          "id": "suman-lal",
+          "name": "Dr. Suman Lal",
+          "specialty": "Obstetrics & Gynaecology",
+          "designation": "Director - Department of Obstetrics & Gynaecology",
+          "hospital": "Max Hospital, Gurgaon",
+          "profileUrl": "/doctors/suman-lal",
+          "experienceYears": 27  
+        },
+        {
+          "id": "amit-goel",
+          "name": "Dr. Amit Goel",
+          "specialty": "Urology & Renal Transplant",
+          "designation": "Director & Head of Unit - Renal Transplant, Uro-Oncology & Urology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-goel"  
+        }
+        ,
+        {
+          "id": "arun-saroha",
+        "name": "Dr. Arun Saroha",
+        "specialty": "Neurosurgery & Spine Surgery",
+        "designation": "Principal Director & Unit Head - Neurosciences, Neurosurgery & Spine Surgery",
+        "hospital": "Max Hospital, Gurgaon",
+        "experienceYears": 27,
+        "profileUrl": "/doctors/arun-saroha"
+        },
+        {
+          "id": "kaushal-yadav",
+          "name": "Dr. Kaushal Yadav",
+          "specialty": "Surgical Oncology",
+          "designation": "Associate Director & Unit Head – Surgical Oncology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 20,
+          "profileUrl": "/doctors/kaushal-yadav"
+        }
+    ]
+    },
+    "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 150,
+    "staffCount": null,
+    "specialitiesCount": 40,
+    "centersOfExcellence": [
+    "Fortis Cancer Institute",
+    "Fortis Bone & Joint Institute",
+    "Fortis Robotic Institute",
+    "Fortis The Nest (Mother & Child Care)"
+    ]
+    },
+    "facilities": {
+    "visible": true,
+    "comfort": [
+    "TV in room",
+    "Private rooms",
+    "Free Wifi",
+    "Phone in Room",
+    "Mobility accessible rooms",
+    "Family accommodation",
+    "Laundry",
+    "Nursery / Nanny services",
+    "Dry cleaning",
+    "Personal assistance / Concierge",
+    "Religious facilities",
+    "Fitness",
+    "Café",
+    "Business centre services",
+    "Shop",
+    "Dedicated smoking areas",
+    "Parking available"
+    ],
+    "infrastructure": [
+    "7.34-acre campus; 3.87 lakh sq ft built-up area",
+    "262 operational beds with 80+ ICU beds (Neuro, Cardiac, Paediatric, Level III NICU)",
+    "10+ modular OTs with HEPA and laminar airflow; Green OT certification",
+    "Da Vinci Robotic Surgery system",
+    "VERSA HD Linear Accelerator for IMRT/IGRT/SRS/SBRT",
+    "1.5 Tesla Wide Bore MRI & 128-slice CT",
+    "PET-CT scanner",
+    "Neuro-navigation & Kenevo microscope",
+    "Combo Cath Lab for advanced cardiac and vascular interventions",
+    "Endoscopic Ultrasound Suite & HIPEC Surgery"
+    ]
+    },
+    "address": {
+    "visible": true,
+    "full": "A Block, Shaheed Udham Singh Marg, Poorbi Shalimar Bagh, Shalimar Bagh, New Delhi, 110088, India",
+    "nearby": [
+    {
+    "place": "Indira Gandhi International Airport",
+    "distanceKm": 30,
+    "duration": "60 mins"
+    },
+    {
+    "place": "Shalimar Bagh Metro Station",
+    "distanceKm": 1,
+    "duration": "5 mins"
+    },
+    {
+    "place": "New Delhi Railway Station",
+    "distanceKm": 13.4,
+    "duration": "47 mins"
+    }
+    ]
+    },
+    "reviews": [
+    {
+    "patient": "Anvar Muradov",
+    "country": "Uzbekistan",
+    "rating": 5,
+    "feedback": null,
+    "visible": true
+    },
+    {
+    "patient": "Moses Kobina",
+    "country": "Ghana",
+    "rating": 5,
+    "feedback": null,
+    "visible": true
+    },
+    {
+    "patient": "Ticha Tewara",
+    "country": "Cameroon",
+    "rating": 5,
+    "feedback": null,
+    "visible": true
+    }
+    ],
+    "media": {
+    "images": [
+    { "url": "/Images/hospitals/fortis-shalimar-bagh/fortis-sb-1.jpg", "visible": true },
+    { "url": "/Images/hospitals/fortis-shalimar-bagh/fortis-sb-2.jpg", "visible": true }
+    ],
+    "videos": []
+    },
+    "contact": {
+    "phone": "+91-11-4530-2222",
+    "email": "enquiry@fortishealthcare.com",
+    "website": "https://www.fortishealthcare.com/india/hospitals-in-delhi-ncr/fortis-hospital-shalimar-bagh"
+    }
+    }
+    
+    

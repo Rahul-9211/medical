@@ -1,0 +1,224 @@
+{
+    "id": "max-super-speciality-hospital-shalimar-bagh-new-delhi",
+    "name": "Max Super Speciality Hospital, Shalimar Bagh, New Delhi",
+    "visible": true,
+    "rating": {
+    "value": 4.8,
+    "reviews": 12
+    },
+    "patientsRecommended": {
+    "percent": 95
+    },
+    "url": "/hospital/max-super-speciality-hospital-shalimar-bagh-new-delhi",
+    "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "C and D Block, Shalimar Place Site, Shalimar Bagh, New Delhi, 110088, India",
+    "visible": true
+    },
+    "established": 2011,
+    "accreditations": [
+    "NABH",
+    "NABL",
+    "HIMSS Stage 6",
+    "Global Green OT"
+    ],
+    "specialty": "Super Specialty",
+    "beds": 300,
+    "about": {
+    "visible": true,
+    "overview": "Max Super Speciality Hospital, Shalimar Bagh is a 12-storey tertiary care hospital serving North Delhi and beyond, known for patient-centric care across 30+ disciplines, and recognized for digital maturity and sustainable operating theatres.",
+    "awards": [
+    "First hospital in India to achieve HIMSS Stage 6 certification",
+    "First in India to be awarded Global Green OT accreditation",
+    "National accreditations by NABH and NABL"
+    ]
+    },
+    "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 4000,
+    "countries": 105,
+    "services": [
+    "Pre-arrival medical opinion, treatment plan and cost estimate",
+    "Visa assistance and travel logistics support",
+    "Airport pick-up and drop-off",
+    "Multilingual interpreters",
+    "Dedicated coordinator for appointments, billing and admin",
+    "Assistance with accommodation and customised meals"
+    ]
+    },
+    "departments": {
+    "visible": false,
+    "list": [
+    { "name": "Cardiology and Cardiac Surgery", "doctorCount": 5 },
+    { "name": "Endocrinology", "doctorCount": 2 },
+    { "name": "ENT Surgery", "doctorCount": 5 },
+    { "name": "Gastroenterology", "doctorCount": 2 },
+    { "name": "General Surgery", "doctorCount": 12 },
+    { "name": "Gynecology", "doctorCount": 7 },
+    { "name": "Hematology", "doctorCount": 2 },
+    { "name": "Nephrology", "doctorCount": 3 },
+    { "name": "Neurology and Neurosurgery", "doctorCount": 5 },
+    { "name": "Obesity or Bariatric Surgery", "doctorCount": 13 },
+    { "name": "Oncology and Oncosurgery", "doctorCount": 8 },
+    { "name": "Orthopedics", "doctorCount": 12 },
+    { "name": "Pediatric Cardiology", "doctorCount": 1 },
+    { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 3 },
+    { "name": "Transplant Surgery", "doctorCount": 1 },
+    { "name": "Urology Treatment", "doctorCount": 5 },
+    { "name": "Vascular Surgery", "doctorCount": 1 }
+    ]
+    },
+    "topDoctors": {
+    "visible": true,
+    "list": [
+        {
+          "id": "rohit-goel",
+          "name": "Dr. Rohit Goel",
+          "specialty": "Cardiology",
+          "designation": "Principal Consultant - Cardiology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 18,
+          "profileUrl": "/doctors/rohit-goel"
+        },
+        {
+          "id": "jatinder-bir-singh-jaggi",
+          "name": "Dr. Jatinder Bir Singh Jaggi",
+          "specialty": "Orthopaedics & Joint Replacement",
+          "designation": "Director – Orthopaedics & Joint Replacement, Arthroscopy & Sports Injury",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 18,
+          "profileUrl": "/doctors/jatinder-bir-singh-jaggi"  
+        },
+        {
+          "id": "suman-lal",
+          "name": "Dr. Suman Lal",
+          "specialty": "Obstetrics & Gynaecology",
+          "designation": "Director - Department of Obstetrics & Gynaecology",
+          "hospital": "Max Hospital, Gurgaon",
+          "profileUrl": "/doctors/suman-lal",
+          "experienceYears": 27  
+        },
+        {
+          "id": "amit-goel",
+          "name": "Dr. Amit Goel",
+          "specialty": "Urology & Renal Transplant",
+          "designation": "Director & Head of Unit - Renal Transplant, Uro-Oncology & Urology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-goel"  
+        }
+        ,
+        {
+          "id": "arun-saroha",
+        "name": "Dr. Arun Saroha",
+        "specialty": "Neurosurgery & Spine Surgery",
+        "designation": "Principal Director & Unit Head - Neurosciences, Neurosurgery & Spine Surgery",
+        "hospital": "Max Hospital, Gurgaon",
+        "experienceYears": 27,
+        "profileUrl": "/doctors/arun-saroha"
+        },
+        {
+          "id": "kaushal-yadav",
+          "name": "Dr. Kaushal Yadav",
+          "specialty": "Surgical Oncology",
+          "designation": "Associate Director & Unit Head – Surgical Oncology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 20,
+          "profileUrl": "/doctors/kaushal-yadav"
+        }
+    ]
+    },
+    "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 300,
+    "staffCount": 500,
+    "specialitiesCount": 30,
+    "centersOfExcellence": [
+    "Max Institute of Cardiac Sciences",
+    "Max Institute of Neurosciences",
+    "Max Institute of Cancer Care",
+    "Max Institute of Orthopaedics & Joint Replacement"
+    ]
+    },
+    "facilities": {
+    "visible": true,
+    "comfort": [
+    "TV in room",
+    "Private rooms",
+    "Free Wifi",
+    "Phone in Room",
+    "Mobility accessible rooms",
+    "Family accommodation",
+    "Laundry",
+    "Welcome pack",
+    "Safe in the room",
+    "Nursery / Nanny services",
+    "Dry cleaning",
+    "Personal assistance / Concierge",
+    "Religious facilities",
+    "Business centre services",
+    "Shop",
+    "Dedicated smoking areas",
+    "Parking available"
+    ],
+    "infrastructure": [
+    "Approximately 300 beds with 72+ ICU beds",
+    "9–12 modular operation theatres with HEPA and laminar airflow",
+    "PET-CT, 1.5 Tesla MRI, and 16-slice CT",
+    "Digital mammography and 3D/4D ultrasound",
+    "Philips echocardiography systems",
+    "Global Green OTs for sustainable surgical practice",
+    "HIMSS Stage 6 digital EMR environment",
+    "Neuro-navigation for brain and spine surgery",
+    "Minimally invasive laparoscopic and endoscopic platforms",
+    "Advanced endoscopy and colonoscopy suites",
+    "Modern dialysis units"
+    ]
+    },
+    "address": {
+    "visible": true,
+    "full": "C and D Block, Shalimar Place Site, Shalimar Bagh, New Delhi, 110088, India",
+    "nearby": [
+    {
+    "place": "Indira Gandhi International Airport (DEL)",
+    "distanceKm": 22,
+    "duration": "30-45 mins"
+    },
+    {
+    "place": "Shalimar Bagh Metro (Red Line)",
+    "distanceKm": 1,
+    "duration": "5-10 mins"
+    },
+    {
+    "place": "New Delhi Railway Station (NDLS)",
+    "distanceKm": 12,
+    "duration": "20-30 mins"
+    }
+    ]
+    },
+    "reviews": [
+    {
+    "patient": "Anonymous",
+    "country": null,
+    "rating": 5,
+    "feedback": null,
+    "visible": true
+    }
+    ],
+    "media": {
+    "images": [
+    { "url": "/Images/hospitals/max-shalimar-bagh/max-sb-1.jpg", "visible": true },
+    { "url": "/Images/hospitals/max-shalimar-bagh/max-sb-2.jpg", "visible": true }
+    ],
+    "videos": []
+    },
+    "contact": {
+    "phone": "+91-11-40554055",
+    "email": "info@maxhealthcare.in",
+    "website": "https://www.maxhealthcare.in/hospital-network/max-super-speciality-hospital-shalimar-bagh"
+    }
+    }
+    
+    

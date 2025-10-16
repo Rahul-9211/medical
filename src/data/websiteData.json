@@ -28,7 +28,12 @@
           { "name": "Paras Hospital, Gurugram", "url": "/hospital/paras" },
           { "name": "Manipal Hospital, Gurugram", "url": "/hospital/manipal" },
           { "name": "Marengo Asia Hospital, Gurugram", "url": "/hospital/marengo-asia" },
-          { "name": "CK Birla Hospital, Gurugram", "url": "/hospital/ck-birla" },
+          { "name": "Max Super Speciality Hospital, Saket, New Delhi", "url": "/hospital/max-saket-new-delhi" },
+          { "name": "Fortis Escorts Heart Institute, New Delhi", "url": "/hospital/fortis-escorts-new-delhi" },
+          { "name": "Fortis Hospital, Shalimar Bagh, New Delhi", "url": "/hospital/fortis-hospital-shalimar-bagh-new-delhi" },
+          { "name": "BLK Max Super Speciality Hospital, New Delhi", "url": "/hospital/blk-max-super-speciality-hospital-new-delhi" },
+          { "name": "Max Super Speciality Hospital, Shalimar Bagh, New Delhi", "url": "/hospital/max-super-speciality-hospital-shalimar-bagh-new-delhi" },
+          { "name": "Indraprastha Apollo Hospital, New Delhi", "url": "/hospital/indraprastha-apollo-hospital-new-delhi" },
           { "name": "View All Partner Hospitals →", "url": "/hospital" }
         ]
       },
