@@ -38,7 +38,13 @@ export default async function HospitalPage({
     'marengo-asia': 'marengo',
     'max-super-speciality': 'max',
     'medanta': 'medanta',
-    'paras': 'paras'
+    'paras': 'paras',
+    'max-saket-new-delhi' : 'maxDelhi',
+    'fortis-escorts-new-delhi' : 'fortisDelhi',
+    'fortis-hospital-shalimar-bagh-new-delhi' : 'fortis-shalimar-bagh',
+    'blk-max-super-speciality-hospital-new-delhi' : 'blk-max',
+    'max-super-speciality-hospital-shalimar-bagh-new-delhi' : 'max-shalimar-bagh',
+    'indraprastha-apollo-hospital-new-delhi' : 'apollo-indraprastha'
   };
 
   // Get folder name for current hospital
@@ -57,7 +63,13 @@ export default async function HospitalPage({
       'marengo': ['Marengo-1.png', 'Marengo-2.png', 'Marengo-3.png'],
       'max': ['max-1.jpg', 'max-2.jpg', 'max-3.jpg'],
       'medanta': ['medanta-1.jpg', 'medanta-2.jpg', 'medanta-3.jpeg'],
-      'paras': ['paras-1.jpg', 'paras-2.jpeg', 'paras-3.png']
+      'paras': ['paras-1.jpg', 'paras-2.jpeg', 'paras-3.png'],
+      'maxDelhi' : ['maxDelhi-1.webp', 'maxDelhi-2.webp', 'maxDelhi-3.jpeg'],
+      'fortisDelhi' : ['fortis-delhi-1.webp','fortis-delhi-2.jpg','fortis-delhi-3.jpg'],
+      'fortis-shalimar-bagh' : ['fortis-shalimar-bagh-1.jpeg','fortis-shalimar-bagh-2.jpg','fortis-shalimar-bagh-3.avif'],
+      'blk-max' : ['blk-max-1.webp','blk-max-2.jpg','blk-max-3.jpg'],
+      'max-shalimar-bagh' : ['max-shalimar-bagh-1.webp','max-shalimar-bagh-2.webp','max-shalimar-bagh-3.webp'],
+      'apollo-indraprastha' : ['apollo-indraprastha-1.webp','apollo-indraprastha-2.jpg','apollo-indraprastha-3.jpg']
     };
 
     // Get the actual image files for this hospital

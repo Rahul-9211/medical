@@ -1,0 +1,252 @@
+{
+    "id": "blk-max-super-speciality-hospital-new-delhi",
+    "name": "BLK-Max Super Speciality Hospital, New Delhi",
+    "visible": true,
+    "rating": {
+    "value": 3.8,
+    "reviews": 48
+    },
+    "patientsRecommended": {
+    "percent": 95
+    },
+    "url": "/hospital/blk-max-super-speciality-hospital-new-delhi",
+    "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "Pusa Road, Rajendra Place, New Delhi, 110005, India",
+    "visible": true
+    },
+    "established": 1959,
+    "accreditations": [
+    "JCI",
+    "NABH",
+    "NABL"
+    ],
+    "specialty": "Super Specialty",
+    "beds": 650,
+    "about": {
+    "visible": true,
+    "overview": "BLK-Max Super Speciality Hospital was founded in 1959 by Dr. B. L. Kapur and inaugurated by Prime Minister Pt. Jawaharlal Nehru; it is a large tertiary care center in Delhi NCR known for clinical excellence, patient safety, and innovation with international (JCI) and national (NABH/NABL) accreditations.",
+    "awards": [
+    "ET Healthworld Award for Best Multi-Speciality Hospital",
+    "AHPI Award for Quality Beyond Accreditation (2017–2018)",
+    "CNBC-TV18 Award for Best Multi-Speciality Hospital (Metro) 2017",
+    "India Today Trusted Hospital recognition (2018)"
+    ]
+    },
+    "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 20000,
+    "countries": 80,
+    "services": [
+    "Pre-arrival online consultation, detailed plan and cost estimate",
+    "Visa assistance and medical invitation letters",
+    "Complimentary airport pick-up and drop",
+    "Multilingual interpreter services",
+    "Express check-in, dedicated international lounge and coordinators",
+    "Assistance with nearby accommodation, currency exchange, and meal plans"
+    ]
+    },
+    "departments": {
+    "visible": false,
+    "list": [
+    { "name": "Cardiology and Cardiac Surgery", "doctorCount": 12 },
+    { "name": "Cosmetic and Plastic Surgery", "doctorCount": 3 },
+    { "name": "Dermatology", "doctorCount": 2 },
+    { "name": "Endocrinology", "doctorCount": 2 },
+    { "name": "ENT Surgery", "doctorCount": 4 },
+    { "name": "Gastroenterology", "doctorCount": 7 },
+    { "name": "General Surgery", "doctorCount": 5 },
+    { "name": "Gynecology", "doctorCount": 12 },
+    { "name": "Hematology", "doctorCount": 3 },
+    { "name": "Hepatology", "doctorCount": 5 },
+    { "name": "IVF and Infertility", "doctorCount": 4 },
+    { "name": "Nephrology", "doctorCount": 8 },
+    { "name": "Neurology and Neurosurgery", "doctorCount": 9 },
+    { "name": "Obesity or Bariatric Surgery", "doctorCount": 8 },
+    { "name": "Oncology and Oncosurgery", "doctorCount": 13 },
+    { "name": "Opthalmology", "doctorCount": 2 },
+    { "name": "Orthopedics", "doctorCount": 12 },
+    { "name": "Pediatric Cardiology", "doctorCount": 1 },
+    { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 11 },
+    { "name": "Pulmonology", "doctorCount": 3 },
+    { "name": "Rheumatology", "doctorCount": 1 },
+    { "name": "Spine Surgery", "doctorCount": 2 },
+    { "name": "Transplant Surgery", "doctorCount": 6 },
+    { "name": "Urology Treatment", "doctorCount": 8 },
+    { "name": "Vascular Surgery", "doctorCount": 1 }
+    ]
+    },
+    "topDoctors": {
+    "visible": true,
+    "list": [
+        {
+          "id": "rohit-goel",
+          "name": "Dr. Rohit Goel",
+          "specialty": "Cardiology",
+          "designation": "Principal Consultant - Cardiology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 18,
+          "profileUrl": "/doctors/rohit-goel"
+        },
+        {
+          "id": "jatinder-bir-singh-jaggi",
+          "name": "Dr. Jatinder Bir Singh Jaggi",
+          "specialty": "Orthopaedics & Joint Replacement",
+          "designation": "Director – Orthopaedics & Joint Replacement, Arthroscopy & Sports Injury",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 18,
+          "profileUrl": "/doctors/jatinder-bir-singh-jaggi"  
+        },
+        {
+          "id": "suman-lal",
+          "name": "Dr. Suman Lal",
+          "specialty": "Obstetrics & Gynaecology",
+          "designation": "Director - Department of Obstetrics & Gynaecology",
+          "hospital": "Max Hospital, Gurgaon",
+          "profileUrl": "/doctors/suman-lal",
+          "experienceYears": 27  
+        },
+        {
+          "id": "amit-goel",
+          "name": "Dr. Amit Goel",
+          "specialty": "Urology & Renal Transplant",
+          "designation": "Director & Head of Unit - Renal Transplant, Uro-Oncology & Urology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-goel"  
+        }
+        ,
+        {
+          "id": "arun-saroha",
+        "name": "Dr. Arun Saroha",
+        "specialty": "Neurosurgery & Spine Surgery",
+        "designation": "Principal Director & Unit Head - Neurosciences, Neurosurgery & Spine Surgery",
+        "hospital": "Max Hospital, Gurgaon",
+        "experienceYears": 27,
+        "profileUrl": "/doctors/arun-saroha"
+        },
+        {
+          "id": "kaushal-yadav",
+          "name": "Dr. Kaushal Yadav",
+          "specialty": "Surgical Oncology",
+          "designation": "Associate Director & Unit Head – Surgical Oncology",
+          "hospital": "Max Hospital, Gurgaon",
+          "experienceYears": 20,
+          "profileUrl": "/doctors/kaushal-yadav"
+        }
+    ]
+    },
+    "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 150,
+    "staffCount": 1500,
+    "specialitiesCount": 65,
+    "centersOfExcellence": [
+    "Heart Centre",
+    "Cancer Centre",
+    "Bone Marrow Transplant Centre",
+    "Neurosciences Institute",
+    "Institute for Digestive & Liver Diseases",
+    "Renal Sciences & Kidney Transplant Centre",
+    "Orthopaedics & Spine Institute",
+    "Robotic Surgery"
+    ]
+    },
+    "facilities": {
+    "visible": true,
+    "comfort": [
+    "TV in room",
+    "Private rooms",
+    "Free Wifi",
+    "Phone in Room",
+    "Mobility accessible rooms",
+    "Family accommodation",
+    "Laundry",
+    "Welcome pack",
+    "Safe in the room",
+    "Nursery / Nanny services",
+    "Dry cleaning",
+    "Personal assistance / Concierge",
+    "Religious facilities",
+    "Fitness",
+    "Café",
+    "Business centre services",
+    "Shop",
+    "Dedicated smoking areas",
+    "Parking available"
+    ],
+    "infrastructure": [
+    "5-acre campus",
+    "650+ beds with 160+ critical care and 125+ ICU beds",
+    "17+ modular operation theatres with 3-stage air filtration",
+    "CyberKnife VSI Robotic Radiosurgery",
+    "Da Vinci Xi Robotic Surgical System",
+    "TomoTherapy and TrilogyTx Linear Accelerator",
+    "128-slice CT and 1.5 Tesla MRI",
+    "PET-CT & Nuclear Medicine",
+    "Neurovascular Biplane Cath Lab",
+    "Automated pneumatic chute system",
+    "Integrated EMR systems",
+    "24/7 Emergency & Trauma services"
+    ]
+    },
+    "address": {
+    "visible": true,
+    "full": "Pusa Rd, Radha Soami Satsang, Rajendra Place, New Delhi, 110005, India",
+    "nearby": [
+    {
+    "place": "Indira Gandhi International Airport",
+    "distanceKm": 20,
+    "duration": "25-30 mins"
+    },
+    {
+    "place": "Patel Nagar Metro Station",
+    "distanceKm": 1.3,
+    "duration": "4 mins"
+    },
+    {
+    "place": "New Delhi Railway Station",
+    "distanceKm": 5.2,
+    "duration": "10 mins"
+    }
+    ]
+    },
+    "reviews": [
+    {
+    "patient": "Ms. Suzana Julius Mlwisa",
+    "country": "Tanzania",
+    "rating": 5,
+    "feedback": null,
+    "visible": true
+    },
+    {
+    "patient": "Mrs. Tuimoala Lusiana",
+    "country": "Fiji",
+    "rating": 5,
+    "feedback": "I am impressed with how BLK Max handled my wife's cancer treatment. The hospital has some of the best facilities.",
+    "visible": true
+    },
+    {
+    "patient": "Mr. Sohaneshwar Lal Padarath",
+    "country": "Fiji",
+    "rating": 5,
+    "feedback": "My friend was diagnosed with heart disease; BLK Super Specialty Hospital provided excellent care.",
+    "visible": true
+    }
+    ],
+    "media": {
+    "images": [
+    { "url": "/Images/hospitals/blk-max/blk-1.jpg", "visible": true },
+    { "url": "/Images/hospitals/blk-max/blk-2.jpg", "visible": true },
+    { "url": "/Images/hospitals/blk-max/blk-3.jpg", "visible": true }
+    ],
+    "videos": []
+    },
+    "contact": {
+    "phone": "+91-11-30403040",
+    "email": "info@blkmaxhospital.com",
+    "website": "https://www.blkmaxhospital.com/"
+    }
+    }

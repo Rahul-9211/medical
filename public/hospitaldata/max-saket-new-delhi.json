@@ -1,0 +1,347 @@
+{
+    "id": "max-saket-new-delhi",
+    "name": "Max Super Speciality Hospital, Saket, New Delhi",
+    "visible": true,
+    "rating": {
+      "value": 3.8,
+      "reviews": 49
+    },
+    "patientsRecommended": {
+      "percent": 95
+    },
+    "url": "/hospital/max-saket-new-delhi",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "address": "Press Enclave Road, Mandir Marg, Saket, New Delhi, 110017, India",
+      "visible": true
+    },
+    "established": 2005,
+    "accreditations": [
+      "NABH",
+      "ISO",
+      "JCI",
+      "Surgical Review Corporation"
+    ],
+    "specialty": "Super Specialty",
+    "beds": 539,
+    "about": {
+      "visible": true,
+      "overview": "Established in 2005, Max Super Speciality Hospital, Saket, is a leading healthcare institution in India, renowned for its cutting-edge medical technology and patient-centred treatment. Accredited by NABH, ISO, JCI, and surgical review bodies, the hospital excels across various specialties with state-of-the-art diagnostic and treatment facilities.",
+      "awards": [
+        "FICCI Healthcare Excellence Awards for Operational Excellence in Healthcare",
+        "India's Most Trusted Healthcare Award 2019 for Pulmonary and Critical Care",
+        "D L Shah National Award for 'Economics of Quality' by Quality Council of India 2009",
+        "AHPI Quality Beyond Accreditation Award 2020",
+        "Express Healthcare Awards for Excellence in Healthcare 2008",
+        "First in India accredited by Surgical Review Corporation as Center of Excellence in Metabolic & Bariatric Surgery (2011-2014)"
+      ]
+    },
+    "internationalPatientServices": {
+      "visible": true,
+      "annualPatients": 20000,
+      "countries": 30,
+      "services": [
+        "Visa and Travel Arrangement assistance with invitation letters",
+        "Free airport and hotel transportation",
+        "Air Ambulance services for emergencies",
+        "Multilingual Language Interpretation Services",
+        "Accommodation assistance at hotels and guest houses",
+        "24/7 dedicated international patient helpline"
+      ]
+    },
+    "departments": {
+      "visible": false,
+      "list": [
+        {
+          "name": "Cardiology and Cardiac Surgery",
+          "doctorCount": 16
+        },
+        {
+          "name": "Endocrinology",
+          "doctorCount": 3
+        },
+        {
+          "name": "Gastroenterology",
+          "doctorCount": 9
+        },
+        {
+          "name": "Gynecology",
+          "doctorCount": 2
+        },
+        {
+          "name": "Hepatology",
+          "doctorCount": 6
+        },
+        {
+          "name": "Nephrology",
+          "doctorCount": 2
+        },
+        {
+          "name": "Obesity or Bariatric Surgery",
+          "doctorCount": 6
+        },
+        {
+          "name": "Opthalmology",
+          "doctorCount": 2
+        },
+        {
+          "name": "Pediatric Cardiology",
+          "doctorCount": 1
+        },
+        {
+          "name": "Pulmonology",
+          "doctorCount": 1
+        },
+        {
+          "name": "Transplant Surgery",
+          "doctorCount": 3
+        },
+        {
+          "name": "Vascular Surgery",
+          "doctorCount": 1
+        },
+        {
+          "name": "Cosmetic and Plastic Surgery",
+          "doctorCount": 1
+        },
+        {
+          "name": "ENT Surgery",
+          "doctorCount": 2
+        },
+        {
+          "name": "General Surgery",
+          "doctorCount": 3
+        },
+        {
+          "name": "Hematology",
+          "doctorCount": 1
+        },
+        {
+          "name": "IVF and Infertility",
+          "doctorCount": 1
+        },
+        {
+          "name": "Neurology and Neurosurgery",
+          "doctorCount": 7
+        },
+        {
+          "name": "Oncology and Oncosurgery",
+          "doctorCount": 11
+        },
+        {
+          "name": "Orthopedics",
+          "doctorCount": 9
+        },
+        {
+          "name": "Pediatrics and Pediatric Surgery",
+          "doctorCount": 3
+        },
+        {
+          "name": "Spine Surgery",
+          "doctorCount": 6
+        },
+        {
+          "name": "Urology Treatment",
+          "doctorCount": 4
+        }
+      ]
+    },
+    "topDoctors": {
+      "visible": true,
+      "list": [
+        {
+          "id": "pn-gupta",
+          "name": "Dr. P.N. Gupta",
+          "specialty": "Director & HOD – Nephrology",
+          "rating": 4.9,
+          "experienceYears": 44,
+          "profileUrl": "/doctors/pn-gupta"
+        },
+        {
+          "id": "manmohan-singh",
+          "name": "Dr. (Prof.) Manmohan Singh",
+          "specialty": "neurosurgery",
+          "rating": 5.0,
+          "experienceYears": 46,
+          "profileUrl": "/doctors/manmohan-singh"
+        },
+        {
+         "id": "anurag-khaitan",
+          "name": "Dr. Anurag Khaitan",
+          "specialty": "urology",
+          "rating": 5.0,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/anurag-khaitan"
+        },
+        {
+          "id": "r-ranga-rao",
+          "name": "Dr. (Col.) R Ranga Rao, VSM",
+          "specialty": "medical oncology",
+          "rating": 4.9,
+          "experienceYears": 30,
+          "profileUrl": "/doctors/r-ranga-rao"
+        }
+        ,
+        {
+          "id": "ankur-garg",
+          "name": "Dr. Ankur Garg",
+          "specialty": "hepato-pancreato-biliary surgery",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/ankur-garg"
+        }
+        ,
+        {
+          "id": "amit-bhushan-sharma",
+          "name": "Dr. Amit Bhushan Sharma",
+          "specialty": "cardiology",
+          "rating": 4.9,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-bhushan-sharma"
+        }
+        ,
+        {
+          "id": "alka-kriplani",
+          "name": "Dr. (Prof.) Alka Kriplani",
+          "specialty": "gynaecology",
+          "rating": 4.9,
+          "experienceYears": 40,
+           "profileUrl": "/doctors/alka-kriplani"
+
+        }
+        ,
+        {
+          "id": "vivek-logani",
+          "name": "Dr. Vivek Logani",
+          "specialty": "orthopaedics",
+          "experienceYears": 23,
+          "rating": 4.9,
+          "profileUrl": "/doctors/vivek-logani"
+        },
+        {
+          "id": "arvind-mehra",
+          "name": "Dr. Arvind Mehra",
+          "specialty": "orthopaedics",
+          "experienceYears": 20,
+           "rating": 4.9,
+          "profileUrl": "/doctors/arvind-mehra"
+        }
+      ]
+    },
+    "teamAndSpecialities": {
+      "visible": true,
+      "doctorsCount": 450,
+      "staffCount": 920,
+      "specialitiesCount": 38,
+      "centersOfExcellence": [
+        "Oncology",
+        "Cardiology & Cardiac Surgery",
+        "Neurology & Neurosurgery",
+        "Orthopedics",
+        "Gastroenterology & Hepatology",
+        "Urology & Kidney Transplants",
+        "ENT Surgery",
+        "Organ Transplants"
+      ]
+    },
+    "facilities": {
+      "visible": true,
+      "comfort": [
+        "TV in room",
+        "Private rooms",
+        "Free Wifi",
+        "Phone in Room",
+        "Mobility accessible rooms",
+        "Family accommodation",
+        "Laundry",
+        "Welcome pack",
+        "Safe in the room",
+        "Nursery / Nanny services",
+        "Dry cleaning",
+        "Personal assistance / Concierge",
+        "Religious facilities",
+        "Fitness",
+        "Café",
+        "Business centre services",
+        "Shop",
+        "Dedicated smoking areas",
+        "Parking available"
+      ],
+      "infrastructure": [
+        "3 acres campus across East & West Blocks",
+        "539+ beds",
+        "12 modular operation theatres",
+        "50 Critical Care beds",
+        "Dedicated Endoscopy Unit",
+        "Advanced Dialysis Unit",
+        "Asia's First and World's Third Brain Suite for Neurosurgery",
+        "Stereotactic Body Radiation Therapy (SBRT)",
+        "TrueBeam Linac with Exactrac for precision radiotherapy",
+        "Bi-Plane Digital Cardiac Cath Lab",
+        "Holmium Laser for Urological Procedures",
+        "Da Vinci Xi Robotic Surgical System",
+        "4D Echocardiography Machine",
+        "MRI 3.0 Tesla",
+        "24/7 Emergency & Trauma services"
+      ]
+    },
+    "address": {
+      "visible": true,
+      "full": "Press Enclave Road, Mandir Marg, Saket, New Delhi, 110017, India",
+      "nearby": [
+        {
+          "place": "Indira Gandhi International Airport",
+          "distanceKm": 19.2,
+          "duration": "32 mins"
+        },
+        {
+          "place": "Saket Metro Station",
+          "distanceKm": 2.8,
+          "duration": "7 mins"
+        },
+        {
+          "place": "New Delhi Railway Station",
+          "distanceKm": 16.4,
+          "duration": "43 mins"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "patient": "Kushal Raj",
+        "country": "Fiji",
+        "rating": 5,
+        "feedback": null,
+        "visible": true
+      },
+      {
+        "patient": "Aleksandr",
+        "country": "Uzbekistan",
+        "rating": 4,
+        "feedback": null,
+        "visible": true
+      },
+      {
+        "patient": "Ali Imran Chowdhary",
+        "country": "Bangladesh",
+        "rating": 4,
+        "feedback": null,
+        "visible": true
+      }
+    ],
+    "media": {
+      "images": [
+      { "url": "/Images/hospital/medanta/medanta-1.jpg", "visible": true },
+      { "url": "/Images/hospitals/medanta/medanta-2.jpg", "visible": true },
+      { "url": "/Images/hospitals/medanta/medanta-3.jpeg", "visible": true }
+      ],
+      "videos": []
+    },
+    "contact": {
+      "phone": "+91-11-26652000",
+      "email": "info@maxhealthcare.in",
+      "website": "https://www.maxhealthcare.in/hospital-network/max-super-speciality-hospital-saket"
+    }
+  }

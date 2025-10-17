@@ -1,0 +1,269 @@
+{
+    "id": "fortis-escorts-heart-institute-new-delhi",
+    "name": "Fortis Escorts Heart Institute, New Delhi",
+    "visible": true,
+    "rating": {
+    "value": 4.5,
+    "reviews": 24
+    },
+    "patientsRecommended": {
+    "percent": 95
+    },
+    "url": "/hospital/fortis-escorts-heart-institute-new-delhi",
+    "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "Okhla Road, near Sukhdev Vihar Metro Station, New Delhi, 110025, India",
+    "visible": true
+    },
+    "established": 1988,
+    "accreditations": [
+    "JCI",
+    "NABH",
+    "NABL"
+    ],
+    "specialty": "Multi Specialty",
+    "beds": 310,
+    "about": {
+    "visible": true,
+    "overview": "Fortis Escorts Heart Institute (FEHI) is a flagship Fortis Healthcare hospital known as a pioneer in cardiac care in India, accredited by JCI and NABH, and recognized as one of Asia-Pacific’s leading private cardiac centers.",
+    "awards": [
+    "Best Hospital in Cardiology by Times Healthcare Achievers",
+    "ICICI Lombard & CNBC TV18 Healthcare Award (Cardiology)",
+    "The Week Best Hospital (Cardiology) recognition",
+    "ET Healthcare Awards recognition",
+    "Gold Award for Best Healthcare Delivery Brand",
+    "Excellence in Healthcare Award by AHPI",
+    "Finest Single Speciality Hospital (Cardiology), India Healthcare Awards 2012",
+    "Guinness World Record for most cholesterol tests in 8 hours"
+    ]
+    },
+    "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 10000,
+    "countries": 175,
+    "services": [
+    "Pre-arrival tele/online consultation and treatment plan",
+    "Visa assistance with invitation letters",
+    "Airport pick-up and drop",
+    "Multilingual interpreters",
+    "Express check-in and personalised coordinators",
+    "Assistance with currency exchange and local SIM",
+    "Accommodation coordination near the hospital"
+    ]
+    },
+    "departments": {
+    "visible": false,
+    "list": [
+    { "name": "Cardiology and Cardiac Surgery", "doctorCount": 24 },
+    { "name": "Gastroenterology", "doctorCount": 8 },
+    { "name": "Gynecology", "doctorCount": 2 },
+    { "name": "Nephrology", "doctorCount": 5 },
+    { "name": "Obesity or Bariatric Surgery", "doctorCount": 2 },
+    { "name": "Orthopedics", "doctorCount": 5 },
+    { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 3 },
+    { "name": "Routine Health Check-Ups", "doctorCount": 3 },
+    { "name": "Transplant Surgery", "doctorCount": 3 },
+    { "name": "Vascular Surgery", "doctorCount": 3 },
+    { "name": "ENT Surgery", "doctorCount": 1 },
+    { "name": "General Surgery", "doctorCount": 1 },
+    { "name": "Hepatology", "doctorCount": 4 },
+    { "name": "Neurology and Neurosurgery", "doctorCount": 4 },
+    { "name": "Oncology and Oncosurgery", "doctorCount": 3 },
+    { "name": "Pediatric Cardiology", "doctorCount": 6 },
+    { "name": "Pulmonology", "doctorCount": 1 },
+    { "name": "Spine Surgery", "doctorCount": 3 },
+    { "name": "Urology Treatment", "doctorCount": 2 }
+    ]
+    },
+    "topDoctors": {
+    "visible": true,
+    "list": [
+        {
+          "id": "pn-gupta",
+          "name": "Dr. P.N. Gupta",
+          "specialty": "Director & HOD – Nephrology",
+          "rating": 4.9,
+          "experienceYears": 44,
+          "profileUrl": "/doctors/pn-gupta"
+        },
+        {
+          "id": "manmohan-singh",
+          "name": "Dr. (Prof.) Manmohan Singh",
+          "specialty": "neurosurgery",
+          "rating": 5.0,
+          "experienceYears": 46,
+          "profileUrl": "/doctors/manmohan-singh"
+        },
+        {
+         "id": "anurag-khaitan",
+          "name": "Dr. Anurag Khaitan",
+          "specialty": "urology",
+          "rating": 5.0,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/anurag-khaitan"
+        },
+        {
+          "id": "r-ranga-rao",
+          "name": "Dr. (Col.) R Ranga Rao, VSM",
+          "specialty": "medical oncology",
+          "rating": 4.9,
+          "experienceYears": 30,
+          "profileUrl": "/doctors/r-ranga-rao"
+        }
+        ,
+        {
+          "id": "ankur-garg",
+          "name": "Dr. Ankur Garg",
+          "specialty": "hepato-pancreato-biliary surgery",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/ankur-garg"
+        }
+        ,
+        {
+          "id": "amit-bhushan-sharma",
+          "name": "Dr. Amit Bhushan Sharma",
+          "specialty": "cardiology",
+          "rating": 4.9,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/amit-bhushan-sharma"
+        }
+        ,
+        {
+          "id": "alka-kriplani",
+          "name": "Dr. (Prof.) Alka Kriplani",
+          "specialty": "gynaecology",
+          "rating": 4.9,
+          "experienceYears": 40,
+           "profileUrl": "/doctors/alka-kriplani"
+
+        }
+        ,
+        {
+          "id": "vivek-logani",
+          "name": "Dr. Vivek Logani",
+          "specialty": "orthopaedics",
+          "experienceYears": 23,
+          "rating": 4.9,
+          "profileUrl": "/doctors/vivek-logani"
+        },
+        {
+          "id": "arvind-mehra",
+          "name": "Dr. Arvind Mehra",
+          "specialty": "orthopaedics",
+          "experienceYears": 20,
+           "rating": 4.9,
+          "profileUrl": "/doctors/arvind-mehra"
+        }
+    ]
+    },
+    "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 200,
+    "staffCount": 1600,
+    "specialitiesCount": 30,
+    "centersOfExcellence": [
+    "Heart Institute",
+    "Institute of Liver & Digestive Diseases",
+    "Institute of Kidney & Urology",
+    "Bone & Joint Institute"
+    ]
+    },
+    "facilities": {
+    "visible": true,
+    "comfort": [
+    "TV in room",
+    "Private rooms",
+    "Free Wifi",
+    "Phone in Room",
+    "Mobility accessible rooms",
+    "Family accommodation",
+    "Laundry",
+    "Welcome pack",
+    "Safe in the room",
+    "Nursery / Nanny services",
+    "Dry cleaning",
+    "Personal assistance / Concierge",
+    "Religious facilities",
+    "Fitness",
+    "Café",
+    "Business centre services",
+    "Shop",
+    "Dedicated smoking areas",
+    "Parking available"
+    ],
+    "infrastructure": [
+    "310+ beds with ~158 ICU beds",
+    "9 advanced Operating Theatres and hybrid ORs",
+    "5 state-of-the-art Cardiac Cath Labs",
+    "High-end diagnostic imaging (64-slice CT, 1.5T MRI, Gamma Camera, Digital Mammography)",
+    "Advanced 3D/4D Echocardiography",
+    "Shockwave Coronary Lithotripsy",
+    "Laser Angioplasty",
+    "Impella Heart Pump support",
+    "Electrophysiology (EP) systems",
+    "Robotic Surgery (minimally invasive options)",
+    "24/7 Emergency & Heart Alert Service"
+    ]
+    },
+    "address": {
+    "visible": true,
+    "full": "Okhla Road, Sukhdev Vihar Metro Station, New Delhi, 110025, India",
+    "nearby": [
+    {
+    "place": "Indira Gandhi International Airport",
+    "distanceKm": 16,
+    "duration": "25-30 mins"
+    },
+    {
+    "place": "Sukhdev Vihar Metro Station",
+    "distanceKm": 0.3,
+    "duration": "5-10 mins walking"
+    },
+    {
+    "place": "New Delhi Railway Station",
+    "distanceKm": 2.5,
+    "duration": "5-10 mins by car"
+    }
+    ]
+    },
+    "reviews": [
+    {
+    "patient": "Mr. Mohammed Meskine",
+    "country": "Algeria",
+    "rating": 5,
+    "feedback": "I am extremely thankful to Fortis Hospital for my cardiac treatment. The doctors and staff were exceptionally welcoming.",
+    "visible": true
+    },
+    {
+    "patient": "Lucy",
+    "country": "Malawi",
+    "rating": 5,
+    "feedback": null,
+    "visible": true
+    },
+    {
+    "patient": "Jinan",
+    "country": "Iraq",
+    "rating": 5,
+    "feedback": null,
+    "visible": true
+    }
+    ],
+    "media": {
+    "images": [
+    { "url": "/Images/hospitals/fortis-escorts/fehi-1.jpg", "visible": true },
+    { "url": "/Images/hospitals/fortis-escorts/fehi-2.jpg", "visible": true }
+    ],
+    "videos": []
+    },
+    "contact": {
+    "phone": "+91-11-47135000",
+    "email": "enquiry@fortishealthcare.com",
+    "website": "https://www.fortishealthcare.com/india/hospitals-in-delhi-ncr/fortis-escorts-heart-institute-okhla"
+    }
+    }
+    
+    
