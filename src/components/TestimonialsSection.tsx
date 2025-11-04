@@ -5,11 +5,10 @@ import { useState } from 'react';
 
 interface Patient {
   name: string;
-  image: string;
-  rating: number;
-  text: string;
-  treatment: string;
   country: string;
+  treatment: string;
+  text: string;
+  image: string;
 }
 
 interface TestimonialsSectionProps {
@@ -23,137 +22,100 @@ interface TestimonialsSectionProps {
 export default function TestimonialsSection({ testimonials }: TestimonialsSectionProps) {
   const [currentPatient, setCurrentPatient] = useState(0);
 
-  return (
-    <section className="bg-gradient-to-br from-gray-50 via-white to-blue-50 py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-          {/* Google Rating */}
-          <div className="text-center lg:text-left">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full mb-4">
-              <span className="text-white text-2xl font-bold">G</span>
-            </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Google Rating</h3>
-            <div className="flex items-center justify-center lg:justify-start mb-2">
-              <div className="flex items-center">
-                {[...Array(5)].map((_, i) => (
-                  <svg
-                    key={i}
-                    className={`w-5 h-5 ${i < 5 ? 'text-yellow-400' : 'text-gray-300'}`}
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              <span className="ml-2 text-lg font-bold text-gray-900">4.9</span>
-            </div>
-            <Link href="/reviews" className="text-blue-600 hover:text-blue-700 text-sm font-medium">
-              See all our reviews
-            </Link>
-          </div>
+  const patientStories = [
+    {
+      name: "Ahmed S.",
+      country: "UAE",
+      treatment: "Spine Surgery",
+      text: "I was quoted $30,000 for spine surgery in the U.S. — here I paid under $6,000, and the care was exceptional."
+    },
+    {
+      name: "Maria G.",
+      country: "Kenya",
+      treatment: "Cardiac Treatment",
+      text: "From airport pickup to post-op recovery, they supported me like family. Highly recommended!"
+    },
+    {
+      name: "John D.",
+      country: "UK",
+      treatment: "Hip Replacement",
+      text: "The quality of care was outstanding and the cost was just 30% of what I would have paid back home."
+    },
+    {
+      name: "Sarah M.",
+      country: "Australia",
+      treatment: "Dental Implants",
+      text: "Professional service, modern facilities, and incredible savings. My dental work looks perfect!"
+    }
+  ];
 
-          {/* Main Content */}
-          <div className="lg:col-span-2">
-            <div className="flex items-center justify-between mb-4">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                {testimonials.title}
-              </h2>
-              <Link
-                href="/reviews"
-                className="inline-flex items-center px-6 py-2 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition-colors duration-200"
-              >
-                View All Reviews
-              </Link>
+  return (
+    <section className="bg-gradient-to-br from-gray-50 via-white to-green-50 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full mb-4 text-4xl">
+           💭
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            Real Patient Stories
+          </h2>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            Healing Beyond Borders — Stories That Inspire
+          </p>
+        </div>
+
+        {/* Main Testimonial */}
+        <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 lg:p-12 shadow-2xl border border-white/20 mb-12">
+          <div className="text-center">
+            {/* Patient Photo */}
+            <div className="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-to-br from-green-100 to-teal-100 flex items-center justify-center">
+              <span className="text-3xl font-bold text-green-600">
+                {patientStories[currentPatient].name.charAt(0)}
+              </span>
             </div>
             
-            <p className="text-lg text-gray-600 mb-6">
-              {testimonials.subtitle}
-            </p>
-
-            {/* Current Patient Testimonial */}
-            <div className="bg-gray-50 rounded-lg p-6 mb-8">
-              <div className="flex items-start space-x-4">
-                <div className="w-16 h-16 rounded-full overflow-hidden bg-gray-200 flex-shrink-0">
-                  <img
-                    src={testimonials.patients[currentPatient].image}
-                    alt={testimonials.patients[currentPatient].name}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                      const parent = target.parentElement;
-                      if (parent) {
-                        parent.innerHTML = `<div class="w-full h-full bg-blue-100 flex items-center justify-center"><span class="text-blue-600 font-bold text-lg">${testimonials.patients[currentPatient].name.charAt(0)}</span></div>`;
-                      }
-                    }}
-                  />
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-center mb-2">
-                    <h4 className="text-lg font-semibold text-gray-900 mr-3">
-                      {testimonials.patients[currentPatient].name}
-                    </h4>
-                    <div className="flex items-center">
-                      {[...Array(testimonials.patients[currentPatient].rating)].map((_, i) => (
-                        <svg
-                          key={i}
-                          className="w-4 h-4 text-yellow-400"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                      ))}
-                    </div>
-                  </div>
-                  <p className="text-sm text-gray-600 mb-2">
-                    {testimonials.patients[currentPatient].treatment} • {testimonials.patients[currentPatient].country}
-                  </p>
-                  <p className="text-gray-700 leading-relaxed italic">
-                    "{testimonials.patients[currentPatient].text}"
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Patient Photos Carousel */}
-            <div className="relative">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                {testimonials.patients.map((patient, index) => (
-                  <div
-                    key={index}
-                    className={`text-center cursor-pointer transition-all duration-200 ${
-                      currentPatient === index ? 'transform scale-105' : ''
-                    }`}
-                    onClick={() => setCurrentPatient(index)}
-                  >
-                    <div className="w-16 h-16 mx-auto mb-2 rounded-lg overflow-hidden bg-gray-200">
-                      <img
-                        src={patient.image}
-                        alt={patient.name}
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          const target = e.target as HTMLImageElement;
-                          target.style.display = 'none';
-                          const parent = target.parentElement;
-                          if (parent) {
-                            parent.innerHTML = `<div class="w-full h-full bg-blue-100 flex items-center justify-center"><span class="text-blue-600 font-bold text-sm">${patient.name.charAt(0)}</span></div>`;
-                          }
-                        }}
-                      />
-                    </div>
-                    <p className="text-sm font-medium text-gray-900">{patient.name}</p>
-                  </div>
-                ))}
-              </div>
-              
-              {/* Carousel Indicator */}
-              <div className="flex justify-center mt-4">
-                <div className="w-2 h-2 bg-red-600 rounded-full"></div>
-              </div>
+            {/* Testimonial Text */}
+            <blockquote className="text-xl lg:text-2xl text-gray-700 leading-relaxed italic mb-6 max-w-4xl mx-auto">
+              "{patientStories[currentPatient].text}"
+            </blockquote>
+            
+            {/* Patient Info */}
+            <div className="flex items-center justify-center text-sm text-gray-500">
+              <span className="mr-4">
+                <strong>Treatment:</strong> {patientStories[currentPatient].treatment}
+              </span>
+              <span>
+                <strong>From:</strong> {patientStories[currentPatient].country}
+              </span>
             </div>
           </div>
+        </div>
+
+        {/* Patient Navigation */}
+        <div className="flex justify-center space-x-2 mb-8">
+          {patientStories.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentPatient(index)}
+              className={`w-3 h-3 rounded-full transition-colors duration-200 ${
+                index === currentPatient ? 'bg-green-600' : 'bg-gray-300'
+              }`}
+            />
+          ))}
+        </div>
+
+        {/* CTA Section */}
+        <div className="text-center">
+          <Link
+            href="/testimonials"
+            className="inline-flex items-center px-8 py-4 bg-[#7AE5F5] text-white font-semibold rounded-xl hover:bg-[#7AE5F5]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
+          >
+            See More Patient Testimonials
+            <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </Link>
         </div>
       </div>
     </section>

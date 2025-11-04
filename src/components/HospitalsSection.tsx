@@ -1,158 +1,151 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import Image from 'next/image';
 
 interface Hospital {
   name: string;
-  city: string;
+  location: string;
   image: string;
   url: string;
-}
-
-interface CountryHospitals {
-  country: string;
-  flag: string;
-  hospitals: Hospital[];
+  description: string;
 }
 
 interface HospitalsSectionProps {
   hospitals: {
     title: string;
-    subtitle: string;
-    countries: CountryHospitals[];
+    list: Hospital[];
   };
 }
 
 export default function HospitalsSection({ hospitals }: HospitalsSectionProps) {
-  const [imageErrors, setImageErrors] = useState<Record<string, boolean>>({});
-
-  const handleImageError = (imageKey: string) => {
-    setImageErrors(prev => ({ ...prev, [imageKey]: true }));
+  // Function to get Unsplash hospital images
+  const getHospitalImage = (index: number) => {
+    const hospitalImages = [
+      'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=450&fit=crop&crop=center',
+      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=450&fit=crop&crop=center',
+      'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=450&fit=crop&crop=center',
+      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=450&fit=crop&crop=center',
+      'https://images.unsplash.com/photo-1576091160399-112c8f9c6b9c?w=800&h=450&fit=crop&crop=center',
+      'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=450&fit=crop&crop=center',
+      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=450&fit=crop&crop=center'
+    ];
+    return hospitalImages[index % hospitalImages.length];
   };
 
-  // Filter only India
-  const indiaData = hospitals.countries.find(country => country.country === 'India');
-
-  if (!indiaData) {
-    return null; // Don't render if India data is not available
-  }
-
   return (
-    <section className="bg-white from-blue-50 via-white to-purple-50 py-20 relative">
+    <section className="bg-white from-green-50 via-white to-teal-50 py-20 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full mb-6 shadow-lg">
-            <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-            </svg>
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-white rounded-full mb-6 shadow-lg text-4xl">
+          🏥
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Top Hospitals in India
+            {hospitals.title}
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            We partner with the most prestigious and accredited hospitals across India, ensuring you receive world-class medical care with unmatched expertise.
+            Get Treated at India's Top JCI & NABH-Accredited Hospitals
           </p>
         </div>
 
-        {/* India Hospitals Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-16">
-          {indiaData.hospitals.map((hospital) => (
-            <Link
-              key={hospital.name}
-              href={hospital.url}
-              className="group bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-white/20 p-6 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+        {/* Hospitals Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          {hospitals.list.map((hospital, index) => (
+            <div
+              key={index}
+              className="group bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
             >
-              <div className="aspect-video bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl overflow-hidden mb-4 relative">
-                {imageErrors[`hospital-${hospital.name}`] ? (
-                  <div className="w-full h-full bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
-                    <span className="text-blue-600 font-bold text-2xl">
-                      {hospital.name.charAt(0)}
-                    </span>
-                  </div>
-                ) : (
-                  <img 
-                    src={hospital.image} 
-                    alt={hospital.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    onError={() => handleImageError(`hospital-${hospital.name}`)}
-                  />
-                )}
-                {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-purple-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              {/* Hospital Image */}
+              <div className="aspect-video rounded-t-2xl overflow-hidden mb-4 relative">
+                <Image 
+                  src={getHospitalImage(index)} 
+                  alt={`${hospital.name} hospital`}
+                  width={400}
+                  height={225}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  onError={() => {
+                    // Fallback to colored background if image fails to load
+                    const fallback = document.querySelector(`[data-fallback="${index}"]`) as HTMLElement;
+                    if (fallback) fallback.style.display = 'flex';
+                  }}
+                />
+                {/* Fallback colored background */}
+                <div 
+                  data-fallback={index}
+                  className={`w-full h-full hidden items-center justify-center ${
+                    index % 4 === 0 ? 'bg-[#7AE5F5]/20' : 
+                    index % 4 === 1 ? 'bg-[#56DDEF]/20' : 
+                    index % 4 === 2 ? 'bg-yellow-100' :
+                    'bg-green-100'
+                  }`}
+                >
+                  <span className={`font-bold text-2xl ${
+                    index % 4 === 0 ? 'text-[#7AE5F5]' : 
+                    index % 4 === 1 ? 'text-[#56DDEF]' : 
+                    index % 4 === 2 ? 'text-yellow-600' :
+                    'text-green-600'
+                  }`}>
+                    {hospital.name.charAt(0)}
+                  </span>
+                </div>
+                {/* Hover Overlay */}
+                <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+                  index % 4 === 0 ? 'bg-[#7AE5F5]/20' : 
+                  index % 4 === 1 ? 'bg-[#56DDEF]/20' : 
+                  index % 4 === 2 ? 'bg-yellow-400/20' :
+                  'bg-green-400/20'
+                }`}></div>
               </div>
               
-              <div className="space-y-2">
-                <h4 className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
+              {/* Hospital Info */}
+              <div className="p-6">
+                <h4 className={`text-lg font-bold text-gray-900 transition-colors duration-300 mb-2 ${
+                  index % 4 === 0 ? 'group-hover:text-[#7AE5F5]' : 
+                  index % 4 === 1 ? 'group-hover:text-[#56DDEF]' : 
+                  index % 4 === 2 ? 'group-hover:text-yellow-500' :
+                  'group-hover:text-green-600'
+                }`}>
                   {hospital.name}
                 </h4>
-                <p className="text-sm text-gray-600 group-hover:text-gray-700 transition-colors duration-300">
-                  {hospital.city}
+                <p className="text-sm text-gray-600 mb-3">
+                  {hospital.location}
                 </p>
-                <div className="flex items-center text-xs text-blue-600 font-medium">
-                  <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <p className="text-gray-700 text-sm leading-relaxed mb-4">
+                  {hospital.description}
+                </p>
+                
+                {/* Accreditation Badge */}
+                <div className={`flex items-center text-xs font-medium ${
+                  index % 4 === 0 ? 'text-[#7AE5F5]' : 
+                  index % 4 === 1 ? 'text-[#56DDEF]' : 
+                  index % 4 === 2 ? 'text-yellow-500' :
+                  'text-green-600'
+                }`}>
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  JCI Accredited
+                  JCI & NABH Accredited
                 </div>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
 
-        {/* Hospital Benefits */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-white/20 shadow-lg">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center mb-4">
-              <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h4 className="text-lg font-bold text-gray-900 mb-2">JCI Accredited</h4>
-            <p className="text-gray-600 text-sm">All our partner hospitals are internationally accredited for quality and safety standards.</p>
-          </div>
-
-          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-white/20 shadow-lg">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center mb-4">
-              <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h4 className="text-lg font-bold text-gray-900 mb-2">Quick Access</h4>
-            <p className="text-gray-600 text-sm">Immediate appointments with top specialists, no waiting lists or delays.</p>
-          </div>
-
-          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-white/20 shadow-lg">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center mb-4">
-              <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-              </svg>
-            </div>
-            <h4 className="text-lg font-bold text-gray-900 mb-2">Cost Effective</h4>
-            <p className="text-gray-600 text-sm">World-class treatment at 60-80% lower costs compared to Western countries.</p>
-          </div>
-        </div>
-
-        {/* Call to Action */}
+        {/* CTA Section */}
         <div className="text-center">
-          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 border border-white/20 shadow-lg">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full mb-6 shadow-lg">
-              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
+          <div className="bg-[#7AE5F5]/10 rounded-3xl p-8 border border-[#7AE5F5]/30 shadow-lg">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Ready to Choose Your Hospital in India?
+              Ready to Choose Your Hospital?
             </h3>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Get personalized recommendations and connect with our medical coordinators to find the perfect hospital for your treatment in India.
+            <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
+              Our medical coordinators will help you select the best hospital based on your specific treatment needs, budget, and preferences.
             </p>
             <Link
-              href="/hospitals/india"
-              className="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 px-8 rounded-xl font-semibold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              href="/hospitals"
+              className="inline-flex items-center px-8 py-4 bg-[#56DDEF] text-white font-semibold rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
             >
-              Explore Indian Hospitals
+              See All Hospitals
               <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

@@ -66,10 +66,10 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mr-2">
-                <span className="text-white font-bold text-sm">MG</span>
+              <div className=" bg-gradient-to-r from-[#7AE5F5] to-[#56DDEF] rounded-lg flex items-center justify-center mr-2">
+              <Image src="/logo.png" alt="Logo" width={150} height={30} />
               </div>
-              <span className="text-xl font-bold text-gray-900">{siteInfo.name}</span>
+             
             </Link>
           </div>
 
@@ -80,14 +80,14 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                 {item.isCTA ? (
                   <Link
                     href={item.url}
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors duration-200 ml-4"
+                    className="bg-gradient-to-r from-[#7AE5F5] to-[#56DDEF] text-white px-4 py-2 rounded-md text-sm font-medium hover:from-[#7AE5F5]/90 hover:to-[#56DDEF]/90 transition-colors duration-200 ml-4"
                   >
                     {item.name}
                   </Link>
                 ) : (
                   <div className="relative">
                     <button
-                      className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center"
+                      className="text-gray-700 hover:text-[#56DDEF] px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center"
                     >
                       {item.name}
                       {item.submenu && (
@@ -102,10 +102,10 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                       <div className="absolute left-0 mt-1 w-80 bg-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 border border-gray-100">
                         <div className="py-3">
                           {item.submenu.map((subItem: any, index: number) => (
-                            <div key={index} className="px-4 py-2 hover:bg-blue-50 transition-colors duration-150">
+                            <div key={index} className="px-4 py-2 hover:bg-green-50 transition-colors duration-150">
                               <Link 
                                 href={subItem.url} 
-                                className="text-gray-700 hover:text-blue-600 block font-medium text-sm"
+                                className="text-gray-700 hover:text-green-600 block font-medium text-sm"
                               >
                                 {subItem.country || subItem.name}
                               </Link>
@@ -141,7 +141,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
           <div className="lg:hidden">
             <button
               onClick={toggleMenu}
-              className="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600 p-2"
+              className="text-gray-700 hover:text-green-600 focus:outline-none focus:text-green-600 p-2"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isMenuOpen ? (
@@ -164,7 +164,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                     {item.isCTA ? (
                       <Link
                         href={item.url}
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 text-white block px-4 py-3 text-base font-medium rounded-lg text-center"
+                        className="bg-gradient-to-r from-green-600 to-teal-600 text-white block px-4 py-3 text-base font-medium rounded-lg text-center"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {item.name}
@@ -174,7 +174,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                         <div className="flex items-center justify-between">
                           <Link
                             href={item.url}
-                            className="text-gray-700 hover:text-blue-600 block py-3 text-base font-medium flex-1"
+                            className="text-gray-700 hover:text-green-600 block py-3 text-base font-medium flex-1"
                             onClick={() => !item.submenu && setIsMenuOpen(false)}
                           >
                             {item.name}
@@ -182,7 +182,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                           {item.submenu && (
                             <button
                               onClick={() => toggleMobileDropdown(item.name)}
-                              className="p-2 text-gray-500 hover:text-blue-600"
+                              className="p-2 text-gray-500 hover:text-green-600"
                             >
                               <svg 
                                 className={`w-5 h-5 transition-transform duration-200 ${mobileDropdowns[item.name] ? 'rotate-180' : ''}`} 
@@ -198,18 +198,18 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
                         
                         {/* Mobile Dropdown */}
                         {item.submenu && mobileDropdowns[item.name] && (
-                          <div className="ml-4 mt-2 space-y-1 bg-gray-50 rounded-lg p-3">
-                            {item.submenu.map((subItem: any, index: number) => (
-                              <Link
-                                key={index}
-                                href={subItem.url}
-                                className="text-gray-600 hover:text-blue-600 block py-2 px-3 text-sm rounded-md hover:bg-white transition-colors duration-150"
-                                onClick={() => setIsMenuOpen(false)}
-                              >
-                                {subItem.country || subItem.name}
-                              </Link>
-                            ))}
-                          </div>
+                                                  <div className="ml-4 mt-2 space-y-1 bg-[#7AE5F5]/10 rounded-lg p-3">
+                          {item.submenu.map((subItem: any, index: number) => (
+                            <Link
+                              key={index}
+                              href={subItem.url}
+                              className="text-gray-600 hover:text-[#56DDEF] block py-2 px-3 text-sm rounded-md hover:bg-white transition-colors duration-150"
+                              onClick={() => setIsMenuOpen(false)}
+                            >
+                              {subItem.country || subItem.name}
+                            </Link>
+                          ))}
+                        </div>
                         )}
                       </div>
                     )}
