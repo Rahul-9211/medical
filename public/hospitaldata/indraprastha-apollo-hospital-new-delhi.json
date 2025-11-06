@@ -264,8 +264,8 @@
     ],
     "media": {
     "images": [
-    { "url": "/Images/hospitals/apollo-indraprastha/apollo-1.jpg", "visible": true },
-    { "url": "/Images/hospitals/apollo-indraprastha/apollo-2.jpg", "visible": true }
+    { "url": "/Images/hospital/apollo-indraprastha/apollo-indraprastha-1.webp", "visible": true },
+    { "url": "/Images/hospital/apollo-indraprastha/apollo-indraprastha-2.jpg", "visible": true }
     ],
     "videos": []
     },

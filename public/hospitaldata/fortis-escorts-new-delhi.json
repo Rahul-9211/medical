@@ -9,7 +9,7 @@
     "patientsRecommended": {
     "percent": 95
     },
-    "url": "/hospital/fortis-escorts-heart-institute-new-delhi",
+    "url": "/hospital/fortis-escorts-new-delhi",
     "location": {
     "city": "New Delhi",
     "state": "Delhi",
@@ -254,8 +254,8 @@
     ],
     "media": {
     "images": [
-    { "url": "/Images/hospitals/fortis-escorts/fehi-1.jpg", "visible": true },
-    { "url": "/Images/hospitals/fortis-escorts/fehi-2.jpg", "visible": true }
+      { "url": "/Images/hospital/fortisDelhi/fortis-delhi-2.jpg", "visible": true },
+      { "url": "/Images/hospital/fortisDelhi/fortis-delhi-1.webp", "visible": true }
     ],
     "videos": []
     },
