@@ -9,7 +9,7 @@ export default function WhatsAppButton() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsModalOpen(true);
-    }, 2000); // Open after 2 seconds
+    }, 15000); // Open after 2 seconds
 
     return () => clearTimeout(timer);
   }, []);
