@@ -209,8 +209,8 @@
     ],
     "media": {
     "images": [
-    { "url": "/Images/hospitals/max-shalimar-bagh/max-sb-1.jpg", "visible": true },
-    { "url": "/Images/hospitals/max-shalimar-bagh/max-sb-2.jpg", "visible": true }
+    { "url": "/Images/hospital/max-shalimar-bagh/max-shalimar-bagh-1.webp", "visible": true },
+    { "url": "/Images/hospital/max-shalimar-bagh/max-shalimar-bagh-2.webp", "visible": true }
     ],
     "videos": []
     },

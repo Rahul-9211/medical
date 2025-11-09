@@ -238,9 +238,9 @@
     ],
     "media": {
     "images": [
-    { "url": "/Images/hospitals/blk-max/blk-1.jpg", "visible": true },
-    { "url": "/Images/hospitals/blk-max/blk-2.jpg", "visible": true },
-    { "url": "/Images/hospitals/blk-max/blk-3.jpg", "visible": true }
+    { "url": "/Images/hospital/blk-max/blk-max-1.webp", "visible": true },
+    { "url": "/Images/hospital/blk-max/blk-max-2.jpg", "visible": true },
+    { "url": "/Images/hospital/blk-max/blk-max-3.jpg", "visible": true }
     ],
     "videos": []
     },

@@ -51,7 +51,14 @@ const HospitalPage = async () => {
     'marengo-asia',
     'max-super-speciality',
     'medanta',
-    'paras'
+    'paras',
+    'max-saket-new-delhi',
+    'fortis-escorts-new-delhi',
+    'fortis-hospital-shalimar-bagh-new-delhi',
+    'blk-max-super-speciality-hospital-new-delhi',
+    'max-super-speciality-hospital-shalimar-bagh-new-delhi',
+    'indraprastha-apollo-hospital-new-delhi',
+    'aims-faridabad'
   ];
 
   // Fetch all hospitals data

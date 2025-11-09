@@ -1,0 +1,264 @@
+{
+    "id": "aims-faridabad",
+    "name": "Asian Institute of Medical Sciences, Faridabad",
+    "visible": true,
+    "rating": { "value": 4.5, "reviews": 19 },
+    "patientsRecommended": { "percent": 92 },
+    "url": "/hospital/aims-faridabad",
+    "location": {
+      "city": "Faridabad",
+      "state": "Haryana",
+      "country": "India",
+      "address": "Badkal Flyover Road, Sector 21A, Faridabad, Haryana 121001",
+      "visible": true
+    },
+    "established": 2010,
+    "accreditations": ["NABH", "NABL"],
+    "specialty": "Super Specialty",
+    "beds": 425,
+    "about": {
+      "visible": true,
+      "overview": "Asian Institute of Medical Sciences, established in 2010, is a super specialty tertiary care hospital equipped with state-of-the-art technology and most talented medical professionals in India. It is accredited by NABH and NABL, providing comprehensive preventive, diagnostic, therapeutic, rehabilitative, supportive and palliative services under one roof.",
+      "awards": [
+        "Best Healthcare Brand 2025 - The Economic Times",
+        "YouTube Silver Creator Award 2025 - First hospital in Faridabad and Haryana to cross 1,00,000 subscribers",
+        "HR Innovation of the Year Award 2025",
+        "One of the Best Organisations to Work For in 2025 - ET Edge",
+        "Best Healthcare Brand 2022 - The Economic Times Survey",
+        "Best Healthcare Brand 2019 - The Economic Times Survey",
+        "Best Healthcare Brand 2017 - The Economic Times Survey",
+        "Best Healthcare Brand 2016 - The Economic Times Survey",
+        "3rd Best Hospital in Delhi NCR - The Week Hansa Research Survey 2018",
+        "4th Best Hospital in Delhi NCR - The Week Hansa Research Survey 2018",
+        "Rated among top 7 hospitals in Delhi NCR for 4 consecutive years - The Week Magazine",
+        "Certificate of Excellence - Business Excellence Awards for Pharma & Healthcare",
+        "Certificate of Recognition - 8th Healthcare Leaders Forum Awards"
+      ],
+      "milestones": [
+        "First hospital in North India to deploy Varian's Rapid Arc on a Trilogy system",
+        "First hospital in Faridabad and Haryana to receive YouTube Silver Creator Award",
+        "Pioneer in 3D robotic surgery for cancer, prostate, and gastrointestinal conditions",
+        "Advanced 3D AI-assisted knee replacement technology",
+        "8 hospitals with 4500+ trained staff and 1100+ doctors across the network"
+      ]
+    },
+    "internationalPatientServices": {
+      "visible": true,
+      "annualPatients": 10000,
+      "countries": 105,
+      "services": [
+        "Medical Visa Assistance",
+        "Airport Transfers",
+        "Language Interpretation Services",
+        "Accommodation & Travel Assistance",
+        "24/7 Patient Support"
+      ]
+    },
+    "departments": {
+      "visible": false,
+      "list": [
+        { "name": "Cardiology and Cardiac Surgery", "doctorCount": 2 },
+        { "name": "ENT Surgery", "doctorCount": 1 },
+        { "name": "Gastroenterology", "doctorCount": 1 },
+        { "name": "General Surgery", "doctorCount": 1 },
+        { "name": "Nephrology", "doctorCount": 3 },
+        { "name": "Neurology and Neurosurgery", "doctorCount": 1 },
+        { "name": "Obesity or Bariatric Surgery", "doctorCount": 1 },
+        { "name": "Oncology and Oncosurgery", "doctorCount": 2 },
+        { "name": "Pulmonology", "doctorCount": 2 },
+        { "name": "Transplant Surgery", "doctorCount": 1 },
+        { "name": "Urology", "doctorCount": 1 },
+        { "name": "Vascular Surgery", "doctorCount": 1 }
+      ]
+    },
+    "topDoctors": {
+      "visible": true,
+      "list": [
+        {
+          "id": "hitesh-garg",
+          "name": "Dr. Hitesh Garg",
+          "specialty": "Senior Consultant & Head (Unit IV)",
+          "rating": 4.9,
+          "experienceYears": 44,
+          "profileUrl": "/doctors/hitesh-garg"
+        },
+        {
+          "id": "rajiv-yadav",
+          "name": "Dr. Rajiv Yadav",
+          "specialty": "Chairperson - Urology & Head - Urologic Oncology & Robotic Surgery",
+          "rating": 5.0,
+          "experienceYears": 46,
+          "profileUrl": "/doctors/rajiv-yadav"
+        },
+        {
+          "id": "kuldeep-arora",
+          "name": "Dr. Kuldeep Arora",
+          "specialty": "Unit Head & Chief - Cath Lab, Sr. Consultant - Interventional Cardiology",        
+          "rating": 5.0,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/anurag-khaitan"
+        },
+        {
+         "id": "ramkinkar-jha",
+          "name": "Dr. Ramkinkar Jha",
+          "specialty": "Chief & Unit Head - Orthopaedics (Unit III)",
+          "rating": 4.9,
+          "experienceYears": 30,
+          "profileUrl": "/doctors/r-ranga-rao"
+        }
+        ,
+        {
+          "id": "tariq-man",
+          "name": "Dr. Tariq Man",
+          "specialty": "Director & Chief - Neurointerventional Surgery",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/tariq-man"
+        }
+        ,
+        {
+         "id": "varun-mial",
+          "name": "Dr. Varun Mial",
+          "specialty": "Senior Consultant - Kidney Transplant, Uro-Oncology and Robotic Surgery",
+          "rating": 4.9,
+          "experienceYears": 22,
+          "profileUrl": "/doctors/varun-mial"
+        }
+        ,
+        {
+          "id": "aditya-gupta",
+          "name": "Dr. Aditya Gupta",
+          "specialty": "Director - Neurosurgery & CNS Radiosurgery and Co-Director - Cyberknife Centre",
+          "rating": 4.9,
+          "experienceYears": 40,
+           "profileUrl": "/doctors/aditya-gupta"
+
+        }
+        ,
+        {
+          "id": "manju-aggarwal",
+          "name": "Dr. Manju Aggarwal",
+          "specialty": "Chairperson - Nephrology (Unit 1)",        
+          "experienceYears": 23,
+          "rating": 4.9,
+          "profileUrl": "/doctors/manju-aggarwal"
+        },
+        {
+          "id": "biswajyoti-hazarika",
+          "name": "Dr. Biswajyoti Hazarika",
+          "specialty": "Director - Surgical Oncology (Head & Neck)",
+          "experienceYears": 20,
+           "rating": 4.9,
+          "profileUrl": "/doctors/biswajyoti-hazarika"
+        },
+        {
+          "id": "giriraj-bora",
+          "name": "Dr. Giriraj Bora",
+          "specialty": "Joint Chief - Liver Transplantation & Sr. Consultant GI & HPB Surgery",
+          "experienceYears": 20,
+           "rating": 4.9,
+          "profileUrl": "/doctors/biswajyoti-hazarika"
+        }
+      ]
+    },
+    "teamAndSpecialities": {
+      "visible": true,
+      "doctorsCount": 1100,
+      "staffCount": 4500,
+      "specialitiesCount": 24,
+      "centersOfExcellence": [
+        "Asian Centre for Cancer",
+        "Heart Centre",
+        "Advanced Surgery Centre",
+        "Neurology and Neurosurgery",
+        "Urology & Kidney Transplant",
+        "Bone and Joints",
+        "Gastroenterology",
+        "Pediatric Cardiology & Cardiac Surgery",
+        "Bariatric & Metabolic Surgery",
+        "Aesthetic Surgery & Medicine",
+        "Bone Marrow Transplant",
+        "Advanced Imaging Centre"
+      ]
+    },
+    "facilities": {
+      "visible": true,
+      "comfort": [
+        "TV in room",
+        "Private rooms",
+        "Free Wifi",
+        "Phone in room",
+        "Mobility accessible rooms",
+        "Family accommodation",
+        "Laundry",
+        "Welcome pack",
+        "Safe in room",
+        "Nursery/Nanny services",
+        "Dry cleaning",
+        "Personal assistance/Concierge",
+        "Religious facilities",
+        "Fitness",
+        "Spa and wellness",
+        "Café",
+        "Business Centre",
+        "Shop",
+        "Dedicated smoking areas",
+        "Beauty Salon",
+        "Special offer for group stays",
+        "Parking"
+      ],
+      "infrastructure": [
+        "425 beds",
+        "11 modular operation theatres with LED Lights and media bridges",
+        "65+ ICU beds (NICU, PICU, MICU)",
+        "3D Advanced Minimal Access Robotic Surgery System",
+        "AI-powered Robotic Knee Replacement System",
+        "Varian's Rapid Arc on Trilogy system with IGRT & IMRT Linear Accelerator",
+        "MRI for whole body imaging, angiography & spectroscopy",
+        "PET/CT for whole body imaging",
+        "Elastography for non-operative cancer diagnosis",
+        "Advanced Bone Marrow Transplant Unit",
+        "Operating microscopes and image intensifiers",
+        "Laparoscopic equipment with Harmonic, RFA Laser, and Cusa",
+        "Digital EEG and EMG",
+        "In-house comprehensive laboratory with NABL accreditation",
+        "Frozen section facility for rapid biopsy diagnosis",
+        "Chemiluminescence technology for disease diagnosis",
+        "24/7 Emergency & Trauma Centre"
+      ]
+    },
+    "address": {
+      "visible": true,
+      "full": "Badkal Flyover Road, Sector 21A, Faridabad, Haryana 121001, India",
+      "nearby": [
+        { "place": "IGI Airport Delhi", "distanceKm": 34, "duration": "53 mins" },
+        { "place": "Metro Station", "distanceKm": 1, "duration": "4 mins" },
+        { "place": "Faridabad City Center", "distanceKm": null, "duration": null }
+      ]
+    },
+    "reviews": [
+      {
+        "patient": "International Patient",
+        "country": "Multiple Countries",
+        "rating": 4.5,
+        "feedback": "Excellent multi-specialty care with advanced robotic surgery facilities.",
+        "visible": true
+      }
+    ],
+    "media": {
+      "images": [
+        { "url": "/Images/hospital/aims-far/aims-far-1.webp", "visible": true },
+        { "url": "/Images/hospital/aims-far/aims-far-2.webp", "visible": true },
+        { "url": "/Images/hospital/aims-far/aims-far-3.webp", "visible": true }
+      ],
+      "videos": [
+        { "url": "https://youtube.com/embed/example-aims1", "visible": true }
+      ]
+    },
+    "contact": {
+      "phone": "+91-129-4253344",
+      "email": "info@aimsindia.com",
+      "website": "https://www.aimsindia.com"
+    }
+  }
+  

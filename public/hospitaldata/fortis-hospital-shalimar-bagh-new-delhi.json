@@ -225,8 +225,8 @@
     ],
     "media": {
     "images": [
-    { "url": "/Images/hospitals/fortis-shalimar-bagh/fortis-sb-1.jpg", "visible": true },
-    { "url": "/Images/hospitals/fortis-shalimar-bagh/fortis-sb-2.jpg", "visible": true }
+    { "url": "/Images/hospital/fortis-shalimar-bagh/fortis-shalimar-bagh-1.jpeg", "visible": true },
+    { "url": "/Images/hospital/fortis-shalimar-bagh/fortis-shalimar-bagh-2.jpg", "visible": true }
     ],
     "videos": []
     },
