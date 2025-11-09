@@ -44,7 +44,8 @@ export default async function HospitalPage({
     'fortis-hospital-shalimar-bagh-new-delhi' : 'fortis-shalimar-bagh',
     'blk-max-super-speciality-hospital-new-delhi' : 'blk-max',
     'max-super-speciality-hospital-shalimar-bagh-new-delhi' : 'max-shalimar-bagh',
-    'indraprastha-apollo-hospital-new-delhi' : 'apollo-indraprastha'
+    'indraprastha-apollo-hospital-new-delhi' : 'apollo-indraprastha',
+    'aims-faridabad' : 'aims-far'
   };
 
   // Get folder name for current hospital
@@ -69,7 +70,8 @@ export default async function HospitalPage({
       'fortis-shalimar-bagh' : ['fortis-shalimar-bagh-1.jpeg','fortis-shalimar-bagh-2.jpg','fortis-shalimar-bagh-3.avif'],
       'blk-max' : ['blk-max-1.webp','blk-max-2.jpg','blk-max-3.jpg'],
       'max-shalimar-bagh' : ['max-shalimar-bagh-1.webp','max-shalimar-bagh-2.webp','max-shalimar-bagh-3.webp'],
-      'apollo-indraprastha' : ['apollo-indraprastha-1.webp','apollo-indraprastha-2.jpg','apollo-indraprastha-3.jpg']
+      'apollo-indraprastha' : ['apollo-indraprastha-1.webp','apollo-indraprastha-2.jpg','apollo-indraprastha-3.jpg'],
+      'aims-far' : ['aims-far-1.webp','aims-far-2.webp','aims-far-2.webp']
     };
 
     // Get the actual image files for this hospital

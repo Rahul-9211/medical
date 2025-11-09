@@ -34,6 +34,7 @@
           { "name": "BLK Max Super Speciality Hospital, New Delhi", "url": "/hospital/blk-max-super-speciality-hospital-new-delhi" },
           { "name": "Max Super Speciality Hospital, Shalimar Bagh, New Delhi", "url": "/hospital/max-super-speciality-hospital-shalimar-bagh-new-delhi" },
           { "name": "Indraprastha Apollo Hospital, New Delhi", "url": "/hospital/indraprastha-apollo-hospital-new-delhi" },
+          { "name": "Asian Institute of Medical Sciences, Faridabad" , "url" : "/hospital/aims-faridabad"},
           { "name": "View All Partner Hospitals →", "url": "/hospital" }
         ]
       },

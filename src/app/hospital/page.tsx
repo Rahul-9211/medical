@@ -57,7 +57,8 @@ const HospitalPage = async () => {
     'fortis-hospital-shalimar-bagh-new-delhi',
     'blk-max-super-speciality-hospital-new-delhi',
     'max-super-speciality-hospital-shalimar-bagh-new-delhi',
-    'indraprastha-apollo-hospital-new-delhi'
+    'indraprastha-apollo-hospital-new-delhi',
+    'aims-faridabad'
   ];
 
   // Fetch all hospitals data
