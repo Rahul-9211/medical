@@ -41,13 +41,6 @@ export default function SpecialtiesSection({ specialties }: SpecialtiesSectionPr
       description: "Comprehensive cancer care with latest technology"
     },
     {
-      icon: "🧬",
-      name: "IVF & Fertility Treatments",
-      url : "ivf-fertility-treatments",
-      price: "starting $2,500",
-      description: "Advanced fertility solutions with high success rates"
-    },
-    {
       icon: "🫀",
       name: "Liver & Kidney Transplants",
       url : "liver-kidney-transplant",

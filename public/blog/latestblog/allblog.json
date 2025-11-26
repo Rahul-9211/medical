@@ -259,10 +259,6 @@
           "url": "/treatments/heart-surgery-cardiology"
         },
         {
-          "label": "IVF & Fertility",
-          "url": "/treatments/ivf-fertility-treatments"
-        },
-        {
           "label": "Cancer Treatment",
           "url": "/treatments/cancer-treatment-oncology"
         }
@@ -330,10 +326,6 @@
         {
           "label": "Cancer Treatment",
           "url": "/treatments/cancer-treatment-oncology"
-        },
-        {
-          "label": "IVF & Fertility",
-          "url": "/treatments/ivf-fertility-treatments"
         },
         {
           "label": "Liver & Kidney Transplant",
