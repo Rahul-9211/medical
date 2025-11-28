@@ -333,9 +333,9 @@
     ],
     "media": {
       "images": [
-      { "url": "/Images/hospital/medanta/medanta-1.jpg", "visible": true },
-      { "url": "/Images/hospitals/medanta/medanta-2.jpg", "visible": true },
-      { "url": "/Images/hospitals/medanta/medanta-3.jpeg", "visible": true }
+      { "url": "/Images/hospital/maxDelhi/maxDelhi-1.webp", "visible": true },
+      { "url": "/Images/hospitals/maxDelhi/maxDelhi-2.webp", "visible": true },
+      { "url": "/Images/hospitals/maxDelhi/maxDelhi-3.jpeg", "visible": true }
       ],
       "videos": []
     },

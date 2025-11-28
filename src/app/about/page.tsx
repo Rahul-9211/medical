@@ -18,7 +18,6 @@ const AboutPage = () => {
     { icon: "❤️", title: "Heart Surgery & Cardiology", url: "heart-surgery-cardiology", price: "from $4,000", description: "Advanced cardiac procedures with world-class surgeons" },
     { icon: "🦴", title: "Joint Replacement (Knee/Hip)", url: "orthopedic-surgery-joint-replacements", price: "from $3,800", description: "Minimally invasive joint replacement surgeries" },
     { icon: "🎗️", title: "Cancer Treatment (Oncology)", url: "cancer-treatment-oncology", price: "up to 60% cheaper", description: "Comprehensive cancer care with latest technology" },
-    { icon: "🧬", title: "IVF & Fertility Treatments", url: "ivf-fertility-treatments", price: "starting $2,500", description: "Advanced fertility solutions with high success rates" },
     { icon: "🫀", title: "Liver & Kidney Transplants", url: "liver-kidney-transplant", price: "cost-effective & safe", description: "Organ transplantation with expert teams" },
     { icon: "💅", title: "Plastic & Cosmetic Surgery", url: "plastic-cosmetic-surgery", price: "world-class results, affordable rates", description: "Aesthetic procedures with natural-looking outcomes" },
     { icon: "💊", title: "Advanced Bone, Joint & Spine Care", url: "orthopedic-surgery-joint-replacements", price: "world-class results, affordable rates", description: "India is a global leader in orthopedic surgery" },
