@@ -151,16 +151,16 @@ const HospitalPage = async () => {
                     <a
                       key={hospital.id}
                       href={`${hospital.url}`}
-                      className={`group bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 overflow-hidden ${color.hover}`}
+                      className={`group bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 overflow-hidden flex flex-col md:flex-row ${color.hover}`}
                     >
-                      <div className="relative h-48 overflow-hidden">
+                      <div className="relative w-full md:w-64 lg:w-80 h-48 md:h-auto flex-shrink-0 overflow-hidden">
                         <Image
                           src={imageUrl} 
                           alt={hospital.name || 'Hospital Image'}
                           fill
                           className="object-cover transition-transform duration-300 group-hover:scale-105"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent"></div>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent md:bg-gradient-to-r md:from-black/50 md:via-black/20 md:to-transparent"></div>
                         {hospital.rating?.value && hospital.rating?.reviews && (
                           <div className="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-full text-sm font-medium">
                             ⭐ {hospital.rating.value} ({hospital.rating.reviews} reviews)
@@ -168,37 +168,39 @@ const HospitalPage = async () => {
                         )}
                       </div>
                       
-                      <div className="p-6">
-                        <h3 className={`text-xl font-bold mb-2 group-hover:${color.text} transition-colors duration-300`}>
-                          {hospital.name}
-                        </h3>
-                        {hospital.about?.overview && (
-                          <p className="text-sm text-gray-600 mb-4">
-                            {hospital.about.overview.length > 180
-                              ? `${hospital.about.overview.slice(0, 180)}…`
-                              : hospital.about.overview}
-                          </p>
-                        )}
-                        {hospital.specialties && hospital.specialties.length > 0 && (
-                          <div className="flex flex-wrap gap-2 mb-4">
-                            {hospital.specialties.slice(0, 3).map((specialty, j) => (
-                              <span key={j} className={`text-sm px-2 py-1 rounded-full ${color.bg}`}>
-                                {specialty}
-                              </span>
-                            ))}
-                            {hospital.specialties.length > 3 && (
-                              <span className="text-sm px-2 py-1 rounded-full bg-gray-100">
-                                +{hospital.specialties.length - 3} more
-                              </span>
-                            )}
-                          </div>
-                        )}
-                        {hospital.accreditations && (
-                          <div className="flex items-center gap-1 text-sm text-gray-600 mb-4">
-                            <span>🏆</span>
-                            <span>{hospital.accreditations.length} Accreditations</span>
-                          </div>
-                        )}
+                      <div className="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                          <h3 className={`text-xl font-bold mb-2 group-hover:${color.text} transition-colors duration-300`}>
+                            {hospital.name}
+                          </h3>
+                          {hospital.about?.overview && (
+                            <p className="text-sm text-gray-600 mb-4">
+                              {hospital.about.overview.length > 180
+                                ? `${hospital.about.overview.slice(0, 180)}…`
+                                : hospital.about.overview}
+                            </p>
+                          )}
+                          {hospital.specialties && hospital.specialties.length > 0 && (
+                            <div className="flex flex-wrap gap-2 mb-4">
+                              {hospital.specialties.slice(0, 3).map((specialty, j) => (
+                                <span key={j} className={`text-sm px-2 py-1 rounded-full ${color.bg}`}>
+                                  {specialty}
+                                </span>
+                              ))}
+                              {hospital.specialties.length > 3 && (
+                                <span className="text-sm px-2 py-1 rounded-full bg-gray-100">
+                                  +{hospital.specialties.length - 3} more
+                                </span>
+                              )}
+                            </div>
+                          )}
+                          {hospital.accreditations && (
+                            <div className="flex items-center gap-1 text-sm text-gray-600 mb-4">
+                              <span>🏆</span>
+                              <span>{hospital.accreditations.length} Accreditations</span>
+                            </div>
+                          )}
+                        </div>
                         
                         {/* View Hospital Link */}
                         <div className="mt-4 pt-4 border-t border-gray-200/50">
