@@ -254,8 +254,8 @@
     ],
     "media": {
     "images": [
-      { "url": "/Images/hospital/fortisDelhi/fortis-delhi-2.jpg", "visible": true },
-      { "url": "/Images/hospital/fortisDelhi/fortis-delhi-1.webp", "visible": true }
+      { "url": "/Images/hospital/fortisDelhi/fortis-delhi-1.webp", "visible": true },
+      { "url": "/Images/hospital/fortisDelhi/fortis-delhi-2.jpg", "visible": true }
     ],
     "videos": []
     },
