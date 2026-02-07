@@ -37,7 +37,7 @@ const AyurvedaSlugPage = async ({ params }: { params: Promise<{ slug: string }> 
       <main>
         {/* Hero Section */}
         <section className="relative overflow-hidden py-20">
-          <BackgroundCarousel />
+          <BackgroundCarousel variant="ayurveda" />
           
           {/* Background Pattern */}
           <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#7AE5F5]/20 to-[#56DDEF]/20 rounded-full blur-3xl"></div>

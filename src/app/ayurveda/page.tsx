@@ -1,6 +1,7 @@
 // app/ayurveda/page.tsx
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import BackgroundCarousel from "@/components/BackgroundCarousel";
 
 interface Service {
@@ -33,12 +34,34 @@ const AyurvedaPage = async () => {
 
   const getCardColor = (index: number) => {
     const colors = [
-      { hover: "hover:bg-[#7AE5F5]/20", text: "text-[#7AE5F5]" },
-      { hover: "hover:bg-[#56DDEF]/20", text: "text-[#56DDEF]" },
-      { hover: "hover:bg-yellow-200", text: "text-yellow-500" },
-      { hover: "hover:bg-green-200", text: "text-green-600" },
+      { bg: 'bg-[#7AE5F5]/10', hover: 'hover:bg-[#7AE5F5]/20', text: 'text-[#7AE5F5]' },
+      { bg: 'bg-[#56DDEF]/10', hover: 'hover:bg-[#56DDEF]/20', text: 'text-[#56DDEF]' },
+      { bg: 'bg-yellow-100', hover: 'hover:bg-yellow-200', text: 'text-yellow-500' },
+      { bg: 'bg-green-100', hover: 'hover:bg-green-200', text: 'text-green-600' }
     ];
     return colors[index % colors.length];
+  };
+
+  // Function to get image path for each service
+  const getServiceImage = (serviceUrl: string | undefined): string => {
+    if (!serviceUrl) return '/Images/ayurveda/ayurveda-1.jpg';
+    
+    // Extract slug from URL (e.g., "/ayurveda/panchakarma-detox" -> "panchakarma-detox")
+    const slug = serviceUrl.replace('/ayurveda/', '');
+    
+    // Map of available images
+    const imageMap: { [key: string]: string } = {
+      'panchakarma-detox': '/Images/ayurveda/services/panchakarma-detox.jpg',
+      'post-surgery-recovery': '/Images/ayurveda/services/post-surgery-recovery.jpg',
+      'weight-management': '/Images/ayurveda/services/weight-management.jpg',
+      'skin-hair': '/Images/ayurveda/services/skin-hair.jpg',
+      'pcod-pcos': '/Images/ayurveda/services/pcod-pcos.jpg',
+      'stress-sleep': '/Images/ayurveda/services/stress-sleep.jpg',
+      'wellness-retreats': '/Images/ayurveda/services/wellness-retreats.jpg',
+    };
+    
+    // Return mapped image or fallback
+    return imageMap[slug] || '/Images/ayurveda/ayurveda-1.jpg';
   };
 
   return (
@@ -47,7 +70,7 @@ const AyurvedaPage = async () => {
       <main>
         {/* Hero Section */}
         <section className="relative overflow-hidden py-20">
-          <BackgroundCarousel />
+          <BackgroundCarousel variant="ayurveda" />
 
           <div className="relative max-w-4xl mx-auto px-6 text-center">
             <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full mb-6 shadow-lg text-4xl backdrop-blur-sm">
@@ -77,33 +100,64 @@ const AyurvedaPage = async () => {
           </div>
         </section>
 
-        {/* Services Grid */}
+        {/* Services List - Hospital Style (Image Left, Text Right) */}
         <section className="relative overflow-hidden py-20 bg-gradient-to-br from-gray-50 via-white to-green-50">
           <div className="absolute inset-0 bg-gradient-to-br from-green-600/5 via-teal-600/5 to-cyan-600/5"></div>
           <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-green-400/10 to-teal-400/10 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
+          
+          <div className="relative max-w-7xl mx-auto px-6">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center justify-center w-14 h-14 bg-white rounded-full mb-4 shadow-lg text-2xl">
+                🌿
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Our Ayurveda & Holistic Care Services</h2>
+            </div>
 
-          <div className="relative max-w-6xl mx-auto px-6">
-            <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Our Ayurveda & Holistic Care Services</h2>
-            <div className={`grid grid-cols-1 md:grid-cols-2 ${data.services.length >= 4 ? "lg:grid-cols-4" : "lg:grid-cols-3"} gap-6`}>
+            <div className="grid grid-cols-1 gap-8">
               {data.services.map((service, index) => {
                 const color = getCardColor(index);
+                const imageUrl = getServiceImage(service.url);
+
                 return (
-                  <div
+                  <Link
                     key={index}
-                    className={`group bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative overflow-hidden ${color.hover}`}
+                    href={service.url || '#'}
+                    className={`group bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 overflow-hidden flex flex-col md:flex-row ${color.hover}`}
                   >
-                    <h3 className={`text-xl font-bold mb-3 ${color.text}`}>
-                      {service.url ? (
-                        <Link href={service.url} className="transition-colors duration-300">
+                    <div className="relative w-full md:w-64 lg:w-80 h-48 md:h-auto flex-shrink-0 overflow-hidden">
+                      <Image
+                        src={imageUrl}
+                        alt={service.name || 'Ayurveda Service'}
+                        fill
+                        className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent md:bg-gradient-to-r md:from-black/50 md:via-black/20 md:to-transparent"></div>
+                    </div>
+                    
+                    <div className="p-6 flex-1 flex flex-col justify-between">
+                      <div>
+                        <h3 className={`text-xl font-bold mb-2 group-hover:${color.text} transition-colors duration-300`}>
                           {service.name}
-                        </Link>
-                      ) : (
-                        service.name
-                      )}
-                    </h3>
-                    {service.description && <p className="text-gray-600 leading-relaxed">{service.description}</p>}
-                  </div>
+                        </h3>
+                        {service.description && (
+                          <p className="text-sm text-gray-600 mb-4 leading-relaxed">
+                            {service.description}
+                          </p>
+                        )}
+                      </div>
+                      
+                      {/* View Details Link */}
+                      <div className="mt-4 pt-4 border-t border-gray-200/50">
+                        <span className={`inline-flex items-center text-sm font-medium ${color.text} group-hover:${color.text} transition-colors duration-300`}>
+                          View Service Details
+                          <svg className="w-4 h-4 ml-1 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </Link>
                 );
               })}
             </div>

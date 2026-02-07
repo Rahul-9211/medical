@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
+// Default hospital images (for homepage and other pages)
 const hospitalImages = [
   '/Images/hospital/artemis/artemis-1.jpg',
   '/Images/hospital/birla/birla-1.jpg',
@@ -12,22 +13,39 @@ const hospitalImages = [
   '/Images/hospital/medanta/medanta-1.jpg',
 ];
 
-export default function BackgroundCarousel() {
+// Ayurveda images
+const ayurvedaImages = [
+  '/Images/ayurveda/ayurveda-1.jpg',
+  '/Images/ayurveda/ayurveda-2.jpg',
+  '/Images/ayurveda/ayurveda-3.jpg',
+  '/Images/ayurveda/ayurveda-4.jpg',
+  '/Images/ayurveda/ayurveda-5.jpg',
+  '/Images/ayurveda/ayurveda-6.jpg',
+];
+
+interface BackgroundCarouselProps {
+  variant?: 'default' | 'ayurveda';
+}
+
+export default function BackgroundCarousel({ variant = 'default' }: BackgroundCarouselProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
+  // Select images based on variant
+  const images = variant === 'ayurveda' ? ayurvedaImages : hospitalImages;
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => 
-        prevIndex === hospitalImages.length - 1 ? 0 : prevIndex + 1
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
     }, 5000); // Change image every 5 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <div className="absolute inset-0 w-full h-full overflow-hidden">
-      {hospitalImages.map((src, index) => (
+      {images.map((src, index) => (
         <div
           key={src}
           className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ${
@@ -36,7 +54,7 @@ export default function BackgroundCarousel() {
         >
           <Image
             src={src}
-            alt="Hospital background"
+            alt={variant === 'ayurveda' ? 'Ayurveda background' : 'Hospital background'}
             fill
             className="object-cover"
             priority={index === 0}
