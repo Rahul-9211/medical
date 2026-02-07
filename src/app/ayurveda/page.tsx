@@ -47,7 +47,7 @@ const AyurvedaPage = async () => {
       <main>
         {/* Hero Section */}
         <section className="relative overflow-hidden py-20">
-          <BackgroundCarousel />
+          <BackgroundCarousel variant="ayurveda" />
 
           <div className="relative max-w-4xl mx-auto px-6 text-center">
             <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full mb-6 shadow-lg text-4xl backdrop-blur-sm">
