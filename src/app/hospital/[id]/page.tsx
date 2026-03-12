@@ -27,6 +27,50 @@ export default async function HospitalPage({
 
   if (!res.ok) return notFound();
   const hospital = await res.json();
+
+  // Load global doctor data so we can attach profile photos to hospital doctors
+  let doctorIndex: Record<string, any> = {};
+  try {
+    const doctorRes = await fetch(`${baseUrl}/doctors/doctor.json`, {
+      cache: "no-store",
+    });
+    if (doctorRes.ok) {
+      const doctorJson = await doctorRes.json();
+      doctorIndex = (doctorJson?.doctors || []).reduce(
+        (acc: Record<string, any>, d: any) => {
+          if (d?.id) acc[d.id] = d;
+          return acc;
+        },
+        {}
+      );
+    }
+  } catch {
+    // If doctor data fails to load, we silently fall back to placeholders
+  }
+
+  // Enrich hospital doctors (departments & topDoctors) with media/images from global doctor list
+  if (doctorIndex) {
+    if (hospital.departments?.list?.length) {
+      hospital.departments.list = hospital.departments.list.map((dept: any) => {
+        if (!dept?.doctors?.length) return dept;
+        return {
+          ...dept,
+          doctors: dept.doctors.map((doc: any) => {
+            const full = doctorIndex[doc.id];
+            return full ? { ...full, ...doc } : doc;
+          }),
+        };
+      });
+    }
+
+    if (hospital.topDoctors?.list?.length) {
+      hospital.topDoctors.list = hospital.topDoctors.list.map((doc: any) => {
+        const full = doctorIndex[doc.id];
+        return full ? { ...full, ...doc } : doc;
+      });
+    }
+  }
+
   const mediaImages: any[] = hospital.media?.images?.filter((img: any) => img.visible) || [];
   console.log(mediaImages);
   // Map hospital ID to folder name
