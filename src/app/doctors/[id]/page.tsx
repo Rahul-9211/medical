@@ -64,13 +64,22 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
             {/* Profile Header */}
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="w-48 h-48 rounded-full shadow-xl border-4 border-white/80 relative overflow-hidden">
-                <Image 
-                  src="/doctors/doctor_avatar.png" 
-                  alt={`${doctor.name} - Doctor Avatar`}
-                  width={192}
-                  height={192}
-                  className="w-full h-full object-cover"
-                />
+                {(() => {
+                  const profileImage =
+                    doctor.media?.images?.find((img) => img.visible)?.url ??
+                    doctor.media?.images?.[0]?.url ??
+                    "/doctors/doctor_avatar.png";
+
+                  return (
+                    <Image
+                      src={profileImage}
+                      alt={doctor.name}
+                      width={192}
+                      height={192}
+                      className="w-full h-full object-cover"
+                    />
+                  );
+                })()}
                 {/* Professional Badge */}
                 {/* <div className="absolute bottom-2 right-2 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg">
                   <svg className="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 24 24">

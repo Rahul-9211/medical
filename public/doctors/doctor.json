@@ -29,7 +29,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/rohit-goel.jpg", "visible": true }
+          { "url": "/Images/doctors/rohit-goel.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -62,7 +62,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/jatinder-jaggi.jpg", "visible": true }
+          { "url": "/Images/doctors/jatinder-jaggi.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -100,7 +100,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/suman-lal.jpg", "visible": true }
+          { "url": "/Images/doctors/suman-lal.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -139,7 +139,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/amit-goel.jpg", "visible": true }
+          { "url": "/Images/doctors/amit-goel.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -178,7 +178,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/arun-saroha.jpg", "visible": true }
+          { "url": "/Images/doctors/arun-saroha.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -242,7 +242,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/manmohan-singh.jpg", "visible": true }
+          { "url": "/Images/doctors/manmohan-singh.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -286,7 +286,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/anurag-khaitan.jpg", "visible": true }
+          { "url": "/Images/doctors/anurag-khaitan.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -327,7 +327,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/kaushal-yadav.jpg", "visible": true }
+          { "url": "/Images/doctors/kaushal-yadav.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -362,7 +362,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/ravinder-gera.jpg", "visible": true }
+          { "url": "/Images/doctors/ravinder-gera.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -431,7 +431,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/pn-gupta.jpg", "visible": true }
+          { "url": "/Images/doctors/pn-gupta.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -526,7 +526,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/r-ranga-rao.jpg", "visible": true }
+          { "url": "/Images/doctors/r-ranga-rao.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -582,7 +582,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/ankur-garg.jpg", "visible": true }
+          { "url": "/Images/doctors/ankur-garg.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -641,7 +641,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/amit-bhushan-sharma.jpg", "visible": true }
+          { "url": "/Images/doctors/amit-bhushan-sharma.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -701,7 +701,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/alka-kriplani.jpg", "visible": true }
+          { "url": "/Images/doctors/alka-kriplani.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -749,7 +749,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/vivek-logani.jpg", "visible": true }
+          { "url": "/Images/doctors/vivek-logani.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -800,7 +800,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/arvind-mehra.jpg", "visible": true }
+          { "url": "/Images/doctors/arvind-mehra.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -860,7 +860,7 @@
       "media": {
         "images": [
           {
-            "url": "/images/doctors/hitesh-garg.jpg",
+            "url": "/Images/doctors/hitesh-garg.jpg",
             "visible": true
           }
         ]
@@ -927,7 +927,7 @@
       "media": {
         "images": [
           {
-            "url": "/images/doctors/rajiv-yadav.jpg",
+            "url": "/Images/doctors/rajiv-yadav.jpg",
             "visible": true
           }
         ]
@@ -972,7 +972,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/kuldeep-arora.jpg", "visible": true }
+          { "url": "/Images/doctors/kuldeep-arora.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -1043,7 +1043,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/ramkinkar-jha.jpg", "visible": true }
+          { "url": "/Images/doctors/ramkinkar-jha.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -1095,7 +1095,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/tariq-man.jpg", "visible": true }
+          { "url": "/Images/doctors/tariq-man.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -1185,7 +1185,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/varun-mial.jpg", "visible": true }
+          { "url": "/Images/doctors/varun-mial.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -1239,7 +1239,7 @@
       "awards": [],
       "media": {
         "images": [
-          { "url": "/images/doctors/aditya-gupta.jpg", "visible": true }
+          { "url": "/Images/doctors/aditya-gupta.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -1285,7 +1285,7 @@
       "awards": [],
       "media": {
         "images": [
-          { "url": "/images/doctors/manju-aggarwal.jpg", "visible": true }
+          { "url": "/Images/doctors/manju-aggarwal.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -1342,7 +1342,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/biswajyoti-hazarika.jpg", "visible": true }
+          { "url": "/Images/doctors/biswajyoti-hazarika.jpg", "visible": true }
         ]
       },
       "contact": {
@@ -1391,7 +1391,7 @@
       ],
       "media": {
         "images": [
-          { "url": "/images/doctors/giriraj-bora.jpg", "visible": true }
+          { "url": "/Images/doctors/giriraj-bora.jpg", "visible": true }
         ]
       },
       "contact": {
