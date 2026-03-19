@@ -1,0 +1,173 @@
+{
+  "id": "max-multi-speciality-centre-noida",
+  "name": "Max Multi Speciality Centre, Noida",
+  "visible": true,
+  "rating": { "value": 4.4, "reviews": 18 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/max-multi-speciality-centre-noida",
+  "location": {
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "address": "A-364, Sector 19, Noida, Uttar Pradesh, 201301, India",
+    "visible": true
+  },
+  "established": 2014,
+  "accreditations": ["NABH", "ISO"],
+  "specialty": "Multi Specialty",
+  "beds": 100,
+  "about": {
+    "visible": true,
+    "overview": "Founded in 2014, Max Multi Specialty Centre in Noida offers world-class medical facilities situated in the heart of Noida. It is a multi-specialty hospital that offers state-of-the-art infrastructure and is technologically advanced. The hospital has well-experienced medical professionals and highly-trained nursing staff available round the clock. This ISO 9001:2000 certified hospital ensures the safety of every patient and visitor such as regular temperature checks, sanitization of the premises, etc.",
+    "awards": [],
+    "milestones": [
+      "ISO 9001:2000 certified facility"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 12000,
+    "countries": 105,
+    "services": [
+      "Medical Visa Assistance",
+      "Air Ambulance & Transportation",
+      "Airport Transfers",
+      "Language Interpretation Services",
+      "Accommodation & Travel Assistance",
+      "24/7 International Helpline"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 4 },
+      { "name": "ENT Surgery", "doctorCount": 3 },
+      { "name": "General Surgery", "doctorCount": 1 },
+      { "name": "Hematology", "doctorCount": 1 },
+      { "name": "Nephrology", "doctorCount": 3 },
+      { "name": "Obesity or Bariatric Surgery", "doctorCount": 3 },
+      { "name": "Orthopedics", "doctorCount": 2 },
+      { "name": "Routine Health Check-Ups", "doctorCount": 1 },
+      { "name": "Urology Treatment", "doctorCount": 3 },
+      { "name": "Endocrinology", "doctorCount": 1 },
+      { "name": "Gastroenterology", "doctorCount": 1 },
+      { "name": "Gynecology", "doctorCount": 8 },
+      { "name": "IVF and Infertility", "doctorCount": 5 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 2 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 7 },
+      { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 7 },
+      { "name": "Transplant Surgery", "doctorCount": 1 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      {
+        "id": "hitesh-garg",
+        "name": "Dr. Hitesh Garg",
+        "specialty": "Senior Consultant & Head (Unit IV)",
+        "rating": 4.9,
+        "experienceYears": 44,
+        "profileUrl": "/doctors/hitesh-garg"
+      },
+      {
+        "id": "rajiv-yadav",
+        "name": "Dr. Rajiv Yadav",
+        "specialty": "Chairperson - Urology & Head - Urologic Oncology & Robotic Surgery",
+        "rating": 5.0,
+        "experienceYears": 46,
+        "profileUrl": "/doctors/rajiv-yadav"
+      },
+      {
+        "id": "kuldeep-arora",
+        "name": "Dr. Kuldeep Arora",
+        "specialty": "Unit Head & Chief - Cath Lab, Sr. Consultant - Interventional Cardiology",
+        "rating": 5.0,
+        "experienceYears": 22,
+        "profileUrl": "/doctors/kuldeep-arora"
+      },
+      {
+        "id": "ramkinkar-jha",
+        "name": "Dr. Ramkinkar Jha",
+        "specialty": "Chief & Unit Head - Orthopaedics (Unit III)",
+        "rating": 4.9,
+        "experienceYears": 30,
+        "profileUrl": "/doctors/ramkinkar-jha"
+      }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 110,
+    "staffCount": 100,
+    "specialitiesCount": 30,
+    "centersOfExcellence": [
+      "Cardiology",
+      "Orthopedics",
+      "Nephrology",
+      "Oncology",
+      "Gynecology"
+    ]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": [
+      "TV in room",
+      "Private rooms",
+      "Free Wifi",
+      "Phone in Room",
+      "Mobility accessible rooms",
+      "Family accommodation",
+      "Laundry",
+      "Welcome pack",
+      "Safe in room",
+      "Nursery / Nanny services",
+      "Dry cleaning",
+      "Personal assistance / Concierge",
+      "Religious facilities",
+      "Fitness",
+      "Spa and wellness",
+      "Café",
+      "Business centre services",
+      "Shop",
+      "Dedicated smoking areas",
+      "Beauty Salon",
+      "Special offer for group stays",
+      "Parking available"
+    ],
+    "infrastructure": [
+      "Over 100 beds capacity",
+      "24/7 ambulance services",
+      "Vehicle parking",
+      "Radiology services",
+      "ATMs",
+      "Cafeteria",
+      "Pharmacies"
+    ]
+  },
+  "address": {
+    "visible": true,
+    "full": "A-364, Sector 19, Noida, Uttar Pradesh, 201301, India",
+    "nearby": [
+      { "place": "Noida Sector 19", "distanceKm": 1.0, "duration": "5 mins" }
+    ]
+  },
+  "reviews": [
+    {
+      "patient": "International Patient",
+      "country": "India",
+      "rating": 4.5,
+      "feedback": null,
+      "visible": true
+    }
+  ],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/max-multi-noida/max-multi-noida-1.jpg", "visible": true },
+      { "url": "/Images/hospital/max-multi-noida/max-multi-noida-2.jpg", "visible": true },
+      { "url": "/Images/hospital/max-multi-noida/max-multi-noida-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

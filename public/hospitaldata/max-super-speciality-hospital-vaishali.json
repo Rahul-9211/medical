@@ -1,0 +1,184 @@
+{
+  "id": "max-super-speciality-hospital-vaishali",
+  "name": "Max Super Speciality Hospital, Vaishali",
+  "visible": true,
+  "rating": { "value": 4.7, "reviews": 18 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/max-super-speciality-hospital-vaishali",
+  "location": {
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "address": "W-3, Near Radisson Blu Hotel, Sector 1, Vaishali, Ghaziabad, 201012, India",
+    "visible": true
+  },
+  "established": 1985,
+  "accreditations": ["NABH", "NABL"],
+  "specialty": "Super Specialty",
+  "beds": 350,
+  "about": {
+    "visible": true,
+    "overview": "Established as one of the best hospitals in Delhi-NCR, Max Super Specialty Hospital, Vaishali (Ghaziabad) is recognized for world-class infrastructure, advanced technology, and stringent health and safety standards. It is accredited by NABH and NABL and certified with ISO 9001:2015. The hospital also holds 'Green OTs' certification for energy-efficient operating theatres.",
+    "awards": [
+      "Best Multi-Specialty Hospital in Delhi NCR (ET Now, 2019)",
+      "Excellence in Patient Care (CIMS, 2018)",
+      "Best Hospital in Quality Care (AHPI, 2017)"
+    ],
+    "milestones": [
+      "Part of the Max Super Speciality Hospital network",
+      "NABH-accredited quality and patient safety standards"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 12000,
+    "countries": 105,
+    "services": [
+      "Scheduling appointments and virtual pre-arrival case review",
+      "Visa and travel arrangements",
+      "Single point of contact and interpreter facilities",
+      "Stay and food arrangements",
+      "Assured follow-up"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 8 },
+      { "name": "ENT Surgery", "doctorCount": 5 },
+      { "name": "General Surgery", "doctorCount": 4 },
+      { "name": "Hepatology", "doctorCount": 4 },
+      { "name": "Nephrology", "doctorCount": 6 },
+      { "name": "Obesity or Bariatric Surgery", "doctorCount": 4 },
+      { "name": "Orthopedics", "doctorCount": 5 },
+      { "name": "Spine Surgery", "doctorCount": 2 },
+      { "name": "Urology Treatment", "doctorCount": 6 },
+      { "name": "Cosmetic and Plastic Surgery", "doctorCount": 1 },
+      { "name": "Gastroenterology", "doctorCount": 6 },
+      { "name": "Gynecology", "doctorCount": 13 },
+      { "name": "IVF and Infertility", "doctorCount": 6 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 7 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 12 },
+      { "name": "Pulmonology", "doctorCount": 1 },
+      { "name": "Transplant Surgery", "doctorCount": 3 },
+      { "name": "Vascular Surgery", "doctorCount": 1 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      {
+        "id": "hitesh-garg",
+        "name": "Dr. Hitesh Garg",
+        "specialty": "Surgical Gastroenterologist",
+        "rating": 4.7,
+        "experienceYears": 20,
+        "profileUrl": "/doctors/hitesh-garg"
+      },
+      {
+        "id": "rajiv-yadav",
+        "name": "Dr. Rajiv Yadav",
+        "specialty": "Urologist and Andrologist",
+        "rating": 4.9,
+        "experienceYears": 44,
+        "profileUrl": "/doctors/rajiv-yadav"
+      },
+      {
+        "id": "kuldeep-arora",
+        "name": "Dr. Kuldeep Arora",
+        "specialty": "General Surgeon",
+        "rating": 4.8,
+        "experienceYears": 21,
+        "profileUrl": "/doctors/kuldeep-arora"
+      },
+      {
+        "id": "ramkinkar-jha",
+        "name": "Dr. Ramkinkar Jha",
+        "specialty": "Surgical Oncologist",
+        "rating": 4.8,
+        "experienceYears": 32,
+        "profileUrl": "/doctors/ramkinkar-jha"
+      }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 259,
+    "staffCount": 610,
+    "specialitiesCount": 28,
+    "centersOfExcellence": [
+      "Max Institute of Neurosciences",
+      "Max Institute of Renal Sciences",
+      "Max Institute of Cancer Care",
+      "Max Institute of Cardiac Sciences",
+      "Max Trauma Centre"
+    ]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": [
+      "TV in room",
+      "Private rooms",
+      "Free Wifi",
+      "Phone in Room",
+      "Mobility accessible rooms",
+      "Family accommodation",
+      "Laundry",
+      "Welcome",
+      "Safe in the room",
+      "Nursery / Nanny services",
+      "Dry cleaning",
+      "Personal assistance / Concierge",
+      "Religious facilities",
+      "Fitness",
+      "Spa and wellness",
+      "Café",
+      "Business centre services",
+      "Shop",
+      "Dedicated smoking areas",
+      "Beauty Salon",
+      "Special offer for group stays",
+      "Parking available"
+    ],
+    "infrastructure": [
+      "Over 370 beds including 128 critical care beds",
+      "16 HDU beds and 14 high-end modular operation theatres",
+      "Specialised ICUs for cardiac, neurological, and surgical cases",
+      "Dedicated endoscopy unit and advanced dialysis units",
+      "Advanced medical technologies (Radixact x9 Tomotherapy, da Vinci Xi Robotic System)",
+      "State-of-the-art diagnostic imaging (MRI, CT scan, PET-CT)"
+    ]
+  },
+  "address": {
+    "visible": true,
+    "full": "W-3, Near Radisson Blu Hotel, Sector 1, Vaishali, Ghaziabad, 201012, India",
+    "nearby": [
+      { "place": "Indira Gandhi International Airport (DEL)", "distanceKm": 31, "duration": "50-60 mins by car" },
+      { "place": "Vaishali Metro Station", "distanceKm": 2, "duration": "5 mins by car or 10 mins walking" },
+      { "place": "Ghaziabad Junction Railway Station", "distanceKm": 10, "duration": "20-30 mins by car" }
+    ]
+  },
+  "reviews": [
+    {
+      "patient": "Doris Akue",
+      "country": "Cameroon",
+      "rating": 5,
+      "feedback": null,
+      "visible": true
+    }
+  ],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/max-super-vaishali/max-super-vaishali-1.jpg", "visible": true },
+      { "url": "/Images/hospital/max-super-vaishali/max-super-vaishali-2.jpg", "visible": true },
+      { "url": "/Images/hospital/max-super-vaishali/max-super-vaishali-3.jpg", "visible": true }
+    ],
+    "videos": []
+  },
+  "contact": {
+    "phone": "+91-120-0000000",
+    "email": "info@maxhealthcare.in",
+    "website": "https://www.maxhealthcare.in"
+  }
+}
+
