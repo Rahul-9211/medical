@@ -81,6 +81,8 @@ export default async function HospitalPage({
     'manipal': 'manipal',
     'marengo-asia': 'marengo',
     'max-super-speciality': 'max',
+    'max-multi-speciality-centre-noida': 'max-multi-noida',
+    'max-super-speciality-hospital-vaishali': 'max-super-vaishali',
     'medanta': 'medanta',
     'paras': 'paras',
     'max-saket-new-delhi' : 'maxDelhi',
@@ -115,7 +117,9 @@ export default async function HospitalPage({
       'blk-max' : ['blk-max-1.webp','blk-max-2.jpg','blk-max-3.jpg'],
       'max-shalimar-bagh' : ['max-shalimar-bagh-1.webp','max-shalimar-bagh-2.webp','max-shalimar-bagh-3.webp'],
       'apollo-indraprastha' : ['apollo-indraprastha-1.webp','apollo-indraprastha-2.jpg','apollo-indraprastha-3.jpg'],
-      'aims-far' : ['aims-far-1.webp','aims-far-2.webp','aims-far-2.webp']
+      'aims-far' : ['aims-far-1.webp','aims-far-2.webp','aims-far-2.webp'],
+      'max-multi-noida' : ['max-multi-noida-1.jpg','max-multi-noida-2.jpg','max-multi-noida-3.jpg'],
+      'max-super-vaishali' : ['max-super-vaishali-1.jpg','max-super-vaishali-2.jpg','max-super-vaishali-3.jpg']
     };
 
     // Get the actual image files for this hospital

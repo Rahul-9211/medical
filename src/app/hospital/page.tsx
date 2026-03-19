@@ -50,6 +50,8 @@ const HospitalPage = async () => {
     'manipal',
     'marengo-asia',
     'max-super-speciality',
+    'max-multi-speciality-centre-noida',
+    'max-super-speciality-hospital-vaishali',
     'medanta',
     'paras',
     'max-saket-new-delhi',
