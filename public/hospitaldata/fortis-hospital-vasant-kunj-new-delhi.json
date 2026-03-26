@@ -1,0 +1,94 @@
+{
+  "id": "fortis-hospital-vasant-kunj-new-delhi",
+  "name": "Fortis Flt. Lt. Rajan Dhall Hospital, Vasant Kunj, New Delhi",
+  "visible": true,
+  "rating": { "value": 4.5, "reviews": 15 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/fortis-hospital-vasant-kunj-new-delhi",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "Aruna Asaf Ali Marg, Pocket 1, Sector B, Vasant Kunj, New Delhi, 110070, India",
+    "visible": true
+  },
+  "established": 1996,
+  "accreditations": ["NABH", "NABL"],
+  "specialty": "Multi Specialty",
+  "beds": 162,
+  "about": {
+    "visible": true,
+    "overview": "Fortis Flt. Lt. Rajan Dhall Hospital is a leading multi-speciality tertiary care center in South Delhi. It is recognized for patient-centric care, advanced infrastructure, and strong emergency and critical care services.",
+    "awards": [
+      "Featured in Newsweek's World's Best Hospitals survey (2022-2024)",
+      "AHPI Award for Nursing Excellence (2018)",
+      "Best Medical Value Travel Specialist Hospital for Kidney Transplant (2018)"
+    ],
+    "milestones": [
+      "2 million+ patients treated across 30+ disciplines",
+      "NABH nursing excellence and Green OT certifications"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 10000,
+    "countries": 105,
+    "services": [
+      "Pre-arrival consultation and case review",
+      "Medical visa and travel assistance",
+      "Airport transfers",
+      "Interpreter services",
+      "Dedicated international lounge and coordinators"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 3 },
+      { "name": "ENT Surgery", "doctorCount": 7 },
+      { "name": "General Surgery", "doctorCount": 2 },
+      { "name": "Hematology", "doctorCount": 1 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 5 },
+      { "name": "Orthopedics", "doctorCount": 5 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Manoj Miglani", "specialty": "Spine Surgeon", "rating": 4.9, "experienceYears": 27, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Muneendra Gupta", "specialty": "General Surgeon", "rating": 5.0, "experienceYears": 49, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Mitu Shrikhande", "specialty": "Hematologist", "rating": 4.8, "experienceYears": 30, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Jitendra Mohan Hans", "specialty": "Oral & Maxillofacial Surgeon", "rating": 4.8, "experienceYears": 40, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 100,
+    "staffCount": 350,
+    "specialitiesCount": 30,
+    "centersOfExcellence": ["Cardiac Sciences", "Orthopaedics", "Renal Sciences", "Oncology", "Bariatric Sciences"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["162 beds including 65 ICU beds", "6 green certified OTs", "1.5T MRI and 128-slice CT", "24x7 blood bank and level III ICU support"]
+  },
+  "address": {
+    "visible": true,
+    "full": "Aruna Asaf Ali Marg, Pocket 1, Sector B, Vasant Kunj, New Delhi, 110070, India",
+    "nearby": [
+      { "place": "Indira Gandhi International Airport, New Delhi", "distanceKm": 11.8, "duration": "25 min by car" },
+      { "place": "Vasant Kunj Metro Station", "distanceKm": 6.2, "duration": "14 min by car" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/fortis-hospital-vasant-kunj-new-delhi/fortis-hospital-vasant-kunj-new-delhi-1.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis-hospital-vasant-kunj-new-delhi/fortis-hospital-vasant-kunj-new-delhi-2.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis-hospital-vasant-kunj-new-delhi/fortis-hospital-vasant-kunj-new-delhi-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

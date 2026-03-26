@@ -1,0 +1,94 @@
+{
+  "id": "max-super-speciality-hospital-patparganj-new-delhi",
+  "name": "Max Super Speciality Hospital, Patparganj, New Delhi",
+  "visible": true,
+  "rating": { "value": 3.8, "reviews": 21 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/max-super-speciality-hospital-patparganj-new-delhi",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "108A, IP Ext, I.P.Extension, Patparganj, New Delhi, 110092, India",
+    "visible": true
+  },
+  "established": 2005,
+  "accreditations": ["NABH", "NABL", "ISO"],
+  "specialty": "Super Specialty",
+  "beds": 400,
+  "about": {
+    "visible": true,
+    "overview": "Max Super Speciality Hospital, Patparganj is a leading tertiary care center in East Delhi offering patient-centered care across 30+ specialties. It is accredited by NABH and NABL and recognized for advanced neurology, oncology, and emergency care.",
+    "awards": [
+      "Best Hospital – Neurology (North), ET HealthWorld 2020",
+      "Best Hospital – Emergency (North), ET HealthWorld 2020",
+      "Excellence in Infection Control Practices – AHPI Awards 2024"
+    ],
+    "milestones": [
+      "Asia's first and world's third intraoperative MRI Brain Suite",
+      "HIMSS Stage 6 digital health records adoption"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 15000,
+    "countries": 105,
+    "services": [
+      "Pre-arrival case review and consultation",
+      "Visa and travel assistance",
+      "Airport transfers",
+      "Interpreter services",
+      "Dedicated international lounge and coordinators"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 11 },
+      { "name": "Gastroenterology", "doctorCount": 5 },
+      { "name": "Gynecology", "doctorCount": 12 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 5 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 17 },
+      { "name": "Orthopedics", "doctorCount": 9 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Sanjeev Dua", "specialty": "Neurosurgeon", "rating": 5.0, "experienceYears": 29, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Ajitabh Srivastava", "specialty": "Liver Transplant Surgeon", "rating": 4.8, "experienceYears": 19, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Satish Chandra Chhabra", "specialty": "Nephrologist", "rating": 5.0, "experienceYears": 54, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Satyendra Katewa", "specialty": "Pediatric Hematologist", "rating": 4.7, "experienceYears": 23, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 510,
+    "staffCount": 770,
+    "specialitiesCount": 30,
+    "centersOfExcellence": ["Neurosciences", "Cardiac Sciences", "Oncology", "Orthopaedics", "Urology & Nephrology"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Family accommodation", "Café", "Parking available"],
+    "infrastructure": ["400+ beds including 116 ICU and 14 HDU beds", "11 modular OTs", "Da Vinci Xi robotic system", "2 Dyna CT cath labs", "24/7 emergency and blood bank services"]
+  },
+  "address": {
+    "visible": true,
+    "full": "108A, IP Ext, I.P.Extension, Patparganj, New Delhi, 110092, India",
+    "nearby": [
+      { "place": "Indira Gandhi International Airport (Delhi)", "distanceKm": 26, "duration": "45-60 mins by car" },
+      { "place": "Anand Vihar Metro (Blue Line)", "distanceKm": 4, "duration": "10-15 mins by car" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/max-super-speciality-hospital-patparganj-new-delhi/max-super-speciality-hospital-patparganj-new-delhi-1.jpg", "visible": true },
+      { "url": "/Images/hospital/max-super-speciality-hospital-patparganj-new-delhi/max-super-speciality-hospital-patparganj-new-delhi-2.jpg", "visible": true },
+      { "url": "/Images/hospital/max-super-speciality-hospital-patparganj-new-delhi/max-super-speciality-hospital-patparganj-new-delhi-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

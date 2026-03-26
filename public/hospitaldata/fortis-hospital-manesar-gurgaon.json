@@ -1,0 +1,97 @@
+{
+  "id": "fortis-hospital-manesar-gurgaon",
+  "name": "Fortis Hospital, Manesar, Gurgaon",
+  "visible": true,
+  "rating": { "value": 4.4, "reviews": 14 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/fortis-hospital-manesar-gurgaon",
+  "location": {
+    "city": "Gurgaon",
+    "state": "Haryana",
+    "country": "India",
+    "address": "Plot no 2, Sector 5, IMT Manesar, Gurgaon, 122050, India",
+    "visible": true
+  },
+  "established": 2013,
+  "accreditations": ["NABH", "NABL"],
+  "specialty": "Multi Specialty",
+  "beds": 350,
+  "about": {
+    "visible": true,
+    "overview": "Established in 2013, Fortis Hospital Manesar is an accredited multi-speciality tertiary care hospital. It is noted for expertise across cosmetic, bariatric, laparoscopic, gastroenterology, neurosciences, and renal sciences with OPD, emergency, secondary and tertiary care support.",
+    "awards": [],
+    "milestones": [
+      "India's first hospital to collaborate with Japanese companies for health equipment",
+      "350 beds with 95 ICU beds",
+      "Comprehensive OPD, emergency, therapeutic and tertiary care"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 8500,
+    "countries": 85,
+    "services": [
+      "Appointment scheduling and pre-arrival planning",
+      "Visa and travel support",
+      "Airport transfer guidance",
+      "Interpreter and coordinator support"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 4 },
+      { "name": "ENT Surgery", "doctorCount": 2 },
+      { "name": "Gynecology", "doctorCount": 2 },
+      { "name": "Nephrology", "doctorCount": 3 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 4 },
+      { "name": "Orthopedics", "doctorCount": 1 },
+      { "name": "Routine Health Check-Ups", "doctorCount": 2 },
+      { "name": "Cosmetic and Plastic Surgery", "doctorCount": 1 },
+      { "name": "Gastroenterology", "doctorCount": 1 },
+      { "name": "Hematology", "doctorCount": 2 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 3 },
+      { "name": "Opthalmology", "doctorCount": 1 },
+      { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 2 },
+      { "name": "Urology Treatment", "doctorCount": 1 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Vinay Samuel Gaikwad", "specialty": "Surgical Oncologist", "rating": 5.0, "experienceYears": 24, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Smita Vats", "specialty": "Gynaecologist and Obstetrician", "rating": 4.8, "experienceYears": 25, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Deepak Khurana", "specialty": "Cardiac Surgeon", "rating": 4.8, "experienceYears": 29, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Jagdeep Yadav", "specialty": "Interventional Cardiologist", "rating": 4.8, "experienceYears": 21, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 140,
+    "staffCount": 450,
+    "specialitiesCount": 18,
+    "centersOfExcellence": ["Cardiology", "Oncology", "Nephrology", "Neurosciences", "Bariatric Surgery"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Phone in Room", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["Spread over 5 lakh sq. ft. campus", "9 modular operation theatres", "2 interventional cath labs", "Emergency and trauma services", "Ancillary block with 65 single rooms"]
+  },
+  "address": {
+    "visible": true,
+    "full": "Plot no 2, Sector 5, IMT Manesar, Gurgaon, 122050, India",
+    "nearby": [
+      { "place": "Airport", "distanceKm": 38, "duration": "52 mins" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/fortis-hospital-manesar-gurgaon/fortis-hospital-manesar-gurgaon-1.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis-hospital-manesar-gurgaon/fortis-hospital-manesar-gurgaon-2.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis-hospital-manesar-gurgaon/fortis-hospital-manesar-gurgaon-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

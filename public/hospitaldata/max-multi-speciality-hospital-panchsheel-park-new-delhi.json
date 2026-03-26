@@ -1,0 +1,81 @@
+{
+  "id": "max-multi-speciality-hospital-panchsheel-park-new-delhi",
+  "name": "Max Multi Speciality Hospital, Panchsheel Park",
+  "visible": true,
+  "rating": { "value": 4.7, "reviews": 12 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/max-multi-speciality-hospital-panchsheel-park-new-delhi",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "Panchsheel Park, New Delhi, India",
+    "visible": true
+  },
+  "established": 2000,
+  "accreditations": ["NABH", "NABL"],
+  "specialty": "Multi Specialty",
+  "beds": 10,
+  "about": {
+    "visible": true,
+    "overview": "Founded in 2000, Max Multi Speciality Hospital Panchsheel Park is a NABH-accredited facility with NABL-accredited laboratory services and over 33 medical specialties. It is known for convenient, high-quality care with advanced diagnostics.",
+    "awards": [],
+    "milestones": [
+      "33+ specialties available",
+      "Advanced diagnostics including 4D Echo, Femtosecond Laser, Mammography and OCT"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 4000,
+    "countries": 70,
+    "services": ["Appointment coordination", "Interpreter support", "Travel assistance", "Follow-up support"]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 2 },
+      { "name": "Gastroenterology", "doctorCount": 1 },
+      { "name": "Nephrology", "doctorCount": 2 },
+      { "name": "Gynecology", "doctorCount": 4 },
+      { "name": "Orthopedics", "doctorCount": 3 },
+      { "name": "Urology Treatment", "doctorCount": 2 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Bhitika Bhattacharya", "specialty": "Gynaecologist and Obstetrician", "rating": 4.8, "experienceYears": 36, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Rajendra Kumar Agarwal", "specialty": "Interventional Cardiologist", "rating": 4.8, "experienceYears": 22, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Alka Gujral", "specialty": "Gynaecologist and Obstetrician", "rating": 4.8, "experienceYears": 45, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Arvind Jayaswal", "specialty": "Spine Surgeon", "rating": 4.9, "experienceYears": 49, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 80,
+    "staffCount": 150,
+    "specialitiesCount": 33,
+    "centersOfExcellence": ["Ophthalmology", "Dental Care", "Infertility & IVF", "ENT", "Orthopedics"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["10+ beds with operating rooms and ICU beds", "Path lab and blood bank", "24x7 pharmacy", "Advanced billing and token management"]
+  },
+  "address": {
+    "visible": true,
+    "full": "Panchsheel Park, New Delhi, India",
+    "nearby": []
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/max-multi-speciality-hospital-panchsheel-park-new-delhi/max-multi-speciality-hospital-panchsheel-park-new-delhi-1.jpg", "visible": true },
+      { "url": "/Images/hospital/max-multi-speciality-hospital-panchsheel-park-new-delhi/max-multi-speciality-hospital-panchsheel-park-new-delhi-2.jpg", "visible": true },
+      { "url": "/Images/hospital/max-multi-speciality-hospital-panchsheel-park-new-delhi/max-multi-speciality-hospital-panchsheel-park-new-delhi-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

@@ -1,0 +1,117 @@
+{
+  "id": "jaypee-hospital-noida",
+  "name": "Jaypee Hospital, Noida",
+  "visible": true,
+  "rating": { "value": 4.2, "reviews": 27 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/jaypee-hospital-noida",
+  "location": {
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "address": "Jaypee Hospital Road, Goberdhanpur, Sector 128, Noida, 201304, India",
+    "visible": true
+  },
+  "established": 2014,
+  "accreditations": ["NABH", "NABL"],
+  "specialty": "Multi Specialty",
+  "beds": 1200,
+  "about": {
+    "visible": true,
+    "overview": "Jaypee Hospital, a flagship healthcare initiative of the Jaypee Group, is situated on a 25-acre LEED Gold-certified complex. It is one of NCR's leading multi-speciality hospitals, focused on world-class care, quality, and patient safety.",
+    "awards": [
+      "Best Multi-Speciality Hospital in UP/NCR (Times Healthcare, 2017-18)",
+      "Top 10 Critical Care Hospitals in North India (Times Health Survey, 2017)",
+      "Emerging Health Brand of the Year (Radio City Awards, 2016)"
+    ],
+    "milestones": [
+      "1,000+ kidney transplants and 350+ liver transplants performed",
+      "Pioneered simultaneous ABO and HLA-incompatible transplant protocol",
+      "23,000+ complex cancer procedures and 11,000+ chemotherapy cycles"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 14000,
+    "countries": 105,
+    "services": [
+      "Pre-arrival tele-consultation and treatment planning",
+      "Visa invitation support and travel coordination",
+      "Airport pick-up and drop-off",
+      "Multilingual interpreter support",
+      "Dedicated patient coordinator and express check-in"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 9 },
+      { "name": "ENT Surgery", "doctorCount": 3 },
+      { "name": "General Surgery", "doctorCount": 2 },
+      { "name": "Hematology", "doctorCount": 1 },
+      { "name": "IVF and Infertility", "doctorCount": 2 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 7 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 9 },
+      { "name": "Orthopedics", "doctorCount": 3 },
+      { "name": "Pulmonology", "doctorCount": 1 },
+      { "name": "Spine Surgery", "doctorCount": 4 },
+      { "name": "Urology Treatment", "doctorCount": 2 },
+      { "name": "Cosmetic and Plastic Surgery", "doctorCount": 3 },
+      { "name": "Gastroenterology", "doctorCount": 7 },
+      { "name": "Gynecology", "doctorCount": 5 },
+      { "name": "Hepatology", "doctorCount": 5 },
+      { "name": "Nephrology", "doctorCount": 4 },
+      { "name": "Obesity or Bariatric Surgery", "doctorCount": 2 },
+      { "name": "Opthalmology", "doctorCount": 3 },
+      { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 1 },
+      { "name": "Rheumatology", "doctorCount": 1 },
+      { "name": "Transplant Surgery", "doctorCount": 4 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Rajesh Kapoor", "specialty": "Surgical Gastroenterologist", "rating": 5.0, "experienceYears": 42, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. (Col) Subodh Kumar", "specialty": "ENT Surgeon", "rating": 4.8, "experienceYears": 35, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Gaurav Rathore", "specialty": "Orthopaedic and Joint Replacement Surgeon", "rating": 5.0, "experienceYears": 27, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. K R Vasudevan", "specialty": "Liver Transplant Surgeon", "rating": 4.8, "experienceYears": 22, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 400,
+    "staffCount": 1200,
+    "specialitiesCount": 30,
+    "centersOfExcellence": [
+      "Heart Institute",
+      "Institute for Organ Transplant",
+      "Institute of Cancer Care",
+      "Institute of Neurosciences",
+      "Bone & Joint Institute"
+    ]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Phone in Room", "Family accommodation", "Laundry", "Safe in the room", "Café", "Shop", "Parking available"],
+    "infrastructure": ["525+ operational beds including 150+ ICU beds", "18 modular operation theatres", "Da Vinci robotic surgery system", "3.0 Tesla MRI and 256-slice CT", "4 cardiac cath labs including hybrid OR"]
+  },
+  "address": {
+    "visible": true,
+    "full": "Jaypee Hospital Road, Goberdhanpur, Sector 128, Noida, 201304, India",
+    "nearby": [
+      { "place": "Indira Gandhi International Airport, Delhi", "distanceKm": 35, "duration": "45 mins to 1 hour by car" },
+      { "place": "Sector 148 Metro Station", "distanceKm": 5, "duration": "15-20 mins by car" },
+      { "place": "Hazrat Nizamuddin Railway Station", "distanceKm": 20, "duration": "30-45 mins by car" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/jaypee-hospital-noida/jaypee-hospital-noida-1.jpg", "visible": true },
+      { "url": "/Images/hospital/jaypee-hospital-noida/jaypee-hospital-noida-2.jpg", "visible": true },
+      { "url": "/Images/hospital/jaypee-hospital-noida/jaypee-hospital-noida-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

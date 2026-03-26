@@ -1,0 +1,94 @@
+{
+  "id": "yatharth-super-specialty-hospital-greater-noida",
+  "name": "Yatharth Super Specialty Hospital, Greater Noida",
+  "visible": true,
+  "rating": { "value": 4.7, "reviews": 15 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/yatharth-super-specialty-hospital-greater-noida",
+  "location": {
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "address": "Plot Number NH 01, Gautam Budh Nagar, Sector 110, Noida, 201304, India",
+    "visible": true
+  },
+  "established": 2013,
+  "accreditations": ["NABH"],
+  "specialty": "Super Specialty",
+  "beds": 1200,
+  "about": {
+    "visible": true,
+    "overview": "Yatharth Super Specialty Hospital chain is a trusted healthcare provider in the Delhi NCR region, offering integrated medical care. Established in 2013, the group has 1200 beds across hospitals and is NABH accredited.",
+    "awards": [],
+    "milestones": [
+      "1200 beds including 275 critical beds across hospitals",
+      "Expanded with a third 500-bedded facility in Noida extension"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 9000,
+    "countries": 85,
+    "services": ["Visa assistance", "Travel support", "Interpreter support", "Appointment coordination", "Follow-up support"]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 3 },
+      { "name": "ENT Surgery", "doctorCount": 1 },
+      { "name": "General Surgery", "doctorCount": 1 },
+      { "name": "Hepatology", "doctorCount": 1 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 1 },
+      { "name": "Orthopedics", "doctorCount": 5 },
+      { "name": "Pulmonology", "doctorCount": 1 },
+      { "name": "Transplant Surgery", "doctorCount": 2 },
+      { "name": "Cosmetic and Plastic Surgery", "doctorCount": 1 },
+      { "name": "Gastroenterology", "doctorCount": 1 },
+      { "name": "Gynecology", "doctorCount": 2 },
+      { "name": "Nephrology", "doctorCount": 2 },
+      { "name": "Obesity or Bariatric Surgery", "doctorCount": 2 },
+      { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 3 },
+      { "name": "Routine Health Check-Ups", "doctorCount": 1 },
+      { "name": "Urology Treatment", "doctorCount": 2 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Milind Anand Umre", "specialty": "Cardiac Surgeon", "rating": 4.8, "experienceYears": 30, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Abhisar Katiyar", "specialty": "Orthopaedic and Joint Replacement Surgeon", "rating": 4.8, "experienceYears": 20, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. N. K Soni", "specialty": "Physician", "rating": 4.7, "experienceYears": 29, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Upendra Singh", "specialty": "Nephrologist", "rating": 4.7, "experienceYears": 15, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 250,
+    "staffCount": 700,
+    "specialitiesCount": 20,
+    "centersOfExcellence": ["Cardiology", "Neurosciences", "Orthopedics", "Nephrology", "Urology"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Phone in Room", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["400-bedded unit with 90 critical care beds", "9 modular operation theatres", "HEPA filters and laminar flow OTs", "Advanced emergency and critical care department", "Cath lab for cardiovascular and neuro-interventional procedures"]
+  },
+  "address": {
+    "visible": true,
+    "full": "Plot Number NH 01, Gautam Budh Nagar, Sector 110, Noida, 201304, India",
+    "nearby": [
+      { "place": "Airport", "distanceKm": 33, "duration": "1 hour" },
+      { "place": "Metro", "distanceKm": 2, "duration": "4 minutes" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/yatharth-super-specialty-hospital-greater-noida/yatharth-super-specialty-hospital-greater-noida-1.jpg", "visible": true },
+      { "url": "/Images/hospital/yatharth-super-specialty-hospital-greater-noida/yatharth-super-specialty-hospital-greater-noida-2.jpg", "visible": true },
+      { "url": "/Images/hospital/yatharth-super-specialty-hospital-greater-noida/yatharth-super-specialty-hospital-greater-noida-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

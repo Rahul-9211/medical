@@ -1,0 +1,206 @@
+{
+  "id": "fortis-hospital-noida",
+  "name": "Fortis Hospital, Noida",
+  "visible": true,
+  "rating": { "value": 4.4, "reviews": 37 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/fortis-hospital-noida",
+  "location": {
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "address": "Fortis Hospital, Noida, Uttar Pradesh 201313, India",
+    "visible": true
+  },
+  "established": 2004,
+  "accreditations": ["NABH", "NABL"],
+  "specialty": "Multi Specialty",
+  "beds": 236,
+  "about": {
+    "visible": true,
+    "overview": "Fortis Hospital, Noida, established in 2004, is a flagship multi-super-speciality tertiary care hospital in the NCR region. As a key medical hub within the Fortis Healthcare network, it is known for clinical excellence, advanced technology, and patient-centric care across high-end specialities.",
+    "awards": [
+      "WSO Angels Award (Diamond Status) for excellence in stroke management (2021-Q1 2024)",
+      "AHPI Award for Excellence in Infection Control (2024)",
+      "FICCI Medical Value Travel Specialist Award for Liver Transplant (2023)",
+      "AHPI Award for Excellence in Nursing Practices (2023)"
+    ],
+    "milestones": [
+      "Designated Heart Command Centre for Uttar Pradesh",
+      "Pioneer in robotic surgery with Da Vinci Xi and Mako systems",
+      "14,000+ knee replacements and 10,000+ neurosurgeries performed",
+      "3,000+ successful kidney and liver transplants",
+      "Over 1.2 million outpatient treatments delivered"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 15000,
+    "countries": 105,
+    "services": [
+      "Pre-arrival consultation and treatment planning",
+      "Visa and travel assistance",
+      "Airport pick-up and drop support",
+      "Multilingual interpretation services",
+      "Dedicated coordinators with express services",
+      "Accommodation and cuisine support"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 4 },
+      { "name": "Endocrinology", "doctorCount": 1 },
+      { "name": "Gastroenterology", "doctorCount": 4 },
+      { "name": "Gynecology", "doctorCount": 7 },
+      { "name": "Hepatology", "doctorCount": 1 },
+      { "name": "Nephrology", "doctorCount": 1 },
+      { "name": "Obesity or Bariatric Surgery", "doctorCount": 2 },
+      { "name": "Opthalmology", "doctorCount": 1 },
+      { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 1 },
+      { "name": "Rheumatology", "doctorCount": 1 },
+      { "name": "Urology Treatment", "doctorCount": 1 },
+      { "name": "Cosmetic and Plastic Surgery", "doctorCount": 3 },
+      { "name": "ENT Surgery", "doctorCount": 3 },
+      { "name": "General Surgery", "doctorCount": 1 },
+      { "name": "Hematology", "doctorCount": 3 },
+      { "name": "IVF and Infertility", "doctorCount": 4 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 1 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 13 },
+      { "name": "Orthopedics", "doctorCount": 4 },
+      { "name": "Pulmonology", "doctorCount": 2 },
+      { "name": "Transplant Surgery", "doctorCount": 1 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      {
+        "id": "hitesh-garg",
+        "name": "Dr. Vivek Vij",
+        "specialty": "Liver Transplant Surgeon",
+        "rating": 4.9,
+        "experienceYears": 27,
+        "profileUrl": "/doctors/hitesh-garg"
+      },
+      {
+        "id": "rajiv-yadav",
+        "name": "Dr. Mrinal Sircar",
+        "specialty": "Pulmonologist",
+        "rating": 4.5,
+        "experienceYears": 38,
+        "profileUrl": "/doctors/rajiv-yadav"
+      },
+      {
+        "id": "kuldeep-arora",
+        "name": "Dr. Ajay Kaul",
+        "specialty": "Cardiac Surgeon",
+        "rating": 4.9,
+        "experienceYears": 38,
+        "profileUrl": "/doctors/kuldeep-arora"
+      },
+      {
+        "id": "ramkinkar-jha",
+        "name": "Dr. Bimlesh Dhar Pandey",
+        "specialty": "Rheumatologist",
+        "rating": 5.0,
+        "experienceYears": 23,
+        "profileUrl": "/doctors/ramkinkar-jha"
+      }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 150,
+    "staffCount": 600,
+    "specialitiesCount": 14,
+    "centersOfExcellence": [
+      "Fortis Heart & Vascular Institute",
+      "Institute of Neurosciences",
+      "Bone & Joint Institute",
+      "Cancer Institute",
+      "Kidney & Liver Transplant Institute"
+    ]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": [
+      "TV in room",
+      "Private rooms",
+      "Free Wifi",
+      "Phone in Room",
+      "Mobility accessible rooms",
+      "Family accommodation",
+      "Laundry",
+      "Welcome",
+      "Safe in the room",
+      "Nursery / Nanny services",
+      "Dry cleaning",
+      "Personal assistance / Concierge",
+      "Religious facilities",
+      "Fitness",
+      "Spa and wellness",
+      "Café",
+      "Business centre services",
+      "Shop",
+      "Dedicated smoking areas",
+      "Parking available"
+    ],
+    "infrastructure": [
+      "236+ operational beds with 70+ ICU beds",
+      "12+ modular operation theatres",
+      "Da Vinci Xi and Mako robotic surgical suite",
+      "256-slice CT scanner and 3.0 Tesla MRI",
+      "Bi-plane digital cath lab and hybrid OT",
+      "TrueBeam STx linear accelerator",
+      "Brain suite with neuro-navigation",
+      "24/7 level-1 trauma and emergency critical care"
+    ]
+  },
+  "address": {
+    "visible": true,
+    "full": "Fortis Hospital, Noida, Uttar Pradesh 201313, India",
+    "nearby": [
+      { "place": "Indira Gandhi International Airport, New Delhi", "distanceKm": 30, "duration": "1 hour by car" },
+      { "place": "Metro Station Sector 18", "distanceKm": 4, "duration": "9 mins by car" },
+      { "place": "New Delhi Railway Station", "distanceKm": 16, "duration": "35 mins by car" }
+    ]
+  },
+  "reviews": [
+    {
+      "patient": "Mrs. Mariatu Munu",
+      "country": "Sierra Leone",
+      "rating": 5,
+      "feedback": "When Dr. Bajaj said my wife was cancer-free, I cried with joy. Fortis Noida and Vaidam gave us not just treatment, but hope and a new life.",
+      "visible": true
+    },
+    {
+      "patient": "Ms. Fortune Harusekwi",
+      "country": "Zimbabwe",
+      "rating": 5,
+      "feedback": "My sister had mitral valve replacement surgery at Fortis Hospital, and it went very well. I am so happy with the service. They really took care of us.",
+      "visible": true
+    },
+    {
+      "patient": "Martin Yefouo",
+      "country": "Cameroon",
+      "rating": 5,
+      "feedback": "I am extremely grateful to Fortis Hospital for the successful spine surgery I underwent in India. Thank you for your exceptional care and expertise.",
+      "visible": true
+    }
+  ],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/fortis-hospital-noida/fortis-hospital-noida-1.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis-hospital-noida/fortis-hospital-noida-2.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis-hospital-noida/fortis-hospital-noida-3.jpg", "visible": true }
+    ],
+    "videos": []
+  },
+  "contact": {
+    "phone": "+91-120-0000000",
+    "email": "info@fortishealthcare.com",
+    "website": "https://www.fortishealthcare.com"
+  }
+}
+
