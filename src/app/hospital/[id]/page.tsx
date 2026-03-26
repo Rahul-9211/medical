@@ -78,6 +78,8 @@ export default async function HospitalPage({
     'artemis': 'artemis',
     'ck-birla': 'birla',
     'fortis-memorial': 'fortis',
+    'sanar-international-hospital-gurgaon': 'sanar-international-hospital-gurgaon',
+    'fortis-hospital-manesar-gurgaon': 'fortis-hospital-manesar-gurgaon',
     'fortis-hospital-noida': 'fortis-hospital-noida',
     'jaypee-hospital-noida': 'jaypee-hospital-noida',
     'yatharth-super-specialty-hospital-greater-noida': 'yatharth-super-specialty-hospital-greater-noida',
@@ -136,6 +138,8 @@ export default async function HospitalPage({
       'yatharth-super-speciality-hospital-faridabad' : ['yatharth-super-speciality-hospital-faridabad-1.jpg','yatharth-super-speciality-hospital-faridabad-2.jpg','yatharth-super-speciality-hospital-faridabad-3.jpg'],
       'fortis-escorts-hospital-faridabad' : ['fortis-escorts-hospital-faridabad-1.jpg','fortis-escorts-hospital-faridabad-2.jpg','fortis-escorts-hospital-faridabad-3.jpg'],
       'marengo-asia-faridabad' : ['marengo-asia-faridabad-1.jpg','marengo-asia-faridabad-2.jpg','marengo-asia-faridabad-3.jpg'],
+      'sanar-international-hospital-gurgaon' : ['sanar-international-hospital-gurgaon-1.jpg','sanar-international-hospital-gurgaon-2.jpg','sanar-international-hospital-gurgaon-3.jpg'],
+      'fortis-hospital-manesar-gurgaon' : ['fortis-hospital-manesar-gurgaon-1.jpg','fortis-hospital-manesar-gurgaon-2.jpg','fortis-hospital-manesar-gurgaon-3.jpg'],
     };
 
     // Get the actual image files for this hospital

@@ -1,0 +1,97 @@
+{
+  "id": "sanar-international-hospital-gurgaon",
+  "name": "Sanar International Hospital",
+  "visible": true,
+  "rating": { "value": 4.6, "reviews": 20 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/sanar-international-hospital-gurgaon",
+  "location": {
+    "city": "Gurgaon",
+    "state": "Haryana",
+    "country": "India",
+    "address": "Golf Course Rd, Parsvnath Exotica, DLF Phase 5, Sector 53, Gurugram, Haryana 122022, India",
+    "visible": true
+  },
+  "established": 2018,
+  "accreditations": ["NABH", "JCI"],
+  "specialty": "Multi Specialty",
+  "beds": 150,
+  "about": {
+    "visible": true,
+    "overview": "Sanar International Hospital, founded in 2018 by Mr. Naresh Kapoor, is a 150-bedded multi-specialty hospital in Gurugram with 35 ICU beds including transplant ICU beds. It is known for high-end complex surgeries, international standards, and advanced surgical and radiodiagnostic infrastructure.",
+    "awards": [],
+    "milestones": [
+      "150 beds with 35 ICU beds including transplant ICU",
+      "Comprehensive advanced surgical care across 15+ specialties",
+      "24/7 emergency, laboratory, transfusion medicine, and ambulance support"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 9000,
+    "countries": 90,
+    "services": [
+      "Appointment and treatment planning support",
+      "Visa and travel assistance",
+      "Airport transfer guidance",
+      "Interpreter and care coordination support"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 2 },
+      { "name": "Gastroenterology", "doctorCount": 5 },
+      { "name": "Hepatology", "doctorCount": 4 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 2 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 2 },
+      { "name": "Spine Surgery", "doctorCount": 2 },
+      { "name": "Urology Treatment", "doctorCount": 1 },
+      { "name": "Cosmetic and Plastic Surgery", "doctorCount": 1 },
+      { "name": "General Surgery", "doctorCount": 1 },
+      { "name": "Nephrology", "doctorCount": 1 },
+      { "name": "Obesity or Bariatric Surgery", "doctorCount": 1 },
+      { "name": "Orthopedics", "doctorCount": 2 },
+      { "name": "Transplant Surgery", "doctorCount": 3 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Shailendra Lalwani", "specialty": "Surgical Gastroenterologist", "rating": 5.0, "experienceYears": 23, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Rajesh Kumar Verma", "specialty": "Spine Surgeon", "rating": 4.6, "experienceYears": 27, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Sandeep K Jha", "specialty": "Surgical Gastroenterologist", "rating": 4.8, "experienceYears": 18, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr Sunny Garg", "specialty": "Medical Oncologist", "rating": 4.7, "experienceYears": 11, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 120,
+    "staffCount": 300,
+    "specialitiesCount": 20,
+    "centersOfExcellence": ["Cardiac Sciences", "Gastroenterology", "Liver Transplantation", "Neurosciences", "Oncology"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Phone in Room", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["150 beds with 35 ICU beds", "7-bed dialysis unit and 14 dedicated BMT rooms", "4 modular OTs with endoscopy and bronchoscopy suite", "24/7 blood bank and emergency services"]
+  },
+  "address": {
+    "visible": true,
+    "full": "Golf Course Rd, Parsvnath Exotica, DLF Phase 5, Sector 53, Gurugram, Haryana 122022, India",
+    "nearby": [
+      { "place": "New Delhi International Airport", "distanceKm": 14, "duration": "31 minutes" },
+      { "place": "Old Railway Rd, Gurugram", "distanceKm": 15, "duration": "41 minutes" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/sanar-international-hospital-gurgaon/sanar-international-hospital-gurgaon-1.jpg", "visible": true },
+      { "url": "/Images/hospital/sanar-international-hospital-gurgaon/sanar-international-hospital-gurgaon-2.jpg", "visible": true },
+      { "url": "/Images/hospital/sanar-international-hospital-gurgaon/sanar-international-hospital-gurgaon-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

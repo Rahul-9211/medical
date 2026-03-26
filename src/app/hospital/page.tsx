@@ -47,6 +47,8 @@ const HospitalPage = async () => {
     'artemis',
     'ck-birla',
     'fortis-memorial',
+    'sanar-international-hospital-gurgaon',
+    'fortis-hospital-manesar-gurgaon',
     'manipal',
     'marengo-asia',
     'marengo-asia-faridabad',
