@@ -87,6 +87,10 @@ export default async function HospitalPage({
     'sarvodaya-hospital-faridabad': 'sarvodaya-hospital-faridabad',
     'yatharth-super-speciality-hospital-faridabad': 'yatharth-super-speciality-hospital-faridabad',
     'fortis-escorts-hospital-faridabad': 'fortis-escorts-hospital-faridabad',
+    'manipal-hospitals-dwarka-delhi': 'manipal-hospitals-dwarka-delhi',
+    'fortis-hospital-vasant-kunj-new-delhi': 'fortis-hospital-vasant-kunj-new-delhi',
+    'max-super-speciality-hospital-patparganj-new-delhi': 'max-super-speciality-hospital-patparganj-new-delhi',
+    'max-multi-speciality-hospital-panchsheel-park-new-delhi': 'max-multi-speciality-hospital-panchsheel-park-new-delhi',
     'manipal': 'manipal',
     'marengo-asia': 'marengo',
     'marengo-asia-faridabad': 'marengo-asia-faridabad',
@@ -140,6 +144,10 @@ export default async function HospitalPage({
       'marengo-asia-faridabad' : ['marengo-asia-faridabad-1.jpg','marengo-asia-faridabad-2.jpg','marengo-asia-faridabad-3.jpg'],
       'sanar-international-hospital-gurgaon' : ['sanar-international-hospital-gurgaon-1.jpg','sanar-international-hospital-gurgaon-2.jpg','sanar-international-hospital-gurgaon-3.jpg'],
       'fortis-hospital-manesar-gurgaon' : ['fortis-hospital-manesar-gurgaon-1.jpg','fortis-hospital-manesar-gurgaon-2.jpg','fortis-hospital-manesar-gurgaon-3.jpg'],
+      'manipal-hospitals-dwarka-delhi' : ['manipal-hospitals-dwarka-delhi-1.jpg','manipal-hospitals-dwarka-delhi-2.jpg','manipal-hospitals-dwarka-delhi-3.jpg'],
+      'fortis-hospital-vasant-kunj-new-delhi' : ['fortis-hospital-vasant-kunj-new-delhi-1.jpg','fortis-hospital-vasant-kunj-new-delhi-2.jpg','fortis-hospital-vasant-kunj-new-delhi-3.jpg'],
+      'max-super-speciality-hospital-patparganj-new-delhi' : ['max-super-speciality-hospital-patparganj-new-delhi-1.jpg','max-super-speciality-hospital-patparganj-new-delhi-2.jpg','max-super-speciality-hospital-patparganj-new-delhi-3.jpg'],
+      'max-multi-speciality-hospital-panchsheel-park-new-delhi' : ['max-multi-speciality-hospital-panchsheel-park-new-delhi-1.jpg','max-multi-speciality-hospital-panchsheel-park-new-delhi-2.jpg','max-multi-speciality-hospital-panchsheel-park-new-delhi-3.jpg'],
     };
 
     // Get the actual image files for this hospital
