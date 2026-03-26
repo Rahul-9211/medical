@@ -1,0 +1,94 @@
+{
+  "id": "sarvodaya-hospital-faridabad",
+  "name": "Sarvodaya Hospital, Faridabad",
+  "visible": true,
+  "rating": { "value": 4.6, "reviews": 19 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/sarvodaya-hospital-faridabad",
+  "location": {
+    "city": "Faridabad",
+    "state": "Haryana",
+    "country": "India",
+    "address": "YMCA Road, Sector-8, Near ESI Hospital, Block A, Faridabad, 121006, India",
+    "visible": true
+  },
+  "accreditations": ["NABH", "NABL"],
+  "specialty": "Super Specialty",
+  "beds": 450,
+  "about": {
+    "visible": true,
+    "overview": "Sarvodaya Hospital, Faridabad is the group's flagship unit dedicated to preventive and curative healthcare in Delhi-NCR. It is NABH and NABL accredited and known for modern healthcare solutions and personalized patient care.",
+    "awards": [
+      "AHPI Award for Nursing Excellence (2024)",
+      "Best Healthcare Brand 2022 by The Economic Times",
+      "Best Super Specialty Hospital of Faridabad (Global Healthcare Awards, 2014)"
+    ],
+    "milestones": [
+      "450-bed super-speciality hospital with 109 ICU beds",
+      "12 modern operation theatres over a 4.25-acre campus"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 10000,
+    "countries": 105,
+    "services": [
+      "Advance treatment packages and visa assistance",
+      "Airport pickup/drop and ambulance support",
+      "Language translators and international patient lounge",
+      "Hotel booking, appointment scheduling, and follow-up care"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 3 },
+      { "name": "Gastroenterology", "doctorCount": 1 },
+      { "name": "Gynecology", "doctorCount": 3 },
+      { "name": "IVF and Infertility", "doctorCount": 1 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 4 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 2 },
+      { "name": "Pediatric Cardiology", "doctorCount": 2 },
+      { "name": "Urology Treatment", "doctorCount": 2 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Sunil Modi", "specialty": "Cardiac Surgeon", "rating": 4.8, "experienceYears": 42, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Rahul Gupta", "specialty": "Urologist", "rating": 4.9, "experienceYears": 31, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Viresh Mahajan", "specialty": "Pediatric Cardiologist", "rating": 4.7, "experienceYears": 28, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Neetu Singhal", "specialty": "Radiation Oncologist", "rating": 4.8, "experienceYears": 23, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 250,
+    "staffCount": 1000,
+    "specialitiesCount": 24,
+    "centersOfExcellence": ["Cancer Care", "Neurosciences", "Cardiac Sciences", "Urology", "Nephrology"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["450-bed hospital with 109 ICU beds", "12 operation theatres", "PET-CT and advanced radiotherapy systems", "24/7 emergency, pharmacy, and diagnostics"]
+  },
+  "address": {
+    "visible": true,
+    "full": "YMCA Road, Sector-8, Near ESI Hospital, Block A, Faridabad, 121006, India",
+    "nearby": [
+      { "place": "Indira Gandhi International Airport (DEL)", "distanceKm": 34, "duration": "50-60 mins by car" },
+      { "place": "Sector 15 Metro Station", "distanceKm": 3, "duration": "10 mins by car" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/sarvodaya-hospital-faridabad/sarvodaya-hospital-faridabad-1.jpg", "visible": true },
+      { "url": "/Images/hospital/sarvodaya-hospital-faridabad/sarvodaya-hospital-faridabad-2.jpg", "visible": true },
+      { "url": "/Images/hospital/sarvodaya-hospital-faridabad/sarvodaya-hospital-faridabad-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

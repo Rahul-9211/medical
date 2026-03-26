@@ -1,0 +1,79 @@
+{
+  "id": "yatharth-super-speciality-hospital-faridabad",
+  "name": "Yatharth Super Speciality Hospital, Faridabad",
+  "visible": true,
+  "rating": { "value": 4.6, "reviews": 12 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/yatharth-super-speciality-hospital-faridabad",
+  "location": {
+    "city": "Faridabad",
+    "state": "Haryana",
+    "country": "India",
+    "address": "RPS City, Sector 88, Faridabad, 121002, India",
+    "visible": true
+  },
+  "established": 2024,
+  "accreditations": ["NABH"],
+  "specialty": "Super Specialty",
+  "beds": 200,
+  "about": {
+    "visible": true,
+    "overview": "Established in 2024, Yatharth Super Speciality Hospital, Faridabad is a modern healthcare destination with advanced technology, expert doctors, and patient-centric care. Its commitment to quality and patient safety is reflected in NABH accreditation.",
+    "awards": [],
+    "milestones": ["200-bed capacity", "Advanced operating rooms and diagnostics", "24/7 pharmacy, blood bank, and ambulance support"]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 5000,
+    "countries": 60,
+    "services": ["Appointment coordination", "Travel guidance", "Interpreter support", "Follow-up support"]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 1 },
+      { "name": "Orthopedics", "doctorCount": 2 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 1 },
+      { "name": "Pulmonology", "doctorCount": 2 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Gurmeet Singh Chabbra", "specialty": "Pulmonologist", "rating": 4.8, "experienceYears": 29, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Binay Kumar", "specialty": "Electrophysiologist", "rating": 4.7, "experienceYears": 18, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Sameer Gupta", "specialty": "Neurologist", "rating": 4.4, "experienceYears": 31, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Ankur Dhiman", "specialty": "Orthopaedics", "rating": 4.7, "experienceYears": 13, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 120,
+    "staffCount": 350,
+    "specialitiesCount": 10,
+    "centersOfExcellence": ["Cardiac Sciences", "Neuro Sciences", "Orthopedics & Joint Replacement", "Oncology", "Renal Sciences"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["200-bed facility on 1.25-acre campus", "NABL accredited laboratory", "Advanced radiology services", "Comprehensive rehabilitation programs"]
+  },
+  "address": {
+    "visible": true,
+    "full": "RPS City, Sector 88, Faridabad, 121002, India",
+    "nearby": [
+      { "place": "Indira Gandhi International Airport", "distanceKm": 38, "duration": "1 hour 15 mins" },
+      { "place": "Badkal Mor Metro Station", "distanceKm": 6.2, "duration": "17 mins" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/yatharth-super-speciality-hospital-faridabad/yatharth-super-speciality-hospital-faridabad-1.jpg", "visible": true },
+      { "url": "/Images/hospital/yatharth-super-speciality-hospital-faridabad/yatharth-super-speciality-hospital-faridabad-2.jpg", "visible": true },
+      { "url": "/Images/hospital/yatharth-super-speciality-hospital-faridabad/yatharth-super-speciality-hospital-faridabad-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

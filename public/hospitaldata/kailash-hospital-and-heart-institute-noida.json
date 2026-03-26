@@ -1,0 +1,86 @@
+{
+  "id": "kailash-hospital-and-heart-institute-noida",
+  "name": "Kailash Hospital and Heart Institute, Noida",
+  "visible": true,
+  "rating": { "value": 4.3, "reviews": 22 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/kailash-hospital-and-heart-institute-noida",
+  "location": {
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "address": "H-33, Sector-27, Noida, 201301, India",
+    "visible": true
+  },
+  "established": 1993,
+  "accreditations": ["NABH", "NABL"],
+  "specialty": "Multi Specialty",
+  "beds": 325,
+  "about": {
+    "visible": true,
+    "overview": "Accredited by NABH and NABL, Kailash Hospital and Heart Institute is among the largest private hospitals in the Noida region. It offers a wide range of specialties, advanced diagnostics, and comprehensive inpatient care.",
+    "awards": [],
+    "milestones": [
+      "Largest private hospital network presence in Noida region",
+      "Group presence across multiple cities in India"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 7000,
+    "countries": 60,
+    "services": ["International coordination support", "Appointment scheduling", "Travel guidance", "Follow-up support"]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 2 },
+      { "name": "Gastroenterology", "doctorCount": 1 },
+      { "name": "Orthopedics", "doctorCount": 1 },
+      { "name": "Spine Surgery", "doctorCount": 1 },
+      { "name": "ENT Surgery", "doctorCount": 1 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 2 },
+      { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 1 },
+      { "name": "Urology Treatment", "doctorCount": 1 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Satish Mathew", "specialty": "Interventional Cardiologist", "rating": 4.8, "experienceYears": 36, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Jitendra Gupta", "specialty": "Orthopaedic and Joint Replacement Surgeon", "rating": 4.9, "experienceYears": 17, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Sanjeev Kumar Gupta", "specialty": "Neurosurgeon", "rating": 4.8, "experienceYears": 25, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Sanjeev Chawla", "specialty": "ENT Surgeon", "rating": 4.7, "experienceYears": 14, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 160,
+    "staffCount": 1200,
+    "specialitiesCount": 20,
+    "centersOfExcellence": ["Cardiology", "Orthopedics", "Neurosciences", "ENT", "Urology"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Phone in Room", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["325-bed super-specialty hospital", "60-bedded critical care unit", "8 major operation theatres", "24/7 mobile CCU and ambulance services", "Lab, diagnostics, blood bank and emergency services"]
+  },
+  "address": {
+    "visible": true,
+    "full": "H-33, Sector-27, Noida, 201301, India",
+    "nearby": [
+      { "place": "Indira Gandhi International Airport, New Delhi", "distanceKm": 27, "duration": "59 minutes" },
+      { "place": "Metro", "distanceKm": 2, "duration": "7 minutes" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/kailash-hospital-and-heart-institute-noida/kailash-hospital-and-heart-institute-noida-1.jpg", "visible": true },
+      { "url": "/Images/hospital/kailash-hospital-and-heart-institute-noida/kailash-hospital-and-heart-institute-noida-2.jpg", "visible": true },
+      { "url": "/Images/hospital/kailash-hospital-and-heart-institute-noida/kailash-hospital-and-heart-institute-noida-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

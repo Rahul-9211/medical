@@ -1,0 +1,112 @@
+{
+  "id": "marengo-asia-faridabad",
+  "url": "/hospital/marengo-asia-faridabad",
+  "name": "Marengo Asia Hospitals Formerly QRG Health City, Faridabad",
+  "visible": true,
+  "rating": { "value": 4.4, "reviews": 21 },
+  "patientsRecommended": { "percent": 95 },
+  "location": {
+    "city": "Faridabad",
+    "state": "Haryana",
+    "country": "India",
+    "address": "Plot No. 1, Sector 16, Faridabad, 121002, India",
+    "visible": true
+  },
+  "established": 2007,
+  "accreditations": ["NABH", "NABL"],
+  "specialty": "Multi Specialty",
+  "beds": 450,
+  "about": {
+    "visible": true,
+    "overview": "Established by the QRG Group in 2007, Marengo Asia Hospitals Formerly QRG Health City, Faridabad is a 450-bedded NABH and NABL accredited multi-specialty hospital focused on quality and cost-friendly care.",
+    "awards": ["Best Emerging Critical Care Hospital in Delhi NCR"],
+    "milestones": [
+      "450-bedded multi-specialty hospital",
+      "Twelve centres of excellence across major specialties",
+      "Preventive health check-up programs including women, senior citizen, and executive packages"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 8000,
+    "countries": 85,
+    "services": [
+      "Visa & documentation assistance",
+      "Treatment plan & cost estimates",
+      "Airport pickup & transfers",
+      "Accommodation for patients & families",
+      "Dedicated international help desk"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 5 },
+      { "name": "ENT Surgery", "doctorCount": 2 },
+      { "name": "General Surgery", "doctorCount": 1 },
+      { "name": "Hematology", "doctorCount": 1 },
+      { "name": "Nephrology", "doctorCount": 4 },
+      { "name": "Obesity or Bariatric Surgery", "doctorCount": 2 },
+      { "name": "Opthalmology", "doctorCount": 1 },
+      { "name": "Pediatric Cardiology", "doctorCount": 3 },
+      { "name": "Pulmonology", "doctorCount": 1 },
+      { "name": "Transplant Surgery", "doctorCount": 2 },
+      { "name": "Cosmetic and Plastic Surgery", "doctorCount": 1 },
+      { "name": "Gastroenterology", "doctorCount": 2 },
+      { "name": "Gynecology", "doctorCount": 3 },
+      { "name": "Hepatology", "doctorCount": 1 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 3 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 3 },
+      { "name": "Orthopedics", "doctorCount": 4 },
+      { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 7 },
+      { "name": "Spine Surgery", "doctorCount": 2 },
+      { "name": "Urology Treatment", "doctorCount": 2 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Rajesh Sharma", "specialty": "Pediatric Cardiac Surgeon", "rating": 4.8, "experienceYears": 32, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Rajeev Sood", "specialty": "Urologist", "rating": 5.0, "experienceYears": 36, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Anand Gupta", "specialty": "ENT Surgeon", "rating": 5.0, "experienceYears": 18, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Nisha Kapoor", "specialty": "Gynaecologist and Obstetrician", "rating": 4.9, "experienceYears": 33, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 60,
+    "staffCount": 350,
+    "specialitiesCount": 12,
+    "centersOfExcellence": ["Cardiac Sciences", "Orthopedics", "Nephrology", "Neurosciences", "Gastroenterology"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Phone in Room", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["450-bed capacity across emergency, critical care, ICU and CCU units", "Two cardiac cath labs", "Modular OTs and EPS labs", "3T MRI and 128-slice CT scanner"]
+  },
+  "address": {
+    "visible": true,
+    "full": "Plot No. 1, Sector 16, Faridabad, 121002, India",
+    "nearby": [
+      { "place": "Indira Gandhi International Airport, New Delhi", "distanceKm": 30, "duration": "Approx. 1 hour by road" }
+    ]
+  },
+  "reviews": [
+    {
+      "patient": "Baby Fathima Jabbi",
+      "country": "Gambia",
+      "rating": 5,
+      "feedback": "After discovering that our baby had a heart defect, we reached out to Marengo Asia Hospital. The surgery was successful, and our baby is recovering well.",
+      "visible": true
+    }
+  ],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/marengo-asia-faridabad/marengo-asia-faridabad-1.jpg", "visible": true },
+      { "url": "/Images/hospital/marengo-asia-faridabad/marengo-asia-faridabad-2.jpg", "visible": true },
+      { "url": "/Images/hospital/marengo-asia-faridabad/marengo-asia-faridabad-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

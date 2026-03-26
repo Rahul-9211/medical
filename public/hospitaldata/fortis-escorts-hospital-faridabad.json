@@ -1,0 +1,93 @@
+{
+  "id": "fortis-escorts-hospital-faridabad",
+  "name": "Fortis Escorts Hospital, Faridabad",
+  "visible": true,
+  "rating": { "value": 4.4, "reviews": 31 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/fortis-escorts-hospital-faridabad",
+  "location": {
+    "city": "Faridabad",
+    "state": "Haryana",
+    "country": "India",
+    "address": "Neelam Bata Rd, Opp. Neelam Cinema, AC Nagar, New Industrial Town, Faridabad, 121001, India",
+    "visible": true
+  },
+  "established": 1982,
+  "accreditations": ["NABH"],
+  "specialty": "Multi Specialty",
+  "beds": 210,
+  "about": {
+    "visible": true,
+    "overview": "Fortis Escorts Hospital, Faridabad commenced in 1982 and is an NABH accredited multi-specialty hospital under the Fortis Healthcare network. It is known for strong clinical experience and 24/7 emergency services.",
+    "awards": [],
+    "milestones": ["30+ years of clinical excellence", "24/7 emergency and critical services"]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 7000,
+    "countries": 75,
+    "services": ["Appointment support", "Travel coordination", "Interpreter support", "Follow-up support"]
+  },
+  "departments": {
+    "visible": false,
+    "list": [
+      { "name": "Cardiology and Cardiac Surgery", "doctorCount": 3 },
+      { "name": "ENT Surgery", "doctorCount": 1 },
+      { "name": "General Surgery", "doctorCount": 1 },
+      { "name": "Hematology", "doctorCount": 1 },
+      { "name": "IVF and Infertility", "doctorCount": 2 },
+      { "name": "Neurology and Neurosurgery", "doctorCount": 3 },
+      { "name": "Oncology and Oncosurgery", "doctorCount": 2 },
+      { "name": "Pediatrics and Pediatric Surgery", "doctorCount": 3 },
+      { "name": "Transplant Surgery", "doctorCount": 1 },
+      { "name": "Dermatology", "doctorCount": 1 },
+      { "name": "Gastroenterology", "doctorCount": 1 },
+      { "name": "Gynecology", "doctorCount": 3 },
+      { "name": "Hepatology", "doctorCount": 1 },
+      { "name": "Nephrology", "doctorCount": 2 },
+      { "name": "Obesity or Bariatric Surgery", "doctorCount": 3 },
+      { "name": "Orthopedics", "doctorCount": 3 },
+      { "name": "Routine Health Check-Ups", "doctorCount": 2 },
+      { "name": "Urology Treatment", "doctorCount": 1 }
+    ]
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": [
+      { "id": "hitesh-garg", "name": "Dr. Brahm Datt Pathak", "specialty": "Advanced Laparoscopic, Minimal Access and Bariatric Surgeon", "rating": 4.8, "experienceYears": 34, "profileUrl": "/doctors/hitesh-garg" },
+      { "id": "rajiv-yadav", "name": "Dr. Anup Gulati", "specialty": "Urologist and Andrologist", "rating": 4.9, "experienceYears": 29, "profileUrl": "/doctors/rajiv-yadav" },
+      { "id": "kuldeep-arora", "name": "Dr. Hitesh Pant", "specialty": "General Paediatrician", "rating": 4.8, "experienceYears": 34, "profileUrl": "/doctors/kuldeep-arora" },
+      { "id": "ramkinkar-jha", "name": "Dr. Ashok Dhar", "specialty": "Orthopaedic and Joint Replacement Surgeon", "rating": 5.0, "experienceYears": 26, "profileUrl": "/doctors/ramkinkar-jha" }
+    ]
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 140,
+    "staffCount": 500,
+    "specialitiesCount": 18,
+    "centersOfExcellence": ["Cardiology", "Oncology", "Neurology", "Orthopedics", "Urology"]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": ["TV in room", "Private rooms", "Free Wifi", "Family accommodation", "Laundry", "Café", "Parking available"],
+    "infrastructure": ["210-bed facility", "Modern infrastructure with updated systems", "24/7 emergency services", "Comprehensive diagnostics and patient care"]
+  },
+  "address": {
+    "visible": true,
+    "full": "Neelam Bata Rd, Opp. Neelam Cinema, AC Nagar, New Industrial Town, Faridabad, 121001, India",
+    "nearby": [
+      { "place": "Airport", "distanceKm": 42, "duration": "1 hour" },
+      { "place": "Metro", "distanceKm": 3, "duration": "7 minutes" }
+    ]
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/fortis-escorts-hospital-faridabad/fortis-escorts-hospital-faridabad-1.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis-escorts-hospital-faridabad/fortis-escorts-hospital-faridabad-2.jpg", "visible": true },
+      { "url": "/Images/hospital/fortis-escorts-hospital-faridabad/fortis-escorts-hospital-faridabad-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+
