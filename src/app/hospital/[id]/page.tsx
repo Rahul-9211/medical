@@ -78,7 +78,7 @@ export default async function HospitalPage({
     'artemis': 'artemis',
     'ck-birla': 'birla',
     'fortis-memorial': 'fortis',
-    'sanar-international-hospital-gurgaon': 'sanar-international-hospital-gurgaon',
+    'shalby-international-hospital-gurgaon': 'shalby-international-hospital-gurgaon',
     'fortis-hospital-manesar-gurgaon': 'fortis-hospital-manesar-gurgaon',
     'fortis-hospital-noida': 'fortis-hospital-noida',
     'jaypee-hospital-noida': 'jaypee-hospital-noida',
@@ -91,6 +91,8 @@ export default async function HospitalPage({
     'fortis-hospital-vasant-kunj-new-delhi': 'fortis-hospital-vasant-kunj-new-delhi',
     'max-super-speciality-hospital-patparganj-new-delhi': 'max-super-speciality-hospital-patparganj-new-delhi',
     'max-multi-speciality-hospital-panchsheel-park-new-delhi': 'max-multi-speciality-hospital-panchsheel-park-new-delhi',
+    'max-smart-hospital-saket-new-delhi': 'max-smart-saket',
+    'max-super-speciality-hospital-dwarka-new-delhi': 'maxDelhi-dwarka',
     'manipal': 'manipal',
     'marengo-asia': 'marengo',
     'marengo-asia-faridabad': 'marengo-asia-faridabad',
@@ -142,12 +144,14 @@ export default async function HospitalPage({
       'yatharth-super-speciality-hospital-faridabad' : ['yatharth-super-speciality-hospital-faridabad-1.jpg','yatharth-super-speciality-hospital-faridabad-2.jpg','yatharth-super-speciality-hospital-faridabad-3.jpg'],
       'fortis-escorts-hospital-faridabad' : ['fortis-escorts-hospital-faridabad-1.jpg','fortis-escorts-hospital-faridabad-2.jpg','fortis-escorts-hospital-faridabad-3.jpg'],
       'marengo-asia-faridabad' : ['marengo-asia-faridabad-1.jpg','marengo-asia-faridabad-2.jpg','marengo-asia-faridabad-3.jpg'],
-      'sanar-international-hospital-gurgaon' : ['sanar-international-hospital-gurgaon-1.jpg','sanar-international-hospital-gurgaon-2.jpg','sanar-international-hospital-gurgaon-3.jpg'],
+      'shalby-international-hospital-gurgaon' : ['shalby-international-hospital-gurgaon-1.jpg','shalby-international-hospital-gurgaon-2.jpg','shalby-international-hospital-gurgaon-3.jpg'],
       'fortis-hospital-manesar-gurgaon' : ['fortis-hospital-manesar-gurgaon-1.jpg','fortis-hospital-manesar-gurgaon-2.jpg','fortis-hospital-manesar-gurgaon-3.jpg'],
       'manipal-hospitals-dwarka-delhi' : ['manipal-hospitals-dwarka-delhi-1.jpg','manipal-hospitals-dwarka-delhi-2.jpg','manipal-hospitals-dwarka-delhi-3.jpg'],
       'fortis-hospital-vasant-kunj-new-delhi' : ['fortis-hospital-vasant-kunj-new-delhi-1.jpg','fortis-hospital-vasant-kunj-new-delhi-2.jpg','fortis-hospital-vasant-kunj-new-delhi-3.jpg'],
       'max-super-speciality-hospital-patparganj-new-delhi' : ['max-super-speciality-hospital-patparganj-new-delhi-1.jpg','max-super-speciality-hospital-patparganj-new-delhi-2.jpg','max-super-speciality-hospital-patparganj-new-delhi-3.jpg'],
       'max-multi-speciality-hospital-panchsheel-park-new-delhi' : ['max-multi-speciality-hospital-panchsheel-park-new-delhi-1.jpg','max-multi-speciality-hospital-panchsheel-park-new-delhi-2.jpg','max-multi-speciality-hospital-panchsheel-park-new-delhi-3.jpg'],
+      'max-smart-saket' : ['max-smart-saket-1.jpg','max-smart-saket-2.jpg','max-smart-saket-3.jpg'],
+      'maxDelhi-dwarka' : ['maxDelhi-dwarka-1.jpg','maxDelhi-dwarka-2.jpg','maxDelhi-dwarka-3.jpg'],
     };
 
     // Get the actual image files for this hospital

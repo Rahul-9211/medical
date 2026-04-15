@@ -64,21 +64,6 @@
         ]
       },
       {
-        "name": "Cost",
-        "url": "/treatment-cost",
-        "submenu": [
-          { "name": "Heart Surgery – Cost in India", "url": "/treatment-cost/heart-surgery-cardiology" },
-          { "name": "Knee & Hip Replacement – Cost", "url": "/treatment-cost/orthopedic-surgery-joint-replacements" },
-          { "name": "Cancer Treatment – Cost", "url": "/treatment-cost/cancer-treatment-oncology" },
-          { "name": "Liver & Kidney Transplant – Cost", "url": "/treatment-cost/liver-kidney-transplant" },
-          { "name": "Bariatric Surgery – Cost", "url": "/treatment-cost/bariatric-weight-loss-surgery" },
-          { "name": "Dental Implants – Cost", "url": "/treatment-cost/dental-implants-oral-care" },
-          { "name": "Eye & LASIK Surgery – Cost", "url": "/treatment-cost/eye-treatment-lasik-surgery" },
-          { "name": "Plastic & Cosmetic Surgery – Cost", "url": "/treatment-cost/plastic-cosmetic-surgery" },
-          { "name": "View All", "url": "/treatment-cost" }
-        ]
-      },
-      {
         "name": "Ayurveda",
         "url": "/ayurveda",
         "submenu": [
