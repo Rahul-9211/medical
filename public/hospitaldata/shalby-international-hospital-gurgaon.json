@@ -1,10 +1,10 @@
 {
-  "id": "sanar-international-hospital-gurgaon",
-  "name": "Sanar International Hospital",
+  "id": "shalby-international-hospital-gurgaon",
+  "name": "Shalby International Hospital",
   "visible": true,
   "rating": { "value": 4.6, "reviews": 20 },
   "patientsRecommended": { "percent": 95 },
-  "url": "/hospital/sanar-international-hospital-gurgaon",
+  "url": "/hospital/shalby-international-hospital-gurgaon",
   "location": {
     "city": "Gurgaon",
     "state": "Haryana",
@@ -18,7 +18,7 @@
   "beds": 150,
   "about": {
     "visible": true,
-    "overview": "Sanar International Hospital, founded in 2018 by Mr. Naresh Kapoor, is a 150-bedded multi-specialty hospital in Gurugram with 35 ICU beds including transplant ICU beds. It is known for high-end complex surgeries, international standards, and advanced surgical and radiodiagnostic infrastructure.",
+    "overview": "Shalby International Hospital, founded in 2018 by Mr. Naresh Kapoor, is a 150-bedded multi-specialty hospital in Gurugram with 35 ICU beds including transplant ICU beds. It is known for high-end complex surgeries, international standards, and advanced surgical and radiodiagnostic infrastructure.",
     "awards": [],
     "milestones": [
       "150 beds with 35 ICU beds including transplant ICU",
@@ -87,9 +87,9 @@
   "reviews": [],
   "media": {
     "images": [
-      { "url": "/Images/hospital/sanar-international-hospital-gurgaon/sanar-international-hospital-gurgaon-1.jpg", "visible": true },
-      { "url": "/Images/hospital/sanar-international-hospital-gurgaon/sanar-international-hospital-gurgaon-2.jpg", "visible": true },
-      { "url": "/Images/hospital/sanar-international-hospital-gurgaon/sanar-international-hospital-gurgaon-3.jpg", "visible": true }
+      { "url": "/Images/hospital/Shalby-international-hospital-gurgaon/shalby-international-hospital-gurgaon-1.jpg", "visible": true },
+      { "url": "/Images/hospital/Shalby-international-hospital-gurgaon/shalby-international-hospital-gurgaon-2.jpg", "visible": true },
+      { "url": "/Images/hospital/Shalby-international-hospital-gurgaon/shalby-international-hospital-gurgaon-3.jpg", "visible": true }
     ],
     "videos": []
   }

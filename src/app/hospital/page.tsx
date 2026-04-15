@@ -47,7 +47,7 @@ const HospitalPage = async () => {
     'artemis',
     'ck-birla',
     'fortis-memorial',
-    'sanar-international-hospital-gurgaon',
+    'shalby-international-hospital-gurgaon',
     'fortis-hospital-manesar-gurgaon',
     'manipal-hospitals-dwarka-delhi',
     'fortis-hospital-vasant-kunj-new-delhi',
