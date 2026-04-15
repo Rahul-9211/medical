@@ -1,0 +1,99 @@
+{
+  "id": "max-super-speciality-hospital-dwarka-new-delhi",
+  "name": "Max Super Speciality Hospital, Dwarka",
+  "visible": true,
+  "rating": { "value": 4.5, "reviews": 20 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/max-super-speciality-hospital-dwarka-new-delhi",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "Plot No. 1, Sector 10 Dwarka, Dwarka, Delhi, 110075, India",
+    "visible": true
+  },
+  "established": 2024,
+  "accreditations": ["NABH"],
+  "specialty": "Super Specialty",
+  "beds": 303,
+  "about": {
+    "visible": true,
+    "overview": "Max Super Speciality Hospital, Dwarka spans 8.62 acres and is a 5-star rated GRIHA compliant hospital in Delhi NCR. With over 300 beds, it provides comprehensive multi-specialty care supported by advanced critical care, modular operation theatres, and cath labs.",
+    "awards": [],
+    "milestones": [
+      "303+ bed facility",
+      "120+ critical care beds",
+      "10 high-end modular operation theatres",
+      "Open 24/7"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 12000,
+    "countries": 105,
+    "services": [
+      "Pre-arrival consultation & case review",
+      "Visa & travel assistance",
+      "Airport transfers",
+      "Multilingual interpreters",
+      "Dedicated coordinators"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": []
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": []
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 230,
+    "staffCount": 659,
+    "specialitiesCount": 30,
+    "centersOfExcellence": [
+      "Cardiac Sciences",
+      "Neurosciences",
+      "Cancer Care",
+      "Renal Sciences",
+      "Robotic Surgery"
+    ]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": [
+      "TV in room",
+      "Private rooms",
+      "Free Wifi",
+      "Phone in Room",
+      "Mobility accessible rooms",
+      "Family accommodation",
+      "Laundry",
+      "Café",
+      "Parking available"
+    ],
+    "infrastructure": [
+      "303+ beds",
+      "120+ critical care beds",
+      "10 modular operation theatres",
+      "Cath labs and advanced diagnostics",
+      "24/7 emergency services"
+    ]
+  },
+  "address": {
+    "visible": true,
+    "full": "Plot No. 1, Sector 10 Dwarka, Dwarka, Delhi, 110075, India",
+    "nearby": []
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/maxDelhi-dwarka/maxDelhi-dwarka-1.jpg", "visible": true },
+      { "url": "/Images/hospital/maxDelhi-dwarka/maxDelhi-dwarka-2.jpg", "visible": true },
+      { "url": "/Images/hospital/maxDelhi-dwarka/maxDelhi-dwarka-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+

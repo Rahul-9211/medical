@@ -53,6 +53,8 @@ const HospitalPage = async () => {
     'fortis-hospital-vasant-kunj-new-delhi',
     'max-super-speciality-hospital-patparganj-new-delhi',
     'max-multi-speciality-hospital-panchsheel-park-new-delhi',
+    'max-smart-hospital-saket-new-delhi',
+    'max-super-speciality-hospital-dwarka-new-delhi',
     'manipal',
     'marengo-asia',
     'marengo-asia-faridabad',

@@ -1,0 +1,98 @@
+{
+  "id": "max-smart-hospital-saket-new-delhi",
+  "name": "Max Smart Super Speciality Hospital, Saket",
+  "visible": true,
+  "rating": { "value": 4.6, "reviews": 20 },
+  "patientsRecommended": { "percent": 95 },
+  "url": "/hospital/max-smart-hospital-saket-new-delhi",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "address": "Press Enclave Marg, Saket District Centre, Saket, New Delhi, Delhi 110017, India",
+    "visible": true
+  },
+  "established": 2018,
+  "accreditations": ["NABH"],
+  "specialty": "Super Specialty",
+  "beds": 650,
+  "about": {
+    "visible": true,
+    "overview": "Max Smart Super Speciality Hospital, Saket is a multi-super speciality facility in South Delhi offering advanced surgical care and comprehensive diagnostics with critical care support and high-end modular operation theatres.",
+    "awards": [],
+    "milestones": [
+      "650+ bed facility",
+      "170+ critical care beds",
+      "25 high-end modular operation theatres"
+    ]
+  },
+  "internationalPatientServices": {
+    "visible": true,
+    "annualPatients": 12000,
+    "countries": 105,
+    "services": [
+      "Pre-arrival consultation & case review",
+      "Visa & travel assistance",
+      "Airport transfers",
+      "Multilingual interpreters",
+      "Dedicated coordinators"
+    ]
+  },
+  "departments": {
+    "visible": false,
+    "list": []
+  },
+  "topDoctors": {
+    "visible": true,
+    "list": []
+  },
+  "teamAndSpecialities": {
+    "visible": true,
+    "doctorsCount": 300,
+    "staffCount": 900,
+    "specialitiesCount": 30,
+    "centersOfExcellence": [
+      "Cardiac Sciences",
+      "Neurosciences",
+      "Cancer Care",
+      "Renal Sciences",
+      "Gastroenterology"
+    ]
+  },
+  "facilities": {
+    "visible": true,
+    "comfort": [
+      "TV in room",
+      "Private rooms",
+      "Free Wifi",
+      "Phone in Room",
+      "Mobility accessible rooms",
+      "Family accommodation",
+      "Laundry",
+      "Café",
+      "Parking available"
+    ],
+    "infrastructure": [
+      "650+ beds",
+      "170+ critical care beds",
+      "25 modular operation theatres",
+      "24/7 emergency services",
+      "Advanced imaging and diagnostics"
+    ]
+  },
+  "address": {
+    "visible": true,
+    "full": "Press Enclave Marg, Saket District Centre, Saket, New Delhi, Delhi 110017, India",
+    "nearby": []
+  },
+  "reviews": [],
+  "media": {
+    "images": [
+      { "url": "/Images/hospital/max-smart-saket/max-smart-saket-1.jpg", "visible": true },
+      { "url": "/Images/hospital/max-smart-saket/max-smart-saket-2.jpg", "visible": true },
+      { "url": "/Images/hospital/max-smart-saket/max-smart-saket-3.jpg", "visible": true }
+    ],
+    "videos": []
+  }
+}
+
