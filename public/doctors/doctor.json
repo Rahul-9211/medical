@@ -1,6 +1,358 @@
 {
   "doctors": [
     {
+      "id": "naresh-trehan",
+      "name": "Dr. Naresh Trehan",
+      "designation": "Chairman & Managing Director",
+      "specialty": "cardiology",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 50,
+      "about": "Dr. Naresh Trehan is one of India’s most renowned cardiovascular and cardiothoracic surgeons with over five decades of experience. He has performed thousands of successful cardiac surgeries and is known for his expertise in complex heart procedures including bypass surgery and valve repair.",
+      "education": [
+        "MBBS, King George's Medical College, Lucknow",
+        "Diplomate, American Board of Surgery",
+        "Diplomate, American Board of Cardiothoracic Surgery"
+      ],
+      "expertise": [
+        "Coronary Artery Bypass Surgery",
+        "Heart Valve Surgery",
+        "Minimally Invasive Cardiac Surgery",
+        "Cardiothoracic Surgery",
+        "Heart Transplantation"
+      ],
+      "awards": [
+        "Padma Bhushan",
+        "Padma Shri",
+        "Lifetime Achievement Awards in Cardiology"
+      ],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/naresh-trehan.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
+      "id": "praveen-chandra",
+      "name": "Dr. Praveen Chandra",
+      "designation": "Chairman – Interventional Cardiology",
+      "specialty": "cardiology",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 30,
+      "about": "Dr. Praveen Chandra is a leading interventional cardiologist known for advanced angioplasty techniques and complex coronary interventions. He has pioneered several new techniques in India including TAVI and rotational atherectomy.",
+      "education": [
+        "MBBS",
+        "MD (Medicine)",
+        "DM (Cardiology)"
+      ],
+      "expertise": [
+        "Coronary Angioplasty",
+        "TAVI (Transcatheter Aortic Valve Implantation)",
+        "Complex Coronary Interventions",
+        "Rotablation",
+        "Peripheral Angioplasty"
+      ],
+      "awards": [
+        "Padma Shri",
+        "Excellence in Cardiology Awards"
+      ],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/praveen-chandra.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "Mon – Sat, By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
+      "id": "arun-garg",
+      "name": "Dr. Arun Garg",
+      "designation": "Director – Neurology",
+      "specialty": "neurology",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 25,
+      "about": "Dr. Arun Garg is an experienced neurologist specializing in stroke management, epilepsy, and neurocritical care. He has extensive experience in managing complex neurological disorders.",
+      "education": [
+        "MBBS",
+        "MD (Medicine)",
+        "DM (Neurology)"
+      ],
+      "expertise": [
+        "Stroke Management",
+        "Epilepsy Treatment",
+        "Neurocritical Care",
+        "Headache Disorders",
+        "Neuromuscular Diseases"
+      ],
+      "awards": [
+        "Best Neurologist Awards",
+        "Academic Excellence Recognition"
+      ],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/arun-garg.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
+      "id": "rajeev-agarwal",
+      "name": "Dr. Rajeev Agarwal",
+      "designation": "Director – Oncology",
+      "specialty": "oncology",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 20,
+      "about": "Dr. Rajeev Agarwal is a medical oncologist with expertise in treating solid tumors and hematological malignancies using advanced chemotherapy and targeted therapies.",
+      "education": [
+        "MBBS",
+        "MD",
+        "DM (Oncology)"
+      ],
+      "expertise": [
+        "Chemotherapy",
+        "Targeted Therapy",
+        "Immunotherapy",
+        "Cancer Management"
+      ],
+      "awards": [
+        "Oncology Excellence Awards"
+      ],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/rajeev-agarwal.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
+      "id": "amanjeet-singh",
+      "name": "Dr. Amanjeet Singh",
+      "designation": "Director – Gastroenterology",
+      "specialty": "gastroenterology",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 18,
+      "about": "Dr. Amanjeet Singh specializes in advanced endoscopy and management of gastrointestinal and liver diseases.",
+      "education": [
+        "MBBS",
+        "MD",
+        "DM (Gastroenterology)"
+      ],
+      "expertise": [
+        "Endoscopy",
+        "Colonoscopy",
+        "Liver Diseases",
+        "IBD Treatment"
+      ],
+      "awards": [],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/amanjeet-singh.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
+      "id": "rajiv-parakh",
+      "name": "Dr. Rajiv Parakh",
+      "designation": "Chairman – Vascular Surgery",
+      "specialty": "vascular-surgery",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 35,
+      "about": "Dr. Rajiv Parakh is a pioneer in vascular surgery in India with expertise in endovascular and open vascular procedures.",
+      "education": [
+        "MBBS",
+        "MS",
+        "FRCS"
+      ],
+      "expertise": [
+        "Endovascular Surgery",
+        "Varicose Vein Treatment",
+        "Aortic Aneurysm Repair",
+        "Peripheral Vascular Disease"
+      ],
+      "awards": [
+        "Lifetime Achievement Awards"
+      ],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/rajiv-parakh.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
+      "id": "ashok-rajgopal",
+      "name": "Dr. Ashok Rajgopal",
+      "designation": "Chairman – Orthopaedics",
+      "specialty": "orthopaedics",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 40,
+      "about": "Dr. Ashok Rajgopal is one of the most renowned orthopedic surgeons in India, known for knee replacement surgeries with a record number of procedures.",
+      "education": [
+        "MBBS",
+        "MS (Orthopaedics)"
+      ],
+      "expertise": [
+        "Knee Replacement",
+        "Joint Replacement",
+        "Arthroscopy",
+        "Sports Injuries"
+      ],
+      "awards": [
+        "Padma Shri",
+        "Guinness World Record for Knee Surgeries"
+      ],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/ashok-rajgopal.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
+      "id": "prasun-ghosh",
+      "name": "Dr. Prasun Ghosh",
+      "designation": "Director – Urology",
+      "specialty": "urology-nephrology",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 25,
+      "about": "Dr. Prasun Ghosh specializes in urology and kidney transplant procedures with extensive experience in minimally invasive techniques.",
+      "education": [
+        "MBBS",
+        "MS",
+        "MCh (Urology)"
+      ],
+      "expertise": [
+        "Kidney Transplant",
+        "Urological Surgery",
+        "Robotic Surgery",
+        "Prostate Treatment"
+      ],
+      "awards": [],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/prasun-ghosh.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
+      "id": "arvinder-singh-soin",
+      "name": "Dr. Arvinder Singh Soin",
+      "designation": "Chairman – Liver Transplant",
+      "specialty": "liver-transplantation",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 35,
+      "about": "Dr. Arvinder Singh Soin is a globally recognized liver transplant surgeon and has performed thousands of successful liver transplants.",
+      "education": [
+        "MBBS",
+        "MS",
+        "FRCS"
+      ],
+      "expertise": [
+        "Liver Transplant",
+        "Hepatobiliary Surgery",
+        "Living Donor Transplant",
+        "Liver Disease Management"
+      ],
+      "awards": [
+        "Padma Shri",
+        "International Liver Transplant Awards"
+      ],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/arvinder-singh-soin.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
+      "id": "nitin-sood",
+      "name": "Dr. Nitin Sood",
+      "designation": "Director – Bone Marrow Transplant",
+      "specialty": "bone-marrow-transplant",
+      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospitalslug": "medanta-the-medicity",
+      "experienceYears": 20,
+      "about": "Dr. Nitin Sood is an expert in bone marrow transplantation and hematology, with experience in treating complex blood disorders.",
+      "education": [
+        "MBBS",
+        "MD",
+        "DM (Hematology)"
+      ],
+      "expertise": [
+        "Bone Marrow Transplant",
+        "Leukemia Treatment",
+        "Lymphoma",
+        "Hematological Disorders"
+      ],
+      "awards": [],
+      "media": {
+        "images": [
+          { "url": "/Images/doctors/nitin-sood.jpg", "visible": true }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Medanta - The Medicity, Gurgaon"
+      }
+    },
+    {
       "id": "rohit-goel",
       "name": "Dr. Rohit Goel",
       "designation": "Principal Consultant – Cardiology",

@@ -124,81 +124,84 @@
   "visible": true,
   "list": [
     {
-      "id": "pn-gupta",
-      "name": "Dr. P.N. Gupta",
-      "specialty": "Director & HOD – Nephrology",
-      "rating": 4.9,
-      "experienceYears": 44,
-      "profileUrl": "/doctors/pn-gupta"
-    },
-    {
-      "id": "manmohan-singh",
-      "name": "Dr. (Prof.) Manmohan Singh",
-      "specialty": "neurosurgery",
-      "rating": 5.0,
-      "experienceYears": 46,
-      "profileUrl": "/doctors/manmohan-singh"
-    },
-    {
-     "id": "anurag-khaitan",
-      "name": "Dr. Anurag Khaitan",
-      "specialty": "urology",
-      "rating": 5.0,
-      "experienceYears": 22,
-      "profileUrl": "/doctors/anurag-khaitan"
-    },
-    {
-      "id": "r-ranga-rao",
-      "name": "Dr. (Col.) R Ranga Rao, VSM",
-      "specialty": "medical oncology",
-      "rating": 4.9,
-      "experienceYears": 30,
-      "profileUrl": "/doctors/r-ranga-rao"
-    }
-    ,
-    {
-      "id": "ankur-garg",
-      "name": "Dr. Ankur Garg",
-      "specialty": "hepato-pancreato-biliary surgery",
-      "rating": 4.9,
-      "experienceYears": 25,
-      "profileUrl": "/doctors/ankur-garg"
-    }
-    ,
-    {
-      "id": "amit-bhushan-sharma",
-      "name": "Dr. Amit Bhushan Sharma",
+      "id": "naresh-trehan",
+      "name": "Dr. Naresh Trehan",
       "specialty": "cardiology",
       "rating": 4.9,
-      "experienceYears": 22,
-      "profileUrl": "/doctors/amit-bhushan-sharma"
-    }
-    ,
-    {
-      "id": "alka-kriplani",
-      "name": "Dr. (Prof.) Alka Kriplani",
-      "specialty": "gynaecology",
-      "rating": 4.9,
-      "experienceYears": 40,
-       "profileUrl": "/doctors/alka-kriplani"
-
-    }
-    ,
-    {
-      "id": "vivek-logani",
-      "name": "Dr. Vivek Logani",
-      "specialty": "orthopaedics",
-      "experienceYears": 23,
-      "rating": 4.9,
-      "profileUrl": "/doctors/vivek-logani"
+      "experienceYears": 50,
+      "profileUrl": "/doctors/naresh-trehan"
     },
     {
-      "id": "arvind-mehra",
-      "name": "Dr. Arvind Mehra",
-      "specialty": "orthopaedics",
+      "id": "praveen-chandra",
+      "name": "Dr. Praveen Chandra",
+      "specialty": "cardiology",
+      "rating": 4.8,
+      "experienceYears": 30,
+      "profileUrl": "/doctors/praveen-chandra"
+    },
+    {
+      "id": "arun-garg",
+      "name": "Dr. Arun Garg",
+      "specialty": "neurology",
+      "rating": 4.8,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/arun-garg"
+    },
+    {
+      "id": "rajeev-agarwal",
+      "name": "Dr. Rajeev Agarwal",
+      "specialty": "oncology",
+      "rating": 4.7,
       "experienceYears": 20,
-       "rating": 4.9,
-      "profileUrl": "/doctors/arvind-mehra"
+      "profileUrl": "/doctors/rajeev-agarwal"
+    },
+    {
+      "id": "amanjeet-singh",
+      "name": "Dr. Amanjeet Singh",
+      "specialty": "gastroenterology",
+      "rating": 4.7,
+      "experienceYears": 18,
+      "profileUrl": "/doctors/amanjeet-singh"
+    },
+    {
+      "id": "rajiv-parakh",
+      "name": "Dr. Rajiv Parakh",
+      "specialty": "vascular-surgery",
+      "rating": 4.8,
+      "experienceYears": 35,
+      "profileUrl": "/doctors/rajiv-parakh"
+    },
+    {
+      "id": "ashok-rajgopal",
+      "name": "Dr. Ashok Rajgopal",
+      "specialty": "orthopaedics",
+      "rating": 4.9,
+      "experienceYears": 40,
+      "profileUrl": "/doctors/ashok-rajgopal"
+    },
+    {
+      "id": "prasun-ghosh",
+      "name": "Dr. Prasun Ghosh",
+      "specialty": "urology-nephrology",
+      "rating": 4.8,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/prasun-ghosh"
+    },
+    {
+      "id": "arvinder-singh-soin",
+      "name": "Dr. Arvinder Singh Soin",
+      "specialty": "liver-transplantation",
+      "rating": 4.9,
+      "experienceYears": 35,
+      "profileUrl": "/doctors/arvinder-singh-soin"
+    },
+    {
+      "id": "nitin-sood",
+      "name": "Dr. Nitin Sood",
+      "specialty": "bone-marrow-transplant",
+      "rating": 4.8,
+      "experienceYears": 20,
+      "profileUrl": "/doctors/nitin-sood"
     }
   ]
 },
