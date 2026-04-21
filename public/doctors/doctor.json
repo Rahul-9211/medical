@@ -3,353 +3,688 @@
     {
       "id": "naresh-trehan",
       "name": "Dr. Naresh Trehan",
-      "designation": "Chairman & Managing Director",
+      "designation": "Chairman & Managing Director, Medanta",
       "specialty": "cardiology",
-      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospital": "Medanta Gurugram",
       "hospitalslug": "medanta-the-medicity",
       "experienceYears": 50,
-      "about": "Dr. Naresh Trehan is one of India’s most renowned cardiovascular and cardiothoracic surgeons with over five decades of experience. He has performed thousands of successful cardiac surgeries and is known for his expertise in complex heart procedures including bypass surgery and valve repair.",
+    
+      "about": "Chairman and Managing Director of Medanta - The Medicity. Five decades of experience in the field of cardiovascular surgery. Received Padma Shri and Padma Bhushan awards from Government of India for distinguished service in medicine. The Chairman and Managing Director of Medanta - The Medicity, Dr. Naresh Trehan is a world-renowned cardiovascular and cardiothoracic surgeon. He has been awarded the highly prestigious Padma Bhushan and the Padma Shri by the Government of India. Dr. Trehan has over 48,000 successful open heart surgeries to his credit and is the driving force behind the one-of-its-kind hospital.",
+    
       "education": [
-        "MBBS, King George's Medical College, Lucknow",
-        "Diplomate, American Board of Surgery",
-        "Diplomate, American Board of Cardiothoracic Surgery"
+        "Diplomate, American Board of Cardiothoracic Surgery",
+        "M.B.B.S."
       ],
+    
       "expertise": [
-        "Coronary Artery Bypass Surgery",
-        "Heart Valve Surgery",
-        "Minimally Invasive Cardiac Surgery",
+        "Cardiac Surgery",
+        "Cardiac Care",
         "Cardiothoracic Surgery",
-        "Heart Transplantation"
+        "Cardiovascular Surgery",
+        "Minimally Invasive Cardiac Surgery",
+        "Heart Transplant"
       ],
+    
       "awards": [
-        "Padma Bhushan",
-        "Padma Shri",
-        "Lifetime Achievement Awards in Cardiology"
+        { "title": "FRACS (Hon)", "year": 2002 },
+        { "title": "AMA Physician’s Recognition Award", "year": 2001 },
+        { "title": "Padma Bhushan", "year": 2001 },
+        { "title": "Rotary Ratna Award", "year": 1996 },
+        { "title": "India International Gold Award", "year": 1995 },
+        { "title": "Padma Shri", "year": 1991 },
+        { "title": "Dr. B. C. Roy National Award", "year": 2005 },
+        { "title": "Life Time Achievement Award", "year": 2002 },
+        { "title": "Rajiv Gandhi National Unity Award", "year": 1995 }
       ],
+
       "media": {
         "images": [
-          { "url": "/Images/doctors/naresh-trehan.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/naresh-trehan.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
         "availability": "By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "location": "Medanta Gurugram"
       }
     },
     {
       "id": "praveen-chandra",
       "name": "Dr. Praveen Chandra",
-      "designation": "Chairman – Interventional Cardiology",
+      "designation": "Chairman",
       "specialty": "cardiology",
-      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospital": "Medanta Gurugram",
       "hospitalslug": "medanta-the-medicity",
       "experienceYears": 30,
-      "about": "Dr. Praveen Chandra is a leading interventional cardiologist known for advanced angioplasty techniques and complex coronary interventions. He has pioneered several new techniques in India including TAVI and rotational atherectomy.",
+    
+      "about": "Performed first Percutaneous Aortic valve implantation without surgery in India. Author to over 100 articles and reviewer in leading medical journals. Awarded Padma Shri by the President of India in 2016. Dr. Praveen Chandra is a leading Indian Cardiologist and Chairman of Interventional Cardiology at Medanta Medicity, Gurgaon, India. He is recognized as one of the leaders in Angioplasty in the country and is proficient in a lot of new devices and technologies. He has been awarded for success and achievement in the field of medicine with “Padma Shri” in 2016 by the President of India. He has also served as Director of Cardiac Cath Lab & Acute MI Services at Max Healthcare and Consultant Cardiologist at Escorts Heart Institute and Research Center, New Delhi. He is a fellow of the Endovascular Intervention Society of India and the Asia-Pacific Society of Interventional Cardiology. Dr. Chandra has been a distinguished faculty member in various international meetings and was the Organizer and Director of the AMI course held in New Delhi for the years 2005 & 2006. He has published approximately 100 articles, reviews and abstracts in various national and international journals. He has been awarded the prestigious Recognition Award for Success and Achievement in the field of angioplasty in India, 1998. First time in India he did Percutaneous Aortic valve implantation without surgery. He also did the first ever percutaneous mitral valve repair. Both have important implications in our country with the highest number of Valvular cases in the world. He was also the first one who used Angio Jet Thrombectomy Device, started Percutaneous Myocardial Laser vascularization Program in Asia and the First to use FFR & Bioabsorbable stents in India.",
+    
       "education": [
-        "MBBS",
-        "MD (Medicine)",
-        "DM (Cardiology)"
+        "D.M. (Cardiology)",
+        "M.D. (General Medicine)",
+        "M.B.B.S."
       ],
+    
       "expertise": [
-        "Coronary Angioplasty",
-        "TAVI (Transcatheter Aortic Valve Implantation)",
-        "Complex Coronary Interventions",
-        "Rotablation",
-        "Peripheral Angioplasty"
+        "Percutaneous Mitral Valve Replacement (TMVR)",
+        "Percutaneous Aortic Valve Replacement (TAVI)",
+        "Percutaneous Mitra Clip Implantation",
+        "Percutaneous Tricuspid Valve Replacement (PTRI)",
+        "Abdominal Aortic Aneurysm (AAA)",
+        "Coronary Angiography, Angioplasty & Stenting",
+        "Balloon Mitral Valvuloplasty (BMV)",
+        "Carotid & Renal Angiography & Angioplasty & Stenting (PTA)",
+        "Acute MI Angioplasty"
       ],
+    
       "awards": [
-        "Padma Shri",
-        "Excellence in Cardiology Awards"
+        {
+          "title": "Awarded Padma Shri by the President of India",
+          "year": 2016
+        },
+        {
+          "title": "Success and Achievement in the field of angioplasty in India",
+          "year": 1998
+        }
       ],
+    
       "media": {
         "images": [
-          { "url": "/Images/doctors/praveen-chandra.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/praveen-chandra.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
-        "availability": "Mon – Sat, By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "availability": "By Appointment",
+        "location": "Medanta Gurugram"
       }
     },
     {
       "id": "arun-garg",
       "name": "Dr. Arun Garg",
-      "designation": "Director – Neurology",
+      "designation": "Chairman",
       "specialty": "neurology",
-      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospital": "Medanta Gurugram",
       "hospitalslug": "medanta-the-medicity",
       "experienceYears": 25,
-      "about": "Dr. Arun Garg is an experienced neurologist specializing in stroke management, epilepsy, and neurocritical care. He has extensive experience in managing complex neurological disorders.",
+    
+      "about": "A senior neurologist with primary focus on Stroke. Proficient in Neuro-rehabilitation, Occupational therapy and Stroke prevention. Passion for stroke has taken him to UMASS, MA, USA. Dr. Arun Garg is a Senior Neurologist with primary focus on Stroke. Earlier he developed neurology services at Max Hospital, Patparganj. He has worked at Swai Man Singh Jaipur University medical college and hospital and institute of Human behaviour and Allied Sciences, New Delhi. He pioneered the role of thrombolysis in Acute Stroke in this part of the country. His interest is also in Neuro-rehabilitation, Occupational therapy and Stroke prevention. His passion for stroke has taken him to UMASS, MA, USA and he has tied up with them for stroke prevention/education/ treatment/Rehabilitation/ latest Research.",
+    
       "education": [
-        "MBBS",
-        "MD (Medicine)",
-        "DM (Neurology)"
+        "D.M. (Neurology)",
+        "M.D. (General Medicine)",
+        "M.B.B.S."
       ],
+    
       "expertise": [
-        "Stroke Management",
-        "Epilepsy Treatment",
-        "Neurocritical Care",
-        "Headache Disorders",
-        "Neuromuscular Diseases"
+        "Stroke",
+        "Occupational Therapy"
       ],
-      "awards": [
-        "Best Neurologist Awards",
-        "Academic Excellence Recognition"
-      ],
+    
+      "awards": [],
+    
+     
+    
       "media": {
         "images": [
-          { "url": "/Images/doctors/arun-garg.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/arun-garg.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
         "availability": "By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "location": "Medanta Gurugram"
       }
     },
     {
       "id": "rajeev-agarwal",
       "name": "Dr. Rajeev Agarwal",
-      "designation": "Director – Oncology",
+      "designation": "Senior Director",
       "specialty": "oncology",
-      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospital": "Medanta Gurugram",
       "hospitalslug": "medanta-the-medicity",
-      "experienceYears": 20,
-      "about": "Dr. Rajeev Agarwal is a medical oncologist with expertise in treating solid tumors and hematological malignancies using advanced chemotherapy and targeted therapies.",
+      "experienceYears": 45,
+    
+      "about": "With 45+ yrs of experience, 5000+ breast surgeries. Honorary doctorate (D.Sc) by Amity University - Maharashtra in 2023. Specializes in breast conservation surgery, sentinel node biopsy and breast reconstruction. Dr. Rajeev Agarwal is a senior surgical oncologist and breast specialist who introduced the practice of surgical oncology and the concept of organ based specialization in oncology to Northern India. Besides specializing in breast conservation surgery, he specializes in sentinel node biopsy and breast reconstruction as well. Dr. Agarwal is also an inductee to the European Society of Medical Oncology. Being a well-trained Surgical Oncologist, he is also in-charge of Soft Tissue Tumour services at Medanta Gurugram. Dr. Rajeev has a rich experience of working in various institutions like Tata Memorial Hospital Mumbai & Safdarjung Hospital Delhi.",
+    
       "education": [
-        "MBBS",
-        "MD",
-        "DM (Oncology)"
+        "Fellowship (Surgical Oncology)",
+        "Senior Resident (Cancer Surgery)",
+        "M.S. (Surgery)",
+        "M.B.B.S."
       ],
+    
       "expertise": [
-        "Chemotherapy",
-        "Targeted Therapy",
-        "Immunotherapy",
-        "Cancer Management"
+        "Screening & Prevention of Breast Cancer",
+        "Soft tissue Tumor Surgery",
+        "Surgical Oncology",
+        "Sentinel Node Biopsy",
+        "Breast Reconstruction"
       ],
+    
       "awards": [
-        "Oncology Excellence Awards"
+        {
+          "title": "An invited faculty in The International Conference on Palliative Care organized By Vatican, Rome & presented a paper on Palliative Care in Hindu Context",
+          "year": 2004
+        }
       ],
+    
+    
       "media": {
         "images": [
-          { "url": "/Images/doctors/rajeev-agarwal.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/rajeev-agarwal.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
         "availability": "By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "location": "Medanta Gurugram"
       }
     },
     {
       "id": "amanjeet-singh",
       "name": "Dr. Amanjeet Singh",
-      "designation": "Director – Gastroenterology",
+      "designation": "Senior Director",
       "specialty": "gastroenterology",
-      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospital": "Medanta Gurugram",
       "hospitalslug": "medanta-the-medicity",
       "experienceYears": 18,
-      "about": "Dr. Amanjeet Singh specializes in advanced endoscopy and management of gastrointestinal and liver diseases.",
+    
+      "about": "Pioneer of hand assisted laparoscopic surgery. Fellowship in laparoscopic colo-rectal surgery at SMC Korea. Received Ravi K Jerath award for the best DNB Student. Dr. Amanjeet Singh is Senior Director & Head in Medanta's Division of GI Surgery, GI Oncology & Bariatric Surgery. After completing super specialisation in Surgical Gastroenterology from Sir Ganga Ram Hospital (received the prestigious Ravi K Jerath award for the best DNB Student of the year), Dr. Amanjeet Singh underwent advanced training at All India Institute of Medical Sciences and laparoscopic colorectal surgery fellowship at SMC Korea. Apart from this he has been trained in advanced laparoscopy laparoscopic colorectal and robotic surgery at various centers across the globe. Apart from being a member of various surgical societies, Dr. Singh is also a reviewer for National journals. He has published research papers in all major surgical journals and has presented papers and attended various national and international conferences all over the world. His training experience also include Robotic Training from IRCAD, Strasbourg (2011), Lap Gastric Surgery from IRCAD, Taiwan (2012) and Robotic Colorectal From AETF, Japan (2013). He is an MNAMS, a Diplomate of NB, an MS (General Surgery) and an MBBS. His surgical expertise lies in all general and advanced laparoscopic procedures related to abdomen, Gastrointestinal and hepatobiliary surgeries, Robotic abdominal surgeries and Perianal surgeries. He is one of the pioneers of Hand Assisted Laparoscopic Surgery and has designed his own cost effective technique for the same named as “Medanta Handport Technique” which was presented at Annual Conference of American Society of Colorectal Surgeons meeting at Florida, USA last year.",
+    
       "education": [
-        "MBBS",
-        "MD",
-        "DM (Gastroenterology)"
+        "D.N.B (Surgical Gastroenterology)",
+        "M.S. (General Surgery)",
+        "M.B.B.S"
       ],
+    
       "expertise": [
-        "Endoscopy",
-        "Colonoscopy",
-        "Liver Diseases",
-        "IBD Treatment"
+        "GI Surgery",
+        "GI Oncology",
+        "Bariatric Surgery",
+        "Gastrosciences",
+        "Laparoscopic Colorectal Surgery",
+        "Robotic Surgery",
+        "Minimally Invasive GI Surgery",
+        "Hand Assisted Laparoscopic Surgery"
       ],
-      "awards": [],
+    
+      "awards": [
+        {
+          "title": "Best Colorectal Surgeon In India",
+          "year": 2017
+        },
+        {
+          "title": "Award by Primetime Global Excellence Healthcare Award",
+          "year": null
+        }
+      ],
+    
       "media": {
         "images": [
-          { "url": "/Images/doctors/amanjeet-singh.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/amanjeet-singh.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
         "availability": "By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "location": "Medanta Gurugram"
       }
     },
     {
       "id": "rajiv-parakh",
       "name": "Dr. Rajiv Parakh",
-      "designation": "Chairman – Vascular Surgery",
+      "designation": "Chairman",
       "specialty": "vascular-surgery",
-      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospital": "Medanta Gurugram",
       "hospitalslug": "medanta-the-medicity",
       "experienceYears": 35,
-      "about": "Dr. Rajiv Parakh is a pioneer in vascular surgery in India with expertise in endovascular and open vascular procedures.",
+    
+      "about": "Specialist in peripheral vascular and endovascular surgery. National convener for teaching programme by the National Board of Examiners. Vice President of the International Society for Vascular Surgery. Dr. Rajiv Parakh completed his Fellowship of the Royal College of Surgeons in the United Kingdom in 1986, & trained in Vascular Surgery in United Kingdom before returning to India to set up one of the first independent Department of Vascular Surgery in 1990. He is the founder member of the Vascular Society of India, and Endo-vascular Intervention Society of India and is a Life Member of the Society of Vascular Surgery. He was elected as Secretary of the International Society for Vascular Surgery, New York, USA in 2007. Started the first government-recognised teaching program in vascular surgery (N.B.E).",
+    
       "education": [
-        "MBBS",
-        "MS",
-        "FRCS"
+        "FRCS",
+        "MS (Surgery)",
+        "M.B.B.S"
       ],
+    
       "expertise": [
-        "Endovascular Surgery",
-        "Varicose Vein Treatment",
-        "Aortic Aneurysm Repair",
-        "Peripheral Vascular Disease"
+        "Peripheral Vascular and Endovascular Sciences",
+        "Dialysis Vascular Access - Permacath / AV Fistula / AV Graft / Fistula Salvage",
+        "EVAR - Endo Vascular Aneurysm Repair",
+        "Embolisation of Vascular Malformation, UAE, PAE",
+        "Vascular Trauma",
+        "Carotid Artery Surgery / Stenting",
+        "Peripheral Open & Endovascular Surgery",
+        "Peripheral Angioplasty",
+        "Varicose Veins - EVLT / RFA / Venaseal"
       ],
+    
       "awards": [
-        "Lifetime Achievement Awards"
+        {
+          "title": "Sushil Malik Oration, Indian Medical Association",
+          "year": 2009
+        },
+        {
+          "title": "Prof. Hari Vaishnava Oration by Delhi Medical Association",
+          "year": 2008
+        },
+        {
+          "title": "Organizing Chairman 13th Annual Conference of Vascular by Society of India attended by the President and Treasurer of the Vascular Society of Great Britain, and the Editor of the European Journal of Vascular Surgery",
+          "year": 2006
+        },
+        {
+          "title": "Organising Chairman of Annual Conference CIDAAP Since",
+          "year": 2018
+        }
       ],
+    
+      "locations": [
+        "Medanta Gurugram",
+        "Medanta Mediclinic Defence Colony"
+      ],
+    
       "media": {
         "images": [
-          { "url": "/Images/doctors/rajiv-parakh.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/rajiv-parakh.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
         "availability": "By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "location": "Medanta Gurugram"
       }
     },
     {
       "id": "ashok-rajgopal",
       "name": "Dr. Ashok Rajgopal",
-      "designation": "Chairman – Orthopaedics",
+      "designation": "Group Chairman",
       "specialty": "orthopaedics",
-      "hospital": "Medanta - The Medicity, Gurgaon",
+      "hospital": "Medanta Gurugram",
       "hospitalslug": "medanta-the-medicity",
       "experienceYears": 40,
-      "about": "Dr. Ashok Rajgopal is one of the most renowned orthopedic surgeons in India, known for knee replacement surgeries with a record number of procedures.",
+    
+      "about": "Dr. Ashok Rajgopal is an internationally renowned orthopaedic surgeon with more than 39,000 total knee replacement surgeries to his credit. He is known for performing the first bilateral procedure and minimally invasive total knee replacement surgery in India. He has also pioneered virtual total knee replacement using patient-specific instrumentation and was the first surgeon to use gender-specific knees in India. With over 60,000 arthroscopic surgeries for sports injuries, he is also a designer surgeon and part of the design team of the Persona knee system developed by Zimmer. He has designed and developed patented instruments for minimally invasive total knee replacement surgeries, which are now used by surgeons worldwide.",
+    
       "education": [
-        "MBBS",
-        "MS (Orthopaedics)"
+        "F.R.C.S.",
+        "F.I.M.S.A.",
+        "M.Ch. (Ortho)",
+        "M.S. (Ortho)",
+        "M.B.B.S"
       ],
+    
       "expertise": [
-        "Knee Replacement",
-        "Joint Replacement",
-        "Arthroscopy",
-        "Sports Injuries"
+        "Knee Replacement Surgery",
+        "Joint Replacement Surgery",
+        "Arthroscopic Ligament Surgeries",
+        "Robotic Knee Replacement",
+        "Hip Surgery",
+        "Arthroplasty Surgeries"
       ],
+    
+      "highlights": [
+        "39,000+ total knee replacement surgeries",
+        "First minimally invasive total knee replacement in India",
+        "First bilateral knee replacement surgery in India",
+        "Designed instruments for MIS knee replacement used globally"
+      ],
+    
       "awards": [
-        "Padma Shri",
-        "Guinness World Record for Knee Surgeries"
+        {
+          "title": "Knee Ratna Award, IMA, New Delhi",
+          "year": 2002
+        },
+        {
+          "title": "Padma Shri for contribution to Orthopaedics",
+          "year": 2014
+        },
+        {
+          "title": "Dr. B.C. Roy Award",
+          "year": 2014
+        },
+        {
+          "title": "Vishishta Chikitsa Ratan Award",
+          "year": 2012
+        },
+        {
+          "title": "Bharat Shiromani Award for excellence in Orthopaedics",
+          "year": "2008-2009"
+        },
+        {
+          "title": "Lifetime Achievement Award, Alumni Association of Sancheti Institutes, Pune",
+          "year": 2016
+        },
+        {
+          "title": "Lifetime Award, APAS (Asia Pacific Arthroplasty Society)",
+          "year": 2016
+        },
+        {
+          "title": "Distinguished Service Award - Delhi Doctor Association",
+          "year": 2004
+        }
       ],
+    
       "media": {
         "images": [
-          { "url": "/Images/doctors/ashok-rajgopal.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/ashok-rajgopal.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
         "availability": "By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "location": "Medanta Gurugram"
       }
     },
     {
       "id": "prasun-ghosh",
       "name": "Dr. Prasun Ghosh",
-      "designation": "Director – Urology",
-      "specialty": "urology-nephrology",
-      "hospital": "Medanta - The Medicity, Gurgaon",
+      "designation": "Chairman",
+      "specialty": "urology",
+      "subSpecialties": [
+        "Kidney Transplant",
+        "Renal Care"
+      ],
+      "hospital": "Medanta Gurugram",
       "hospitalslug": "medanta-the-medicity",
       "experienceYears": 25,
-      "about": "Dr. Prasun Ghosh specializes in urology and kidney transplant procedures with extensive experience in minimally invasive techniques.",
+    
+      "about": "Dr. Prasun Ghosh holds a special interest in renal transplantation along with vast experience in minimally invasive and robotic urology surgery. He pioneered the first robotic renal transplant recipient surgery in this part of the world. He trained at Roswell Park Cancer Institute, New York, for robotic surgery and has worked with leading robotic surgeons since 2006. He specializes in robotic and minimally invasive techniques for complex urologic cancers and non-cancerous conditions. He has also been instrumental in establishing dedicated kidney transplant programmes in multiple private hospitals and has played a key role in shaping the renal transplant and robotic renal transplant program at Medanta.",
+    
       "education": [
-        "MBBS",
-        "MS",
-        "MCh (Urology)"
+        "D.N.B (Genito Urinary Surgery - Urology)",
+        "M.S. (General Surgery)",
+        "M.B.B.S",
+        "MNAMS"
       ],
+    
       "expertise": [
-        "Kidney Transplant",
-        "Urological Surgery",
-        "Robotic Surgery",
-        "Prostate Treatment"
+        "Robotics & Minimally Invasive Surgery",
+        "Urology Cancer in Renal Transplant",
+        "Robotic Assisted Renal Transplant",
+        "Endourology (stones, prostate, bladder)"
       ],
-      "awards": [],
+    
+      "highlights": [
+        "Pioneer of robotic renal transplant recipient surgery",
+        "Trained at Roswell Park Cancer Institute, New York",
+        "Established kidney transplant programs in multiple hospitals",
+        "Key contributor to Medanta’s renal transplant program"
+      ],
+    
+      "awards": [
+        {
+          "title": "Best Paper (Surgical), ISOT Mumbai",
+          "year": 2013
+        },
+        {
+          "title": "Chandigarh Best Video, USICON",
+          "year": "2013-2014"
+        }
+      ],
+    
+      "publications": "18 publications in international and national peer-reviewed indexed journals",
+    
+      "roles": [
+        "Key Operating Surgeon of the Robotic Transplant Team"
+      ],
+    
       "media": {
         "images": [
-          { "url": "/Images/doctors/prasun-ghosh.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/prasun-ghosh.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
         "availability": "By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "location": "Medanta Gurugram"
       }
     },
     {
       "id": "arvinder-singh-soin",
       "name": "Dr. Arvinder Singh Soin",
-      "designation": "Chairman – Liver Transplant",
-      "specialty": "liver-transplantation",
-      "hospital": "Medanta - The Medicity, Gurgaon",
-      "hospitalslug": "medanta-the-medicity",
-      "experienceYears": 35,
-      "about": "Dr. Arvinder Singh Soin is a globally recognized liver transplant surgeon and has performed thousands of successful liver transplants.",
-      "education": [
-        "MBBS",
-        "MS",
-        "FRCS"
-      ],
-      "expertise": [
+      "designation": "Chairman",
+      "specialty": "liver-transplant",
+      "subSpecialties": [
         "Liver Transplant",
-        "Hepatobiliary Surgery",
-        "Living Donor Transplant",
-        "Liver Disease Management"
+        "Hepatobiliary Surgery"
       ],
+    
+      "hospital": "Medanta Gurugram",
+      "hospitals": [
+        "Medanta Gurugram",
+        "Medanta Lucknow",
+        "Medanta Mediclinic Defence Colony"
+      ],
+      "hospitalslug": "medanta-the-medicity",
+    
+      "experienceYears": 38,
+    
+      "about": "Dr. Arvinder Singh Soin leads India’s largest and one of the world’s most successful liver transplant programs at Medanta – The Medicity. With a success rate of around 95%, his team performs nearly 25–30 successful liver transplants every month. He has performed over 2500 liver transplants, the highest in the country, along with more than 12000 complex liver, gall bladder and bile duct surgeries. With over 38 years of experience, he is widely regarded as a pioneer in establishing liver transplantation in India and has played a major role in training liver transplant teams across the country.",
+    
+      "education": [
+        "FRCS (Gen Surgery)",
+        "FRCS (Glasgow)",
+        "FRCS (Edinburgh)",
+        "Primary FRCS",
+        "MS (Thesis)",
+        "MBBS"
+      ],
+    
+      "expertise": [
+        "Hepatocellular Carcinoma (Primary Liver Cancer)",
+        "Liver Transplant",
+        "Liver Surgeries",
+        "Choledochal Cyst",
+        "Portal Hypertension"
+      ],
+    
+      "highlights": [
+        "Performed 2500+ liver transplants with ~95% success rate",
+        "Leads India’s largest liver transplant program",
+        "Performs 25–30 transplants per month",
+        "Over 12000 complex hepatobiliary surgeries",
+        "Pioneer of liver transplantation in India"
+      ],
+    
+      "milestones": [
+        {
+          "title": "First successful cadaveric liver transplant in India",
+          "year": 1998
+        },
+        {
+          "title": "First successful living donor left lobe liver transplant in India",
+          "year": 1999
+        },
+        {
+          "title": "First successful combined liver and kidney transplant (cadaver) in India",
+          "year": 1999
+        },
+        {
+          "title": "First successful living donor right lobe liver transplant in India",
+          "year": 2000
+        }
+      ],
+    
       "awards": [
-        "Padma Shri",
-        "International Liver Transplant Awards"
+        {
+          "title": "Padma Shri",
+          "year": 2010
+        },
+        {
+          "title": "Medindia Oration and Medindia Award",
+          "year": 2008
+        },
+        {
+          "title": "DMA Distinguished Services Award",
+          "year": 2005
+        },
+        {
+          "title": "Swastha Bharat Samman",
+          "year": 2011
+        },
+        {
+          "title": "E-Medinews Award",
+          "year": 2011
+        }
       ],
+    
+      "academicAchievements": [
+        {
+          "title": "Ranked first in All India selection exam",
+          "year": 1990
+        },
+        {
+          "title": "Best Postgraduate Student in Surgery medal at AIIMS",
+          "year": 1989
+        },
+        {
+          "title": "Best Student in Surgery medal at AIIMS",
+          "year": 1985
+        },
+        {
+          "title": "Awarded research grant from Royal College of Surgeons, Edinburgh",
+          "year": 1996
+        },
+        {
+          "title": "British Transplantation Society Bursary",
+          "year": 1994
+        }
+      ],
+    
+      "records": [
+        "Achievements listed in Limca Book of Records (2007–2010)"
+      ],
+    
       "media": {
         "images": [
-          { "url": "/Images/doctors/arvinder-singh-soin.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/arvinder-singh-soin.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
         "availability": "By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "location": "Medanta Gurugram"
       }
     },
     {
       "id": "nitin-sood",
       "name": "Dr. Nitin Sood",
-      "designation": "Director – Bone Marrow Transplant",
-      "specialty": "bone-marrow-transplant",
-      "hospital": "Medanta - The Medicity, Gurgaon",
-      "hospitalslug": "medanta-the-medicity",
-      "experienceYears": 20,
-      "about": "Dr. Nitin Sood is an expert in bone marrow transplantation and hematology, with experience in treating complex blood disorders.",
-      "education": [
-        "MBBS",
-        "MD",
-        "DM (Hematology)"
-      ],
-      "expertise": [
+      "designation": "Vice Chairman",
+      "specialty": "medical-oncology",
+      "subSpecialties": [
+        "Hemato Oncology",
         "Bone Marrow Transplant",
-        "Leukemia Treatment",
-        "Lymphoma",
-        "Hematological Disorders"
+        "Blood Disorders"
       ],
-      "awards": [],
+    
+      "hospital": "Medanta Gurugram",
+      "hospitalslug": "medanta-the-medicity",
+    
+      "experienceYears": 22,
+    
+      "about": "Dr. Nitin Sood is an experienced hematologist specializing in blood and blood-related disorders including leukemia, myelodysplastic syndromes, lymphomas, multiple myeloma, amyloidosis, bone marrow and stem cell transplantation, bleeding and clotting disorders, thalassemia, sickle cell anemia, aplastic anemia, and complex anemia cases. He completed his MBBS from Mysore University in 1998 and pursued MD and DNB in General Medicine from Delhi. He further trained in Clinical Hematology in the UK and has worked with leading medical institutions. He is recognized for his contributions to hemato-oncology and transplant medicine.",
+    
+      "education": [
+        "CCT (Haemato Oncology)",
+        "FRC (Pathology)",
+        "MRCPath (Associate Haematology)",
+        "MRCP (UK)",
+        "DNB (General Medicine)",
+        "MD (General Medicine)",
+        "MBBS"
+      ],
+    
+      "expertise": [
+        "Hemato-Oncology",
+        "Stem Cell Transplantation",
+        "Haemophilia",
+        "Leukemia",
+        "Lymphoma",
+        "Multiple Myeloma",
+        "Bone Marrow Transplant"
+      ],
+    
+      "highlights": [
+        "Expert in bone marrow and stem cell transplantation",
+        "Specialist in complex blood disorders",
+        "Trained in Clinical Hematology in the UK",
+        "Extensive experience in leukemia and lymphoma treatment",
+        "Part of multiple international medical organizations"
+      ],
+    
+      "conditionsTreated": [
+        "Leukemia",
+        "Myelodysplastic Syndromes",
+        "Lymphomas",
+        "Multiple Myeloma",
+        "Amyloidosis",
+        "Thalassemia",
+        "Sickle Cell Anemia",
+        "Aplastic Anemia",
+        "Bleeding Disorders",
+        "Clotting Disorders"
+      ],
+    
       "media": {
         "images": [
-          { "url": "/Images/doctors/nitin-sood.jpg", "visible": true }
+          {
+            "url": "/Images/doctors/nitin-sood.jpg",
+            "visible": true
+          }
         ]
       },
+    
       "contact": {
         "email": "",
         "phone": "",
         "availability": "By Appointment",
-        "location": "Medanta - The Medicity, Gurgaon"
+        "location": "Medanta Gurugram"
       }
     },
     {
