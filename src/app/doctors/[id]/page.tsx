@@ -3,32 +3,62 @@ import Image from "next/image";
 import websiteData from "@/data/websiteData.json";
 import QuoteForm from "@/components/QuoteForm";
 
+type DoctorAward = string | { title: string; year?: number | string };
+
 interface Doctor {
   id: string;
   name: string;
-  designation: string;
-  specialty: string;
-  hospital: string;
-  hospitalslug: string;
+  designation?: string;
+  specialty?: string;
+  subSpecialties?: string[];
+  hospital?: string;
+  hospitals?: string[];
+  hospitalslug?: string;
   about?: string;
   experienceYears?: number;
   education?: string[];
   expertise?: string[];
-  awards?: string[];
-  publications?: string[];
+  highlights?: string[];
+  milestones?: DoctorAward[];
+  academicAchievements?: DoctorAward[];
+  records?: string[];
+  awards?: DoctorAward[];
+  locations?: string[];
+  publications?: string | string[];
   roles?: string[];
   memberships?: string[];
   experience?: string[];
   patientsTreated?: string;
   media?: { images: { url: string; visible: boolean }[] };
+  contact?: {
+    email?: string;
+    phone?: string;
+    availability?: string;
+    location?: string;
+  };
 }
 
-interface PageProps {
-  params: {
-    specialty: string;
-    hospital: string;
-    id: string;
-  };
+function awardDisplay(award: DoctorAward): string {
+  if (typeof award === "string") return award.trim();
+  const title = award?.title?.trim() ?? "";
+  if (!title) return "";
+  const yr = award.year;
+  const hasYear =
+    yr !== undefined && yr !== null && !(typeof yr === "string" && yr.trim() === "");
+  return hasYear ? `${title} (${yr})` : title;
+}
+
+function nonEmptyStrings(items: string[] | undefined): string[] {
+  return (items ?? []).map((s) => s.trim()).filter(Boolean);
+}
+
+function normalizePublications(pub: string | string[] | undefined): string[] {
+  if (pub == null) return [];
+  if (typeof pub === "string") {
+    const t = pub.trim();
+    return t ? [t] : [];
+  }
+  return nonEmptyStrings(pub);
 }
 
 const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: string; hospital: string; id: string }> }) => {
@@ -49,6 +79,33 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
       </main>
     );
   }
+
+  const educationList = nonEmptyStrings(doctor.education);
+  const expertiseList = nonEmptyStrings(doctor.expertise);
+  const subSpecialtiesList = nonEmptyStrings(doctor.subSpecialties);
+  const highlightsList = nonEmptyStrings(doctor.highlights);
+  const hospitalsList = nonEmptyStrings(doctor.hospitals);
+  const milestonesList = (doctor.milestones ?? []).map(awardDisplay).filter(Boolean);
+  const academicAchievementsList = (doctor.academicAchievements ?? []).map(awardDisplay).filter(Boolean);
+  const recordsList = nonEmptyStrings(doctor.records);
+  const awardsList = (doctor.awards ?? []).map(awardDisplay).filter(Boolean);
+  const locationsList = nonEmptyStrings(doctor.locations);
+  const publicationsList = normalizePublications(doctor.publications);
+  const rolesList = nonEmptyStrings(doctor.roles);
+  const membershipsList = nonEmptyStrings(doctor.memberships);
+  const experienceList = nonEmptyStrings(doctor.experience);
+  const contact = doctor.contact;
+  const contactRows =
+    contact != null
+      ? (
+          [
+            contact.email?.trim() && { label: "Email", value: contact.email.trim() },
+            contact.phone?.trim() && { label: "Phone", value: contact.phone.trim() },
+            contact.availability?.trim() && { label: "Availability", value: contact.availability.trim() },
+            contact.location?.trim() && { label: "Location", value: contact.location.trim() },
+          ].filter(Boolean) as { label: string; value: string }[]
+        )
+      : [];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50/30">
@@ -89,10 +146,37 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
               </div>
               <div>
                 <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal to-teal-light">{doctor.name}</h1>
-                <p className="text-lg font-medium text-teal-dark">{doctor.designation}</p>
-                <p className="text-teal capitalize font-medium">{doctor.specialty}</p>
-                <p className="text-sm text-gray-600">{doctor.hospital}</p>
-                {doctor.experienceYears && (
+                {doctor.designation?.trim() && (
+                  <p className="text-lg font-medium text-teal-dark">{doctor.designation.trim()}</p>
+                )}
+                {doctor.specialty?.trim() && (
+                  <p className="text-teal capitalize font-medium">{doctor.specialty.trim()}</p>
+                )}
+                {subSpecialtiesList.length > 0 && (
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    {subSpecialtiesList.map((sub, i) => (
+                      <span
+                        key={i}
+                        className="px-2.5 py-0.5 rounded-md bg-teal/15 text-teal-dark text-sm font-medium capitalize"
+                      >
+                        {sub}
+                      </span>
+                    ))}
+                  </div>
+                )}
+                {hospitalsList.length > 0 ? (
+                  <div className="text-sm text-gray-600 mt-2">
+                    <p className="font-medium text-gray-700">Hospitals</p>
+                    <ul className="mt-1 space-y-0.5 list-disc list-inside marker:text-teal">
+                      {hospitalsList.map((h, i) => (
+                        <li key={i}>{h}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : (
+                  doctor.hospital?.trim() && <p className="text-sm text-gray-600">{doctor.hospital.trim()}</p>
+                )}
+                {typeof doctor.experienceYears === "number" && doctor.experienceYears > 0 && (
                   <p className="text-sm text-gray-600 mt-2 flex items-center">
                     <span className="inline-block w-2 h-2 rounded-full bg-teal mr-2"></span>
                     {doctor.experienceYears}+ years of experience
@@ -102,19 +186,49 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
             </div>
 
             {/* About */}
-            {doctor.about && (
+            {doctor.about?.trim() && (
               <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
                 <h2 className="text-2xl font-semibold mb-3 text-teal">About</h2>
-                <p className="text-gray-700 leading-relaxed">{doctor.about}</p>
+                <p className="text-gray-700 leading-relaxed">{doctor.about.trim()}</p>
+              </section>
+            )}
+
+            {/* Highlights */}
+            {highlightsList.length > 0 && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Highlights</h2>
+                <ul className="space-y-2">
+                  {highlightsList.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2 shrink-0"></span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* Locations */}
+            {locationsList.length > 0 && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Practice locations</h2>
+                <ul className="space-y-2">
+                  {locationsList.map((loc, i) => (
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
+                      <span>{loc}</span>
+                    </li>
+                  ))}
+                </ul>
               </section>
             )}
 
             {/* Education */}
-            {doctor.education && doctor.education?.length > 0 && (
+            {educationList.length > 0 && (
               <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
                 <h2 className="text-2xl font-semibold mb-3 text-teal">Education</h2>
                 <ul className="space-y-2">
-                  {doctor.education.map((edu, i) => (
+                  {educationList.map((edu, i) => (
                     <li key={i} className="flex items-start gap-2 text-gray-700">
                       <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
                       <span>{edu}</span>
@@ -125,11 +239,11 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
             )}
 
             {/* Expertise */}
-            {doctor.expertise && doctor.expertise?.length > 0 && (
+            {expertiseList.length > 0 && (
               <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
                 <h2 className="text-2xl font-semibold mb-3 text-teal">Expertise</h2>
                 <div className="flex flex-wrap gap-2">
-                  {doctor.expertise.map((exp, i) => (
+                  {expertiseList.map((exp, i) => (
                     <span key={i} className="px-3 py-1 rounded-full bg-teal/10 text-teal text-sm">
                       {exp}
                     </span>
@@ -138,12 +252,42 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
               </section>
             )}
 
+            {/* Milestones */}
+            {milestonesList.length > 0 && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Milestones</h2>
+                <ul className="space-y-2">
+                  {milestonesList.map((line, i) => (
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2 shrink-0"></span>
+                      <span>{line}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* Academic achievements */}
+            {academicAchievementsList.length > 0 && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Academic achievements</h2>
+                <ul className="space-y-2">
+                  {academicAchievementsList.map((line, i) => (
+                    <li key={i} className="flex items-start gap-2 text-gray-700">
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2 shrink-0"></span>
+                      <span>{line}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
             {/* Awards */}
-            {doctor.awards && doctor.awards?.length > 0 && (
+            {awardsList.length > 0 && (
               <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
                 <h2 className="text-2xl font-semibold mb-3 text-teal">Awards</h2>
                 <ul className="space-y-2">
-                  {doctor.awards.map((award, i) => (
+                  {awardsList.map((award, i) => (
                     <li key={i} className="flex items-start gap-2 text-gray-700">
                       <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
                       <span>{award}</span>
@@ -153,27 +297,61 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
               </section>
             )}
 
-            {/* Publications */}
-            {doctor.publications && doctor.publications?.length > 0 && (
+            {/* Records */}
+            {recordsList.length > 0 && (
               <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
-                <h2 className="text-2xl font-semibold mb-3 text-teal">Publications</h2>
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Records</h2>
                 <ul className="space-y-2">
-                  {doctor.publications.map((pub, i) => (
+                  {recordsList.map((line, i) => (
                     <li key={i} className="flex items-start gap-2 text-gray-700">
-                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
-                      <span>{pub}</span>
+                      <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2 shrink-0"></span>
+                      <span>{line}</span>
                     </li>
                   ))}
                 </ul>
               </section>
             )}
 
+            {/* Contact — only rows with values (empty email/phone omitted) */}
+            {contactRows.length > 0 && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Contact</h2>
+                <dl className="space-y-3 text-gray-700">
+                  {contactRows.map((row) => (
+                    <div key={row.label}>
+                      <dt className="text-sm font-medium text-teal-dark">{row.label}</dt>
+                      <dd className="mt-0.5">{row.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </section>
+            )}
+
+            {/* Publications — string or list */}
+            {publicationsList.length > 0 && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Publications</h2>
+                {publicationsList.length === 1 ? (
+                  <p className="text-gray-700 leading-relaxed">{publicationsList[0]}</p>
+                ) : (
+                  <ul className="space-y-2">
+                    {publicationsList.map((pub, i) => (
+                      <li key={i} className="flex items-start gap-2 text-gray-700">
+                        <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2 shrink-0"></span>
+                        <span>{pub}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            )}
+
             {/* Roles */}
-            {doctor.roles && doctor.roles?.length > 0 && (
+            {rolesList.length > 0 && (
               <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
                 <h2 className="text-2xl font-semibold mb-3 text-teal">Roles</h2>
                 <ul className="space-y-2">
-                  {doctor.roles.map((role, i) => (
+                  {rolesList.map((role, i) => (
                     <li key={i} className="flex items-start gap-2 text-gray-700">
                       <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
                       <span>{role}</span>
@@ -184,11 +362,11 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
             )}
 
             {/* Memberships */}
-            {doctor.memberships && doctor.memberships?.length > 0 && (
+            {membershipsList.length > 0 && (
               <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
                 <h2 className="text-2xl font-semibold mb-3 text-teal">Memberships</h2>
                 <ul className="space-y-2">
-                  {doctor.memberships.map((member, i) => (
+                  {membershipsList.map((member, i) => (
                     <li key={i} className="flex items-start gap-2 text-gray-700">
                       <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
                       <span>{member}</span>
@@ -199,11 +377,11 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
             )}
 
             {/* Work Experience */}
-            {doctor.experience && doctor.experience?.length > 0 && (
+            {experienceList.length > 0 && (
               <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
                 <h2 className="text-2xl font-semibold mb-3 text-teal">Professional Experience</h2>
                 <ul className="space-y-2">
-                  {doctor.experience.map((exp, i) => (
+                  {experienceList.map((exp, i) => (
                     <li key={i} className="flex items-start gap-2 text-gray-700">
                       <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2"></span>
                       <span>{exp}</span>
@@ -214,10 +392,10 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
             )}
 
             {/* Patients Treated */}
-            {doctor.patientsTreated && (
+            {doctor.patientsTreated?.trim() && (
               <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
                 <h2 className="text-2xl font-semibold mb-3 text-teal">Patients Treated</h2>
-                <p className="text-gray-700">{doctor.patientsTreated}</p>
+                <p className="text-gray-700">{doctor.patientsTreated.trim()}</p>
               </section>
             )}
           </div>
