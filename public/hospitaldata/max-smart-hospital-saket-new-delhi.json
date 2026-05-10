@@ -44,7 +44,57 @@
   },
   "topDoctors": {
     "visible": true,
-    "list": []
+    "list": [
+      {
+        "id": "harshavardhan-hegde",
+        "name": "Dr. Harshavardhan Hegde",
+        "specialty": "neurology",
+        "rating": 4.9,
+        "experienceYears": 50,
+        "profileUrl": "/doctors/harshavardhan-hegde"
+      },
+      {
+        "id": "kapil-jain",
+        "name": "Dr. Kapil Jain",
+        "specialty": "neurosurgery",
+        "rating": 4.9,
+        "experienceYears": 20,
+        "profileUrl": "/doctors/kapil-jain"
+      }
+      ,
+      {
+        "id": "atul-nc-peters",
+        "name": "Dr. Atul N.C. Peters",
+        "specialty": "bariatric-surgery",
+        "rating": 4.9,
+        "experienceYears": 20,
+        "profileUrl": "/doctors/atul-nc-peters"
+      },
+      {
+        "id": "devavrat-arya",
+        "name": "Dr. Devavrat Arya",
+        "specialty": "medical-oncology",
+        "rating": 4.9,
+        "experienceYears": 20,
+        "profileUrl": "/doctors/devavrat-arya"
+      },
+      {
+        "id": "dinesh-khullar",
+        "name": "Dr. Dinesh Khullar",
+        "specialty": "nephrology",
+        "rating": 4.9,
+        "experienceYears": 20,
+        "profileUrl": "/doctors/dinesh-khullar"
+      },
+      {
+        "id": "sks-marya",
+        "name": "Dr. S.K.S. Marya",
+        "specialty": "orthopaedics-joint-replacement",
+        "rating": 4.9,
+        "experienceYears": 20,
+        "profileUrl": "/doctors/sks-marya"
+      }
+    ]
   },
   "teamAndSpecialities": {
     "visible": true,

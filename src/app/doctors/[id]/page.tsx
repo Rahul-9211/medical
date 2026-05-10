@@ -11,6 +11,8 @@ interface Doctor {
   designation?: string;
   specialty?: string;
   subSpecialties?: string[];
+  /** Hospital / network department list (UK spelling in data) */
+  specialities?: string[];
   hospital?: string;
   hospitals?: string[];
   hospitalslug?: string;
@@ -83,6 +85,7 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
   const educationList = nonEmptyStrings(doctor.education);
   const expertiseList = nonEmptyStrings(doctor.expertise);
   const subSpecialtiesList = nonEmptyStrings(doctor.subSpecialties);
+  const specialitiesList = nonEmptyStrings(doctor.specialities);
   const highlightsList = nonEmptyStrings(doctor.highlights);
   const hospitalsList = nonEmptyStrings(doctor.hospitals);
   const milestonesList = (doctor.milestones ?? []).map(awardDisplay).filter(Boolean);
@@ -246,6 +249,23 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
                   {expertiseList.map((exp, i) => (
                     <span key={i} className="px-3 py-1 rounded-full bg-teal/10 text-teal text-sm">
                       {exp}
+                    </span>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Specialities (e.g. hospital departments / areas) */}
+            {specialitiesList.length > 0 && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Specialities</h2>
+                <div className="flex flex-wrap gap-2">
+                  {specialitiesList.map((s, i) => (
+                    <span
+                      key={i}
+                      className="px-3 py-1 rounded-full bg-gray-100 text-gray-800 border border-gray-200/80 text-sm"
+                    >
+                      {s}
                     </span>
                   ))}
                 </div>

@@ -1,6 +1,364 @@
 {
   "doctors": [
     {
+      "id": "harshavardhan-hegde",
+      "name": "Dr. Harshavardhan Hegde",
+      "designation": "Director",
+      "specialty": "neurology",
+    
+      "specialities": [
+        
+        "Nephrology",
+        "Neurology",
+        "Orthopaedics & Joint Replacement"
+   
+      ],
+    
+      "hospital": "Max Smart Hospital, Saket",
+      "hospitalslug": "max-smart-hospital-saket",
+      "experienceYears": 32,
+    
+      "about": "With over 3 decades of experience post M.S.(Ortho), completed from Baroda Medical College in 1987, Dr. Harshavardhan Hegde has gathered extensive clinical experience overseas with fellowships at prestigious institutions like Nuffield Orthopaedic Centre in Oxford, UK and Klinikum Karlsbaad, Germany. He has also undertaken specialist training in the US, Australia, Brussels and Budapest. In India, he has served as Professor & Head of Orthopaedics at Pramukh Swami Medical College, Karamsad Gujarat, and headed Orthopaedic units at Alembic Hospital, Apollo Hospital Gandhinagar, Artemis Hospital Gurgaon, Nova Bone & Joint Hospital and Fortis Vasant Kunj. He was among the first surgeons in India to perform robotic spinal surgery in 2013 and has extensive international experience across the Middle East, Iraq, and Africa.",
+    
+      "education": [
+        "M.S. (Orthopaedics) - Baroda Medical College",
+        "Fellowship - Nuffield Orthopaedic Centre, Oxford, UK",
+        "Fellowship - Klinikum Karlsbaad, Germany"
+      ],
+    
+      "expertise": [
+        "Spinal Surgery",
+        "Robotic Spine Surgery",
+        "Disc Replacement Surgery",
+        "Minimally Invasive Spine Surgery",
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Trauma Surgery",
+        "Joint Arthroplasty Surgery",
+        "Computer Assisted Knee Replacement",
+        "Balloon Kyphoplasty and Vertebroplasty"
+      ],
+    
+      "awards": [],
+    
+      "memberships": [
+        "Indian Medical Council",
+        "Delhi Medical Council",
+        "Haryana Medical Council",
+        "GMC UK",
+        "Girdlestone Orthopaedic Society, UK"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/harshavardhan-hegde.jpg",
+            "visible": true
+          }
+        ]
+      },
+    
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Max Smart Hospital, Saket, New Delhi, India"
+      }
+    },
+    {
+      "id": "kapil-jain",
+      "name": "Dr. Kapil Jain",
+      "designation": "Associate Director – Neurosurgery",
+      "specialty": "neurosurgery",
+      "specialities": [
+  
+        "Neurosurgery",
+        "Neurology",
+      
+        "Paediatric (Pad) Neurosurgery"
+        
+      ],
+      "hospital": "Max Smart Hospital, Saket",
+      "hospitalslug": "max-smart-hospital-saket",
+      "experienceYears": 0,
+      "about": "Dr. Kapil Jain is Associate Director – Neurosurgery at Max Smart Hospital, Saket, New Delhi. He specializes in Neurosurgery, Neurology, and Paediatric Neurosurgery with expertise in minimally invasive spinal surgery, image guided surgery, brain and spinal tumour surgery, craniovertebral junction surgery, paediatric neurosurgery, and endoscopic brain surgery. He has published many articles and case reports in national and international journals.",
+      "education": [
+        "PDF (Paediatric Neurosurgery) - SGPGIMS, Lucknow",
+        "M.Ch (Neurosurgery) - SGPGIMS, Lucknow",
+        "MS (General Surgery) - UCMS, New Delhi",
+        "MBBS - UCMS, New Delhi"
+      ],
+      "expertise": [
+        "Minimally Invasive Spinal Surgery",
+        "Image Guided Surgery",
+        "Brain & Spinal Tumour Surgery",
+        "Craniovertebral Junction Surgery",
+        "Paediatric Neurosurgery",
+        "Endoscopic Brain Surgery"
+      ],
+      "awards": [],
+      "memberships": [
+        "Neurological Society of India (NSI)",
+        "Neurological Surgeons Society of India (NSSI)",
+        "Indian Society for Paediatric Neurosurgery (ISPN)",
+        "Delhi Neurological Association (DNA)",
+        "Indian Medical Association (IMA)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/kapil-jain.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Smart Hospital, Saket, New Delhi, India"
+      }
+    },
+    {
+      "id": "atul-nc-peters",
+      "name": "Dr. Atul N.C. Peters",
+      "designation": "Principal Director - Bariatric, Minimal Access & Robotic Surgery",
+      "specialty": "bariatric-surgery",
+      "specialities": [
+        "Bariatric Surgery / Metabolic",
+        
+        "Laparoscopic / Minimal Access Surgery"
+       
+      ],
+      "hospital": "Max Smart Hospital, Saket",
+      "hospitalslug": "max-smart-hospital-saket",
+      "experienceYears": 20,
+      "about": "Dr. Atul N.C. Peters is the Principal Director of Bariatric, Minimal Access & Robotic Surgery at Max Smart Super Speciality Hospital, Saket, New Delhi. Under his leadership, the department was awarded Centre of Excellence for Bariatric and Metabolic Surgery by OSSI effective January 1st, 2020. He operates in India, Dubai, and Muscat and is board certified by the National Board of Surgery. With over 20 years of surgical experience, his practice is dedicated to Bariatric & Metabolic Surgery for Diabetes, performing more than 300 cases annually. Dr. Peters has been accredited as a 'Surgeon of Excellence' by the Surgical Review Corporation, USA. He is also a Certified Fitness Trainer from ISSA and runs bariatric support groups integrated with music therapy. He is the first surgeon to start a bariatric program in North West Africa, namely Nigeria, and holds a LIMCA Book of World Records title for performing sixteen bariatric surgeries in a single day.",
+      "education": [
+        "International Fellow - American Society of Metabolic & Bariatric Surgery (ASMBS)",
+        "Fellowship in Advanced Laparoscopic Surgery (FALS) - Bariatric Surgery",
+        "Robotic Training - Da Vinci Robotic Training, Amrita Institute of Medical Sciences",
+        "Advanced Bariatric Training - Bariatric & Metabolic Institute (BMI), Cleveland Clinic Foundation, Cleveland, Ohio, USA",
+        "Basic Bariatric Training - Covidien Clinical Institute, Shanghai, China",
+        "DNB & MAS Fellowship - Sir Ganga Ram Hospital, New Delhi, India",
+        "MBBS - Christian Medical College and Hospital, Ludhiana, India"
+      ],
+      "expertise": [
+        "Minimal Access/Laparoscopic Surgery",
+        "General Surgery",
+        "Metabolic and Bariatric Surgery",
+        "Weight Loss Surgery",
+        "Laparoscopic & Robotic Bariatric Surgery",
+        "Metabolic Surgery for Diabetes",
+        "GI Surgery"
+      ],
+      "awards": [
+        "Centre of Excellence for Bariatric and Metabolic Surgery by OSSI",
+        "Surgeon of Excellence - Surgical Review Corporation, USA",
+        "LIMCA Book of World Records for highest number of Bariatric Surgeries in a day"
+      ],
+      "memberships": [
+        "International Federation for the Surgery of Obesity & Metabolic Disorders (IFSO)",
+        "International Excellence Federation for Bariatric & Metabolic Surgery (IEF)",
+        "Asia Pacific Hernia Society (APHS)",
+        "Association of Surgeons of India (ASI)",
+        "Asian Consensus Meeting on Metabolic Surgery (ACMOMS)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/atul-nc-peters.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Smart Hospital, Saket, New Delhi, India"
+      }
+    },
+    {
+      "id": "devavrat-arya",
+      "name": "Dr. Devavrat Arya",
+      "designation": "Vice Chairman - Medical Oncology",
+      "specialty": "medical-oncology",
+      "specialities": [
+        "Medical Oncology",
+        "Musculoskeletal Oncology",
+        "Thoracic Oncology",
+        "Cancer Care/Oncologist"
+      ],
+      "hospital": "Max Smart Hospital, Saket",
+      "hospitalslug": "max-smart-hospital-saket",
+      "experienceYears": 0,
+      "about": "Dr. Devavrat Arya is Vice Chairman - Medical Oncology at Max Smart Hospital and Max Super Speciality Hospital, Saket, Delhi. He specializes in Cancer Care, Medical Oncology, Musculoskeletal Oncology, and Thoracic Oncology. He has extensive experience in treating breast cancer, lung cancer, head and neck cancer, and bone and soft tissue sarcoma. Previously, he served as Senior Consultant in Medical Oncology at International Oncology Centre, Fortis Hospital, Noida, and as Honorary Associate Consultant at Action Cancer Hospital, Delhi.",
+      "education": [
+        "MBBS - Maulana Azad Medical College, Delhi University",
+        "M.D. (Internal Medicine) - Govt. Medical College, Surat, South Gujarat University",
+        "D.M. (Medical Oncology) - Gujarat Cancer & Research Institute, B J Medical College, Ahmedabad, Gujarat University"
+      ],
+      "expertise": [
+        "Breast Cancer",
+        "Lung Cancer",
+        "Head and Neck Cancer",
+        "Bone and Soft Tissue Sarcoma",
+        "Medical Oncology",
+        "Thoracic Oncology",
+        "Musculoskeletal Oncology"
+      ],
+      "awards": [
+        "European Certificate in Medical Oncology",
+        "Principal Investigator in Multiple Clinical Trials",
+        "Many National and International Publications & Presentations"
+      ],
+      "memberships": [
+        "Indian Co-Operative Oncology Network (ICON)",
+        "Indian Society of Medical and Paediatric Oncology (ISMPO)",
+        "European Society of Medical Oncology (ESMO)",
+        "American Society of Clinical Oncology (ASCO)",
+        "Association of Physicians of India (API NOIDA CHAPTER)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/devavrat-arya.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Smart Hospital, Saket, New Delhi, India"
+      }
+    },
+    {
+      "id": "dinesh-khullar",
+      "name": "Dr. Dinesh Khullar",
+      "designation": "Chairman - Nephrology & Renal Transplant Medicine, Max Saket Complex",
+      "specialty": "nephrology",
+      "specialities": [
+        "Kidney Transplant",
+        "Nephrology"
+      ],
+      "hospital": "Max Smart Hospital, Saket",
+      "hospitalslug": "max-smart-hospital-saket",
+      "experienceYears": 25,
+      "about": "Dr. Dinesh Khullar is the Chairman of the Department of Nephrology and Renal Transplant Medicine at Max Super Speciality Hospital, Saket, New Delhi. He is responsible for development, quality control, clinical governance, physician hiring, credentialing, academic activities, DNB and fellowship programs, and research initiatives. With over 25 years of experience as a renal transplant physician, he has been associated with more than 5000 successful kidney transplants, including over 1200 at Max Hospital, Saket. His expertise includes high-risk kidney transplants such as ABO-incompatible transplants, highly sensitized recipients, and transplants involving significant comorbidities. He also established the first online hemodiafiltration unit in North India for advanced dialysis care and has led several landmark clinical trials including DAPA-CKD and Transform.",
+      "education": [
+        "D.M. (Nephrology) - PGIMER, Chandigarh",
+        "M.D. (Medicine) - DMC & Hospital, Ludhiana, Punjab University",
+        "MBBS - DMC & Hospital, Ludhiana, Punjab University"
+      ],
+      "expertise": [
+        "High Risk Kidney Transplant",
+        "ABO Incompatible Kidney Transplant",
+        "Highly Sensitized Kidney Transplant Recipient",
+        "Newer Dialysis Modalities",
+        "Peritoneal Dialysis",
+        "Induction Therapy in Kidney Transplant Patients",
+        "Infections Related to Kidney Diseases",
+        "Kidney in Systemic Disorders",
+        "Diabetic Nephropathy",
+        "Hypertension and Kidney Diseases"
+      ],
+      "awards": [
+        "Dr. Sushil Malik Memorial Award Oration",
+        "Lifetime Achievement Award by Human Care Charitable Trust - 2011",
+        "J.M. Patel Oration at Annual Conference of Indian Society of Organ Transplantation - 2015",
+        "D.K. Pal Chaudhary Memorial Oration - 2005"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/dinesh-khullar.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Smart Hospital, Saket, New Delhi, India"
+      }
+    },
+    {
+      "id": "sks-marya",
+      "name": "Dr. S.K.S. Marya",
+      "designation": "Chairman - Orthopaedics & Joint Replacement",
+      "specialty": "orthopaedics-joint-replacement",
+      "specialities": [
+        "Orthopaedics & Joint Replacement",
+        "Robotic Surgery"
+      ],
+      "hospital": "Max Hospital, Gurugram",
+      "hospitalslug": "max-hospital-gurugram",
+      "experienceYears": 30,
+      "about": "Dr. Sanjiv K.S. Marya is Chairman - Orthopaedics & Joint Replacement at Max Hospital, Gurugram and Max Smart Hospital, Saket, New Delhi. He has been in the field of Medicine and Orthopaedic Surgery for almost 30 years. His areas of specialization include Joint Replacement Surgery for upper and lower limb joints, primary and revision joint replacement surgeries, and trauma management based on AO principles. He pioneered bilateral joint replacement surgeries of knees and hips in India and introduced unicompartmental knee replacement and computer-assisted joint replacement surgery. Dr. Marya has performed more than 15,000 joint replacements involving knees, hips, shoulders, toes, and finger joints.",
+      "education": [
+        "DSc. (Honoris Causa) - Amity University, Noida, 2019",
+        "FRCS - England, 2012",
+        "MCh (Orth) - University of Liverpool, UK, 1991",
+        "DNB (Orth) - National Board of Examinations, 1985",
+        "MS (Orth) - PGI Chandigarh, 1984",
+        "MBBS - Rohtak, 1981"
+      ],
+      "expertise": [
+        "Joint Replacement Surgery",
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Shoulder Joint Replacement",
+        "Revision Joint Replacement",
+        "Computer Assisted Joint Replacement Surgery",
+        "Robotic Joint Replacement Surgery",
+        "Trauma Management",
+        "Unicompartmental Knee Replacement"
+      ],
+      "awards": [
+        "Performed more than 15,000 joint replacements",
+        "Bharat Jyoti Award - 2003",
+        "DMA Distinguished Services Award - 2005",
+        "BOS Book Award - 2007-2008",
+        "Best Publication Award by Delhi Orthopaedic Association - 2008",
+        "Award of Merit by Government of Punjab - 2010",
+        "Haryana Vigyan Ratna Award - 2012",
+        "B N Sinha Meritorious Award - Indian Orthopaedic Association, 2018"
+      ],
+      "memberships": [
+        "President Arthroplasty Society in Asia (2015-17)",
+        "Chairman Knee Arthroplasty SICOT",
+        "President India and SAARC - International Congress of Joint Reconstruction",
+        "Permanent Board Member Asia Pacific Arthroplasty Society",
+        "Permanent Faculty AO Switzerland (AORECON)",
+        "Member American Association of Hip & Knee Surgeons",
+        "President Indian Orthopaedic Association (2013)",
+        "President Indian Arthroplasty Association (2011-2012)",
+        "President Indian Society of Hip and Knee Surgeons (2011-2012)",
+        "President Delhi Orthopaedic Association",
+        "Vice President Indo-German Orthopaedic Foundation",
+        "Chairman AO Council India – Fellowships & Knowledge Management (2007-09)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/sks-marya.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Gurugram, India"
+      }
+    },
+    {
       "id": "naresh-trehan",
       "name": "Dr. Naresh Trehan",
       "designation": "Chairman & Managing Director, Medanta",
