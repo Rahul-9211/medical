@@ -27,6 +27,7 @@ interface Doctor {
   awards?: DoctorAward[];
   locations?: string[];
   publications?: string | string[];
+  researchPublications?: string[];
   roles?: string[];
   memberships?: string[];
   experience?: string[];
@@ -94,6 +95,7 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
   const awardsList = (doctor.awards ?? []).map(awardDisplay).filter(Boolean);
   const locationsList = nonEmptyStrings(doctor.locations);
   const publicationsList = normalizePublications(doctor.publications);
+  const researchPublicationsList = nonEmptyStrings(doctor.researchPublications);
   const rolesList = nonEmptyStrings(doctor.roles);
   const membershipsList = nonEmptyStrings(doctor.memberships);
   const experienceList = nonEmptyStrings(doctor.experience);
@@ -359,6 +361,25 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
                       <li key={i} className="flex items-start gap-2 text-gray-700">
                         <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2 shrink-0"></span>
                         <span>{pub}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            )}
+
+            {/* Research publications */}
+            {researchPublicationsList.length > 0 && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Research & publications</h2>
+                {researchPublicationsList.length === 1 ? (
+                  <p className="text-gray-700 leading-relaxed">{researchPublicationsList[0]}</p>
+                ) : (
+                  <ul className="space-y-2">
+                    {researchPublicationsList.map((line, i) => (
+                      <li key={i} className="flex items-start gap-2 text-gray-700">
+                        <span className="inline-block w-2 h-2 rounded-full bg-teal mt-2 shrink-0"></span>
+                        <span>{line}</span>
                       </li>
                     ))}
                   </ul>
