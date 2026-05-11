@@ -87,9 +87,9 @@
   "reviews": [],
   "media": {
     "images": [
-      { "url": "/Images/hospital/Shalby-international-hospital-gurgaon/shalby-international-hospital-gurgaon-1.jpg", "visible": true },
-      { "url": "/Images/hospital/Shalby-international-hospital-gurgaon/shalby-international-hospital-gurgaon-2.jpg", "visible": true },
-      { "url": "/Images/hospital/Shalby-international-hospital-gurgaon/shalby-international-hospital-gurgaon-3.jpg", "visible": true }
+      { "url": "/Images/hospital/shalby-international-hospital-gurgaon/shalby-international-hospital-gurgaon-1.jpg", "visible": true },
+      { "url": "/Images/hospital/shalby-international-hospital-gurgaon/shalby-international-hospital-gurgaon-2.jpg", "visible": true },
+      { "url": "/Images/hospital/shalby-international-hospital-gurgaon/shalby-international-hospital-gurgaon-3.jpg", "visible": true }
     ],
     "videos": []
   }

@@ -152,81 +152,83 @@
       "visible": true,
       "list": [
         {
-          "id": "pn-gupta",
-          "name": "Dr. P.N. Gupta",
-          "specialty": "Director & HOD – Nephrology",
+          "id": "anil-sharma",
+          "name": "Dr. Anil Sharma",
+          "designation": "Principal Director - Max Institute of Laparoscopic, Robotic and Bariatric Surgery",
+          "specialty": "laparoscopic-bariatric-surgery",
           "rating": 4.9,
-          "experienceYears": 44,
-          "profileUrl": "/doctors/pn-gupta"
-        },
-        {
-          "id": "manmohan-singh",
-          "name": "Dr. (Prof.) Manmohan Singh",
-          "specialty": "neurosurgery",
-          "rating": 5.0,
-          "experienceYears": 46,
-          "profileUrl": "/doctors/manmohan-singh"
-        },
-        {
-         "id": "anurag-khaitan",
-          "name": "Dr. Anurag Khaitan",
-          "specialty": "urology",
-          "rating": 5.0,
-          "experienceYears": 22,
-          "profileUrl": "/doctors/anurag-khaitan"
-        },
-        {
-          "id": "r-ranga-rao",
-          "name": "Dr. (Col.) R Ranga Rao, VSM",
-          "specialty": "medical oncology",
-          "rating": 4.9,
-          "experienceYears": 30,
-          "profileUrl": "/doctors/r-ranga-rao"
-        }
-        ,
-        {
-          "id": "ankur-garg",
-          "name": "Dr. Ankur Garg",
-          "specialty": "hepato-pancreato-biliary surgery",
-          "rating": 4.9,
-          "experienceYears": 25,
-          "profileUrl": "/doctors/ankur-garg"
-        }
-        ,
-        {
-          "id": "amit-bhushan-sharma",
-          "name": "Dr. Amit Bhushan Sharma",
-          "specialty": "cardiology",
-          "rating": 4.9,
-          "experienceYears": 22,
-          "profileUrl": "/doctors/amit-bhushan-sharma"
-        }
-        ,
-        {
-          "id": "alka-kriplani",
-          "name": "Dr. (Prof.) Alka Kriplani",
-          "specialty": "gynaecology",
-          "rating": 4.9,
-          "experienceYears": 40,
-           "profileUrl": "/doctors/alka-kriplani"
-
-        }
-        ,
-        {
-          "id": "vivek-logani",
-          "name": "Dr. Vivek Logani",
-          "specialty": "orthopaedics",
-          "experienceYears": 23,
-          "rating": 4.9,
-          "profileUrl": "/doctors/vivek-logani"
-        },
-        {
-          "id": "arvind-mehra",
-          "name": "Dr. Arvind Mehra",
-          "specialty": "orthopaedics",
           "experienceYears": 20,
-           "rating": 4.9,
-          "profileUrl": "/doctors/arvind-mehra"
+          "profileUrl": "/doctors/anil-sharma"
+        },
+          {
+            "id": "sanjiv-saigal",
+            "name": "Dr. Sanjiv Saigal",
+            "designation": "Vice Chairman & Head - Hepatology & Liver Transplant Medicine",
+            "specialty": "hepatology-liver-transplant",
+            "rating": 4.9,
+            "experienceYears": 20,
+            "profileUrl": "/doctors/sanjiv-saigal"
+          },
+        {
+          "id": "sujoy-bhattacharjee",
+          "name": "Dr Sujoy Bhattacharjee",
+          "designation": "Chairman & Chief - Max Institute of Robotic Joint Replacement",
+          "specialty": "orthopaedics-joint-replacement",
+          "rating": 4.9,
+          "experienceYears": 20,
+          "profileUrl": "/doctors/sujoy-bhattacharjee"
+        },
+        {
+            "id": "dinesh-khullar",
+            "name": "Dr. Dinesh Khullar",
+            "designation": "Group Chairman - Nephrology & Renal Transplant Medicine",
+            "specialty": "nephrology",
+            "rating": 4.9,
+            "experienceYears": 20,
+            "profileUrl": "/doctors/dinesh-khullar"
+          
+        },
+          {
+            "id": "bipin-walia",
+            "name": "Prof. (Col.) Dr. Bipin Walia",
+            "designation": "Chairman & Head – Neurosurgery & Neurospine",
+            "specialty": "neurosurgery",
+            "rating": 4.9,
+            "experienceYears": 20,
+            "profileUrl": "/doctors/bipin-walia"
+        },
+        {
+          "id": "rajneesh-malhotra",
+          "name": "Dr. Rajneesh Malhotra",
+          "designation": "Chairman & Head - CTVS",
+          "specialty": "cardiac-surgery-ctvs",
+          "rating": 4.9,
+          "experienceYears": 20,
+          "profileUrl": "/doctors/rajneesh-malhotra"
+        },{
+          "id": "subhash-gupta",
+          "name": "Prof (Dr.) Subhash Gupta",
+          "designation": "Group Chairman - Centre for Liver & Biliary Sciences",
+          "specialty": "liver-transplant-biliary-sciences",
+          "rating": 4.9,
+          "experienceYears": 20,
+          "profileUrl": "/doctors/subhash-gupta"
+        },{
+          "id": "balbir-singh",
+          "name": "Dr. Balbir Singh",
+          "designation": "Group Chairman - Cardiac Sciences, Pan Max & Chief of Interventional Cardiology and Electrophysiology, Max Saket",
+          "specialty": "cardiac-sciences",
+          "rating": 4.9,
+          "experienceYears": 20,
+          "profileUrl": "/doctors/balbir-singh"
+        },{
+          "id": "sandeep-batra",
+          "name": "Dr. Sandeep Batra",
+          "designation": "Vice Chairman",
+          "specialty": "medical-oncology",
+          "rating": 4.9,
+          "experienceYears": 20,
+          "profileUrl": "/doctors/sandeep-batra"
         }
       ]
     },

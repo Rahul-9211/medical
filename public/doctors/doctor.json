@@ -1,14 +1,611 @@
 {
   "doctors": [
     {
+      "id": "anil-sharma",
+      "name": "Dr. Anil Sharma",
+      "designation": "Principal Director - Max Institute of Laparoscopic, Robotic and Bariatric Surgery",
+      "specialty": "laparoscopic-bariatric-surgery",
+      "specialities": [
+        "General Surgery",
+        "Laparoscopic / Minimal Access Surgery",
+        "Bariatric Surgery / Metabolic",
+        "Institute of Laparoscopic, Endoscopic & Bariatric Surgery"
+      ],
+      "hospital": "Max Hospital, Saket East",
+      "hospitalslug": "max-hospital-saket-east",
+      "experienceYears": 38,
+      "about": "Dr. Anil Sharma is Principal Director - Max Institute of Laparoscopic, Robotic and Bariatric Surgery at Max Healthcare with more than 38 years of surgical experience. He relocated from the UK to India in 1994 and played a key role in establishing the Department of Minimal Access Surgery at Sir Ganga Ram Hospital. Dr. Sharma specializes in laparoscopic surgery, bariatric and metabolic surgery, hernia surgery, scarless surgery, and advanced gastrointestinal procedures. He is internationally recognized for his contributions to minimal access surgery, bariatric surgery training, and surgical education.",
+      "education": [
+        "FRCS (Edinburgh) - Royal College of Surgeons of Edinburgh, UK",
+        "FICS - International College of Surgeons",
+        "FRCS (England) - Royal College of Surgeons of England",
+        "MS (General Surgery) - Bombay University, Seth G.S. Medical College & K.E.M. Hospital, Bombay",
+        "MBBS - Bombay University, Seth G.S. Medical College & K.E.M. Hospital, Bombay"
+      ],
+      "expertise": [
+        "Laparoscopic Surgery",
+        "Minimal Access Surgery",
+        "Bariatric Surgery",
+        "Metabolic Surgery",
+        "Hernia Surgery",
+        "Abdominal Wall Hernia Management",
+        "Gall Bladder Surgery",
+        "Hepatobiliary Surgery",
+        "Scarless Surgery",
+        "Single Incision Laparoscopic Surgery",
+        "Fundoplication Surgery",
+        "Cardiomyotomy",
+        "Obesity Surgery",
+        "Piles Treatment",
+        "Anal Fistula Treatment",
+        "Appendix Surgery",
+        "Thyroid & Parathyroid Surgery",
+        "Scarless Neck Surgery"
+      ],
+      "awards": [],
+      "memberships": [
+        "Life Member - International Federation of Societies for Obesity (IFSO)",
+        "Life Member - Obesity & Metabolic Surgery Society of India (OSSI)",
+        "Life Member - Society of Endoscopic & Laparoscopic Surgeons of Asia (ELSA)",
+        "Life Member - Society of American Gastrointestinal Endosurgeons (SAGES)",
+        "Life Member - Hernia Society of India",
+        "Life Member - Association of Surgeons of India (ASI)",
+        "Life Member - Indian Medical Association (IMA)",
+        "Member - FAIS Committee, Association of Surgeons of India (ASI)",
+        "Member - British Surgical Stapling Group (BSSG)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/anil-sharma.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Saket East, India"
+      },
+      "researchPublications": [
+        "Accredited Faculty, National Board of Examinations for Post-Doctoral Fellowship in Minimal Access Surgery",
+        "Examiner and Overseas Clinical Tutor, Royal College of Surgeons of Edinburgh",
+        "Associate Editor, Indian Journal of Surgery",
+        "Course Founder and Director, Basic Medical Writing Course",
+        "Course Co-Director - Training Courses in Minimal Access & Bariatric Surgery",
+        "Course Co-Director - Training Courses in Hernia Repair and Bariatric Surgery",
+        "Faculty Member, Ethicon Institute of Surgical Education (EISE)",
+        "Faculty Member, Covidien Centre of Innovation India",
+        "Examiner, Royal College of Surgeons of England",
+        "Vice President, Indian Association of Gastrointestinal Endosurgeons (IAGES)",
+        "President, Asia Pacific Hernia Society (APHS)",
+        "International Advisory Board, Hernia Journal",
+        "Associate Editor, Indian Journal of Surgery (IJS)",
+        "Accredited Faculty & Examiner for National Board of Examinations (India)",
+        "Founder & Director, Basic Medical Writing Course for Surgeons"
+      ]
+    },
+    {
+      "id": "sanjiv-saigal",
+      "name": "Dr. Sanjiv Saigal",
+      "designation": "Vice Chairman & Head - Hepatology & Liver Transplant Medicine",
+      "specialty": "hepatology-liver-transplant",
+      "specialities": [
+        "Gastroenterology",
+        "Hepatology & Endoscopy",
+        "Liver Transplant and Biliary Sciences"
+      ],
+      "hospital": "Max Hospital, Saket West",
+      "hospitalslug": "max-hospital-saket-west",
+      "experienceYears": 29,
+      "about": "Dr. Sanjiv Saigal is Vice Chairman & Head - Hepatology & Liver Transplant Medicine at Max Healthcare with over 29 years of experience in Gastroenterology, Hepatology, and Liver Transplantation. He has extensive expertise in Liver Transplant, Cirrhosis, Portal Hypertension, Liver Cancer, Viral Hepatitis, and Fatty Liver Disease. Dr. Saigal has been associated with more than 3400 liver transplants and previously served as Senior Director – Hepatology & Liver Transplant at Medanta Medicity and Consultant – Hepatology & Gastroenterology at Sir Ganga Ram Hospital, New Delhi.",
+      "education": [
+        "CCST (Gastroenterology, UK) - 2005",
+        "MRCP - Royal College of Physicians, Edinburgh, UK, 1999",
+        "DM (Gastroenterology) - GB Pant Hospital, Delhi, 1998",
+        "DNB (Gastroenterology) - National Board of Examinations, Delhi, 1996",
+        "MD (Medicine) - PGI Chandigarh, 1994",
+        "MBBS (Gold Medalist) - Calcutta University, 1989"
+      ],
+      "expertise": [
+        "Liver Transplant",
+        "Hepatology",
+        "Gastroenterology",
+        "Liver Transplant Medicine",
+        "Cirrhosis & Portal Hypertension",
+        "Liver Cancer",
+        "Alcoholic Liver Disease",
+        "Non-Alcoholic Fatty Liver Disease",
+        "Viral Hepatitis",
+        "Drug Induced Liver Disease",
+        "Endoscopy"
+      ],
+      "awards": [
+        "INLAKS Foundation Scholar - King’s College Hospital, London, UK",
+        "Human Care Award - 2018",
+        "IMA Eminent Speaker - 2014",
+        "Calcutta University Gold Medal",
+        "National Pfizer Award",
+        "Over 125 Indexed Publications"
+      ],
+      "memberships": [
+        "American Association for the Study of Liver Diseases",
+        "Founder Member - Liver Transplantation Society of India",
+        "Vice President (2020) - Liver Transplantation Society of India",
+        "Education Committee Member - International Liver Transplantation Society",
+        "Asia Pacific Association for the Study of Liver (APASL)",
+        "Governing Council Member - Indian Association for the Study of Liver (2011-2013)",
+        "National Academy of Medical Sciences (MAMS), New Delhi",
+        "Life Member - Indian Association for Study of Liver",
+        "Life Member - Indian Society of Gastroenterology",
+        "Life Member - Congress of Asian Society of Transplantation",
+        "Life Member - Indian Medical Association"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/sanjiv-saigal.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Saket West, India"
+      },
+      "researchPublications": [
+        "Over 125 indexed publications"
+      ]
+    },
+    {
+      "id": "sujoy-bhattacharjee",
+      "name": "Dr Sujoy Bhattacharjee",
+      "designation": "Chairman & Chief - Max Institute of Robotic Joint Replacement",
+      "specialty": "orthopaedics-joint-replacement",
+      "specialities": [
+        "Orthopaedics & Joint Replacement",
+        "Arthroscopy & Sports Injury",
+        "Robotic Joint Replacement"
+      ],
+      "hospital": "Max Hospital, Panchsheel Park",
+      "hospitalslug": "max-hospital-panchsheel-park",
+      "experienceYears": 25,
+      "about": "Dr Sujoy Bhattacharjee is Chairman & Chief - Max Institute of Robotic Joint Replacement at Max Healthcare and is a highly experienced Orthopaedic and Joint Replacement Surgeon specializing in robotic and minimally invasive joint replacement procedures. He has performed more than 25,000 joint replacement surgeries including over 5,000 cruciate retaining robotic surgeries. His expertise includes robotic knee replacement, hip replacement, revision surgeries, arthroscopy, sports injuries, and AI/AR-based orthopaedic surgery. Dr Bhattacharjee has worked with leading hospitals including Sarvodaya Hospital, Metro Hospital, QRG Central Hospital, and Hamdard Institute of Medical Sciences & Research.",
+      "education": [
+        "Fellowship (Arthroplasty) - France, 2022",
+        "FACS - American College of Surgeons, USA, 2016",
+        "Fellowship - Exeter, UK, 2016",
+        "Fellowship - San Diego, USA, 2016",
+        "FICS - Australia Chapter, 2014",
+        "Fellowship - Monash Health, Melbourne, Australia, 2013",
+        "MCh (Orthopaedics) - University of Seychelles American Institute of Medicine, Seychelles, 2013",
+        "Fellowship - OKM Clinic, Markgröningen, Germany, 2011",
+        "FMIS - Ohio Pain Clinic, USA, 2009",
+        "MS (Orthopaedics) - Jiwaji University, Gwalior, 2000",
+        "MBBS - Silchar Medical College, Guwahati University, Assam, 1995"
+      ],
+      "expertise": [
+        "Robotic Total Knee Replacement",
+        "Cruciate Retaining Knee Replacement",
+        "Partial Knee Replacement",
+        "Total Hip Replacement",
+        "Revision Knee Surgery",
+        "Revision Hip Surgery",
+        "Arthroscopy",
+        "Sports Injury Treatment",
+        "AI/AR Based Knee & Hip Surgery",
+        "Minimally Invasive Joint Replacement Surgery"
+      ],
+      "awards": [
+        "World’s First Cruciate Retaining Knee Replacement with Active Robot - World Book of Records (London)",
+        "World’s First Cruciate Retaining Knee Replacement with Active Robot - International Book of Records",
+        "World’s First Cruciate Retaining Knee Replacement with Active Robot - India Book of Records",
+        "Operated 104-year-old patient for hip joint surgery - Limca Book of Records",
+        "Invited as Guest Faculty for the first active Robotic Total Knee Replacement in Kazakhstan",
+        "Centre of Excellence for MISSO Robotic System (MERIL)",
+        "Performed over 25,000 joint replacement surgeries including more than 5,000 robotic surgeries",
+        "Best Outgoing MBBS Graduate - Silchar Medical College, 1995",
+        "Numerous International Faculty Roles in Serbia, Canada, Singapore and other countries"
+      ],
+      "memberships": [
+        "American Academy of Orthopaedic Surgeons",
+        "International College of Surgeons",
+        "American College of Surgeons",
+        "Indian Orthopaedic Association",
+        "Indian Society of Hip and Knee Surgeons"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/sujoy-bhattacharjee.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Panchsheel Park, India"
+      },
+      "researchPublications": [
+        "The outcomes of total knee arthroplasty following the incidental finding of tuberculosis and its treatment: A prospective study",
+        "Total Hip Arthroplasty in Ochronotic Arthropathy: A Case Report",
+        "TKA Complications in 80-year-patient: A Case Report",
+        "Total Hip Replacement in Severe Haemophilia A: Challenges and Feasibility",
+        "Distal Femur Intraarticular Fracture in a Late Arthritic Knee Treated With Osteosynthesis and Computer Navigation Assisted Primary Total Knee Replacement: A Case Report",
+        "Osteoporosis in Indian Patients undergoing Elective Arthroplasty and Spinal Procedures: An Observational Study",
+        "Posterior cruciate-retaining total knee arthroplasty in patients with systemic rheumatoid arthritis - A retrospective observational analysis",
+        "Computer Navigation-assisted Bilateral Total Knee Arthroplasty with Osteosynthesis in Single Sitting in Patients Presenting with Distal Femur Fracture with Pre-existing Knee Arthritis: A Case Series",
+        "Comparative Analysis of Joint Awareness and Functional Outcomes in Robotic vs Conventional Total Knee Arthroplasty: A Retrospective Study with 1-year Follow-up",
+        "Incidence of Common Peroneal Nerve Palsy among Patients with Varus Deformity Undergoing Bilateral Simultaneous Total Knee Replacement – A Retrospective Observation"
+      ]
+    },
+    {
+      "id": "dinesh-khullar",
+      "name": "Dr. Dinesh Khullar",
+      "designation": "Group Chairman - Nephrology & Renal Transplant Medicine",
+      "specialty": "nephrology",
+      "specialities": [
+        "Nephrology",
+        "Kidney Transplant"
+      ],
+      "hospital": "Max Hospital, Saket Smart",
+      "hospitalslug": "max-hospital-saket-smart",
+      "experienceYears": 33,
+      "about": "Dr. Dinesh Khullar is Group Chairman - Nephrology & Renal Transplant Medicine at Max Super Speciality Hospital, Saket, New Delhi, with over 33 years of experience in the field of Nephrology and Kidney Transplantation. He is responsible for development, quality control, clinical governance, physician hiring, and training in the Department of Nephrology. Dr. Khullar has previously served as Professor of Nephrology at Sir Ganga Ram Hospital and Lecturer in Nephrology at Dayanand Medical College & Hospital, Ludhiana. His expertise includes high-risk kidney transplants, ABO-incompatible transplants, dialysis modalities, infections related to kidney diseases, diabetic nephropathy, and hypertension-related kidney disorders.",
+      "education": [
+        "DM (Nephrology) - PGIMER, Chandigarh",
+        "MD (Medicine) - DMC & Hospital, Ludhiana, Punjab University",
+        "MBBS - DMC & Hospital, Ludhiana, Punjab University"
+      ],
+      "expertise": [
+        "Nephrology",
+        "Kidney Transplantation",
+        "High-Risk Kidney Transplant",
+        "ABO-Incompatible Kidney Transplant",
+        "Highly Sensitized Transplant Recipients",
+        "Peritoneal Dialysis",
+        "Advanced Dialysis Modalities",
+        "Induction Therapy in Kidney Transplant",
+        "Infections Related to Kidney Diseases",
+        "Kidney Disorders in Systemic Diseases",
+        "Diabetic Nephropathy",
+        "Hypertension and Kidney Disease"
+      ],
+      "awards": [
+        "Dr. Sushil Malik Memorial Award Oration - Pertinent Use of Drugs in Chronic Kidney Disease",
+        "Lifetime Achievement Award by Human Care Charitable Trust - 2011",
+        "J.M. Patel Oration at Annual Conference of Indian Society of Organ Transplantation - 2015",
+        "D.K. Pal Chaudhary Memorial Oration at Annual Meeting of Indian Medical Association (SDB) - 2005",
+        "Sushil Malik Memorial Oration at Annual Convention of Indian Medical Association (SDB)"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/dinesh-khullar.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Saket Smart, India"
+      },
+      "researchPublications": [
+        "Numerous International and National publications",
+        "Papers presented at National and International conferences"
+      ]
+    },
+    {
+      "id": "bipin-walia",
+      "name": "Prof. (Col.) Dr. Bipin Walia",
+      "designation": "Chairman & Head – Neurosurgery & Neurospine",
+      "specialty": "neurosurgery",
+      "specialities": [
+        "Neurosurgery",
+        "Neurosciences",
+        "Spine Surgery"
+      ],
+      "hospital": "Max Hospital, Saket Smart",
+      "hospitalslug": "max-hospital-saket-smart",
+      "experienceYears": 29,
+      "about": "Prof. (Col.) Dr. Bipin Walia is Chairman & Head – Neurosurgery & Neurospine at Max Healthcare with more than 29 years of experience in the field of Neurosurgery and Spine Surgery. He is highly experienced in advanced spinal procedures, motion preserving surgeries, disc replacement surgeries, minimally invasive spinal surgeries, and endoscopic cranial surgeries. Dr. Walia specializes in image-guided surgery, brain tumour surgery, and minimally invasive surgery for spinal tumours. He is also a recognized postgraduate teacher for MS (General Surgery) and DNB (Neurosurgery) programs.",
+      "education": [
+        "MBBS - Armed Forces Medical College, Pune",
+        "MS (General Surgery) - Armed Forces Medical College, Pune",
+        "MCh (Neurosurgery) - All India Institute of Medical Sciences (AIIMS), New Delhi",
+        "Post Graduate Teacher recognized by National Board of Examinations for MS (General Surgery) and DNB (Neurosurgery)"
+      ],
+      "expertise": [
+        "Neurosurgery",
+        "Spine Surgery",
+        "Neurospine Surgery",
+        "Image Guided Surgery",
+        "Disc Replacement Surgery",
+        "Endoscopic Disc Surgery",
+        "Endoscopic Cranial Surgery",
+        "Brain Tumour Surgery",
+        "Minimally Invasive Spine Surgery",
+        "Minimally Invasive Surgery for Spinal Tumours",
+        "Motion Preserving Spine Surgery"
+      ],
+      "awards": [],
+      "memberships": [
+        "Member of American Association of Neurological Surgeons",
+        "Member, Congress of Neurological Surgeons (CNS)",
+        "Fellow of Asian Congress of Neurological Surgeons (FACNS)",
+        "Faculty of Spinal Science Advancement Foundation and Musculo-Skeletal Research Institute",
+        "Executive Committee Member, AO Spine India",
+        "Member, North American Spine Society"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/bipin-walia.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Saket Smart, India"
+      }
+    },
+    {
+      "id": "rajneesh-malhotra",
+      "name": "Dr. Rajneesh Malhotra",
+      "designation": "Chairman & Head - CTVS",
+      "specialty": "cardiac-surgery-ctvs",
+      "specialities": [
+        "Cardiac Sciences",
+        "Cardiac Surgery (CTVS)",
+        "Robotic Surgery"
+      ],
+      "hospital": "Max Hospital, Saket East",
+      "hospitalslug": "max-hospital-saket-east",
+      "experienceYears": 34,
+      "about": "Dr. Rajneesh Malhotra is Chairman & Head - CTVS at Max Healthcare with over 34 years of experience in Cardiac Surgery. He specializes in Cardiac Surgery, Robotic Cardiac Surgery, Minimally Invasive Cardiac Surgery, Heart Failure Surgery, Heart Transplant, ECMO, and LVAD procedures. He has previously served as Director - Cardiac Surgery at Medanta - The Medicity, Senior Consultant at Escorts Heart Institute & Research Centre, and Chief Consultant at Durdons Heart Surgical Centre, Colombo, Sri Lanka. Dr. Malhotra has received advanced international training in minimally invasive and robotic cardiac surgery from leading institutes in Sweden and the USA.",
+      "education": [
+        "MBBS - King George’s Medical College, Lucknow",
+        "MS (General Surgery) - King George’s Medical College, Lucknow",
+        "MCh - Institute of Cardiology, G.S.V.M. Medical College, Kanpur University, Kanpur",
+        "Fellowship in Cardiac Surgery - Department of Thoracic & Cardiovascular Surgery, University Hospital, Uppsala, Sweden",
+        "Training in Minimally Invasive Cardiac Surgery - Medtronic Inc., Minneapolis, USA",
+        "Training in Port Access Cardiac Surgery - Heart Port Training Institute, Salt Lake City, Utah, USA",
+        "Training in Da Vinci Robotic Cardiac Surgery - Ohio State University, USA",
+        "Myocore Institute Valve Repair & Beating Heart Training - Minneapolis, USA"
+      ],
+      "expertise": [
+        "Cardiac Surgery",
+        "Robotic Cardiac Surgery",
+        "Minimally Invasive Cardiac Surgery",
+        "Coronary Artery Bypass Grafting (CABG)",
+        "Mitral Valve Replacement & Repair",
+        "Aortic Valve Replacement & Repair",
+        "Atrial Septal Defect (ASD) Surgery",
+        "Heart Failure Surgery",
+        "Heart Transplant",
+        "Extracorporeal Membrane Oxygenation (ECMO)",
+        "Left Ventricular Assist Device (LVAD)"
+      ],
+      "awards": [],
+      "memberships": [
+        "Member of Society of Thoracic Surgeons (STS)",
+        "Member of European Association for Cardio Thoracic Surgery (EACTS), UK",
+        "Member of International Society of Minimally Invasive Cardiac Surgery (ISMICS)",
+        "Life Membership & Fellowship of Indian Association of Cardiovascular & Thoracic Surgeons of India (IACTS)",
+        "Member of Indian Association of Surgeons",
+        "Member of Cardio Thoracic Surgery Net (CTS Net)",
+        "Member of Indian College of Cardiology",
+        "Member of Indian Medical Association (IMA)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rajneesh-malhotra.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Saket East, India"
+      }
+    },
+    {
+      "id": "subhash-gupta",
+      "name": "Prof (Dr.) Subhash Gupta",
+      "designation": "Group Chairman - Centre for Liver & Biliary Sciences",
+      "specialty": "liver-transplant-biliary-sciences",
+      "specialities": [
+        "Liver Transplant and Biliary Sciences",
+        "Robotic Surgery",
+        "Gastrointestinal Surgery"
+      ],
+      "hospital": "Max Hospital, Saket East",
+      "hospitalslug": "max-hospital-saket-east",
+      "experienceYears": 37,
+      "about": "Prof (Dr.) Subhash Gupta is Group Chairman - Centre for Liver & Biliary Sciences at Max Healthcare and is one of India’s leading Liver Transplant Surgeons with over 37 years of experience. He heads one of the largest Liver Transplant Centres in the world with experience of more than 3000 liver transplants. Dr. Gupta has pioneered the development of Living Donor Liver Transplantation (LDLT) in India and has extensive expertise in Liver Transplantation, Biliary Sciences, Robotic Surgery, and Gastrointestinal Surgery. He has previously worked with prestigious institutions including Indraprastha Apollo Hospitals, Sir Ganga Ram Hospital, St. James’s University Hospital Leeds, Queen’s Elizabeth Medical Centre Birmingham, and AIIMS New Delhi.",
+      "education": [
+        "All India Institute of Medical Sciences (AIIMS), New Delhi"
+      ],
+      "expertise": [
+        "Liver Transplantation",
+        "Living Donor Liver Transplantation (LDLT)",
+        "Biliary Sciences",
+        "Liver Surgery",
+        "Robotic Surgery",
+        "Gastrointestinal Surgery",
+        "Hepatobiliary Surgery",
+        "Complex Liver Disease Management"
+      ],
+      "awards": [
+        "Professor of Surgery - Apollo Health Education and Research Foundation",
+        "Professor of Liver Transplantation - Institute of Postgraduate Education and Medical Research, Kolkata",
+        "Gold Medal by Delhi Medical Association - 2005",
+        "Honored for Excellence in Clinical Medicine by Rotary Association of India - 2012",
+        "Vishist Chikitsh Rattan (Distinguished Clinician) Award by Delhi Medical Association - 2012",
+        "Finalist - Surgical Team of the Year, BMJ India Awards - 2014",
+        "Honorary Professor of Surgery - Apollo Health Foundation",
+        "Yash Bharti Award by Uttar Pradesh Government - 2016",
+        "Dr. B.C. Roy Award by Medical Council of India - 2016",
+        "Honorary Professor of Kazakhstan - 2016"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/subhash-gupta.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Saket East, India"
+      },
+      "researchPublications": [
+        "Pioneered the development of Living Donor Liver Transplantation (LDLT) in India",
+        "Published over 30 papers on different aspects of Living Donor Liver Transplantation in indexed journals"
+      ]
+    },
+    {
+      "id": "balbir-singh",
+      "name": "Dr. Balbir Singh",
+      "designation": "Group Chairman - Cardiac Sciences, Pan Max & Chief of Interventional Cardiology and Electrophysiology, Max Saket",
+      "specialty": "cardiac-sciences",
+      "specialities": [
+        "Cardiac Sciences",
+        "Cardiology",
+        "Interventional Cardiology",
+        "Cardiac Electrophysiology-Pacemaker"
+      ],
+      "hospital": "Max Hospital, Saket East",
+      "hospitalslug": "max-hospital-saket-east",
+      "experienceYears": 35,
+      "about": "Dr. Balbir Singh is Group Chairman - Cardiac Sciences, Pan Max and Chief of Interventional Cardiology and Electrophysiology at Max Saket with more than 35 years of experience in the field of Cardiology. He is responsible for development, quality, clinical governance, physician hiring, credentialing, research, and training including the DNB program in Cardiology. Dr. Singh has previously worked with prestigious institutions such as Medanta - The Medicity, Apollo Hospital, Fortis Heart Institute & Research Center, Batra Hospital, and AIIMS. His expertise includes Interventional Cardiology, Cardiac Electrophysiology, and Pacemaker therapies.",
+      "education": [
+        "MBBS - Maulana Azad Medical College, Delhi, 1983",
+        "MD (Internal Medicine) - Maulana Azad Medical College, Delhi, 1987",
+        "DM (Cardiology) - Govind Ballabh Pant Hospital, New Delhi, 1992",
+        "Fellowship - American College of Cardiology, USA, 2005"
+      ],
+      "expertise": [
+        "Cardiology",
+        "Interventional Cardiology",
+        "Cardiac Electrophysiology",
+        "Pacemaker Therapy",
+        "Electrophysiology Procedures",
+        "Cardiac Sciences",
+        "Clinical Governance in Cardiology",
+        "Cardiology Research & Training"
+      ],
+      "awards": [
+        "Padma Shri Award - 2007",
+        "Best Operator at India Live - 2016",
+        "Golden Hand Award at AICT, Singapore - 2012",
+        "Best Late Breaking Trial at APHRS, Taiwan - 2018"
+      ],
+      "memberships": [
+        "President of Delhi CSI",
+        "Former President of IHRS"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/balbir-singh.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Saket East, India"
+      }
+    },
+    {
+      "id": "sandeep-batra",
+      "name": "Dr. Sandeep Batra",
+      "designation": "Vice Chairman",
+      "specialty": "medical-oncology",
+      "specialities": [
+        "Medical Oncology",
+        "Cancer Care / Oncology",
+        "Uro-Oncology",
+        "Breast Cancer",
+        "Thoracic Oncology",
+        "Gynecologic Oncology",
+        "Gastrointestinal & Hepatobiliary Oncology",
+        "Musculoskeletal Oncology",
+        "Molecular Oncology & Cancer Genetics",
+        "Head & Neck Oncology",
+        "Neuro Oncology",
+        "Hematology Oncology"
+      ],
+      "hospital": "Max Hospital, Saket Smart",
+      "hospitalslug": "max-hospital-saket-smart",
+      "experienceYears": 17,
+      "about": "Dr. Sandeep Batra is Vice Chairman - Medical Oncology at Max Healthcare with over 17 years of experience in the field of Oncology. His expertise includes Gastrointestinal Cancers, Gynecologic Cancers, and Uro-Oncology. He has previously worked with renowned institutions including BLK Superspeciality Hospital, Medanta - The Medicity, and Artemis Health Institute. Dr. Batra specializes in Medical Oncology, Hematology Oncology, Breast Cancer, Thoracic Oncology, Head & Neck Oncology, Neuro Oncology, and Molecular Oncology & Cancer Genetics.",
+      "education": [
+        "MBBS (Gold Medal) - PGIMS, Rohtak",
+        "MD (Medicine) - PGIMS, Rohtak",
+        "DNB (Medicine) - National Board of Examinations, Delhi",
+        "DNB (Medical Oncology) - National Board of Examinations, Delhi"
+      ],
+      "expertise": [
+        "Medical Oncology",
+        "Hematology Oncology",
+        "Gastrointestinal Cancers",
+        "Gynecologic Cancers",
+        "Uro-Oncology",
+        "Breast Cancer Treatment",
+        "Thoracic Oncology",
+        "Head & Neck Oncology",
+        "Neuro Oncology",
+        "Molecular Oncology & Cancer Genetics"
+      ],
+      "awards": [
+        "Gold Medal in MBBS"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/sandeep-batra.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9268880303",
+        "availability": "By Appointment",
+        "location": "Max Hospital, Saket Smart, India"
+      }
+    },
+    {
       "id": "harshavardhan-hegde",
       "name": "Dr. Harshavardhan Hegde",
       "designation": "Director",
-      "specialty": "neurology",
+      "specialty": "neurology and spinal surgery",
     
       "specialities": [
         
-        "Nephrology",
         "Neurology",
         "Orthopaedics & Joint Replacement"
    
