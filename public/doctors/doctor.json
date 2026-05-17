@@ -1,6 +1,320 @@
 {
   "doctors": [
     {
+      "id": "udgeath-dhir",
+      "name": "Dr. Udgeath Dhir",
+      "designation": "Principal Director Cardio Thoracic Vascular Surgery",
+      "specialty": "cardiac-sciences",
+      "specialities": [
+        "Cardiac Sciences",
+        "Adult CTVS (Cardiothoracic and Vascular Surgery)",
+        "Heart Transplant"
+      ],
+      "hospital": "Fortis Memorial Research Institute, Gurugram",
+      "hospitalslug": "fortis-memorial-research-institute-gurugram",
+      "experienceYears": 18,
+      "about": "Dr. Udgeath Dhir is Principal Director - Cardio Thoracic Vascular Surgery at Fortis Memorial Research Institute, Gurugram. He is an experienced Cardiothoracic and Vascular Surgeon with expertise in adult cardiac surgery, heart transplant, valve repair surgery, and advanced cardiac procedures. Dr. Dhir has operated on more than 7500 cardiac cases and has received specialized international training in Rheumatic Mitral Valve Repair at Central Chest Institute, Bangkok. He has also undergone training in TAVI procedures and has been associated with Escorts Heart Institute & Research Centre.",
+      "education": [
+        "MBBS",
+        "MS",
+        "MCh (Cardiac Surgery)"
+      ],
+      "expertise": [
+        "Cardiothoracic and Vascular Surgery",
+        "Adult Cardiac Surgery",
+        "Heart Transplant",
+        "Mitral Valve Repair",
+        "Rheumatic Valve Surgery",
+        "TAVI (Transcatheter Aortic Valve Implantation)",
+        "Complex Cardiac Surgery",
+        "Valve Replacement Surgery"
+      ],
+      "awards": [
+        "Performed over 7500 cardiac surgeries",
+        "Specialized training in Rheumatic Mitral Valve Repair at Central Chest Institute, Bangkok",
+        "Advanced training in TAVI procedures"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/udgeath-dhir.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Fortis Memorial Research Institute, Gurugram, India"
+      }
+    },
+    {
+      "id": "amit-javed",
+      "name": "Dr. (Prof.) Amit Javed",
+      "designation": "Principal Director & HOD Lap GI, GI Onco, Bariatric & MIS Surgery",
+      "specialty": "gastrointestinal-bariatric-surgery",
+      "specialities": [
+        "Gastroenterology and Hepatobiliary Sciences",
+        "Robotic Surgery",
+        "Metabolic & Bariatric Surgery",
+        "GI, Minimal Access and Bariatric Surgery",
+        "Gastrointestinal Surgery",
+        "General Surgery",
+        "General and Minimal Access Surgery",
+        "General and Laparoscopic Surgery",
+        "Oncology",
+        "Surgical Oncology"
+      ],
+      "hospital": "Fortis Memorial Research Institute, Gurugram",
+      "hospitalslug": "fortis-memorial-research-institute-gurugram",
+      "experienceYears": 25,
+      "about": "Dr. (Prof.) Amit Javed is Principal Director & Head of Lap GI, GI Onco, Bariatric & MIS Surgery at Fortis Memorial Research Institute, Gurugram. He is an expert Gastrointestinal, GI Cancer, Bariatric, and Minimal Access Surgeon with over 25 years of experience. Dr. Javed has trained at premier medical institutes in India and abroad and specializes in gastrointestinal surgery, GI oncology, robotic surgery, bariatric and metabolic surgery, and minimally invasive procedures. He is known for his expertise in advanced laparoscopic and robotic gastrointestinal cancer surgeries.",
+      "education": [
+        "MBBS - Kasturba Medical College, Manipal",
+        "MS - PGI Chandigarh",
+        "MCh - AIIMS, New Delhi",
+        "FACS - USA"
+      ],
+      "expertise": [
+        "Gastrointestinal Surgery",
+        "GI Oncology Surgery",
+        "Surgical Oncology",
+        "Robotic Surgery",
+        "Bariatric Surgery",
+        "Metabolic Surgery",
+        "Minimal Access Surgery",
+        "Laparoscopic Surgery",
+        "Hepatobiliary Surgery",
+        "Weight Loss Surgery",
+        "Advanced GI Cancer Surgery"
+      ],
+      "awards": [],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/amit-javed.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Fortis Memorial Research Institute, Gurugram, India"
+      }
+    },
+    {
+      "id": "vivek-vij",
+      "name": "Dr. Vivek Vij",
+      "designation": "Chairman – Liver Transplant & Hepato-Biliary Science",
+      "specialty": "liver-transplant-hepatobiliary-sciences",
+      "specialities": [
+        "Gastroenterology and Hepatobiliary Sciences",
+        "Robotic Surgery",
+        "Liver Transplant and Hepatobiliary Sciences",
+        "Organ Transplant",
+        "Liver Transplant"
+      ],
+      "hospital": "Fortis Memorial Research Institute, Gurugram",
+      "hospitalslug": "fortis-memorial-research-institute-gurugram",
+      "experienceYears": 25,
+      "about": "Dr. Vivek Vij is a pioneering Liver Transplant Surgeon and Chairman – Liver Transplant & Hepato-Biliary Science at Fortis Healthcare. He is internationally recognized for developing living donor liver transplant surgery and standardizing donor safety protocols in India. Dr. Vij specializes in Liver Transplantation, Hepato-Biliary Surgery, Robotic Surgery, and Organ Transplantation. He is known for achieving exceptional donor safety standards and has played a major role in advancing liver transplant programs in the country.",
+      "education": [
+        "MBBS",
+        "MS",
+        "MRCS (Edinburgh)",
+        "DNB"
+      ],
+      "expertise": [
+        "Liver Transplantation",
+        "Living Donor Liver Transplant",
+        "Hepato-Biliary Surgery",
+        "Organ Transplant",
+        "Robotic Surgery",
+        "Gastroenterology",
+        "Complex Liver Surgery",
+        "Liver Failure Management"
+      ],
+      "awards": [
+        "Pioneered Living Donor Liver Transplant Surgery in India",
+        "Developed and Standardized Donor Safety Protocols in Liver Transplantation"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/vivek-vij.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Fortis Memorial Research Institute, Gurugram, India"
+      }
+    },
+    {
+      "id": "salil-jain",
+      "name": "Dr. Salil Jain",
+      "designation": "Principal Director & HOD Nephrology",
+      "specialty": "nephrology",
+      "specialities": [
+        "Organ Transplant",
+        "Kidney Transplant",
+        "Nephrology"
+      ],
+      "hospital": "Fortis Memorial Research Institute, Gurugram",
+      "hospitalslug": "fortis-memorial-research-institute-gurugram",
+      "experienceYears": 25,
+      "about": "Dr. Salil Jain is Principal Director & Head of Nephrology at Fortis Memorial Research Institute, Gurugram, and is recognized as one of the leading nephrologists in India. With over 25 years of experience, he specializes in managing complex kidney disorders, dialysis, kidney transplantation, and critical care nephrology. Dr. Jain is known for providing patient-centric and evidence-based treatment for various renal diseases and transplant-related conditions.",
+      "education": [
+        "MBBS",
+        "MD",
+        "DNB (Nephrology)"
+      ],
+      "expertise": [
+        "Nephrology",
+        "Kidney Transplant",
+        "Organ Transplant",
+        "Dialysis",
+        "Critical Care Nephrology",
+        "Chronic Kidney Disease",
+        "Acute Kidney Injury",
+        "Hypertension Related Kidney Disorders",
+        "Complex Kidney Disorders"
+      ],
+      "awards": [],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/salil-jain.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Fortis Memorial Research Institute, Gurugram, India"
+      }
+    },
+    {
+      "id": "subhash-jangid",
+      "name": "Dr. Subhash Jangid",
+      "designation": "Principal Director & Unit Head Orthopaedics",
+      "specialty": "orthopaedics-joint-replacement",
+      "specialities": [
+        "Orthopaedics",
+        "Robotic and Computer Navigated Joint Reconstruction",
+        "Orthopaedics and Joint Replacement",
+        "Sports Medicine",
+        "Orthopaedic Oncology"
+      ],
+      "hospital": "Fortis Memorial Research Institute, Gurugram",
+      "hospitalslug": "fortis-memorial-research-institute-gurugram",
+      "experienceYears": 26,
+      "about": "Dr. Subhash Jangid is Principal Director & Unit Head - Orthopaedics at Fortis Memorial Research Institute, Gurugram. He specializes in Orthopaedics, Joint Reconstruction, Robotic Joint Replacement, Sports Medicine, and Orthopaedic Oncology. His primary work involves knee, hip, and shoulder surgeries including joint replacement procedures. Dr. Jangid has extensive experience in robotic and computer navigated joint reconstruction and is known for his contributions to advanced orthopaedic surgical techniques.",
+      "education": [
+        "MS (Orthopaedics)"
+      ],
+      "expertise": [
+        "Joint Replacement Surgery",
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Shoulder Joint Surgery",
+        "Robotic Joint Reconstruction",
+        "Computer Navigated Joint Reconstruction",
+        "Sports Medicine",
+        "Orthopaedic Oncology",
+        "Orthopaedic Trauma Surgery"
+      ],
+      "awards": [
+        "Patent for instrument to remove uncemented femoral implant accepted by USFDA"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/subhash-jangid.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Fortis Memorial Research Institute, Gurugram, India"
+      }
+    },
+    {
+      "id": "ajay-kumar-kriplani",
+      "name": "Dr. Ajay Kumar Kriplani",
+      "designation": "Principal Director & HOD Lap GI, GI Onco, Bariatric & MIS Surgery",
+      "specialty": "general-laparoscopic-bariatric-surgery",
+      "specialities": [
+        "General Surgery",
+        "General and Minimal Access Surgery",
+        "General and Laparoscopic Surgery",
+        "Gastroenterology and Hepatobiliary Sciences",
+        "GI, Minimal Access and Bariatric Surgery",
+        "Robotic Surgery",
+        "Metabolic & Bariatric Surgery"
+      ],
+      "hospital": "Fortis Memorial Research Institute, Gurugram",
+      "hospitalslug": "fortis-memorial-research-institute-gurugram",
+      "experienceYears": 40,
+      "about": "Dr. Ajay Kumar Kriplani is Principal Director & Head of Lap GI, GI Onco, Bariatric & MIS Surgery at Fortis Memorial Research Institute, Gurugram. He is a nationally recognized leader in the field of laparoscopic gastrointestinal and bariatric surgery with over 40 years of experience. Dr. Kriplani is known for his expertise in minimally invasive surgery, GI oncology surgery, robotic surgery, metabolic and bariatric surgery, and advanced laparoscopic procedures. He is the past President of the Indian Association of Gastrointestinal Endosurgeons (IAGES) and has played a major role in advancing fellowship programs in minimally invasive surgery in India.",
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "FIAGES",
+        "FICLS",
+        "FALS",
+        "FAIS"
+      ],
+      "expertise": [
+        "Laparoscopic Gastrointestinal Surgery",
+        "Bariatric Surgery",
+        "Metabolic Surgery",
+        "Minimal Access Surgery",
+        "GI Oncology Surgery",
+        "Robotic Surgery",
+        "General Surgery",
+        "Hepatobiliary Surgery",
+        "Advanced Laparoscopic Surgery"
+      ],
+      "awards": [
+        "Past President of Indian Association of Gastrointestinal Endosurgeons (IAGES)",
+        "Introduced Fellowship Programs of IAGES"
+      ],
+      "memberships": [
+        "Indian Association of Gastrointestinal Endosurgeons (IAGES)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/ajay-kumar-kriplani.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Fortis Memorial Research Institute, Gurugram, India"
+      }
+    },
+    {
       "id": "anil-sharma",
       "name": "Dr. Anil Sharma",
       "designation": "Principal Director - Max Institute of Laparoscopic, Robotic and Bariatric Surgery",
