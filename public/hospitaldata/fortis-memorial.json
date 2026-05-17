@@ -75,83 +75,61 @@
   "topDoctors": {
     "visible": true,
     "list": [
-      {
-        "id": "pn-gupta",
-        "name": "Dr. P.N. Gupta",
-        "specialty": "Director & HOD – Nephrology",
-        "rating": 4.9,
-        "experienceYears": 44,
-        "profileUrl": "/doctors/pn-gupta"
-      },
-      {
-        "id": "manmohan-singh",
-        "name": "Dr. (Prof.) Manmohan Singh",
-        "specialty": "neurosurgery",
-        "rating": 5.0,
-        "experienceYears": 46,
-        "profileUrl": "/doctors/manmohan-singh"
-      },
-      {
-       "id": "anurag-khaitan",
-        "name": "Dr. Anurag Khaitan",
-        "specialty": "urology",
-        "rating": 5.0,
-        "experienceYears": 22,
-        "profileUrl": "/doctors/anurag-khaitan"
-      },
-      {
-        "id": "r-ranga-rao",
-        "name": "Dr. (Col.) R Ranga Rao, VSM",
-        "specialty": "medical oncology",
-        "rating": 4.9,
-        "experienceYears": 30,
-        "profileUrl": "/doctors/r-ranga-rao"
-      }
-      ,
-      {
-        "id": "ankur-garg",
-        "name": "Dr. Ankur Garg",
-        "specialty": "hepato-pancreato-biliary surgery",
-        "rating": 4.9,
-        "experienceYears": 25,
-        "profileUrl": "/doctors/ankur-garg"
-      }
-      ,
-      {
-        "id": "amit-bhushan-sharma",
-        "name": "Dr. Amit Bhushan Sharma",
-        "specialty": "cardiology",
-        "rating": 4.9,
-        "experienceYears": 22,
-        "profileUrl": "/doctors/amit-bhushan-sharma"
-      }
-      ,
-      {
-        "id": "alka-kriplani",
-        "name": "Dr. (Prof.) Alka Kriplani",
-        "specialty": "gynaecology",
-        "rating": 4.9,
-        "experienceYears": 40,
-         "profileUrl": "/doctors/alka-kriplani"
-
-      }
-      ,
-      {
-        "id": "vivek-logani",
-        "name": "Dr. Vivek Logani",
-        "specialty": "orthopaedics",
-        "experienceYears": 23,
-        "rating": 4.9,
-        "profileUrl": "/doctors/vivek-logani"
-      },
-      {
-        "id": "arvind-mehra",
-        "name": "Dr. Arvind Mehra",
-        "specialty": "orthopaedics",
-        "experienceYears": 20,
-         "rating": 4.9,
-        "profileUrl": "/doctors/arvind-mehra"
-      }
+     {
+      "id": "ajay-kumar-kriplani",
+      "name": "Dr. Ajay Kumar Kriplani",
+      "designation": "Principal Director & HOD Lap GI, GI Onco, Bariatric & MIS Surgery",
+      "specialty": "general-laparoscopic-bariatric-surgery",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/ajay-kumar-kriplani"
+     },
+     {
+      "id": "subhash-jangid",
+      "name": "Dr. Subhash Jangid",
+      "designation": "Principal Director & Unit Head Orthopaedics",
+      "specialty": "orthopaedics-joint-replacement",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/subhash-jangid"
+     },
+     {
+      "id": "salil-jain",
+      "name": "Dr. Salil Jain",
+      "designation": "Principal Director & HOD Nephrology",
+      "specialty": "nephrology",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/salil-jain"
+     }
+     ,
+     {
+      "id": "vivek-vij",
+      "name": "Dr. Vivek Vij",
+      "designation": "Chairman – Liver Transplant & Hepato-Biliary Science",
+      "specialty": "liver-transplant-hepatobiliary-sciences",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/vivek-vij"
+     },
+     {
+      "id": "amit-javed",
+      "name": "Dr. (Prof.) Amit Javed",
+      "designation": "Principal Director & HOD Lap GI, GI Onco, Bariatric & MIS Surgery",
+      "specialty": "gastrointestinal-bariatric-surgery",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/amit-javed"
+     },
+     {
+      "id": "udgeath-dhir",
+      "name": "Dr. Udgeath Dhir",
+      "designation": "Principal Director Cardio Thoracic Vascular Surgery",
+      "specialty": "cardiac-sciences",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/udgeath-dhir"
+     }
     ]
   },
   "teamAndSpecialities": {
