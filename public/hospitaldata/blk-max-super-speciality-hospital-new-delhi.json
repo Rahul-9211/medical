@@ -81,61 +81,93 @@
     "topDoctors": {
     "visible": true,
     "list": [
-        {
-          "id": "rohit-goel",
-          "name": "Dr. Rohit Goel",
-          "specialty": "Cardiology",
-          "designation": "Principal Consultant - Cardiology",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 18,
-          "profileUrl": "/doctors/rohit-goel"
-        },
-        {
-          "id": "jatinder-bir-singh-jaggi",
-          "name": "Dr. Jatinder Bir Singh Jaggi",
-          "specialty": "Orthopaedics & Joint Replacement",
-          "designation": "Director – Orthopaedics & Joint Replacement, Arthroscopy & Sports Injury",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 18,
-          "profileUrl": "/doctors/jatinder-bir-singh-jaggi"  
-        },
-        {
-          "id": "suman-lal",
-          "name": "Dr. Suman Lal",
-          "specialty": "Obstetrics & Gynaecology",
-          "designation": "Director - Department of Obstetrics & Gynaecology",
-          "hospital": "Max Hospital, Gurgaon",
-          "profileUrl": "/doctors/suman-lal",
-          "experienceYears": 27  
-        },
-        {
-          "id": "amit-goel",
-          "name": "Dr. Amit Goel",
-          "specialty": "Urology & Renal Transplant",
-          "designation": "Director & Head of Unit - Renal Transplant, Uro-Oncology & Urology",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 22,
-          "profileUrl": "/doctors/amit-goel"  
-        }
-        ,
-        {
-          "id": "arun-saroha",
-        "name": "Dr. Arun Saroha",
-        "specialty": "Neurosurgery & Spine Surgery",
-        "designation": "Principal Director & Unit Head - Neurosciences, Neurosurgery & Spine Surgery",
-        "hospital": "Max Hospital, Gurgaon",
-        "experienceYears": 27,
-        "profileUrl": "/doctors/arun-saroha"
-        },
-        {
-          "id": "kaushal-yadav",
-          "name": "Dr. Kaushal Yadav",
-          "specialty": "Surgical Oncology",
-          "designation": "Associate Director & Unit Head – Surgical Oncology",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 20,
-          "profileUrl": "/doctors/kaushal-yadav"
-        }
+       {
+        "id": "prashant-jain",
+        "name": "Dr. Prashant Jain",
+        "designation": "Senior Director - Paediatric Surgery & Coordinator Paediatric Super Specialties",
+        "specialty": "paediatric-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/prashant-jain"
+       },
+       {
+        "id": "lokesh-kumar",
+        "name": "Dr. Lokesh Kumar",
+        "designation": "Vice Chairman & HOD - Plastic & Cosmetic Surgery",
+        "specialty": "plastic-cosmetic-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/lokesh-kumar"
+       },
+       {
+        "id": "dharma-choudhary",
+        "name": "Dr. Dharma Choudhary",
+        "designation": "Chairman - Haemato Oncology & BMT",
+        "specialty": "haemato-oncology-bmt",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/dharma-choudhary"
+       },{
+        "id": "vishal-saxena",
+        "name": "Dr. Vishal Saxena",
+        "designation": "Principal Director - Nephrology & Renal Transplantation",
+        "specialty": "nephrology-renal-transplant",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/vishal-saxena"
+       },{
+        "id": "rajesh-kumar-jain",
+        "name": "Dr. Rajesh Kumar Jain",
+        "designation": "Principal Director - Surgical Oncology",
+        "specialty": "surgical-oncology",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/rajesh-kumar-jain"
+       },{
+        "id": "ishwar-bohra",
+        "name": "Dr. Ishwar Bohra",
+        "designation": "Senior Director - Joint Replacement Programme",
+        "specialty": "orthopaedics-joint-replacement",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/ishwar-bohra"
+       },{
+        "id": "ramji-mehrotra",
+        "name": "Dr. Ramji Mehrotra",
+        "designation": "Chairman & Chief - Cardiothoracic & Vascular Surgery",
+        "specialty": "cardiothoracic-vascular-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/ramji-mehrotra"
+       },
+       {
+        "id": "abhideep-chaudhary",
+        "name": "Dr. Abhideep Chaudhary",
+        "designation": "Chairman & HOD - HPB Surgery & Liver Transplantation",
+        "specialty": "liver-transplant-hpb-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/abhideep-chaudhary"
+       },
+       {
+        "id": "ajay-kumar",
+        "name": "Dr. Ajay Kumar",
+        "designation": "Chairman - Gastroenterology & Hepatology - Pan Max and HOD - BLK-Max Institute for Digestive & Liver Diseases",
+        "specialty": "gastroenterology-hepatology",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/ajay-kumar"
+       }
+       ,
+       {
+        "id": "rohit-bansil",
+        "name": "Dr. Rohit Bansil",
+        "designation": "Director - Neuro Surgery & Neuro Spine",
+        "specialty": "neurosurgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/rohit-bansil"
+       }
     ]
     },
     "teamAndSpecialities": {

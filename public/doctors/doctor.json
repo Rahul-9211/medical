@@ -1,6 +1,666 @@
 {
   "doctors": [
     {
+      "id": "prashant-jain",
+      "name": "Dr. Prashant Jain",
+      "designation": "Senior Director - Paediatric Surgery & Coordinator Paediatric Super Specialties",
+      "specialty": "paediatric-surgery",
+      "specialities": [
+        "Centre For Child Health",
+        "Paediatric Surgery & Paediatric Urology",
+        "Paediatric Urology"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 19,
+      "about": "Dr. Prashant Jain is Senior Director - Paediatric Surgery & Coordinator Paediatric Super Specialties at BLK-Max Super Speciality Hospital, Delhi. He is a highly experienced Paediatric Surgeon and Paediatric Urologist known for his expertise in advanced paediatric surgical procedures, minimally invasive surgery, and paediatric robotic surgery. With over 19 years of experience, he has worked at premier institutions including King Edward Memorial Hospital, Mumbai and Kalawati Saran Children's Hospital, New Delhi.",
+      "education": [
+        "MBBS",
+        "MRCS",
+        "MS",
+        "MCh"
+      ],
+      "expertise": [
+        "Paediatric Surgery",
+        "Paediatric Urology",
+        "Paediatric Laparoscopic Surgery",
+        "Paediatric Robotic Surgery",
+        "Paediatric Onco-Surgery",
+        "Minimally Invasive Paediatric Surgery",
+        "Neonatal Surgery",
+        "Paediatric Endoscopic Surgery"
+      ],
+      "awards": [
+        "Gold Medalist - MS (General Surgery)",
+        "Gold Medalist - MCh (Paediatric Surgery)"
+      ],
+      "memberships": [
+        "Indian Association of Pediatric Surgeons",
+        "Indian Association of Pediatric Urology",
+        "Pediatric Endoscopy Surgeons of India",
+        "Secretary - Delhi Association of Pediatric Surgeons"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/prashant-jain.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      },
+      "researchPublications": [
+        "Thoracoscopic excision of mediastinal cysts in children - Journal of Minimal Access Surgery, 2007",
+        "Anovestibular fistula with normal anal opening: Is it always congenital? - Indian Journal of Pediatric Surgery, 2008",
+        "Management of splenic abscess in children"
+      ]
+    },
+    {
+      "id": "lokesh-kumar",
+      "name": "Dr. Lokesh Kumar",
+      "designation": "Vice Chairman & HOD - Plastic & Cosmetic Surgery",
+      "specialty": "plastic-cosmetic-surgery",
+      "specialities": [
+        "Centre For Plastic & Cosmetic Surgery",
+        "Aesthetic (Cosmetic) Surgery",
+        "Hair Restoration Clinic",
+        "Reconstructive Plastic Surgery",
+        "Hand And Microvascular Surgery"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 34,
+      "about": "Dr. Lokesh Kumar is Vice Chairman & Head of Plastic & Cosmetic Surgery at BLK-Max Super Speciality Hospital, Delhi. With over 34 years of experience, he is a highly respected Plastic and Cosmetic Surgeon known for his expertise in aesthetic surgery, reconstructive plastic surgery, hair restoration, and microvascular surgery. He has previously worked at Indraprastha Apollo Hospital, Majeedia Hospital, and Holy Family Hospital. Dr. Kumar is recognized nationally and internationally for his contributions to aesthetic and reconstructive plastic surgery.",
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "MCh (Plastic Surgery)",
+        "Fellowship - International College of Surgeons, Chicago, USA (Plastic Surgery)"
+      ],
+      "expertise": [
+        "Plastic Surgery",
+        "Cosmetic Surgery",
+        "Aesthetic Surgery",
+        "Hair Restoration",
+        "Reconstructive Plastic Surgery",
+        "Hand Surgery",
+        "Microvascular Surgery",
+        "Laser Therapy",
+        "Liposuction",
+        "Gynecomastia Surgery",
+        "Breast Augmentation",
+        "Cleft Lip & Palate Surgery",
+        "Craniofacial Surgery"
+      ],
+      "awards": [
+        "National Secretary - International Society of Aesthetic Plastic Surgery (ISAPS)",
+        "Smile Train Visiting Fellow",
+        "Cosmetic Surgery Visiting Professor",
+        "Visiting Fellow - Centre of Cleft Lip-Palate and Craniofacial Deformities, Khon Kaen University"
+      ],
+      "memberships": [
+        "Overseas Associate - British Association of Plastic Surgeons",
+        "Life Member - Association of Plastic Surgeons of India",
+        "Life Member - Association of Surgeons of India",
+        "Life Member - Rhinology Society of India",
+        "Life Member - Indian Medical Association",
+        "Life Member - Indian Association of Aesthetic Plastic Surgeons",
+        "Member - International Society of Aesthetic Plastic Surgery",
+        "Member - American Society of Plastic Surgeons",
+        "Member - International College of Surgeons USA",
+        "Secretary - Association of Plastic Surgeons of India (Delhi Chapter)",
+        "Secretary - Indian Association of Aesthetic Plastic Surgeons (2002-2007)",
+        "President - Indian Association of Aesthetic Plastic Surgeons (2008-2009)",
+        "National Treasurer - Association of Plastic Surgeons of India (2006-2011)",
+        "Secretary - Indian Medical Association, Ghaziabad Branch (1989-1990)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/lokesh-kumar.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      }
+    },
+    {
+      "id": "dharma-choudhary",
+      "name": "Dr. Dharma Choudhary",
+      "designation": "Chairman - Haemato Oncology & BMT",
+      "specialty": "haemato-oncology-bmt",
+      "specialities": [
+        "Centre For Bone Marrow Transplant",
+        "Lymphoma Cancer Programme",
+        "Bone Marrow Harvest",
+        "Lymphoma BMT Cancer Program",
+        "Haematology & BMT",
+        "Allogeneic Bone Marrow Transplant",
+        "Autologous Bone Marrow Transplant"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 20,
+      "about": "Dr. Dharma Choudhary is Chairman - Haemato Oncology & Bone Marrow Transplant at BLK-Max Super Speciality Hospital, Delhi. He is a leading Haemato-Oncologist and Bone Marrow Transplant specialist with over 20 years of experience and has successfully performed more than 2000 life-saving bone marrow transplants. His expertise includes hematological malignancies, bone marrow failure syndromes, haploidentical transplants, and stem cell transplantation for complex blood disorders. Dr. Choudhary has previously served at Sanar International Hospital, BLK-Max Super Speciality Hospital, and Sir Ganga Ram Hospital.",
+      "education": [
+        "MBBS",
+        "MD (Internal Medicine)",
+        "DM (Clinical Haematology) - AIIMS, New Delhi",
+        "Fellowship - Department of Haematology, Christian Medical College and Hospital, Vellore",
+        "Fellowship - Department of Clinical Immunology, Sanjay Gandhi Post Graduate Institute of Medical Sciences, Lucknow",
+        "Fellowship - Leukaemia/BMT Programme, Vancouver General Hospital and BC Cancer Agency, Canada"
+      ],
+      "expertise": [
+        "Bone Marrow Transplant",
+        "Haemato Oncology",
+        "Allogeneic Bone Marrow Transplant",
+        "Autologous Bone Marrow Transplant",
+        "Haploidentical Donor Transplant",
+        "Leukemia Treatment",
+        "Multiple Myeloma Treatment",
+        "Acute Myeloid Leukemia",
+        "Acute Lymphoblastic Leukemia",
+        "Chronic Lymphocytic Leukemia",
+        "Hairy Cell Leukemia",
+        "Polycythemia Vera",
+        "Bone Marrow Failure Syndromes",
+        "Thalassemia Major",
+        "Sickle Cell Disease",
+        "Graft Versus Host Disease Management"
+      ],
+      "awards": [
+        "Performed over 2000 life-saving bone marrow transplants"
+      ],
+      "memberships": [
+        "American Society of Blood and Marrow Transplant",
+        "Life Member - Indian Society of Haematology & Transfusion Medicine"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/dharma-choudhary.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      }
+    },
+    {
+      "id": "vishal-saxena",
+      "name": "Dr. Vishal Saxena",
+      "designation": "Principal Director - Nephrology & Renal Transplantation",
+      "specialty": "nephrology-renal-transplant",
+      "specialities": [
+        "Centre For Renal Sciences & Kidney Transplant",
+        "Clinical, Critical Nephrology And Blood Pressure Clinic",
+        "Kidney Transplant",
+        "Technology For Renal Care",
+        "Nephrology"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 17,
+      "about": "Dr. Vishal Saxena is Principal Director - Nephrology & Renal Transplantation at BLK-Max Super Speciality Hospital, Delhi. He is a renowned Nephrologist and Renal Transplant Specialist known for his patient-centric approach and expertise in managing complex kidney disorders. With over 17 years of experience, he specializes in acute kidney injury, chronic kidney disease, glomerular diseases, kidney transplantation, and critical care nephrology. Dr. Saxena has previously worked at Fortis Hospital Gurgaon and Medanta Medicity Gurgaon.",
+      "education": [
+        "MBBS",
+        "MD (Internal Medicine)",
+        "DNB (Nephrology)"
+      ],
+      "expertise": [
+        "Nephrology",
+        "Renal Transplantation",
+        "Kidney Transplant",
+        "Acute Kidney Injury",
+        "Chronic Kidney Disease",
+        "Glomerular Diseases",
+        "Critical Care Nephrology",
+        "Blood Pressure Management",
+        "Dialysis",
+        "Kidney Disease Management"
+      ],
+      "awards": [
+        "Best Paper Presentation at APICON Jaipur - 2000",
+        "Best Paper Presentation at Indraprastha Apollo Hospitals - 2005",
+        "Star Doctor of the Month - Fortis Hospital Vasant Kunj",
+        "Gold Medal - University Precaution: An answer to preventing HCV Transmission in HD units - ISN 2009, Guwahati"
+      ],
+      "memberships": [
+        "Delhi Nephrology Society",
+        "North Zone Indian Society of Nephrology",
+        "European Dialysis & Transplant Association",
+        "Indian Society of Nephrology",
+        "External Examiner for Dialysis Training Program at CMC Vellore Sponsored Exam at St Stephens Hospital"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/vishal-saxena.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      }
+    },
+    {
+      "id": "rajesh-kumar-jain",
+      "name": "Dr. Rajesh Kumar Jain",
+      "designation": "Principal Director - Surgical Oncology",
+      "specialty": "surgical-oncology",
+      "specialities": [
+        "Cancer Centre",
+        "Surgical Oncology",
+        "Thorax & Lung Cancer Programme",
+        "Head and Neck Cancer Programme",
+        "Thoracic Cancer Programme",
+        "Breast Cancer Programme",
+        "Thyroid Cancer Programme",
+        "Advance Urology Cancer Programme",
+        "Sarcoma and Bone Cancer Programme",
+        "Lymphoma Cancer Programme",
+        "Paediatric Cancer Programme",
+        "Gynaecologic Cancer Programme",
+        "Cancer Robotic Surgery Programme"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 26,
+      "about": "Dr. Rajesh Kumar Jain is Principal Director - Surgical Oncology at BLK-Max Super Speciality Hospital, Delhi. With over 26 years of experience, he is a distinguished Surgical Oncologist known for pioneering surgical techniques and delivering advanced cancer care. His expertise includes robotic cancer surgeries, head and neck cancer surgeries, breast cancer surgeries, thoracic and GI cancer surgeries, gynecologic oncology surgeries, and uro-oncology procedures. Dr. Jain has previously worked at Action Cancer Hospital, Rajiv Gandhi Cancer Institute, Indraprastha Apollo Hospital, and BLK Super Speciality Hospital.",
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "DNB (Surgical Oncology)"
+      ],
+      "expertise": [
+        "Surgical Oncology",
+        "Robotic Cancer Surgery",
+        "Head & Neck Cancer Surgery",
+        "Breast Cancer Surgery",
+        "Gynaecologic Cancer Surgery",
+        "Thoracic Cancer Surgery",
+        "GI Cancer Surgery",
+        "Uro-Oncology Surgery",
+        "Thyroid Cancer Surgery",
+        "Sarcoma Surgery",
+        "Bone Cancer Surgery",
+        "Paediatric Oncology Surgery",
+        "Sentinel Lymph Node Biopsy",
+        "Wide Local Excision"
+      ],
+      "awards": [],
+      "memberships": [
+        "Indian Society of Oncology"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rajesh-kumar-jain.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      }
+    },
+    {
+      "id": "ishwar-bohra",
+      "name": "Dr. Ishwar Bohra",
+      "designation": "Senior Director - Joint Replacement Programme",
+      "specialty": "orthopaedics-joint-replacement",
+      "specialities": [
+        "Institute For Bone, Joint Replacement, Orthopedics Spine & Sports Medicine",
+        "Knee Replacement Surgery",
+        "Centre for Joint Replacement",
+        "Centre For Orthopaedic",
+        "Orthopaedic Trauma Care",
+        "Orthopaedic Rehabilitation Programme",
+        "Rheumatic Diseases"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 23,
+      "about": "Dr. Ishwar Bohra is Senior Director - Joint Replacement Programme at BLK-Max Super Speciality Hospital, Delhi. He is a renowned Joint Replacement Surgeon with over 23 years of global experience in orthopaedics, joint replacement, sports medicine, and arthroscopy. Dr. Bohra specializes in robotic knee replacement, hip replacement, shoulder replacement, revision joint replacement surgeries, and arthroscopic sports injury procedures. He has received advanced fellowship training from prestigious institutions in the UK, Germany, Spain, and the USA.",
+      "education": [
+        "MCh (Orth)",
+        "MS (Orth)",
+        "MAMS - National Academy of Medical Sciences, New Delhi",
+        "Fellowship in Arthroscopy and Sports Medicine (FASM) - Quiron Hospital, Barcelona, Spain",
+        "Fellowship in Knee Replacement and Arthroscopic Surgery - University of North Tee & Hartlepool NHS, UK",
+        "Fellowship in Upper Limb Surgery - University Hospital of Aberdeen, Scotland, UK",
+        "Fellowship in Joint Replacement Surgery - Princess Elizabeth Orthopaedic Center, Exeter, England",
+        "Fellowship in Revision Joint Replacement Surgery - Endo Klinik, Hamburg, Germany",
+        "Observational Fellowship in Primary and Revision Arthroplasty - Lancaster General Hospital & Adventist Hospital, USA",
+        "Complex and Revision Arthroplasty Fellowship - Sancheti Institute of Orthopaedics, Pune"
+      ],
+      "expertise": [
+        "Robotic Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Shoulder Replacement Surgery",
+        "Revision Knee Replacement",
+        "Revision Hip Replacement",
+        "Arthroscopy Surgery",
+        "Sports Injury Surgery",
+        "Ligament Surgery for Knee & Shoulder",
+        "Orthopaedic Trauma Care",
+        "Joint Replacement Surgery",
+        "Orthopaedic Rehabilitation"
+      ],
+      "awards": [
+        "Advanced Training in Arthroscopy and Sports Medicine at ISAKOS approved teaching centre, Barcelona",
+        "Advanced Arthroplasty and Arthroscopy Fellowship from Sancheti Institute of Orthopaedic and Rehabilitation"
+      ],
+      "memberships": [
+        "National Academy of Medical Sciences (MAMS)",
+        "Indian Orthopaedic Association",
+        "Indian Arthroscopy Society",
+        "SICOT (Belgium)",
+        "Rajasthan Orthopaedic Association",
+        "Delhi Orthopaedic Association",
+        "SIOR (Sancheti Institute of Orthopaedics and Rehabilitation)",
+        "ASSICON"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/ishwar-bohra.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      },
+      "researchPublications": [
+        "Pantoea agglomerans infection behaving like a tumor after plant thorn injury: an unusual presentation - Indian Journal of Pathology & Microbiology, 2012",
+        "Aneurysmal Bone Cyst of Scapula: A Case Report - Delhi Journal of Orthopaedics, 2008",
+        "THR in Sickle Cell Anemia - Indian Journal of Orthopaedics (Accepted)"
+      ]
+    },
+    {
+      "id": "ramji-mehrotra",
+      "name": "Dr. Ramji Mehrotra",
+      "designation": "Chairman & Chief - Cardiothoracic & Vascular Surgery",
+      "specialty": "cardiothoracic-vascular-surgery",
+      "specialities": [
+        "Heart & Vascular Institute",
+        "Enhanced External Counterpulsation (EECP) Therapy",
+        "Cardiac Intensive Care",
+        "Cardiothoracic And Vascular Surgery",
+        "Technology For Heart Care"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 27,
+      "about": "Dr. Ramji Mehrotra is Chairman & Chief - Cardiothoracic & Vascular Surgery at BLK-Max Super Speciality Hospital, Delhi. With over 27 years of experience in Cardio Thoracic and Vascular Surgery (CTVS), he is recognized for his expertise in beating heart surgery, total arterial CABG, valve repair and replacement, congenital heart surgery, minimally invasive cardiac surgery, and heart transplant surgery. Dr. Mehrotra has worked at prestigious institutions including Fortis Escorts Heart Institute, Indraprastha Apollo Hospital, Asian Heart Institute, and Harvard Medical School affiliated hospitals in Boston, USA.",
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "MCh (CTVS)",
+        "Fellowship in Cardiac Surgery - Harvard Medical School, Boston, USA"
+      ],
+      "expertise": [
+        "Cardiothoracic and Vascular Surgery",
+        "Beating Heart CABG",
+        "Total Arterial CABG",
+        "Complex Bypass Surgery",
+        "Valve Repair & Replacement",
+        "Sutureless Valve Surgery",
+        "Aneurysm Surgery",
+        "Bentall Procedure",
+        "Congenital Heart Surgery",
+        "Minimally Invasive Cardiac Surgery",
+        "Heart Failure Surgery",
+        "ECMO",
+        "LVAD",
+        "Heart Transplantation",
+        "TAVI / TAVR Procedures",
+        "Endovascular Procedures",
+        "Cardiac Intensive Care"
+      ],
+      "awards": [
+        "Performed first total arterial revascularization at Apollo Hospitals, New Delhi",
+        "Performed first total arterial revascularization using bilateral mammary arteries at Indraprastha Apollo Hospitals, New Delhi",
+        "Established total arterial revascularization program at Fortis Escorts Heart Institute, New Delhi",
+        "Performed first minimal incision OPCAB total arterial revascularization at Indraprastha Apollo Hospitals, New Delhi",
+        "Performed total arterial CABG on the youngest patient in India aged 10 years",
+        "Performed first successful arterial switch operation in Mumbai, India",
+        "Started Paediatric Cardiac Surgery at Indraprastha Apollo Hospitals, New Delhi",
+        "Setup Paediatric Cardiac Surgery facility at Asian Heart Institute, Mumbai",
+        "Times of India 'Legends of Cardiac Surgery' Award"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/ramji-mehrotra.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      }
+    },
+    {
+      "id": "abhideep-chaudhary",
+      "name": "Dr. Abhideep Chaudhary",
+      "designation": "Chairman & HOD - HPB Surgery & Liver Transplantation",
+      "specialty": "liver-transplant-hpb-surgery",
+      "specialities": [
+        "Institute For Digestive & Liver Diseases",
+        "Hepato Pancreato Biliary Surgery",
+        "Liver Transplant",
+        "Liver Diseases"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 18,
+      "about": "Dr. Abhideep Chaudhary is Chairman & Head of HPB Surgery & Liver Transplantation at BLK-Max Super Speciality Hospital, Delhi. With over 18 years of experience and more than 2000 successful HPB and liver transplant surgeries, he specializes in complex liver transplantation and hepatopancreatobiliary surgery. Dr. Chaudhary has extensive expertise in living donor liver transplantation, robotic liver donor surgery, pediatric liver transplantation, and complex liver and pancreatic cancer surgeries. He has previously worked at Jaypee Hospital, Sir Ganga Ram Hospital, Indraprastha Apollo Hospitals, and the Thomas Starzl Transplantation Institute at the University of Pittsburgh Medical Center, USA.",
+      "education": [
+        "MBBS",
+        "MS",
+        "FACS",
+        "FAIS",
+        "FRCS (Glasgow)",
+        "Multiorgan Transplant Surgery Fellowship - Pittsburgh, USA"
+      ],
+      "expertise": [
+        "Robotic Liver Donor Surgery",
+        "Living Donor Liver Transplant",
+        "Deceased (Cadaver) Donor Liver Transplant",
+        "Paediatric Liver Transplant",
+        "ABO Incompatible Liver Transplant",
+        "Simultaneous Liver Kidney Transplant",
+        "Dual Lobe Liver Transplant",
+        "Complex Liver and Pancreatic Surgery",
+        "Hepato-Pancreatico-Biliary Cancer Surgery",
+        "HPB Surgery",
+        "Liver Fibrosis Treatment"
+      ],
+      "awards": [
+        "Treasurer - Liver Transplant Society of India (2023-2025)",
+        "NewsX Health Excellence Award by Honorable Health Minister J.P. Nadda",
+        "Times Healthcare Achiever's Award for Rising Star in Liver Transplant",
+        "Delhi Medical Association Vishisht Chikitsa Award",
+        "National Status Award for Health Excellence",
+        "Global Achiever’s Award",
+        "Rashtriya Chikitsa Puruskar and Gold Medal",
+        "Assistant Secretary General - Indian Medical Association Westtown Branch (2014-2015)"
+      ],
+      "memberships": [
+        "Fellow American College of Surgeons",
+        "Fellow Royal College of Physicians and Surgeons of Glasgow",
+        "Fellow Association of Surgeons of India",
+        "Founding Member - Liver Transplant Society of India",
+        "Lifetime Member - Indian Medical Association",
+        "Lifetime Member - Association of Surgeons of India"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/abhideep-chaudhary.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      }
+    },
+    {
+      "id": "ajay-kumar",
+      "name": "Dr. Ajay Kumar",
+      "designation": "Chairman - Gastroenterology & Hepatology - Pan Max and HOD - BLK-Max Institute for Digestive & Liver Diseases",
+      "specialty": "gastroenterology-hepatology",
+      "specialities": [
+        "Institute For Digestive & Liver Diseases",
+        "Gastroenterology and Hepatology"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 36,
+      "about": "Dr. Ajay Kumar is Chairman - Gastroenterology & Hepatology - Pan Max and Head of BLK-Max Institute for Digestive & Liver Diseases at BLK-Max Super Speciality Hospital, Delhi. With over 36 years of experience, he is a distinguished Gastroenterologist and Hepatologist known for his expertise in therapeutic endoscopy, hepatology, pancreatic disorders, inflammatory bowel diseases, and advanced gastrointestinal treatments. He has previously held leadership positions at Fortis Escorts, Mool Chand Hospital, and Indraprastha Apollo Hospital, where he established and expanded advanced gastroenterology and therapeutic endoscopy services.",
+      "education": [
+        "MBBS",
+        "MD (Medicine)",
+        "DM (Gastroenterology)",
+        "MAMS",
+        "FRCP (Glasgow)",
+        "Fellowship in Therapeutic Endoscopy - University Hospital, Hamburg"
+      ],
+      "expertise": [
+        "Gastroenterology",
+        "Hepatology",
+        "Therapeutic Endoscopy",
+        "Digestive and Liver Diseases",
+        "Pancreatitis",
+        "Hepatitis",
+        "Crohn's Disease",
+        "Jaundice Management",
+        "Gastroenteritis",
+        "Advanced GI Endoscopy",
+        "Liver Disease Management"
+      ],
+      "awards": [
+        "Dr. B.C. Roy Award by President of India - 2008",
+        "J Mitra Olympus Award for Endoscopist of the Year - 2007",
+        "Editorial Board Member - Gastrointestinal Endoscopy, Official Journal of American Society of GI Endoscopy",
+        "Delivered multiple prestigious medical orations including Prof. Mehta Oration API and SISCO Pentax Oration SGEI"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/ajay-kumar.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      }
+    },
+    {
+      "id": "rohit-bansil",
+      "name": "Dr. Rohit Bansil",
+      "designation": "Director - Neuro Surgery & Neuro Spine",
+      "specialty": "neurosurgery",
+      "specialities": [
+        "Centre For Neurosciences",
+        "Minimally Invasive Neuro Spine Surgery",
+        "Neuro-endoscopy Surgery",
+        "Functional Neurosurgery",
+        "Back Pain Management"
+      ],
+      "hospital": "BLK-Max Super Speciality Hospital, Delhi",
+      "hospitalslug": "blk-max-super-speciality-hospital-delhi",
+      "experienceYears": 14,
+      "about": "Dr. Rohit Bansil is Director - Neuro Surgery & Neuro Spine at BLK-Max Super Speciality Hospital, Delhi. He is a renowned Neurosurgeon recognized for his patient-centric approach and expertise in advanced neurosurgical procedures. With over 14 years of experience, he specializes in spine surgery, neuro-endoscopy, brain and spine tumours, pediatric neurosurgery, neurotrauma, and functional neurosurgery. Dr. Bansil has worked at reputed institutions including BLK-Max Super Speciality Hospital and Max Super Specialty Hospital, Saket, New Delhi.",
+      "education": [
+        "MBBS",
+        "DNB (Neurosurgery)",
+        "Advanced Spine Surgery Fellowship - Japan",
+        "Fellowship in Brachial Plexus & Peripheral Nerve Surgery - AIIMS, New Delhi"
+      ],
+      "expertise": [
+        "Neurosurgery",
+        "Spine Surgery",
+        "Minimally Invasive Neuro Spine Surgery",
+        "Neuro-endoscopy Surgery",
+        "Brain and Spine Tumour Surgery",
+        "Pediatric Neurosurgery",
+        "Neurotrauma",
+        "Functional Neurosurgery",
+        "Back Pain Management",
+        "Migraine Treatment",
+        "Multiple Sclerosis Treatment"
+      ],
+      "awards": [],
+      "memberships": [
+        "Member of Neurological Society of India (NSI)",
+        "Member of Indian Society of Peripheral Nerve Surgery (ISPNS)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rohit-bansil.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "",
+        "phone": "+91 9540025025",
+        "availability": "By Appointment",
+        "location": "BLK-Max Super Speciality Hospital, Delhi, India"
+      },
+      "researchPublications": [
+        "Transformation of a herniated lumbar disc to the discal cyst: A case report | Surgical Neurology International, 2016",
+        "Metastasis to a Spinal Meningioma | Surgical Neurology International, 2017",
+        "Cerebral Medulloepithelioma - A rare aggressive brain tumour in child: A case report | Indian Journal of Neurosurgery, 2016",
+        "Nasal Carriage of Methicillin Resistant Staphylococcus aureus in medical students | Journal of Hospital Infection, 2008",
+        "Current status of spinal cord regenerative therapies: A review | Indian Journal of Neurosurgery, 2016",
+        "Advantages of Endoscope-Assisted Disc-FX in surgical management of Lumbar disc herniation: A Report of 10 cases | J Spine, 2018",
+        "Intraneural synovial sarcoma of median nerve - A rare case report with review of literature | Romanian Neurosurgery, 2020",
+        "Sharing experience of telemedicine for Neurosurgery Management during COVID-19 Pandemic | International Journal of Science and Research, 2020"
+      ]
+    },
+    {
       "id": "udgeath-dhir",
       "name": "Dr. Udgeath Dhir",
       "designation": "Principal Director Cardio Thoracic Vascular Surgery",
