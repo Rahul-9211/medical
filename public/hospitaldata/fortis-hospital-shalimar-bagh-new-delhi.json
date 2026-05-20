@@ -77,60 +77,60 @@
     "visible": true,
     "list": [
         {
-          "id": "rohit-goel",
-          "name": "Dr. Rohit Goel",
-          "specialty": "Cardiology",
-          "designation": "Principal Consultant - Cardiology",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 18,
-          "profileUrl": "/doctors/rohit-goel"
+          "id": "amite-pankaj-aggarwal",
+          "name": "Dr. Amite Pankaj Aggarwal",
+          "designation": "Principal Director & HOD - Orthopaedics",
+          "specialty": "orthopaedics",
+          "rating": 4.9,
+          "experienceYears": 28,
+          "profileUrl": "/doctors/amite-pankaj-aggarwal"
         },
         {
-          "id": "jatinder-bir-singh-jaggi",
-          "name": "Dr. Jatinder Bir Singh Jaggi",
-          "specialty": "Orthopaedics & Joint Replacement",
-          "designation": "Director – Orthopaedics & Joint Replacement, Arthroscopy & Sports Injury",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 18,
-          "profileUrl": "/doctors/jatinder-bir-singh-jaggi"  
+          "id": "pradeep-kumar-jain",
+          "name": "Dr. Pradeep Kumar Jain",
+          "designation": "Chairman – GI, GI Oncology, Minimal Access & Bariatric Surgery",
+          "specialty": "gastrointestinal-surgery",
+          "rating": 4.9,
+          "experienceYears": 28,
+          "profileUrl": "/doctors/pradeep-kumar-jain"
         },
         {
-          "id": "suman-lal",
-          "name": "Dr. Suman Lal",
-          "specialty": "Obstetrics & Gynaecology",
-          "designation": "Director - Department of Obstetrics & Gynaecology",
-          "hospital": "Max Hospital, Gurgaon",
-          "profileUrl": "/doctors/suman-lal",
-          "experienceYears": 27  
+          "id": "rakesh-kumar-dua",
+          "name": "Dr. Rakesh Kumar Dua",
+          "designation": "Principal Director & HOD Neuro and Spine Surgery",
+          "specialty": "neurosurgery",
+          "rating": 4.9,
+          "experienceYears": 28,
+          "profileUrl": "/doctors/rakesh-kumar-dua"
         },
         {
-          "id": "amit-goel",
-          "name": "Dr. Amit Goel",
-          "specialty": "Urology & Renal Transplant",
-          "designation": "Director & Head of Unit - Renal Transplant, Uro-Oncology & Urology",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 22,
-          "profileUrl": "/doctors/amit-goel"  
+          "id": "dinesh-kumar-mittal",
+          "name": "Dr. Dinesh Kumar Mittal",
+          "designation": "Senior Director & HOD Cardiothoracic and Vascular Surgery",
+          "specialty": "cardiothoracic-and-vascular-surgery",
+          "rating": 4.9,
+          "experienceYears": 28,
+          "profileUrl": "/doctors/dinesh-kumar-mittal"
+        },
+        {
+          "id": "rajinder-yadav",
+          "name": "Dr. Rajinder Yadav",
+          "designation": "Principal Director Urology",
+          "specialty": "urology",
+          "rating": 4.9,
+          "experienceYears": 28,
+          "profileUrl": "/doctors/rajinder-yadav"
+        },
+        {
+          "id": "puneet-mishra",
+          "name": "Dr. Puneet Mishra",
+          "designation": "Director & Unit Head Orthopedics",
+          "specialty": "orthopaedics",
+          "rating": 4.9,
+          "experienceYears": 28,
+          "profileUrl": "/doctors/puneet-mishra"
         }
-        ,
-        {
-          "id": "arun-saroha",
-        "name": "Dr. Arun Saroha",
-        "specialty": "Neurosurgery & Spine Surgery",
-        "designation": "Principal Director & Unit Head - Neurosciences, Neurosurgery & Spine Surgery",
-        "hospital": "Max Hospital, Gurgaon",
-        "experienceYears": 27,
-        "profileUrl": "/doctors/arun-saroha"
-        },
-        {
-          "id": "kaushal-yadav",
-          "name": "Dr. Kaushal Yadav",
-          "specialty": "Surgical Oncology",
-          "designation": "Associate Director & Unit Head – Surgical Oncology",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 20,
-          "profileUrl": "/doctors/kaushal-yadav"
-        }
+
     ]
     },
     "teamAndSpecialities": {

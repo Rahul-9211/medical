@@ -1,6 +1,1179 @@
 {
   "doctors": [
     {
+      "id": "shalabh-agrawal",
+      "name": "Dr. Shalabh Agrawal",
+      "designation": "Senior Urologist",
+      "specialty": "urology",
+      "specialities": [
+        "Urology",
+        "Minimally Invasive Urology",
+        "Laser Urology",
+        "Uro-Oncology",
+        "Reconstructive Urology",
+        "Paediatric Urology",
+        "Andrology"
+      ],
+      "hospital": "CK Birla Hospital, Gurugram",
+      "hospitalslug": "ck-birla-hospital-gurugram",
+      "experienceYears": 25,
+      "about": "Dr. Shalabh Agrawal is a leading urologist with more than 25 years of clinical experience in advanced urology and minimally invasive procedures. After completing his postgraduate training in General Surgery from Maulana Azad Medical College, New Delhi, he pursued super speciality training in Urology at Army Hospital Research and Referral, New Delhi. He has worked with several premier healthcare institutions including Artemis Hospital, Metro Hospitals, Sitaram Bhartia Hospital, and Army Hospital Research & Referral. Dr. Agrawal specializes in laser treatment for kidney stones and prostate disorders, microsurgical urological procedures, reconstructive paediatric urology, urinary incontinence, penile implants, and urological cancers.",
+      "education": [
+        "MBBS - Maulana Azad Medical College, New Delhi",
+        "MS (General Surgery) - Maulana Azad Medical College, New Delhi",
+        "DNB (Urology) - Army Hospital Research and Referral, New Delhi"
+      ],
+      "expertise": [
+        "Kidney Stone Treatment",
+        "Laser Stone Surgery",
+        "Endoscopic Prostate Surgery",
+        "Laser Prostate Surgery",
+        "Microsurgical Urology",
+        "Urogynaecology",
+        "Urinary Incontinence Treatment",
+        "Reconstructive Paediatric Urology",
+        "Penile Implant Surgery",
+        "Urological Cancer Management",
+        "Minimally Invasive Urology"
+      ],
+      "conditionsTreated": [
+        "Kidney Stones",
+        "Bladder Stones",
+        "Urinary Incontinence",
+        "Urinary Tract Infection (UTI)",
+        "Prostate Enlargement",
+        "Prostatitis",
+        "Overactive Bladder",
+        "Prostate Cancer"
+      ],
+      "workExperience": [
+        "Army Hospital Research and Referral, New Delhi",
+        "Artemis Hospital, Gurugram",
+        "Sitaram Bhartia Hospital, New Delhi",
+        "Metro Hospitals, New Delhi",
+        "Lok Nayak Hospital, New Delhi"
+      ],
+      "memberships": [],
+      "awards": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/shalabh-agrawal.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "reachus@ckbhospital.com",
+        "phone": [
+          "+91 124 4570112",
+          "+91 11 41592200"
+        ],
+        "availability": {
+          "Monday": "10:00 AM - 12:00 PM",
+          "Tuesday": "10:00 AM - 02:00 PM",
+          "Wednesday": "10:00 AM - 12:00 PM",
+          "Thursday": "10:00 AM - 02:00 PM",
+          "Friday": "10:00 AM - 12:00 PM",
+          "Saturday": "10:00 AM - 02:00 PM"
+        },
+        "location": "CK Birla Hospital, Sector 51, Gurugram, Haryana, India"
+      },
+      "blogs": [
+        "Common causes of frequent urination in men",
+        "What causes a burning sensation when urinating or dysuria?",
+        "Top 10 expert-approved tips for prostate cancer prevention"
+      ]
+    },
+    {
+      "id": "anjali-kumar",
+      "name": "Dr. Anjali Kumar",
+      "designation": "Senior Obstetrician, Gynaecologist & Advanced Robotic Gynaecologic Surgeon",
+      "specialty": "obstetrics-and-gynaecology",
+      "specialities": [
+        "Obstetrics",
+        "Gynaecology",
+        "Robotic Gynaecologic Surgery",
+        "Minimal Access Surgery",
+        "High Risk Obstetrics",
+        "Advanced Gynaecology",
+        "Laparoscopic Surgery",
+        "Hysteroscopy",
+        "VBAC"
+      ],
+      "hospital": "CK Birla Hospital, Gurugram",
+      "hospitalslug": "ck-birla-hospital-gurugram",
+      "experienceYears": 35,
+      "about": "Dr. Anjali Kumar is a renowned obstetrician, gynaecologist, and advanced robotic surgeon with over 35 years of clinical experience. She is among the most experienced specialists in Delhi NCR for high-risk pregnancies, robotic gynaecological procedures, and minimally invasive surgeries. Dr Kumar is internationally recognized for her innovative ‘Kumar’s Technique’ (Reverse Uterine Closure Technique), presented and accepted at AICOG 2015 and FIGO Vancouver 2015. She specializes in advanced laparoscopic, hysteroscopic, and robotic procedures including hysterectomies, myomectomies, endometriosis surgeries, fertility-enhancing procedures, and ovarian cyst surgeries. She pioneered the concept of ‘Natural Childbirth Oriented Pregnancy Care’ in NCR and actively promotes VBAC (Vaginal Birth After Caesarean). She is also the founder of the women’s health educational platform ‘MAITRI’, which is part of the WHO FIDES verified healthcare information group.",
+      "education": [
+        "MBBS - Lady Hardinge Medical College, New Delhi",
+        "MD (Obstetrics & Gynaecology) - Lady Hardinge Medical College, New Delhi",
+        "FICMCH - Fellow Indian College of Maternal and Child Health",
+        "FMAS - Fellow Minimal Access Surgery",
+        "Certificate Course in Endoscopy - Ethicon Endo-Surgery Institute & World Association of Laparoscopic Surgeons",
+        "Certificate Course in Endoscopy - Indian Association of Gynecologic Endoscopists",
+        "Certificate Course in Ultrasound - FOGSI Certified Institute of Ultrasound Training, New Delhi",
+        "Fetal Medicine Foundation UK - Certificate of Competence in Ultrasound (18-23 weeks)",
+        "Training in Da Vinci Robotic Surgical Technology"
+      ],
+      "expertise": [
+        "Robotic Hysterectomy",
+        "Robotic Myomectomy",
+        "Robotic Endometriosis Surgery",
+        "Robotic Ovarian Cystectomy",
+        "High-Risk Pregnancy Management",
+        "VBAC (Vaginal Birth After Caesarean)",
+        "Laparoscopic Hysterectomy",
+        "Laparoscopic Myomectomy",
+        "Laparoscopic Fertility Surgery",
+        "Operative Hysteroscopy",
+        "Minimal Access Gynaecologic Surgery",
+        "Endometriosis Treatment",
+        "PCOD Management",
+        "Pelvic Floor Disorders",
+        "Ovarian Cyst Management",
+        "Fibroid Treatment"
+      ],
+      "conditionsTreated": [
+        "Endometriosis",
+        "PCOD",
+        "Menstrual Disorders",
+        "Pregnancy Complications",
+        "Pelvic Floor Disorders",
+        "Uterine Fibroids",
+        "Ovarian Cysts",
+        "Gynaecological Cancer"
+      ],
+      "awards": [
+        "Developed the internationally recognized ‘Kumar’s Technique’ for reverse uterine closure",
+        "Presented and accepted at AICOG 2015 and FIGO Vancouver 2015",
+        "Founder of MAITRI women’s health platform associated with WHO FIDES"
+      ],
+      "memberships": [
+        "World Association of Laparoscopic Surgeons",
+        "Indian Association of Gynecologic Endoscopists",
+        "FOGSI"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/anjali-kumar.jpg",
+            "visible": true
+          }
+        ],
+        "books": [
+          {
+            "title": "I Am Blessed",
+            "type": "Pregnancy & Childbirth Guidance"
+          }
+        ]
+      },
+      "contact": {
+        "email": "reachus@ckbhospital.com",
+        "phone": [
+          "+91 124 4570112",
+          "+91 11 41592200"
+        ],
+        "availability": {
+          "Monday": "10:00 AM - 06:00 PM",
+          "Tuesday": "10:00 AM - 06:00 PM",
+          "Wednesday": "10:00 AM - 06:00 PM",
+          "Thursday": "10:00 AM - 06:00 PM",
+          "Friday": "10:00 AM - 06:00 PM",
+          "Saturday": "10:00 AM - 06:00 PM"
+        },
+        "location": "CK Birla Hospital, Sector 51, Gurugram, Haryana, India"
+      }
+    },
+    {
+      "id": "anish-gupta",
+      "name": "Dr Anish Gupta",
+      "designation": "ENT Specialist & Head and Neck Surgeon",
+      "specialty": "ent-and-head-neck-surgery",
+      "specialities": [
+        "ENT",
+        "Head & Neck Surgery",
+        "Endoscopic Sinus Surgery",
+        "Cochlear Implant Surgery",
+        "Otology",
+        "Rhinology"
+      ],
+      "hospital": "CK Birla Hospital, Gurugram",
+      "hospitalslug": "ck-birla-hospital-gurugram",
+      "experienceYears": 23,
+      "about": "Dr Anish Gupta is a prominent and highly experienced ENT specialist and Head & Neck surgeon at CK Birla Hospital, Gurugram. He has extensive expertise in performing both common and complex ENT procedures including otological surgeries, rhinological procedures, laryngeal framework surgeries, endoscopic sinus surgeries, cochlear implants, thyroidectomy, and surgeries for head and neck tumours. He has participated in more than 100 cochlear implant procedures and personally performed over 60 cochlear implant surgeries. Dr Gupta has also performed more than 2000 endonasal procedures and over 3000 middle and inner ear surgeries including revision mastoidectomies, stapedotomy, glomus tympanicum surgeries, optic nerve decompressions, and endolymphatic sac decompressions.",
+      "education": [
+        "MBBS",
+        "MS (ENT and Head & Neck Surgery)",
+        "Army Hospital Research and Referral (2004-07)",
+        "Senior Research Fellow - Indian Council of Medical Research (2008)",
+        "Training in Non-invasive Sinus Procedures (Balloon Sinuplasty) - Thailand (2015)",
+        "Training for Difficult Cochlear Implant Procedures - Sydney, Australia (2016)",
+        "Training in Implantable Hearing Aids (BAHA) - Kuala Lumpur, Malaysia (2019)"
+      ],
+      "expertise": [
+        "Head & Neck Surgery",
+        "Endoscopic Sinus Surgery",
+        "Cochlear Implant Surgery",
+        "Endoscopic Dacryocystorhinostomy",
+        "Otology",
+        "Rhinology",
+        "Middle Ear Surgery",
+        "Inner Ear Surgery",
+        "Revision Mastoidectomy",
+        "Stapedotomy",
+        "Thyroidectomy",
+        "Head and Neck Tumour Surgery"
+      ],
+      "awards": [
+        "Recognised for humanitarian services to the people of Gombe State, Nigeria",
+        "Raj Lakshmi Memorial Gold Medal in Temporal Bone Dissection Workshop, KKR Chennai (2014)"
+      ],
+      "memberships": [
+        "Association of Otolaryngologists of India"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/anish-gupta.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "reachus@ckbhospital.com",
+        "phone": [
+          "+91 124 4570112",
+          "+91 11 41592200"
+        ],
+        "availability": {
+          "Monday": "02:00 PM - 04:00 PM",
+          "Tuesday": "10:00 AM - 01:00 PM",
+          "Wednesday": "02:00 PM - 04:00 PM",
+          "Thursday": "10:00 AM - 01:00 PM",
+          "Friday": "02:00 PM - 04:00 PM",
+          "Saturday": "10:00 AM - 01:00 PM"
+        },
+        "location": "CK Birla Hospital, Sector 51, Gurugram, Haryana, India"
+      }
+    },
+    {
+      "id": "amit-d-goswami",
+      "name": "Dr Amit D Goswami",
+      "designation": "Senior Consultant - GI, Minimal Access & Bariatric Surgery",
+      "specialty": "general-and-bariatric-surgery",
+      "specialities": [
+        "General Surgery",
+        "Bariatric Surgery",
+        "Minimally Invasive Surgery",
+        "Laparoscopic Surgery",
+        "Robotic Surgery",
+        "Advanced Hernia Surgery"
+      ],
+      "hospital": "CK Birla Hospital, Gurugram",
+      "hospitalslug": "ck-birla-hospital-gurugram",
+      "experienceYears": 27,
+      "about": "Dr Amit D Goswami is a highly trusted and experienced General, Bariatric & Minimally Invasive Surgeon at CK Birla Hospital, Gurugram, with more than 27 years of experience. He is skilled in performing advanced laparoscopic, bariatric, robotic, and minimally invasive surgeries. Dr Goswami is known for creating a safe and supportive environment for patients, enabling personalized treatment planning and improved patient outcomes. He actively participates in national and international medical conferences and has appeared across various media platforms sharing expertise on laparoscopic and bariatric surgery advancements.",
+      "education": [
+        "MBBS - Guwahati Medical College, Guwahati (1999)",
+        "MS (General Surgery) - Silchar Medical College, Assam (2006)",
+        "FNB (MAS)",
+        "FIAGES",
+        "FCLS"
+      ],
+      "expertise": [
+        "Minimally Access Surgery",
+        "Robotic Bariatric Surgery",
+        "Advanced Hernia Surgery",
+        "Laparoscopic Surgery",
+        "General Surgery",
+        "Bariatric Surgery",
+        "Minimally Invasive Surgery"
+      ],
+      "workExperience": [
+        "Senior Consultant - Manipal Hospital, Gurugram",
+        "Consultant - Columbia Asia Hospital, Palam Vihar",
+        "Consultant - Max Super Speciality Hospital, Saket",
+        "Fellow National Board - Max Super Speciality Hospital, Saket",
+        "Consultant - Medanta Medicity Hospital",
+        "Senior Resident - All India Institute of Medical Sciences (AIIMS)"
+      ],
+      "awards": [
+        "Featured on multiple media platforms for expertise in laparoscopic and bariatric surgery",
+        "Active participant in National and International medical seminars and conferences"
+      ],
+      "memberships": [
+        "FIAGES",
+        "FCLS"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/amit-d-goswami.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "reachus@ckbhospital.com",
+        "phone": [
+          "+91 124 4570112",
+          "+91 11 41592200"
+        ],
+        "availability": {
+          "Monday": "01:00 PM - 05:00 PM",
+          "Tuesday": "09:00 AM - 01:00 PM",
+          "Wednesday": "01:00 PM - 05:00 PM",
+          "Thursday": "09:00 AM - 01:00 PM",
+          "Friday": "01:00 PM - 05:00 PM",
+          "Saturday": "09:00 AM - 01:00 PM"
+        },
+        "location": "CK Birla Hospital, Sector 51, Gurugram, Haryana, India"
+      }
+    },
+
+    {
+      "id": "amite-pankaj-aggarwal",
+      "name": "Dr. Amite Pankaj Aggarwal",
+      "designation": "Principal Director & HOD - Orthopaedics",
+      "specialty": "orthopaedics",
+      "specialities": [
+        "Orthopaedics",
+        "Sports Medicine",
+        "Robotic and Computer Navigated Joint Reconstruction",
+        "Orthopaedics and Joint Replacement"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 27,
+      "about": "Dr. (Prof.) Amite Pankaj Aggarwal is Principal Director & HOD - Orthopaedics at Fortis Hospital, Shalimar Bagh. He is a nationally and internationally renowned orthopaedic and joint replacement surgeon and an alumnus of the All India Institute of Medical Sciences (AIIMS), New Delhi. With over 27 years of experience, he specializes in orthopaedics, sports medicine, robotic joint reconstruction, and advanced joint replacement surgeries. Dr. Aggarwal is widely recognized for his clinical excellence, academic achievements, and contributions to modern orthopaedic surgery.",
+      "education": [
+        "MBBS - AIIMS, New Delhi",
+        "MS (Orthopaedics) - AIIMS, New Delhi",
+        "DNB (Orthopaedics)",
+        "MRCS Edinburgh",
+        "MNAMS"
+      ],
+      "expertise": [
+        "Joint Replacement Surgery",
+        "Robotic Joint Reconstruction",
+        "Computer Navigated Joint Reconstruction",
+        "Sports Medicine",
+        "Orthopaedic Surgery",
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Advanced Orthopaedic Procedures"
+      ],
+      "awards": [
+        "IOS-UK Fellowship Award 2010",
+        "IOA-AOA Fellowship Award 2011",
+        "IOA-Johnson & Johnson Fellowship Award 2008",
+        "Ranawat's 'K T Dholakia' Award for Best Work in Joint Replacement 2007",
+        "Australian Pain Society Award 2004"
+      ],
+      "memberships": [
+        "Member of National Academy of Medical Sciences (MNAMS)",
+        "Member of Royal College of Surgeons Edinburgh (MRCS)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/amite-pankaj-aggarwal.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "pradeep-kumar-jain",
+      "name": "Dr. Pradeep Kumar Jain",
+      "designation": "Chairman – GI, GI Oncology, Minimal Access & Bariatric Surgery",
+      "specialty": "gastrointestinal-surgery",
+      "specialities": [
+        "GI Surgery",
+        "GI Oncology",
+        "Minimal Access Surgery",
+        "Bariatric Surgery",
+        "Robotic Surgery",
+        "Metabolic & Bariatric Surgery",
+        "General and Laparoscopic Surgery",
+        "Surgical Oncology",
+        "Hepatobiliary Surgery"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 35,
+      "about": "Dr. Pradeep Kumar Jain is Chairman – GI, GI Oncology, Minimal Access & Bariatric Surgery at Fortis Hospital, Shalimar Bagh. He has over 35 years of experience in Gastrointestinal, Hepatobiliary, GI Oncology, Minimal Access, Bariatric, and Robotic Surgery. He completed his MS (Surgery) and M.Ch in Gastrointestinal and Hepatobiliary Surgery and is currently leading the Department of Laparoscopic GI, GI Oncology, HPB & Minimal Access Surgery at Fortis Hospital. Dr. Jain is highly experienced in advanced laparoscopic, robotic, metabolic, and oncological surgical procedures with a strong focus on minimally invasive gastrointestinal and hepatobiliary interventions.",
+      "education": [
+        "MS (Surgery)",
+        "M.Ch. (Gastrointestinal Surgery)"
+      ],
+      "expertise": [
+        "GI Surgery",
+        "GI Oncology Surgery",
+        "Minimal Access Surgery",
+        "Bariatric Surgery",
+        "Metabolic Surgery",
+        "Robotic Surgery",
+        "Hepatobiliary Surgery",
+        "Laparoscopic Surgery",
+        "Surgical Oncology",
+        "Advanced GI Procedures"
+      ],
+      "awards": [
+        "Recognized for extensive contribution in Gastrointestinal and Hepatobiliary Surgery"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/pradeep-kumar-jain.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "rakesh-kumar-dua",
+      "name": "Dr. Rakesh Kumar Dua",
+      "designation": "Principal Director & HOD Neuro and Spine Surgery",
+      "specialty": "neurosurgery",
+      "specialities": [
+        "Neurosurgery",
+        "Neuro and Spine Surgery",
+        "Spine Surgery"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 25,
+      "about": "Dr. Rakesh Kumar Dua is Principal Director & HOD Neuro and Spine Surgery at Fortis Hospital, Shalimar Bagh. He has more than 25 years of experience in neurosurgery and spine surgery. Dr. Dua is highly experienced in complex neuro and spinal surgical procedures and currently serves as Director Neurosurgery & Head Neurospine at Fortis Hospital. He is also associated as Faculty Neurosurgery & Spine with the National Board of Examinations under the Ministry of Health & Family Welfare, New Delhi. He is known for his expertise in advanced neuro and spine surgical management with extensive clinical and academic experience.",
+      "education": [
+        "MBBS",
+        "MS (Surgery)",
+        "M.Ch (Neurosurgery)"
+      ],
+      "expertise": [
+        "Neurosurgery",
+        "Spine Surgery",
+        "Neuro and Spine Surgery",
+        "Complex Neuro Surgery",
+        "Advanced Spine Procedures",
+        "Minimally Invasive Spine Surgery"
+      ],
+      "awards": [
+        "Recognized for extensive contribution in Neuro and Spine Surgery"
+      ],
+      "memberships": [
+        "Faculty - National Board of Examinations, Ministry of Health & Family Welfare, New Delhi"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rakesh-kumar-dua.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "dinesh-kumar-mittal",
+      "name": "Dr. Dinesh Kumar Mittal",
+      "designation": "Senior Director & HOD Cardiothoracic and Vascular Surgery",
+      "specialty": "cardiothoracic-and-vascular-surgery",
+      "specialities": [
+        "Cardiac Sciences",
+        "Adult CTVS (Cardiothoracic and Vascular Surgery)",
+        "Cardiothoracic Surgery",
+        "Cardiac Surgery",
+        "Vascular Surgery"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 20,
+      "fees": 1500,
+      "about": "Dr. Dinesh Kumar Mittal is Senior Director & HOD Cardiothoracic and Vascular Surgery at Fortis Hospital, Shalimar Bagh. He has more than 20 years of experience in adult and paediatric cardiac surgery and has performed over 5000 cardiac surgeries. His expertise includes CABG (beating heart and on-pump), aortic valve and mitral valve replacement, mitral valve repair, ASD closure, VSD closure, TOF correction, coarctation repair, and Blalock-Taussig shunt procedures. He is highly experienced in managing complex cardiothoracic and vascular surgical cases.",
+      "education": [
+        "M.Ch (CTVS) - AIIMS, New Delhi",
+        "MS (General Surgery) - JLN Medical College, Ajmer",
+        "MBBS - JLN Medical College, Ajmer"
+      ],
+      "expertise": [
+        "Coronary Artery Bypass Grafting (CABG)",
+        "Beating Heart CABG",
+        "On-Pump CABG",
+        "Aortic Valve Replacement",
+        "Mitral Valve Replacement",
+        "Mitral Valve Repair",
+        "ASD Closure",
+        "VSD Closure",
+        "TOF Correction",
+        "Coarctation Repair",
+        "Blalock-Taussig Shunt Surgery",
+        "Adult Cardiac Surgery",
+        "Paediatric Cardiac Surgery",
+        "Cardiothoracic Surgery",
+        "Vascular Surgery"
+      ],
+      "awards": [],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/dinesh-kumar-mittal.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "rajinder-yadav",
+      "name": "Dr. Rajinder Yadav",
+      "designation": "Principal Director Urology",
+      "specialty": "urology",
+      "specialities": [
+        "Urology",
+        "Uro-Oncology",
+        "Robotic Surgery",
+        "Kidney Transplant",
+        "Minimally Invasive Surgery",
+        "Organ Transplant"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 42,
+      "fees": 2000,
+      "about": "Dr. Rajinder Yadav is Principal Director of Urology at Fortis Hospital, Shalimar Bagh, with over 42 years of experience in urology, uro-oncology, robotic surgery, and kidney transplantation. He has established and developed departments of Urology and Minimally Invasive Surgery in various hospitals. Dr. Yadav actively participates as faculty in USI and NZUSI conferences, where he has presented scientific papers, surgical videos, and demonstrated advanced minimally invasive surgeries during live workshops. He has also contributed to multiple academic publications in the field of urology and minimally invasive surgery.",
+      "education": [
+        "MS (General Surgery)",
+        "M.Ch (Urology) - AIIMS, New Delhi"
+      ],
+      "expertise": [
+        "Urology",
+        "Uro-Oncology",
+        "Robotic Urological Surgery",
+        "Kidney Transplant",
+        "Minimally Invasive Urology",
+        "Endourology",
+        "Advanced Laparoscopic Urology",
+        "Urological Cancer Surgery",
+        "Reconstructive Urology"
+      ],
+      "awards": [
+        "Established and developed Urology and MIS departments in multiple hospitals",
+        "Faculty participant at USI and NZUSI conferences",
+        "Presented scientific papers and surgical videos in national conferences",
+        "Demonstrated advanced minimally invasive surgeries in live workshops"
+      ],
+      "memberships": [
+        "Urological Society of India (USI)",
+        "North Zone Urological Society of India (NZUSI)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rajinder-yadav.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "puneet-mishra",
+      "name": "Dr. Puneet Mishra",
+      "designation": "Director & Unit Head Orthopedics",
+      "specialty": "orthopaedics",
+      "specialities": [
+        "Orthopaedics",
+        "Orthopaedics and Joint Replacement",
+        "Hip Preservation Surgery",
+        "Trauma Surgery",
+        "Revision Arthroplasty",
+        "Joint Replacement Surgery"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 27,
+      "fees": 1200,
+      "about": "Dr. Puneet Mishra is Director & Unit Head - Orthopedics at Fortis Hospital, Shalimar Bagh, with over 27 years of experience in orthopaedics and joint replacement surgery. He has more than a decade of expertise in managing complex acetabulum and pelvis fractures and has successfully treated over 500 such cases in the last 15 years. Dr. Mishra is regarded as a pioneer in hip preservation surgery in India and has extensive experience in primary and revision arthroplasty procedures involving the hip and knee. He is known for adopting advanced surgical techniques and delivering comprehensive orthopaedic care.",
+      "education": [
+        "MBBS - Maulana Azad Medical College (MAMC), Delhi",
+        "MS Orthopaedics - Maulana Azad Medical College (MAMC), Delhi",
+        "Fellowship in Hip Preservation & Trauma - Bern, Switzerland",
+        "Fellowship in Primary & Revision Arthroplasty (Hip, Knee) - Endoklinik, Germany"
+      ],
+      "expertise": [
+        "Hip Preservation Surgery",
+        "Complex Acetabulum Fractures",
+        "Pelvis Fracture Management",
+        "Primary Hip Replacement",
+        "Revision Hip Replacement",
+        "Primary Knee Replacement",
+        "Revision Knee Replacement",
+        "Joint Replacement Surgery",
+        "Orthopaedic Trauma Surgery",
+        "Arthroplasty"
+      ],
+      "awards": [
+        "Recognized pioneer in Hip Preservation Surgery in India",
+        "Successfully treated over 500 complex acetabulum and pelvis fracture cases"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/puneet-mishra.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "rajiv-kumar-sethia",
+      "name": "Dr. Rajiv Kumar Sethia",
+      "designation": "Director & Head - Urology, Kidney Transplant & Robotic Surgery",
+      "specialty": "urology",
+      "specialities": [
+        "Urology",
+        "Kidney Transplant",
+        "Robotic Urology Surgery",
+        "Endourology",
+        "Laparoscopic Urology",
+        "Uro-Oncology"
+      ],
+      "hospital": "Asian Institute of Medical Sciences, Faridabad",
+      "hospitalslug": "asian-institute-of-medical-sciences-faridabad",
+      "experienceYears": 20,
+      "about": "Dr. Rajiv Kumar Sethia is Director & Head – Urology, Kidney Transplant & Robotic Surgery at Asian Institute of Medical Sciences, Faridabad. He has over 20 years of experience in urology, renal transplantation, minimally invasive urology, and robotic surgery. He has previously worked with Metro Multispeciality Hospital Faridabad, Fortis Memorial Research Institute Gurgaon, Medanta – The Medicity Gurgaon, and St. John’s Medical College Hospital Bangalore. Dr. Sethia is highly experienced in managing kidney stones, urinary tract infections, prostate disorders, bladder conditions, reconstructive urology, and uro-oncology. He is also recognized for his expertise in robotic surgery, laparoscopy, laser prostate surgery, and endourological procedures with a strong reputation for excellent patient care.",
+      "education": [
+        "Fellowship in Kidney Transplant - Institute of Kidney, Urology & Robotics, Medanta The Medicity, Gurgaon",
+        "Fellowship in Minimal Invasive Urology",
+        "DNB (Urology) - National Board of Examination, St. John's Medical College Hospital, Bangalore",
+        "MS (Surgery) - S.P. Medical College, Bikaner, Rajasthan University of Health Sciences, Jaipur",
+        "MBBS - S.P. Medical College, Bikaner, Rajasthan University, Jaipur"
+      ],
+      "expertise": [
+        "Laser Surgery for Prostate using Holmium Laser",
+        "Laser Surgery for Kidney Stones",
+        "Kidney Transplant",
+        "Robotic Urology Surgery",
+        "Reconstructive Urology",
+        "Andrology",
+        "Laparoscopic Urology",
+        "Endourology",
+        "Uro-Oncology",
+        "Prostate Disorders",
+        "Urinary Tract Infections",
+        "Bladder Disorders"
+      ],
+      "awards": [],
+      "memberships": [
+        "Full Member of Urological Society of India (USI)",
+        "Full Member of North Zone Urological Society of India (NZUSI)",
+        "Associate Member of South Zone Urological Society of India (SZUSI)",
+        "Life Member of Indian Society of Organ Transplantation (ISOT)",
+        "Life Member of Asian Urological Association"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rajiv-kumar-sethia.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "info@aimsindia.com",
+        "phone": "0129-4253000",
+        "availability": "Tuesday, Thursday & Saturday: 10:00 AM – 03:00 PM | Video Consultation: 03:30 PM – 04:00 PM",
+        "location": "Asian Institute of Medical Sciences, Faridabad, Haryana, India"
+      }
+    },
+    {
+      "id": "mukesh-pandey",
+      "name": "Dr. Mukesh Pandey",
+      "designation": "Director & HOD - Neurosurgery",
+      "specialty": "neurosurgery",
+      "specialities": [
+        "Neurosurgery",
+        "Spine Surgery",
+        "Minimally Invasive Spine Surgery",
+        "Brain Tumor Surgery",
+        "Endoscopic Brain Surgery",
+        "Functional Neurosurgery"
+      ],
+      "hospital": "Asian Institute of Medical Sciences, Faridabad",
+      "hospitalslug": "asian-institute-of-medical-sciences-faridabad",
+      "experienceYears": 22,
+      "about": "Dr. Mukesh Pandey is Director & Head – Neurosurgery at Asian Institute of Medical Sciences, Faridabad. He is a renowned neurosurgeon and spine surgeon with more than 22 years of experience in neurosurgery and advanced spine procedures. He has successfully performed over 3,000 neurosurgical procedures including aneurysm surgeries, brain hemorrhage surgeries, complex brain tumor surgeries, pediatric brain tumor surgeries, minimally invasive keyhole spine surgeries, and surgeries for epilepsy and Parkinson’s disease. Dr. Pandey has extensive expertise in minimally invasive and endoscopic neurosurgical techniques and is known for excellent clinical outcomes in complex neurological and spinal disorders. He has previously served at Fortis Hospital Shalimar Bagh, Sarvodaya Hospital, and Asian Institute of Medical Sciences in multiple senior neurosurgical roles.",
+      "education": [
+        "MBBS - King George’s Medical College (Now King George's Medical University), Lucknow, Uttar Pradesh",
+        "MS (General Surgery) - Sarojini Naidu Medical College, Agra, Uttar Pradesh",
+        "MCh (Neurosurgery) - Sree Chithra Thirunal Institute of Medical Sciences and Technology, Trivandrum"
+      ],
+      "expertise": [
+        "Parkinson’s Disease Surgery",
+        "Minimally Invasive Keyhole Spine Surgery",
+        "Spinal Tumor Surgery",
+        "Spine Injury Surgery",
+        "Endoscopic Brain Surgery",
+        "Brain Tumor Surgery",
+        "Brain Hemorrhage Surgery",
+        "Aneurysm Surgery",
+        "VP Shunt Surgery",
+        "Epilepsy Surgery",
+        "Pediatric Brain Tumor Surgery",
+        "Functional Neurosurgery"
+      ],
+      "awards": [
+        "Best Resident Award during MS General Surgery",
+        "Gold Medal during MS General Surgery",
+        "Best Neurosurgeon in India Award by the Indian Medical Association"
+      ],
+      "memberships": [
+        "Member of Neurological Society of India",
+        "Member of Skull Base Society of India"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/mukesh-pandey.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "info@aimsindia.com",
+        "phone": "0129-4253000",
+        "availability": "Monday to Saturday: 10:00 AM – 4:00 PM",
+        "location": "Asian Institute of Medical Sciences, Faridabad, Haryana, India"
+      }
+    },
+    {
+      "id": "deepak-kumar-mishra",
+      "name": "Dr. Deepak Kumar Mishra",
+      "designation": "Director & Head – Orthopaedic & Robotic Joint Replacement Surgery Unit - I",
+      "specialty": "orthopaedics",
+      "specialities": [
+        "Orthopaedics",
+        "Robotic Joint Replacement Surgery",
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Arthroscopy",
+        "Minimally Invasive Orthopaedic Surgery"
+      ],
+      "hospital": "Asian Institute of Medical Sciences, Faridabad",
+      "hospitalslug": "asian-institute-of-medical-sciences-faridabad",
+      "experienceYears": 26,
+      "about": "Dr. Deepak Kumar Mishra is Director & Head – Orthopaedic & Robotic Joint Replacement Surgery Unit - I at Asian Institute of Medical Sciences, Faridabad. He has more than 26 years of experience in primary and revision knee and hip replacement surgeries, arthroscopy, and limb reconstruction procedures. He completed his MBBS and MS (Orthopaedics) from JIPMER, Pondicherry, and later underwent higher surgical training in Joint Replacement in the United Kingdom. Dr. Mishra specializes in advanced robotic and minimally invasive orthopaedic procedures with expertise in primary and revision joint replacement surgeries. He has previously worked with Yashoda Hospital Hyderabad, Medanta – The Medicity Gurgaon, and Dr LH Hiranandani Hospital Mumbai. His contributions to orthopaedics and healthcare were recognized through inclusion in Marquis 'Who is Who' in Medicine and Healthcare for 2009-2010.",
+      "education": [
+        "MBBS - JIPMER, Pondicherry",
+        "MS (Orthopaedics) - JIPMER, Pondicherry",
+        "MRCSEd (UK)",
+        "MCh Ortho (UK)",
+        "FICS Ortho (USA)"
+      ],
+      "expertise": [
+        "Primary Knee Replacement Surgery",
+        "Revision Knee Replacement Surgery",
+        "Unicompartmental Knee Replacement Surgery",
+        "Primary Hip Replacement Surgery",
+        "Revision Hip Replacement Surgery",
+        "Robotic Joint Replacement Surgery",
+        "Arthroscopic Surgery",
+        "Minimally Invasive Orthopaedic Surgery",
+        "Limb Reconstruction Surgery",
+        "Management of Mal-union and Non-union of Long Bones",
+        "Tissue Preserving Orthopaedic Techniques"
+      ],
+      "awards": [
+        "Publications in Medline Indexed International Journals",
+        "Listed in Marquis 'Who is Who' in the field of Medicine and Healthcare for 2009-2010"
+      ],
+      "memberships": [
+        "Lifetime Member of Indian Orthopaedic Association",
+        "Lifetime Member of Indian Arthroscopy Society",
+        "Member of AO Switzerland"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/deepak-kumar-mishra.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "info@aimsindia.com",
+        "phone": "0129-4253000",
+        "availability": "Tuesday, Thursday & Saturday: 10:00 AM – 02:30 PM | Video Consultation: 02:30 PM – 03:00 PM",
+        "location": "Asian Institute of Medical Sciences, Faridabad, Haryana, India"
+      }
+    },
+    {
+      "id": "amit-miglani",
+      "name": "Dr. Amit Miglani",
+      "designation": "Director & HOD - Gastroenterology",
+      "specialty": "gastroenterology",
+      "specialities": [
+        "Gastroenterology",
+        "Hepatology",
+        "Therapeutic Endoscopy",
+        "Interventional Endoscopy",
+        "ERCP",
+        "Endoscopic Ultrasound (EUS)"
+      ],
+      "hospital": "Asian Institute of Medical Sciences, Faridabad",
+      "hospitalslug": "asian-institute-of-medical-sciences-faridabad",
+      "experienceYears": 18,
+      "about": "Dr. Amit Miglani is Director & Head - Gastroenterology at Asian Institute of Medical Sciences, Faridabad. He has more than 18 years of experience in Gastroenterology, Hepatology, and Therapeutic Endoscopy. He has performed over 40,000 endoscopic procedures, 7,000 interventional procedures, and 6,000 ERCP and EUS procedures. Dr. Miglani is highly experienced in complex gastrointestinal interventional procedures and specializes in managing advanced liver and hepatobiliary disorders. He is also an expert in advanced therapeutic endoscopy techniques including ERCP, interventional EUS, POEM procedures, and third-space endoscopy.",
+      "education": [
+        "MBBS - University College of Medical Sciences, Delhi",
+        "MD (Medicine) - Maulana Azad Medical College, Delhi",
+        "DM (Gastroenterology) - Post Graduate Institute of Medical Education and Research (PGIMER), Chandigarh"
+      ],
+      "expertise": [
+        "Gastroenterology",
+        "Hepatology",
+        "Therapeutic Endoscopy",
+        "Interventional Endoscopy",
+        "ERCP",
+        "Endoscopic Ultrasound (EUS)",
+        "Complex Hepatobiliary Cases",
+        "POEM Procedure for Achalasia Cardia",
+        "Third Space Endoscopy",
+        "Liver Disease Management",
+        "Advanced GI Interventions"
+      ],
+      "awards": [
+        "Presented papers at various National and International Gastroenterology Conferences",
+        "Delivered lectures at National and International Gastroenterology Forums",
+        "Conducted multiple Gastroenterology interventional training workshops"
+      ],
+      "memberships": [
+        "Indian Society of Gastroenterology (ISG)",
+        "American College of Gastroenterology (ACG)",
+        "Indian National Association for Study of the Liver (INASL)",
+        "Society of Gastrointestinal Endoscopy of India (SGEI)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/amit-miglani.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "info@aimsindia.com",
+        "phone": "0129-4253000",
+        "availability": "Monday to Saturday: 11:30 AM – 4:00 PM",
+        "location": "Asian Institute of Medical Sciences, Faridabad, Haryana, India"
+      }
+    },
+    {
+      "id": "subrat-akhoury",
+      "name": "Dr. Subrat Akhoury",
+      "designation": "Chairman and Head - Cath Lab & Interventional Cardiology",
+      "specialty": "interventional-cardiology",
+      "specialities": [
+        "Cath Lab & Interventional Cardiology",
+        "Adult Cardiac Interventions",
+        "Angioplasty",
+        "Pacemaker Implantation",
+        "Coronary Interventions",
+        "Carotid Interventions",
+        "Peripheral Interventions"
+      ],
+      "hospital": "Asian Institute of Medical Sciences, Faridabad",
+      "hospitalslug": "asian-institute-of-medical-sciences-faridabad",
+      "experienceYears": 20,
+      "about": "Dr. Subrat Akhoury is Chairman and Head - Cath Lab & Interventional Cardiology at Asian Institute of Medical Sciences, Faridabad. With over 20 years of experience in cardiology, he is a leading Interventional Cardiologist specializing in complex cardiac interventions, angioplasty procedures, and pacemaker implantations. He has previously worked at Safdarjung Hospital and Apollo Hospital, New Delhi, and is recognized for handling difficult interventional cardiology cases and presenting them at national and international conferences.",
+      "education": [
+        "MBBS",
+        "MD (Medicine)",
+        "DM (Cardiology)",
+        "FSCAI (USA)"
+      ],
+      "expertise": [
+        "Interventional Cardiology",
+        "Adult Cardiac Interventions",
+        "Coronary Angioplasty",
+        "Carotid Angioplasty",
+        "Peripheral Angioplasty",
+        "Pacemaker Implantation",
+        "Cath Lab Procedures",
+        "Complex Cardiac Interventions",
+        "Coronary Artery Disease Management"
+      ],
+      "awards": [
+        "Faculty at various National and International Conferences",
+        "Recognized for handling complex interventional cardiology cases"
+      ],
+      "memberships": [
+        "Fellow of Society for Cardiovascular Angiography and Interventions (FSCAI)",
+        "Life Member - Cardiological Society of India"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/subrat-akhoury.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "info@aimsindia.com",
+        "phone": "0129-4253000",
+        "availability": "Mon, Tues, Wed, Fri & Sat: 10:30 AM – 02:00 PM",
+        "location": "Asian Institute of Medical Sciences, Faridabad, Haryana, India"
+      }
+    },
+    {
+      "id": "sangram-keshari-sahoo",
+      "name": "Dr. Sangram Keshari Sahoo",
+      "designation": "Director & Head - Surgical Oncology",
+      "specialty": "surgical-oncology",
+      "specialities": [
+        "Surgical Oncology",
+        "Head & Neck Oncology",
+        "Thoracic Oncology",
+        "Gastrointestinal Oncology",
+        "Hepato-Pancreato-Biliary Oncology",
+        "Breast Oncology",
+        "Gynaecologic Oncology",
+        "Genito-Urinary Oncology",
+        "Bone & Soft Tissue Oncology",
+        "Advanced Minimal Access Oncosurgery",
+        "Oncoplastic Reconstruction"
+      ],
+      "hospital": "Asian Institute of Medical Sciences, Faridabad",
+      "hospitalslug": "asian-institute-of-medical-sciences-faridabad",
+      "experienceYears": 20,
+      "about": "Dr. Sangram Keshari Sahoo is Director & Head - Surgical Oncology at Asian Institute of Medical Sciences, Faridabad. He is a highly experienced superspecialist cancer surgeon with expertise in advanced minimally invasive oncological surgeries and oncoplastic reconstruction. His organ-conservative and function-preserving surgical approach, combined with evidence-based international cancer guidelines and multidisciplinary tumour board practices, has established him as a leading oncosurgeon in India. He has extensive experience in radical open and minimal access oncological surgeries including VATS, HIPEC, CRS, sentinel node surgeries, and advanced oncoplastic procedures.",
+      "education": [
+        "MBBS",
+        "DrNB (Surgical Oncology)",
+        "DNB (General Surgery)",
+        "FICS-USA (Surgical Oncology)",
+        "FIAMS",
+        "MNAMS",
+        "FAIS",
+        "FIAGES",
+        "FMAS",
+        "FALS (HPB)"
+      ],
+      "expertise": [
+        "Surgical Oncology",
+        "Head & Neck Oncology",
+        "Thoracic Oncology",
+        "Gastrointestinal Oncology",
+        "Hepato-Pancreato-Biliary Surgery",
+        "Breast & Gynaecological Oncology",
+        "Genito-Urinary Oncology",
+        "Bone & Soft Tissue Oncology",
+        "Sentinel Node Surgery",
+        "HIPEC",
+        "PIPEC",
+        "CRS",
+        "VATS",
+        "Advanced Minimal Access Surgery",
+        "Oncoplastic Reconstruction"
+      ],
+      "awards": [
+        "Numerous academic publications and award-winning scientific presentations",
+        "Innovative indigenous oncosurgical and oncoplastic surgical techniques",
+        "Recognized for excellence in radical open and minimal access oncosurgeries"
+      ],
+      "memberships": [
+        "Association of Surgeons of India (ASI)",
+        "Indian Medical Association (IMA)",
+        "Indian Association of Surgical Oncology (IASO)",
+        "Indian Society of Oncology (ISO)",
+        "International College of Surgeons - Indian Section (ICSIS)",
+        "Society of Endoscopic and Laparoscopic Surgeons of India (SELSI)",
+        "Indian Medical Association - Association of Medical Specialties (IMA-AMS)",
+        "Indian Association of Gastroenterological Endo Surgeons (IAGES)",
+        "Association of Minimal Access Surgeons of India (AMASI)",
+        "Indian Society of Medical and Paediatric Oncology (ISMPO)",
+        "Association of Thoracic Surgeons of India",
+        "Delhi Oncology Forum"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/sangram-keshari-sahoo.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "info@aimsindia.com",
+        "phone": "0129-4253000",
+        "availability": "Monday to Saturday: 10:00 AM – 03:00 PM",
+        "location": "Asian Institute of Medical Sciences, Faridabad, Haryana, India"
+      }
+    },
+    {
+      "id": "nk-pandey",
+      "name": "Dr. N K Pandey",
+      "designation": "Chairman & Managing Director",
+      "specialty": "general-thoracic-surgery",
+      "specialities": [
+        "Thoracic Surgery",
+        "Video Assisted Thoracoscopic Surgery (VATS)",
+        "Chest Surgery",
+        "Healthcare Management",
+        "Surgical Education"
+      ],
+      "hospital": "Asian Institute of Medical Sciences, Faridabad",
+      "hospitalslug": "asian-institute-of-medical-sciences-faridabad",
+      "experienceYears": 40,
+      "about": "Dr. Narendra Kumar Pandey is Chairman & Managing Director of Asian Institute of Medical Sciences, Faridabad. A distinguished surgeon, academician, and healthcare leader, Dr. Pandey is the visionary behind Asian Institute of Medical Sciences. He is the recipient of the prestigious Padma Shri Award for his outstanding contribution to healthcare and the Dr. B.C. Roy National Award for pioneering work in Video Assisted Thoracoscopic Surgery (VATS) and Chest Surgery. With decades of experience in surgery, medical education, and healthcare administration, he has held several prestigious national and international positions and contributed significantly to surgical education and specialty training programs in India.",
+      "education": [
+        "D.Sc",
+        "FRCS (Edinburgh)",
+        "FRCS (Glasgow)",
+        "FICS",
+        "FACS"
+      ],
+      "expertise": [
+        "Thoracic Surgery",
+        "Video Assisted Thoracoscopic Surgery (VATS)",
+        "Chest Surgery",
+        "Healthcare Administration",
+        "Surgical Education",
+        "Medical Training Programs",
+        "Advanced Surgical Techniques"
+      ],
+      "awards": [
+        "Padma Shri Award for contribution in healthcare",
+        "Dr. B.C. Roy National Award for pioneering work in VATS and Chest Surgery",
+        "Honorary Degree of Doctor of Science by Teerthankar Mahaveer University (2013)"
+      ],
+      "memberships": [
+        "Ex-President - Association of Surgeons of India (ASI)",
+        "Trustee - International College of Surgeons, India Section",
+        "Council Member - International College of Surgeons, Chicago",
+        "Vice President - International College of Surgeons, Chicago (2001-2002)",
+        "Member - International Board of Governors, International College of Surgeons (2001-2002)",
+        "Examiner - Royal College of Surgeons of Edinburgh (MRCS & FRCS)",
+        "Consultant - National Board of Examinations (2002-2005)",
+        "Joint Editor - Indian Journal of Surgery"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/nk-pandey.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "info@aimsindia.com",
+        "phone": "0129-4253000",
+        "availability": "By Appointment",
+        "location": "Asian Institute of Medical Sciences, Faridabad, Haryana, India"
+      }
+    },
+    {
+      "id": "puneet-gupta",
+      "name": "Dr. Puneet Gupta",
+      "designation": "Chairman – Oncology Services",
+      "specialty": "oncology-services",
+      "specialities": [
+        "Oncology Services",
+        "Medical Oncology",
+        "Surgical Oncology",
+        "Radiation Oncology"
+      ],
+      "hospital": "Asian Institute of Medical Sciences, Faridabad",
+      "hospitalslug": "asian-institute-of-medical-sciences-faridabad",
+      "experienceYears": 28,
+      "about": "Dr. Puneet Gupta is Chairman – Oncology Services at Asian Institute of Medical Sciences, Faridabad. He is a highly accomplished cancer specialist with over 28 years of experience in Medical, Surgical, and Radiation Oncology. He is widely respected for pioneering advancements in cancer care and introducing several firsts in oncology education and treatment in India. Dr. Gupta has played a key role in starting India’s first DNB Medical Oncology program, diploma programs in Psycho-Oncology and Nursing Oncology, and introducing monoclonal antibody therapies, arterial chemotherapy, and hyperbaric oxygen therapy in cancer care. His research in cancer therapy, nutrition, psychology, and pharmacology has been presented internationally across London, Dubai, Singapore, Hong Kong, Ontario, Beijing, Madagascar, and other global scientific forums.",
+      "education": [
+        "MBBS",
+        "MD (Radiation Therapy)",
+        "DNB (Radiation Therapy)",
+        "DM (Medical Oncology)",
+        "MBA (Hospital Administration)"
+      ],
+      "expertise": [
+        "Medical Oncology",
+        "Radiation Oncology",
+        "Surgical Oncology",
+        "Synchronous Chemo-RT",
+        "Chronomodulated Therapy",
+        "Dendritic Cell Therapy",
+        "Chemo-Targeted Immunotherapy",
+        "Monoclonal Antibody Therapy",
+        "Arterial Chemotherapy",
+        "Hyperbaric Oxygen Therapy",
+        "Stem Cell Therapy",
+        "Cancer Nutrition",
+        "Cancer Psychology",
+        "Cancer Pharmacology"
+      ],
+      "awards": [
+        "First Senior Faculty to start DNB Medical Oncology in India",
+        "First to start Diploma in Psychology Oncology in India through Amity University",
+        "Instrumental in starting first Diploma in Nursing Oncology in India",
+        "Working towards starting first Diploma in Pharmacology Oncology in India",
+        "First to give EGFR monoclonal antibody for Head & Neck cancer in Indian corporate sector",
+        "First to give CD33 monoclonal antibody for AML blood cancer in India",
+        "First to deliver arterial chemotherapy using arterial chemo pump in India",
+        "Maximum experience in use of hyperbaric oxygen therapy in cancer cases",
+        "Published and presented original cancer research on international scientific platforms",
+        "First in the world to present Gupta Celittering Whole Body Imagery Cognitive Intervention"
+      ],
+      "memberships": [
+        "Indian Society for Radiation Biology",
+        "Indo Global Health Care Research Foundation",
+        "European Society of Medical Oncology",
+        "American Society of Clinical Oncology",
+        "Member - European Society of Gene Therapy",
+        "Fellow - International Academy of Medical Sciences",
+        "Life Member - Association of Radiation Oncologists of India"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/puneet-gupta.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "info@aimsindia.com",
+        "phone": "0129-4253000",
+        "availability": "Monday – Saturday: 11:00 AM – 3:00 PM",
+        "location": "Asian Institute of Medical Sciences, Faridabad, Haryana, India"
+      }
+    },
+    {
       "id": "prashant-jain",
       "name": "Dr. Prashant Jain",
       "designation": "Senior Director - Paediatric Surgery & Coordinator Paediatric Super Specialties",

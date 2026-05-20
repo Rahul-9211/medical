@@ -32,13 +32,40 @@ interface Doctor {
   memberships?: string[];
   experience?: string[];
   patientsTreated?: string;
+  availability?: string | Record<string, string>;
   media?: { images: { url: string; visible: boolean }[] };
   contact?: {
     email?: string;
-    phone?: string;
-    availability?: string;
+    phone?: string | string[];
+    availability?: string | Record<string, string>;
     location?: string;
   };
+}
+
+type ParsedAvailability =
+  | { kind: "text"; text: string }
+  | { kind: "schedule"; rows: { day: string; hours: string }[] };
+
+function parseAvailability(value: string | Record<string, string> | undefined): ParsedAvailability | null {
+  if (value == null) return null;
+  if (typeof value === "string") {
+    const text = value.trim();
+    return text ? { kind: "text", text } : null;
+  }
+  const rows = Object.entries(value)
+    .map(([day, hours]) => ({ day: day.trim(), hours: String(hours).trim() }))
+    .filter((r) => r.day && r.hours);
+  return rows.length > 0 ? { kind: "schedule", rows } : null;
+}
+
+function formatPhone(phone: string | string[] | undefined): string | null {
+  if (phone == null) return null;
+  if (typeof phone === "string") {
+    const t = phone.trim();
+    return t || null;
+  }
+  const nums = phone.map((p) => p.trim()).filter(Boolean);
+  return nums.length > 0 ? nums.join(" · ") : null;
 }
 
 function awardDisplay(award: DoctorAward): string {
@@ -100,13 +127,15 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
   const membershipsList = nonEmptyStrings(doctor.memberships);
   const experienceList = nonEmptyStrings(doctor.experience);
   const contact = doctor.contact;
+  const availability =
+    parseAvailability(doctor.availability) ?? parseAvailability(contact?.availability);
+  const phoneDisplay = formatPhone(contact?.phone);
   const contactRows =
     contact != null
       ? (
           [
             contact.email?.trim() && { label: "Email", value: contact.email.trim() },
-            contact.phone?.trim() && { label: "Phone", value: contact.phone.trim() },
-            contact.availability?.trim() && { label: "Availability", value: contact.availability.trim() },
+            phoneDisplay && { label: "Phone", value: phoneDisplay },
             contact.location?.trim() && { label: "Location", value: contact.location.trim() },
           ].filter(Boolean) as { label: string; value: string }[]
         )
@@ -331,6 +360,27 @@ const DoctorProfilePage = async ({ params }: { params: Promise<{ specialty: stri
                     </li>
                   ))}
                 </ul>
+              </section>
+            )}
+
+            {/* Availability — string or weekly schedule */}
+            {availability?.kind === "text" && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Availability</h2>
+                <p className="text-gray-700 leading-relaxed">{availability.text}</p>
+              </section>
+            )}
+            {availability?.kind === "schedule" && (
+              <section className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-teal/10 hover:border-teal/20 transition-colors">
+                <h2 className="text-2xl font-semibold mb-3 text-teal">Availability</h2>
+                <dl className="divide-y divide-teal/10">
+                  {availability.rows.map((row) => (
+                    <div key={row.day} className="flex flex-col sm:flex-row sm:gap-4 py-2.5 first:pt-0 last:pb-0">
+                      <dt className="text-sm font-medium text-teal-dark sm:w-32 shrink-0">{row.day}</dt>
+                      <dd className="text-gray-700 mt-0.5 sm:mt-0">{row.hours}</dd>
+                    </div>
+                  ))}
+                </dl>
               </section>
             )}
 
