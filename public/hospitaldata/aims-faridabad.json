@@ -74,91 +74,79 @@
     "topDoctors": {
       "visible": true,
       "list": [
-        {
-          "id": "hitesh-garg",
-          "name": "Dr. Hitesh Garg",
-          "specialty": "Senior Consultant & Head (Unit IV)",
-          "rating": 4.9,
-          "experienceYears": 44,
-          "profileUrl": "/doctors/hitesh-garg"
-        },
-        {
-          "id": "rajiv-yadav",
-          "name": "Dr. Rajiv Yadav",
-          "specialty": "Chairperson - Urology & Head - Urologic Oncology & Robotic Surgery",
-          "rating": 5.0,
-          "experienceYears": 46,
-          "profileUrl": "/doctors/rajiv-yadav"
-        },
-        {
-          "id": "kuldeep-arora",
-          "name": "Dr. Kuldeep Arora",
-          "specialty": "Unit Head & Chief - Cath Lab, Sr. Consultant - Interventional Cardiology",        
-          "rating": 5.0,
-          "experienceYears": 22,
-          "profileUrl": "/doctors/anurag-khaitan"
-        },
-        {
-         "id": "ramkinkar-jha",
-          "name": "Dr. Ramkinkar Jha",
-          "specialty": "Chief & Unit Head - Orthopaedics (Unit III)",
-          "rating": 4.9,
-          "experienceYears": 30,
-          "profileUrl": "/doctors/r-ranga-rao"
-        }
-        ,
-        {
-          "id": "tariq-man",
-          "name": "Dr. Tariq Man",
-          "specialty": "Director & Chief - Neurointerventional Surgery",
-          "rating": 4.9,
-          "experienceYears": 25,
-          "profileUrl": "/doctors/tariq-man"
-        }
-        ,
-        {
-         "id": "varun-mial",
-          "name": "Dr. Varun Mial",
-          "specialty": "Senior Consultant - Kidney Transplant, Uro-Oncology and Robotic Surgery",
-          "rating": 4.9,
-          "experienceYears": 22,
-          "profileUrl": "/doctors/varun-mial"
-        }
-        ,
-        {
-          "id": "aditya-gupta",
-          "name": "Dr. Aditya Gupta",
-          "specialty": "Director - Neurosurgery & CNS Radiosurgery and Co-Director - Cyberknife Centre",
-          "rating": 4.9,
-          "experienceYears": 40,
-           "profileUrl": "/doctors/aditya-gupta"
-
-        }
-        ,
-        {
-          "id": "manju-aggarwal",
-          "name": "Dr. Manju Aggarwal",
-          "specialty": "Chairperson - Nephrology (Unit 1)",        
-          "experienceYears": 23,
-          "rating": 4.9,
-          "profileUrl": "/doctors/manju-aggarwal"
-        },
-        {
-          "id": "biswajyoti-hazarika",
-          "name": "Dr. Biswajyoti Hazarika",
-          "specialty": "Director - Surgical Oncology (Head & Neck)",
-          "experienceYears": 20,
-           "rating": 4.9,
-          "profileUrl": "/doctors/biswajyoti-hazarika"
-        },
-        {
-          "id": "giriraj-bora",
-          "name": "Dr. Giriraj Bora",
-          "specialty": "Joint Chief - Liver Transplantation & Sr. Consultant GI & HPB Surgery",
-          "experienceYears": 20,
-           "rating": 4.9,
-          "profileUrl": "/doctors/biswajyoti-hazarika"
-        }
+       {
+        "id": "puneet-gupta",
+        "name": "Dr. Puneet Gupta",
+        "designation": "Chairman – Oncology Services",
+        "specialty": "oncology",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/puneet-gupta"
+       },
+       {
+        "id": "nk-pandey",
+        "name": "Dr. N K Pandey",
+        "designation": "Chairman & Managing Director",
+        "specialty": "general-thoracic-surgery",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/nk-pandey"
+       }
+       ,
+       {
+        "id": "rajiv-kumar-sethia",
+        "name": "Dr. Rajiv Kumar Sethia",
+        "designation": "Director & Head - Urology, Kidney Transplant & Robotic Surgery",
+        "specialty": "urology",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/rajiv-kumar-sethia"
+       },
+       {
+        "id": "subrat-akhoury",
+        "name": "Dr. Subrat Akhoury",
+        "designation": "Chairman and Head - Cath Lab & Interventional Cardiology",
+        "specialty": "interventional-cardiology",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/subrat-akhoury"
+       },
+       {
+        "id": "amit-miglani",
+        "name": "Dr. Amit Miglani",
+        "designation": "Director & HOD - Gastroenterology",
+        "specialty": "gastroenterology",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/amit-miglani"
+       },
+       {
+        "id": "deepak-kumar-mishra",
+        "name": "Dr. Deepak Kumar Mishra",
+        "designation": "Director & Head – Orthopaedic & Robotic Joint Replacement Surgery Unit - I",
+        "specialty": "orthopaedics",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/deepak-kumar-mishra"
+       },
+       {
+        "id": "mukesh-pandey",
+        "name": "Dr. Mukesh Pandey",
+        "designation": "Director & HOD - Neurosurgery",
+        "specialty": "neurosurgery",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/mukesh-pandey"
+       },
+       {
+        "id": "rajiv-kumar-sethia",
+        "name": "Dr. Rajiv Kumar Sethia",
+        "designation": "Director & Head - Urology, Kidney Transplant & Robotic Surgery",
+        "specialty": "urology",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/rajiv-kumar-sethia"
+      }
       ]
     },
     "teamAndSpecialities": {
