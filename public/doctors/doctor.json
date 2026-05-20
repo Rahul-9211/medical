@@ -1,6 +1,325 @@
 {
   "doctors": [
     {
+      "id": "amite-pankaj-aggarwal",
+      "name": "Dr. Amite Pankaj Aggarwal",
+      "designation": "Principal Director & HOD - Orthopaedics",
+      "specialty": "orthopaedics",
+      "specialities": [
+        "Orthopaedics",
+        "Sports Medicine",
+        "Robotic and Computer Navigated Joint Reconstruction",
+        "Orthopaedics and Joint Replacement"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 27,
+      "about": "Dr. (Prof.) Amite Pankaj Aggarwal is Principal Director & HOD - Orthopaedics at Fortis Hospital, Shalimar Bagh. He is a nationally and internationally renowned orthopaedic and joint replacement surgeon and an alumnus of the All India Institute of Medical Sciences (AIIMS), New Delhi. With over 27 years of experience, he specializes in orthopaedics, sports medicine, robotic joint reconstruction, and advanced joint replacement surgeries. Dr. Aggarwal is widely recognized for his clinical excellence, academic achievements, and contributions to modern orthopaedic surgery.",
+      "education": [
+        "MBBS - AIIMS, New Delhi",
+        "MS (Orthopaedics) - AIIMS, New Delhi",
+        "DNB (Orthopaedics)",
+        "MRCS Edinburgh",
+        "MNAMS"
+      ],
+      "expertise": [
+        "Joint Replacement Surgery",
+        "Robotic Joint Reconstruction",
+        "Computer Navigated Joint Reconstruction",
+        "Sports Medicine",
+        "Orthopaedic Surgery",
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Advanced Orthopaedic Procedures"
+      ],
+      "awards": [
+        "IOS-UK Fellowship Award 2010",
+        "IOA-AOA Fellowship Award 2011",
+        "IOA-Johnson & Johnson Fellowship Award 2008",
+        "Ranawat's 'K T Dholakia' Award for Best Work in Joint Replacement 2007",
+        "Australian Pain Society Award 2004"
+      ],
+      "memberships": [
+        "Member of National Academy of Medical Sciences (MNAMS)",
+        "Member of Royal College of Surgeons Edinburgh (MRCS)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/amite-pankaj-aggarwal.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "pradeep-kumar-jain",
+      "name": "Dr. Pradeep Kumar Jain",
+      "designation": "Chairman – GI, GI Oncology, Minimal Access & Bariatric Surgery",
+      "specialty": "gastrointestinal-surgery",
+      "specialities": [
+        "GI Surgery",
+        "GI Oncology",
+        "Minimal Access Surgery",
+        "Bariatric Surgery",
+        "Robotic Surgery",
+        "Metabolic & Bariatric Surgery",
+        "General and Laparoscopic Surgery",
+        "Surgical Oncology",
+        "Hepatobiliary Surgery"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 35,
+      "about": "Dr. Pradeep Kumar Jain is Chairman – GI, GI Oncology, Minimal Access & Bariatric Surgery at Fortis Hospital, Shalimar Bagh. He has over 35 years of experience in Gastrointestinal, Hepatobiliary, GI Oncology, Minimal Access, Bariatric, and Robotic Surgery. He completed his MS (Surgery) and M.Ch in Gastrointestinal and Hepatobiliary Surgery and is currently leading the Department of Laparoscopic GI, GI Oncology, HPB & Minimal Access Surgery at Fortis Hospital. Dr. Jain is highly experienced in advanced laparoscopic, robotic, metabolic, and oncological surgical procedures with a strong focus on minimally invasive gastrointestinal and hepatobiliary interventions.",
+      "education": [
+        "MS (Surgery)",
+        "M.Ch. (Gastrointestinal Surgery)"
+      ],
+      "expertise": [
+        "GI Surgery",
+        "GI Oncology Surgery",
+        "Minimal Access Surgery",
+        "Bariatric Surgery",
+        "Metabolic Surgery",
+        "Robotic Surgery",
+        "Hepatobiliary Surgery",
+        "Laparoscopic Surgery",
+        "Surgical Oncology",
+        "Advanced GI Procedures"
+      ],
+      "awards": [
+        "Recognized for extensive contribution in Gastrointestinal and Hepatobiliary Surgery"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/pradeep-kumar-jain.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "rakesh-kumar-dua",
+      "name": "Dr. Rakesh Kumar Dua",
+      "designation": "Principal Director & HOD Neuro and Spine Surgery",
+      "specialty": "neurosurgery",
+      "specialities": [
+        "Neurosurgery",
+        "Neuro and Spine Surgery",
+        "Spine Surgery"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 25,
+      "about": "Dr. Rakesh Kumar Dua is Principal Director & HOD Neuro and Spine Surgery at Fortis Hospital, Shalimar Bagh. He has more than 25 years of experience in neurosurgery and spine surgery. Dr. Dua is highly experienced in complex neuro and spinal surgical procedures and currently serves as Director Neurosurgery & Head Neurospine at Fortis Hospital. He is also associated as Faculty Neurosurgery & Spine with the National Board of Examinations under the Ministry of Health & Family Welfare, New Delhi. He is known for his expertise in advanced neuro and spine surgical management with extensive clinical and academic experience.",
+      "education": [
+        "MBBS",
+        "MS (Surgery)",
+        "M.Ch (Neurosurgery)"
+      ],
+      "expertise": [
+        "Neurosurgery",
+        "Spine Surgery",
+        "Neuro and Spine Surgery",
+        "Complex Neuro Surgery",
+        "Advanced Spine Procedures",
+        "Minimally Invasive Spine Surgery"
+      ],
+      "awards": [
+        "Recognized for extensive contribution in Neuro and Spine Surgery"
+      ],
+      "memberships": [
+        "Faculty - National Board of Examinations, Ministry of Health & Family Welfare, New Delhi"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rakesh-kumar-dua.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "dinesh-kumar-mittal",
+      "name": "Dr. Dinesh Kumar Mittal",
+      "designation": "Senior Director & HOD Cardiothoracic and Vascular Surgery",
+      "specialty": "cardiothoracic-and-vascular-surgery",
+      "specialities": [
+        "Cardiac Sciences",
+        "Adult CTVS (Cardiothoracic and Vascular Surgery)",
+        "Cardiothoracic Surgery",
+        "Cardiac Surgery",
+        "Vascular Surgery"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 20,
+      "fees": 1500,
+      "about": "Dr. Dinesh Kumar Mittal is Senior Director & HOD Cardiothoracic and Vascular Surgery at Fortis Hospital, Shalimar Bagh. He has more than 20 years of experience in adult and paediatric cardiac surgery and has performed over 5000 cardiac surgeries. His expertise includes CABG (beating heart and on-pump), aortic valve and mitral valve replacement, mitral valve repair, ASD closure, VSD closure, TOF correction, coarctation repair, and Blalock-Taussig shunt procedures. He is highly experienced in managing complex cardiothoracic and vascular surgical cases.",
+      "education": [
+        "M.Ch (CTVS) - AIIMS, New Delhi",
+        "MS (General Surgery) - JLN Medical College, Ajmer",
+        "MBBS - JLN Medical College, Ajmer"
+      ],
+      "expertise": [
+        "Coronary Artery Bypass Grafting (CABG)",
+        "Beating Heart CABG",
+        "On-Pump CABG",
+        "Aortic Valve Replacement",
+        "Mitral Valve Replacement",
+        "Mitral Valve Repair",
+        "ASD Closure",
+        "VSD Closure",
+        "TOF Correction",
+        "Coarctation Repair",
+        "Blalock-Taussig Shunt Surgery",
+        "Adult Cardiac Surgery",
+        "Paediatric Cardiac Surgery",
+        "Cardiothoracic Surgery",
+        "Vascular Surgery"
+      ],
+      "awards": [],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/dinesh-kumar-mittal.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "rajinder-yadav",
+      "name": "Dr. Rajinder Yadav",
+      "designation": "Principal Director Urology",
+      "specialty": "urology",
+      "specialities": [
+        "Urology",
+        "Uro-Oncology",
+        "Robotic Surgery",
+        "Kidney Transplant",
+        "Minimally Invasive Surgery",
+        "Organ Transplant"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 42,
+      "fees": 2000,
+      "about": "Dr. Rajinder Yadav is Principal Director of Urology at Fortis Hospital, Shalimar Bagh, with over 42 years of experience in urology, uro-oncology, robotic surgery, and kidney transplantation. He has established and developed departments of Urology and Minimally Invasive Surgery in various hospitals. Dr. Yadav actively participates as faculty in USI and NZUSI conferences, where he has presented scientific papers, surgical videos, and demonstrated advanced minimally invasive surgeries during live workshops. He has also contributed to multiple academic publications in the field of urology and minimally invasive surgery.",
+      "education": [
+        "MS (General Surgery)",
+        "M.Ch (Urology) - AIIMS, New Delhi"
+      ],
+      "expertise": [
+        "Urology",
+        "Uro-Oncology",
+        "Robotic Urological Surgery",
+        "Kidney Transplant",
+        "Minimally Invasive Urology",
+        "Endourology",
+        "Advanced Laparoscopic Urology",
+        "Urological Cancer Surgery",
+        "Reconstructive Urology"
+      ],
+      "awards": [
+        "Established and developed Urology and MIS departments in multiple hospitals",
+        "Faculty participant at USI and NZUSI conferences",
+        "Presented scientific papers and surgical videos in national conferences",
+        "Demonstrated advanced minimally invasive surgeries in live workshops"
+      ],
+      "memberships": [
+        "Urological Society of India (USI)",
+        "North Zone Urological Society of India (NZUSI)"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rajinder-yadav.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
+      "id": "puneet-mishra",
+      "name": "Dr. Puneet Mishra",
+      "designation": "Director & Unit Head Orthopedics",
+      "specialty": "orthopaedics",
+      "specialities": [
+        "Orthopaedics",
+        "Orthopaedics and Joint Replacement",
+        "Hip Preservation Surgery",
+        "Trauma Surgery",
+        "Revision Arthroplasty",
+        "Joint Replacement Surgery"
+      ],
+      "hospital": "Fortis Hospital, Shalimar Bagh",
+      "hospitalslug": "fortis-hospital-shalimar-bagh",
+      "experienceYears": 27,
+      "fees": 1200,
+      "about": "Dr. Puneet Mishra is Director & Unit Head - Orthopedics at Fortis Hospital, Shalimar Bagh, with over 27 years of experience in orthopaedics and joint replacement surgery. He has more than a decade of expertise in managing complex acetabulum and pelvis fractures and has successfully treated over 500 such cases in the last 15 years. Dr. Mishra is regarded as a pioneer in hip preservation surgery in India and has extensive experience in primary and revision arthroplasty procedures involving the hip and knee. He is known for adopting advanced surgical techniques and delivering comprehensive orthopaedic care.",
+      "education": [
+        "MBBS - Maulana Azad Medical College (MAMC), Delhi",
+        "MS Orthopaedics - Maulana Azad Medical College (MAMC), Delhi",
+        "Fellowship in Hip Preservation & Trauma - Bern, Switzerland",
+        "Fellowship in Primary & Revision Arthroplasty (Hip, Knee) - Endoklinik, Germany"
+      ],
+      "expertise": [
+        "Hip Preservation Surgery",
+        "Complex Acetabulum Fractures",
+        "Pelvis Fracture Management",
+        "Primary Hip Replacement",
+        "Revision Hip Replacement",
+        "Primary Knee Replacement",
+        "Revision Knee Replacement",
+        "Joint Replacement Surgery",
+        "Orthopaedic Trauma Surgery",
+        "Arthroplasty"
+      ],
+      "awards": [
+        "Recognized pioneer in Hip Preservation Surgery in India",
+        "Successfully treated over 500 complex acetabulum and pelvis fracture cases"
+      ],
+      "memberships": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/puneet-mishra.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "availability": "By Appointment",
+        "location": "Fortis Hospital, Shalimar Bagh, New Delhi, India"
+      }
+    },
+    {
       "id": "rajiv-kumar-sethia",
       "name": "Dr. Rajiv Kumar Sethia",
       "designation": "Director & Head - Urology, Kidney Transplant & Robotic Surgery",
