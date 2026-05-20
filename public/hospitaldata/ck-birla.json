@@ -56,82 +56,41 @@
       "visible": true,
       "list": [
         {
-          "id": "pn-gupta",
-          "name": "Dr. P.N. Gupta",
-          "specialty": "Director & HOD – Nephrology",
-          "rating": 4.9,
-          "experienceYears": 44,
-          "profileUrl": "/doctors/pn-gupta"
-        },
-        {
-          "id": "manmohan-singh",
-          "name": "Dr. (Prof.) Manmohan Singh",
-          "specialty": "neurosurgery",
-          "rating": 5.0,
-          "experienceYears": 46,
-          "profileUrl": "/doctors/manmohan-singh"
-        },
-        {
-         "id": "anurag-khaitan",
-          "name": "Dr. Anurag Khaitan",
-          "specialty": "urology",
-          "rating": 5.0,
-          "experienceYears": 22,
-          "profileUrl": "/doctors/anurag-khaitan"
-        },
-        {
-          "id": "r-ranga-rao",
-          "name": "Dr. (Col.) R Ranga Rao, VSM",
-          "specialty": "medical oncology",
-          "rating": 4.9,
-          "experienceYears": 30,
-          "profileUrl": "/doctors/r-ranga-rao"
-        }
-        ,
-        {
-          "id": "ankur-garg",
-          "name": "Dr. Ankur Garg",
-          "specialty": "hepato-pancreato-biliary surgery",
-          "rating": 4.9,
-          "experienceYears": 25,
-          "profileUrl": "/doctors/ankur-garg"
-        }
-        ,
-        {
-          "id": "amit-bhushan-sharma",
-          "name": "Dr. Amit Bhushan Sharma",
-          "specialty": "cardiology",
-          "rating": 4.9,
-          "experienceYears": 22,
-          "profileUrl": "/doctors/amit-bhushan-sharma"
-        }
-        ,
-        {
-          "id": "alka-kriplani",
-          "name": "Dr. (Prof.) Alka Kriplani",
-          "specialty": "gynaecology",
-          "rating": 4.9,
-          "experienceYears": 40,
-           "profileUrl": "/doctors/alka-kriplani"
-
-        }
-        ,
-        {
-          "id": "vivek-logani",
-          "name": "Dr. Vivek Logani",
-          "specialty": "orthopaedics",
-          "experienceYears": 23,
-          "rating": 4.9,
-          "profileUrl": "/doctors/vivek-logani"
-        },
-        {
-          "id": "arvind-mehra",
-          "name": "Dr. Arvind Mehra",
-          "specialty": "orthopaedics",
-          "experienceYears": 20,
-           "rating": 4.9,
-          "profileUrl": "/doctors/arvind-mehra"
-        }
+        "id": "amit-d-goswami",
+        "name": "Dr Amit D Goswami",
+        "designation": "Senior Consultant - GI, Minimal Access & Bariatric Surgery",
+        "specialty": "general-and-bariatric-surgery",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/amit-d-goswami"
+      },
+      {
+        "id": "anish-gupta",
+        "name": "Dr Anish Gupta",
+        "designation": "ENT Specialist & Head and Neck Surgeon",
+        "specialty": "ent-and-head-neck-surgery",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/anish-gupta"
+      },
+      {
+        "id": "anjali-kumar",
+        "name": "Dr. Anjali Kumar",
+        "designation": "Senior Obstetrician, Gynaecologist & Advanced Robotic Gynaecologic Surgeon",
+        "specialty": "obstetrics-and-gynaecology",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/anjali-kumar"
+      },
+      {
+        "id": "shalabh-agrawal",
+        "name": "Dr. Shalabh Agrawal",
+        "designation": "Senior Urologist",
+        "specialty": "urology",
+        "rating": 4.9,
+        "experienceYears": 28,
+        "profileUrl": "/doctors/shalabh-agrawal"
+      }
       ]
     },
     "teamAndSpecialities": {

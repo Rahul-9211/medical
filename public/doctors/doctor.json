@@ -1,6 +1,338 @@
 {
   "doctors": [
     {
+      "id": "shalabh-agrawal",
+      "name": "Dr. Shalabh Agrawal",
+      "designation": "Senior Urologist",
+      "specialty": "urology",
+      "specialities": [
+        "Urology",
+        "Minimally Invasive Urology",
+        "Laser Urology",
+        "Uro-Oncology",
+        "Reconstructive Urology",
+        "Paediatric Urology",
+        "Andrology"
+      ],
+      "hospital": "CK Birla Hospital, Gurugram",
+      "hospitalslug": "ck-birla-hospital-gurugram",
+      "experienceYears": 25,
+      "about": "Dr. Shalabh Agrawal is a leading urologist with more than 25 years of clinical experience in advanced urology and minimally invasive procedures. After completing his postgraduate training in General Surgery from Maulana Azad Medical College, New Delhi, he pursued super speciality training in Urology at Army Hospital Research and Referral, New Delhi. He has worked with several premier healthcare institutions including Artemis Hospital, Metro Hospitals, Sitaram Bhartia Hospital, and Army Hospital Research & Referral. Dr. Agrawal specializes in laser treatment for kidney stones and prostate disorders, microsurgical urological procedures, reconstructive paediatric urology, urinary incontinence, penile implants, and urological cancers.",
+      "education": [
+        "MBBS - Maulana Azad Medical College, New Delhi",
+        "MS (General Surgery) - Maulana Azad Medical College, New Delhi",
+        "DNB (Urology) - Army Hospital Research and Referral, New Delhi"
+      ],
+      "expertise": [
+        "Kidney Stone Treatment",
+        "Laser Stone Surgery",
+        "Endoscopic Prostate Surgery",
+        "Laser Prostate Surgery",
+        "Microsurgical Urology",
+        "Urogynaecology",
+        "Urinary Incontinence Treatment",
+        "Reconstructive Paediatric Urology",
+        "Penile Implant Surgery",
+        "Urological Cancer Management",
+        "Minimally Invasive Urology"
+      ],
+      "conditionsTreated": [
+        "Kidney Stones",
+        "Bladder Stones",
+        "Urinary Incontinence",
+        "Urinary Tract Infection (UTI)",
+        "Prostate Enlargement",
+        "Prostatitis",
+        "Overactive Bladder",
+        "Prostate Cancer"
+      ],
+      "workExperience": [
+        "Army Hospital Research and Referral, New Delhi",
+        "Artemis Hospital, Gurugram",
+        "Sitaram Bhartia Hospital, New Delhi",
+        "Metro Hospitals, New Delhi",
+        "Lok Nayak Hospital, New Delhi"
+      ],
+      "memberships": [],
+      "awards": [],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/shalabh-agrawal.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "reachus@ckbhospital.com",
+        "phone": [
+          "+91 124 4570112",
+          "+91 11 41592200"
+        ],
+        "availability": {
+          "Monday": "10:00 AM - 12:00 PM",
+          "Tuesday": "10:00 AM - 02:00 PM",
+          "Wednesday": "10:00 AM - 12:00 PM",
+          "Thursday": "10:00 AM - 02:00 PM",
+          "Friday": "10:00 AM - 12:00 PM",
+          "Saturday": "10:00 AM - 02:00 PM"
+        },
+        "location": "CK Birla Hospital, Sector 51, Gurugram, Haryana, India"
+      },
+      "blogs": [
+        "Common causes of frequent urination in men",
+        "What causes a burning sensation when urinating or dysuria?",
+        "Top 10 expert-approved tips for prostate cancer prevention"
+      ]
+    },
+    {
+      "id": "anjali-kumar",
+      "name": "Dr. Anjali Kumar",
+      "designation": "Senior Obstetrician, Gynaecologist & Advanced Robotic Gynaecologic Surgeon",
+      "specialty": "obstetrics-and-gynaecology",
+      "specialities": [
+        "Obstetrics",
+        "Gynaecology",
+        "Robotic Gynaecologic Surgery",
+        "Minimal Access Surgery",
+        "High Risk Obstetrics",
+        "Advanced Gynaecology",
+        "Laparoscopic Surgery",
+        "Hysteroscopy",
+        "VBAC"
+      ],
+      "hospital": "CK Birla Hospital, Gurugram",
+      "hospitalslug": "ck-birla-hospital-gurugram",
+      "experienceYears": 35,
+      "about": "Dr. Anjali Kumar is a renowned obstetrician, gynaecologist, and advanced robotic surgeon with over 35 years of clinical experience. She is among the most experienced specialists in Delhi NCR for high-risk pregnancies, robotic gynaecological procedures, and minimally invasive surgeries. Dr Kumar is internationally recognized for her innovative ‘Kumar’s Technique’ (Reverse Uterine Closure Technique), presented and accepted at AICOG 2015 and FIGO Vancouver 2015. She specializes in advanced laparoscopic, hysteroscopic, and robotic procedures including hysterectomies, myomectomies, endometriosis surgeries, fertility-enhancing procedures, and ovarian cyst surgeries. She pioneered the concept of ‘Natural Childbirth Oriented Pregnancy Care’ in NCR and actively promotes VBAC (Vaginal Birth After Caesarean). She is also the founder of the women’s health educational platform ‘MAITRI’, which is part of the WHO FIDES verified healthcare information group.",
+      "education": [
+        "MBBS - Lady Hardinge Medical College, New Delhi",
+        "MD (Obstetrics & Gynaecology) - Lady Hardinge Medical College, New Delhi",
+        "FICMCH - Fellow Indian College of Maternal and Child Health",
+        "FMAS - Fellow Minimal Access Surgery",
+        "Certificate Course in Endoscopy - Ethicon Endo-Surgery Institute & World Association of Laparoscopic Surgeons",
+        "Certificate Course in Endoscopy - Indian Association of Gynecologic Endoscopists",
+        "Certificate Course in Ultrasound - FOGSI Certified Institute of Ultrasound Training, New Delhi",
+        "Fetal Medicine Foundation UK - Certificate of Competence in Ultrasound (18-23 weeks)",
+        "Training in Da Vinci Robotic Surgical Technology"
+      ],
+      "expertise": [
+        "Robotic Hysterectomy",
+        "Robotic Myomectomy",
+        "Robotic Endometriosis Surgery",
+        "Robotic Ovarian Cystectomy",
+        "High-Risk Pregnancy Management",
+        "VBAC (Vaginal Birth After Caesarean)",
+        "Laparoscopic Hysterectomy",
+        "Laparoscopic Myomectomy",
+        "Laparoscopic Fertility Surgery",
+        "Operative Hysteroscopy",
+        "Minimal Access Gynaecologic Surgery",
+        "Endometriosis Treatment",
+        "PCOD Management",
+        "Pelvic Floor Disorders",
+        "Ovarian Cyst Management",
+        "Fibroid Treatment"
+      ],
+      "conditionsTreated": [
+        "Endometriosis",
+        "PCOD",
+        "Menstrual Disorders",
+        "Pregnancy Complications",
+        "Pelvic Floor Disorders",
+        "Uterine Fibroids",
+        "Ovarian Cysts",
+        "Gynaecological Cancer"
+      ],
+      "awards": [
+        "Developed the internationally recognized ‘Kumar’s Technique’ for reverse uterine closure",
+        "Presented and accepted at AICOG 2015 and FIGO Vancouver 2015",
+        "Founder of MAITRI women’s health platform associated with WHO FIDES"
+      ],
+      "memberships": [
+        "World Association of Laparoscopic Surgeons",
+        "Indian Association of Gynecologic Endoscopists",
+        "FOGSI"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/anjali-kumar.jpg",
+            "visible": true
+          }
+        ],
+        "books": [
+          {
+            "title": "I Am Blessed",
+            "type": "Pregnancy & Childbirth Guidance"
+          }
+        ]
+      },
+      "contact": {
+        "email": "reachus@ckbhospital.com",
+        "phone": [
+          "+91 124 4570112",
+          "+91 11 41592200"
+        ],
+        "availability": {
+          "Monday": "10:00 AM - 06:00 PM",
+          "Tuesday": "10:00 AM - 06:00 PM",
+          "Wednesday": "10:00 AM - 06:00 PM",
+          "Thursday": "10:00 AM - 06:00 PM",
+          "Friday": "10:00 AM - 06:00 PM",
+          "Saturday": "10:00 AM - 06:00 PM"
+        },
+        "location": "CK Birla Hospital, Sector 51, Gurugram, Haryana, India"
+      }
+    },
+    {
+      "id": "anish-gupta",
+      "name": "Dr Anish Gupta",
+      "designation": "ENT Specialist & Head and Neck Surgeon",
+      "specialty": "ent-and-head-neck-surgery",
+      "specialities": [
+        "ENT",
+        "Head & Neck Surgery",
+        "Endoscopic Sinus Surgery",
+        "Cochlear Implant Surgery",
+        "Otology",
+        "Rhinology"
+      ],
+      "hospital": "CK Birla Hospital, Gurugram",
+      "hospitalslug": "ck-birla-hospital-gurugram",
+      "experienceYears": 23,
+      "about": "Dr Anish Gupta is a prominent and highly experienced ENT specialist and Head & Neck surgeon at CK Birla Hospital, Gurugram. He has extensive expertise in performing both common and complex ENT procedures including otological surgeries, rhinological procedures, laryngeal framework surgeries, endoscopic sinus surgeries, cochlear implants, thyroidectomy, and surgeries for head and neck tumours. He has participated in more than 100 cochlear implant procedures and personally performed over 60 cochlear implant surgeries. Dr Gupta has also performed more than 2000 endonasal procedures and over 3000 middle and inner ear surgeries including revision mastoidectomies, stapedotomy, glomus tympanicum surgeries, optic nerve decompressions, and endolymphatic sac decompressions.",
+      "education": [
+        "MBBS",
+        "MS (ENT and Head & Neck Surgery)",
+        "Army Hospital Research and Referral (2004-07)",
+        "Senior Research Fellow - Indian Council of Medical Research (2008)",
+        "Training in Non-invasive Sinus Procedures (Balloon Sinuplasty) - Thailand (2015)",
+        "Training for Difficult Cochlear Implant Procedures - Sydney, Australia (2016)",
+        "Training in Implantable Hearing Aids (BAHA) - Kuala Lumpur, Malaysia (2019)"
+      ],
+      "expertise": [
+        "Head & Neck Surgery",
+        "Endoscopic Sinus Surgery",
+        "Cochlear Implant Surgery",
+        "Endoscopic Dacryocystorhinostomy",
+        "Otology",
+        "Rhinology",
+        "Middle Ear Surgery",
+        "Inner Ear Surgery",
+        "Revision Mastoidectomy",
+        "Stapedotomy",
+        "Thyroidectomy",
+        "Head and Neck Tumour Surgery"
+      ],
+      "awards": [
+        "Recognised for humanitarian services to the people of Gombe State, Nigeria",
+        "Raj Lakshmi Memorial Gold Medal in Temporal Bone Dissection Workshop, KKR Chennai (2014)"
+      ],
+      "memberships": [
+        "Association of Otolaryngologists of India"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/anish-gupta.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "reachus@ckbhospital.com",
+        "phone": [
+          "+91 124 4570112",
+          "+91 11 41592200"
+        ],
+        "availability": {
+          "Monday": "02:00 PM - 04:00 PM",
+          "Tuesday": "10:00 AM - 01:00 PM",
+          "Wednesday": "02:00 PM - 04:00 PM",
+          "Thursday": "10:00 AM - 01:00 PM",
+          "Friday": "02:00 PM - 04:00 PM",
+          "Saturday": "10:00 AM - 01:00 PM"
+        },
+        "location": "CK Birla Hospital, Sector 51, Gurugram, Haryana, India"
+      }
+    },
+    {
+      "id": "amit-d-goswami",
+      "name": "Dr Amit D Goswami",
+      "designation": "Senior Consultant - GI, Minimal Access & Bariatric Surgery",
+      "specialty": "general-and-bariatric-surgery",
+      "specialities": [
+        "General Surgery",
+        "Bariatric Surgery",
+        "Minimally Invasive Surgery",
+        "Laparoscopic Surgery",
+        "Robotic Surgery",
+        "Advanced Hernia Surgery"
+      ],
+      "hospital": "CK Birla Hospital, Gurugram",
+      "hospitalslug": "ck-birla-hospital-gurugram",
+      "experienceYears": 27,
+      "about": "Dr Amit D Goswami is a highly trusted and experienced General, Bariatric & Minimally Invasive Surgeon at CK Birla Hospital, Gurugram, with more than 27 years of experience. He is skilled in performing advanced laparoscopic, bariatric, robotic, and minimally invasive surgeries. Dr Goswami is known for creating a safe and supportive environment for patients, enabling personalized treatment planning and improved patient outcomes. He actively participates in national and international medical conferences and has appeared across various media platforms sharing expertise on laparoscopic and bariatric surgery advancements.",
+      "education": [
+        "MBBS - Guwahati Medical College, Guwahati (1999)",
+        "MS (General Surgery) - Silchar Medical College, Assam (2006)",
+        "FNB (MAS)",
+        "FIAGES",
+        "FCLS"
+      ],
+      "expertise": [
+        "Minimally Access Surgery",
+        "Robotic Bariatric Surgery",
+        "Advanced Hernia Surgery",
+        "Laparoscopic Surgery",
+        "General Surgery",
+        "Bariatric Surgery",
+        "Minimally Invasive Surgery"
+      ],
+      "workExperience": [
+        "Senior Consultant - Manipal Hospital, Gurugram",
+        "Consultant - Columbia Asia Hospital, Palam Vihar",
+        "Consultant - Max Super Speciality Hospital, Saket",
+        "Fellow National Board - Max Super Speciality Hospital, Saket",
+        "Consultant - Medanta Medicity Hospital",
+        "Senior Resident - All India Institute of Medical Sciences (AIIMS)"
+      ],
+      "awards": [
+        "Featured on multiple media platforms for expertise in laparoscopic and bariatric surgery",
+        "Active participant in National and International medical seminars and conferences"
+      ],
+      "memberships": [
+        "FIAGES",
+        "FCLS"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/amit-d-goswami.jpg",
+            "visible": true
+          }
+        ]
+      },
+      "contact": {
+        "email": "reachus@ckbhospital.com",
+        "phone": [
+          "+91 124 4570112",
+          "+91 11 41592200"
+        ],
+        "availability": {
+          "Monday": "01:00 PM - 05:00 PM",
+          "Tuesday": "09:00 AM - 01:00 PM",
+          "Wednesday": "01:00 PM - 05:00 PM",
+          "Thursday": "09:00 AM - 01:00 PM",
+          "Friday": "01:00 PM - 05:00 PM",
+          "Saturday": "09:00 AM - 01:00 PM"
+        },
+        "location": "CK Birla Hospital, Sector 51, Gurugram, Haryana, India"
+      }
+    },
+
+    {
       "id": "amite-pankaj-aggarwal",
       "name": "Dr. Amite Pankaj Aggarwal",
       "designation": "Principal Director & HOD - Orthopaedics",
