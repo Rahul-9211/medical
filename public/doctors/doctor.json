@@ -1,6 +1,537 @@
 {
   "doctors": [
     {
+      "id": "ashwani-kumar-sharma",
+      "name": "Dr. Ashwani Kumar Sharma",
+      "designation": "Vice Chairman - Manipal Comprehensive Cancer Centre & Onco Robotic Surgeries, North-West Cluster",
+      "specialty": "surgical-oncology",
+    
+      "specialities": [
+        "Surgical Oncology",
+        "Robotic Cancer Surgery",
+        "Thoracic Oncology",
+        "GI Oncology",
+        "HPB Oncology",
+        "Breast Cancer Surgery",
+        "Head & Neck Oncology",
+        "Gynecologic Oncology"
+      ],
+    
+      "hospital": "Manipal Hospitals Gurugram",
+      "hospitalslug": "manipal-gurugram",
+    
+      "experienceYears": 18,
+    
+      "about": "Dr. Ashwani Kumar Sharma is a highly experienced Surgical Oncologist with over 18 years of expertise in advanced cancer surgery. He specializes in robotic and minimally invasive cancer surgeries involving the oesophagus, lung, stomach, pancreas, colorectal region, urological cancers, gynecological cancers, thyroid cancers, and head & neck malignancies. He is proficient in Video-Assisted Thoracoscopic Surgery (VATS), Cytoreductive Surgery (CRS), HIPEC, and advanced breast cancer procedures. Known for combining cutting-edge robotic technology with compassionate patient care, he focuses on improving surgical precision, reducing complications, and enabling faster recovery for cancer patients.",
+    
+      "education": [
+        "MBBS",
+        "MS",
+        "DNB"
+      ],
+    
+      "expertise": [
+        "Robotic Surgical Oncology",
+        "Thoracic Oncology Surgery",
+        "GI Cancer Surgery",
+        "Pancreatic Cancer Surgery",
+        "Colorectal Cancer Surgery",
+        "Head & Neck Cancer Surgery",
+        "Breast Cancer Surgery",
+        "Gynecological Cancer Surgery",
+        "Thyroid Cancer Surgery",
+        "CRS + HIPEC",
+        "Video Assisted Thoracoscopic Surgery (VATS)"
+      ],
+    
+      "clinicalExpertise": [
+        "Esophageal Cancer",
+        "Lung Cancer",
+        "Stomach Cancer",
+        "Pancreatic Cancer",
+        "Colorectal Cancer",
+        "Breast Cancer",
+        "Thyroid Cancer",
+        "Head and Neck Cancers",
+        "Gynecological Malignancies",
+        "Urological Cancers",
+        "Peritoneal Surface Malignancies"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Vice Chairman - Manipal Comprehensive Cancer Centre & Onco Robotic Surgeries",
+          "organization": "Manipal Hospitals Gurugram"
+        }
+      ],
+    
+      "memberships": [
+        "Life Member - Indian Association of Surgical Oncologists",
+        "Life Member - Endoscopic and Laparoscopic Surgeons of India",
+        "Life Member - Association of Surgeons of India",
+        "Life Member - Clinical Robotic Surgery Association (CRSA)"
+      ],
+    
+      "achievements": [
+        "Best Paper Award - Acta Scientific for PVI based intraoperative fluid management",
+        "Best Paper Award - Rajiv Gandhi Cancer Institute and Research Centre (RGCIRC)",
+        "Expert in advanced robotic cancer surgeries",
+        "Recognized contributor in surgical oncology research and innovation"
+      ],
+    
+      "researchAndPublications": [
+        {
+          "title": "Feasibility, Safety and Surgical Outcome of Robotic Hemithyroidectomy",
+          "journal": "Indian Journal of Surgical Oncology"
+        },
+        {
+          "title": "Oncological Outcome Following De-intensification for HPV Negative Oropharyngeal Cancers with TORS",
+          "journal": "Oral Oncology"
+        },
+        {
+          "title": "Robotic Transoral Approach for Salvage Retropharyngeal Node Dissection",
+          "journal": "Journal of Robotic Surgery"
+        },
+        {
+          "title": "Swallowing Outcomes after Transoral Robotic Surgery",
+          "journal": "Annals of Robotic & Innovative Surgery"
+        }
+      ],
+    
+      "treatments": [
+        "Robotic Cancer Surgery",
+        "Thoracoscopic Cancer Surgery",
+        "CRS with HIPEC",
+        "Breast Cancer Surgery",
+        "Head & Neck Cancer Surgery",
+        "Pancreatic Cancer Surgery",
+        "Colorectal Cancer Surgery",
+        "Esophageal Cancer Surgery",
+        "Thyroid Cancer Surgery",
+        "Gynecologic Cancer Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 18
+      },
+    
+      "contact": {
+        "location": "Manipal Hospitals, Gurugram, Haryana",
+        "doctorEnquiry": "0124-6185561"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/ashwani-kumar-sharma.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "vikrant-setia",
+      "name": "Dr. Vikrant Setia",
+      "designation": "Consultant - Neurosurgery and Neurointervention",
+      "specialty": "neurosurgery",
+    
+      "specialities": [
+        "Neurosurgery",
+        "Neurointervention",
+        "Neurovascular Surgery",
+        "Neuro-Oncology",
+        "Pediatric Neurosurgery",
+        "Spine Surgery",
+        "Epilepsy Surgery",
+        "Trauma Neurosurgery"
+      ],
+    
+      "hospital": "Manipal Hospitals Gurugram",
+      "hospitalslug": "manipal-gurugram",
+    
+      "experienceYears": 14,
+    
+      "about": "Dr. Vikrant Setia is a highly qualified Neurosurgeon and Neurointervention Specialist with over 14 years of experience in diagnosing and treating complex brain, spine, and neurovascular disorders. He is recognized for his expertise in both conventional and minimally invasive neurosurgical techniques, with special interests in neurovascular diseases, stroke intervention, neuro-oncology, epilepsy, pediatric neurosurgery, spine disorders, and trauma-related neurological injuries. Dr. Setia combines advanced clinical skills with a compassionate and patient-centered approach, ensuring comprehensive care for patients and their families. His commitment to innovation and ethical medical practice enables him to deliver state-of-the-art neurological care with a focus on patient safety and optimal outcomes.",
+    
+      "education": [
+        "MBBS",
+        "MS",
+        "MCh (Neurosurgery)",
+        "MIPDED",
+        "EDNI"
+      ],
+    
+      "expertise": [
+        "Neurovascular Surgery",
+        "Neurointervention",
+        "Stroke Management",
+        "Brain Tumor Surgery",
+        "Spinal Surgery",
+        "Pediatric Neurosurgery",
+        "Epilepsy Surgery",
+        "Traumatic Brain Injury Management",
+        "Minimally Invasive Neurosurgery"
+      ],
+    
+      "clinicalExpertise": [
+        "Brain Aneurysms",
+        "Arteriovenous Malformations (AVM)",
+        "Stroke",
+        "Brain Tumors",
+        "Epilepsy",
+        "Spinal Disorders",
+        "Pediatric Neurological Disorders",
+        "Head Injuries",
+        "Spinal Trauma",
+        "Neurovascular Conditions"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Consultant - Neurosurgery and Neurointervention",
+          "organization": "Manipal Hospitals Gurugram"
+        }
+      ],
+    
+      "achievements": [
+        "Delhi Neurological Association Award - Poster Presentation (2017)",
+        "Torrent Young Scholarship Award (2016)",
+        "World Spine Society Poster Presentation Award (2016)",
+        "Delhi Neurological Association Regional Neurosciences Quiz Award (2016)",
+        "Neurological Society of India National Neurosciences Quiz Award (2015)",
+        "Multiple academic distinctions during MBBS training"
+      ],
+    
+      "awards": [
+        {
+          "year": 2017,
+          "title": "Delhi Neurological Association Award",
+          "description": "Poster Presentation on Intraventricular Tumor: Unusual Presentation"
+        },
+        {
+          "year": 2016,
+          "title": "Torrent Young Scholarship Award"
+        },
+        {
+          "year": 2015,
+          "title": "Neurological Society of India Award",
+          "description": "National Neurosciences Quiz"
+        }
+      ],
+    
+      "researchAndPublications": [
+        {
+          "title": "Cerebellar Mutism/Posterior Fossa Syndrome Following Resection of Posterior Fossa Tumor in Pediatric Patients",
+          "journal": "Asian Journal of Neurosurgery",
+          "year": 2025
+        },
+        {
+          "title": "Unruptured Pre-nidal Aneurysm Associated with AVM",
+          "journal": "Journal of Cerebrovascular Sciences",
+          "year": 2024
+        },
+        {
+          "title": "Secure Windows for Child Safety",
+          "journal": "Child's Nervous System",
+          "year": 2023
+        },
+        {
+          "title": "Dissection of C2 Guiding to C1 Lateral Mass and Facilitation of Screw Placement",
+          "journal": "World Neurosurgery",
+          "year": 2019
+        }
+      ],
+    
+      "treatments": [
+        "Brain Aneurysm Treatment",
+        "Stroke Intervention",
+        "Brain Tumor Surgery",
+        "Epilepsy Surgery",
+        "Pediatric Neurosurgery",
+        "Spinal Surgery",
+        "Neurovascular Procedures",
+        "Trauma Neurosurgery",
+        "Minimally Invasive Spine Procedures"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi",
+        "Bengali"
+      ],
+    
+      "statistics": {
+        "experienceYears": 14
+      },
+    
+      "contact": {
+        "location": "Manipal Hospitals, Gurugram, Haryana",
+        "doctorEnquiry": "0124-6185561"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/vikrant-setia.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "gurdeep-avinash-ratra",
+      "name": "Dr. Gurdeep Avinash Ratra",
+      "designation": "Consultant - Orthopaedics & Joint Replacement",
+      "specialty": "orthopaedics",
+    
+      "specialities": [
+        "Orthopaedics",
+        "Joint Replacement Surgery",
+        "Sports Medicine",
+        "Shoulder Replacement Surgery",
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery"
+      ],
+    
+      "hospital": "Manipal Hospitals Gurugram",
+      "hospitalslug": "manipal-gurugram",
+    
+      "about": "Dr. Gurdeep Avinash Ratra is an experienced Orthopaedic and Joint Replacement Surgeon based at Manipal Hospitals Gurugram. He has completed MBBS, MS in Orthopaedics, Fellowship in Joint Replacement from Germany, Fellowship in Joint Replacement and Sports Medicine from Austria, and advanced Shoulder Replacement training from France. He is known for his patient-centric approach, personalized treatment planning, and expertise in advanced orthopaedic procedures. Dr. Ratra actively participates in national and international academic programs and contributes to public awareness regarding bone and joint health.",
+    
+      "education": [
+        "MBBS",
+        "MS (Orthopaedics)",
+        "Fellowship in Joint Replacement (Germany)",
+        "Fellowship in Joint Replacement and Sports Medicine (Austria)",
+        "Advanced Shoulder Replacement Training (France)",
+        "A.O. Masters Course (Switzerland)"
+      ],
+    
+      "expertise": [
+        "Joint Replacement Surgery",
+        "Knee Replacement",
+        "Hip Replacement",
+        "Shoulder Replacement",
+        "Sports Medicine",
+        "Orthopaedic Trauma",
+        "Bone and Joint Disorders",
+        "Arthritis Management",
+        "Orthopaedic Rehabilitation"
+      ],
+    
+      "clinicalExpertise": [
+        "Knee Arthritis",
+        "Hip Arthritis",
+        "Shoulder Disorders",
+        "Sports Injuries",
+        "Joint Pain",
+        "Osteoporosis",
+        "Frozen Shoulder",
+        "Cervical Pain",
+        "Bone Health Management"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Consultant - Orthopaedics & Joint Replacement",
+          "organization": "Manipal Hospitals Gurugram"
+        }
+      ],
+    
+      "fellowships": [
+        "Fellowship in Joint Replacement (Germany)",
+        "Fellowship in Joint Replacement and Sports Medicine (Austria)",
+        "Advanced Shoulder Replacement Training (France)",
+        "A.O. Masters Course (Switzerland)"
+      ],
+    
+      "achievements": [
+        "International fellowship training in Germany, Austria, France, and Switzerland",
+        "Recognized Orthopaedic and Joint Replacement Specialist in Gurugram",
+        "Regular contributor to public awareness programs on bone and joint health",
+        "Speaker and participant at national and international orthopaedic conferences"
+      ],
+    
+      "researchAndPublications": [
+        {
+          "title": "Cervical Pain: Easy Tips for Relief",
+          "platform": "The Quint"
+        },
+        {
+          "title": "Frozen Shoulder Recovery Timeline",
+          "platform": "HT Healthshots"
+        },
+        {
+          "title": "Can Menopause Increase the Risk of Osteoporosis?",
+          "platform": "Live Hindustan"
+        },
+        {
+          "title": "Natural Ways to Improve Bone Density",
+          "platform": "The Times of India"
+        },
+        {
+          "title": "Total Hip Replacement Revolutionises Recovery",
+          "platform": "Media Publication"
+        }
+      ],
+    
+      "treatments": [
+        "Total Knee Replacement",
+        "Total Hip Replacement",
+        "Shoulder Replacement",
+        "Sports Injury Treatment",
+        "Arthritis Management",
+        "Orthopaedic Consultation",
+        "Joint Preservation Procedures",
+        "Bone Health Assessment"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "googleReviews": 24
+      },
+    
+      "contact": {
+        "location": "Manipal Hospitals, Gurugram, Haryana",
+        "doctorEnquiry": "0124-6185561"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/gurdeep-avinash-ratra.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "asheesh-dhingra",
+      "name": "Dr. Asheesh Dhingra",
+      "designation": "Consultant - Plastic and Cosmetic Surgery",
+      "specialty": "plastic-surgery",
+    
+      "specialities": [
+        "Plastic Surgery",
+        "Cosmetic Surgery",
+        "Reconstructive Surgery",
+        "Aesthetic Surgery",
+        "Burn Surgery",
+        "Trauma Reconstruction"
+      ],
+    
+      "hospital": "Manipal Hospitals Gurugram",
+      "hospitalslug": "manipal-gurugram",
+    
+      "about": "Dr. Asheesh Dhingra is a Consultant in Plastic and Cosmetic Surgery at Manipal Hospitals Gurugram. He has completed MBBS, MS in General Surgery, and DNB in Plastic Surgery. He is experienced in a wide range of reconstructive and cosmetic surgical procedures including breast reconstruction, post-cancer reconstruction, scar revision, burn surgery, trauma surgery, facelift, blepharoplasty, breast augmentation and reduction, liposuction, and body contouring. Known for his patient-centered approach, Dr. Dhingra develops personalized treatment plans and works closely with multidisciplinary teams whenever required. He actively keeps himself updated with the latest advancements in plastic and cosmetic surgery through conferences, seminars, and continuous medical education.",
+    
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "DNB (Plastic Surgery)"
+      ],
+    
+      "expertise": [
+        "Plastic Surgery",
+        "Cosmetic Surgery",
+        "Reconstructive Surgery",
+        "Breast Reconstruction",
+        "Post-Cancer Reconstruction",
+        "Facelift Surgery",
+        "Blepharoplasty",
+        "Liposuction",
+        "Body Contouring",
+        "Burn Reconstruction",
+        "Trauma Reconstruction"
+      ],
+    
+      "clinicalExpertise": [
+        "Breast Augmentation",
+        "Breast Reduction",
+        "Breast Reconstruction",
+        "Scar Revision",
+        "Burn Injuries",
+        "Facial Rejuvenation",
+        "Body Contouring",
+        "Hand and Limb Reconstruction",
+        "Post-Cancer Defect Reconstruction",
+        "Cosmetic Facial Procedures"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Consultant - Plastic and Cosmetic Surgery",
+          "organization": "Manipal Hospitals Gurugram"
+        }
+      ],
+    
+      "achievements": [
+        "Recognized Plastic and Cosmetic Surgeon in Gurugram",
+        "Successfully performs complex reconstructive and cosmetic procedures",
+        "Active participant in national and international plastic surgery conferences",
+        "Known for personalized treatment planning and patient-focused care"
+      ],
+    
+      "researchAndPublications": [
+        {
+          "title": "Salons are not for cosmetic surgeries or hair transplants",
+          "platform": "The Times of India (Delhi Times)"
+        },
+        {
+          "title": "28-year-old man's severed forearm restored in emergency surgery",
+          "platform": "Medical Case Coverage"
+        }
+      ],
+    
+      "treatments": [
+        "Breast Reconstruction",
+        "Breast Augmentation",
+        "Breast Reduction",
+        "Scar Revision Surgery",
+        "Burn Reconstruction",
+        "Trauma Reconstruction",
+        "Facelift Surgery",
+        "Blepharoplasty",
+        "Liposuction",
+        "Body Contouring",
+        "Hand and Limb Reconstruction",
+        "Post-Cancer Reconstruction"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "googleReviews": 129
+      },
+    
+      "contact": {
+        "location": "Manipal Hospitals, Gurugram, Haryana",
+        "doctorEnquiry": "0124-6185561"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/asheesh-dhingra.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
       "id": "mahesh-wadhwani",
       "name": "Dr. Mahesh Wadhwani",
       "designation": "Director & HOD - Cardio Thoracic Vascular Surgery",
