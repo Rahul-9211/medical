@@ -1,6 +1,922 @@
 {
   "doctors": [
     {
+      "id": "neeraj-chaudhary",
+      "name": "Dr. Neeraj Chaudhary",
+      "designation": "Senior Director & HOD – GI, GI Oncology, Minimal Access & Bariatric Surgery",
+      "specialty": "gi-surgery",
+    
+      "specialities": [
+        "GI Surgery",
+        "GI Oncology",
+        "Robotic Surgery",
+        "Minimal Access Surgery",
+        "Bariatric Surgery",
+        "Hepatopancreatobiliary (HPB) Surgery",
+        "Liver Transplant Surgery",
+        "General Surgery",
+        "Laparoscopic Surgery"
+      ],
+    
+      "hospital": "Fortis Hospital, Vasant Kunj",
+      "hospitalslug": "fortis-vasant-kunj",
+      "experienceYears": 20,
+    
+      "about": "Dr. Neeraj Chaudhary is a highly accomplished Surgical Gastroenterologist with over 20 years of experience in complex gastrointestinal, hepatobiliary, robotic and minimally invasive surgeries. He is a pioneer in advanced robotic GI surgery and has played a key role in establishing Da Vinci Robotic Surgery programs at leading hospitals. He specializes in robotic GI surgery, GI oncology, hepatopancreatobiliary (HPB) surgery, bariatric surgery, and living donor liver transplantation. He has trained numerous surgeons, led successful transplant and GI oncology programs, and contributed extensively to research and medical education through international publications and conference presentations.",
+    
+      "education": [
+        "MBBS - Kasturba Medical College, Manipal University",
+        "MS (General Surgery) - Kasturba Medical College, Manipal University",
+        "DNB (Surgical Gastroenterology & Liver Transplantation) - Sir Ganga Ram Hospital, New Delhi"
+      ],
+    
+      "expertise": [
+        "Robotic GI Surgery",
+        "GI Oncology Surgery",
+        "Hepatopancreatobiliary (HPB) Surgery",
+        "Liver Transplant Surgery",
+        "Living Donor Liver Transplantation",
+        "Bariatric Surgery",
+        "Advanced Laparoscopic Surgery",
+        "Minimal Access Surgery",
+        "Robotic Cancer Surgery",
+        "Complex Gastrointestinal Surgery"
+      ],
+    
+      "clinicalExpertise": [
+        "GI Cancers",
+        "Liver Cancer",
+        "Pancreatic Cancer",
+        "Bile Duct Cancer",
+        "Gallbladder Cancer",
+        "Colorectal Cancer",
+        "Esophageal Cancer",
+        "Stomach Cancer",
+        "Obesity Surgery",
+        "Liver Transplantation"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Senior Director & HOD – GI, GI Oncology, Minimal Access & Bariatric Surgery",
+          "organization": "Fortis Hospital, Vasant Kunj"
+        },
+        {
+          "position": "Head – GI Surgery, Robotic GI & HPB Surgery, GI Oncology Surgery",
+          "organization": "Fortis Hospital, Vasant Kunj"
+        }
+      ],
+    
+      "awards": [
+        {
+          "title": "Chikitsa Ratna Award",
+          "year": 2024
+        },
+        {
+          "title": "IMA Young Achievers Award",
+          "year": 2023
+        },
+        {
+          "title": "GRIPMER Best Clinical Publication Award",
+          "year": 2012
+        }
+      ],
+    
+      "achievements": [
+        "Established advanced Da Vinci Robotic Surgery programs at leading hospitals",
+        "Expert in complex GI and HPB oncology surgeries",
+        "Led multiple successful liver transplant and GI oncology programs",
+        "Trained numerous surgical fellows in robotic and laparoscopic surgery",
+        "Invited speaker at international conferences in Chicago, London and Seoul",
+        "Published extensively in leading international medical journals"
+      ],
+    
+      "researchPublications": [
+        {
+          "title": "Multiple publications in international journals related to GI Surgery, HPB Surgery and Liver Transplantation"
+        }
+      ],
+    
+      "treatments": [
+        "Robotic GI Surgery",
+        "GI Cancer Surgery",
+        "Liver Cancer Surgery",
+        "Pancreatic Surgery",
+        "Bile Duct Surgery",
+        "Bariatric Surgery",
+        "Advanced Laparoscopic Surgery",
+        "Liver Transplant Surgery",
+        "HPB Surgery",
+        "Minimally Invasive GI Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 20,
+        "publications": 15,
+        "surgeriesPerformed": 1500
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Vasant Kunj, New Delhi"
+      },
+    
+      "awardsAndRecognition": [
+        "Chikitsa Ratna Award 2024",
+        "IMA Young Achievers Award 2023",
+        "GRIPMER Best Clinical Publication Award 2012"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/neeraj-chaudhary.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "gurinder-bedi",
+      "name": "Dr. Gurinder Bedi",
+      "designation": "Principal Director & HOD - Orthopaedics",
+      "specialty": "orthopaedics",
+    
+      "specialities": [
+        "Orthopaedics",
+        "Joint Replacement Surgery",
+        "Robotic Joint Reconstruction",
+        "Computer Navigated Joint Replacement",
+        "Orthopaedics and Spine Surgery",
+        "Paediatric Orthopaedics",
+        "Sports Injury Management",
+        "Arthroscopy",
+        "Foot and Ankle Surgery",
+        "Hip Reconstruction"
+      ],
+    
+      "hospital": "Fortis Hospital, Vasant Kunj",
+      "hospitalslug": "fortis-vasant-kunj",
+      "experienceYears": 30,
+    
+      "about": "Dr. Gurinder Bedi is a highly experienced Orthopaedic Surgeon with over 30 years of expertise in joint replacement, robotic orthopaedics, arthroscopy, sports injuries, spine disorders, and foot & ankle surgery. He trained at Maulana Azad Medical College (MAMC), Delhi, and worked in the NHS, United Kingdom for 11 years across leading university hospitals in Bristol and Newcastle. He specializes in knee and hip replacement surgeries, computer-navigated joint reconstruction, minimally invasive orthopaedic procedures, and patient-specific knee replacement techniques. Known for excellent patient outcomes and high satisfaction rates, he currently leads the Orthopaedics department at Fortis Hospital, Vasant Kunj.",
+    
+      "education": [
+        "MBBS",
+        "Advanced Training in Orthopaedics - Maulana Azad Medical College (MAMC), Delhi",
+        "Advanced Fellowship in Knee Replacement",
+        "Advanced Fellowship in Hip Reconstruction",
+        "Advanced Fellowship in Foot & Ankle Surgery"
+      ],
+    
+      "expertise": [
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Robotic Joint Replacement",
+        "Computer Navigated Joint Reconstruction",
+        "Patient Specific Knee Replacement",
+        "Arthroscopy",
+        "Sports Injury Treatment",
+        "Foot & Ankle Surgery",
+        "Spine Surgery",
+        "Minimally Invasive Orthopaedic Surgery"
+      ],
+    
+      "clinicalExpertise": [
+        "Knee Arthritis",
+        "Hip Arthritis",
+        "Joint Pain",
+        "Sports Injuries",
+        "Ligament Injuries",
+        "Meniscus Injuries",
+        "Foot Disorders",
+        "Ankle Disorders",
+        "Spinal Disorders",
+        "Degenerative Joint Diseases"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Principal Director & HOD - Orthopaedics",
+          "organization": "Fortis Hospital, Vasant Kunj"
+        },
+        {
+          "position": "Orthopaedic Specialist",
+          "organization": "NHS Hospitals, Bristol & Newcastle, United Kingdom",
+          "duration": "11 Years"
+        }
+      ],
+    
+      "awards": [
+        {
+          "title": "Healthcare Excellence Award",
+          "year": 2015,
+          "organization": "Mail Today"
+        },
+        {
+          "title": "Illustrious Brands in Orthopaedics",
+          "year": 2016,
+          "organization": "Mail Today"
+        },
+        {
+          "title": "Healthcare Achievers Legends Award",
+          "year": 2018,
+          "organization": "Times of India"
+        },
+        {
+          "title": "NewsX Healthcare Achievement Award",
+          "year": 2018
+        },
+        {
+          "title": "Top 10 Orthopaedic Surgeons in Delhi",
+          "year": 2019,
+          "organization": "DelhiPlanet.com"
+        }
+      ],
+    
+      "achievements": [
+        "Over 30 years of orthopaedic experience",
+        "Worked in NHS United Kingdom for 11 years",
+        "Expert in robotic and computer-navigated joint replacement",
+        "Specialist in knee and hip reconstruction surgeries",
+        "Performs minimally invasive orthopaedic procedures",
+        "Consistently receives high patient satisfaction ratings"
+      ],
+    
+      "treatments": [
+        "Total Knee Replacement",
+        "Total Hip Replacement",
+        "Robotic Knee Replacement",
+        "Computer Navigated Joint Replacement",
+        "Arthroscopy",
+        "Sports Injury Surgery",
+        "Foot & Ankle Surgery",
+        "Spine Surgery",
+        "Joint Reconstruction",
+        "Minimally Invasive Orthopaedic Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 30,
+        "consultationFee": 1800
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Vasant Kunj, New Delhi"
+      },
+    
+      "awardsAndRecognition": [
+        "Healthcare Excellence Award 2015",
+        "Illustrious Brands in Orthopaedics 2016-17",
+        "Healthcare Achievers Legends Award 2018",
+        "NewsX Healthcare Achievement Award 2018",
+        "Top 10 Orthopaedic Surgeons in Delhi 2019"
+      ],
+    
+      "media": {
+        "videos": [
+          "Preventing Joint Pain: Expert Tips for Healthy Joints"
+        ],
+        "images": [
+          {
+            "url": "/images/doctors/gurinder-bedi.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "sanjeev-gulati",
+      "name": "Dr. Sanjeev Gulati",
+      "designation": "Chairman - Nephrology",
+      "specialty": "nephrology",
+    
+      "specialities": [
+        "Nephrology",
+        "Kidney Transplant",
+        "Pediatric Nephrology",
+        "Renal Diseases",
+        "Dialysis",
+        "Organ Transplantation"
+      ],
+    
+      "hospital": "Fortis Hospital, Vasant Kunj",
+      "hospitalslug": "fortis-vasant-kunj",
+      "experienceYears": 30,
+    
+      "about": "Dr. Sanjeev Gulati is a renowned Nephrologist with over 30 years of experience in nephrology, kidney transplantation, dialysis, and pediatric renal diseases. He previously served as Additional Professor of Nephrology at Sanjay Gandhi Post Graduate Institute of Medical Sciences (SGPGI), Lucknow, and Associate Professor of Pediatric Nephrology at McMaster University, Canada. He has extensive international experience across the UK, Australia, and Canada. Dr. Gulati played a key role in developing one of India's largest dialysis and kidney transplant programs at SGPGI. He has authored over 130 scientific publications, contributed chapters to leading nephrology textbooks, and is recognized globally for his research and clinical excellence in kidney diseases and transplantation.",
+    
+      "education": [
+        "MD",
+        "DNB",
+        "DM (Nephrology)",
+        "FRCPC (Canada)",
+        "MNAMS",
+        "FIPN",
+        "FIAP",
+        "FISN"
+      ],
+    
+      "expertise": [
+        "Kidney Transplantation",
+        "Pediatric Nephrology",
+        "Chronic Kidney Disease",
+        "Dialysis Management",
+        "Renal Failure",
+        "Glomerular Diseases",
+        "Kidney Disorders in Children",
+        "Transplant Nephrology",
+        "Acute Kidney Injury",
+        "Hypertension Related Kidney Disease"
+      ],
+    
+      "clinicalExpertise": [
+        "Kidney Transplant",
+        "Chronic Kidney Disease",
+        "Acute Kidney Injury",
+        "Nephrotic Syndrome",
+        "Pediatric Kidney Disorders",
+        "Dialysis",
+        "Renal Failure",
+        "Glomerulonephritis",
+        "Hypertension",
+        "Inherited Kidney Diseases"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Chairman - Nephrology",
+          "organization": "Fortis Hospital, Vasant Kunj"
+        },
+        {
+          "position": "Additional Professor, Nephrology",
+          "organization": "Sanjay Gandhi Post Graduate Institute of Medical Sciences (SGPGI), Lucknow"
+        },
+        {
+          "position": "Associate Professor, Pediatric Nephrology",
+          "organization": "McMaster University, Hamilton, Canada"
+        }
+      ],
+    
+      "memberships": [
+        "Vice President - Indian Society of Organ Transplantation",
+        "Member Governing Body - Indian Society of Nephrology",
+        "Reviewer - Pediatrics",
+        "Reviewer - American Journal of Kidney Diseases",
+        "Reviewer - Pediatric Nephrology",
+        "Reviewer - Indian Pediatrics"
+      ],
+    
+      "achievements": [
+        "Developed one of India's largest dialysis and kidney transplant programs at SGPGI",
+        "Published more than 130 scientific papers",
+        "Authored over 20 textbook chapters",
+        "Contributor to Oxford Textbook of Nephrology",
+        "Contributor to Comprehensive Pediatric Nephrology",
+        "Author of a book on Childhood Renal Diseases",
+        "Internationally recognized expert in kidney transplantation and pediatric nephrology"
+      ],
+    
+      "researchPublications": {
+        "count": 130,
+        "journals": [
+          "New England Journal of Medicine (NEJM)",
+          "Kidney International",
+          "American Journal of Kidney Diseases"
+        ],
+        "bookChapters": 20,
+        "booksAuthored": [
+          "Childhood Renal Diseases"
+        ]
+      },
+    
+      "awardsAndRecognition": [
+        "Recognition from Indian Council of Medical Research (ICMR)",
+        "Recognition from Indian Academy of Pediatrics",
+        "Recognition from Indian Society of Nephrology",
+        "Recognition from Australian College of Pediatrics",
+        "Recognition from Royal College of Pediatrics and Child Health (UK)",
+        "Recognition from Royal College of Physicians and Surgeons of Canada",
+        "Recognition from Japanese Society of Nephrology"
+      ],
+    
+      "treatments": [
+        "Kidney Transplant",
+        "Dialysis",
+        "Pediatric Kidney Disease Management",
+        "Chronic Kidney Disease Treatment",
+        "Acute Kidney Injury Treatment",
+        "Transplant Follow-up Care",
+        "Hypertension Management",
+        "Renal Failure Management"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 30,
+        "consultationFee": 2200,
+        "scientificPublications": 130,
+        "bookChapters": 20
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Vasant Kunj, New Delhi"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/sanjeev-gulati-1.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "rana-patir",
+      "name": "Dr. Rana Patir",
+      "designation": "Chairman - Department of Neurosurgery",
+      "specialty": "neurosurgery",
+    
+      "specialities": [
+        "Neurosurgery",
+        "Brain Surgery",
+        "Spine Surgery",
+        "Minimally Invasive Neurosurgery",
+        "Skull Base Surgery",
+        "Neurovascular Surgery",
+        "Paediatric Neurosurgery",
+        "Epilepsy Surgery"
+      ],
+    
+      "hospital": "Fortis Memorial Research Institute (FMRI)",
+      "hospitalslug": "fortis-memorial-research-institute-gurgaon",
+      "experienceYears": 32,
+    
+      "about": "Dr. Rana Patir is one of India's most renowned Neurosurgeons with over 32 years of experience in advanced neurosurgery. He currently serves as Chairman of the Department of Neurosurgery at Fortis Memorial Research Institute (FMRI), Gurugram. He has previously been a teaching faculty member at AIIMS, New Delhi, and Sir Ganga Ram Hospital, New Delhi, and has also served as Professor of Neurology at Guwahati Medical College. Dr. Patir specializes in minimally invasive brain and spine surgery, skull base surgery, neurovascular surgery, extracranial-intracranial bypass surgery, paediatric neurosurgery, and epilepsy surgery. He has performed more than 10,000 neurological procedures during his distinguished career.",
+    
+      "education": [
+        "MS (General Surgery)",
+        "MCh (Neurosurgery)",
+        "Fellowship in Neurosurgery (United Kingdom)"
+      ],
+    
+      "expertise": [
+        "Minimally Invasive Brain Surgery",
+        "Minimally Invasive Spine Surgery",
+        "Skull Base Surgery",
+        "Neurovascular Surgery",
+        "Extracranial-Intracranial Bypass Surgery",
+        "Paediatric Neurosurgery",
+        "Epilepsy Surgery",
+        "Brain Tumor Surgery",
+        "Complex Spine Procedures",
+        "Advanced Neurosurgical Interventions"
+      ],
+    
+      "clinicalExpertise": [
+        "Brain Tumors",
+        "Spinal Disorders",
+        "Epilepsy",
+        "Neurovascular Disorders",
+        "Skull Base Tumors",
+        "Pediatric Neurological Disorders",
+        "Brain Hemorrhage",
+        "Stroke Related Neurosurgical Conditions",
+        "Spinal Cord Compression",
+        "Neurological Trauma"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Chairman - Department of Neurosurgery",
+          "organization": "Fortis Memorial Research Institute (FMRI), Gurugram"
+        },
+        {
+          "position": "Teaching Faculty",
+          "organization": "All India Institute of Medical Sciences (AIIMS), New Delhi"
+        },
+        {
+          "position": "Teaching Faculty",
+          "organization": "Sir Ganga Ram Hospital, New Delhi"
+        },
+        {
+          "position": "Professor of Neurology",
+          "organization": "Guwahati Medical College"
+        }
+      ],
+    
+      "achievements": [
+        "More than 32 years of experience in neurosurgery",
+        "Performed over 10,000 neurological procedures",
+        "Recognized as one of India's leading neurosurgeons",
+        "Extensive expertise in advanced and minimally invasive neurosurgical techniques",
+        "Contributed significantly to neurosurgical education and training"
+      ],
+    
+      "treatments": [
+        "Brain Tumor Surgery",
+        "Spine Surgery",
+        "Minimally Invasive Neurosurgery",
+        "Skull Base Surgery",
+        "Neurovascular Surgery",
+        "Epilepsy Surgery",
+        "Pediatric Neurosurgery",
+        "Bypass Neurosurgery",
+        "Complex Brain Surgery",
+        "Spinal Cord Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 32,
+        "neurologicalProceduresPerformed": 10000
+      },
+    
+      "contact": {
+        "location": "Fortis Memorial Research Institute (FMRI), Gurugram"
+      },
+    
+      "awardsAndRecognition": [
+        "Among India's leading neurosurgeons",
+        "More than 10,000 successful neurological procedures",
+        "Former faculty at AIIMS and Sir Ganga Ram Hospital"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/rana-patir.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "dhananjay-gupta",
+      "name": "Dr. Dhananjay Gupta",
+      "designation": "Senior Director - Orthopaedics",
+      "specialty": "orthopaedics",
+    
+      "specialities": [
+        "Orthopaedics",
+        "Joint Replacement Surgery",
+        "Revision Joint Replacement",
+        "Regenerative Orthopaedics",
+        "Reconstructive Orthopaedic Surgery",
+        "Sports Injury Management",
+        "Arthroscopic Surgery",
+        "Complex Fracture Reconstruction"
+      ],
+    
+      "hospital": "Fortis Hospital, Vasant Kunj",
+      "hospitalslug": "fortis-vasant-kunj",
+      "experienceYears": 28,
+    
+      "about": "Dr. Dhananjay Gupta is a highly experienced Orthopaedic Surgeon with more than 28 years of expertise in regenerative and reconstructive orthopaedic surgery. His key areas of specialization include primary complex joint replacements, revision joint replacement surgeries, sports injury management, and fracture reconstruction. He established the Regenerative Medicine Department at Fortis Flt. Lt. Rajan Dhall Hospital and has extensive experience in joint reconstruction, fracture healing, and minimally invasive orthopaedic procedures. He is proficient in computer navigation-assisted surgeries and regularly incorporates advanced technologies to improve surgical outcomes. Dr. Gupta is actively involved in academic teaching and frequently serves as faculty at national and international conferences.",
+    
+      "education": [
+        "M.Ch",
+        "DNB (Orthopaedics)",
+        "D.Ortho",
+        "MNAMS",
+        "FIMSA",
+        "PhD (Scholar)"
+      ],
+    
+      "expertise": [
+        "Primary Joint Replacement",
+        "Revision Joint Replacement",
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Regenerative Orthopaedics",
+        "Joint Reconstruction",
+        "Sports Injury Treatment",
+        "Arthroscopic Surgery",
+        "Complex Fracture Reconstruction",
+        "Computer Navigation Assisted Surgery"
+      ],
+    
+      "clinicalExpertise": [
+        "Knee Arthritis",
+        "Hip Arthritis",
+        "Sports Injuries",
+        "Ligament Injuries",
+        "Cartilage Damage",
+        "Joint Degeneration",
+        "Complex Fractures",
+        "Delayed Fracture Healing",
+        "Joint Reconstruction",
+        "Orthopaedic Trauma"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Senior Director - Orthopaedics",
+          "organization": "Fortis Hospital, Vasant Kunj"
+        },
+        {
+          "position": "Founder - Regenerative Medicine Department",
+          "organization": "Fortis Flt. Lt. Rajan Dhall Hospital"
+        }
+      ],
+    
+      "achievements": [
+        "More than 28 years of experience in Orthopaedics",
+        "Performed over 3000 joint surgeries",
+        "Expert in complex and revision joint replacement surgeries",
+        "Established Regenerative Medicine Department at Fortis Flt. Lt. Rajan Dhall Hospital",
+        "Trained at leading orthopaedic centers in India, Germany, and Australia",
+        "Regular faculty member for national and international academic programs",
+        "Extensive experience in computer navigation-assisted surgeries"
+      ],
+    
+      "awardsAndRecognition": [
+        "28+ Years of Orthopaedic Excellence",
+        "Trained at premier centres in India, Germany and Australia",
+        "3000+ Joint Reconstruction, Repair and Replacement Surgeries",
+        "Specialist in Sports Injuries and Complex Fracture Reconstruction"
+      ],
+    
+      "treatments": [
+        "Total Knee Replacement",
+        "Total Hip Replacement",
+        "Revision Knee Replacement",
+        "Revision Hip Replacement",
+        "Joint Reconstruction Surgery",
+        "Arthroscopic Surgery",
+        "Sports Injury Surgery",
+        "Fracture Reconstruction",
+        "Regenerative Orthopaedic Procedures",
+        "Computer Navigated Joint Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 28,
+        "consultationFee": 1800,
+        "jointSurgeriesPerformed": 3000
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Vasant Kunj, New Delhi"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/dhananjay-gupta.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "shubham-jain",
+      "name": "Dr. Shubham Jain",
+      "designation": "Senior Director - Surgical Oncology",
+      "specialty": "surgical-oncology",
+    
+      "specialities": [
+        "Surgical Oncology",
+        "Thoracic Oncology",
+        "Head and Neck Oncosurgery",
+        "Thoracic Surgery",
+        "Robotic Cancer Surgery",
+        "Laparoscopic Cancer Surgery"
+      ],
+    
+      "hospital": "Fortis Hospital, Vasant Kunj",
+      "hospitalslug": "fortis-vasant-kunj",
+    
+      "availableLocations": [
+        "Fortis Flt. Lt. Rajan Dhall Hospital, Vasant Kunj",
+        "Fortis Cancer Institute, Defence Colony"
+      ],
+    
+      "experienceYears": 17,
+    
+      "about": "Dr. Shubham Jain is a highly respected Surgical Oncologist with over 17 years of experience in treating complex cancer cases. Having successfully managed more than 5000 cancer patients, he is recognized for his patient-centric approach and expertise in advanced oncological procedures. His practice includes open, laparoscopic, and robotic cancer surgeries across a broad spectrum of malignancies. Dr. Jain combines clinical excellence with compassion, focusing on providing personalized treatment plans and improving long-term patient outcomes. His mission is to offer every cancer patient the best opportunity for recovery and a cancer-free life.",
+    
+      "education": [
+        "MBBS - Maulana Azad Medical College, Delhi",
+        "MS (General Surgery) - Lady Hardinge Medical College, Delhi",
+        "M.Ch (Surgical Oncology) - Tata Memorial Hospital, Mumbai",
+        "Robotic Surgeon Certification - Intuitive Surgical",
+        "Robotic Surgeon Certification - SS Innovations International"
+      ],
+    
+      "expertise": [
+        "Surgical Oncology",
+        "Robotic Cancer Surgery",
+        "Thoracic Oncology",
+        "Head and Neck Cancer Surgery",
+        "Minimally Invasive Cancer Surgery",
+        "Laparoscopic Oncology Surgery",
+        "Complex Cancer Surgery",
+        "Cancer Management"
+      ],
+    
+      "clinicalExpertise": [
+        "Head and Neck Cancers",
+        "Thoracic Cancers",
+        "Lung Cancer",
+        "Oral Cancer",
+        "Esophageal Cancer",
+        "Cancer Surgery",
+        "Robotic Oncology Procedures",
+        "Minimally Invasive Cancer Treatment"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Senior Director - Surgical Oncology",
+          "organization": "Fortis Hospital, Vasant Kunj"
+        }
+      ],
+    
+      "achievements": [
+        "More than 17 years of experience in Surgical Oncology",
+        "Successfully treated over 5000 complex cancer cases",
+        "Expert in robotic, laparoscopic and open cancer surgeries",
+        "Certified robotic surgeon on Intuitive and SS Innovations platforms",
+        "Recognized for patient-centric cancer care"
+      ],
+    
+      "awardsAndRecognition": [
+        "Trusted Surgical Oncologist with 5000+ cancer surgeries and treatments"
+      ],
+    
+      "treatments": [
+        "Robotic Cancer Surgery",
+        "Laparoscopic Cancer Surgery",
+        "Open Cancer Surgery",
+        "Head and Neck Cancer Surgery",
+        "Thoracic Cancer Surgery",
+        "Oncology Surgical Procedures",
+        "Minimally Invasive Oncology Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 17,
+        "consultationFee": 1800,
+        "cancerCasesTreated": 5000
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Vasant Kunj, New Delhi"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/shubham-jain.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "sanjay-gupta",
+      "name": "Dr. Sanjay Gupta",
+      "designation": "Director - Cardio Thoracic Vascular Surgery",
+      "specialty": "cardiothoracic-vascular-surgery",
+    
+      "specialities": [
+        "Cardiothoracic Surgery",
+        "Cardiac Surgery",
+        "Vascular Surgery",
+        "Thoracic Surgery",
+        "Adult CTVS"
+      ],
+    
+      "hospital": "Fortis Hospital, Vasant Kunj",
+      "hospitalslug": "fortis-vasant-kunj",
+    
+      "experienceYears": 35,
+    
+      "about": "Dr. Sanjay Gupta is a highly experienced Cardiothoracic and Vascular Surgeon with over 35 years of experience in cardiac, vascular, and thoracic surgery. He has successfully performed more than 5,000 cardiothoracic vascular surgeries, including coronary artery bypass grafting (CABG), valve surgeries, congenital heart surgeries, vascular procedures, and thoracic surgeries. He is known for achieving excellent surgical outcomes, including performing over 50% of surgeries without blood transfusions. Dr. Gupta is particularly recognized for managing high-risk emergency cardiac cases and patients with chronic kidney disease undergoing hemodialysis, maintaining very low in-hospital mortality rates.",
+    
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "M.Ch. (Cardiac Surgery)",
+        "FIACS"
+      ],
+    
+      "expertise": [
+        "Coronary Artery Bypass Grafting (CABG)",
+        "Valve Replacement Surgery",
+        "Valve Repair Surgery",
+        "Congenital Heart Surgery",
+        "Cardiothoracic Surgery",
+        "Vascular Surgery",
+        "Thoracic Surgery",
+        "High-Risk Cardiac Surgery",
+        "Bloodless Cardiac Surgery",
+        "Cardiac Surgery in CKD Patients"
+      ],
+    
+      "clinicalExpertise": [
+        "Coronary Artery Disease",
+        "Heart Valve Disorders",
+        "Congenital Heart Defects",
+        "Thoracic Disorders",
+        "Peripheral Vascular Disease",
+        "Aortic Diseases",
+        "Cardiac Emergencies",
+        "Chronic Kidney Disease Patients Requiring Cardiac Surgery"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Director - Cardio Thoracic Vascular Surgery",
+          "organization": "Fortis Hospital, Vasant Kunj"
+        }
+      ],
+    
+      "memberships": [
+        "Life Member - Indian Association of Cardiovascular-Thoracic Surgeons (IACTS)",
+        "Life Member - Indian Medical Association (IMA)",
+        "Life Member - IASO"
+      ],
+    
+      "achievements": [
+        "35+ years of experience in Cardiothoracic and Vascular Surgery",
+        "Performed over 5,000 cardiothoracic vascular surgeries",
+        "Expert in CABG, valve, congenital, vascular and thoracic surgeries",
+        "More than 50% of surgeries performed without blood transfusion",
+        "Excellent outcomes in high-risk emergency cardiac surgeries",
+        "Special expertise in cardiac surgery for dialysis-dependent kidney disease patients"
+      ],
+    
+      "awardsAndRecognition": [
+        "Recognized for exceptional outcomes in high-risk cardiac surgery cases",
+        "Known for pioneering blood-conservation cardiac surgery techniques"
+      ],
+    
+      "treatments": [
+        "Coronary Artery Bypass Surgery (CABG)",
+        "Heart Valve Repair Surgery",
+        "Heart Valve Replacement Surgery",
+        "Congenital Heart Surgery",
+        "Thoracic Surgery",
+        "Vascular Surgery",
+        "Emergency Cardiac Surgery",
+        "Bloodless Cardiac Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 35,
+        "consultationFee": 1000,
+        "surgeriesPerformed": 5000
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Vasant Kunj, New Delhi"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/sanjay-gupta.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
       "id": "rajesh-sharma",
       "name": "Dr. Rajesh Sharma",
       "designation": "Director - Paediatric Cardiac Surgery",
