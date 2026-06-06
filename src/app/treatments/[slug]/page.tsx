@@ -5,24 +5,19 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useParams } from 'next/navigation';
 import BackgroundCarousel from '@/components/BackgroundCarousel';
+import {
+  getDoctorsForTreatment,
+  mergeTreatmentSpecialists,
+  type TreatmentDoctor,
+  type TreatmentSpecialist,
+} from '@/lib/treatmentDoctors';
 
 interface TreatmentCategory {
   name: string;
   procedures: string[];
 }
 
-interface Specialist {
-  name: string;
-  specialization: string;
-  experience: string;
-  affiliation: string;
-  expertise: string;
-  consultation_link?: string;
-  photoUrl?: string;
-  image?: string;
-  avatar?: string;
-  media?: { images?: { url: string; visible?: boolean }[] };
-}
+type Specialist = TreatmentSpecialist;
 
 interface TreatmentData {
   title: string;
@@ -57,14 +52,31 @@ function getDoctorImage(spec: Specialist): string {
 export default function TreatmentPage() {
   const { slug } = useParams();
   const [data, setData] = useState<TreatmentData | null>(null);
+  const [specialists, setSpecialists] = useState<Specialist[]>([]);
 
   useEffect(() => {
     async function fetchData() {
+      if (!slug || typeof slug !== 'string') return;
       try {
-        const res = await fetch(`/treatments/${slug}.json`);
-        if (!res.ok) throw new Error('JSON not found');
-        const json = await res.json();
-        setData(json);
+        const [treatmentRes, doctorsRes] = await Promise.all([
+          fetch(`/treatments/${slug}.json`),
+          fetch('/doctors/doctor.json'),
+        ]);
+        if (!treatmentRes.ok) throw new Error('Treatment JSON not found');
+
+        const treatmentJson = await treatmentRes.json();
+        setData(treatmentJson);
+
+        let matchedDoctors: Specialist[] = [];
+        if (doctorsRes.ok) {
+          const doctorsJson = await doctorsRes.json();
+          const doctors: TreatmentDoctor[] = doctorsJson.doctors ?? [];
+          matchedDoctors = getDoctorsForTreatment(doctors, slug);
+        }
+
+        setSpecialists(
+          mergeTreatmentSpecialists(matchedDoctors, treatmentJson.top_specialists ?? [])
+        );
       } catch (error) {
         console.error(error);
       }
@@ -73,6 +85,12 @@ export default function TreatmentPage() {
   }, [slug]);
 
   if (!data) return <p className="text-center py-20">Loading...</p>;
+
+  const specialistsHeading =
+    specialists[0]?.specialization ||
+    data.top_specialists?.[0]?.specialization ||
+    data.title?.replace(/ in India$/i, '') ||
+    'Specialists';
 
   const getCardColor = (index: number) => {
     const colors = [
@@ -166,44 +184,56 @@ export default function TreatmentPage() {
           </div>
         </section>
 
-        {/* Top Specialists */}
-        <section className="py-20 bg-white">
-          <div className="max-w-7xl mx-auto px-6">
-            <h2 className="text-3xl font-bold mb-10 text-center text-gray-900">Top {data.top_specialists[0].specialization ?data.top_specialists[0].specialization : "Specialists" } </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {data.top_specialists.map((spec, i) => {
-                const color = getCardColor(i);
-                return (
-                  <div key={i} className="group bg-white rounded-2xl shadow-lg border border-gray-100 p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
-                        <Image
-                          src={getDoctorImage(spec)}
-                          alt={`${spec.name} - Doctor Avatar`}
-                          width={64}
-                          height={64}
-                          className="w-full h-full object-cover"
-                        />
+        {/* Top Specialists — from doctor.json by treatment, with JSON fallback */}
+        {specialists.length > 0 && (
+          <section className="py-20 bg-white">
+            <div className="max-w-7xl mx-auto px-6">
+              <h2 className="text-3xl font-bold mb-10 text-center text-gray-900">
+                Top {specialistsHeading}
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {specialists.map((spec, i) => {
+                  const color = getCardColor(i);
+                  return (
+                    <div
+                      key={spec.id ?? spec.consultation_link ?? i}
+                      className="group bg-white rounded-2xl shadow-lg border border-gray-100 p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+                    >
+                      <div className="flex items-center gap-4 mb-4">
+                        <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                          <Image
+                            src={getDoctorImage(spec)}
+                            alt={`${spec.name} - Doctor Avatar`}
+                            width={64}
+                            height={64}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div>
+                          <h3 className={`text-xl font-bold ${color.text}`}>{spec.name}</h3>
+                          {spec.specialization && (
+                            <p className="text-gray-700">{spec.specialization}</p>
+                          )}
+                        </div>
                       </div>
-                      <div>
-                        <h3 className={`text-xl font-bold ${color.text}`}>{spec.name}</h3>
-                        <p className="text-gray-700">{spec.specialization}</p>
-                      </div>
+                      {spec.experience && <p className="text-gray-700 mb-1">{spec.experience}</p>}
+                      {spec.affiliation && <p className="text-gray-700 mb-1">{spec.affiliation}</p>}
+                      {spec.expertise && <p className="text-gray-700 mb-4">{spec.expertise}</p>}
+                      {spec.consultation_link && (
+                        <Link
+                          href={spec.consultation_link}
+                          className="inline-block px-6 py-3 bg-[#56DDEF] text-white rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 font-semibold"
+                        >
+                          View Profile
+                        </Link>
+                      )}
                     </div>
-                    <p className="text-gray-700 mb-1">{spec.experience}</p>
-                    <p className="text-gray-700 mb-1">{spec.affiliation}</p>
-                    <p className="text-gray-700 mb-4">{spec.expertise}</p>
-                    {spec.consultation_link && (
-                      <Link href={spec.consultation_link} className="inline-block px-6 py-3 bg-[#56DDEF] text-white rounded-xl hover:bg-[#56DDEF]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 font-semibold">
-                        Request Consultation
-                      </Link>
-                    )}
-                  </div>
-                );
-              })}
+                  );
+                })}
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        )}
 
         {/* Free Consultation */}
         {data.free_consultation && (
