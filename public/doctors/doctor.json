@@ -1,6 +1,917 @@
 {
   "doctors": [
     {
+      "id": "mahesh-wadhwani",
+      "name": "Dr. Mahesh Wadhwani",
+      "designation": "Director & HOD - Cardio Thoracic Vascular Surgery",
+      "specialty": "cardiothoracic-vascular-surgery",
+    
+      "specialities": [
+        "Cardiothoracic & Vascular Surgery",
+        "Cardiac Surgery",
+        "Vascular Surgery",
+        "Heart Transplant",
+        "Heart & Lung Transplant",
+        "Adult CTVS",
+        "Pediatric Cardiac Surgery"
+      ],
+    
+      "hospital": "Fortis Manesar",
+      "hospitalslug": "fortis-manesar",
+    
+      "experienceYears": 24,
+    
+      "about": "Dr. Mahesh Wadhwani is a highly experienced and renowned Cardiothoracic and Vascular Surgeon with over 24 years of experience and more than 7,000 successful heart surgeries to his credit. Trained at the prestigious Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST), he specializes in both adult and pediatric cardiac surgery with a strong focus on minimally invasive techniques. His expertise includes beating-heart coronary artery bypass surgery, valve repair and replacement, congenital heart defect surgeries (ASD, VSD, TOF, PDA), aortic surgeries, and heart transplantation. Known for his patient-first approach, Dr. Wadhwani combines advanced surgical expertise with compassionate care to deliver superior outcomes, faster recovery, and enhanced patient safety.",
+    
+      "education": [
+        "MBBS - Govt. Kilpauk Medical College, Chennai",
+        "MS (General Surgery) - Govt. MGMMC & MYH, Indore",
+        "MCh (Cardiothoracic & Vascular Surgery) - SCTIMST, Trivandrum"
+      ],
+    
+      "expertise": [
+        "Coronary Artery Bypass Surgery (CABG)",
+        "Beating Heart Bypass Surgery",
+        "Valve Repair Surgery",
+        "Valve Replacement Surgery",
+        "Congenital Heart Surgery",
+        "Heart Transplantation",
+        "Heart & Lung Transplantation",
+        "Aortic Surgery",
+        "Minimally Invasive Cardiac Surgery",
+        "Pediatric Cardiac Surgery"
+      ],
+    
+      "clinicalExpertise": [
+        "Coronary Artery Disease",
+        "Heart Valve Disorders",
+        "Congenital Heart Defects",
+        "Atrial Septal Defect (ASD)",
+        "Ventricular Septal Defect (VSD)",
+        "Tetralogy of Fallot (TOF)",
+        "Patent Ductus Arteriosus (PDA)",
+        "Aortic Aneurysm",
+        "Heart Failure",
+        "End-Stage Cardiac Disease"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Director & HOD - Cardio Thoracic Vascular Surgery",
+          "organization": "Fortis Manesar"
+        }
+      ],
+    
+      "achievements": [
+        "24+ years of experience in Cardiothoracic and Vascular Surgery",
+        "Performed over 7,000 successful cardiac surgeries",
+        "Expert in adult and pediatric cardiac surgery",
+        "Specialist in minimally invasive cardiac procedures",
+        "Leader in heart and lung transplantation"
+      ],
+    
+      "awardsAndRecognition": [
+        "Cardiothoracic Surgeon of the Year 2025 – North",
+        "Health Icon of Delhi-NCR"
+      ],
+    
+      "memberships": [],
+    
+      "treatments": [
+        "Coronary Artery Bypass Grafting (CABG)",
+        "Beating Heart Surgery",
+        "Heart Valve Repair",
+        "Heart Valve Replacement",
+        "Congenital Heart Defect Surgery",
+        "Heart Transplant",
+        "Heart & Lung Transplant",
+        "Aortic Surgery",
+        "Minimally Invasive Cardiac Surgery",
+        "Pediatric Cardiac Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 24,
+        "heartSurgeriesPerformed": 7000
+      },
+    
+      "contact": {
+        "location": "Fortis Manesar"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/mahesh-wadhwani.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "monu-singh",
+      "name": "Dr. Monu Singh",
+      "designation": "Director - Orthopaedics",
+      "specialty": "orthopaedics",
+    
+      "specialities": [
+        "Orthopaedics",
+        "Joint Replacement Surgery",
+        "Arthroscopy",
+        "Sports Injury Management",
+        "Endoscopic Spine Surgery",
+        "Revision Joint Replacement",
+        "Degenerative Spine Surgery"
+      ],
+    
+      "hospital": "Fortis Manesar",
+      "hospitalslug": "fortis-manesar",
+    
+      "experienceYears": 25,
+    
+      "about": "Dr. Monu Singh is a highly experienced orthopedic surgeon with over 25 years of clinical expertise in joint replacement, arthroscopy, sports injury management, and endoscopic spine surgery. He completed his orthopedic training at Lady Hardinge Medical College, Delhi University, and was awarded the Banwari Lal Memorial Gold Medal for Best Resident in Orthopedics. He played a key role in establishing the Joint Replacement and Arthroscopy Unit at Maharishi Balmiki Hospital under Delhi Health Services. Dr. Singh has received advanced international training in Australia, the USA, Germany, South Korea, and the UAE. With more than 5,000 reconstructive and minimally invasive surgeries to his credit, he is recognized for his expertise in joint preservation, joint replacement, sports medicine, and minimally invasive spine procedures.",
+    
+      "education": [
+        "Orthopaedics Graduate - Lady Hardinge Medical College (LHMC), Delhi University",
+        "Fellow Joint Reconstruction",
+        "Fellow Revision Joint Replacement",
+        "Fellow Spine Surgery",
+        "Observership in UBE (Unilateral Biportal Endoscopy)"
+      ],
+    
+      "expertise": [
+        "Total Knee Replacement",
+        "Total Hip Replacement",
+        "Revision Joint Replacement",
+        "Computer Navigated Joint Replacement",
+        "Arthroscopic Surgery",
+        "Sports Injury Treatment",
+        "Endoscopic Spine Surgery",
+        "Degenerative Spine Disorders",
+        "Joint Reconstruction",
+        "Minimally Invasive Orthopaedic Surgery"
+      ],
+    
+      "clinicalExpertise": [
+        "Knee Arthritis",
+        "Hip Arthritis",
+        "Sports Injuries",
+        "Ligament Injuries",
+        "Meniscus Injuries",
+        "Degenerative Spine Disease",
+        "Back Pain",
+        "Spinal Disorders",
+        "Joint Degeneration",
+        "Complex Joint Reconstruction"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Director - Orthopaedics",
+          "organization": "Fortis Manesar"
+        },
+        {
+          "position": "Orthopaedic Specialist",
+          "organization": "Delhi Health Services"
+        }
+      ],
+    
+      "achievements": [
+        "25+ years of clinical experience",
+        "Banwari Lal Memorial Gold Medal for Best Resident in Orthopedics",
+        "Established Joint Replacement and Arthroscopy Unit at Maharishi Balmiki Hospital",
+        "Performed over 5,000 reconstructive and minimally invasive surgeries",
+        "International training in Australia, USA, Germany, South Korea, and UAE",
+        "Secretary, World Endoscopic Spine Society",
+        "Former Vice President, Delhi Orthopedic Association"
+      ],
+    
+      "awardsAndRecognition": [
+        "Banwari Lal Memorial Gold Medal for Best Resident in Orthopedics"
+      ],
+    
+      "memberships": [
+        "World Endoscopic Spine Society (Secretary)",
+        "Delhi Orthopedic Association (Former Vice President)",
+        "Executive Council Member - Delhi Orthopedic Association"
+      ],
+    
+      "researchAndPublications": [
+        {
+          "title": "Fine Needle Aspiration Diagnosis of Giant Cell Tumor of Bone Presenting at Unusual Sites",
+          "journal": "Diagnostic Cytopathology, USA",
+          "year": 2002
+        },
+        {
+          "title": "Minimally Invasive Spine Surgery: Degenerative Lumbar Spine Disease",
+          "publication": "Current Practice in Neurosciences",
+          "year": 2020
+        },
+        {
+          "title": "High Tibial Osteotomy in the Management of Degenerative Arthritis of the Knee",
+          "type": "Thesis"
+        }
+      ],
+    
+      "treatments": [
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Revision Joint Replacement",
+        "Arthroscopy",
+        "Sports Injury Management",
+        "Endoscopic Spine Surgery",
+        "Joint Reconstruction Surgery",
+        "Minimally Invasive Orthopaedic Procedures"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 25,
+        "surgeriesPerformed": 5000
+      },
+    
+      "contact": {
+        "location": "Fortis Manesar"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/monu-singh.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ruchir-maheshwari",
+      "name": "Dr. Ruchir Maheshwari",
+      "designation": "Director - Urology & Renal Transplant",
+      "specialty": "urology",
+    
+      "specialities": [
+        "Urology",
+        "Uro-Oncology",
+        "Robotic Urology",
+        "Kidney Transplant",
+        "Renal Transplant",
+        "Endourology",
+        "Minimally Invasive Urology"
+      ],
+    
+      "hospital": "Fortis Hospital Manesar",
+      "hospitalslug": "fortis-manesar",
+    
+      "otherLocations": [
+        "Fortis Vasant Kunj"
+      ],
+    
+      "experienceYears": 17,
+    
+      "about": "Dr. Ruchir Maheshwari is the Director and Head of Urology and Renal Transplant at Fortis Hospital Manesar. With over 17 years of experience and more than 15,000 successful urological procedures, he is recognized as one of the leading urologists and kidney transplant surgeons in the Delhi NCR region. He completed his super-specialization in Urology and Kidney Transplantation from SGPGIMS Lucknow and specializes in managing kidney stones, prostate disorders, urinary tract diseases, urological cancers, robotic urology, and kidney transplantation. As an accredited robotic surgeon on the da Vinci surgical platform, he performs advanced robotic prostate, kidney, and reconstructive urological surgeries. He has also been involved in more than 2,000 kidney transplants, including laparoscopic donor nephrectomy, complex vascular reconstructions, swap transplants, and cadaveric transplants. Known for his patient-centric approach, transparent communication, and surgical precision, Dr. Maheshwari is dedicated to delivering advanced and compassionate urological care.",
+    
+      "education": [
+        "MBBS",
+        "MS - General Surgery",
+        "M.Ch. - Urology",
+        "Intuitive Surgical Accredited Surgeon for da Vinci Robotic Surgical Platform"
+      ],
+    
+      "expertise": [
+        "Kidney Stone Surgery",
+        "Laser Urology",
+        "Robotic Urological Surgery",
+        "Kidney Transplantation",
+        "Uro-Oncology",
+        "Prostate Surgery",
+        "Reconstructive Urology",
+        "Minimally Invasive Urology",
+        "Laparoscopic Donor Nephrectomy",
+        "Renal Transplant Surgery"
+      ],
+    
+      "clinicalExpertise": [
+        "Kidney Stones",
+        "Prostate Enlargement (BPH)",
+        "Prostate Cancer",
+        "Kidney Cancer",
+        "Bladder Cancer",
+        "Urinary Tract Disorders",
+        "Urological Cancers",
+        "Kidney Failure",
+        "Ureteric Stones",
+        "Male Urological Disorders"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Director & Head - Urology and Renal Transplant",
+          "organization": "Fortis Hospital Manesar"
+        }
+      ],
+    
+      "achievements": [
+        "17+ years of experience in Urology and Renal Transplant",
+        "Performed over 15,000 successful urological procedures",
+        "Associated with more than 2,000 kidney transplants",
+        "Expert in robotic and minimally invasive urological surgery",
+        "Mentored more than 20 residents and fellows"
+      ],
+    
+      "awardsAndRecognition": [
+        "Award-winning presentations at national and international conferences"
+      ],
+    
+      "memberships": [],
+    
+      "researchAndPublications": [
+        {
+          "description": "24 publications in peer-reviewed national and international journals"
+        },
+        {
+          "description": "Co-author of a chapter published by the Urological Society of India"
+        },
+        {
+          "description": "Presented research at various national and international conferences"
+        },
+        {
+          "description": "Guided thesis work for DNB Urology candidates"
+        }
+      ],
+    
+      "treatments": [
+        "PCNL (Percutaneous Nephrolithotomy)",
+        "RIRS (Retrograde Intrarenal Surgery)",
+        "URS (Ureteroscopy)",
+        "TURP (Transurethral Resection of Prostate)",
+        "HoLEP (Holmium Laser Enucleation of Prostate)",
+        "Robotic Prostate Surgery",
+        "Robotic Kidney Surgery",
+        "Kidney Transplant",
+        "Laparoscopic Donor Nephrectomy",
+        "AV Fistula Creation",
+        "Peritoneal Dialysis Catheter Placement"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 17,
+        "urologicalProceduresPerformed": 15000,
+        "kidneyTransplantsInvolved": 2000,
+        "residentsMentored": 20
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital Manesar, Gurugram"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/ruchir-maheshwari.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "rohit-lamba",
+      "name": "Dr. Rohit Lamba",
+      "designation": "Director - Orthopaedics",
+      "specialty": "orthopaedics",
+    
+      "specialities": [
+        "Orthopaedics",
+        "Sports Medicine",
+        "Orthopaedic Oncology",
+        "Joint Replacement Surgery",
+        "Robotic Joint Replacement",
+        "Computer Navigated Joint Reconstruction",
+        "Orthopaedics and Spine Surgery",
+        "Paediatric Orthopaedics",
+        "Arthroscopy"
+      ],
+    
+      "hospital": "Fortis Manesar",
+      "hospitalslug": "fortis-manesar",
+    
+      "experienceYears": 22,
+    
+      "about": "Dr. Rohit Lamba is a highly experienced orthopaedic surgeon with over 22 years of expertise in joint preservation, sports injury management, arthroscopy, and complex hip and knee replacement surgery. Following his Masters in Orthopaedics, he developed extensive expertise in handling high-volume trauma cases and advanced arthroscopic procedures of the knee and shoulder. He has worked at leading institutions including Fortis Memorial Research Institute and has performed more than 10,000 joint replacement surgeries and over 4,000 arthroscopic procedures. For the last five years, he has specialized in robotic and computer-navigated hip and knee replacement surgery. Dr. Lamba has received advanced international training in hip preservation, revision joint replacement, hip arthroscopy, and computer-assisted joint replacement from prestigious centers in Germany, Spain, the United Kingdom, and India. He is recognized for providing advanced orthopaedic care to both Indian and international patients.",
+    
+      "education": [
+        "MBBS",
+        "MS (Orthopaedics)"
+      ],
+    
+      "expertise": [
+        "Robotic Knee Replacement",
+        "Robotic Hip Replacement",
+        "Computer Navigated Joint Replacement",
+        "Revision Joint Replacement",
+        "Hip Preservation Surgery",
+        "Arthroscopic Knee Surgery",
+        "Arthroscopic Shoulder Surgery",
+        "Sports Injury Treatment",
+        "Joint Preservation Procedures",
+        "Complex Hip and Knee Reconstruction"
+      ],
+    
+      "clinicalExpertise": [
+        "Knee Arthritis",
+        "Hip Arthritis",
+        "Sports Injuries",
+        "Ligament Injuries",
+        "Meniscus Tears",
+        "Failed Joint Replacement",
+        "Infected Joint Replacement",
+        "Shoulder Injuries",
+        "Hip Disorders",
+        "Trauma and Fracture Management"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Director - Orthopaedics",
+          "organization": "Fortis Manesar"
+        },
+        {
+          "position": "Consultant Orthopaedic Surgeon",
+          "organization": "Fortis Memorial Research Institute"
+        }
+      ],
+    
+      "achievements": [
+        "22+ years of experience in Orthopaedics",
+        "Performed over 10,000 joint replacement surgeries",
+        "Performed more than 4,000 arthroscopic procedures",
+        "Expert in robotic and computer-navigated joint replacement surgery",
+        "Internationally trained in revision joint replacement and hip preservation surgery",
+        "Treats patients from Iraq, Uzbekistan, Tajikistan, and South Sudan"
+      ],
+    
+      "awardsAndRecognition": [
+        "Invited Speaker at National and International Conferences on Hip and Knee Disorders"
+      ],
+    
+      "memberships": [],
+    
+      "fellowships": [
+        {
+          "title": "Fellowship in Revision Joint Replacement",
+          "institution": "Helios Endoklinik, Hamburg, Germany"
+        },
+        {
+          "title": "Clinical Fellowship in Hip Preservation Surgery and Hip Arthroplasty",
+          "institution": "University Hospital Infanta Leonor, Madrid, Spain"
+        },
+        {
+          "title": "IAA-K T Dholakia Fellowship in Arthroplasty",
+          "institution": "Laud Clinic, Mumbai, India"
+        },
+        {
+          "title": "Observership in Hip Arthroscopy",
+          "institution": "Princess Alexandra Hospital, Harlow, United Kingdom"
+        }
+      ],
+    
+      "researchAndPublications": [
+        {
+          "title": "Hip Preservation Surgery",
+          "type": "Book Chapter Contributor",
+          "publisher": "ESSKA"
+        }
+      ],
+    
+      "treatments": [
+        "Robotic Knee Replacement",
+        "Robotic Hip Replacement",
+        "Revision Joint Replacement",
+        "Computer Navigated Joint Replacement",
+        "Knee Arthroscopy",
+        "Shoulder Arthroscopy",
+        "Sports Injury Surgery",
+        "Hip Preservation Surgery",
+        "Joint Reconstruction",
+        "Management of Infected Joint Replacements"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 22,
+        "jointReplacementsPerformed": 10000,
+        "arthroscopicProceduresPerformed": 4000
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital Manesar, Gurugram"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/rohit-lamba.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "vinay-samuel-gaikwad",
+      "name": "Dr. Vinay Samuel Gaikwad",
+      "designation": "Senior Director - Surgical Oncology",
+      "specialty": "surgical-oncology",
+    
+      "specialities": [
+        "Surgical Oncology",
+        "Robotic Oncology Surgery",
+        "GI Oncology",
+        "Hepatopancreatobiliary (HPB) Oncology",
+        "Peritoneal Surface Oncology",
+        "Gynaecologic Oncology",
+        "Minimally Invasive Cancer Surgery"
+      ],
+    
+      "hospital": "Fortis Hospital Manesar",
+      "hospitalslug": "fortis-manesar",
+    
+      "experienceYears": 24,
+    
+      "about": "Dr. Vinay Samuel Gaikwad is a highly accomplished Surgical Oncologist with over 24 years of experience in treating complex and high-risk cancer cases. He specializes in Gastrointestinal (GI) and Hepatopancreatobiliary (HPB) Surgical Oncology and has received advanced oncology training from Tata Memorial Hospital and Memorial Sloan Kettering Cancer Center (MSKCC), New York. He is a recognized expert in robotic and minimally invasive cancer surgery, including advanced GI and HPB robotic procedures. His expertise also extends to Peritoneal Surface Oncology and advanced treatments such as HIPEC (Hyperthermic Intraperitoneal Chemotherapy) and PIPAC (Pressurized Intraperitoneal Aerosol Chemotherapy). Dr. Gaikwad is known for delivering evidence-based, patient-centric cancer care with a focus on precision surgery, reduced blood loss, faster recovery, and improved patient outcomes. Alongside clinical practice, he actively contributes to cancer research and medical education through multiple publications in national and international journals.",
+    
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "FAIS",
+        "FMAS",
+        "FIAGES",
+        "FALS",
+        "FACS (USA)",
+        "Fellowship in GI Oncology",
+        "Hepatopancreatobiliary Oncology Training - Memorial Sloan Kettering Cancer Center (MSKCC), New York"
+      ],
+    
+      "expertise": [
+        "Robotic Cancer Surgery",
+        "GI Surgical Oncology",
+        "HPB Surgical Oncology",
+        "Peritoneal Surface Oncology",
+        "HIPEC",
+        "PIPAC",
+        "Minimally Invasive Oncology Surgery",
+        "Robotic GI Surgery",
+        "Robotic HPB Surgery",
+        "Complex Cancer Surgery"
+      ],
+    
+      "clinicalExpertise": [
+        "Gastrointestinal Cancers",
+        "Liver Cancer",
+        "Pancreatic Cancer",
+        "Gallbladder Cancer",
+        "Biliary Tract Cancers",
+        "Peritoneal Surface Malignancies",
+        "Colorectal Cancer",
+        "Stomach Cancer",
+        "Abdominal Tumors",
+        "Gynaecologic Cancers"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Senior Director - Surgical Oncology",
+          "organization": "Fortis Hospital Manesar"
+        }
+      ],
+    
+      "achievements": [
+        "24+ years of experience in Surgical Oncology",
+        "Advanced training from Tata Memorial Hospital",
+        "Advanced HPB Oncology training at Memorial Sloan Kettering Cancer Center (MSKCC), New York",
+        "Expert in robotic and minimally invasive cancer surgery",
+        "Specialist in HIPEC and PIPAC procedures",
+        "Multiple publications in national and international medical journals"
+      ],
+    
+      "awardsAndRecognition": [
+        "Most Trusted Oncologist Award 2023 for Excellence and Leadership in Healthcare (ASIA-GCC)",
+        "Blackswan Award for Excellence in Healthcare 2023-24 by Asia One",
+        "Best Surgical Oncologist and Surgical Gastroenterologist in Haryana - Global Healthcare Achievement Awards 2022"
+      ],
+    
+      "memberships": [
+        "FAIS",
+        "FIAGES",
+        "FALS",
+        "FACS (USA)"
+      ],
+    
+      "researchAndPublications": [
+        {
+          "description": "Published multiple research papers in reputed national and international oncology journals"
+        }
+      ],
+    
+      "treatments": [
+        "Robotic Cancer Surgery",
+        "GI Cancer Surgery",
+        "HPB Cancer Surgery",
+        "Liver Cancer Surgery",
+        "Pancreatic Cancer Surgery",
+        "Colorectal Cancer Surgery",
+        "HIPEC Treatment",
+        "PIPAC Therapy",
+        "Peritoneal Surface Malignancy Surgery",
+        "Minimally Invasive Cancer Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 24
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital Manesar, Gurugram"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/vinay-samuel-gaikwad.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "rahul-jain",
+      "name": "Dr. Rahul Jain",
+      "designation": "Consultant - Plastic Surgery",
+      "specialty": "plastic-surgery",
+    
+      "specialities": [
+        "Plastic Surgery",
+        "Aesthetic Surgery",
+        "Reconstructive Surgery",
+        "Cosmetic Surgery",
+        "Burns Care",
+        "Microsurgery",
+        "Hand Surgery",
+        "Cranio-Maxillofacial Surgery"
+      ],
+    
+      "hospital": "Fortis Hospital Manesar",
+      "hospitalslug": "fortis-manesar",
+    
+      "experienceYears": 7,
+    
+      "about": "Dr. Rahul Jain is a Consultant Plastic, Aesthetic and Reconstructive Surgeon with over 7 years of clinical experience. He has extensive expertise in cosmetic and reconstructive procedures and has trained under the guidance of renowned plastic surgeon Dr. Abraham Thomas. His areas of specialization include burns care, trauma reconstruction, aesthetic surgery, cosmetic injectables, aesthetic breast surgery, body contouring, cleft lip and palate surgery, microvascular free flap reconstruction, post-cancer reconstruction, cranio-maxillofacial surgery, and hand surgery. He has successfully performed numerous complex oncological reconstructions, limb reconstructions, congenital defect corrections, and cosmetic procedures. Dr. Jain is also actively involved in academic research with several publications in national journals and is known for his compassionate and patient-centric approach.",
+    
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "M.Ch (Plastic Surgery)",
+        "MIME Fellowship in Reconstructive and Onco Microsurgery"
+      ],
+    
+      "expertise": [
+        "Aesthetic Surgery",
+        "Cosmetic Surgery",
+        "Burns Management",
+        "Trauma Reconstruction",
+        "Breast Surgery",
+        "Body Contouring",
+        "Microvascular Free Flap Surgery",
+        "Onco-Reconstruction",
+        "Hand Surgery",
+        "Cranio-Maxillofacial Surgery",
+        "Cleft Lip and Palate Surgery",
+        "Cosmetic Injectables"
+      ],
+    
+      "clinicalExpertise": [
+        "Burn Injuries",
+        "Post Cancer Reconstruction",
+        "Congenital Defects",
+        "Cleft Lip",
+        "Cleft Palate",
+        "Facial Deformities",
+        "Upper Limb Reconstruction",
+        "Lower Limb Reconstruction",
+        "Breast Reconstruction",
+        "Scar Revision"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Consultant - Plastic Surgery",
+          "organization": "Fortis Hospital Manesar"
+        }
+      ],
+    
+      "achievements": [
+        "Successfully performed complex oncological reconstructions",
+        "Experienced in upper and lower limb reconstruction surgeries",
+        "Expertise in congenital defect correction surgeries",
+        "Advanced training in reconstructive and onco microsurgery",
+        "Published multiple research papers in plastic and reconstructive surgery"
+      ],
+    
+      "researchAndPublications": [
+        {
+          "title": "Complex Head and Neck Oncoplastic Reconstruction - A Case Series",
+          "description": "Published in Journal of Surgical Oncology"
+        },
+        {
+          "title": "Donor Site Morbidity and Use of Nano Crystalline Silver in Plastic Surgery",
+          "description": "Published in PubMed-indexed journals"
+        },
+        {
+          "title": "Scar Improvement in Indian Population",
+          "description": "Use of Pulse Dye and Er:YAG Laser for Scar Modulation"
+        }
+      ],
+    
+      "treatments": [
+        "Cosmetic Surgery",
+        "Aesthetic Breast Surgery",
+        "Body Contouring",
+        "Burn Reconstruction",
+        "Hand Surgery",
+        "Microvascular Reconstruction",
+        "Post Cancer Reconstruction",
+        "Cleft Lip Surgery",
+        "Cleft Palate Surgery",
+        "Scar Revision Surgery",
+        "Cosmetic Injectables",
+        "Facial Reconstruction"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 7
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital Manesar, Gurugram",
+        "consultationFee": 1000
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/rahul-jain.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "nishant-yagnick",
+      "name": "Dr. Nishant Yagnick",
+      "designation": "Senior Consultant - Neuro Surgery",
+      "specialty": "neurosurgery",
+    
+      "specialities": [
+        "Neurosurgery",
+        "Neuro and Spine Surgery",
+        "Minimally Invasive Spine Surgery",
+        "Brain Tumor Surgery",
+        "Deep Brain Stimulation",
+        "Brachial Plexus Surgery"
+      ],
+    
+      "hospital": "Fortis Hospital Manesar",
+      "hospitalslug": "fortis-manesar",
+    
+      "experienceYears": 14,
+    
+      "about": "Dr. Nishant Yagnick is a highly regarded Neurosurgeon with 14 years of experience and a reputation for combining advanced scientific treatment with compassionate patient care. He has trained and worked at premier institutions including PGIMER Chandigarh, PGIMER Dr. RML Hospital, and LNJP Hospital. Over the years, he has helped establish advanced neurosurgery departments at Paras Hospital, Manipal Hospital, and Fortis Manesar. Dr. Yagnick specializes in keyhole brain surgery, minimally invasive spine surgery, brain tumor surgery, brachial plexus surgery, and deep brain stimulation. His mission is to make neurological care less intimidating and help patients return to normal life with minimal disruption through modern micro-endoscopic techniques. Known for explaining complex neurological conditions in simple terms, he actively involves patients and families in treatment decisions. He is also a prolific author, educator, and has represented India at the Congress of Neurosurgeons.",
+    
+      "education": [
+        "MBBS",
+        "MS",
+        "MCh (Neurosurgery)",
+        "Fellowship in Minimal Access Spine Surgery"
+      ],
+    
+      "expertise": [
+        "Keyhole Brain Surgery",
+        "Minimally Invasive Spine Surgery",
+        "Micro-Endoscopic Neurosurgery",
+        "Brain Tumor Surgery",
+        "Complex Spine Surgery",
+        "Deep Brain Stimulation (DBS)",
+        "Brachial Plexus Surgery",
+        "Neuro Trauma Surgery"
+      ],
+    
+      "clinicalExpertise": [
+        "Brain Tumors",
+        "Spinal Disorders",
+        "Spine Trauma",
+        "Neurological Disorders",
+        "Movement Disorders",
+        "Parkinson's Disease",
+        "Brachial Plexus Injuries",
+        "Complex Neurosurgical Conditions"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Senior Consultant - Neuro Surgery",
+          "organization": "Fortis Hospital Manesar"
+        },
+        {
+          "position": "Neurosurgeon",
+          "organization": "Paras Hospital"
+        },
+        {
+          "position": "Neurosurgeon",
+          "organization": "Manipal Hospital"
+        },
+        {
+          "position": "Training & Academic Experience",
+          "organization": "PGIMER Chandigarh, PGIMER Dr. RML Hospital, LNJP Hospital"
+        }
+      ],
+    
+      "achievements": [
+        "Established advanced neurosurgery departments at leading hospitals",
+        "Among the few neurosurgeons in India trained in Deep Brain Stimulation",
+        "Specialized in rare and complex Brachial Plexus surgeries",
+        "Representative of India at the Congress of Neurosurgeons",
+        "Recognized for expertise in minimally invasive brain and spine surgery"
+      ],
+    
+      "researchAndPublications": [
+        {
+          "title": "Neurosurgical Research and Educational Publications",
+          "description": "Prolific author and educator in neurosurgery"
+        }
+      ],
+    
+      "treatments": [
+        "Brain Tumor Surgery",
+        "Keyhole Brain Surgery",
+        "Minimally Invasive Spine Surgery",
+        "Micro-Endoscopic Spine Surgery",
+        "Deep Brain Stimulation",
+        "Brachial Plexus Surgery",
+        "Neuro Trauma Management",
+        "Complex Spine Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 14,
+        "consultationFee": 1200
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital Manesar, Gurugram",
+        "consultationFee": 1200
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/nishant-yagnick.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
       "id": "rahul-gupta",
       "name": "Dr. Rahul Gupta",
       "designation": "Senior Director & HOD - Neuro and Spine Surgery",
