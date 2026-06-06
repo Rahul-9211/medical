@@ -81,81 +81,76 @@
     "visible": true,
     "list": [
         {
-          "id": "pn-gupta",
-          "name": "Dr. P.N. Gupta",
-          "specialty": "Director & HOD – Nephrology",
-          "rating": 4.9,
-          "experienceYears": 44,
-          "profileUrl": "/doctors/pn-gupta"
-        },
-        {
-          "id": "manmohan-singh",
-          "name": "Dr. (Prof.) Manmohan Singh",
-          "specialty": "neurosurgery",
-          "rating": 5.0,
-          "experienceYears": 46,
-          "profileUrl": "/doctors/manmohan-singh"
-        },
-        {
-         "id": "anurag-khaitan",
-          "name": "Dr. Anurag Khaitan",
-          "specialty": "urology",
-          "rating": 5.0,
-          "experienceYears": 22,
-          "profileUrl": "/doctors/anurag-khaitan"
-        },
-        {
-          "id": "r-ranga-rao",
-          "name": "Dr. (Col.) R Ranga Rao, VSM",
-          "specialty": "medical oncology",
-          "rating": 4.9,
-          "experienceYears": 30,
-          "profileUrl": "/doctors/r-ranga-rao"
-        }
-        ,
-        {
-          "id": "ankur-garg",
-          "name": "Dr. Ankur Garg",
-          "specialty": "hepato-pancreato-biliary surgery",
+          "id": "rahul-gupta",
+          "name": "Dr. Rahul Gupta",
+          "designation": "Director",
+          "specialty": "neurology",
           "rating": 4.9,
           "experienceYears": 25,
-          "profileUrl": "/doctors/ankur-garg"
-        }
-        ,
-        {
-          "id": "amit-bhushan-sharma",
-          "name": "Dr. Amit Bhushan Sharma",
-          "specialty": "cardiology",
-          "rating": 4.9,
-          "experienceYears": 22,
-          "profileUrl": "/doctors/amit-bhushan-sharma"
-        }
-        ,
-        {
-          "id": "alka-kriplani",
-          "name": "Dr. (Prof.) Alka Kriplani",
-          "specialty": "gynaecology",
-          "rating": 4.9,
-          "experienceYears": 40,
-           "profileUrl": "/doctors/alka-kriplani"
-
-        }
-        ,
-        {
-          "id": "vivek-logani",
-          "name": "Dr. Vivek Logani",
-          "specialty": "orthopaedics",
-          "experienceYears": 23,
-          "rating": 4.9,
-          "profileUrl": "/doctors/vivek-logani"
+          "profileUrl": "/doctors/rahul-gupta-1"
         },
         {
-          "id": "arvind-mehra",
-          "name": "Dr. Arvind Mehra",
+          "id": "rahul-gupta",
+          "name": "Dr. Rahul Gupta",
+          "designation": "Senior Director & HOD Neuro and Spine Surgery",
+          "specialty": "neurosurgery",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/rahul-gupta"
+        },
+        {
+          "id": "ajit-singh-narula",
+          "name": "Dr. Ajit Singh Narula",
+          "designation": "Principal Director Nephrology",
+          "specialty": "nephrology",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/ajit-singh-narula"
+        },
+        {
+          "id": "ashok-seth",
+          "name": "Dr. Ashok Seth",
+          "designation": "Chairman Cardiac Science",
+          "specialty": "cardiology",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/ashok-seth"
+        },
+        {
+          "id": "sanjeev-gulati",
+          "name": "Dr. Sanjeev Gulati",
+          "designation": "Chairman-Nephrology",
+          "specialty": "nephrology",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/sanjeev-gulati"
+        },
+        {
+          "id": "vivek-vij",
+          "name": "Dr. Vivek Vij",
+          "designation": "Chairman – Liver Transplant & Hepato-Biliary Science",
+          "specialty": "liver-transplant",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/vivek-vij-1"
+        },
+        {
+          "id": "aman-dua",
+          "name": "Dr. Aman Dua",
+          "designation": "Director Orthopaedics",
           "specialty": "orthopaedics",
-          "experienceYears": 20,
-           "rating": 4.9,
-          "profileUrl": "/doctors/arvind-mehra"
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/aman-dua"
+        },
+        {
+          "id": "krishna-subramony-iyer",
+          "name": "Dr. Krishna Subramony Iyer",
+          "designation": "Chairman & Head Paediatric and Congenital Heart Surgery",
+          "specialty": "paediatric-cardiac-surgery",
+          "rating": 4.9,
+          "experienceYears": 25,
+          "profileUrl": "/doctors/krishna-subramony-iyer"
         }
     ]
     },
