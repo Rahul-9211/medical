@@ -1,6 +1,600 @@
 {
   "doctors": [
     {
+      "id": "rahul-gupta",
+      "name": "Dr. Rahul Gupta",
+      "designation": "Senior Director & HOD - Neuro and Spine Surgery",
+      "specialty": "neurosurgery",
+    
+      "specialities": [
+        "Neurosurgery",
+        "Neuro and Spine Surgery",
+        "Brain Surgery",
+        "Spine Surgery",
+        "Pediatric Neurosurgery",
+        "Functional Neurosurgery",
+        "Endovascular Neurosurgery"
+      ],
+    
+      "hospital": "Fortis Hospital, Noida",
+      "hospitalslug": "fortis-noida",
+    
+      "availableLocations": [
+        "Fortis Hospital, Noida",
+        "Fortis Hospital, Okhla"
+      ],
+    
+      "experienceYears": 20,
+    
+      "about": "Dr. Rahul Gupta is a highly experienced Neurosurgeon with more than 20 years of expertise in brain and spine surgery. He received his training at Government Medical College, Rohtak and PGIMER, Chandigarh. Before joining Fortis Healthcare in 2012, he served as a teaching faculty member in the Department of Neurosurgery at PGIMER Chandigarh and GB Pant Hospital, New Delhi for eight years. Dr. Gupta has published over 55 scientific articles in reputed national and international journals and has presented extensively at neurosurgical conferences worldwide. His areas of expertise include minimally invasive brain and spine surgery, endoscopic skull base surgery, endovascular neurosurgery, complex brain tumor surgery, neurovascular surgery, pediatric neurosurgery, and management of complex brain and spine trauma. He has successfully performed more than 10,000 neurosurgical procedures and is actively involved in community awareness programs related to brain and spine health.",
+    
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "MCh (Neurosurgery)"
+      ],
+    
+      "expertise": [
+        "Minimally Invasive Brain Surgery",
+        "Minimally Invasive Spine Surgery",
+        "Endoscopic Skull Base Surgery",
+        "Endovascular Neurosurgery",
+        "Brain Tumor Surgery",
+        "Neurovascular Surgery",
+        "Pediatric Neurosurgery",
+        "Functional Neurosurgery",
+        "Brain Trauma Management",
+        "Spine Trauma Management"
+      ],
+    
+      "clinicalExpertise": [
+        "Brain Tumors",
+        "Spinal Disorders",
+        "Skull Base Tumors",
+        "Neurovascular Diseases",
+        "Brain Hemorrhage",
+        "Stroke-related Neurosurgical Conditions",
+        "Spinal Cord Compression",
+        "Back Pain",
+        "Brain Trauma",
+        "Spinal Trauma"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Senior Director & HOD - Neuro and Spine Surgery",
+          "organization": "Fortis Hospital, Noida"
+        },
+        {
+          "position": "Faculty Member - Department of Neurosurgery",
+          "organization": "PGIMER, Chandigarh"
+        },
+        {
+          "position": "Faculty Member - Department of Neurosurgery",
+          "organization": "GB Pant Hospital, New Delhi"
+        }
+      ],
+    
+      "achievements": [
+        "More than 20 years of experience in Neurosurgery",
+        "Performed over 10,000 neurosurgical procedures",
+        "Published over 55 scientific papers in national and international journals",
+        "Expert in minimally invasive brain and spine surgery",
+        "Author of a book on Back Pain in English and Hindi",
+        "Active contributor to community brain and spine health awareness programs"
+      ],
+    
+      "awardsAndRecognition": [
+        "Sugita Scholarship, Nagoya University of Medical Science, Japan (2011)"
+      ],
+    
+      "internationalTraining": [
+        "Training in Fluorescence (5-ALA) Guided Malignant Glioma Surgery - Graz, Austria",
+        "Training in Functional Neurosurgery - Amsterdam, Netherlands"
+      ],
+    
+      "publications": [
+        "More than 55 research articles published in reputed national and international journals",
+        "Author of a book on Back Pain in English and Hindi"
+      ],
+    
+      "memberships": [
+        "Member of various national and international neurosurgical societies"
+      ],
+    
+      "treatments": [
+        "Brain Tumor Surgery",
+        "Spine Surgery",
+        "Minimally Invasive Neurosurgery",
+        "Endoscopic Skull Base Surgery",
+        "Functional Neurosurgery",
+        "Endovascular Neurosurgery",
+        "Pediatric Neurosurgery",
+        "Brain Trauma Surgery",
+        "Spinal Trauma Surgery"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 20,
+        "consultationFee": 1200,
+        "proceduresPerformed": 10000,
+        "researchPublications": 55
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Noida"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/rahul-gupta-2.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "digvijay-sharma",
+      "name": "Dr. (Prof.) Digvijay Sharma",
+      "designation": "Senior Consultant - Vascular & Endovascular Surgery",
+      "specialty": "vascular-surgery",
+    
+      "specialities": [
+        "Vascular Surgery",
+        "Endovascular Surgery",
+        "Peripheral Vascular Interventions",
+        "Aortic Surgery",
+        "Dialysis Access Surgery",
+        "Venous Disease Management"
+      ],
+    
+      "hospital": "Fortis Hospital, Faridabad",
+      "hospitalslug": "fortis-faridabad",
+    
+      "experienceYears": 21,
+    
+      "about": "Dr. (Prof.) Digvijay Sharma is a highly experienced Vascular and Endovascular Surgeon with more than 21 years of expertise in vascular interventions and surgery. He specializes in advanced vascular procedures including carotid interventions for stroke prevention, aortic surgery, limb salvage programs, dialysis access management, and treatment of venous disorders. He is known for his work in preventing amputations through advanced limb salvage techniques and has extensive experience in managing complex vascular diseases. His patient-centered approach and expertise in minimally invasive vascular interventions make him a trusted specialist in the field.",
+    
+      "education": [
+        "MBBS - MGM Medical College, Indore",
+        "MS (General Surgery) - Gandhi Medical College, Bhopal",
+        "FVS - Singapore General Hospital / Post Graduate Medical Institute"
+      ],
+    
+      "expertise": [
+        "Carotid Surgery",
+        "Carotid Artery Interventions",
+        "Stroke Prevention",
+        "Advanced Aortic Surgery",
+        "Endovascular Aortic Interventions",
+        "Limb Salvage Procedures",
+        "Amputation Prevention",
+        "Dialysis Access Creation",
+        "Dialysis Access Maintenance",
+        "Dialysis Access Salvage",
+        "Varicose Vein Treatment",
+        "Deep Vein Thrombosis (DVT) Management",
+        "Peripheral Vascular Disease Treatment"
+      ],
+    
+      "clinicalExpertise": [
+        "Carotid Artery Disease",
+        "Stroke Prevention",
+        "Aortic Aneurysm",
+        "Peripheral Arterial Disease",
+        "Critical Limb Ischemia",
+        "Diabetic Foot Vascular Disease",
+        "Varicose Veins",
+        "Deep Vein Thrombosis (DVT)",
+        "Dialysis Access Complications",
+        "Chronic Venous Disease"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Consultant - Vascular & Endovascular Surgery",
+          "organization": "Fortis Hospital, Faridabad"
+        }
+      ],
+    
+      "achievements": [
+        "More than 21 years of experience in vascular interventions and surgery",
+        "Specialist in advanced carotid and aortic interventions",
+        "Expert in limb salvage and amputation prevention programs",
+        "Established expertise in dialysis access creation and salvage",
+        "Recognized authority in vascular and endovascular surgery"
+      ],
+    
+      "awardsAndRecognition": [
+        "One of the youngest Professors of Surgery in the world (below 40 years of age)",
+        "Ten Outstanding Young Persons of Nepal Award for Contribution to Surgical Sciences"
+      ],
+    
+      "memberships": [],
+    
+      "treatments": [
+        "Carotid Endarterectomy",
+        "Carotid Artery Stenting",
+        "Aortic Aneurysm Repair",
+        "Endovascular Aortic Repair (EVAR)",
+        "Peripheral Vascular Interventions",
+        "Limb Salvage Procedures",
+        "Dialysis Access Surgery",
+        "AV Fistula Creation",
+        "AV Fistula Salvage",
+        "Varicose Vein Treatment",
+        "DVT Treatment",
+        "Peripheral Angioplasty"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 21
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Faridabad"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/digvijay-sharma.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "arvind-jain",
+      "name": "Dr. Arvind Jain",
+      "designation": "Consultant - Plastic & Reconstructive Surgery",
+      "specialty": "plastic-surgery",
+    
+      "specialities": [
+        "Plastic Surgery",
+        "Reconstructive Surgery",
+        "Cosmetic Surgery",
+        "Hand Surgery",
+        "Microsurgery",
+        "Breast Surgery"
+      ],
+    
+      "hospital": "Fortis Hospital, Noida",
+      "hospitalslug": "fortis-noida",
+    
+      "experienceYears": 18,
+    
+      "about": "Dr. Arvind Jain is an experienced Plastic and Reconstructive Surgeon with over 18 years of expertise in the field. He specializes in cosmetic surgery, hand surgery, microsurgery, and breast reduction and augmentation procedures. Known for his precision, aesthetic expertise, and patient-focused approach, Dr. Jain provides advanced reconstructive and cosmetic solutions tailored to individual patient needs. He is associated with several renowned professional organizations and is committed to delivering safe, effective, and high-quality surgical care.",
+    
+      "education": [
+        "MBBS",
+        "MS",
+        "M.Ch. (Plastic Surgery)"
+      ],
+    
+      "expertise": [
+        "Cosmetic Surgery",
+        "Aesthetic Surgery",
+        "Hand Surgery",
+        "Microsurgery",
+        "Breast Augmentation",
+        "Breast Reduction Surgery",
+        "Reconstructive Plastic Surgery",
+        "Post-Trauma Reconstruction"
+      ],
+    
+      "clinicalExpertise": [
+        "Breast Reconstruction",
+        "Breast Augmentation",
+        "Breast Reduction",
+        "Hand Injuries",
+        "Congenital Deformities",
+        "Facial Reconstruction",
+        "Soft Tissue Defects",
+        "Scar Revision",
+        "Burn Reconstruction",
+        "Microsurgical Reconstruction"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Consultant - Plastic & Reconstructive Surgery",
+          "organization": "Fortis Hospital, Noida"
+        }
+      ],
+    
+      "achievements": [
+        "18+ years of experience in Plastic and Reconstructive Surgery",
+        "Specialist in Cosmetic and Aesthetic Surgery",
+        "Expertise in Hand Surgery and Microsurgery",
+        "Experienced in Breast Reduction and Augmentation Procedures"
+      ],
+    
+      "awardsAndRecognition": [],
+    
+      "memberships": [
+        "Member of various renowned professional medical organizations"
+      ],
+    
+      "treatments": [
+        "Cosmetic Surgery",
+        "Plastic Surgery",
+        "Hand Surgery",
+        "Microsurgery",
+        "Breast Augmentation",
+        "Breast Reduction Surgery",
+        "Reconstructive Surgery",
+        "Scar Revision Surgery",
+        "Facial Reconstruction",
+        "Burn Reconstruction"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 18
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Noida"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/arvind-jain.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "vikas-dua",
+      "name": "Dr. Vikas Dua",
+      "designation": "Consultant - Pediatric Hematology, Oncology & Bone Marrow Transplant",
+      "specialty": "pediatric-hematology-oncology-bmt",
+    
+      "specialities": [
+        "Pediatric Hematology",
+        "Pediatric Oncology",
+        "Bone Marrow Transplant",
+        "Pediatric Bone Marrow Transplant",
+        "Childhood Cancer Care"
+      ],
+    
+      "hospital": "Fortis Memorial Research Institute, Gurugram",
+      "hospitalslug": "fortis-memorial-research-institute-gurugram",
+    
+      "experienceYears": 16,
+    
+      "about": "Dr. Vikas Dua is a leading specialist in Pediatric Hematology, Pediatric Oncology, and Bone Marrow Transplantation. With more than 16 years of experience, he is recognized for his expertise in treating childhood blood disorders, leukemia, lymphoma, thalassemia, and pediatric cancers. He has extensive experience in performing pediatric bone marrow transplants and managing complex hematological diseases in children. Known for his compassionate approach, clinical excellence, and successful transplant outcomes, Dr. Dua is trusted by patients and families from across India and abroad.",
+    
+      "education": [
+        "MBBS",
+        "MD - Pediatrics",
+        "Pediatric Hematology-Oncology"
+      ],
+    
+      "expertise": [
+        "Pediatric Hematology",
+        "Pediatric Oncology",
+        "Bone Marrow Transplantation",
+        "Pediatric Bone Marrow Transplant",
+        "Leukemia Management",
+        "Lymphoma Treatment",
+        "Thalassemia Care",
+        "Childhood Cancer Treatment",
+        "Complex Hematological Disorders"
+      ],
+    
+      "clinicalExpertise": [
+        "Leukemia",
+        "Lymphoma",
+        "Thalassemia",
+        "Pediatric Cancers",
+        "Blood Disorders in Children",
+        "Bone Marrow Failure Syndromes",
+        "Hematological Malignancies",
+        "Pediatric Hematological Diseases"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Consultant - Pediatric Hematology, Oncology & Bone Marrow Transplant",
+          "organization": "Fortis Memorial Research Institute, Gurugram"
+        }
+      ],
+    
+      "achievements": [
+        "16+ years of experience in Pediatric Hematology and Oncology",
+        "Expert in Pediatric Bone Marrow Transplantation",
+        "Successful treatment of complex childhood blood disorders",
+        "Recognized for advanced pediatric cancer treatment protocols",
+        "Trusted by patients from India and overseas"
+      ],
+    
+      "awardsAndRecognition": [
+        "Best Outgoing Fellow - FNB, Sir Ganga Ram Hospital"
+      ],
+    
+      "treatments": [
+        "Bone Marrow Transplant",
+        "Pediatric Bone Marrow Transplant",
+        "Leukemia Treatment",
+        "Lymphoma Treatment",
+        "Thalassemia Management",
+        "Pediatric Cancer Treatment",
+        "Hematology Consultation",
+        "Oncology Consultation"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 16
+      },
+    
+      "contact": {
+        "location": "Fortis Memorial Research Institute (FMRI), Gurugram"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/vikas-dua.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ajay-kaul",
+      "name": "Dr. Ajay Kaul",
+      "designation": "Chairman - Cardiac Sciences",
+      "specialty": "cardiac-sciences",
+    
+      "specialities": [
+        "Adult Cardiothoracic and Vascular Surgery (CTVS)",
+        "Paediatric Cardiothoracic and Vascular Surgery (CTVS)",
+        "Heart Transplant",
+        "Vascular Surgery",
+        "Cardiac Failure Surgery",
+        "Minimally Invasive Cardiac Surgery"
+      ],
+    
+      "hospital": "Fortis Hospital, Noida",
+      "hospitalslug": "fortis-noida",
+    
+      "experienceYears": 38,
+    
+      "about": "Dr. Ajay Kaul is one of India's most renowned cardiac surgeons with over 38 years of experience and more than 20,000 cardiac surgeries to his credit. He is widely recognized for his expertise in Total Arterial Coronary Bypass Surgery, Pediatric Cardiac Surgery, Valve Repair Surgery, Structural Heart Disease interventions, and advanced Heart Failure management. Dr. Kaul is highly skilled in Heart Transplantation, Left Ventricular Assist Device (LVAD) implantation, and minimally invasive cardiac procedures. He has performed over 5,000 minimally invasive cardiac surgeries and is considered among the leading experts in complex cardiac and vascular interventions in India.",
+    
+      "education": [
+        "MBBS - Bombay University",
+        "MS (General Surgery) - Bombay University",
+        "M.Ch (Cardiothoracic and Vascular Surgery) - Bombay University",
+        "Fellowship in Heart & Lung Transplantation - Hannover Medical School, Germany",
+        "Fellowship in Minimally Invasive Cardiac Surgery - Leipzig Heart Centre, Germany"
+      ],
+    
+      "expertise": [
+        "Coronary Artery Bypass Grafting (CABG)",
+        "Total Arterial Coronary Bypass Surgery",
+        "Heart Transplantation",
+        "Heart Failure Surgery",
+        "Left Ventricular Assist Device (LVAD)",
+        "Valve Repair Surgery",
+        "Valve Replacement Surgery",
+        "Minimally Invasive Cardiac Surgery (MICS)",
+        "Structural Heart Disease Interventions",
+        "Pediatric Cardiac Surgery",
+        "Peripheral Vascular Surgery",
+        "Endovascular Stent Placement",
+        "Transcatheter Aortic Valve Replacement (TAVR)",
+        "Transcatheter Mitral Valve Replacement (TMVR)"
+      ],
+    
+      "clinicalExpertise": [
+        "Coronary Artery Disease",
+        "Heart Failure",
+        "Valvular Heart Disease",
+        "Congenital Heart Defects",
+        "Structural Heart Disease",
+        "Aortic Valve Disease",
+        "Mitral Valve Disease",
+        "Peripheral Vascular Disease",
+        "Advanced Cardiac Failure"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Chairman - Cardiac Sciences",
+          "organization": "Fortis Hospital, Noida"
+        }
+      ],
+    
+      "achievements": [
+        "Over 25,000 cardiac surgeries performed",
+        "Over 5,000 minimally invasive cardiac surgery (MICS) procedures",
+        "Over 4,000 coronary bypass surgeries using total arterial conduits",
+        "Over 4,000 minimally invasive valve replacement and CABG procedures",
+        "Over 2,000 complex congenital heart surgeries",
+        "Among the highest number of TAVR procedures performed by a cardiac surgeon in India",
+        "Leading expert in heart transplant and LVAD implantation"
+      ],
+    
+      "awardsAndRecognition": [
+        "Recognized among India's top cardiac surgeons",
+        "Pioneer in minimally invasive and advanced cardiac surgery techniques"
+      ],
+    
+      "publications": [
+        "One of the highest number of TAVR by surgery (Aortic Valve Replacement without Open Heart Surgery)"
+      ],
+    
+      "memberships": [],
+    
+      "treatments": [
+        "Coronary Artery Bypass Surgery (CABG)",
+        "Total Arterial Revascularization",
+        "Heart Transplant",
+        "LVAD Implantation",
+        "Valve Repair Surgery",
+        "Valve Replacement Surgery",
+        "Minimally Invasive Cardiac Surgery",
+        "Pediatric Cardiac Surgery",
+        "TAVR",
+        "TMVR",
+        "Peripheral Vascular Interventions",
+        "Endovascular Stent Placement"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "statistics": {
+        "experienceYears": 38,
+        "consultationFee": 1600,
+        "surgeriesPerformed": 25000,
+        "micsProcedures": 5000,
+        "cabgProcedures": 4000,
+        "congenitalSurgeries": 2000
+      },
+    
+      "contact": {
+        "location": "Fortis Hospital, Noida"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/images/doctors/ajay-kaul.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+
+    {
       "id": "neeraj-chaudhary",
       "name": "Dr. Neeraj Chaudhary",
       "designation": "Senior Director & HOD – GI, GI Oncology, Minimal Access & Bariatric Surgery",
