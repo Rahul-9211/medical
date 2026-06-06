@@ -86,61 +86,91 @@
     "topDoctors": {
     "visible": true,
    "list": [
-        {
-          "id": "rohit-goel",
-          "name": "Dr. Rohit Goel",
-          "specialty": "Cardiology",
-          "designation": "Principal Consultant - Cardiology",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 18,
-          "profileUrl": "/doctors/rohit-goel"
-        },
-        {
-          "id": "jatinder-bir-singh-jaggi",
-          "name": "Dr. Jatinder Bir Singh Jaggi",
-          "specialty": "Orthopaedics & Joint Replacement",
-          "designation": "Director – Orthopaedics & Joint Replacement, Arthroscopy & Sports Injury",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 18,
-          "profileUrl": "/doctors/jatinder-bir-singh-jaggi"  
-        },
-        {
-          "id": "suman-lal",
-          "name": "Dr. Suman Lal",
-          "specialty": "Obstetrics & Gynaecology",
-          "designation": "Director - Department of Obstetrics & Gynaecology",
-          "hospital": "Max Hospital, Gurgaon",
-          "profileUrl": "/doctors/suman-lal",
-          "experienceYears": 27  
-        },
-        {
-          "id": "amit-goel",
-          "name": "Dr. Amit Goel",
-          "specialty": "Urology & Renal Transplant",
-          "designation": "Director & Head of Unit - Renal Transplant, Uro-Oncology & Urology",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 22,
-          "profileUrl": "/doctors/amit-goel"  
-        }
-        ,
-        {
-          "id": "arun-saroha",
-        "name": "Dr. Arun Saroha",
-        "specialty": "Neurosurgery & Spine Surgery",
-        "designation": "Principal Director & Unit Head - Neurosciences, Neurosurgery & Spine Surgery",
-        "hospital": "Max Hospital, Gurgaon",
-        "experienceYears": 27,
-        "profileUrl": "/doctors/arun-saroha"
-        },
-        {
-          "id": "kaushal-yadav",
-          "name": "Dr. Kaushal Yadav",
-          "specialty": "Surgical Oncology",
-          "designation": "Associate Director & Unit Head – Surgical Oncology",
-          "hospital": "Max Hospital, Gurgaon",
-          "experienceYears": 20,
-          "profileUrl": "/doctors/kaushal-yadav"
-        }
+       {
+        "id": "rajesh-sharma",
+        "name": "Dr. Rajesh Sharma",
+        "designation": "Director - Paediatric Cardiac Surgery",
+        "specialty": "paediatric-cardiac-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/rajesh-sharma"
+        
+       },
+       {
+        "id": "sandeep-guleria",
+        "name": "Dr. Sandeep Guleria",
+        "designation": "Senior Renal Transplant Surgeon",
+        "specialty": "kidney-transplant",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/sandeep-guleria"
+      
+       },
+       {
+        "id": "neerav-goyal",
+        "name": "Dr. Neerav Goyal",
+        "designation": "Senior Consultant - Liver Transplant and Surgical Gastroenterology",
+        "specialty": "liver-transplant",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/neerav-goyal"
+       },
+       {
+        "id": "mukesh-goel",
+        "name": "Dr. Mukesh Goel",
+        "designation": "Senior Consultant",
+        "specialty": "cardiothoracic-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/mukesh-goel"
+      
+       },
+       {
+        "id": "sudheer-kumar-tyagi",
+        "name": "Dr. Sudheer Kumar Tyagi",
+        "designation": "Senior Neurosurgeon",
+        "specialty": "neurosurgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/sudheer-kumar-tyagi"
+       },
+       {
+        "id": "yatinder-kharbanda",
+        "name": "Dr. Yatinder Kharbanda",
+        "designation": "Senior Orthopaedic Surgeon",
+        "specialty": "orthopaedics",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/yatinder-kharbanda"
+       },
+       {
+        "id": "aloy-j-mukherjee",
+        "name": "Dr. Aloy J Mukherjee",
+        "designation": "Senior Consultant - Bariatric & General Surgery",
+        "specialty": "bariatric-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/aloy-j-mukherjee"
+       },
+       {
+        "id": "rakesh-mahajan",
+        "name": "Dr. Rakesh Mahajan",
+        "designation": "Senior Consultant - Vascular Surgery",
+        "specialty": "vascular-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/rakesh-mahajan"
+       }
+       ,
+       {
+        "id": "shishir-seth",
+        "name": "Dr. Shishir Seth",
+        "designation": "Senior Consultant - Haemato Oncology & Bone Marrow Transplant",
+        "specialty": "haemato-oncology-and-bone-marrow-transplant",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/shishir-seth"
+       }
     ]
     },
     "teamAndSpecialities": {

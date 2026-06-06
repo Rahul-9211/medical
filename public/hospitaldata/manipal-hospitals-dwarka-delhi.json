@@ -57,10 +57,80 @@
   "topDoctors": {
     "visible": true,
     "list": [
-      { "id": "hitesh-garg", "name": "Dr. Y K Mishra", "specialty": "Cardiac Surgeon", "rating": 4.9, "experienceYears": 44, "profileUrl": "/doctors/hitesh-garg" },
-      { "id": "rajiv-yadav", "name": "Dr. Vineet Kumar Surana", "specialty": "Endocrinologist", "rating": 5.0, "experienceYears": 16, "profileUrl": "/doctors/rajiv-yadav" },
-      { "id": "kuldeep-arora", "name": "Dr. Rajeev Verma", "specialty": "Orthopaedic and Joint Replacement Surgeon", "rating": 5.0, "experienceYears": 28, "profileUrl": "/doctors/kuldeep-arora" },
-      { "id": "ramkinkar-jha", "name": "Dr. Sanjeev Kumar", "specialty": "Surgical Oncologist", "rating": 4.8, "experienceYears": 20, "profileUrl": "/doctors/ramkinkar-jha" }
+      {
+        "id": "surender-kumar-dabas",
+        "name": "Dr. Surender Kumar Dabas",
+        "designation": "Chairman - Manipal Comprehensive Cancer Centre and Onco Robotic Surgeries, North West Cluster",
+        "specialty": "surgical-oncology",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/surender-kumar-dabas"
+      },
+      {
+        "id": "yugal-kishore-mishra",
+        "name": "Dr. Yugal Kishore Mishra",
+        "designation": "Chairman, Manipal Institute of Cardiac Sciences",
+        "specialty": "cardiac-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/yugal-kishore-mishra"
+      },
+      {
+        "id": "sanjeev-rohatgi",
+        "name": "Dr. Sanjeev Rohatgi",
+        "designation": "Consultant - Surgical Gastroenterology, HPB & Liver Transplant Surgery, Robotic Surgery",
+        "specialty": "surgical-gastroenterology",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/sanjeev-rohatgi"
+      },
+      {
+        "id": "ankur-mittal",
+        "name": "Dr. Ankur Mittal",
+        "designation": "Consultant - Nephrology",
+        "specialty": "nephrology",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/ankur-mittal"
+      },
+      {
+        "id": "anurag-saxena",
+        "name": "Dr. Anurag Saxena",
+        "designation": "Cluster Head Delhi/NCR - Department of Neurosurgery & Consultant Spine Surgeon",
+        "specialty": "neurosurgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/anurag-saxena"
+        
+      },
+      {
+        "id": "rajeev-verma",
+        "name": "Dr. Rajeev Verma",
+        "designation": "Chairman - Manipal Institute of Bone & Joints, Robotic Surgery & Sports Injuries",
+        "specialty": "orthopaedics",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/rajeev-verma"
+        
+      },
+      {
+        "id": "hamza-shaikh",
+        "name": "Dr. Hamza Shaikh",
+        "designation": "Consultant - Spine Surgery",
+        "specialty": "spine-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/hamza-shaikh" 
+      },
+      {
+        "id": "sandeep-aggarwal",
+        "name": "Prof. (Dr.) Sandeep Aggarwal",
+        "designation": "Chairman - Manipal Institute of Minimal Access, Bariatric, GI & Robotic Surgery",
+        "specialty": "bariatric-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/sandeep-aggarwal"
+      }
     ]
   },
   "teamAndSpecialities": {

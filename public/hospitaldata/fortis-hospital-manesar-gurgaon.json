@@ -59,10 +59,70 @@
   "topDoctors": {
     "visible": true,
     "list": [
-      { "id": "hitesh-garg", "name": "Dr. Vinay Samuel Gaikwad", "specialty": "Surgical Oncologist", "rating": 5.0, "experienceYears": 24, "profileUrl": "/doctors/hitesh-garg" },
-      { "id": "rajiv-yadav", "name": "Dr. Smita Vats", "specialty": "Gynaecologist and Obstetrician", "rating": 4.8, "experienceYears": 25, "profileUrl": "/doctors/rajiv-yadav" },
-      { "id": "kuldeep-arora", "name": "Dr. Deepak Khurana", "specialty": "Cardiac Surgeon", "rating": 4.8, "experienceYears": 29, "profileUrl": "/doctors/kuldeep-arora" },
-      { "id": "ramkinkar-jha", "name": "Dr. Jagdeep Yadav", "specialty": "Interventional Cardiologist", "rating": 4.8, "experienceYears": 21, "profileUrl": "/doctors/ramkinkar-jha" }
+      {
+        "id": "mahesh-wadhwani",
+        "name": "Dr. Mahesh Wadhwani",
+        "designation": "Director & HOD - Cardio Thoracic Vascular Surgery",
+        "specialty": "cardiothoracic-vascular-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/mahesh-wadhwani"
+      },
+      {
+        "id": "monu-singh",
+        "name": "Dr. Monu Singh",
+        "designation": "Director - Orthopaedics",
+        "specialty": "orthopaedics",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/monu-singh"
+      },
+      {
+        "id": "ruchir-maheshwari",
+        "name": "Dr. Ruchir Maheshwari",
+        "designation": "Director - Urology & Renal Transplant",
+        "specialty": "urology",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/ruchir-maheshwari"
+      },
+      {
+        "id": "rohit-lamba",
+        "name": "Dr. Rohit Lamba",
+        "designation": "Director - Orthopaedics",
+        "specialty": "orthopaedics",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/rohit-lamba"
+      },
+      {
+        "id": "vinay-samuel-gaikwad",
+        "name": "Dr. Vinay Samuel Gaikwad",
+        "designation": "Senior Director - Surgical Oncology",
+        "specialty": "surgical-oncology",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/vinay-samuel-gaikwad"
+      },
+      {
+        "id": "rahul-jain",
+        "name": "Dr. Rahul Jain",
+        "designation": "Consultant - Plastic Surgery",
+        "specialty": "plastic-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/rahul-jain"
+      },
+      {
+        "id": "nishant-yagnick",
+        "name": "Dr. Nishant Yagnick",
+        "designation": "Senior Consultant - Neuro Surgery",
+        "specialty": "neurosurgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/nishant-yagnick"
+      }
+      
     ]
   },
   "teamAndSpecialities": {

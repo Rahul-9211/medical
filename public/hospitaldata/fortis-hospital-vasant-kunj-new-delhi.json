@@ -55,10 +55,69 @@
   "topDoctors": {
     "visible": true,
     "list": [
-      { "id": "hitesh-garg", "name": "Dr. Manoj Miglani", "specialty": "Spine Surgeon", "rating": 4.9, "experienceYears": 27, "profileUrl": "/doctors/hitesh-garg" },
-      { "id": "rajiv-yadav", "name": "Dr. Muneendra Gupta", "specialty": "General Surgeon", "rating": 5.0, "experienceYears": 49, "profileUrl": "/doctors/rajiv-yadav" },
-      { "id": "kuldeep-arora", "name": "Dr. Mitu Shrikhande", "specialty": "Hematologist", "rating": 4.8, "experienceYears": 30, "profileUrl": "/doctors/kuldeep-arora" },
-      { "id": "ramkinkar-jha", "name": "Dr. Jitendra Mohan Hans", "specialty": "Oral & Maxillofacial Surgeon", "rating": 4.8, "experienceYears": 40, "profileUrl": "/doctors/ramkinkar-jha" }
+    {
+      "id": "neeraj-chaudhary",
+      "name": "Dr. Neeraj Chaudhary",
+      "designation": "Senior Director & HOD – GI, GI Oncology, Minimal Access & Bariatric Surgery",
+      "specialty": "gi-surgery",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/neeraj-chaudhary"
+    },
+    {
+      "id": "gurinder-bedi",
+      "name": "Dr. Gurinder Bedi",
+      "designation": "Principal Director & HOD - Orthopaedics",
+      "specialty": "orthopaedics",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/gurinder-bedi"
+    },
+    {
+      "id": "sanjeev-gulati",
+      "name": "Dr. Sanjeev Gulati",
+      "designation": "Chairman - Nephrology",
+      "specialty": "nephrology",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/sanjeev-gulati"
+    },
+    {
+      "id": "rana-patir",
+      "name": "Dr. Rana Patir",
+      "designation": "Chairman - Department of Neurosurgery",
+      "specialty": "neurosurgery",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/rana-patir"
+    },
+    {
+      "id": "dhananjay-gupta",
+      "name": "Dr. Dhananjay Gupta",
+      "designation": "Senior Director - Orthopaedics",
+      "specialty": "orthopaedics",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/dhananjay-gupta"
+    },
+    {
+      "id": "shubham-jain",
+      "name": "Dr. Shubham Jain",
+      "designation": "Senior Director - Surgical Oncology",
+      "specialty": "surgical-oncology",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/shubham-jain"
+    },
+    {
+      "id": "sanjay-gupta",
+      "name": "Dr. Sanjay Gupta",
+      "designation": "Director - Cardio Thoracic Vascular Surgery",
+      "specialty": "cardiothoracic-vascular-surgery",
+      "rating": 4.9,
+      "experienceYears": 25,
+      "profileUrl": "/doctors/sanjay-gupta"
+    }
     ]
   },
   "teamAndSpecialities": {

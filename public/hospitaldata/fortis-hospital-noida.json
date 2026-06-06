@@ -76,37 +76,60 @@
     "visible": true,
     "list": [
       {
-        "id": "hitesh-garg",
+        "id": "vivek-vij",
         "name": "Dr. Vivek Vij",
-        "specialty": "Liver Transplant Surgeon",
+        "designation": "Chairman – Liver Transplant & Hepato-Biliary Science",
+        "specialty": "liver-transplant-hepatobiliary-sciences",
         "rating": 4.9,
-        "experienceYears": 27,
-        "profileUrl": "/doctors/hitesh-garg"
-      },
-      {
-        "id": "rajiv-yadav",
-        "name": "Dr. Mrinal Sircar",
-        "specialty": "Pulmonologist",
-        "rating": 4.5,
-        "experienceYears": 38,
-        "profileUrl": "/doctors/rajiv-yadav"
-      },
-      {
-        "id": "kuldeep-arora",
+        "experienceYears": 25,
+        "profileUrl": "/doctors/vivek-vij"
+       }
+       ,{
+        "id": "vikas-dua",
+        "name": "Dr. Vikas Dua",
+        "designation": "Consultant - Pediatric Hematology, Oncology & Bone Marrow Transplant",
+        "specialty": "pediatric-hematology-oncology-bmt",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/vikas-dua"
+       },
+       {
+        "id": "ajay-kaul",
         "name": "Dr. Ajay Kaul",
-        "specialty": "Cardiac Surgeon",
+        "designation": "Chairman - Cardiac Sciences",
+        "specialty": "cardiac-sciences",
         "rating": 4.9,
-        "experienceYears": 38,
-        "profileUrl": "/doctors/kuldeep-arora"
-      },
-      {
-        "id": "ramkinkar-jha",
-        "name": "Dr. Bimlesh Dhar Pandey",
-        "specialty": "Rheumatologist",
-        "rating": 5.0,
-        "experienceYears": 23,
-        "profileUrl": "/doctors/ramkinkar-jha"
-      }
+        "experienceYears": 25,
+        "profileUrl": "/doctors/ajay-kaul"
+       },
+       {
+        "id": "rahul-gupta",
+        "name": "Dr. Rahul Gupta",
+        "designation": "Senior Director & HOD - Neuro and Spine Surgery",
+        "specialty": "neurosurgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/rahul-gupta-2"
+       },
+       {
+        "id": "digvijay-sharma",
+        "name": "Dr. (Prof.) Digvijay Sharma",
+        "designation": "Senior Consultant - Vascular & Endovascular Surgery",
+        "specialty": "vascular-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/digvijay-sharma"
+       },
+       {
+        "id": "arvind-jain",
+        "name": "Dr. Arvind Jain",
+        "designation": "Consultant - Plastic & Reconstructive Surgery",
+        "specialty": "plastic-surgery",
+        "rating": 4.9,
+        "experienceYears": 25,
+        "profileUrl": "/doctors/arvind-jain"
+       }
+
     ]
   },
   "teamAndSpecialities": {
