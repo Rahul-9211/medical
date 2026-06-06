@@ -1,6 +1,1135 @@
 {
   "doctors": [
     {
+      "id": "rajesh-sharma",
+      "name": "Dr. Rajesh Sharma",
+      "designation": "Director - Paediatric Cardiac Surgery",
+      "specialty": "paediatric-cardiac-surgery",
+    
+      "specialities": [
+        "Paediatric Cardiac Surgery",
+        "Paediatric Cardiothoracic Surgery",
+        "Congenital Heart Surgery",
+        "Cardiac Surgery"
+      ],
+    
+      "hospital": "Apollo Hospital Delhi",
+      "hospitalslug": "apollo-hospital-delhi",
+      "experienceYears": 25,
+    
+      "about": "Dr. Rajesh Sharma is one of India's leading Paediatric Cardiothoracic Surgeons with over 25 years of experience in treating congenital and acquired heart diseases. He has performed more than 20,000 cardiac surgical procedures involving both adult and congenital heart conditions. His primary area of expertise is the surgical management of complex congenital heart diseases in children. Dr. Sharma is highly regarded for performing advanced procedures including congenital heart defect corrections, pediatric cardiac surgeries, heart valve repair and replacement surgeries, and complex cardiothoracic interventions. He has held leadership positions at prestigious institutions including Jaypee Hospital, Fortis Escorts Heart Institute, Narayana Hrudayalaya, and AIIMS, New Delhi.",
+    
+      "education": [
+        "MBBS - All India Institute of Medical Sciences (AIIMS), New Delhi (1982)",
+        "MCh (Cardiothoracic and Vascular Surgery) - AIIMS, New Delhi (1988)",
+        "Fellowship in Paediatric Cardiovascular Surgery - Harvard Medical School, USA (1989)"
+      ],
+    
+      "expertise": [
+        "Paediatric Cardiac Surgery",
+        "Congenital Heart Defect Surgery",
+        "Heart Valve Repair Surgery",
+        "Heart Valve Replacement Surgery",
+        "Hypertrophic Cardiomyopathy Treatment",
+        "Mitral Valve Regurgitation Surgery",
+        "Thoracic Aortic Aneurysm Surgery",
+        "ASD Closure",
+        "VSD Closure",
+        "Tetralogy of Fallot (TOF) Correction",
+        "DORV Correction",
+        "PAVC Repair",
+        "Glenn Procedure",
+        "BT Shunt Surgery",
+        "PA Plasty",
+        "Pediatric Cardiothoracic Surgery"
+      ],
+    
+      "awards": [],
+    
+      "memberships": [
+        "Indian Association of Thoracic and Cardiovascular Surgery",
+        "Pediatric Cardiac Society of India",
+        "World Society for Pediatric Cardiology and Cardiac Surgery"
+      ],
+    
+      "workExperience": [
+        "Director - Paediatric Cardiac Surgery, Jaypee Hospital (2014 - Present)",
+        "Director & Head - Paediatric Cardiac Surgery, Fortis Escorts Heart Institute and Research Centre (2007 - 2014)",
+        "Senior Consultant Cardiac Surgery, Narayana Hrudayalaya (2001 - 2007)",
+        "Additional Professor, Department of Cardiothoracic and Vascular Surgery, AIIMS New Delhi (1991 - 2001)",
+        "Fellowship in Pediatric Cardiovascular Surgery, Miami, USA (1989 - 1991)",
+        "Fellowship in Paediatric Cardiovascular Surgery, Children's Hospital, Harvard Medical School (1989)"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rajesh-sharma.jpg",
+            "visible": true
+          }
+        ]
+      },
+    
+      "contact": {
+        "email": "treatmentquery@gmail.com",
+        "phone": "+91-9582708782",
+        "availability": "By Appointment",
+        "location": "Apollo Hospital Delhi, India"
+      }
+    },
+    {
+      "id": "sandeep-guleria",
+      "name": "Dr. Sandeep Guleria",
+      "designation": "Senior Renal Transplant Surgeon",
+      "specialty": "kidney-transplant",
+    
+      "specialities": [
+        "Renal Transplant Surgery",
+        "Kidney Transplant",
+        "Organ Transplant",
+        "Urology"
+      ],
+    
+      "hospital": "Apollo Hospitals Delhi",
+      "hospitalslug": "apollo-hospitals-delhi",
+      "experienceYears": 33,
+    
+      "about": "Dr. Sandeep Guleria is a highly esteemed Transplant Specialist Surgeon based in Delhi with more than 33 years of experience. He is recognized for his expertise in renal transplantation and complex transplant surgeries. He holds multiple prestigious qualifications including MBBS, MS, DNB, FRCS, FRCP and MNAMS. As a member of the Apollo Healthcare Group, he has dedicated his career to providing advanced transplant care and innovative treatment solutions. His patient-centric approach, extensive surgical experience, and commitment to excellence have made him one of the leading transplant surgeons in India.",
+      
+      "education": [
+        "MBBS",
+        "MS",
+        "DNB",
+        "FRCS (England)",
+        "FRCS (Edinburgh)",
+        "FRCS (Glasgow)",
+        "FRCP (Edinburgh)",
+        "MNAMS"
+      ],
+    
+      "expertise": [
+        "Kidney Transplant Surgery",
+        "Renal Transplantation",
+        "Organ Transplantation",
+        "Urological Surgery",
+        "Transplant Medicine",
+        "Complex Renal Disorders",
+        "Living Donor Kidney Transplant",
+        "End-Stage Renal Disease Management"
+      ],
+    
+      "awards": [],
+    
+      "memberships": [],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/sandeep-guleria.jpg",
+            "visible": true
+          }
+        ]
+      },
+    
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "By Appointment",
+        "location": "Apollo Hospitals Delhi"
+      }
+    },
+    {
+      "id": "neerav-goyal",
+      "name": "Dr. Neerav Goyal",
+      "designation": "Senior Consultant - Liver Transplant and Surgical Gastroenterology",
+      "specialty": "liver-transplant",
+    
+      "specialities": [
+        "Liver Transplant",
+        "Organ Transplant",
+        "Surgical Gastroenterology",
+        "Hepatobiliary Surgery",
+        "Pancreatic Surgery"
+      ],
+    
+      "hospital": "Apollo Hospitals Delhi",
+      "hospitalslug": "apollo-hospitals-delhi",
+      "experienceYears": 25,
+    
+      "about": "Dr. Neerav Goyal is a distinguished Liver Transplant Surgeon with over 25 years of experience in liver transplantation, hepatobiliary surgery, pancreatic surgery, and surgical gastroenterology. He currently serves as Senior Consultant in the Department of Liver Transplant and Surgical Gastroenterology at Indraprastha Apollo Hospitals, Delhi. He has extensive expertise in complex liver transplant procedures and has been instrumental in the success of one of India's leading liver transplant programs, which has performed over 1,800 liver transplants. Dr. Goyal is known for his patient-centric approach and has contributed significantly to research, education, and advancements in liver transplantation and hepatobiliary surgery.",
+    
+      "education": [
+        "MBBS",
+        "DNB",
+        "Diploma in General Surgery",
+        "Diploma in Surgical Gastroenterology"
+      ],
+    
+      "expertise": [
+        "Liver Transplant Surgery",
+        "Living Donor Liver Transplantation",
+        "Hepatobiliary Surgery",
+        "Pancreatic Surgery",
+        "Surgical Gastroenterology",
+        "Cadaveric Organ Transplantation",
+        "Laparoscopic Gastrointestinal Surgery",
+        "Portal Hypertension Surgery",
+        "Complex Gastrointestinal Surgery",
+        "Liver Disease Management"
+      ],
+    
+      "awards": [
+        {
+          "title": "Best Video Award – Right Posterior Sector Graft: Understanding the Concept",
+          "year": 2014
+        },
+        {
+          "title": "Best Video Award – Hepatic Duct Transection Technique in Living Donor Liver Transplantation",
+          "year": 2012
+        },
+        {
+          "title": "Gold Medal for Best Paper Publication, Sir Ganga Ram Hospital",
+          "year": 2007
+        },
+        {
+          "title": "Gold Medal in Ophthalmology Examination – Bangalore University",
+          "year": 1995
+        },
+        {
+          "title": "Multiple Awards in Extracurricular Activities",
+          "year": null
+        }
+      ],
+    
+      "workExperience": [
+        "Senior Consultant, Liver Transplant and Surgical Gastroenterology, Indraprastha Apollo Hospitals, Delhi (2007 - Present)",
+        "Consultant, Hepato Biliary Pancreatic and Liver Transplant Surgery Unit, St. Stephen's Hospital, New Delhi (2006 - 2007)",
+        "Consultant GI Surgeon, Max Hospital Pitampura, Delhi (2005 - 2006)",
+        "Training in Surgical Gastroenterology, AIIMS New Delhi (2005)",
+        "Postdoctoral Training in Surgical Gastroenterology, Sir Ganga Ram Hospital, New Delhi (2002 - 2005)",
+        "Registrar, Surgical Gastroenterology, G.B. Pant Hospital, Delhi (2002)"
+      ],
+    
+      "publications": [
+        "Author and co-author of numerous peer-reviewed publications in liver transplantation, hepatobiliary surgery, and gastrointestinal surgery",
+        "Published research in Indian Journal of Surgery, World Journal of Surgery, Liver Transplantation, Apollo Medicine, HPB, Experimental and Clinical Transplantation, and Journal of Gastroenterology & Hepatology",
+        "Contributed extensively to research on living donor liver transplantation, biliary complications, portal hypertension surgery, and transplant outcomes"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/neerav-goyal.jpg",
+            "visible": true
+          }
+        ]
+      },
+    
+      "contact": {
+        "email": "",
+        "phone": "08069049768",
+        "availability": "By Appointment",
+        "location": "Apollo Hospitals, Delhi"
+      }
+    },
+    {
+      "id": "neerav-goyal",
+      "name": "Dr. Neerav Goyal",
+      "designation": "Senior Consultant - Liver Transplant and Surgical Gastroenterology",
+      "specialty": "liver-transplant",
+    
+      "specialities": [
+        "Liver Transplant",
+        "Organ Transplant",
+        "Surgical Gastroenterology",
+        "Hepatobiliary Surgery",
+        "Pancreatic Surgery"
+      ],
+    
+      "hospital": "Apollo Hospitals Delhi",
+      "hospitalslug": "apollo-hospitals-delhi",
+      "experienceYears": 25,
+    
+      "about": "Dr. Neerav Goyal is a distinguished Liver Transplant Surgeon with over 25 years of experience in liver transplantation, hepatobiliary surgery, pancreatic surgery, and surgical gastroenterology. He is currently associated with Apollo Hospitals, Delhi, where he serves as a Senior Consultant in the Department of Liver Transplant and Surgical Gastroenterology. He has extensive expertise in complex hepatobiliary, pancreatic, gastrointestinal, and liver transplant surgeries. Dr. Goyal is known for his patient-centric approach and has played a significant role in one of India's leading liver transplant programs, which has performed more than 1,800 liver transplants. His contributions to research, education, and clinical excellence have made him a respected name in liver transplantation.",
+    
+      "education": [
+        "MBBS",
+        "DNB",
+        "Diploma in General Surgery",
+        "Diploma in Surgical Gastroenterology"
+      ],
+    
+      "expertise": [
+        "Liver Transplant Surgery",
+        "Living Donor Liver Transplantation",
+        "Hepatobiliary Surgery",
+        "Pancreatic Surgery",
+        "Surgical Gastroenterology",
+        "Cadaveric Organ Transplantation",
+        "Laparoscopic Gastrointestinal Surgery",
+        "Portal Hypertension Surgery",
+        "Complex Gastrointestinal Surgery",
+        "Liver Disease Management"
+      ],
+    
+      "awards": [
+        {
+          "title": "Best Video Award – Right Posterior Sector Graft: Understanding the Concept",
+          "year": 2014
+        },
+        {
+          "title": "Best Video Award – Hepatic Duct Transection Technique in Living Donor Liver Transplantation",
+          "year": 2012
+        },
+        {
+          "title": "Gold Medal for Best Paper Publication, Sir Ganga Ram Hospital",
+          "year": 2007
+        },
+        {
+          "title": "Gold Medal in Ophthalmology Examination (First Position, Bangalore University)",
+          "year": 1995
+        }
+      ],
+    
+      "workExperience": [
+        {
+          "period": "2007 - Present",
+          "position": "Senior Consultant, Liver Transplant and Surgical Gastroenterology",
+          "organization": "Indraprastha Apollo Hospitals, Delhi"
+        },
+        {
+          "period": "2006 - 2007",
+          "position": "Consultant, Hepato Biliary Pancreatic and Liver Transplant Surgery Unit",
+          "organization": "St. Stephen's Hospital, New Delhi"
+        },
+        {
+          "period": "2005 - 2006",
+          "position": "Consultant GI Surgeon",
+          "organization": "Max Hospital, Pitampura, Delhi"
+        },
+        {
+          "period": "2005",
+          "position": "Training in Surgical Gastroenterology",
+          "organization": "AIIMS, New Delhi"
+        },
+        {
+          "period": "2002 - 2005",
+          "position": "Postdoctoral Trainee, Surgical Gastroenterology",
+          "organization": "Sir Ganga Ram Hospital, New Delhi"
+        },
+        {
+          "period": "2002",
+          "position": "Registrar, Surgical Gastroenterology",
+          "organization": "G.B. Pant Hospital, Delhi"
+        }
+      ],
+    
+      "publications": [
+        "Author and co-author of numerous peer-reviewed publications in liver transplantation and hepatobiliary surgery",
+        "Published research in Indian Journal of Surgery",
+        "Published research in World Journal of Surgery",
+        "Published research in Liver Transplantation",
+        "Published research in Apollo Medicine",
+        "Published research in Journal of Gastroenterology and Hepatology",
+        "Published research in Indian Journal of Transplantation"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/neerav-goyal.jpg",
+            "visible": true
+          }
+        ]
+      },
+    
+      "contact": {
+        "email": "",
+        "phone": "08069049768",
+        "availability": "By Appointment",
+        "location": "Apollo Hospitals, Delhi"
+      }
+    },
+    {
+      "id": "mukesh-goel",
+      "name": "Dr. Mukesh Goel",
+      "designation": "Senior Consultant",
+      "specialty": "cardiothoracic-surgery",
+    
+      "specialities": [
+        "Cardiac Sciences",
+        "Cardiothoracic and Vascular Surgery",
+        "Heart Transplant",
+        "Lung Transplant"
+      ],
+    
+      "hospital": "Apollo Hospitals Delhi",
+      "hospitalslug": "apollo-hospitals-delhi",
+      "experienceYears": 24,
+    
+      "about": "Dr. Mukesh Goel is a highly experienced Cardiothoracic and Vascular Surgeon with over 24 years of expertise in advanced cardiac surgery. Based at Apollo Hospitals, Delhi, he specializes in robotic-assisted CABG, lung transplantation, ECMO, aortic surgery for aneurysm and dissection, minimally invasive cardiac surgery, heart failure surgery, and heart transplantation. Throughout his career, he has performed more than 3,000 heart surgeries and is recognized for his precision, surgical excellence, and patient-centric approach. Fluent in English, Hindi, Maithili, Punjabi, and Bhojpuri, Dr. Goel is committed to delivering world-class cardiac care using the latest surgical technologies.",
+    
+      "education": [
+        "MBBS",
+        "MS",
+        "MCh"
+      ],
+    
+      "expertise": [
+        "Robotic Assisted CABG",
+        "Coronary Artery Bypass Grafting (CABG)",
+        "Lung Transplant",
+        "Heart Transplant",
+        "ECMO",
+        "Aortic Aneurysm Surgery",
+        "Aortic Dissection Surgery",
+        "Valve Repair Surgery",
+        "Valve Replacement Surgery",
+        "Minimally Invasive Cardiac Surgery (MICS)",
+        "Minimally Invasive CABG",
+        "LVAD Implantation",
+        "Congenital Heart Surgery",
+        "Cardiothoracic Surgery",
+        "Vascular Surgery"
+      ],
+    
+      "awards": [],
+    
+      "memberships": [
+        "Fellow, Indian Association of Cardiothoracic & Vascular Surgeons",
+        "Life Member, European Association of Cardiothoracic & Vascular Surgeons",
+        "International Member, Society of Thoracic Surgeons, USA"
+      ],
+    
+      "workExperience": [
+        {
+          "period": "2016 - Present",
+          "position": "Senior Consultant",
+          "organization": "Indraprastha Apollo Hospitals, New Delhi"
+        },
+        {
+          "period": "2010 - 2016",
+          "position": "Chief Surgeon",
+          "organization": "Asian Hospital, Faridabad"
+        },
+        {
+          "period": "2009 - 2010",
+          "position": "Senior Consultant",
+          "organization": "Medanta Medicity"
+        },
+        {
+          "period": "2007 - 2009",
+          "position": "Consultant",
+          "organization": "Indraprastha Apollo Hospital (Medanta Unit), Delhi"
+        },
+        {
+          "period": "2001 - 2007",
+          "position": "Consultant",
+          "organization": "Escorts Heart Institute & Research Centre, Delhi"
+        }
+      ],
+    
+      "publications": [
+        "Tubercular Pseudoaneurysm of Aorta - Annals of Thoracic Surgery",
+        "Off Pump Coronary Artery Surgery in Unstable Angina - Asian Annals of Thoracic & Cardiovascular Surgery",
+        "Ventricular Fibroma Presenting as Angina - Asian Annals of Thoracic & Cardiovascular Surgery"
+      ],
+    
+      "achievements": [
+        "Performed more than 3,000 cardiac surgeries",
+        "Extensive experience in bypass surgery using off-pump and on-pump techniques",
+        "Expert in bilateral IMA grafting",
+        "Specialist in aortic root surgery for aneurysm and dissection (Bentall Procedure)",
+        "Advanced expertise in minimally invasive cardiac surgery",
+        "Experienced in LVAD implantation and heart transplantation",
+        "Expert in lung transplantation and ECMO support"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/mukesh-goel.jpg",
+            "visible": true
+          }
+        ]
+      },
+    
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "15:30 - 17:00 Mon - Sat",
+        "location": "Apollo Hospitals, Delhi"
+      }
+    },
+    {
+      "id": "sudheer-kumar-tyagi",
+      "name": "Dr. Sudheer Kumar Tyagi",
+      "designation": "Senior Neurosurgeon",
+      "specialty": "neurosurgery",
+    
+      "specialities": [
+        "Neurosciences",
+        "Neurosurgery",
+        "Brain Surgery",
+        "Spine Surgery",
+        "Functional Neurosurgery"
+      ],
+    
+      "hospital": "Apollo Hospitals Delhi",
+      "hospitalslug": "apollo-hospitals-delhi",
+      "experienceYears": 33,
+    
+      "about": "Dr. Sudheer Kumar Tyagi is a highly experienced Neurosurgeon with more than 33 years of expertise in brain and spine surgery. He has been associated with Apollo Hospitals, New Delhi, and has successfully performed over 9,000 neurosurgical procedures. His areas of specialization include skull base surgery, spinal surgeries, stereotactic and functional neurosurgery, deep brain stimulation (DBS), and trans-sphenoidal pituitary tumor surgery. Known for his precision, clinical excellence, and patient-focused approach, Dr. Tyagi is one of India's leading neurosurgeons in advanced brain and spine care.",
+    
+      "education": [
+        "MBBS",
+        "MS",
+        "MCh"
+      ],
+    
+      "expertise": [
+        "Brain Surgery",
+        "Spine Surgery",
+        "Skull Base Surgery",
+        "Deep Brain Stimulation (DBS)",
+        "Functional Neurosurgery",
+        "Stereotactic Neurosurgery",
+        "Pituitary Tumor Surgery",
+        "Trans-Sphenoidal Surgery",
+        "Brain Tumor Surgery",
+        "Spinal Cord Surgery",
+        "Movement Disorder Surgery",
+        "Neuro-Oncology Surgery"
+      ],
+    
+      "awards": [
+        {
+          "title": "Vishisht Chikitsa Ratan Award",
+          "organization": "Delhi Medical Association",
+          "year": 2015
+        }
+      ],
+    
+      "memberships": [
+        "Neurological Society of India",
+        "Delhi Neurological Association",
+        "Indian Society of Functional and Stereotactic Neurosurgery",
+        "Association of Spinal Surgeons of India"
+      ],
+    
+      "workExperience": [
+        {
+          "period": "Jan 1994 - May 1997",
+          "position": "Neurosurgeon",
+          "organization": "All India Institute of Medical Sciences (AIIMS), New Delhi"
+        },
+        {
+          "period": "1997 - Present",
+          "position": "Consultant Neurosurgeon",
+          "organization": "Apollo Hospitals, New Delhi"
+        }
+      ],
+    
+      "publications": [
+        "Authored chapter on 'Functional Stereotactic Neurosurgery' in Textbook of Operative Neurosurgery"
+      ],
+    
+      "achievements": [
+        "Over 33 years of experience in Neurosurgery",
+        "Successfully performed more than 9,000 neurosurgical procedures",
+        "Leading expert in Deep Brain Stimulation (DBS)",
+        "Specialist in Skull Base Surgery",
+        "Extensive experience in advanced Brain and Spine Surgery",
+        "Recognized authority in Functional and Stereotactic Neurosurgery"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/sudheer-kumar-tyagi.jpg",
+            "visible": true
+          }
+        ]
+      },
+    
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "11:30 - 12:00 Mon - Sat",
+        "location": "Apollo Hospitals, Delhi"
+      }
+    },
+    {
+      "id": "yatinder-kharbanda",
+      "name": "Dr. Yatinder Kharbanda",
+      "designation": "Senior Orthopaedic Surgeon",
+      "specialty": "orthopaedics",
+    
+      "specialities": [
+        "Orthopaedics",
+        "Orthopaedic Surgery",
+        "Joint Replacement",
+        "Hip Replacement",
+        "Knee Replacement",
+        "Trauma Surgery"
+      ],
+    
+      "hospital": "Apollo Hospitals Delhi",
+      "hospitalslug": "apollo-hospitals-delhi",
+      "experienceYears": 30,
+    
+      "about": "Dr. Yatinder Kharbanda is a distinguished Orthopaedic Surgeon with over 30 years of experience in the field of orthopaedics and joint replacement surgery. He is associated with Apollo Hospitals Delhi and is recognized for his expertise in hip and knee arthroplasty, trauma management, and complex orthopaedic procedures. With advanced training in India and the United Kingdom, Dr. Kharbanda is committed to delivering evidence-based, patient-centric care and has contributed extensively to orthopaedic research and education.",
+    
+      "education": [
+        "MBBS - Seth G.S. Medical College & KEM Hospital, Mumbai (1983)",
+        "Diploma in Orthopaedics - College of Physicians & Surgeons, Mumbai (1987)",
+        "MS Orthopaedics - Seth G.S. Medical College & KEM Hospital, Mumbai (1988)",
+        "DNB Orthopaedics - National Board of Examinations, New Delhi (1989)",
+        "MCh Orthopaedics - University of Liverpool, United Kingdom (1995)"
+      ],
+    
+      "expertise": [
+        "Total Hip Replacement",
+        "Total Knee Replacement",
+        "Revision Joint Replacement",
+        "Arthroplasty",
+        "Orthopaedic Trauma Surgery",
+        "Hip Arthroplasty",
+        "Knee Arthroplasty",
+        "Bone Conserving Hip Surgery",
+        "Complex Orthopaedic Reconstruction",
+        "Fracture Management",
+        "Sports Injury Management",
+        "Musculoskeletal Disorders"
+      ],
+    
+      "awards": [
+        {
+          "title": "Appreciation Award for Medical Services and Education",
+          "organization": "M.P. Birla Medical Research Centre",
+          "year": 2011
+        },
+        {
+          "title": "President Appreciation Award",
+          "organization": "IMA South Delhi Branch",
+          "year": 2011
+        },
+        {
+          "title": "IMANDB Distinguished Science Award for Outstanding Contribution in Orthopaedics",
+          "organization": "Indian Medical Association",
+          "year": 2003
+        }
+      ],
+    
+      "memberships": [
+        "Indian Medical Association",
+        "Indian Orthopaedic Association",
+        "Indian Arthroplasty Association",
+        "Indian Society of Hip and Knee Surgeons",
+        "Trauma Society of India"
+      ],
+    
+      "workExperience": [
+        {
+          "period": "Current",
+          "position": "Senior Orthopaedic Surgeon",
+          "organization": "Apollo Hospitals Delhi"
+        }
+      ],
+    
+      "publications": [
+        "Journal of Postgraduate Medicine (1991) - Orthopaedic Surgery Research",
+        "Aneurysm Complicating a Tibial Osteotomy: A Case Report (Acta Orthopaedica Scandinavica, 1996)",
+        "Old Tuberculous Hip Arthritis - Complex Primary Total Hip Replacement (2012)",
+        "Bone Conserving Hip Arthroplasty (Apollo Medicine, 2012)",
+        "Sideswipe Injuries Around the Elbow: Management and Functional Evaluation (Indian Journal of Orthopaedics, 2013)"
+      ],
+    
+      "achievements": [
+        "More than 30 years of experience in Orthopaedics",
+        "Expert in Hip and Knee Replacement Surgery",
+        "Internationally trained Orthopaedic Surgeon",
+        "Recognized contributor to Orthopaedic Research and Education",
+        "Published multiple peer-reviewed research papers",
+        "Active member of leading national orthopaedic societies"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/yatinder-kharbanda.jpg",
+            "visible": true
+          }
+        ]
+      },
+    
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "11:00 - 11:15 Mon - Sat",
+        "location": "Apollo Hospitals, Delhi"
+      }
+    },
+    {
+      "id": "aloy-j-mukherjee",
+      "name": "Dr. Aloy J Mukherjee",
+      "designation": "Senior Consultant - Bariatric & General Surgery",
+      "specialty": "bariatric-surgery",
+    
+      "specialities": [
+        "Bariatric Surgery",
+        "General Surgery",
+        "Advanced Laparoscopic Surgery",
+        "Robotic Surgery",
+        "Gastrointestinal Surgery",
+        "Minimal Access Surgery"
+      ],
+    
+      "hospital": "Apollo Hospitals Delhi",
+      "hospitalslug": "apollo-hospitals-delhi",
+      "experienceYears": 20,
+    
+      "about": "Dr. Aloy Jyoti Mukherjee is a highly experienced Bariatric and General Surgeon with more than 20 years of expertise in advanced laparoscopic, robotic, and bariatric surgery. He is known for his precision, surgical excellence, and patient-centric approach. Dr. Mukherjee has played a pioneering role in bariatric surgery at Apollo Hospitals and has successfully performed thousands of minimally invasive surgical procedures. He is proficient in English, Hindi, and Bengali and remains committed to delivering safe, evidence-based, and personalized surgical care.",
+    
+      "education": [
+        "MBBS",
+        "MS (General Surgery)",
+        "MNAMS",
+        "FALS (Fellowship in Advanced Laparoscopic Surgery)",
+        "FMAS (Fellowship in Minimal Access Surgery)",
+        "FIAGES (Fellow of Indian Association of Gastro Endoscopic Surgeons)",
+        "Robotic Surgery Training"
+      ],
+    
+      "expertise": [
+        "Bariatric Surgery",
+        "Weight Loss Surgery",
+        "Laparoscopic Gastric Bypass",
+        "Sleeve Gastrectomy",
+        "Advanced Laparoscopic Surgery",
+        "Single Incision Laparoscopic Surgery (SILS)",
+        "Robotic Surgery",
+        "Gallbladder Surgery",
+        "Hernia Surgery",
+        "Appendicitis Surgery",
+        "Abdominal Surgery",
+        "Liver Surgery",
+        "Breast Surgery",
+        "Varicose Vein Treatment",
+        "Pilonidal Sinus Surgery"
+      ],
+    
+      "clinicalExpertise": [
+        "Appendicitis",
+        "Hernia",
+        "Peritonitis",
+        "Pilonidal Sinus",
+        "Gynaecomastia",
+        "Lipoma",
+        "Liver Abscess",
+        "Liver Cyst",
+        "Benign Tumors",
+        "Umbilical Hernia",
+        "Varicose Veins",
+        "Venous Ulcers",
+        "Breast Infections",
+        "Soft Tissue Injuries",
+        "Soft Tissue Swellings",
+        "Facial Nerve Disorders",
+        "Calculous Cholecystitis"
+      ],
+    
+      "awards": [
+        {
+          "title": "OSSICON Best Paper Award",
+          "organization": "Obesity Surgery Society of India",
+          "year": 2008
+        },
+        {
+          "title": "First Position Holder - Fellowship Course",
+          "organization": "Indian Association of Gastrointestinal Endo Surgeons",
+          "year": 2008
+        },
+        {
+          "title": "Honorary Membership",
+          "organization": "National Academy of Medical Sciences",
+          "year": 2008
+        },
+        {
+          "title": "Certificate of Merit",
+          "organization": "Indian Academy of Pediatrics",
+          "year": 1993
+        }
+      ],
+    
+      "memberships": [
+        "Fellow of Indian Association of Gastro Endoscopic Surgeons (FIAGES)",
+        "Fellow in Advanced Laparoscopic Surgery (FALS)",
+        "Tutor - Ethicon Institute of Surgical Education",
+        "Member, National Academy of Medical Sciences (MNAMS)",
+        "Indian Association of Gastro Endoscopic Surgeons (IAGES)",
+        "Association of Surgeons of India (ASI)",
+        "Delhi Medical Association (DMA)",
+        "Indian Medical Association (IMA)",
+        "The AIIMSONIANS"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Senior Consultant",
+          "organization": "Apollo Hospitals Delhi",
+          "period": "Current"
+        }
+      ],
+    
+      "achievements": [
+        "Performed 5000+ successful laparoscopic gallbladder surgeries",
+        "Performed 1000+ advanced laparoscopic procedures including SILS",
+        "Part of the team that performed the first Bariatric Surgery (RNYGP) at Indraprastha Apollo Hospitals in 2007",
+        "Recognized expert in minimally invasive and robotic surgery",
+        "Extensive experience in bariatric and gastrointestinal surgical procedures"
+      ],
+    
+      "treatments": [
+        "Bariatric Surgery",
+        "Gastric Bypass Surgery",
+        "Sleeve Gastrectomy",
+        "Laparoscopic Hernia Repair",
+        "Gallbladder Surgery",
+        "Appendix Surgery",
+        "Anal Fissure Treatment",
+        "Robotic Surgery",
+        "Abdominal Surgery",
+        "Liver Surgery"
+      ],
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/aloy-j-mukherjee.jpg",
+            "visible": true
+          }
+        ]
+      },
+    
+      "contact": {
+        "email": "",
+        "phone": "",
+        "availability": "10:00 - 18:00 Mon - Sat",
+        "location": "Apollo Hospitals, Delhi"
+      }
+    },
+    {
+      "id": "rakesh-mahajan",
+      "name": "Dr. Rakesh Mahajan",
+      "designation": "Senior Consultant - Vascular Surgery",
+      "specialty": "vascular-surgery",
+    
+      "specialities": [
+        "Vascular Surgery",
+        "Endovascular Surgery",
+        "Peripheral Vascular Disease",
+        "Dialysis Access Surgery",
+        "Venous Disorders",
+        "Arterial Surgery"
+      ],
+    
+      "hospital": "Apollo Hospitals Delhi",
+      "hospitalslug": "apollo-hospitals-delhi",
+      "experienceYears": 36,
+    
+      "about": "Dr. Rakesh Mahajan is a highly experienced Vascular Surgeon with over 36 years of expertise in vascular and endovascular surgery. Trained at AIIMS New Delhi and the Royal Colleges of Surgeons in the United Kingdom, he possesses extensive experience in managing complex arterial, venous, and vascular access disorders. Known for his patient-centric approach, Dr. Mahajan combines advanced surgical skills with evidence-based treatment strategies to deliver optimal outcomes. His commitment to research, teaching, and innovation has established him as a respected name in vascular surgery.",
+    
+      "education": [
+        "MBBS (1984) - All India Institute of Medical Sciences (AIIMS), New Delhi",
+        "MS Surgery (1989) - All India Institute of Medical Sciences (AIIMS), New Delhi",
+        "FRCS (1994) - Royal College of Physicians & Surgeons, Glasgow",
+        "FRCS (General Surgery) (2002) - Royal Colleges of Surgeons, UK",
+        "CCST - Certificate of Completion of Specialist Training (2002), Specialist Training Authority, UK"
+      ],
+    
+      "expertise": [
+        "Vascular Surgery",
+        "Peripheral Arterial Disease",
+        "Endovascular Procedures",
+        "Dialysis Access Surgery",
+        "Vascular Emergencies",
+        "Venous Ulcer Management",
+        "Arterial Reconstruction",
+        "Varicose Vein Treatment",
+        "Aneurysm Management",
+        "Limb Salvage Procedures"
+      ],
+    
+      "clinicalExpertise": [
+        "Peripheral Vascular Disease",
+        "Venous Leg Ulcers",
+        "Vascular Access Surgery",
+        "Aneurysms",
+        "Arterial Occlusive Disease",
+        "Venous Disorders",
+        "Dialysis Access Complications",
+        "Neonatal Vascular Emergencies",
+        "Limb Ischemia"
+      ],
+    
+      "awards": [],
+    
+      "memberships": [],
+    
+      "workExperience": [
+        {
+          "position": "Senior Consultant",
+          "organization": "Apollo Hospitals Delhi",
+          "period": "Current"
+        }
+      ],
+    
+      "researchPublications": [
+        {
+          "title": "Splenic Flexure Volvulus",
+          "journal": "International Journal of Colorectal Disease",
+          "year": 2000
+        },
+        {
+          "title": "Use of a Semipermeable Polyamide Dressing Over Skin Grafts to Venous Leg Ulcers",
+          "journal": "British Journal of Surgery",
+          "year": 1995
+        },
+        {
+          "title": "Assessment of Nutritional Status of General Surgical Patients and Predictive Value of Nutritional Parameters",
+          "institution": "AIIMS New Delhi",
+          "year": 1988
+        }
+      ],
+    
+      "presentations": [
+        {
+          "title": "End of the Road Therapy: Vascular Access in a Difficult Situation",
+          "event": "Vascular Access Conference",
+          "location": "Kuala Lumpur, Malaysia",
+          "year": 2010
+        },
+        {
+          "title": "Neonatal Vascular Emergencies",
+          "event": "Vascular Society of India Meeting",
+          "year": 2007
+        },
+        {
+          "title": "Audit of Cholecystectomies at a District General Hospital in North Wales",
+          "event": "Welsh Surgical Society Meeting",
+          "year": 1997
+        },
+        {
+          "title": "The Use of a Semipermeable Polyamide Dressing over Skin Grafts to Venous Leg Ulcers",
+          "event": "Association of Surgeons of Great Britain and Ireland",
+          "year": 1995
+        }
+      ],
+    
+      "achievements": [
+        "More than 36 years of surgical experience",
+        "Advanced specialist training completed in the United Kingdom",
+        "FRCS qualified from Glasgow and UK Royal Colleges",
+        "Recognized expert in vascular access and vascular surgery",
+        "Active contributor to vascular surgery research and international conferences"
+      ],
+    
+      "languages": [
+        "English"
+      ],
+    
+      "contact": {
+        "availability": "13:00 - 13:15 Mon - Sat",
+        "location": "Apollo Hospitals, Delhi"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/rakesh-mahajan.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "shishir-seth",
+      "name": "Dr. Shishir Seth",
+      "designation": "Senior Consultant - Haemato Oncology & Bone Marrow Transplant",
+      "specialty": "haemato-oncology-bmt",
+    
+      "specialities": [
+        "Haemato Oncology",
+        "Bone Marrow Transplantation (BMT)",
+        "Stem Cell Transplantation",
+        "Clinical Hematology",
+        "Leukemia Management",
+        "Lymphoma Treatment"
+      ],
+    
+      "hospital": "Apollo Hospitals Delhi",
+      "hospitalslug": "apollo-hospitals-delhi",
+      "experienceYears": 20,
+    
+      "about": "Dr. Shishir Seth is a renowned Haemato Oncologist and Bone Marrow Transplant (BMT) specialist with more than 20 years of experience in the diagnosis and treatment of blood disorders and hematological malignancies. He has extensive expertise in leukemia, lymphoma, multiple myeloma, stem cell transplantation, and bone marrow transplantation. Trained at leading institutions in India and Canada, Dr. Seth combines advanced clinical knowledge with a patient-focused approach to deliver comprehensive cancer and blood disorder care.",
+    
+      "education": [
+        "MBBS",
+        "MD",
+        "DM - Clinical Hematology"
+      ],
+    
+      "expertise": [
+        "Bone Marrow Transplantation (BMT)",
+        "Hematopoietic Stem Cell Transplantation",
+        "Acute Myeloid Leukemia (AML)",
+        "Acute Lymphoblastic Leukemia (ALL)",
+        "Chronic Myeloid Leukemia (CML)",
+        "Chronic Lymphocytic Leukemia (CLL)",
+        "Lymphoma",
+        "Multiple Myeloma",
+        "Myelodysplastic Syndrome",
+        "Thalassemia",
+        "Bleeding Disorders",
+        "Clotting Disorders",
+        "Immunotherapy",
+        "Chemotherapy"
+      ],
+    
+      "clinicalExpertise": [
+        "Chronic Granulomatous Disease",
+        "Stomach Cancer",
+        "Acute Myeloid Leukemia",
+        "Chronic Myeloid Leukemia",
+        "Lymphoma",
+        "Multiple Myeloma",
+        "Anemia",
+        "Thalassemia",
+        "Myelodysplastic Syndrome",
+        "Blood Disorders"
+      ],
+    
+      "workExperience": [
+        {
+          "position": "Consultant - Hemato Oncology & Stem Cell Transplant",
+          "organization": "Rajiv Gandhi Cancer Institute, New Delhi"
+        },
+        {
+          "position": "Fellow - Leukemia & Bone Marrow Transplantation",
+          "organization": "Vancouver General Hospital, Vancouver, Canada"
+        },
+        {
+          "position": "Consultant",
+          "organization": "Moolchand Hospital, New Delhi"
+        },
+        {
+          "position": "Senior Resident (DM Clinical Hematology)",
+          "organization": "KEM Hospital & Seth G.S. Medical College, Mumbai"
+        },
+        {
+          "position": "Clinical Assistant - Hematology",
+          "organization": "PD Hinduja National Hospital, Mumbai"
+        },
+        {
+          "position": "Senior AMO",
+          "organization": "Bombay Hospital, Mumbai"
+        }
+      ],
+    
+      "memberships": [
+        "Indian Society of Hematology and Transfusion Medicine (Life Member)",
+        "American Society of Clinical Oncology (ASCO)",
+        "American Society of Hematology (ASH)"
+      ],
+    
+      "awards": [
+        {
+          "title": "Successfully Performed 150+ Hematopoietic Stem Cell Transplants",
+          "year": null
+        },
+        {
+          "title": "Performed 300+ Induction Therapies for Acute Leukemia",
+          "year": null
+        }
+      ],
+    
+      "achievements": [
+        "Successfully performed more than 150 Hematopoietic Stem Cell Transplants (BMT)",
+        "40% of transplants were allogeneic including haplo-identical and antigen mismatch transplants",
+        "Performed more than 300 induction therapies for acute leukemia patients",
+        "Principal Investigator for multiple hematology and oncology clinical studies",
+        "Extensive experience in management of leukemia, lymphoma and multiple myeloma"
+      ],
+    
+      "researchPublications": [
+        {
+          "title": "An Unusual Presentation of Pediatric Acute Lymphoblastic Leukemia",
+          "journal": "Indian Journal of Hematology and Blood Transfusion",
+          "year": 2008
+        },
+        {
+          "title": "Spectrum of Small Intestinal Lymphoma in Western India",
+          "year": null
+        },
+        {
+          "title": "Chronic Myeloid Leukemia: Demographic and Clinical Profile from a Tertiary Center in Western India",
+          "year": null
+        },
+        {
+          "title": "Hematopoietic Cell Transplantation in Lymphoma: Why & When; Evidence Based Review",
+          "journal": "Cancer News",
+          "year": 2011
+        },
+        {
+          "title": "Acute Myeloid Leukemia - An Update",
+          "journal": "RGCI Newsletter",
+          "year": 2012
+        }
+      ],
+    
+      "clinicalTrials": [
+        {
+          "title": "2010DRL001 - Bendamustine and Rituximab in Chronic Lymphocytic Leukemia",
+          "role": "Principal Investigator"
+        },
+        {
+          "title": "IVPL_RT_01 - Rituximab in Non-Hodgkin Lymphoma",
+          "role": "Principal Investigator"
+        }
+      ],
+    
+      "treatments": [
+        "Bone Marrow Transplant",
+        "Stem Cell Transplant",
+        "Chemotherapy",
+        "Immunotherapy",
+        "Targeted Therapy",
+        "Leukemia Treatment",
+        "Lymphoma Treatment",
+        "Multiple Myeloma Treatment"
+      ],
+    
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+    
+      "contact": {
+        "availability": "14:00 - 18:00 Mon - Sat",
+        "location": "Apollo Hospitals, Delhi"
+      },
+    
+      "media": {
+        "images": [
+          {
+            "url": "/Images/doctors/shishir-seth.jpg",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
       "id": "rahul-gupta",
       "name": "Dr. Rahul Gupta",
       "designation": "Director",
