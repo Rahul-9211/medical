@@ -1,7 +1,10 @@
 import React from "react";
 import websiteData from "@/data/websiteData.json";
 import QuoteForm from "@/components/QuoteForm";
+import Pagination from "@/components/Pagination";
 import Image from "next/image";
+
+const HOSPITALS_PER_PAGE = 6;
 
 interface Hospital {
   id: string;
@@ -41,7 +44,13 @@ interface HospitalData {
   };
 }
 
-const HospitalPage = async () => {
+const HospitalPage = async ({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string }>;
+}) => {
+  const { page: pageParam } = await searchParams;
+  const requestedPage = Math.max(1, parseInt(pageParam ?? "1", 10) || 1);
   // List of hospital IDs from the public folder
   const hospitalIds = [
     'artemis',
@@ -113,6 +122,11 @@ const HospitalPage = async () => {
     }
   };
 
+  const totalPages = Math.max(1, Math.ceil(hospitals.length / HOSPITALS_PER_PAGE));
+  const currentPage = Math.min(requestedPage, totalPages);
+  const startIndex = (currentPage - 1) * HOSPITALS_PER_PAGE;
+  const paginatedHospitals = hospitals.slice(startIndex, startIndex + HOSPITALS_PER_PAGE);
+
   const getCardColor = (index: number) => {
     const colors = [
       { bg: 'bg-[#7AE5F5]/10', hover: 'hover:bg-[#7AE5F5]/20', text: 'text-[#7AE5F5]' },
@@ -157,10 +171,16 @@ const HospitalPage = async () => {
                   🌟
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Featured Hospitals</h2>
+                {hospitals.length > 0 && (
+                  <p className="text-gray-600 mt-3">
+                    Showing {startIndex + 1}–{Math.min(startIndex + HOSPITALS_PER_PAGE, hospitals.length)} of{" "}
+                    {hospitals.length} hospitals
+                  </p>
+                )}
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8">
-                {hospitals.map((hospital, i) => {
+                {paginatedHospitals.map((hospital, i) => {
                   const color = getCardColor(i);
                   const imageUrl = hospital.media?.images?.find(img => img.visible)?.url || 
                     "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&auto=format&fit=crop&q=80";
@@ -234,6 +254,8 @@ const HospitalPage = async () => {
                   );
                 })}
               </div>
+
+              <Pagination currentPage={currentPage} totalPages={totalPages} />
             </div>
           </section>
 
