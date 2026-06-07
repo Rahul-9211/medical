@@ -1,5 +1,7 @@
 'use client'
 
+import Image from 'next/image'
+
 interface Hospital {
   name: string
   location: string
@@ -15,22 +17,18 @@ interface PartnersHospitalSectionProps {
   }
 }
 
+const HOSPITAL_LOGOS = [
+  { name: 'Medanta', logo: '/Images/hospital/logos/medanta.png' },
+  { name: 'Apollo Hospitals', logo: '/Images/hospital/logos/apollo.png' },
+  { name: 'Fortis Healthcare', logo: '/Images/hospital/logos/fortis.png' },
+  { name: 'Max Healthcare', logo: '/Images/hospital/logos/max.png' },
+  { name: 'BLK Super Speciality Hospital', logo: '/Images/hospital/logos/blk.png' },
+  { name: 'Manipal Hospitals', logo: '/Images/hospital/logos/manipal.png' },
+  { name: 'Artemis Hospital', logo: '/Images/hospital/logos/artemis.png' },
+] as const
+
 export default function PartnersHospitalSection({ hospitals }: PartnersHospitalSectionProps) {
-  // Use domain-based logo CDN for reliable external logos
-  const hospitalLogos = [
-    { name: "Medanta", logo: "https://logo.clearbit.com/medanta.org" },
-    { name: "Apollo Hospitals", logo: "https://logo.clearbit.com/apollohospitals.com" },
-    { name: "Fortis Healthcare", logo: "https://logo.clearbit.com/fortishealthcare.com" },
-    { name: "Max Healthcare", logo: "https://logo.clearbit.com/maxhealthcare.in" },
-    // { name: "Kokilaben Hospital", logo: "https://logo.clearbit.com/kokilabenhospital.com" },
-    { name: "BLK Super Speciality Hospital", logo: "https://logo.clearbit.com/blkhospital.com" },
-    { name: "Manipal Hospitals", logo: "https://logo.clearbit.com/manipalhospitals.com" },
-    // { name: "Narayana Health", logo: "https://logo.clearbit.com/narayanahealth.org" },
-    // { name: "Sir Ganga Ram Hospital", logo: "https://logo.clearbit.com/sgrh.com" },
-    // { name: "AIIMS Delhi", logo: "https://logo.clearbit.com/aiims.edu" },
-    { name: "Artemis Hospital", logo: "https://logo.clearbit.com/artemishospitals.com" },
-    // { name: "Global Hospitals", logo: "https://logo.clearbit.com/globalhospitals.com" }
-  ]
+  const hospitalLogos = HOSPITAL_LOGOS
 
   // Triple the logos for truly seamless infinite scroll
   const extendedLogos = [...hospitalLogos, ...hospitalLogos, ...hospitalLogos]
@@ -88,27 +86,21 @@ export default function PartnersHospitalSection({ hospitals }: PartnersHospitalS
             {extendedLogos.map((hospital, index) => (
               <div
                 key={`${hospital.name}-${index}`}
-                className="flex-shrink-0 opacity-80"
+                className="flex-shrink-0 flex flex-col items-center gap-3 w-44"
               >
-                <div className="bg-white rounded-xl  w-40 h-24 flex items-center justify-center">
-                  <img
+                <div className="bg-white rounded-xl w-full h-20 flex items-center justify-center px-4 border border-gray-100 shadow-sm">
+                  <Image
                     src={hospital.logo}
-                    alt={`${hospital.name} Logo`}
-                    className="max-w-full max-h-full object-contain"
-                    loading="lazy"
-                    decoding="async"
-                    referrerPolicy="no-referrer"
+                    alt={`${hospital.name} logo`}
+                    width={160}
+                    height={56}
+                    className="max-w-full max-h-14 w-auto h-auto object-contain"
                     draggable={false}
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                      const parent = target.parentElement;
-                      if (parent) {
-                        parent.innerHTML = `<span class=\"text-sm font-semibold text-gray-600 text-center\">${hospital.name}</span>`;
-                      }
-                    }}
                   />
                 </div>
+                <p className="text-xs sm:text-sm font-semibold text-gray-700 text-center leading-tight px-1">
+                  {hospital.name}
+                </p>
               </div>
             ))}
           </div>
