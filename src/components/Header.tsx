@@ -221,6 +221,17 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
           </div>
         )}
               </div>
+
+      {/* Scrolling Ticker Banner */}
+      <div className="bg-[#0ea5e9] text-white overflow-hidden py-1.5">
+        <div className="animate-marquee">
+          {[0, 1].map((i) => (
+            <span key={i} className="text-xs sm:text-sm font-medium px-16 whitespace-nowrap">
+              Shivanand Global Medical Tourism helps patients to book appointment with relevant Doctors free of Cost &nbsp;•&nbsp; We have trained Physicians and all medical advises are handled by Professionals &nbsp;•&nbsp; For free Video Consultation you can contact our 24/7 Helpline
+            </span>
+          ))}
+        </div>
+      </div>
       </header>
    );
 } 
