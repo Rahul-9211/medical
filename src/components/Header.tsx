@@ -227,7 +227,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
         <div className="animate-marquee">
           {[0, 1].map((i) => (
             <span key={i} className="text-xs sm:text-sm font-medium px-16 whitespace-nowrap">
-              Shivanand Global Medical Tourism helps patients to book appointment with relevant Doctors free of Cost &nbsp;•&nbsp; We have trained Physicians and all medical advises are handled by Professionals &nbsp;•&nbsp; For free Video Consultation you can contact our 24/7 Helpline
+              ShivanandGlobal Medical Tourism works as a concierge desk for Hospital Appointment for Ayurveda and other form of Medcical treatment. We do not offer any medical advise ourself but thr treatment plan is offered by Trained Doctors from our Partner Hospitals.
             </span>
           ))}
         </div>

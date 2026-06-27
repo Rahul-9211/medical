@@ -67,7 +67,7 @@ export default function Footer({ footer }: FooterProps) {
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-3xl"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
@@ -82,28 +82,54 @@ export default function Footer({ footer }: FooterProps) {
             
             {/* Contact Info */}
             <div className="space-y-4">
-              <div className="flex items-center group">
-                <div className="w-10 h-10 bg-[#7AE5F5]/20 rounded-lg flex items-center justify-center mr-3 group-hover:bg-[#7AE5F5]/30 transition-all duration-300">
-                  <svg className="w-5 h-5 text-[#7AE5F5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex items-start gap-3 group">
+                <div className="shrink-0 w-10 h-10 bg-[#7AE5F5]/20 rounded-lg flex items-center justify-center group-hover:bg-[#7AE5F5]/30 transition-all duration-300">
+                  <svg className="w-5 h-5 text-[#7AE5F5]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <a href={`mailto:${footer.contact.email}`} className="text-gray-300 hover:text-white transition-colors duration-300">
+                <a
+                  href={`mailto:${footer.contact.email}`}
+                  className="min-w-0 flex-1 text-gray-300 hover:text-white transition-colors duration-300 text-sm sm:text-base leading-snug break-words"
+                >
                   {footer.contact.email}
                 </a>
               </div>
-              <div className="flex items-center group">
-                <div className="w-10 h-10 bg-[#56DDEF]/20 rounded-lg flex items-center justify-center mr-3 group-hover:bg-[#56DDEF]/30 transition-all duration-300">
-                  <svg className="w-5 h-5 text-[#56DDEF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex items-center gap-3 group">
+                <div className="shrink-0 w-10 h-10 bg-[#56DDEF]/20 rounded-lg flex items-center justify-center group-hover:bg-[#56DDEF]/30 transition-all duration-300">
+                  <svg className="w-5 h-5 text-[#56DDEF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                 </div>
-                <a href={`tel:${footer.contact.phone}`} className="text-gray-300 hover:text-white transition-colors duration-300">
+                <a
+                  href={`tel:${footer.contact.phone}`}
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm sm:text-base"
+                >
                   {footer.contact.phone}
                 </a>
               </div>
             </div>
           </div>
+
+          {/* Quick Links */}
+          {footer.links["Quick Links"]?.length > 0 && (
+            <div>
+              <h3 className="text-xl font-semibold mb-6 text-white">Quick Links</h3>
+              <ul className="space-y-3">
+                {footer.links["Quick Links"].map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      href={link.url}
+                      className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
            {/* Offices */}
         <div className="border-gray-700/50">
           <h3 className="text-xl font-semibold mb-8 text-white">Our Offices</h3>
@@ -143,30 +169,7 @@ export default function Footer({ footer }: FooterProps) {
             ))}
           </div>
         </div>
-
-          {/* Quick Links */}
-          {/* {Object.entries(footer.links).map(([category, links]) => (
-            <div key={category}>
-              <h3 className="text-lg font-semibold mb-6 text-white">
-                {category}
-              </h3>
-              <ul className="space-y-3">
-                {links.map((link) => (
-                  <li key={link.name}>
-                    <Link
-                      href={link.url}
-                      className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))} */}
         </div>
-
-       
 
         {/* Social Media & Bottom */}
         <div className="mt-16 pt-12 border-t border-gray-700/50">

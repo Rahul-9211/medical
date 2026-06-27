@@ -563,9 +563,16 @@
   "footer": {
     "companyInfo": {
       "name": "ShivanandGlobal",
-      "description": "Your trusted partner in medical tourism"
+      "description": "ShivanandGlobal Medical Tourism works as a concierge desk for Hospital Appointment for Ayurveda and other form of Medcical treatment. We do not offer any medical advise ourself but thr treatment plan is offered by Trained Doctors from our Partner Hospitals."
     },
     "links": {
+      "Quick Links": [
+        { "name": "About Us", "url": "/about" },
+        { "name": "Contact Us", "url": "/free-consultation" },
+        { "name": "Our Services", "url": "/services" },
+        { "name": "Terms & Conditions", "url": "/policy/terms" },
+        { "name": "Privacy Policy", "url": "/policy/privacy" }
+      ],
       "For Hospital": [
         { "name": "Our Services", "url": "/hospital/services" },
         { "name": "OPD Camps", "url": "/hospital/opd-camps" }
