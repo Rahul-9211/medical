@@ -6,6 +6,7 @@ interface FooterProps {
   footer: {
     companyInfo: {
       name: string;
+      legalForm?: string;
       description: string;
     };
     links: Record<string, Array<{ name: string; url: string }>>;
@@ -76,12 +77,28 @@ export default function Footer({ footer }: FooterProps) {
               </div>
               <span className="text-xl font-bold">{footer.companyInfo.name}</span>
             </div>
+            {footer.companyInfo.legalForm && (
+              <p className="text-sm text-gray-400 mb-4 -mt-4">{footer.companyInfo.legalForm}</p>
+            )}
             <p className="text-gray-300 mb-8 leading-relaxed">
               {footer.companyInfo.description}
             </p>
             
             {/* Contact Info */}
             <div className="space-y-4">
+              {footer.offices[0]?.address && (
+                <div className="flex items-start gap-3 group">
+                  <div className="shrink-0 w-10 h-10 bg-[#56DDEF]/20 rounded-lg flex items-center justify-center group-hover:bg-[#56DDEF]/30 transition-all duration-300">
+                    <svg className="w-5 h-5 text-[#56DDEF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <p className="min-w-0 flex-1 text-gray-300 text-sm sm:text-base leading-snug">
+                    {footer.offices[0].address}
+                  </p>
+                </div>
+              )}
               <div className="flex items-start gap-3 group">
                 <div className="shrink-0 w-10 h-10 bg-[#7AE5F5]/20 rounded-lg flex items-center justify-center group-hover:bg-[#7AE5F5]/30 transition-all duration-300">
                   <svg className="w-5 h-5 text-[#7AE5F5]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

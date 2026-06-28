@@ -562,7 +562,8 @@
   },
   "footer": {
     "companyInfo": {
-      "name": "ShivanandGlobal",
+      "name": "Shivanand Global Medical Tourism",
+      "legalForm": "Sole proprietor",
       "description": "ShivanandGlobal Medical Tourism works as a concierge desk for Hospital Appointment for Ayurveda and other form of Medcical treatment. We do not offer any medical advise ourself but thr treatment plan is offered by Trained Doctors from our Partner Hospitals."
     },
     "links": {
@@ -595,7 +596,7 @@
     "offices": [
       {
         "country": "India",
-        "address": "Shivanand Global Medical Tourism, plot no.-198, sector-52, gurgaon, pincode-122001",
+        "address": "Shivanand Global Medical Tourism, Plot no -198, Sec-52, Gurugram, 122001",
         "coordinates": {
           "lat": 28.438060760498047,
           "lng": 77.0687484741211
@@ -604,8 +605,8 @@
       }
     ],
     "contact": {
-      "email": "contact@shivanandglobalmedicaltourism.com",
-      "phone": "+91-8595199918"
+      "email": "Contact@Shivanandglobalmedicaltourism.com",
+      "phone": "+918595199918"
     },
     "socialMedia": [
       { "name": "YouTube", "url": "https://youtube.com/Shivanandglobal", "icon": "youtube" },
