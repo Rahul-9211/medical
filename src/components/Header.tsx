@@ -227,7 +227,7 @@ export default function Header({ navigation, siteInfo }: HeaderProps) {
         <div className="animate-marquee">
           {[0, 1].map((i) => (
             <span key={i} className="text-xs sm:text-sm font-medium px-16 whitespace-nowrap">
-              ShivanandGlobal Medical Tourism works as a concierge desk for Hospital Appointment for Ayurveda and other form of Medical treatment. We do not offer any medical advise ourself but the treatment plan is offered by Trained Doctors from our Partner Hospitals.
+              ShivanandGlobal Medical Tourism operates as a concierge desk for Ayurveda and Hospital Appointments, as well as other medical treatments. We do not provide medical advice ourselves; all treatment plans are offered directly by trained doctors from our partner hospitals.
             </span>
           ))}
         </div>

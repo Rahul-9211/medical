@@ -10,7 +10,7 @@ export default function PrivacyPolicyPage() {
   return (
     <LegalPageLayout title="Privacy Policy">
       <p>
-        Patient Helpdesk Private Limited or shivanandglobalmedicaltourism.com (&quot;we&quot;) are
+        Shivanandglobalmedicaltourism.com (&quot;we&quot;) are
         committed to safeguarding the privacy of our website visitors and registered users of the
         shivanandglobalmedicaltourism.com platform; this Policy sets out how we will treat your
         personal data when we act as the custodian of that data.
@@ -20,7 +20,7 @@ export default function PrivacyPolicyPage() {
         <h2 className="text-xl font-bold text-gray-900 mb-3">What personal data do we collect?</h2>
         <p>
           We may collect, store and use the following kinds of information and personal data
-          (&quot;Collected Information&quot;): a. information and personal data about your visits to
+          (&quot;Collected Information&quot;) a. information and personal data about your visits to
           and use of this website and our platform. We collect personal data about your computer and
           your visits to this website or the platform, including your IP address, geographical
           location, browser type, referral source, length of visit and number of page views, all of
