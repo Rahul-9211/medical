@@ -332,9 +332,9 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
         <div className="text-center">
           <p className="text-xs text-gray-500 leading-relaxed">
             By submitting the form I agree to the{' '}
-            <Link href="/policy/terms" className="text-[#56DDEF] hover:underline">
+            {/* <Link href="/policy/terms" className="text-[#56DDEF] hover:underline"> */}
               Terms of Use
-            </Link>{' '}
+            {/* </Link>{' '} */}
             and{' '}
             <Link href="/policy/privacy" className="text-[#56DDEF] hover:underline">
               Privacy Policy
