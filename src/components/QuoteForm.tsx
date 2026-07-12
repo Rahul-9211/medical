@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 interface FormField {
@@ -330,7 +331,15 @@ export default function QuoteForm({ quoteForm, countries, onSubmit, isSubmitting
 
         <div className="text-center">
           <p className="text-xs text-gray-500 leading-relaxed">
-            {quoteForm.termsText}
+            By submitting the form I agree to the{' '}
+            <Link href="/policy/terms" className="text-[#56DDEF] hover:underline">
+              Terms of Use
+            </Link>{' '}
+            and{' '}
+            <Link href="/policy/privacy" className="text-[#56DDEF] hover:underline">
+              Privacy Policy
+            </Link>{' '}
+            of Shivanand Global.
           </p>
         </div>
       </form>
