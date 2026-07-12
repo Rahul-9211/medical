@@ -454,7 +454,7 @@ export default async function HospitalPage({
             {hospital.address?.visible && (
               <section>
                 <div className="bg-white rounded-2xl shadow-lg p-6 lg:p-8 border border-gray-100">
-                  <h2 className="text-2xl font-semibold mb-3 text-gray-900">Address</h2>
+                  <h2 className="text-2xl font-semibold mb-3 text-gray-900">{hospital.name}</h2>
                   <p className="text-gray-700">{hospital.address.full}</p>
                   {hospital.address.nearby?.length > 0 && (
                     <ul className="mt-3 space-y-1 text-gray-600">
